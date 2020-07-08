@@ -1,0 +1,22 @@
+{
+  "RingOfDestiny:Defend_SF": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点 格挡 。"
+  },
+  "RingOfDestiny:Strike_SF": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "RingOfDestiny:PoisonedShiv": {
+    "NAME": "毒刃",
+    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 中毒 。"
+  },
+  "RingOfDestiny:ShadowStab": {
+    "NAME": "影刺",
+    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 中毒 。"
+  },
+  "RingOfDestiny:RattanBeetle": {
+    "NAME": "藤甲",
+    "DESCRIPTION": "获得 !M! 层 荆棘 。"
+  }
+}

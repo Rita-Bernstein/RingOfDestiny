@@ -1,0 +1,47 @@
+{
+  "RingOfDestiny:ShadowFlower": {
+    "NAMES": [
+      "暗影之花",
+      "暗影之花"
+    ],
+    "TEXT": [
+      "14岁的时候，她顺利击败了数位挑战她的那些同父异母的兄长们，被父亲授予了“暗影之花”的称号"
+    ]
+  },
+  "RingOfDestiny:MagicBullet": {
+    "NAMES": [
+      "魔弹射手",
+      "魔弹射手"
+    ],
+    "TEXT": [
+      "有人说她是黑色魅影，有人说她是红色恶魔。但魔弹抢手从不在意被人怎么看她的世界。"
+    ]
+  },
+  "RingOfDestiny:Purchemist": {
+    "NAMES": [
+      "氪金术士",
+      "氪金术士"
+    ],
+    "TEXT": [
+      "monies"
+    ]
+  },
+  "RingOfDestiny:Inherit": {
+    "NAMES": [
+      "传承天使",
+      "传承天使"
+    ],
+    "TEXT": [
+      "数千年来，多氪大陆上唯一完成考验的天使继承了天使之力的高贵美人"
+    ]
+  },
+  "RingOfDestiny:Summoner": {
+    "NAMES": [
+      "恶魔召唤师",
+      "恶魔召唤师"
+    ],
+    "TEXT": [
+      "恶魔召唤师-海伦娜"
+    ]
+  }
+}

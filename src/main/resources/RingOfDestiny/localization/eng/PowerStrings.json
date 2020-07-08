@@ -1,0 +1,76 @@
+{
+  "WarlordEmblem:ColdSnapPower": {
+    "NAME": "急速冷冻",
+    "DESCRIPTIONS": [
+      "接下来受到的",
+      "次攻击伤害会给予 #y易伤  #y虚弱 。"
+    ]
+  },
+  "WarlordEmblem:DeafeningBlastPower": {
+  "NAME": "缴械",
+  "DESCRIPTIONS": [
+    "造成的伤害减半"
+  ]
+},
+  "WarlordEmblem:CrystalCenterPower": {
+  "NAME": "水晶核心",
+  "DESCRIPTIONS": [
+    "你的卡牌造成的攻击伤害锁定为12点"
+  ]
+},
+  "WarlordEmblem:RealmRiderPower": {
+  "NAME": "领域驾驭",
+  "DESCRIPTIONS": [
+    "本场战斗视为你拥有所有的领域"
+  ]
+},
+  "WarlordEmblem:RealmIncreasePower": {
+    "NAME": "领域提升",
+    "DESCRIPTIONS": [
+      "天赋领域效果提升 #b",
+      "天赋领域效果提升 #b",
+      " 。"
+    ]
+  },
+  "WarlordEmblem:LichkingWraithPower": {
+  "NAME": "巫妖王之怒",
+  "DESCRIPTIONS": [
+    "在你的回合开始时，获得 #b",
+    " 点 #y领域提升 。"
+  ]
+},  "WarlordEmblem:RuneMultiplexPower": {
+  "NAME": "符文复用",
+  "DESCRIPTIONS": [
+    "在这个回合，你打出的下 #b",
+    " 张消耗 #y符文能量 的牌不会消耗 #y符文能量 。"
+  ]
+},
+  "WarlordEmblem:BloodMaskPower": {
+  "NAME": "鲜血印记",
+  "DESCRIPTIONS": [
+    "当这名敌人死亡时，你回复 #b",
+    " 生命。"
+  ]
+},
+  "WarlordEmblem:RuneIndexPower": {
+  "NAME": "符文索引",
+  "DESCRIPTIONS": [
+    "你的回合开始时，将抽牌堆中的 #b",
+    " 张随机 “符文”牌加入手牌并获得 #b",
+    " 点 #y符文能量 。"
+  ]
+},
+  "WarlordEmblem:WrathOfSindragosaPower": {
+  "NAME": "辛达苟萨之怒",
+  "DESCRIPTIONS": [
+    "本回合，每打出一张：",
+    " #r攻击牌 给予所有敌人 #y",
+    " 层虚弱,",
+    " #g技能牌 对所有敌人造成 #y",
+    " 点伤害，",
+    " #b能力牌 所有敌人失去 #y",
+    " 点力量。",
+    " NL "
+  ]
+}
+}
