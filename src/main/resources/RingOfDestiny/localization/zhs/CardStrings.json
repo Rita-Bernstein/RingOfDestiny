@@ -15,6 +15,18 @@
     "NAME": "影刺",
     "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 中毒 。"
   },
+  "RingOfDestiny:Corrosion": {
+    "NAME": "影蚀",
+    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 虚弱 。"
+  },
+  "RingOfDestiny:FlashOfSlash": {
+    "NAME": "瞬斩",
+    "DESCRIPTION": "造成 !D! 点伤害。如果敌人的意图是攻击，在给予 !M! 层 中毒 。"
+  },
+  "RingOfDestiny:MudraHexa": {
+    "NAME": "结印-巳",
+    "DESCRIPTION": "造成 !D! 点伤害。手牌中每有一张攻击牌，额外再造成4点伤害。"
+  },
   "RingOfDestiny:RattanBeetle": {
     "NAME": "藤甲",
     "DESCRIPTION": "获得 !M! 层 荆棘 。"

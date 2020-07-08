@@ -23,6 +23,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import javafx.scene.effect.Shadow;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -120,6 +121,13 @@ public class RingOfDestiny
         List<CustomCard> cards = new ArrayList<>();
         cards.add(new Defend_SF());
         cards.add(new Strike_SF());
+//        影分身
+        cards.add(new PoisonedShiv());
+        cards.add(new ShadowStab());
+        cards.add(new Corrosion());
+        cards.add(new FlashOfSlash());
+        cards.add(new MudraHexa());
+
         cards.add(new RattanBeetle());
 
 
