@@ -7,13 +7,17 @@
     "NAME": "打击",
     "DESCRIPTION": "造成 !D! 点伤害。"
   },
+  "RingOfDestiny:Shadow": {
+    "NAME": "影分身",
+    "DESCRIPTION": "本回合制造一个 ring_of_destiny:影分身 。"
+  },
   "RingOfDestiny:PoisonedShiv": {
     "NAME": "毒刃",
     "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 中毒 。"
   },
   "RingOfDestiny:ShadowStab": {
     "NAME": "影刺",
-    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 中毒 。"
+    "DESCRIPTION": "造成 !D! 点伤害。"
   },
   "RingOfDestiny:Corrosion": {
     "NAME": "影蚀",
@@ -25,7 +29,29 @@
   },
   "RingOfDestiny:MudraHexa": {
     "NAME": "结印-巳",
-    "DESCRIPTION": "造成 !D! 点伤害。手牌中每有一张攻击牌，额外再造成4点伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。手牌中每有一张攻击牌，额外再造成 !M! 点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （你有",
+      " 张攻击牌。）",
+      " 张攻击牌。）"
+    ]
+  },
+  "RingOfDestiny:ShadowBlossom": {
+    "NAME": "暗影绽放",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。每击杀一名敌人，将2张 *影之花 加入手牌。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。每击杀一名敌人，将2张 *影之花+ 加入手牌。"
+  },
+  "RingOfDestiny:Spur": {
+    "NAME": "连刺",
+    "DESCRIPTION": "造成 !D! 点伤害并给予 1 层 中毒 ， !M! 次。"
+  },
+  "RingOfDestiny:Agile": {
+    "NAME": "灵动",
+    "DESCRIPTION": "获得 !B! 点 格挡 。"
+  },
+  "RingOfDestiny:FrozenDark": {
+    "NAME": "寒影",
+    "DESCRIPTION": "给予 !M! 层 易伤 和 !RODSecondM! 层 中毒。"
   },
   "RingOfDestiny:RattanBeetle": {
     "NAME": "藤甲",

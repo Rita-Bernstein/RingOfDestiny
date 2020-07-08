@@ -1,6 +1,7 @@
 package RingOfDestiny;
 
 import RingOfDestiny.cards.ShadowFlower.*;
+import RingOfDestiny.helpers.SecondaryMagicVariable;
 import basemod.BaseMod;
 
 import basemod.ModLabeledToggleButton;
@@ -115,7 +116,7 @@ public class RingOfDestiny
 
     @Override
     public void receiveEditCards() {
-        //BaseMod.addDynamicVariable(new SecondaryMagicVariable());
+        BaseMod.addDynamicVariable(new SecondaryMagicVariable());
 
         logger.debug("receiveEditCards started.");
         List<CustomCard> cards = new ArrayList<>();
@@ -127,7 +128,9 @@ public class RingOfDestiny
         cards.add(new Corrosion());
         cards.add(new FlashOfSlash());
         cards.add(new MudraHexa());
-
+//          暗影绽放
+        cards.add(new Spur());
+        cards.add(new Agile());
         cards.add(new RattanBeetle());
 
 
@@ -192,7 +195,7 @@ public class RingOfDestiny
         logger.info("========================= 开始加载关键字 =========================");
         if (keywords != null) {
             for (Keyword keyword : keywords) {
-                BaseMod.addKeyword("warlord_emblem", keyword.PROPER_NAME, keyword.NAMES, keyword.DESCRIPTION);
+                BaseMod.addKeyword("ring_of_destiny", keyword.PROPER_NAME, keyword.NAMES, keyword.DESCRIPTION);
             }
         }
     }

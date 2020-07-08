@@ -1,6 +1,7 @@
 package RingOfDestiny.cards.ShadowFlower;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
@@ -16,7 +17,7 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.PoisonPower;
 
-public class ShadowStab extends CustomCard {
+public class ShadowStab extends AbstractRingCard {
 	public static final String ID = RingOfDestiny.makeID("ShadowStab");
 	private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 	public static final String NAME = cardStrings.NAME;

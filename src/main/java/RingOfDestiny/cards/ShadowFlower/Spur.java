@@ -1,7 +1,6 @@
 package RingOfDestiny.cards.ShadowFlower;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
@@ -16,13 +15,12 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.PoisonPower;
-import com.megacrit.cardcrawl.powers.WeakPower;
 
-public class Corrosion extends AbstractRingCard {
-	public static final String ID = RingOfDestiny.makeID("Corrosion");
+public class Spur extends CustomCard {
+	public static final String ID = RingOfDestiny.makeID("Spur");
 	private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 	public static final String NAME = cardStrings.NAME;
-	public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/05.png");
+	public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/03.png");
 	private static final int COST = 1;
 	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 	private static final CardType TYPE = CardType.ATTACK;
@@ -32,25 +30,25 @@ public class Corrosion extends AbstractRingCard {
 
 
 
-	public Corrosion() {
+	public Spur() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-		this.damage =  this.baseDamage = 8;
-		this.magicNumber = this.baseMagicNumber = 1;
+		this.damage =  this.baseDamage = 5;
+		this.magicNumber = this.baseMagicNumber = 4;
 	}
 
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		   addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
-	       addToBot(new ApplyPowerAction(m, p, new WeakPower(m, this.magicNumber,false), this.magicNumber));
+	       addToBot(new ApplyPowerAction(m, p, new PoisonPower(m, p, this.magicNumber), this.magicNumber));
 			}
 
 	public AbstractCard makeCopy() {
-		return new Corrosion();
+		return new Spur();
 	}
 
 	public void upgrade() {
 		if (!this.upgraded) {
 			this.upgradeName();
-			this.upgradeDamage(3);
+			this.upgradeDamage(2);
 			this.upgradeMagicNumber(1);
 		}
 	}

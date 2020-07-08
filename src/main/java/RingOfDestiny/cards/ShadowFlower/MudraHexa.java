@@ -3,6 +3,7 @@ package RingOfDestiny.cards.ShadowFlower;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.ShadowFlower.FlashOfSlashAction;
 import RingOfDestiny.actions.ShadowFlower.MudraHexaAction;
+import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
@@ -17,7 +18,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-public class MudraHexa extends CustomCard {
+public class MudraHexa extends AbstractRingCard {
     public static final String ID = RingOfDestiny.makeID("MudraHexa");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;

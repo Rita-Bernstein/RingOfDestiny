@@ -2,6 +2,7 @@ package RingOfDestiny.cards.ShadowFlower;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.ShadowFlower.FlashOfSlashAction;
+import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
@@ -18,7 +19,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.PoisonPower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
-public class FlashOfSlash extends CustomCard {
+public class FlashOfSlash extends AbstractRingCard {
     public static final String ID = RingOfDestiny.makeID("FlashOfSlash");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;
