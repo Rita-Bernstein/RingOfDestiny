@@ -27,7 +27,7 @@
     "NAME": "瞬斩",
     "DESCRIPTION": "造成 !D! 点伤害。如果敌人的意图是攻击，在给予 !M! 层 中毒 。"
   },
-  "RingOfDestiny:MudraHexa": {
+  "RingOfDestiny:HexaMudra": {
     "NAME": "结印-巳",
     "DESCRIPTION": "造成 !D! 点伤害。手牌中每有一张攻击牌，额外再造成 !M! 点伤害。",
     "EXTENDED_DESCRIPTION": [
@@ -38,8 +38,8 @@
   },
   "RingOfDestiny:ShadowBlossom": {
     "NAME": "暗影绽放",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。每击杀一名敌人，将2张 *影之花 加入手牌。",
-    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。每击杀一名敌人，将2张 *影之花+ 加入手牌。"
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 斩杀 时，将2张 *影之花 加入手牌。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。 斩杀 时，将2张 *影之花+ 加入手牌。"
   },
   "RingOfDestiny:Spur": {
     "NAME": "连刺",
@@ -53,8 +53,216 @@
     "NAME": "寒影",
     "DESCRIPTION": "给予 !M! 层 易伤 和 !RODSecondM! 层 中毒。"
   },
+  "RingOfDestiny:DarkLight": {
+    "NAME": "暗光",
+    "DESCRIPTION": "给予 !M! 层 虚弱 和 !RODSecondM! 层 中毒。"
+  },
+  "RingOfDestiny:ButaMudra": {
+    "NAME": "结印-卯",
+    "DESCRIPTION": "回复 !M! 点生命。获得 1 层 人工制品 。 NL 消耗 。"
+  },
+  "RingOfDestiny:HeptMudra": {
+    "NAME": "结印-午",
+    "DESCRIPTION": "抽 !M! 张牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:ShadowRose": {
+    "NAME": "影之花",
+    "DESCRIPTION": "给予 !M! 层 中毒。 NL 消耗 。"
+  },
+  "RingOfDestiny:Ridicule": {
+    "NAME": "怒车之术",
+    "DESCRIPTION": "获得 !B! 点 格挡 。敌人的意图变为攻击。"
+  },
+  "RingOfDestiny:MetalRelease": {
+    "NAME": "金遁",
+    "DESCRIPTION": "获得 !B! 点 格挡 。弃一张牌。"
+  },
+  "RingOfDestiny:WoodRelease": {
+    "NAME": "木遁",
+    "DESCRIPTION": "丢弃所有手牌，每丢弃一张牌获得 !B! 点 格挡 。"
+  },
+  "RingOfDestiny:EarthRelease": {
+    "NAME": "土遁",
+    "DESCRIPTION": "丢弃所有攻击牌，将抽牌堆中的 !M! 张技能牌加入手牌。"
+  },
+  "RingOfDestiny:WristBlade": {
+    "NAME": "袖剑",
+    "DESCRIPTION": "固有 。造成 !D! 点伤害。 NL 消耗 。"
+  },
+  "RingOfDestiny:Onikiri": {
+    "NAME": "鬼斩",
+    "DESCRIPTION": "造成 !D! 点伤害。如果被 格挡，则给予 !M! 层 中毒 。"
+  },
+  "RingOfDestiny:SneakAttack": {
+    "NAME": "暗袭",
+    "DESCRIPTION": "造成 !D! 点伤害。抽 !M! 张牌。"
+  },
+  "RingOfDestiny:ShurikenFlip": {
+    "NAME": "隼舞",
+    "DESCRIPTION": "造成 !D! 点伤害。丢弃 !M! 张牌，抽 !M! 张牌。"
+  },
+  "RingOfDestiny:ShadowCutter": {
+    "NAME": "影切",
+    "DESCRIPTION": "造成 !D! 点伤害。 斩杀 时，抽 !M! 张牌。"
+  },
+  "RingOfDestiny:EthMudra": {
+    "NAME": "结印-丑",
+    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 中毒 ，则再造成 中毒 层数的伤害。"
+  },
+  "RingOfDestiny:OctMudra": {
+    "NAME": "结印-未",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 你在这个回合打出的下一张牌将会被放置到抽牌堆的顶部。 （只限会移入弃牌堆的牌）"
+  },
+  "RingOfDestiny:DecaMudra": {
+    "NAME": "结印-酉",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害 !M! 次。"
+  },
+  "RingOfDestiny:UndecMudra": {
+    "NAME": "结印-戌",
+    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 中毒 。"
+  },
+  "RingOfDestiny:KunaiSpray": {
+    "NAME": "手里剑雨",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害X次。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害X+2次。"
+  },
+  "RingOfDestiny:FinalAttack": {
+    "NAME": "终焉一击",
+    "DESCRIPTION": "造成 !D! 点伤害。本回合每打出过一张牌，增加 !M! 点伤害。"
+  },
+  "RingOfDestiny:Stealth": {
+    "NAME": "潜袭",
+    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 虚弱 ，获得 [E] 并抽 !M! 张牌。"
+  },
+  "RingOfDestiny:Premeditate": {
+    "NAME": "预谋",
+    "DESCRIPTION": "获得 !M! 点 荆棘 ，下回合开始时获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 点 荆棘 ，下回合开始时获得 [E] [E] 。"
+  },
+  "RingOfDestiny:Servicing": {
+    "NAME": "整备",
+    "DESCRIPTION": "下回合开始时，抽 !M! 张牌。"
+  },
+  "RingOfDestiny:Conspiracy": {
+    "NAME": "诡计",
+    "DESCRIPTION": "保留 你的手牌。"
+  },
+  "RingOfDestiny:FallenFlower": {
+    "NAME": "落英",
+    "DESCRIPTION": "将 !M! 张 *影之花 加入你的手牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将 !M! 张 *影之花+ 加入你的手牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:BeeZone": {
+    "NAME": "蜂阵",
+    "DESCRIPTION": "翻倍你的 荆棘 。"
+  },
+  "RingOfDestiny:PentMudra": {
+    "NAME": "结印-辰",
+    "DESCRIPTION": "移除敌人的 格挡 。给予 !M! 层 中毒 。"
+  },
+  "RingOfDestiny:NonMudra": {
+    "NAME": "结印-申",
+    "DESCRIPTION": "抽一张牌，它的耗能在本回合为0。 NL 消耗 。"
+  },
+  "RingOfDestiny:WaterRelease": {
+    "NAME": "水遁",
+    "DESCRIPTION": "最多丢弃 !M! 张牌。获得丢弃牌数的 [E] 。"
+  },
+  "RingOfDestiny:FireRelease": {
+    "NAME": "火遁",
+    "DESCRIPTION": "丢弃一张牌，抽 !M! 张牌。"
+  },
+  "RingOfDestiny:ShadowShackles": {
+    "NAME": "影缚",
+    "DESCRIPTION": "本回合敌人失去 !M! 点 力量 并给予 !RODSecondM! 层 虚弱 。"
+  },
+  "RingOfDestiny:Belt": {
+    "NAME": "忍具袋",
+    "DESCRIPTION": "每回合开始时，将 !M! 张 *影之花 加入你的手牌。",
+    "UPGRADE_DESCRIPTION": "每回合开始时，将 !M! 张 *影之花+ 加入你的手牌。"
+  },
+  "RingOfDestiny:GasBomb": {
+    "NAME": "毒之弹",
+    "DESCRIPTION": "每当你给予敌人 中毒 时，额外给予 !M! 层。"
+  },
   "RingOfDestiny:RattanBeetle": {
-    "NAME": "藤甲",
+    "NAME": "藤之甲",
     "DESCRIPTION": "获得 !M! 层 荆棘 。"
+  },
+  "RingOfDestiny:StaminaBook": {
+    "NAME": "体术秘籍",
+    "DESCRIPTION": "每打出三张技能牌，获得 !M! 点 荆棘 。"
+  },
+  "RingOfDestiny:PlaceHolder": {
+    "NAME": "???",
+    "DESCRIPTION": "每打出三张技能牌，获得 !M! 点 荆棘 。"
+  },
+  "RingOfDestiny:Makibisi": {
+    "NAME": "撒菱",
+    "DESCRIPTION": "每丢弃一张牌，获得 !M! 层 荆棘 。"
+  },
+  "RingOfDestiny:MethMudra": {
+    "NAME": "结印-子",
+    "DESCRIPTION": "造成 !D! 点伤害X次，给予X层 中毒 。"
+  },
+  "RingOfDestiny:PropMudra": {
+    "NAME": "结印-寅",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "RingOfDestiny:PerfectExecution": {
+    "NAME": "杀缭乱",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "RingOfDestiny:DodeMudra": {
+    "NAME": "结印-亥",
+    "DESCRIPTION": "获得 !B! 点 格挡 X次。所有敌人本回合失去X点 力量 。 NL 消耗。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 X+1次。所有敌人本回合失去X+1点 力量 。 NL 消耗。"
+  },
+  "RingOfDestiny:WorldOfFloweringTree": {
+    "NAME": "花树界",
+    "DESCRIPTION": "给予所有敌人 !M! 层 中毒 。"
+  },
+  "RingOfDestiny:ShadowMark": {
+    "NAME": "暗影印记",
+    "DESCRIPTION": "标记一个目标。你的回合结束时，对其造成标记后你和 ring_of_destiny:影分身 伤害总和150%的伤害。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 标记一个目标。你的回合结束时，对其造成标记后你和 ring_of_destiny:影分身 伤害总和150%的伤害。 NL 消耗 。"
+  },
+  "RingOfDestiny:InfectMark": {
+    "NAME": "感染印记",
+    "DESCRIPTION": "标记一个目标。本回合内给予 中毒 时，给予本目标等量 中毒 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 标记一个目标。本回合内给予 中毒 时，给予本目标等量 中毒 。 NL 消耗 。"
+  },
+  "RingOfDestiny:ForbiddenArts": {
+    "NAME": "禁术-御血",
+    "DESCRIPTION": "失去 !M! 点生命。获得 [E] [E] [E] ,抽5张牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:Place": {
+    "NAME": "？？？",
+    "DESCRIPTION": "失去 !M! 点生命。获得 [E] [E] [E] ,抽5张牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:ShadowPortal": {
+    "NAME": "暗影通道",
+    "DESCRIPTION": "失去 !M! 点生命。将抽牌堆中的一张牌加入手牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:DarkProjection": {
+    "NAME": "黑暗投影",
+    "DESCRIPTION": "失去 !M! 点生命。复制手牌中的一张技能牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:RepeatOffender": {
+    "NAME": "故技重施",
+    "DESCRIPTION": "失去 !M! 点生命。将弃牌堆中的一张牌放到抽牌堆顶部。"
+  },
+  "RingOfDestiny:NinjutsuMudra": {
+    "NAME": "忍术-结印",
+    "DESCRIPTION": "消耗 所有手牌。每 消耗一张牌，将一张“结印”牌加入你的手牌。",
+    "UPGRADE_DESCRIPTION": "消耗 所有手牌。每 消耗一张牌，将一张已 升级 的“结印”牌加入你的手牌。"
+  },
+  "RingOfDestiny:NinjutsuScroll": {
+    "NAME": "忍术卷轴",
+    "DESCRIPTION": "每 消耗 一张牌。获得 [E] 。"
+  },
+  "RingOfDestiny:BottlePoison": {
+    "NAME": "毒之瓶",
+    "DESCRIPTION": "每次使用卡牌攻击时同时给予 !M! 层 中毒。（ ring_of_destiny:影分身 有效）"
   }
 }

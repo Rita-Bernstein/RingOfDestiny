@@ -22,6 +22,11 @@ public abstract class AbstractRingCard extends CustomCard {
         //Overwritten in cards
     }
 
+    protected void upgradeSecondM(int amount) {
+        this.secondaryM += amount;
+        this.upgradesecondaryM = true;
+    }
+
 
     @Override
     public void render(SpriteBatch sb) {

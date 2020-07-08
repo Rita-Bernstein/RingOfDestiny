@@ -10,11 +10,11 @@
  import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
  import com.megacrit.cardcrawl.vfx.combat.ThrowDaggerEffect;
  
- public class MudraHexaAction
+ public class HexaMudraAction
    extends AbstractGameAction {
    private DamageInfo info;
    
-   public MudraHexaAction(AbstractCreature target, DamageInfo info) {
+   public HexaMudraAction(AbstractCreature target, DamageInfo info) {
      this.duration = Settings.ACTION_DUR_XFAST;
      this.info = info;
      this.actionType = AbstractGameAction.ActionType.BLOCK;

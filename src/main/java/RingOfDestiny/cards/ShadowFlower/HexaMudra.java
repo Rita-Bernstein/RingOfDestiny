@@ -2,7 +2,7 @@ package RingOfDestiny.cards.ShadowFlower;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.ShadowFlower.FlashOfSlashAction;
-import RingOfDestiny.actions.ShadowFlower.MudraHexaAction;
+import RingOfDestiny.actions.ShadowFlower.HexaMudraAction;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import basemod.abstracts.CustomCard;
@@ -18,8 +18,8 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-public class MudraHexa extends AbstractRingCard {
-    public static final String ID = RingOfDestiny.makeID("MudraHexa");
+public class HexaMudra extends AbstractRingCard {
+    public static final String ID = RingOfDestiny.makeID("HexaMudra");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;
     public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/07.png");
@@ -31,7 +31,7 @@ public class MudraHexa extends AbstractRingCard {
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
 
-    public MudraHexa() {
+    public HexaMudra() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = 4;
         this.magicNumber = this.baseMagicNumber = 4;
@@ -39,7 +39,7 @@ public class MudraHexa extends AbstractRingCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
-        addToBot(new MudraHexaAction(m, new DamageInfo(p, this.magicNumber, this.damageTypeForTurn)));
+        addToBot(new HexaMudraAction(m, new DamageInfo(p, this.magicNumber, this.damageTypeForTurn)));
         this.rawDescription = cardStrings.DESCRIPTION;
         initializeDescription();
     }
@@ -71,7 +71,7 @@ public class MudraHexa extends AbstractRingCard {
 
 
     public AbstractCard makeCopy() {
-        return new MudraHexa();
+        return new HexaMudra();
     }
 
     public void upgrade() {

@@ -127,7 +127,7 @@ public class RingOfDestiny
         cards.add(new ShadowStab());
         cards.add(new Corrosion());
         cards.add(new FlashOfSlash());
-        cards.add(new MudraHexa());
+        cards.add(new HexaMudra());
 //          暗影绽放
         cards.add(new Spur());
         cards.add(new Agile());
