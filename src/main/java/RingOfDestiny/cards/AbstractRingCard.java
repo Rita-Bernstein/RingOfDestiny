@@ -8,6 +8,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireOverride;
 public abstract class AbstractRingCard extends CustomCard {
 
     public int secondaryM;
+    public int baseSecondaryM;
     public boolean upgradesecondaryM;
     public boolean isSecondaryMModified;
 
@@ -23,10 +24,20 @@ public abstract class AbstractRingCard extends CustomCard {
     }
 
     protected void upgradeSecondM(int amount) {
-        this.secondaryM += amount;
+        this.baseSecondaryM += amount;
+        this.secondaryM = this.baseSecondaryM;
         this.upgradesecondaryM = true;
     }
 
+    @Override
+    public void displayUpgrades() {
+        super.displayUpgrades();
+
+        if(this.upgradesecondaryM){
+            this.secondaryM = this.baseSecondaryM;
+            this.isSecondaryMModified = true;
+        }
+    }
 
     @Override
     public void render(SpriteBatch sb) {

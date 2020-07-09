@@ -32,13 +32,13 @@ public class Spur extends CustomCard {
 
 	public Spur() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-		this.damage =  this.baseDamage = 5;
+		this.damage =  this.baseDamage = 1;
 		this.magicNumber = this.baseMagicNumber = 4;
 	}
 
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		   addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_VERTICAL));
-	       addToBot(new ApplyPowerAction(m, p, new PoisonPower(m, p, this.magicNumber), this.magicNumber));
+	       addToBot(new ApplyPowerAction(m, p, new PoisonPower(m, p, 1), 1));
 			}
 
 	public AbstractCard makeCopy() {
@@ -48,7 +48,7 @@ public class Spur extends CustomCard {
 	public void upgrade() {
 		if (!this.upgraded) {
 			this.upgradeName();
-			this.upgradeDamage(2);
+//			this.upgradeDamage(2);
 			this.upgradeMagicNumber(1);
 		}
 	}

@@ -131,6 +131,17 @@ public class RingOfDestiny
 //          暗影绽放
         cards.add(new Spur());
         cards.add(new Agile());
+        cards.add(new FrozenDark());
+        cards.add(new DarkLight());
+        cards.add(new ButaMudra());
+        cards.add(new HeptMudra());
+        cards.add(new ShadowRose());
+
+//          怒车之术
+        cards.add(new MetalRelease());
+        cards.add(new WoodRelease());
+        cards.add(new EarthRelease());
+
         cards.add(new RattanBeetle());
 
 

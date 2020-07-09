@@ -34,7 +34,7 @@ public class SecondaryMagicVariable extends DynamicVariable {
     public int baseValue(AbstractCard card) {
         if (card instanceof AbstractRingCard) {
             AbstractRingCard asc = (AbstractRingCard) card;
-            return asc.secondaryM;
+            return asc.baseSecondaryM;
         } else {
             return 0;
         }
@@ -44,7 +44,7 @@ public class SecondaryMagicVariable extends DynamicVariable {
     public boolean upgraded(AbstractCard card) {
         if (card instanceof AbstractRingCard) {
             AbstractRingCard asc = (AbstractRingCard) card;
-            return asc.isSecondaryMModified;
+            return asc.upgradesecondaryM;
         } else {
             return false;
         }
