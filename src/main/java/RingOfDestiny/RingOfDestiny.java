@@ -141,6 +141,14 @@ public class RingOfDestiny
         cards.add(new MetalRelease());
         cards.add(new WoodRelease());
         cards.add(new EarthRelease());
+        cards.add(new WristBlade());
+        cards.add(new Onikiri());
+        cards.add(new SneakAttack());
+        cards.add(new ShurikenFlip());
+        cards.add(new EthMudra());
+
+//          影切
+
 
         cards.add(new RattanBeetle());
 
