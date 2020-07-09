@@ -124,11 +124,16 @@
   "RingOfDestiny:KunaiSpray": {
     "NAME": "手里剑雨",
     "DESCRIPTION": "对所有敌人造成 !D! 点伤害X次。",
-    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害X+2次。"
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害X+ !M! 次。"
   },
   "RingOfDestiny:FinalAttack": {
     "NAME": "终焉一击",
-    "DESCRIPTION": "造成 !D! 点伤害。本回合每打出过一张牌，增加 !M! 点伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。本回合每打出过一张牌，增加 !M! 点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （你本回合打出过",
+      " 张牌。）",
+      " 张牌。）"
+    ]
   },
   "RingOfDestiny:Stealth": {
     "NAME": "潜袭",

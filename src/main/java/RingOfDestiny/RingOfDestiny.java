@@ -145,10 +145,19 @@ public class RingOfDestiny
         cards.add(new Onikiri());
         cards.add(new SneakAttack());
         cards.add(new ShurikenFlip());
-        cards.add(new EthMudra());
 
 //          影切
-
+        cards.add(new EthMudra());
+        cards.add(new OctMudra());
+        cards.add(new DecaMudra());
+        cards.add(new UndecMudra());
+        cards.add(new KunaiSpray());
+        cards.add(new FinalAttack());
+        cards.add(new Stealth());
+        cards.add(new Premeditate());
+        cards.add(new Conspiracy());
+        cards.add(new FallenFlower());
+        cards.add(new BeeZone());
 
         cards.add(new RattanBeetle());
 
