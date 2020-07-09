@@ -15,7 +15,7 @@ public class Agile extends AbstractRingCard {
     public static final String ID = RingOfDestiny.makeID("Agile");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/00.png");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/10.png");
     private static final int COST = 0;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final CardType TYPE = CardType.SKILL;

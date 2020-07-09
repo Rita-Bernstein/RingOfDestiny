@@ -38,8 +38,8 @@
   },
   "RingOfDestiny:ShadowBlossom": {
     "NAME": "暗影绽放",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 斩杀 时，将2张 *影之花 加入手牌。",
-    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。 斩杀 时，将2张 *影之花+ 加入手牌。"
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。如果杀死了敌人，将2张 *影之花 加入手牌。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。如果杀死了敌人，将2张 *影之花+ 加入手牌。"
   },
   "RingOfDestiny:Spur": {
     "NAME": "连刺",
@@ -103,7 +103,7 @@
   },
   "RingOfDestiny:ShadowCutter": {
     "NAME": "影切",
-    "DESCRIPTION": "造成 !D! 点伤害。 斩杀 时，抽 !M! 张牌。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，抽 !M! 张牌。"
   },
   "RingOfDestiny:EthMudra": {
     "NAME": "结印-丑",
@@ -193,9 +193,9 @@
     "NAME": "体术秘籍",
     "DESCRIPTION": "每打出三张技能牌，获得 !M! 点 荆棘 。"
   },
-  "RingOfDestiny:PlaceHolder": {
-    "NAME": "???",
-    "DESCRIPTION": "每打出三张技能牌，获得 !M! 点 荆棘 。"
+  "RingOfDestiny:DeadlyShadow": {
+    "NAME": "死亡之影",
+    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，则制造一个 ring_of_destiny:影分身 。"
   },
   "RingOfDestiny:Makibisi": {
     "NAME": "撒菱",
@@ -236,9 +236,9 @@
     "NAME": "禁术-御血",
     "DESCRIPTION": "失去 !M! 点生命。获得 [E] [E] [E] ,抽5张牌。 NL 消耗 。"
   },
-  "RingOfDestiny:Place": {
-    "NAME": "？？？",
-    "DESCRIPTION": "失去 !M! 点生命。获得 [E] [E] [E] ,抽5张牌。 NL 消耗 。"
+  "RingOfDestiny:Recollection": {
+    "NAME": "禁术-回魂",
+    "DESCRIPTION": "失去 !M! 点生命。选择一张已 消耗 的牌加入手牌。 NL 消耗 。"
   },
   "RingOfDestiny:ShadowPortal": {
     "NAME": "暗影通道",
