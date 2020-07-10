@@ -91,7 +91,7 @@
   },
   "RingOfDestiny:Onikiri": {
     "NAME": "鬼斩",
-    "DESCRIPTION": "造成 !D! 点伤害。如果被 格挡，则给予 !M! 层 中毒 。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果被 格挡 ，则给予 !M! 层 中毒 。"
   },
   "RingOfDestiny:SneakAttack": {
     "NAME": "暗袭",
@@ -137,7 +137,7 @@
   },
   "RingOfDestiny:Stealth": {
     "NAME": "潜袭",
-    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 虚弱 ，获得 [E] 并抽 !M! 张牌。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 虚弱 ，获得 [E] 并抽一张牌。"
   },
   "RingOfDestiny:Premeditate": {
     "NAME": "预谋",

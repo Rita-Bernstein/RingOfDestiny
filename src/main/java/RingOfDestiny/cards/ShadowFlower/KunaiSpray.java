@@ -33,8 +33,8 @@ public class KunaiSpray extends AbstractRingCard {
 
     public KunaiSpray() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseDamage = 5;
-        this.magicNumber = 0;
+        this.baseDamage = this.damage = 5;
+        this.baseMagicNumber = this.magicNumber = 0;
         this.isMultiDamage = true;
     }
 

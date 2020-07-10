@@ -31,16 +31,14 @@ public class FallenFlower extends AbstractRingCard {
 
     public FallenFlower() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseMagicNumber = 3;
+        this.magicNumber = this.baseMagicNumber = 3;
         this.exhaust = true;
         this.cardsToPreview = new ShadowRose();
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractCard s = (new ShadowRose()).makeCopy();
-        if(upgraded)
-            s.upgrade();
-
+        if(upgraded) s.upgrade();
         addToBot(new MakeTempCardInHandAction(s, this.magicNumber));
     }
 
@@ -51,6 +49,7 @@ public class FallenFlower extends AbstractRingCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
+            this.cardsToPreview.upgrade();
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

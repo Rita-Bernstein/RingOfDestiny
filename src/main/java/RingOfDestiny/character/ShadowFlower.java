@@ -36,8 +36,8 @@ public class ShadowFlower extends CustomPlayer {
 	public static final CharacterStrings charStrings = CardCrawlGame.languagePack.getCharacterString(RingOfDestiny.makeID("ShadowFlower"));
 
 	public static final int ENERGY_PER_TURN = 3;
-	public static final int START_HP = 74;
-	public static final int START_GOLD = 42;
+	public static final int START_HP = 86;
+	public static final int START_GOLD = 99;
 
 
 	public static final String[] orbTextures = {
@@ -88,18 +88,18 @@ public class ShadowFlower extends CustomPlayer {
 
 	public ArrayList<String> getStartingDeck() {
 		ArrayList<String> retVal = new ArrayList<>();
-		retVal.add(Strike_SF.ID);
-		retVal.add(Strike_SF.ID);
-		retVal.add(Strike_SF.ID);
-		retVal.add(Strike_SF.ID);
 		retVal.add(Defend_SF.ID);
 		retVal.add(Defend_SF.ID);
 		retVal.add(Defend_SF.ID);
-		retVal.add(Defend_SF.ID);
-		retVal.add(Zap.ID);
-		retVal.add(ColdSnap.ID);
-		retVal.add(Darkness.ID);
-		retVal.add(Chaos.ID);
+
+		retVal.add(Strike_SF.ID);
+		retVal.add(Strike_SF.ID);
+		retVal.add(Strike_SF.ID);
+
+//		影分身
+		retVal.add(PoisonedShiv.ID);
+		retVal.add(FallenFlower.ID);
+		retVal.add(RattanBeetle.ID);
 
 		return retVal;
 	}
@@ -110,7 +110,7 @@ public class ShadowFlower extends CustomPlayer {
 				charStrings.TEXT[0],
 				START_HP,
 				START_HP,
-				3,
+				0,
 				START_GOLD,
 				5,
 				this,
@@ -142,7 +142,7 @@ public class ShadowFlower extends CustomPlayer {
 
 	@Override
 	public int getAscensionMaxHPLoss() {
-		return 4;
+		return 8;
 	}
 
 	@Override

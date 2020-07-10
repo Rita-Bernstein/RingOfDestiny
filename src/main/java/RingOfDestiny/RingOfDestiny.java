@@ -155,6 +155,7 @@ public class RingOfDestiny
         cards.add(new FinalAttack());
         cards.add(new Stealth());
         cards.add(new Premeditate());
+        cards.add(new Servicing());
         cards.add(new Conspiracy());
         cards.add(new FallenFlower());
         cards.add(new BeeZone());
