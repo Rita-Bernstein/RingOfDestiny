@@ -32,8 +32,8 @@ public class SneakAttack extends AbstractRingCard {
 
 	public SneakAttack() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-		this.baseDamage = 9;
-		this.baseMagicNumber = 1;
+		this.damage = this.baseDamage = 9;
+		this.magicNumber = this.baseMagicNumber = 1;
 	}
 
 	public void use(AbstractPlayer p, AbstractMonster m) {

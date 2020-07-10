@@ -30,8 +30,8 @@ public class Premeditate extends AbstractRingCard {
 
     public Premeditate() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseMagicNumber = 3;
-        this.baseSecondaryM = 1;
+        this.magicNumber = this.baseMagicNumber = 3;
+        this.secondaryM = this.baseSecondaryM = 1;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

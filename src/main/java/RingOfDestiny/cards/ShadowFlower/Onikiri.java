@@ -35,8 +35,8 @@ public class Onikiri extends AbstractRingCard {
 
     public Onikiri() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseDamage = 3;
-        this.baseMagicNumber = 7;
+        this.damage = this.baseDamage = 3;
+        this.magicNumber = this.baseMagicNumber = 7;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

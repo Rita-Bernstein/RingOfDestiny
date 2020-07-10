@@ -33,8 +33,8 @@ public class ShurikenFlip extends AbstractRingCard {
 
 	public ShurikenFlip() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-		this.baseDamage = 8;
-		this.baseMagicNumber = 1;
+		this.damage = this.baseDamage = 8;
+		this.magicNumber = this.baseMagicNumber = 1;
 	}
 
 	public void use(AbstractPlayer p, AbstractMonster m) {

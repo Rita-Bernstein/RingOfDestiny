@@ -30,7 +30,7 @@ public class Conspiracy extends AbstractRingCard {
 
     public Conspiracy() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseMagicNumber = 1;
+        this.magicNumber = this.baseMagicNumber = 1;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

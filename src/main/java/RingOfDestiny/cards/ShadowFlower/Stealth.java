@@ -36,7 +36,7 @@ public class Stealth extends AbstractRingCard {
 
     public Stealth() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseDamage = 5;
+        this.damage = this.baseDamage = 5;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

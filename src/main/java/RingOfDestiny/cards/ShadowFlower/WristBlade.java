@@ -31,7 +31,7 @@ public class WristBlade extends AbstractRingCard {
 
 	public WristBlade() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-		this.baseDamage = 11;
+		this.damage = this.baseDamage = 11;
 		this.isInnate = true;
 		this.exhaust = true;
 	}

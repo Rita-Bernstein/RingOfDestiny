@@ -150,7 +150,7 @@
   },
   "RingOfDestiny:Conspiracy": {
     "NAME": "诡计",
-    "DESCRIPTION": "保留 你的手牌。"
+    "DESCRIPTION": "本回合 保留 你的手牌。"
   },
   "RingOfDestiny:FallenFlower": {
     "NAME": "落英",

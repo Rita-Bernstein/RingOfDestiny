@@ -33,8 +33,8 @@ public class UndecMudra extends AbstractRingCard {
 
 	public UndecMudra() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-		this.baseDamage = 10;
-		this.baseMagicNumber = 10;
+		this.damage = this.baseDamage = 10;
+		this.magicNumber = this.baseMagicNumber = 10;
 	}
 
 	public void use(AbstractPlayer p, AbstractMonster m) {

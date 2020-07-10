@@ -36,7 +36,7 @@ public class DecaMudra extends AbstractRingCard {
     public DecaMudra() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = 2;
-        this.baseMagicNumber = 4;
+        this.magicNumber = this.baseMagicNumber = 4;
         this.isMultiDamage = true;
     }
 
