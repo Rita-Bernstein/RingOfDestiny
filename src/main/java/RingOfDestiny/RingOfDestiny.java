@@ -164,9 +164,14 @@ public class RingOfDestiny
         cards.add(new WaterRelease());
         cards.add(new FireRelease());
         cards.add(new ShadowShackles());
-
+        cards.add(new Belt());
+        cards.add(new GasBomb());
         cards.add(new RattanBeetle());
+        cards.add(new StaminaBook());
 
+//          死亡之影
+//          杀阵
+        cards.add(new Makibisi());
 
         for (CustomCard card : cards) {
             BaseMod.addCard(card);

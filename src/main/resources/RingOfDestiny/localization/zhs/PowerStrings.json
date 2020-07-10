@@ -3,6 +3,7 @@
     "NAME": "忍具袋",
     "DESCRIPTIONS": [
       "你的回合开始时，将 #b",
+      " 张 #y影之花 加入你的手牌。",
       " 张 #y影之花 加入你的手牌。"
     ]
   },
@@ -10,7 +11,29 @@
     "NAME": "忍具袋+",
     "DESCRIPTIONS": [
       "你的回合开始时，将 #b",
+      " 张 #y影之花+ 加入你的手牌。",
       " 张 #y影之花+ 加入你的手牌。"
+    ]
+  },
+  "RingOfDestiny:GasBombPower": {
+    "NAME": "毒之弹",
+    "DESCRIPTIONS": [
+      "每当你给予 #y中毒 时，额外给予 #b",
+      " 层 #y中毒 。"
+    ]
+  },
+  "RingOfDestiny:StaminaBookPower": {
+    "NAME": "体术秘籍",
+    "DESCRIPTIONS": [
+      "每打出三张 #y技能牌 ，获得 #b",
+      " 层 #y荆棘 。"
+    ]
+  },
+  "RingOfDestiny:MakibisiPower": {
+    "NAME": "撒菱",
+    "DESCRIPTIONS": [
+      "每丢弃一张牌，获得 #b",
+      " 层 #y荆棘 。"
     ]
   }
 }
