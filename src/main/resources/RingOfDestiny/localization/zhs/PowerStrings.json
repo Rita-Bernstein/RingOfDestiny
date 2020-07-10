@@ -35,5 +35,13 @@
       "每丢弃一张牌，获得 #b",
       " 层 #y荆棘 。"
     ]
+  },
+  "RingOfDestiny:NinjutsuScroll": {
+    "NAME": "忍术卷轴",
+    "DESCRIPTIONS": [
+      "每当有一张牌被 #y消耗 时，获得 [E] 。",
+      "每当有一张牌被 #y消耗 时，获得 #b",
+      " [E] 。"
+    ]
   }
 }

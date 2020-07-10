@@ -35,7 +35,7 @@ public class StaminaBookPower extends TwoAmountPower {
             this.amount2++;
         }
 
-        if (this.amount2 > 3) {
+        if (this.amount2 > 2) {
             this.flash();
             addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new ThornsPower(AbstractDungeon.player, this.amount)));
             this.amount2 = 0;
@@ -48,7 +48,12 @@ public class StaminaBookPower extends TwoAmountPower {
     }
 
     public void updateDescription() {
-        this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1];
+        if(this.amount2 == 0){
+            this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1] + powerStrings.DESCRIPTIONS[2] + this.amount2 + powerStrings.DESCRIPTIONS[3];
+        }else {
+            this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1] + powerStrings.DESCRIPTIONS[2] + this.amount2 + powerStrings.DESCRIPTIONS[4];
+        }
+
 
     }
 }

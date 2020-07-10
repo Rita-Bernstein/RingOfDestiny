@@ -208,7 +208,8 @@
   },
   "RingOfDestiny:MethMudra": {
     "NAME": "结印-子",
-    "DESCRIPTION": "造成 !D! 点伤害X次，给予X层 中毒 。"
+    "DESCRIPTION": "造成 !D! 点伤害X次，给予X层 中毒 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害X+ !M! 次，给予X+ !M! 层 中毒 。"
   },
   "RingOfDestiny:PropMudra": {
     "NAME": "结印-寅",
@@ -216,12 +217,12 @@
   },
   "RingOfDestiny:PerfectExecution": {
     "NAME": "杀缭乱",
-    "DESCRIPTION": "造成 !D! 点伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，将这张牌返回手牌并获得 [E] [E] [E] 。"
   },
   "RingOfDestiny:DodeMudra": {
     "NAME": "结印-亥",
     "DESCRIPTION": "获得 !B! 点 格挡 X次。所有敌人本回合失去X点 力量 。 NL 消耗。",
-    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 X+1次。所有敌人本回合失去X+1点 力量 。 NL 消耗。"
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 X+ !M! 次。所有敌人本回合失去X+ !M! 点 力量 。 NL 消耗。"
   },
   "RingOfDestiny:WorldOfFloweringTree": {
     "NAME": "花树界",
@@ -239,7 +240,7 @@
   },
   "RingOfDestiny:ForbiddenArts": {
     "NAME": "禁术-御血",
-    "DESCRIPTION": "失去 !M! 点生命。获得 [E] [E] [E] ,抽5张牌。 NL 消耗 。"
+    "DESCRIPTION": "失去 !M! 点生命。获得 [E] [E] [E] ,抽 !RODSecondM! 张牌。 NL 消耗 。"
   },
   "RingOfDestiny:Recollection": {
     "NAME": "禁术-回魂",
@@ -247,11 +248,11 @@
   },
   "RingOfDestiny:ShadowPortal": {
     "NAME": "暗影通道",
-    "DESCRIPTION": "失去 !M! 点生命。将抽牌堆中的一张牌加入手牌。 NL 消耗 。"
+    "DESCRIPTION": "失去 !M! 点生命。将抽牌堆中的 !RODSecondM! 张牌加入手牌。 NL 消耗 。"
   },
   "RingOfDestiny:DarkProjection": {
     "NAME": "黑暗投影",
-    "DESCRIPTION": "失去 !M! 点生命。复制手牌中的一张技能牌。 NL 消耗 。"
+    "DESCRIPTION": "失去 !M! 点生命。复制手牌中的 !RODSecondM! 张技能牌。 NL 消耗 。"
   },
   "RingOfDestiny:RepeatOffender": {
     "NAME": "故技重施",

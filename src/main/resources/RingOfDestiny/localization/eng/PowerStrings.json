@@ -26,7 +26,10 @@
     "NAME": "体术秘籍",
     "DESCRIPTIONS": [
       "每打出三张 #y技能牌 ，获得 #b",
-      " 层 #y荆棘 。"
+      " 层 #y荆棘 。",
+      "已打出 #b",
+      " 张 #y技能牌 。",
+      " 张 #y技能牌 。"
     ]
   },
   "RingOfDestiny:MakibisiPower": {

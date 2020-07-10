@@ -172,6 +172,26 @@ public class RingOfDestiny
 //          死亡之影
 //          杀阵
         cards.add(new Makibisi());
+        cards.add(new MethMudra());
+        cards.add(new PropMudra());
+        cards.add(new PerfectExecution());
+        cards.add(new DodeMudra());
+        cards.add(new WorldOfFloweringTree());
+
+//          暗影印记
+//          感染印记
+        cards.add(new ForbiddenArts());
+        cards.add(new Recollection());
+        cards.add(new ShadowPortal());
+        cards.add(new DarkProjection());
+        cards.add(new RepeatOffender());
+
+//          忍术-结印
+        cards.add(new RepeatOffender());
+        cards.add(new NinjutsuScroll());
+        cards.add(new BottlePoison());
+
+
 
         for (CustomCard card : cards) {
             BaseMod.addCard(card);
