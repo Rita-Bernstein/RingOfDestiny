@@ -21,10 +21,10 @@ public class PentMudra extends AbstractRingCard {
     public static final String ID = RingOfDestiny.makeID("PentMudra");
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/25.png");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/37.png");
     private static final int COST = 1;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    private static final CardType TYPE = CardType.ATTACK;
+    private static final CardType TYPE = CardType.SKILL;
     private static final CardColor COLOR = CardColorEnum.ShadowFlower_LIME;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;

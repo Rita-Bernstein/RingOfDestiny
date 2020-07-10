@@ -1,7 +1,7 @@
 package RingOfDestiny.cards.ShadowFlower;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.actions.ShadowFlower.NonMudraAction;
+import RingOfDestiny.actions.ShadowFlower.WaterReleaseAction;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import RingOfDestiny.patches.CustomTagsEnum;
@@ -20,12 +20,12 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.PoisonPower;
 
-public class NonMudra extends AbstractRingCard {
-	public static final String ID = RingOfDestiny.makeID("NonMudra");
+public class WaterRelease extends AbstractRingCard {
+	public static final String ID = RingOfDestiny.makeID("WaterRelease");
 	private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 	public static final String NAME = cardStrings.NAME;
-	public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/38.png");
-	private static final int COST = 1;
+	public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/39.png");
+	private static final int COST = 0;
 	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 	private static final CardType TYPE = CardType.SKILL;
 	private static final CardColor COLOR = CardColorEnum.ShadowFlower_LIME;
@@ -33,24 +33,23 @@ public class NonMudra extends AbstractRingCard {
 	private static final CardTarget TARGET = CardTarget.SELF;
 
 
-	public NonMudra() {
+	public WaterRelease() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-		this.magicNumber = this.baseMagicNumber = 1;
-		this.tags.add(CustomTagsEnum.Mudra);
+		this.magicNumber = this.baseMagicNumber = 2;
 	}
 
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		addToBot(new DrawCardAction(this.magicNumber, new NonMudraAction()));
+		addToBot(new WaterReleaseAction(p,this.magicNumber));
 			}
 
 	public AbstractCard makeCopy() {
-		return new NonMudra();
+		return new WaterRelease();
 	}
 
 	public void upgrade() {
 		if (!this.upgraded) {
 			this.upgradeName();
-			this.upgradeBaseCost(0);
+			this.upgradeMagicNumber(1);
 		}
 	}
 }
