@@ -159,6 +159,8 @@ public class RingOfDestiny
         cards.add(new Conspiracy());
         cards.add(new FallenFlower());
         cards.add(new BeeZone());
+        cards.add(new PentMudra());
+        cards.add(new NonMudra());
 
         cards.add(new RattanBeetle());
 

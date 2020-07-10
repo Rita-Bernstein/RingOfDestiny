@@ -5,6 +5,7 @@ import RingOfDestiny.actions.ShadowFlower.FlashOfSlashAction;
 import RingOfDestiny.actions.ShadowFlower.HexaMudraAction;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
+import RingOfDestiny.patches.CustomTagsEnum;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -35,6 +36,7 @@ public class HexaMudra extends AbstractRingCard {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = 4;
         this.magicNumber = this.baseMagicNumber = 4;
+        this.tags.add(CustomTagsEnum.Mudra);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

@@ -4,8 +4,8 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireEnum;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
 public class CustomTagsEnum {
-//	@SpireEnum
-//	public static AbstractCard.CardTags Blood_Realm_Tag;
+	@SpireEnum
+	public static AbstractCard.CardTags Mudra;
 
 
 }

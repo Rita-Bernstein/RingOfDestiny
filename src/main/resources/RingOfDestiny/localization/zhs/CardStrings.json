@@ -167,7 +167,7 @@
   },
   "RingOfDestiny:NonMudra": {
     "NAME": "结印-申",
-    "DESCRIPTION": "抽一张牌，它的耗能在本回合为0。 NL 消耗 。"
+    "DESCRIPTION": "抽 !M! 张牌，它的耗能在本回合为0。 NL 消耗 。"
   },
   "RingOfDestiny:WaterRelease": {
     "NAME": "水遁",

@@ -1,6 +1,7 @@
 package RingOfDestiny.cards.ShadowFlower;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.ShadowFlower.NonMudraAction;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import RingOfDestiny.patches.CustomTagsEnum;
@@ -19,8 +20,8 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.PoisonPower;
 
-public class UndecMudra extends AbstractRingCard {
-	public static final String ID = RingOfDestiny.makeID("UndecMudra");
+public class NonMudra extends AbstractRingCard {
+	public static final String ID = RingOfDestiny.makeID("NonMudra");
 	private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 	public static final String NAME = cardStrings.NAME;
 	public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/28.png");
@@ -32,27 +33,24 @@ public class UndecMudra extends AbstractRingCard {
 	private static final CardTarget TARGET = CardTarget.ENEMY;
 
 
-	public UndecMudra() {
+	public NonMudra() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-		this.damage = this.baseDamage = 10;
-		this.magicNumber = this.baseMagicNumber = 10;
+		this.magicNumber = this.baseMagicNumber = 1;
 		this.tags.add(CustomTagsEnum.Mudra);
 	}
 
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		addToBot(new DamageAction(m,new DamageInfo(p, this.damage, this.damageTypeForTurn),AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-		addToBot(new ApplyPowerAction(m,p,new PoisonPower(m,p,this.magicNumber),this.magicNumber));
+		addToBot(new DrawCardAction(this.magicNumber, new NonMudraAction()));
 			}
 
 	public AbstractCard makeCopy() {
-		return new UndecMudra();
+		return new NonMudra();
 	}
 
 	public void upgrade() {
 		if (!this.upgraded) {
 			this.upgradeName();
-			this.upgradeDamage(3);
-			this.upgradeMagicNumber(3);
+			this.upgradeBaseCost(0);
 		}
 	}
 }

@@ -5,6 +5,7 @@ import RingOfDestiny.actions.ShadowFlower.EthMudraAction;
 import RingOfDestiny.actions.ShadowFlower.FlashOfSlashAction;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
+import RingOfDestiny.patches.CustomTagsEnum;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -38,6 +39,7 @@ public class EthMudra extends AbstractRingCard {
     public EthMudra() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = 3;
+        this.tags.add(CustomTagsEnum.Mudra);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

@@ -3,6 +3,7 @@ package RingOfDestiny.cards.ShadowFlower;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
+import RingOfDestiny.patches.CustomTagsEnum;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -38,6 +39,7 @@ public class DecaMudra extends AbstractRingCard {
         this.baseDamage = 2;
         this.magicNumber = this.baseMagicNumber = 4;
         this.isMultiDamage = true;
+        this.tags.add(CustomTagsEnum.Mudra);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

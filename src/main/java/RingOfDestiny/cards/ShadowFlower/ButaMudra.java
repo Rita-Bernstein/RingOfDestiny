@@ -4,6 +4,7 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.ShadowFlower.FlashOfSlashAction;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
+import RingOfDestiny.patches.CustomTagsEnum;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -37,6 +38,7 @@ public class ButaMudra extends AbstractRingCard {
         this.magicNumber = this.baseMagicNumber = 3;
         this.exhaust = true;
         this.tags.add(CardTags.HEALING);
+        this.tags.add(CustomTagsEnum.Mudra);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
