@@ -22,6 +22,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.EnergyManager;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.events.city.Vampires;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
@@ -185,7 +186,7 @@ public class ShadowFlower extends CustomPlayer {
 
 	@Override
 	public String getVampireText() {
-		return CardCrawlGame.languagePack.getEventString("RingOfDestiny:Vampires_ShadowFlower").DESCRIPTIONS[0];
+		return Vampires.DESCRIPTIONS[1];
 	}
 
 	@Override
