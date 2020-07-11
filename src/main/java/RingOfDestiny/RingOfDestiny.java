@@ -144,8 +144,7 @@ public class RingOfDestiny
         cards.add(new Onikiri());
         cards.add(new SneakAttack());
         cards.add(new ShurikenFlip());
-
-//          影切
+        cards.add(new ShadowCutter());
         cards.add(new EthMudra());
         cards.add(new OctMudra());
         cards.add(new DecaMudra());
@@ -167,16 +166,14 @@ public class RingOfDestiny
         cards.add(new GasBomb());
         cards.add(new RattanBeetle());
         cards.add(new StaminaBook());
-
-//          死亡之影
-//          杀阵
+        cards.add(new DeadlyShadow());
+        cards.add(new DeadlyArts());
         cards.add(new Makibisi());
         cards.add(new MethMudra());
         cards.add(new PropMudra());
         cards.add(new PerfectExecution());
         cards.add(new DodeMudra());
         cards.add(new WorldOfFloweringTree());
-
 //          暗影印记
 //          感染印记
         cards.add(new ForbiddenArts());
@@ -184,8 +181,7 @@ public class RingOfDestiny
         cards.add(new ShadowPortal());
         cards.add(new DarkProjection());
         cards.add(new RepeatOffender());
-
-//          忍术-结印
+        cards.add(new NinjutsuMudra());
         cards.add(new RepeatOffender());
         cards.add(new NinjutsuScroll());
         cards.add(new BottlePoison());

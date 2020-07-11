@@ -204,6 +204,11 @@
     "NAME": "死亡之影",
     "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，则制造一个 ring_of_destiny:影分身 。"
   },
+  "RingOfDestiny:DeadlyArts": {
+    "NAME": "杀阵",
+    "DESCRIPTION": "下 !M! 个回合制造一个 ring_of_destiny:影分身 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "下 !M! 个回合制造一个 ring_of_destiny:影分身 。"
+  },
   "RingOfDestiny:Makibisi": {
     "NAME": "撒菱",
     "DESCRIPTION": "每丢弃一张牌，获得 !M! 层 荆棘 。"

@@ -43,5 +43,13 @@
       "每当有一张牌被 #y消耗 时，获得 #b",
       " [E] 。"
     ]
+  },
+  "RingOfDestiny:DeadlyArtsPower": {
+    "NAME": "杀阵",
+    "DESCRIPTIONS": [
+      "下 #b",
+      " 个回合开始时，制造一个 #y影分身 。",
+      " 个回合开始时，制造一个 #y影分身 。"
+    ]
   }
 }
