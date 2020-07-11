@@ -27,7 +27,7 @@ public class GasBombPowerPatch {
     )
     public static class GasBombExtraPoison {
         @SpireInsertPatch(rloc = 24,localvars = {"amount"})
-        public static SpireReturn<Void> Insert(ApplyPowerAction __instance,
+        public static SpireReturn<Void> Insert(ApplyPowerAction _instance,
                                                AbstractCreature target,
                                                AbstractCreature source,
                                                AbstractPower powerToApply,

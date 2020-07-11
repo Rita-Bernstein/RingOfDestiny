@@ -7,9 +7,10 @@
     "NAME": "打击",
     "DESCRIPTION": "造成 !D! 点伤害。"
   },
-  "RingOfDestiny:Shadow": {
+  "RingOfDestiny:ShadowCard": {
     "NAME": "影分身",
-    "DESCRIPTION": "本回合制造一个 ring_of_destiny:影分身 。"
+    "DESCRIPTION": "本回合制造一个 ring_of_destiny:影分身 。",
+    "UPGRADE_DESCRIPTION": "固有 。本回合制造一个 ring_of_destiny:影分身 。"
   },
   "RingOfDestiny:PoisonedShiv": {
     "NAME": "毒刃",

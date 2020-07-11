@@ -97,7 +97,7 @@ public class ShadowFlower extends CustomPlayer {
 		retVal.add(Strike_SF.ID);
 		retVal.add(Strike_SF.ID);
 
-//		影分身
+		retVal.add(ShadowCard.ID);
 		retVal.add(PoisonedShiv.ID);
 		retVal.add(FallenFlower.ID);
 		retVal.add(RattanBeetle.ID);
