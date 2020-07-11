@@ -72,7 +72,8 @@
   },
   "RingOfDestiny:Ridicule": {
     "NAME": "怒车之术",
-    "DESCRIPTION": "获得 !B! 点 格挡 。敌人的意图变为攻击。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。敌人的意图变为攻击。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。敌人的意图变为攻击。"
   },
   "RingOfDestiny:MetalRelease": {
     "NAME": "金遁",

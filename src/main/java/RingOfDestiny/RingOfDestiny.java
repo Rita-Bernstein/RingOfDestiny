@@ -128,7 +128,7 @@ public class RingOfDestiny
         cards.add(new Corrosion());
         cards.add(new FlashOfSlash());
         cards.add(new HexaMudra());
-//          暗影绽放
+        cards.add(new ShadowBlossom());
         cards.add(new Spur());
         cards.add(new Agile());
         cards.add(new FrozenDark());
@@ -136,8 +136,7 @@ public class RingOfDestiny
         cards.add(new ButaMudra());
         cards.add(new HeptMudra());
         cards.add(new ShadowRose());
-
-//          怒车之术
+        cards.add(new Ridicule());
         cards.add(new MetalRelease());
         cards.add(new WoodRelease());
         cards.add(new EarthRelease());
