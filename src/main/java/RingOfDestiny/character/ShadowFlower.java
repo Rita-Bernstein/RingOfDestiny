@@ -133,7 +133,7 @@ public class ShadowFlower extends CustomPlayer {
 
 	@Override
 	public AbstractCard getStartCardForEvent() {
-		return new Zap();
+		return new ShadowCard();
 	}
 
 	@Override

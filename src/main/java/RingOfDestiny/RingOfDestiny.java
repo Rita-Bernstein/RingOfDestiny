@@ -74,7 +74,7 @@ public class RingOfDestiny
 
     public static Properties RingOfDestinyDefaults = new Properties();
 
-    public static Color halfWhite = Color.WHITE.cpy();
+    public static Color shadowColorFix = new Color(0.473f,0.429f,0.644f,0.9F);
     public static final Color ShadowFlower_Color = new Color(0.277F,0.714F,0.617F,1.0F);
 
 

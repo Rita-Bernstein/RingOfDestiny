@@ -24,9 +24,11 @@ public class CreateShadowAction extends AbstractGameAction {
         if (this.duration == Settings.ACTION_DUR_FAST) {
 
             if (AbstractShadow.hasShadow(LeftShadow.SHADOW_ID)) {
-                ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)[1].onExitShadow();
-                ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)[1] = new RightShadow();
-                ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)[1].onCreateShadow();
+                if (!AbstractShadow.hasShadow(RightShadow.SHADOW_ID)) {
+                    ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)[1].onExitShadow();
+                    ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)[1] = new RightShadow();
+                    ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)[1].onCreateShadow();
+                }
             } else {
                 ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)[0].onExitShadow();
                 ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)[0] = new LeftShadow();

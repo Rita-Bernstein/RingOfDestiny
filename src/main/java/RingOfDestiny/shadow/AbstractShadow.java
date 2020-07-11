@@ -11,14 +11,13 @@ import com.megacrit.cardcrawl.cards.CardQueueItem;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.apache.commons.lang3.ObjectUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
 public abstract class AbstractShadow {
     private static final Logger logger = LogManager.getLogger(AbstractShadow.class.getName());
-    public String name;
-    public String description;
     public String ID;
 
 
@@ -28,16 +27,18 @@ public abstract class AbstractShadow {
     protected float angle;
 
 
-    public void onCreateShadow() {}
+    public void onCreateShadow() {
+    }
 
-    public void onExitShadow() {}
+    public void onExitShadow() {
+    }
 
-     public void onEndOfTurn() {
-         AbstractDungeon.actionManager.addToBottom(new ClearShadowAction());
-     }
+    public void onEndOfTurn() {
+        AbstractDungeon.actionManager.addToBottom(new ClearShadowAction());
+    }
 
 
-    public void onPlayAttackCard(AbstractCard card,UseCardAction action) {
+    public void onPlayAttackCard(AbstractCard card, UseCardAction action) {
         if (!card.purgeOnUse) {
             AbstractMonster m = null;
 
@@ -84,20 +85,20 @@ public abstract class AbstractShadow {
 
 
     public static boolean hasShadow(String shadowName) {
-        for(AbstractShadow s : ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)) {
-            if(s.name.equals(shadowName)){
+        for (AbstractShadow s : ShadowPatches.AbstractPlayerShadowFieldPatch.shadow.get(AbstractDungeon.player)) {
+            if (s.ID.equals(shadowName)) {
                 return true;
             }
         }
         return false;
     }
 
-    public static AbstractShadow getShadowFromName(String name) {
-        if (name.equals("LeftShadow"))
+    public static AbstractShadow getShadowFromID(String name) {
+        if (name.equals(LeftShadow.SHADOW_ID))
             return new LeftShadow();
-        if (name.equals("NullShadow"))
+        if (name.equals(NullShadow.SHADOW_ID))
             return new NullShadow();
-        if (name.equals("RightShadow"))
+        if (name.equals(RightShadow.SHADOW_ID))
             return new RightShadow();
 
 

@@ -11,7 +11,7 @@ package RingOfDestiny.shadow;
    public static final float pos_y = 0.0f * Settings.scale;
    
    public NullShadow() {
-     this.ID = "NullShadow";
+     this.ID = SHADOW_ID;
    }
 
      @Override
