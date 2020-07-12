@@ -36,7 +36,6 @@ public class DeadlyArts extends AbstractRingCard {
 	}
 
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		
 		     addToBot(new ApplyPowerAction(p,p, new DeadlyArtsPower(p, this.magicNumber),this.magicNumber));
 			}
 

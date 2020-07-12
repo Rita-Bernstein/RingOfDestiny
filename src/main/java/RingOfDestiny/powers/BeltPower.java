@@ -13,6 +13,8 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 public class BeltPower extends AbstractPower {
     public static final String POWER_ID = RingOfDestiny.makeID("BeltPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
+    public static final String NAME = powerStrings.NAME;
+    public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
     public BeltPower(AbstractCreature owner, int bladeAmt) {
         this.name = powerStrings.NAME;

@@ -60,10 +60,19 @@ public class DodeMudraAction extends AbstractGameAction {
                 addToBot(new GainBlockAction(this.p, this.p, this.block));
             }
 
-            addToBot(new ApplyPowerAction(m, p, new StrengthPower(m, -effect), -effect));
-            if (m != null && !m.hasPower("Artifact")) {
-                addToBot(new ApplyPowerAction(m, p, new GainStrengthPower(m, effect), effect));
+
+            if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
+                for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
+                    if (!monster.isDead && !monster.isDying) {
+                        addToBot(new ApplyPowerAction(monster, p, new StrengthPower(monster, -effect), -effect));
+                        if (monster != null && !monster.hasPower("Artifact")) {
+                            addToBot(new ApplyPowerAction(monster, p, new GainStrengthPower(monster, effect), effect));
+                        }
+
+                    }
+                }
             }
+
 
 
 

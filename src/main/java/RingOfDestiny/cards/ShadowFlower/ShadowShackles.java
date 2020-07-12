@@ -27,7 +27,7 @@ public class ShadowShackles extends AbstractRingCard {
 	public static final String ID = RingOfDestiny.makeID("ShadowShackles");
 	private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 	public static final String NAME = cardStrings.NAME;
-	public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/40.png");
+	public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/41.png");
 	private static final int COST = 1;
 	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 	private static final CardType TYPE = CardType.SKILL;

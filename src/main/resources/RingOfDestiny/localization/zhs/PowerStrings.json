@@ -36,7 +36,7 @@
       " 层 #y荆棘 。"
     ]
   },
-  "RingOfDestiny:NinjutsuScroll": {
+  "RingOfDestiny:NinjutsuScrollPower": {
     "NAME": "忍术卷轴",
     "DESCRIPTIONS": [
       "每当有一张牌被 #y消耗 时，获得 [E] 。",
@@ -47,9 +47,19 @@
   "RingOfDestiny:DeadlyArtsPower": {
     "NAME": "杀阵",
     "DESCRIPTIONS": [
+      "下个回合开始时，制造一个 #y影分身 。",
       "下 #b",
-      " 个回合开始时，制造一个 #y影分身 。",
       " 个回合开始时，制造一个 #y影分身 。"
+    ]
+  },
+  "RingOfDestiny:ShadowMarkPower": {
+    "NAME": "暗影印记",
+    "DESCRIPTIONS": [
+      "本回合结束时，这名敌人受到你与影分身造成伤害总和 #b150% 伤害。（造成 #b",
+      "接下来的 #b",
+      " 个回合结束时，这名敌人受到你与影分身造成伤害总和 #b150% 伤害。（造成 #b",
+      " 点伤害）。"
+
     ]
   }
 }

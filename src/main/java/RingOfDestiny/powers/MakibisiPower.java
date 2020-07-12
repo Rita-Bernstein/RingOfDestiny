@@ -30,14 +30,8 @@ public class MakibisiPower extends AbstractRingPower {
         addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new ThornsPower(AbstractDungeon.player, this.amount)));
     }
 
-    public void stackPower(int stackAmount) {
-         this.fontScale = 8.0F;
-         this.amount += stackAmount;
-     }
-   
    public void updateDescription() {
            this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1];
-
    }
  }
 

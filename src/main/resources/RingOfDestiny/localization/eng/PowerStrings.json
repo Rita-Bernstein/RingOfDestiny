@@ -26,10 +26,7 @@
     "NAME": "体术秘籍",
     "DESCRIPTIONS": [
       "每打出三张 #y技能牌 ，获得 #b",
-      " 层 #y荆棘 。",
-      "已打出 #b",
-      " 张 #y技能牌 。",
-      " 张 #y技能牌 。"
+      " 层 #y荆棘 。"
     ]
   },
   "RingOfDestiny:MakibisiPower": {
@@ -37,6 +34,22 @@
     "DESCRIPTIONS": [
       "每丢弃一张牌，获得 #b",
       " 层 #y荆棘 。"
+    ]
+  },
+  "RingOfDestiny:NinjutsuScroll": {
+    "NAME": "忍术卷轴",
+    "DESCRIPTIONS": [
+      "每当有一张牌被 #y消耗 时，获得 [E] 。",
+      "每当有一张牌被 #y消耗 时，获得 #b",
+      " [E] 。"
+    ]
+  },
+  "RingOfDestiny:DeadlyArtsPower": {
+    "NAME": "杀阵",
+    "DESCRIPTIONS": [
+      "下个回合开始时，制造一个 #y影分身 。",
+      "下 #b",
+      " 个回合开始时，制造一个 #y影分身 。"
     ]
   }
 }

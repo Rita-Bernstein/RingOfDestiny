@@ -42,11 +42,6 @@ public class StaminaBookPower extends TwoAmountPower {
         }
     }
 
-    public void stackPower(int stackAmount) {
-        this.fontScale = 8.0F;
-        this.amount += stackAmount;
-    }
-
     public void updateDescription() {
         if(this.amount2 == 0){
             this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1] + powerStrings.DESCRIPTIONS[2] + this.amount2 + powerStrings.DESCRIPTIONS[3];

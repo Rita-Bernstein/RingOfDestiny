@@ -14,6 +14,8 @@
  public class UpgradedBeltPower extends AbstractPower {
    public static final String POWER_ID = RingOfDestiny.makeID("UpgradedBeltPower");
    private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
+     public static final String NAME = powerStrings.NAME;
+     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
    
    public UpgradedBeltPower(AbstractCreature owner, int bladeAmt) {
      this.name = powerStrings.NAME;
@@ -34,13 +36,7 @@
      } 
    }
  
-   
-   public void stackPower(int stackAmount) {
-     this.fontScale = 8.0F;
-     this.amount += stackAmount;
-   }
- 
-   
+
    public void updateDescription() {
      if (this.amount > 1) {
        this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1];

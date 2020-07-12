@@ -174,7 +174,7 @@ public class RingOfDestiny
         cards.add(new PerfectExecution());
         cards.add(new DodeMudra());
         cards.add(new WorldOfFloweringTree());
-//          暗影印记
+        cards.add(new ShadowMark());
 //          感染印记
         cards.add(new ForbiddenArts());
         cards.add(new Recollection());

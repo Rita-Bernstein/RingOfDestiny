@@ -7,9 +7,10 @@
     "NAME": "打击",
     "DESCRIPTION": "造成 !D! 点伤害。"
   },
-  "RingOfDestiny:Shadow": {
+  "RingOfDestiny:ShadowCard": {
     "NAME": "影分身",
-    "DESCRIPTION": "本回合制造一个 ring_of_destiny:影分身 。"
+    "DESCRIPTION": "本回合制造一个 ring_of_destiny:影分身 。",
+    "UPGRADE_DESCRIPTION": "固有 。本回合制造一个 ring_of_destiny:影分身 。"
   },
   "RingOfDestiny:PoisonedShiv": {
     "NAME": "毒刃",
@@ -71,7 +72,8 @@
   },
   "RingOfDestiny:Ridicule": {
     "NAME": "怒车之术",
-    "DESCRIPTION": "获得 !B! 点 格挡 。敌人的意图变为攻击。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。敌人的意图变为攻击。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。敌人的意图变为攻击。"
   },
   "RingOfDestiny:MetalRelease": {
     "NAME": "金遁",
@@ -202,13 +204,19 @@
     "NAME": "死亡之影",
     "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，则制造一个 ring_of_destiny:影分身 。"
   },
+  "RingOfDestiny:DeadlyArts": {
+    "NAME": "杀阵",
+    "DESCRIPTION": "下 !M! 个回合制造一个 ring_of_destiny:影分身 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "下 !M! 个回合制造一个 ring_of_destiny:影分身 。"
+  },
   "RingOfDestiny:Makibisi": {
     "NAME": "撒菱",
     "DESCRIPTION": "每丢弃一张牌，获得 !M! 层 荆棘 。"
   },
   "RingOfDestiny:MethMudra": {
     "NAME": "结印-子",
-    "DESCRIPTION": "造成 !D! 点伤害X次，给予X层 中毒 。"
+    "DESCRIPTION": "造成 !D! 点伤害X次，给予X层 中毒 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害X+ !M! 次，给予X+ !M! 层 中毒 。"
   },
   "RingOfDestiny:PropMudra": {
     "NAME": "结印-寅",
@@ -216,12 +224,12 @@
   },
   "RingOfDestiny:PerfectExecution": {
     "NAME": "杀缭乱",
-    "DESCRIPTION": "造成 !D! 点伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，将这张牌返回手牌并获得 [E] [E] [E] 。"
   },
   "RingOfDestiny:DodeMudra": {
     "NAME": "结印-亥",
     "DESCRIPTION": "获得 !B! 点 格挡 X次。所有敌人本回合失去X点 力量 。 NL 消耗。",
-    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 X+1次。所有敌人本回合失去X+1点 力量 。 NL 消耗。"
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 X+ !M! 次。所有敌人本回合失去X+ !M! 点 力量 。 NL 消耗。"
   },
   "RingOfDestiny:WorldOfFloweringTree": {
     "NAME": "花树界",
@@ -239,7 +247,7 @@
   },
   "RingOfDestiny:ForbiddenArts": {
     "NAME": "禁术-御血",
-    "DESCRIPTION": "失去 !M! 点生命。获得 [E] [E] [E] ,抽5张牌。 NL 消耗 。"
+    "DESCRIPTION": "失去 !M! 点生命。获得 [E] [E] [E] ,抽 !RODSecondM! 张牌。 NL 消耗 。"
   },
   "RingOfDestiny:Recollection": {
     "NAME": "禁术-回魂",
@@ -247,11 +255,11 @@
   },
   "RingOfDestiny:ShadowPortal": {
     "NAME": "暗影通道",
-    "DESCRIPTION": "失去 !M! 点生命。将抽牌堆中的一张牌加入手牌。 NL 消耗 。"
+    "DESCRIPTION": "失去 !M! 点生命。将抽牌堆中的 !RODSecondM! 张牌加入手牌。 NL 消耗 。"
   },
   "RingOfDestiny:DarkProjection": {
     "NAME": "黑暗投影",
-    "DESCRIPTION": "失去 !M! 点生命。复制手牌中的一张技能牌。 NL 消耗 。"
+    "DESCRIPTION": "失去 !M! 点生命。复制手牌中的 !RODSecondM! 张技能牌。 NL 消耗 。"
   },
   "RingOfDestiny:RepeatOffender": {
     "NAME": "故技重施",

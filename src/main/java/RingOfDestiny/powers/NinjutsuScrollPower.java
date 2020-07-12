@@ -15,7 +15,6 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 public class NinjutsuScrollPower extends AbstractPower {
     public static final String POWER_ID = RingOfDestiny.makeID("NinjutsuScrollPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
-
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
@@ -26,14 +25,6 @@ public class NinjutsuScrollPower extends AbstractPower {
         this.amount = amount;
         updateDescription();
         loadRegion("darkembrace");
-    }
-
-
-    public void atStartOfTurn() {
-        if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
-            flash();
-            addToBot(new MakeTempCardInHandAction(new ShadowRose(), this.amount, false));
-        }
     }
 
     public void updateDescription() {
