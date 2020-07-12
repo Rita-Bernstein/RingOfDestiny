@@ -2,6 +2,7 @@ package RingOfDestiny.shadow;
 
 import RingOfDestiny.actions.ShadowFlower.ClearShadowAction;
 import RingOfDestiny.patches.ShadowPatches;
+import RingOfDestiny.relics.AbstractRingRelic;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -11,6 +12,7 @@ import com.megacrit.cardcrawl.cards.CardQueueItem;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -28,6 +30,11 @@ public abstract class AbstractShadow {
 
 
     public void onCreateShadow() {
+        for(AbstractRelic r : AbstractDungeon.player.relics){
+            if(r instanceof AbstractRingRelic){
+                ((AbstractRingRelic) r).onCreateShadow();
+            }
+        }
     }
 
     public void onExitShadow() {

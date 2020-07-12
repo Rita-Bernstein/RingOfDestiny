@@ -15,6 +15,7 @@ public class ShadowKunai extends CustomRelic {
 
     public ShadowKunai() {
         super(ID, texture, RelicTier.STARTER, CustomRelic.LandingSound.FLAT);
+        this.counter = 0;
     }
 
     public String getUpdatedDescription() {
@@ -28,8 +29,8 @@ public class ShadowKunai extends CustomRelic {
         if (this.counter >= 10) {
             this.flash();
             addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, this));
-            int ten = (this.counter - this.counter % 10) / 10;
-            addToBot(new HealAction(AbstractDungeon.player, AbstractDungeon.player, ten));
+            int ten = this.counter / 10;
+            addToBot(new HealAction(AbstractDungeon.player, null, ten));
             this.counter = this.counter % 10;
         }
     }

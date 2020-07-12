@@ -20,11 +20,6 @@ public class GasBombPower extends AbstractPower {
      updateDescription();
      loadRegion("barricade");
    }
-
-     public void stackPower(int stackAmount) {
-         this.fontScale = 8.0F;
-         this.amount += stackAmount;
-     }
    
    public void updateDescription() {
            this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1];

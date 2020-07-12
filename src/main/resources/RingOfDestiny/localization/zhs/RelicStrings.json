@@ -1,9 +1,16 @@
 {
   "RingOfDestiny:ShadowKunai": {
     "NAME": "影刃",
-    "FLAVOR": "来自东方国度的神秘祝福。",
+    "FLAVOR": "",
     "DESCRIPTIONS": [
       "每造成 #b10 点攻击伤害，回复 #g1 点生命。"
+    ]
+  },
+  "RingOfDestiny:NinjaSuit": {
+    "NAME": "忍服",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每召唤一个 #y影分身 ，将 #b2 张 #y袖剑 加入手牌。"
     ]
   }
 }

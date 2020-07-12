@@ -20,7 +20,7 @@ public class NinjutsuScrollPower extends AbstractPower {
 
     public NinjutsuScrollPower(AbstractCreature owner, int amount) {
         this.name = NAME;
-        this.ID = "Dark Embrace";
+        this.ID = POWER_ID;
         this.owner = owner;
         this.amount = amount;
         updateDescription();

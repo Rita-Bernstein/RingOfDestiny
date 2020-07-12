@@ -27,6 +27,7 @@ public class ShadowMarkPower extends TwoAmountPower {
         this.owner = owner;
         this.amount = amount;
         this.amount2 = 0;
+        this.type = PowerType.DEBUFF;
         updateDescription();
         loadRegion("infiniteBlades");
     }

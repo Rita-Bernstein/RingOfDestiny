@@ -67,7 +67,7 @@ public class ShadowFlower extends CustomPlayer {
                 "RingOfDestiny/characters/ShadowFlower/shoulder2.png",
                 "RingOfDestiny/characters/ShadowFlower/shoulder.png",
                 "RingOfDestiny/characters/ShadowFlower/corpse.png",
-                getLoadout(), 0.0F, -5.0F, 240.0F, 244.0F, new EnergyManager(ENERGY_PER_TURN));
+                getLoadout(), 0.0F, -5.0F, 240.0F, 320.0F, new EnergyManager(ENERGY_PER_TURN));
 
         loadAnimation(RingOfDestiny.assetPath("characters/ShadowFlower/animation/hero_00401.atlas"), RingOfDestiny.assetPath("characters/ShadowFlower/animation/hero_00401.json"), 1.6f);
 

@@ -1,4 +1,4 @@
-package com.megacrit.cardcrawl.powers;
+package RingOfDestiny.powers;
 
 import RingOfDestiny.RingOfDestiny;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -6,6 +6,8 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.PoisonPower;
 
 public class BottlePoisonPower extends AbstractPower {
     public static final String POWER_ID = RingOfDestiny.makeID("BottlePoisonPower");

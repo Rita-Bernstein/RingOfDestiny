@@ -276,6 +276,6 @@
   },
   "RingOfDestiny:BottlePoison": {
     "NAME": "毒之瓶",
-    "DESCRIPTION": "每次使用卡牌攻击时同时给予 !M! 层 中毒。（ ring_of_destiny:影分身 有效）"
+    "DESCRIPTION": "每次使用卡牌攻击时同时给予 !M! 层 中毒。"
   }
 }

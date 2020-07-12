@@ -26,7 +26,8 @@
     "NAME": "体术秘籍",
     "DESCRIPTIONS": [
       "每打出三张 #y技能牌 ，获得 #b",
-      " 层 #y荆棘 。"
+      " 层 #y荆棘 。（已打出 #b",
+      " 出张 #y技能牌 。"
     ]
   },
   "RingOfDestiny:MakibisiPower": {
@@ -67,6 +68,13 @@
       "本回合内，每当你给予 #y中毒 时，将额外给予这名敌人等量的 #y中毒 。",
       "接下来的 #b",
       " 个回合内，每当你给予 #y中毒 时，将额外给予这名敌人等量的 #y中毒 。"
+    ]
+  },
+  "RingOfDestiny:BottlePoisonPower": {
+    "NAME": "毒之瓶",
+    "DESCRIPTIONS": [
+      "每次使用卡牌攻击时同时给予 #b",
+      " 层 #y中毒 。"
     ]
   }
 }

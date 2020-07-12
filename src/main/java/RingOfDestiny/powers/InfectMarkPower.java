@@ -27,6 +27,7 @@ public class InfectMarkPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         this.isTurnBased = true;
+        this.type = PowerType.DEBUFF;
         updateDescription();
         loadRegion("infiniteBlades");
     }

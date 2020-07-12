@@ -211,6 +211,7 @@ public class RingOfDestiny
 
 
         BaseMod.addRelicToCustomPool(new ShadowKunai(), CardColorEnum.ShadowFlower_LIME);
+        BaseMod.addRelicToCustomPool(new NinjaSuit(), CardColorEnum.ShadowFlower_LIME);
 
 
         logger.debug("receiveEditRelics finished.");
