@@ -228,8 +228,8 @@
   },
   "RingOfDestiny:DodeMudra": {
     "NAME": "结印-亥",
-    "DESCRIPTION": "获得 !B! 点 格挡 X次。所有敌人本回合失去X点 力量 。 NL 消耗。",
-    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 X+ !M! 次。所有敌人本回合失去X+ !M! 点 力量 。 NL 消耗。"
+    "DESCRIPTION": "获得 !B! 点 格挡 X次。所有敌人本回合失去X点 力量 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 X+ !M! 次。所有敌人本回合失去X+ !M! 点 力量 。 NL 消耗 。"
   },
   "RingOfDestiny:WorldOfFloweringTree": {
     "NAME": "花树界",

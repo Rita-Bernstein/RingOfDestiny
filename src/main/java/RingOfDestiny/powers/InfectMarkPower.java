@@ -15,40 +15,36 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class ShadowMarkPower extends TwoAmountPower {
-    public static final String POWER_ID = RingOfDestiny.makeID("ShadowMarkPower");
+public class InfectMarkPower extends AbstractPower {
+    public static final String POWER_ID = RingOfDestiny.makeID("InfectMarkPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
-    public ShadowMarkPower(AbstractCreature owner, int amount) {
+    public InfectMarkPower(AbstractCreature owner, int amount) {
         this.name = powerStrings.NAME;
         this.ID = POWER_ID;
         this.owner = owner;
         this.amount = amount;
-        this.amount2 = 0;
+        this.isTurnBased = true;
         updateDescription();
         loadRegion("infiniteBlades");
     }
 
+
     public void updateDescription() {
         if (this.amount > 1) {
-            this.description = powerStrings.DESCRIPTIONS[1] + this.amount + powerStrings.DESCRIPTIONS[2] + this.amount2 + powerStrings.DESCRIPTIONS[3];
+            this.description = powerStrings.DESCRIPTIONS[1] + this.amount + powerStrings.DESCRIPTIONS[2];
         } else {
-            this.description = powerStrings.DESCRIPTIONS[0] + this.amount2 + powerStrings.DESCRIPTIONS[3];
+            this.description = powerStrings.DESCRIPTIONS[0] ;
         }
     }
 
-
     @Override
-    public void atStartOfTurn() {
-        super.atStartOfTurn();
-        flash();
-        addToBot(new DamageAction(this.owner,new DamageInfo(null, this.amount2, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.SLASH_HEAVY));
-        this.amount2 = 0;
+    public void atEndOfTurn(boolean isPlayer) {
+        super.atEndOfTurn(isPlayer);
         addToBot(new ReducePowerAction(this.owner, this.owner, POWER_ID, 1));
     }
-
 }
 
 

@@ -35,12 +35,14 @@ import java.util.Properties;
 
 import RingOfDestiny.patches.*;
 import RingOfDestiny.character.*;
+import RingOfDestiny.relics.*;
 
 @SpireInitializer
 public class RingOfDestiny
         implements EditStringsSubscriber,
         EditCharactersSubscriber,
         EditCardsSubscriber,
+        EditRelicsSubscriber,
         EditKeywordsSubscriber{
 
     public static String MOD_ID = "RingOfDestiny";
@@ -76,6 +78,8 @@ public class RingOfDestiny
 
     public static Color shadowColorFix = new Color(0.473f,0.429f,0.644f,0.9F);
     public static final Color ShadowFlower_Color = new Color(0.277F,0.714F,0.617F,1.0F);
+
+
 
 
     public static final Logger logger = LogManager.getLogger(RingOfDestiny.class.getSimpleName());
@@ -175,7 +179,7 @@ public class RingOfDestiny
         cards.add(new DodeMudra());
         cards.add(new WorldOfFloweringTree());
         cards.add(new ShadowMark());
-//          感染印记
+        cards.add(new InfectMark());
         cards.add(new ForbiddenArts());
         cards.add(new Recollection());
         cards.add(new ShadowPortal());
@@ -196,6 +200,21 @@ public class RingOfDestiny
         logger.debug("receiveEditCards finished.");
     }
 
+
+
+    @Override
+    public void receiveEditRelics() {
+        logger.debug("receiveEditRelics started.");
+
+//            BaseMod.addRelic(new BadgeBless(), RelicType.SHARED);
+
+
+
+        BaseMod.addRelicToCustomPool(new ShadowKunai(), CardColorEnum.ShadowFlower_LIME);
+
+
+        logger.debug("receiveEditRelics finished.");
+    }
 
 
     private Settings.GameLanguage languageSupport()

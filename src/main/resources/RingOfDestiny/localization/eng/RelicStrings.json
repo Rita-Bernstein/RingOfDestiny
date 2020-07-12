@@ -1,9 +1,9 @@
 {
-  "WarlordEmblem:BadgeBless": {
-    "NAME": "徽章的祝福",
+  "RingOfDestiny:ShadowKunai": {
+    "NAME": "影刃",
     "FLAVOR": "来自东方国度的神秘祝福。",
     "DESCRIPTIONS": [
-      "每场战斗开始时，获得 #b1 点 #y力量 、 #y敏捷 和 #y集中 和 #y领域提升 。"
+      "每造成 #b10 点攻击伤害，回复 #g1 点生命。"
     ]
   }
 }

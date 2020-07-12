@@ -5,6 +5,7 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.*;
 import RingOfDestiny.modules.EnergyOrbCustomBlue;
 import RingOfDestiny.patches.*;
+import RingOfDestiny.relics.ShadowKunai;
 import basemod.abstracts.CustomPlayer;
 import basemod.interfaces.OnCardUseSubscriber;
 import com.badlogic.gdx.graphics.Color;
@@ -27,205 +28,205 @@ import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.relics.BurningBlood;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import com.megacrit.cardcrawl.ui.panels.energyorb.EnergyOrbBlue;
 
 import java.util.ArrayList;
 
 public class ShadowFlower extends CustomPlayer {
-	public static final CharacterStrings charStrings = CardCrawlGame.languagePack.getCharacterString(RingOfDestiny.makeID("ShadowFlower"));
+    public static final CharacterStrings charStrings = CardCrawlGame.languagePack.getCharacterString(RingOfDestiny.makeID("ShadowFlower"));
 
-	public static final int ENERGY_PER_TURN = 3;
-	public static final int START_HP = 86;
-	public static final int START_GOLD = 99;
-
-
-	public static final String[] orbTextures = {
-			"images/ui/topPanel/blue/1.png",//4
-			"images/ui/topPanel/blue/2.png",//2
-			"images/ui/topPanel/blue/3.png",//3
-			"images/ui/topPanel/blue/4.png",//5
-			"images/ui/topPanel/blue/5.png",//1
-			"images/ui/topPanel/blue/border.png",
-			"images/ui/topPanel/blue/1d.png",
-			"images/ui/topPanel/blue/2d.png",
-			"images/ui/topPanel/blue/3d.png",
-			"images/ui/topPanel/blue/4d.png",
-			"images/ui/topPanel/blue/5d.png"
-	};
-
-	public ShadowFlower(String name, PlayerClass setClass) {
-		super(name, setClass,new EnergyOrbCustomBlue(orbTextures, "images/ui/topPanel/energyBlueVFX.png"),  (String) null, null);
-		this.drawX += 5.0F * Settings.scale;
-		this.drawY += 7.0F * Settings.scale;
-
-		this.dialogX = this.drawX + 0.0F * Settings.scale;
-		this.dialogY = this.drawY + 170.0F * Settings.scale;
-
-		initializeClass(null,
-				"RingOfDestiny/characters/ShadowFlower/shoulder2.png",
-				"RingOfDestiny/characters/ShadowFlower/shoulder.png",
-				"RingOfDestiny/characters/ShadowFlower/corpse.png",
-				getLoadout(), 0.0F, -5.0F, 240.0F, 244.0F,  new EnergyManager(ENERGY_PER_TURN));
-
-		loadAnimation(RingOfDestiny.assetPath("characters/ShadowFlower/animation/hero_00401.atlas"), RingOfDestiny.assetPath("characters/ShadowFlower/animation/hero_00401.json"), 1.6f);
-
-		AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
-		this.stateData.setMix("Hit", "Idle", 0.1F);
-		e.setTime(e.getEndTime() * MathUtils.random());
-	}
+    public static final int ENERGY_PER_TURN = 3;
+    public static final int START_HP = 86;
+    public static final int START_GOLD = 99;
 
 
-	public String getPortraitImageName() {
-		return null;
-	}
+    public static final String[] orbTextures = {
+            "images/ui/topPanel/blue/1.png",//4
+            "images/ui/topPanel/blue/2.png",//2
+            "images/ui/topPanel/blue/3.png",//3
+            "images/ui/topPanel/blue/4.png",//5
+            "images/ui/topPanel/blue/5.png",//1
+            "images/ui/topPanel/blue/border.png",
+            "images/ui/topPanel/blue/1d.png",
+            "images/ui/topPanel/blue/2d.png",
+            "images/ui/topPanel/blue/3d.png",
+            "images/ui/topPanel/blue/4d.png",
+            "images/ui/topPanel/blue/5d.png"
+    };
 
-	public ArrayList<String> getStartingRelics() {
-		ArrayList<String> retVal = new ArrayList<>();
-		retVal.add(BurningBlood.ID);
-		return retVal;
-	}
+    public ShadowFlower(String name, PlayerClass setClass) {
+        super(name, setClass, new EnergyOrbCustomBlue(orbTextures, "images/ui/topPanel/energyBlueVFX.png"), (String) null, null);
+        this.drawX += 5.0F * Settings.scale;
+        this.drawY += 7.0F * Settings.scale;
 
-	public ArrayList<String> getStartingDeck() {
-		ArrayList<String> retVal = new ArrayList<>();
-		retVal.add(Defend_SF.ID);
-		retVal.add(Defend_SF.ID);
-		retVal.add(Defend_SF.ID);
+        this.dialogX = this.drawX + 0.0F * Settings.scale;
+        this.dialogY = this.drawY + 170.0F * Settings.scale;
 
-		retVal.add(Strike_SF.ID);
-		retVal.add(Strike_SF.ID);
-		retVal.add(Strike_SF.ID);
+        initializeClass(null,
+                "RingOfDestiny/characters/ShadowFlower/shoulder2.png",
+                "RingOfDestiny/characters/ShadowFlower/shoulder.png",
+                "RingOfDestiny/characters/ShadowFlower/corpse.png",
+                getLoadout(), 0.0F, -5.0F, 240.0F, 244.0F, new EnergyManager(ENERGY_PER_TURN));
 
-		retVal.add(ShadowCard.ID);
-		retVal.add(PoisonedShiv.ID);
-		retVal.add(FallenFlower.ID);
-		retVal.add(RattanBeetle.ID);
+        loadAnimation(RingOfDestiny.assetPath("characters/ShadowFlower/animation/hero_00401.atlas"), RingOfDestiny.assetPath("characters/ShadowFlower/animation/hero_00401.json"), 1.6f);
 
-		return retVal;
-	}
-
-	public CharSelectInfo getLoadout() {
-		return new CharSelectInfo(
-				getLocalizedCharacterName(),
-				charStrings.TEXT[0],
-				START_HP,
-				START_HP,
-				0,
-				START_GOLD,
-				5,
-				this,
-				getStartingRelics(),
-				getStartingDeck(),
-				false);
-	}
+        AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
+        this.stateData.setMix("Hit", "Idle", 0.1F);
+        e.setTime(e.getEndTime() * MathUtils.random());
+    }
 
 
-	@Override
-	public String getTitle(PlayerClass playerClass) {
-		return charStrings.NAMES[1];
-	}
+    public String getPortraitImageName() {
+        return null;
+    }
 
-	@Override
-	public AbstractCard.CardColor getCardColor() {
-		return CardColorEnum.ShadowFlower_LIME;
-	}
+    public ArrayList<String> getStartingRelics() {
+        ArrayList<String> retVal = new ArrayList<>();
+        retVal.add(ShadowKunai.ID);
+        return retVal;
+    }
 
-	@Override
-	public AbstractCard getStartCardForEvent() {
-		return new ShadowCard();
-	}
+    public ArrayList<String> getStartingDeck() {
+        ArrayList<String> retVal = new ArrayList<>();
+        retVal.add(Defend_SF.ID);
+        retVal.add(Defend_SF.ID);
+        retVal.add(Defend_SF.ID);
 
-	@Override
-	public Color getCardTrailColor() {
-		return Color.SKY.cpy();
-	}
+        retVal.add(Strike_SF.ID);
+        retVal.add(Strike_SF.ID);
+        retVal.add(Strike_SF.ID);
 
-	@Override
-	public int getAscensionMaxHPLoss() {
-		return 8;
-	}
+        retVal.add(ShadowCard.ID);
+        retVal.add(PoisonedShiv.ID);
+        retVal.add(FallenFlower.ID);
+        retVal.add(RattanBeetle.ID);
 
-	@Override
-	public BitmapFont getEnergyNumFont() {
-		return FontHelper.energyNumFontBlue;
-	}
+        return retVal;
+    }
 
-	@Override
-	public void doCharSelectScreenSelectEffect() {
-		CardCrawlGame.sound.playA("ATTACK_MAGIC_BEAM_SHORT", MathUtils.random(-0.2F, 0.2F));
-		CardCrawlGame.screenShake.shake(ScreenShake.ShakeIntensity.MED, ScreenShake.ShakeDur.SHORT, false);
-	}
-
-	@Override
-	public String getCustomModeCharacterButtonSoundKey() {
-		return "ATTACK_MAGIC_BEAM_SHORT";
-	}
-
-	@Override
-	public String getLocalizedCharacterName() {
-		return charStrings.NAMES[0];
-	}
-
-	@Override
-	public AbstractPlayer newInstance() {
-		return new ShadowFlower(this.name, AbstractPlayerEnum.ShadowFlower);
-	}
-
-	@Override
-	public String getSpireHeartText() {
-		return CardCrawlGame.languagePack.getEventString("RingOfDestiny:SpireHeart_ShadowFlower").DESCRIPTIONS[0];
-	}
+    public CharSelectInfo getLoadout() {
+        return new CharSelectInfo(
+                getLocalizedCharacterName(),
+                charStrings.TEXT[0],
+                START_HP,
+                START_HP,
+                0,
+                START_GOLD,
+                5,
+                this,
+                getStartingRelics(),
+                getStartingDeck(),
+                false);
+    }
 
 
+    @Override
+    public String getTitle(PlayerClass playerClass) {
+        return charStrings.NAMES[1];
+    }
 
-	@Override
-	public Color getSlashAttackColor() { return Color.SKY;}
+    @Override
+    public AbstractCard.CardColor getCardColor() {
+        return CardColorEnum.ShadowFlower_LIME;
+    }
+
+    @Override
+    public AbstractCard getStartCardForEvent() {
+        return new ShadowCard();
+    }
+
+    @Override
+    public Color getCardTrailColor() {
+        return Color.SKY.cpy();
+    }
+
+    @Override
+    public int getAscensionMaxHPLoss() {
+        return 8;
+    }
+
+    @Override
+    public BitmapFont getEnergyNumFont() {
+        return FontHelper.energyNumFontBlue;
+    }
+
+    @Override
+    public void doCharSelectScreenSelectEffect() {
+        CardCrawlGame.sound.playA("ATTACK_DAGGER_1", MathUtils.random(-0.2F, 0.2F));
+        CardCrawlGame.screenShake.shake(ScreenShake.ShakeIntensity.MED, ScreenShake.ShakeDur.SHORT, false);
+    }
+
+    @Override
+    public String getCustomModeCharacterButtonSoundKey() {
+        return "ATTACK_DAGGER_1";
+    }
+
+    @Override
+    public String getLocalizedCharacterName() {
+        return charStrings.NAMES[0];
+    }
+
+    @Override
+    public AbstractPlayer newInstance() {
+        return new ShadowFlower(this.name, AbstractPlayerEnum.ShadowFlower);
+    }
+
+    @Override
+    public String getSpireHeartText() {
+        return CardCrawlGame.languagePack.getEventString("RingOfDestiny:SpireHeart_ShadowFlower").DESCRIPTIONS[0];
+    }
 
 
-
-	@Override
-	public String getVampireText() {
-		return Vampires.DESCRIPTIONS[1];
-	}
-
-	@Override
-	public Color getCardRenderColor() {
-		return Color.SKY;
-	}
+    @Override
+    public Color getSlashAttackColor() {
+        return Color.SKY;
+    }
 
 
-	@Override
-	public AbstractGameAction.AttackEffect[] getSpireHeartSlashEffect() {
-		return new AbstractGameAction.AttackEffect[] { AbstractGameAction.AttackEffect.SLASH_HEAVY, AbstractGameAction.AttackEffect.FIRE, AbstractGameAction.AttackEffect.SLASH_DIAGONAL, AbstractGameAction.AttackEffect.SLASH_HEAVY, AbstractGameAction.AttackEffect.FIRE, AbstractGameAction.AttackEffect.SLASH_DIAGONAL
-		};
-	}
+    @Override
+    public String getVampireText() {
+        return Vampires.DESCRIPTIONS[1];
+    }
 
-	public void damage(DamageInfo info) {
-		if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output - this.currentBlock > 0) {
-			AnimationState.TrackEntry e = this.state.setAnimation(0, "Hit", false);
-			this.state.addAnimation(0, "Idle", true, 0.0F);
-			e.setTimeScale(1.0F);}
-
-		super.damage(info);
-	}
+    @Override
+    public Color getCardRenderColor() {
+        return Color.SKY;
+    }
 
 
-	@Override
-	public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
-		super.useCard(c, monster, energyOnUse);
-				if (c.type == AbstractCard.CardType.ATTACK) {
-					AbstractDungeon.player.state.setAnimation(0, "gongji_1", true);
-					AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
-				}
-				if (c.type == AbstractCard.CardType.SKILL) {
-					AbstractDungeon.player.state.setAnimation(0, "fashu", true);
-					AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
-				}
-				if (c.type == AbstractCard.CardType.POWER) {
-					AbstractDungeon.player.state.setAnimation(0, "zhuangbei", true);
-					AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
-				}
-	}
+    @Override
+    public AbstractGameAction.AttackEffect[] getSpireHeartSlashEffect() {
+        return new AbstractGameAction.AttackEffect[]{AbstractGameAction.AttackEffect.SLASH_HEAVY, AbstractGameAction.AttackEffect.FIRE, AbstractGameAction.AttackEffect.SLASH_DIAGONAL, AbstractGameAction.AttackEffect.SLASH_HEAVY, AbstractGameAction.AttackEffect.FIRE, AbstractGameAction.AttackEffect.SLASH_DIAGONAL
+        };
+    }
+
+    public void damage(DamageInfo info) {
+        if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output - this.currentBlock > 0) {
+            AnimationState.TrackEntry e = this.state.setAnimation(0, "Hit", false);
+            this.state.addAnimation(0, "Idle", true, 0.0F);
+            e.setTimeScale(1.0F);
+        }
+
+        super.damage(info);
+    }
+
+
+    @Override
+    public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
+        super.useCard(c, monster, energyOnUse);
+        if (c.type == AbstractCard.CardType.ATTACK) {
+            AbstractDungeon.player.state.setAnimation(0, "gongji_1", true);
+            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+        }
+        if (c.type == AbstractCard.CardType.SKILL) {
+            AbstractDungeon.player.state.setAnimation(0, "fashu", true);
+            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+        }
+        if (c.type == AbstractCard.CardType.POWER) {
+            AbstractDungeon.player.state.setAnimation(0, "zhuangbei", true);
+            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+        }
+    }
 }
 
