@@ -8,5 +8,12 @@
     "TEXT": [
       "我的手牌中还有非技能牌。"
     ]
+  },
+  "RingOfDestiny:EtchPhantomAction": {
+    "TEXT": [
+      "将一张牌复制到手牌",
+      "将",
+      " 张牌复制到手牌"
+    ]
   }
 }

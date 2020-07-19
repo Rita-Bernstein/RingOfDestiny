@@ -389,8 +389,8 @@
   },
   "RingOfDestiny:EtchPhantom": {
     "NAME": "刻印-幻灵",
-    "DESCRIPTION": "从抽牌堆中选择一张牌，将其复制品加入手牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "从抽牌堆中选择一张牌，将其复制品加入手牌。"
+    "DESCRIPTION": "从抽牌堆中选择 !M! 张牌，将其复制品加入手牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "从抽牌堆中选择 !M! 张牌，将其复制品加入手牌。"
   },
   "RingOfDestiny:SolidEtch": {
     "NAME": "固态刻印",

@@ -289,6 +289,8 @@ public class RingOfDestiny
         cards.add(new PhantasmalAssailants());
         cards.add(new InitialBullet());
         cards.add(new BloodyLeakage());
+        cards.add(new EtchPhantom());
+        cards.add(new SolidEtch());
 
 
 
