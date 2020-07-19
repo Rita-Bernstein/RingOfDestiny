@@ -291,6 +291,35 @@ public class RingOfDestiny
         cards.add(new BloodyLeakage());
         cards.add(new EtchPhantom());
         cards.add(new SolidEtch());
+//　　　　　零之弹
+//        余音
+        cards.add(new RestraintRing());
+//        弹反
+        cards.add(new NimbleShield());
+        cards.add(new InnerFocus());
+        cards.add(new DanceOfDeath());
+        cards.add(new Nightmare());
+        cards.add(new Illusion());
+        cards.add(new Strafing());
+        cards.add(new CurtainOfNight());
+//      凋零
+//        誓言
+//        绝望
+        cards.add(new RapidFire());
+        cards.add(new SleepingBullet());
+        cards.add(new TrackingBullet());
+
+//      白夜
+//      黑夜
+        cards.add(new Underhand());
+//      末日标记
+        cards.add(new SecretAmmunition());
+        cards.add(new LethalTwins());
+        cards.add(new LoomingDeath());
+
+
+
+
 
 
 

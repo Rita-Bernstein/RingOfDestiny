@@ -431,7 +431,7 @@
   },
   "RingOfDestiny:Nightmare": {
     "NAME": "梦魇",
-    "DESCRIPTION": "固有 。给予 !M! 层 随机给予敌人 ring_of_destiny:死亡刻印 。 NL 消耗 。"
+    "DESCRIPTION": "固有 。给予敌人 !M! 层 ring_of_destiny:死亡刻印 。 NL 消耗 。"
   },
   "RingOfDestiny:Illusion": {
     "NAME": "幻化",

@@ -85,5 +85,21 @@
       " 生命。当前这个敌人有 #b",
       " 层 。"
     ]
+  },
+  "RingOfDestiny:LethalTwinsPower": {
+    "NAME": "致命双枪",
+    "DESCRIPTIONS": [
+      "在这个回合，你打出的下一张 #y技能牌 会打出两次。",
+      "在这个回合，你打出的下 ",
+      " 张 #y机能牌 会打出两次。"
+    ]
+  },
+  "RingOfDestiny:LoomingDeathPower": {
+    "NAME": "死神降临",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，获得 #b",
+      " 点 #y力量 和 #b",
+      " 点 #y敏捷 。"
+    ]
   }
 }
