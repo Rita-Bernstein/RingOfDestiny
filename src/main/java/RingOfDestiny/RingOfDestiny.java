@@ -316,9 +316,15 @@ public class RingOfDestiny
         cards.add(new SecretAmmunition());
         cards.add(new LethalTwins());
         cards.add(new LoomingDeath());
-
-
-
+        cards.add(new TimingBreath());
+        cards.add(new VolleyBullet());
+//      高压
+//        吸取
+        cards.add(new Demise());
+        cards.add(new BlackFuneral());
+        cards.add(new MoonCurtain());
+//      起源仪式
+        cards.add(new Elegance());
 
 
 

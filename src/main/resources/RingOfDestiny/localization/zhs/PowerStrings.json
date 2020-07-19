@@ -101,5 +101,21 @@
       " 点 #y力量 和 #b",
       " 点 #y敏捷 。"
     ]
+  },
+  "RingOfDestiny:NightPendantPower": {
+    "NAME": "幻夜吊坠",
+    "DESCRIPTIONS": [
+      "每当有一张牌被 #y消耗 时，获得 #b1 点 #y敏捷 。",
+      "每当有一张牌被 #y消耗 时，获得 #b",
+      " 点 #y敏捷 。"
+    ]
+  },
+  "RingOfDestiny:ElegancePower": {
+    "NAME": "夜之优雅",
+    "DESCRIPTIONS": [
+      "你的回合开始时，将 #b1 张随机 #y技能牌 加入你的手牌。",
+      "你的回合开始时，将 #b",
+      " 张随机 #y技能牌 加入你的手牌。"
+    ]
   }
 }

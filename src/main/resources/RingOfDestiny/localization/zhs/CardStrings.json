@@ -497,16 +497,16 @@
   },
   "RingOfDestiny:LoomingDeath": {
     "NAME": "死神降临",
-    "DESCRIPTION": "每回合开始时，获得 !ROSecondM! 点 力量 和 !M! 点 敏捷 。"
+    "DESCRIPTION": "每回合开始时， NL 获得 !RODSecondM! 点 力量 和 !M! 点 敏捷 。"
   },
   "RingOfDestiny:TimingBreath": {
     "NAME": "呼吸调整",
-    "DESCRIPTION": "获得 [E] 并抽 !M! 张牌。每有 !ROSecondM! 点 敏捷 额外抽一张牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得 [E] [E] 并抽 !M! 张牌。每有 !ROSecondM! 点 敏捷 额外抽一张牌。 NL 消耗 。"
+    "DESCRIPTION": "获得 [E] 并抽 !M! 张牌。每有 !RODSecondM! 点 敏捷 额外抽一张牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] 并抽 !M! 张牌。每有 !RODSecondM! 点 敏捷 额外抽一张牌。 NL 消耗 。"
   },
-  "RingOfDestiny:Volley": {
+  "RingOfDestiny:VolleyBullet": {
     "NAME": "魔弹连射",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。每有 !ROSecondM! 点 敏捷 额外攻击一次。"
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。每有 !RODSecondM! 点 敏捷 额外攻击一次。"
   },
   "RingOfDestiny:PressuredBullet": {
     "NAME": "高压魔弹",
@@ -522,7 +522,7 @@
   },
   "RingOfDestiny:BlackFuneral": {
     "NAME": "黑色葬礼",
-    "DESCRIPTION": "消耗 手牌，每 消耗 一张牌，获得 [E] 并抽 !M! 张牌。 NL 消耗 。"
+    "DESCRIPTION": "消耗 所有手牌。 NL 每 消耗 一张牌，获得 [E] 并抽 !M! 张牌。 NL 消耗 。"
   },
   "RingOfDestiny:MoonCurtain": {
     "NAME": "月色帷幕",
@@ -539,7 +539,7 @@
   },
   "RingOfDestiny:Elegance": {
     "NAME": "夜之优雅",
-    "DESCRIPTION": "每回合开始时，将一张随机技能牌加入手牌。"
+    "DESCRIPTION": "每回合开始时，将 !M! 张随机技能牌加入手牌。"
   },
 
 
