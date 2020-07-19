@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.PoisonPower;
 
 
-public class GasBombPowerPatch {
+public class ChangeApplyPowerPatch {
     public static boolean extraPoisonApplyed = false;
     @SpirePatch(
             clz = ApplyPowerAction.class,

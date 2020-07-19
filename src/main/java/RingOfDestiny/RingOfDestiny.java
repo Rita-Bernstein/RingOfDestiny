@@ -1,5 +1,7 @@
 package RingOfDestiny;
 
+import RingOfDestiny.cards.MagicBullet.Defend_MB;
+import RingOfDestiny.cards.MagicBullet.Strike_MB;
 import RingOfDestiny.cards.ShadowFlower.*;
 import RingOfDestiny.helpers.SecondaryMagicVariable;
 import basemod.BaseMod;
@@ -77,7 +79,12 @@ public class RingOfDestiny
     public static Properties RingOfDestinyDefaults = new Properties();
 
     public static Color shadowColorFix = new Color(0.473f,0.429f,0.644f,0.9F);
+
     public static final Color ShadowFlower_Color = new Color(0.277F,0.714F,0.617F,1.0F);
+    public static final Color MagicBullet_Color = new Color(0.796F,0.273F,0.277F,1.0F);
+    public static final Color Purchemist_Color = new Color(0.57F,0.277F,0.695F,1.0F);
+    public static final Color Inherit_Color = new Color(0.246F,0.566F,0.839F,1.0F);
+    public static final Color Summoner_Color = Inherit_Color;//new Color(0.796F,0.273F,0.273F,1.0F);
 
 
 
@@ -99,7 +106,61 @@ public class RingOfDestiny
                 assetPath("img/cardui/ShadowFlower/1024/bg_power_lime.png"),
                 assetPath("img/cardui/ShadowFlower/1024/card_lime_orb.png"),
                 assetPath("img/cardui/ShadowFlower/512/card_lime_small_orb.png"));
+
+
+
+        BaseMod.addColor(CardColorEnum.MagicBullet_LIME,
+                MagicBullet_Color,  MagicBullet_Color,  MagicBullet_Color,  MagicBullet_Color,  MagicBullet_Color,  MagicBullet_Color, MagicBullet_Color,
+                assetPath("img/cardui/MagicBullet/512/bg_attack_lime.png"),
+                assetPath("img/cardui/MagicBullet/512/bg_skill_lime.png"),
+                assetPath("img/cardui/MagicBullet/512/bg_power_lime.png"),
+                assetPath("img/cardui/MagicBullet/512/card_lime_orb.png"),
+                assetPath("img/cardui/MagicBullet/1024/bg_attack_lime.png"),
+                assetPath("img/cardui/MagicBullet/1024/bg_skill_lime.png"),
+                assetPath("img/cardui/MagicBullet/1024/bg_power_lime.png"),
+                assetPath("img/cardui/MagicBullet/1024/card_lime_orb.png"),
+                assetPath("img/cardui/MagicBullet/512/card_lime_small_orb.png"));
+
+        BaseMod.addColor(CardColorEnum.Purchemist_LIME,
+                Purchemist_Color,  Purchemist_Color,  Purchemist_Color,  Purchemist_Color,  Purchemist_Color,  Purchemist_Color, Purchemist_Color,
+                assetPath("img/cardui/Purchemist/512/bg_attack_lime.png"),
+                assetPath("img/cardui/Purchemist/512/bg_skill_lime.png"),
+                assetPath("img/cardui/Purchemist/512/bg_power_lime.png"),
+                assetPath("img/cardui/Purchemist/512/card_lime_orb.png"),
+                assetPath("img/cardui/Purchemist/1024/bg_attack_lime.png"),
+                assetPath("img/cardui/Purchemist/1024/bg_skill_lime.png"),
+                assetPath("img/cardui/Purchemist/1024/bg_power_lime.png"),
+                assetPath("img/cardui/Purchemist/1024/card_lime_orb.png"),
+                assetPath("img/cardui/Purchemist/512/card_lime_small_orb.png"));
+
+        BaseMod.addColor(CardColorEnum.Inherit_LIME,
+                Inherit_Color,  Inherit_Color,  Inherit_Color,  Inherit_Color,  Inherit_Color,  Inherit_Color, Inherit_Color,
+                assetPath("img/cardui/Inherit/512/bg_attack_lime.png"),
+                assetPath("img/cardui/Inherit/512/bg_skill_lime.png"),
+                assetPath("img/cardui/Inherit/512/bg_power_lime.png"),
+                assetPath("img/cardui/Inherit/512/card_lime_orb.png"),
+                assetPath("img/cardui/Inherit/1024/bg_attack_lime.png"),
+                assetPath("img/cardui/Inherit/1024/bg_skill_lime.png"),
+                assetPath("img/cardui/Inherit/1024/bg_power_lime.png"),
+                assetPath("img/cardui/Inherit/1024/card_lime_orb.png"),
+                assetPath("img/cardui/Inherit/512/card_lime_small_orb.png"));
+
+        BaseMod.addColor(CardColorEnum.Summoner_LIME,
+                Summoner_Color,  Summoner_Color,  Summoner_Color,  Summoner_Color,  Summoner_Color,  Summoner_Color, Summoner_Color,
+                assetPath("img/cardui/Summoner/512/bg_attack_lime.png"),
+                assetPath("img/cardui/Summoner/512/bg_skill_lime.png"),
+                assetPath("img/cardui/Summoner/512/bg_power_lime.png"),
+                assetPath("img/cardui/Summoner/512/card_lime_orb.png"),
+                assetPath("img/cardui/Summoner/1024/bg_attack_lime.png"),
+                assetPath("img/cardui/Summoner/1024/bg_skill_lime.png"),
+                assetPath("img/cardui/Summoner/1024/bg_power_lime.png"),
+                assetPath("img/cardui/Summoner/1024/card_lime_orb.png"),
+                assetPath("img/cardui/Summoner/512/card_lime_small_orb.png"));
+
+
     }
+
+
 
     @SuppressWarnings("unused")
     public static void initialize() {
@@ -113,6 +174,9 @@ public class RingOfDestiny
 
         logger.info(ShadowFlower.charStrings.NAMES[1]);
         BaseMod.addCharacter(new ShadowFlower(ShadowFlower.charStrings.NAMES[1],AbstractPlayerEnum.ShadowFlower),assetPath("characters/ShadowFlower/Button.png"),assetPath("characters/ShadowFlower/portrait.png"),AbstractPlayerEnum.ShadowFlower);
+
+        logger.info(MagicBullet.charStrings.NAMES[1]);
+        BaseMod.addCharacter(new MagicBullet(MagicBullet.charStrings.NAMES[1],AbstractPlayerEnum.MagicBullet),assetPath("characters/MagicBullet/Button.png"),assetPath("characters/MagicBullet/portrait.png"),AbstractPlayerEnum.MagicBullet);
 
     }
 
@@ -190,7 +254,8 @@ public class RingOfDestiny
         cards.add(new NinjutsuScroll());
         cards.add(new BottlePoison());
 
-
+        cards.add(new Defend_MB());
+        cards.add(new Strike_MB());
 
         for (CustomCard card : cards) {
             BaseMod.addCard(card);

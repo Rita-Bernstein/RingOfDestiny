@@ -6,4 +6,12 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 public class CardColorEnum {
 	@SpireEnum
 	public static AbstractCard.CardColor ShadowFlower_LIME;
+	@SpireEnum
+	public static AbstractCard.CardColor MagicBullet_LIME;
+	@SpireEnum
+	public static AbstractCard.CardColor Purchemist_LIME;
+	@SpireEnum
+	public static AbstractCard.CardColor Inherit_LIME;
+	@SpireEnum
+	public static AbstractCard.CardColor Summoner_LIME;
 }
