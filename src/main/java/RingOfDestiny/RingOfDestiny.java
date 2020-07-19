@@ -272,7 +272,13 @@ public class RingOfDestiny
         cards.add(new DeathLeakage());
         cards.add(new BlastBullet());
         cards.add(new DarkShield());
-
+        cards.add(new QuickDraw());
+//        刻印结界
+        cards.add(new BlackLight());
+        cards.add(new Crimson());
+        cards.add(new Flash());
+        cards.add(new DevilKiss());
+        cards.add(new Determination());
 
 
 
