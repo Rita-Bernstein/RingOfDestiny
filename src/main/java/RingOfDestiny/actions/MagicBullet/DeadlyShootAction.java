@@ -13,8 +13,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
 
 
-public class DeadlyShootAction
-        extends AbstractGameAction {
+public class DeadlyShootAction extends AbstractGameAction {
     private int energyGainAmt;
     private DamageInfo info;
     private AbstractCard cardForReturn;

@@ -365,7 +365,7 @@
   },
   "RingOfDestiny:CovertOperation": {
     "NAME": "隐秘行动",
-    "DESCRIPTION": "造成 !D! 点伤害。丢弃并抽 !M! 张牌。"
+    "DESCRIPTION": "造成 !D! 点伤害。丢弃 !M! 张牌，抽 !M! 张牌。"
   },
   "RingOfDestiny:GrowBullet": {
     "NAME": "成长弹",
@@ -385,7 +385,7 @@
   },
   "RingOfDestiny:BloodyLeakage": {
     "NAME": "鲜血绽放",
-    "DESCRIPTION": "失去 !B! 生命。给予 !M! 层 ring_of_destiny:死亡刻印 。本场战斗每打出一次，这张牌失去的生命减少1。"
+    "DESCRIPTION": "失去 !RODSecondM! 点生命。给予 !M! 层 ring_of_destiny:死亡刻印 。本场战斗每打出一次，这张牌失去的生命减少1。"
   },
   "RingOfDestiny:EtchPhantom": {
     "NAME": "刻印-幻灵",

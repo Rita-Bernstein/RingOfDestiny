@@ -284,6 +284,11 @@ public class RingOfDestiny
         cards.add(new OriginBullet());
         cards.add(new ForgeBullet());
         cards.add(new CovertOperation());
+        cards.add(new GrowBullet());
+        cards.add(new DeathTrack());
+        cards.add(new PhantasmalAssailants());
+        cards.add(new InitialBullet());
+        cards.add(new BloodyLeakage());
 
 
 

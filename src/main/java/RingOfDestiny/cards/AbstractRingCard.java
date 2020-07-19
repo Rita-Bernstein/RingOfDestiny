@@ -34,6 +34,13 @@ public abstract class AbstractRingCard extends CustomCard {
         this.upgradesecondaryM = true;
     }
 
+    public void sefeChangeSecondM(int amount) {
+        this.baseSecondaryM += amount;
+        if (this.baseSecondaryM < 0) this.baseSecondaryM = 0;
+        this.secondaryM = this.baseSecondaryM;
+        this.upgradesecondaryM = true;
+    }
+
     protected AbstractCard returnNonSoleCommonCard() {
         ArrayList<AbstractCard> returnCard = new ArrayList<AbstractCard>();
         for (AbstractCard c : AbstractDungeon.srcCommonCardPool.group) {
