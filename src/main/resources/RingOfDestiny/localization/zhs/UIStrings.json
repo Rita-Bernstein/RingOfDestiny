@@ -3,5 +3,10 @@
     "TEXT": [
       "丢弃手牌并获得弃牌数的能量"
     ]
+  },
+  "RingOfDestiny:SkillCardOnly": {
+    "TEXT": [
+      "我的手牌中还有非技能牌。"
+    ]
   }
 }

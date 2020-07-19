@@ -1,7 +1,6 @@
 package RingOfDestiny;
 
-import RingOfDestiny.cards.MagicBullet.Defend_MB;
-import RingOfDestiny.cards.MagicBullet.Strike_MB;
+import RingOfDestiny.cards.MagicBullet.*;
 import RingOfDestiny.cards.ShadowFlower.*;
 import RingOfDestiny.helpers.SecondaryMagicVariable;
 import basemod.BaseMod;
@@ -188,6 +187,11 @@ public class RingOfDestiny
 
         logger.debug("receiveEditCards started.");
         List<CustomCard> cards = new ArrayList<>();
+
+
+// ======================
+// ======================
+// ======================暗影之花
         cards.add(new Defend_SF());
         cards.add(new Strike_SF());
         cards.add(new ShadowCard());
@@ -254,8 +258,26 @@ public class RingOfDestiny
         cards.add(new NinjutsuScroll());
         cards.add(new BottlePoison());
 
+
+
+// ======================
+// ======================
+// ======================魔弹射手
         cards.add(new Defend_MB());
         cards.add(new Strike_MB());
+        cards.add(new DeadlyShoot());
+//        刻印之灵
+        cards.add(new Potential());
+        cards.add(new BreakBullet());
+        cards.add(new DeathLeakage());
+        cards.add(new BlastBullet());
+        cards.add(new DarkShield());
+
+
+
+
+
+
 
         for (CustomCard card : cards) {
             BaseMod.addCard(card);

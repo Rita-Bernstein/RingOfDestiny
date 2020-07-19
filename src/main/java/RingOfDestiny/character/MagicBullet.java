@@ -90,12 +90,13 @@ public class MagicBullet extends CustomPlayer {
     public ArrayList<String> getStartingDeck() {
         ArrayList<String> retVal = new ArrayList<>();
         retVal.add(Defend_MB.ID);
-        retVal.add(Defend_MB.ID);
-        retVal.add(Defend_MB.ID);
 
         retVal.add(Strike_MB.ID);
         retVal.add(Strike_MB.ID);
         retVal.add(Strike_MB.ID);
+
+        retVal.add(DeathLeakage.ID);
+        retVal.add(DeathLeakage.ID);
 
         return retVal;
     }
@@ -128,7 +129,7 @@ public class MagicBullet extends CustomPlayer {
 
     @Override
     public AbstractCard getStartCardForEvent() {
-        return new Defend_MB();
+        return new DeathLeakage();
     }
 
     @Override
