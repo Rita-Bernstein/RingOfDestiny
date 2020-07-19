@@ -279,6 +279,11 @@ public class RingOfDestiny
         cards.add(new Flash());
         cards.add(new DevilKiss());
         cards.add(new Determination());
+        cards.add(new TestBullet());
+        cards.add(new AmmoRain());
+        cards.add(new OriginBullet());
+        cards.add(new ForgeBullet());
+        cards.add(new CovertOperation());
 
 
 

@@ -350,7 +350,7 @@
     "NAME": "试验魔弹",
     "DESCRIPTION": "造成 !D! 点伤害，本场战斗每打出一次，其耗能增加 !M! 。"
   },
-  "RingOfDestiny:Barrage": {
+  "RingOfDestiny:AmmoRain": {
     "NAME": "弹雨",
     "DESCRIPTION": "对所有敌人造成 !D! 点伤害。每有 !M! 点 敏捷 额外攻击一次。"
   },
@@ -362,6 +362,10 @@
     "NAME": "魔弹作成",
     "DESCRIPTION": "将 !M! 张 *起源弹 加入你的手牌。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "将 !M! 张 *起源弹+ 加入你的手牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:CovertOperation": {
+    "NAME": "隐秘行动",
+    "DESCRIPTION": "造成 !D! 点伤害。丢弃并抽 !M! 张牌。"
   },
   "RingOfDestiny:GrowBullet": {
     "NAME": "成长弹",

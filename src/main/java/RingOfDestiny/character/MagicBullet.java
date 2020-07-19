@@ -97,6 +97,7 @@ public class MagicBullet extends CustomPlayer {
 
         retVal.add(DeathLeakage.ID);
         retVal.add(DeathLeakage.ID);
+        retVal.add(DarkShield.ID);
 
         return retVal;
     }
