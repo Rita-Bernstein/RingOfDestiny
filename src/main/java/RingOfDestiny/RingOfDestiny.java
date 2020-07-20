@@ -295,6 +295,7 @@ public class RingOfDestiny
 //        余音
         cards.add(new RestraintRing());
         cards.add(new EtchReflection());
+        cards.add(new Reload());
         cards.add(new NimbleShield());
         cards.add(new InnerFocus());
         cards.add(new DanceOfDeath());
@@ -317,11 +318,12 @@ public class RingOfDestiny
         cards.add(new LoomingDeath());
         cards.add(new TimingBreath());
         cards.add(new VolleyBullet());
-//      高压
-//        吸取
+        cards.add(new PressuredBullet());
+        cards.add(new MagicAbsorb());
         cards.add(new Demise());
         cards.add(new BlackFuneral());
         cards.add(new MoonCurtain());
+        cards.add(new NightPendant());
 //      起源仪式
         cards.add(new Elegance());
 

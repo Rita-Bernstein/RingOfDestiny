@@ -26,7 +26,7 @@ public class NightPendant extends AbstractRingCard {
 	private static final int COST = 3;
 	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
 	private static final CardType TYPE = CardType.POWER;
-	private static final CardColor COLOR = CardColorEnum.ShadowFlower_LIME;
+	private static final CardColor COLOR = CardColorEnum.MagicBullet_LIME;
 	private static final CardRarity RARITY = CardRarity.RARE;
 	private static final CardTarget TARGET = CardTarget.SELF;
 
