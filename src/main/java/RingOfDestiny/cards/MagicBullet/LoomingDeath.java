@@ -13,6 +13,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.DemonFormPower;
 import com.megacrit.cardcrawl.powers.DoubleTapPower;
 
 public class LoomingDeath extends AbstractRingCard {
@@ -34,7 +35,8 @@ public class LoomingDeath extends AbstractRingCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ApplyPowerAction(p, p, new LoomingDeathPower(p, this.secondaryM, this.magicNumber),this.secondaryM));
+        addToBot(new ApplyPowerAction(p, p, new DemonFormPower(p, this.secondaryM),this.secondaryM));
+        addToBot(new ApplyPowerAction(p, p, new LoomingDeathPower(p, this.magicNumber),this.magicNumber));
     }
 
     public AbstractCard makeCopy() {

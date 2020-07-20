@@ -40,13 +40,13 @@ public class EtchPower extends TwoAmountPower implements CloneablePowerInterface
     @Override
     public void onInitialApplication() {
         super.onInitialApplication();
-        triggerOrochi();
+        triggerEtch();
     }
 
     @Override
     public void stackPower(int stackAmount) {
         super.stackPower(stackAmount);
-        triggerOrochi();
+        triggerEtch();
     }
 
     @Override
@@ -54,15 +54,17 @@ public class EtchPower extends TwoAmountPower implements CloneablePowerInterface
         this.description = DESCRIPTIONS[0] + this.amount2 + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2];
     }
 
-    public void triggerOrochi() {
+    public void triggerEtch() {
         if (this.amount >= limite) {
-            for (int i = limite; this.amount >= i; ) {
-
+            for (int i = limite; i <= this.amount; ) {
                 //扣血
+                flash();
                 addToBot(new LoseHPAction(this.owner, null, this.amount2, AbstractGameAction.AttackEffect.FIRE));
                 this.amount -= i;
             }
         }
+
+        if (this.amount <= 0) addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, EtchPower.POWER_ID));
     }
 
 

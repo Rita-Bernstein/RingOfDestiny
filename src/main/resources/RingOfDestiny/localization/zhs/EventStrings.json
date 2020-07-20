@@ -6,5 +6,13 @@
   ],
   "OPTIONS": [
   ]
-}
+},
+  "RingOfDestiny:SpireHeart_MagicBullet": {
+    "NAME": "Spire Heart",
+    "DESCRIPTIONS": [
+      "NL 你将充满了手里剑用尽全力挥舞……"
+    ],
+    "OPTIONS": [
+    ]
+  }
 }

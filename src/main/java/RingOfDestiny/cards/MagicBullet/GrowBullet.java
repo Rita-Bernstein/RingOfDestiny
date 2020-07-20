@@ -32,23 +32,27 @@ public class GrowBullet extends AbstractRingCard {
 
     public GrowBullet() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseDamage = 0;
+        this.misc = 0;
+        this.baseDamage = this.misc;
         this.magicNumber = this.baseMagicNumber = 2;
         this.exhaust = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
 		addToBot(new GrowBulletAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), this.magicNumber, this.uuid));
-        initializeDescription();
     }
 
 
     public void applyPowers() {
-        this.baseDamage = AbstractDungeon.player.discardPile.size();
+        this.baseDamage = AbstractDungeon.player.discardPile.size() + this.misc;
         super.applyPowers();
-        initializeDescription();
     }
 
+    @Override
+    public void calculateCardDamage(AbstractMonster mo) {
+        this.baseDamage = AbstractDungeon.player.discardPile.size() + this.misc;
+        super.calculateCardDamage(mo);
+    }
 
     public AbstractCard makeCopy() {
         return new GrowBullet();

@@ -174,7 +174,7 @@ public class ShadowFlower extends CustomPlayer {
 
     @Override
     public String getSpireHeartText() {
-        return CardCrawlGame.languagePack.getEventString("RingOfDestiny:SpireHeart_ShadowFlower").DESCRIPTIONS[0];
+        return CardCrawlGame.languagePack.getEventString(RingOfDestiny.makeID("SpireHeart_ShadowFlower")).DESCRIPTIONS[0];
     }
 
 

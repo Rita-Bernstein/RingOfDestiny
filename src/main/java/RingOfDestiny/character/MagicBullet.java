@@ -174,7 +174,7 @@ public class MagicBullet extends CustomPlayer {
 
     @Override
     public String getSpireHeartText() {
-        return CardCrawlGame.languagePack.getEventString("RingOfDestiny:SpireHeart_MagicBullet").DESCRIPTIONS[0];
+        return CardCrawlGame.languagePack.getEventString(RingOfDestiny.makeID("SpireHeart_MagicBullet")).DESCRIPTIONS[0];
     }
 
 

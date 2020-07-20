@@ -4,6 +4,7 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import RingOfDestiny.patches.CustomTagsEnum;
+import RingOfDestiny.powers.EtchPower;
 import basemod.abstracts.CustomCard;
 import basemod.helpers.BaseModCardTags;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -39,7 +40,7 @@ public class TrackingBullet extends AbstractRingCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
-        if (m.hasPower(DexterityPower.POWER_ID))
+        if (m.hasPower(EtchPower.POWER_ID))
             addToBot(new ApplyPowerAction(p, p, new DexterityPower(p, this.magicNumber), this.magicNumber));
     }
 

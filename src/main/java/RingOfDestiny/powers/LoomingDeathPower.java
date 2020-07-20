@@ -17,37 +17,30 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.DexterityPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 
-public class LoomingDeathPower extends TwoAmountPower {
+public class LoomingDeathPower extends AbstractPower {
     public static final String POWER_ID = RingOfDestiny.makeID("LoomingDeathPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
-    public LoomingDeathPower(AbstractCreature owner, int amount, int amount2) {
+    public LoomingDeathPower(AbstractCreature owner, int amount) {
         this.name = powerStrings.NAME;
         this.ID = POWER_ID;
         this.owner = owner;
         this.amount = amount;
-        this.amount2 = amount2;
         updateDescription();
         loadRegion("demonForm");
     }
 
 
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount2 + DESCRIPTIONS[2];
+        this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
     }
 
-    @Override
-    public void stackPower(int stackAmount) {
-        super.stackPower(stackAmount);
-        this.amount2 += stackAmount;
-    }
 
     public void atStartOfTurnPostDraw() {
         flash();
-        addToBot(new ApplyPowerAction(this.owner, this.owner, new StrengthPower(this.owner, this.amount), this.amount));
-        addToBot(new ApplyPowerAction(this.owner, this.owner, new DexterityPower(this.owner, this.amount2), this.amount2));
+        addToBot(new ApplyPowerAction(this.owner, this.owner, new DexterityPower(this.owner, this.amount), this.amount));
     }
 }
 
