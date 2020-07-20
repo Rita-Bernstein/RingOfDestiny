@@ -302,17 +302,16 @@ public class RingOfDestiny
         cards.add(new Illusion());
         cards.add(new Strafing());
         cards.add(new CurtainOfNight());
-//      凋零
-//        誓言
-//        绝望
+        cards.add(new Apoptosis());
+        cards.add(new OathOfBlood());
+        cards.add(new FlowerOfDespair());
         cards.add(new RapidFire());
         cards.add(new SleepingBullet());
         cards.add(new TrackingBullet());
-
-//      白夜
-//      黑夜
+        cards.add(new Prelude());
+        cards.add(new Epilogue());
         cards.add(new Underhand());
-//      末日标记
+        cards.add(new DoomsdayMark());
         cards.add(new SecretAmmunition());
         cards.add(new LethalTwins());
         cards.add(new LoomingDeath());

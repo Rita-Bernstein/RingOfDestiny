@@ -40,29 +40,38 @@ public class EtchPower extends TwoAmountPower implements CloneablePowerInterface
     @Override
     public void onInitialApplication() {
         super.onInitialApplication();
-        if(AbstractDungeon.player.hasPower(EtchSpiritPower.POWER_ID))
-            this.amount2 = 30 + AbstractDungeon.player.getPower(EtchSpiritPower.POWER_ID).amount;
+        calculateDamage();
         triggerEtch();
     }
 
     @Override
     public void onApplyPower(AbstractPower power, AbstractCreature target, AbstractCreature source) {
         super.onApplyPower(power, target, source);
-        if(AbstractDungeon.player.hasPower(EtchSpiritPower.POWER_ID))
-            this.amount2 = 30 + AbstractDungeon.player.getPower(EtchSpiritPower.POWER_ID).amount;
+        calculateDamage();
     }
 
     @Override
     public void stackPower(int stackAmount) {
         super.stackPower(stackAmount);
-        if(AbstractDungeon.player.hasPower(EtchSpiritPower.POWER_ID))
-            this.amount2 = 30 + AbstractDungeon.player.getPower(EtchSpiritPower.POWER_ID).amount;
+        calculateDamage();
         triggerEtch();
     }
 
     @Override
-    public void updateDescription() {
-        this.description = DESCRIPTIONS[0] + this.amount2 + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2];
+    public void atStartOfTurn() {
+        super.atStartOfTurn();
+        calculateDamage();
+    }
+
+    public void calculateDamage(){
+        if(AbstractDungeon.player.hasPower(EtchSpiritPower.POWER_ID)){
+            this.amount2 = 30 + AbstractDungeon.player.getPower(EtchSpiritPower.POWER_ID).amount;
+        }else {
+            this.amount2 = 30;
+        }
+
+        if(AbstractDungeon.player.hasPower(DoubleEtchDamagePower.POWER_ID))
+            this.amount2 *= 2;
     }
 
     public void triggerEtch() {
@@ -78,6 +87,11 @@ public class EtchPower extends TwoAmountPower implements CloneablePowerInterface
         if (this.amount <= 0) addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, EtchPower.POWER_ID));
     }
 
+
+    @Override
+    public void updateDescription() {
+        this.description = DESCRIPTIONS[0] + this.amount2 + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2];
+    }
 
     @Override
     public AbstractPower makeCopy() {

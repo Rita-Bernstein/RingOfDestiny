@@ -46,6 +46,8 @@ public class BulletZero extends AbstractRingCard {
         if (!this.upgraded) {
             upgradeName();
             upgradeMagicNumber(4);
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+            initializeDescription();
         }
     }
 

@@ -43,12 +43,12 @@ public abstract class AbstractRingCard extends CustomCard {
 
     protected AbstractCard returnNonSoleCommonCard() {
         ArrayList<AbstractCard> returnCard = new ArrayList<AbstractCard>();
-        for (AbstractCard c : AbstractDungeon.srcCommonCardPool.group) {
-            if (!c.hasTag(CustomTagsEnum.SoleCard)) {
-                returnCard.add(c);
+            for (AbstractCard c : AbstractDungeon.srcCommonCardPool.group) {
+                if (!c.hasTag(CustomTagsEnum.SoleCard)) {
+                    returnCard.add(c);
+                }
             }
-        }
-        return returnCard.get(AbstractDungeon.miscRng.random(returnCard.size() - 1));
+            return returnCard.get(AbstractDungeon.miscRng.random(returnCard.size() - 1));
     }
 
     protected AbstractCard returnNonSoleUncommonCard() {

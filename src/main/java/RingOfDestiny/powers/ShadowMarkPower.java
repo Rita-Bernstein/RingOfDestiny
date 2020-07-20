@@ -34,9 +34,9 @@ public class ShadowMarkPower extends TwoAmountPower {
 
     public void updateDescription() {
         if (this.amount > 1) {
-            this.description = powerStrings.DESCRIPTIONS[1] + this.amount + powerStrings.DESCRIPTIONS[2] + this.amount2 + powerStrings.DESCRIPTIONS[3];
+            this.description = DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + this.amount2 + DESCRIPTIONS[3];
         } else {
-            this.description = powerStrings.DESCRIPTIONS[0] + this.amount2 + powerStrings.DESCRIPTIONS[3];
+            this.description = DESCRIPTIONS[0] + this.amount2 + DESCRIPTIONS[3];
         }
     }
 

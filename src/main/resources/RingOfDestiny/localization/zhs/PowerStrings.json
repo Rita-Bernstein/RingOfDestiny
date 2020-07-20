@@ -141,8 +141,54 @@
   "RingOfDestiny:EtchReflectionPower": {
     "NAME": "刻印-弹反",
     "DESCRIPTIONS": [
-      "每受到一次 #y攻击 ,给予 #b",
+      "本回合每受到一次 #y攻击 ,给予 #b",
       " 层 #y死亡刻印 。"
+    ]
+  },
+  "RingOfDestiny:OathOfBloodPower": {
+    "NAME": "血之誓言",
+    "DESCRIPTIONS": [
+      "每当你从卡牌失去生命时，给予随机敌人 #b",
+      " 层 #y死亡刻印 。"
+    ]
+  },
+  "RingOfDestiny:FlowerOfDespairPower": {
+    "NAME": "绝望之花",
+    "DESCRIPTIONS": [
+      "每回合开始时，失去 #b",
+      " 点生命并给予所有敌人 #b",
+      " 层 #y死亡刻印 。"
+    ]
+  },
+  "RingOfDestiny:UpgradeFlowerOfDespairPower": {
+    "NAME": "绝望之花+",
+    "DESCRIPTIONS": [
+      "每回合开始时，失去 #b",
+      " 点生命并给予所有敌人 #b",
+      " 层 #y死亡刻印 。"
+    ]
+  },
+  "RingOfDestiny:PreludePower": {
+    "NAME": "白夜序曲",
+    "DESCRIPTIONS": [
+      "每打出一张攻击牌，获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "RingOfDestiny:DoomsdayMarkPower": {
+    "NAME": "末日标记",
+    "DESCRIPTIONS": [
+      "下回合 #y死亡刻印 伤害翻倍。",
+      "下 #b",
+      " 个回合 #y死亡刻印 伤害翻倍。"
+    ]
+  },
+  "RingOfDestiny:DoubleEtchDamagePower": {
+    "NAME": "末日来临",
+    "DESCRIPTIONS": [
+      "本回合 #y死亡刻印 伤害翻倍。",
+      "接下来的 #b",
+      " 个回合造成 #y死亡刻印 伤害翻倍。"
     ]
   }
 }

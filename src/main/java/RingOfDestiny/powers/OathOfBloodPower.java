@@ -13,37 +13,33 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class EtchReflectionPower extends AbstractPower {
-    public static final String POWER_ID = RingOfDestiny.makeID("EtchReflectionPower");
+public class OathOfBloodPower extends AbstractPower {
+    public static final String POWER_ID = RingOfDestiny.makeID("OathOfBloodPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
-    public EtchReflectionPower(AbstractCreature owner, int amount) {
+    public OathOfBloodPower(AbstractCreature owner, int amount) {
         this.name = powerStrings.NAME;
         this.ID = POWER_ID;
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("flameBarrier");
+        loadRegion("infiniteBlades");
     }
 
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
+        this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1];
     }
 
-    public int onAttacked(DamageInfo info, int damageAmount) {
-        if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.type != DamageInfo.DamageType.HP_LOSS && info.owner != this.owner) {
-            flash();
-            addToTop(new ApplyPowerAction(info.owner,null,new EtchPower(info.owner,this.amount),this.amount));
+    public void wasHPLost(DamageInfo info, int damageAmount) {
+        if (damageAmount > 0 && info.owner == this.owner) {
+            AbstractMonster randomMonster = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.miscRng);
+            addToBot(new ApplyPowerAction(randomMonster,null,new EtchPower(randomMonster,this.amount),this.amount));
         }
-        return damageAmount;
-    }
-
-    public void atStartOfTurn() {
-        addToBot(new RemoveSpecificPowerAction(AbstractDungeon.player, AbstractDungeon.player, EtchReflectionPower.POWER_ID));
     }
 }
 
