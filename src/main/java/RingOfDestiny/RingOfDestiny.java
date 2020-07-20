@@ -266,14 +266,14 @@ public class RingOfDestiny
         cards.add(new Defend_MB());
         cards.add(new Strike_MB());
         cards.add(new DeadlyShoot());
-//        刻印之灵
+        cards.add(new EtchSpirit());
         cards.add(new Potential());
         cards.add(new BreakBullet());
         cards.add(new DeathLeakage());
         cards.add(new BlastBullet());
         cards.add(new DarkShield());
         cards.add(new QuickDraw());
-//        刻印结界
+        cards.add(new Enchantment());
         cards.add(new BlackLight());
         cards.add(new Crimson());
         cards.add(new Flash());
@@ -291,10 +291,10 @@ public class RingOfDestiny
         cards.add(new BloodyLeakage());
         cards.add(new EtchPhantom());
         cards.add(new SolidEtch());
-//　　　　　零之弹
+        cards.add(new BulletZero());
 //        余音
         cards.add(new RestraintRing());
-//        弹反
+        cards.add(new EtchReflection());
         cards.add(new NimbleShield());
         cards.add(new InnerFocus());
         cards.add(new DanceOfDeath());

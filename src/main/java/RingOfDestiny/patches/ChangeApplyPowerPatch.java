@@ -1,7 +1,6 @@
 package RingOfDestiny.patches;
 
-import RingOfDestiny.powers.GasBombPower;
-import RingOfDestiny.powers.InfectMarkPower;
+import RingOfDestiny.powers.*;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -29,8 +28,8 @@ public class ChangeApplyPowerPatch {
                                                int stackAmount,
                                                boolean isFast,
                                                AbstractGameAction.AttackEffect effect, @ByRef int[] amount) {
-
-            if (AbstractDungeon.player.hasPower(GasBombPower.POWER_ID) && source != null && source.isPlayer && target != source && powerToApply.ID.equals("Poison")) {
+//            中毒相关
+            if (AbstractDungeon.player.hasPower(GasBombPower.POWER_ID) && source != null && source.isPlayer && target != source && powerToApply.ID.equals(PoisonPower.POWER_ID)) {
                 AbstractDungeon.player.getPower(GasBombPower.POWER_ID).flash();
                 powerToApply.amount += AbstractDungeon.player.getPower(GasBombPower.POWER_ID).amount;
                 amount[0] = amount[0] + AbstractDungeon.player.getPower(GasBombPower.POWER_ID).amount;
@@ -40,7 +39,7 @@ public class ChangeApplyPowerPatch {
             if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
                 for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
                     if (!monster.isDead && !monster.isDying) {
-                        if (monster.hasPower(InfectMarkPower.POWER_ID) && powerToApply.ID.equals("Poison")) {
+                        if (monster.hasPower(InfectMarkPower.POWER_ID) && powerToApply.ID.equals(PoisonPower.POWER_ID)) {
                             monster.getPower(InfectMarkPower.POWER_ID).flash();
                             if(!extraPoisonApplyed){
                                 extraPoisonApplyed = true;
@@ -52,6 +51,15 @@ public class ChangeApplyPowerPatch {
                     }
                 }
             }
+//            中毒相关
+
+//            刻印相关
+            if (AbstractDungeon.player.hasPower(EnchantmentPower.POWER_ID) && source != null && source.isPlayer && target != source && powerToApply.ID.equals(EtchPower.POWER_ID)) {
+                AbstractDungeon.player.getPower(EnchantmentPower.POWER_ID).flash();
+                powerToApply.amount += AbstractDungeon.player.getPower(EnchantmentPower.POWER_ID).amount;
+                amount[0] = amount[0] + AbstractDungeon.player.getPower(EnchantmentPower.POWER_ID).amount;
+            }
+
 
 
             return SpireReturn.Continue();

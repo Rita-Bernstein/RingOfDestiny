@@ -116,5 +116,33 @@
       "你的回合开始时，将 #b",
       " 张随机 #y技能牌 加入你的手牌。"
     ]
+  },
+  "RingOfDestiny:EtchSpiritPower": {
+    "NAME": "刻印之灵",
+    "DESCRIPTIONS": [
+      " #y死亡刻印 的伤害提高 #b",
+      " 点。"
+    ]
+  },
+  "RingOfDestiny:EnchantmentPower": {
+    "NAME": "刻印结界",
+    "DESCRIPTIONS": [
+      "本回合，给予 #y死亡刻印 时额外给予 #b",
+      " 层。"
+    ]
+  },
+  "RingOfDestiny:BulletZeroPower": {
+    "NAME": "零之弹",
+    "DESCRIPTIONS": [
+      "本回合结束时回复 #b",
+      " 点生命。卡牌扣除的生命提高本效果。"
+    ]
+  },
+  "RingOfDestiny:EtchReflectionPower": {
+    "NAME": "刻印-弹反",
+    "DESCRIPTIONS": [
+      "每受到一次 #y攻击 ,给予 #b",
+      " 层 #y死亡刻印 。"
+    ]
   }
 }
