@@ -28,6 +28,7 @@ public class Illusion extends AbstractRingCard {
 
     public Illusion() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
+        this.exhaust = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

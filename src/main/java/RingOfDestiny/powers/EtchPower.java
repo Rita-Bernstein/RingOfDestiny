@@ -1,6 +1,7 @@
 package RingOfDestiny.powers;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.cards.MagicBullet.Residual;
 import com.badlogic.gdx.graphics.Texture;
 import com.evacipated.cardcrawl.mod.stslib.powers.abstracts.TwoAmountPower;
 import com.megacrit.cardcrawl.actions.common.*;
@@ -40,30 +41,18 @@ public class EtchPower extends TwoAmountPower implements CloneablePowerInterface
     @Override
     public void onInitialApplication() {
         super.onInitialApplication();
-        calculateDamage();
         triggerEtch();
     }
 
-    @Override
-    public void onApplyPower(AbstractPower power, AbstractCreature target, AbstractCreature source) {
-        super.onApplyPower(power, target, source);
-        calculateDamage();
-    }
 
     @Override
     public void stackPower(int stackAmount) {
         super.stackPower(stackAmount);
-        calculateDamage();
         triggerEtch();
     }
 
     @Override
-    public void atStartOfTurn() {
-        super.atStartOfTurn();
-        calculateDamage();
-    }
-
-    public void calculateDamage(){
+    public void update(int slot) {
         if(AbstractDungeon.player.hasPower(EtchSpiritPower.POWER_ID)){
             this.amount2 = 30 + AbstractDungeon.player.getPower(EtchSpiritPower.POWER_ID).amount;
         }else {
@@ -72,15 +61,19 @@ public class EtchPower extends TwoAmountPower implements CloneablePowerInterface
 
         if(AbstractDungeon.player.hasPower(DoubleEtchDamagePower.POWER_ID))
             this.amount2 *= 2;
+        super.update(slot);
     }
+
 
     public void triggerEtch() {
         if (this.amount >= limite) {
             for (int i = limite; i <= this.amount; ) {
                 //扣血
                 flash();
-                addToBot(new LoseHPAction(this.owner, null, this.amount2, AbstractGameAction.AttackEffect.FIRE));
-                this.amount -= i;
+                addToTop(new LoseHPAction(this.owner, null, this.amount2, AbstractGameAction.AttackEffect.FIRE));
+                int remain = 0;
+                if(AbstractDungeon.player.hasPower(ResidualPower.POWER_ID)) remain = AbstractDungeon.player.getPower(ResidualPower.POWER_ID).amount;
+                this.amount -= (i - remain);
             }
         }
 

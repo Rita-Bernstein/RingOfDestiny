@@ -12,5 +12,35 @@
     "DESCRIPTIONS": [
       "每召唤一个 #y影分身 ，将 #b2 张 #y袖剑 加入手牌。"
     ]
+  },
+  "RingOfDestiny:Flintlock": {
+    "NAME": "燧发枪",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，对随机敌人造成 #b",
+      " 点和 #b",
+      " 点伤害。"
+    ]
+  },
+  "RingOfDestiny:Bow": {
+    "NAME": "蝴蝶结",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每当有敌人死去时，将其身上的 #y死亡刻印 层数移到一名随机敌人身上。"
+    ]
+  },
+  "RingOfDestiny:LeatherShoes": {
+    "NAME": "小皮鞋",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "提升 #y死亡刻印 伤害 #b3 点。"
+    ]
+  },
+  "RingOfDestiny:GothicDress": {
+    "NAME": "哥特礼服",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，给予所有敌人 #b1 层 #y死亡刻印 。"
+    ]
   }
 }

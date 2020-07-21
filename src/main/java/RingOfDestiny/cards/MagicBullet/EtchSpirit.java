@@ -26,7 +26,7 @@ public class EtchSpirit extends AbstractRingCard {
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final CardType TYPE = CardType.POWER;
     private static final CardColor COLOR = CardColorEnum.MagicBullet_LIME;
-    private static final CardRarity RARITY = CardRarity.COMMON;
+    private static final CardRarity RARITY = CardRarity.SPECIAL;
     private static final CardTarget TARGET = CardTarget.SELF;
 
 
@@ -44,22 +44,33 @@ public class EtchSpirit extends AbstractRingCard {
     }
 
     public AbstractCard makeCopy() {
-        AbstractCard c;
-        if(AbstractDungeon.player != null){
-            if ((AbstractDungeon.getCurrRoom()).phase == AbstractRoom.RoomPhase.COMBAT && !AbstractDungeon.isScreenUp){
-                c = new EtchSpirit();
-            }else {
-                c = returnNonSoleCommonCard();
-            }
+//        AbstractCard c;
+//        if (AbstractDungeon.player != null && AbstractDungeon.getCurrRoom() != null) {
+//            boolean haveThis = false;
+//            for (AbstractCard soleCard : AbstractDungeon.player.masterDeck.group) {
+//                if (soleCard instanceof EtchSpirit)
+//                    haveThis = true;
+//            }
+//
+//
+//            if ((AbstractDungeon.getCurrRoom()).phase == AbstractRoom.RoomPhase.COMBAT && !AbstractDungeon.isScreenUp) {
+//                c = new EtchSpirit();
+//            } else {
+//                if (!haveThis) {
+//                    c = new EtchSpirit();
+//                } else {
+//                    c = returnNonSoleCommonCard();
+//                }
+//
+//            }
+//
+//        } else {
+//            c = new EtchSpirit();
+//        }
+//
+//        return c;
 
-
-        }else {
-            c = new EtchSpirit();
-        }
-
-        return c;
-
-//        return new EtchSpirit();
+        return new EtchSpirit();
     }
 
     public void upgrade() {

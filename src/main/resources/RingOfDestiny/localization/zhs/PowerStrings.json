@@ -86,14 +86,6 @@
       " 层 。"
     ]
   },
-  "RingOfDestiny:LethalTwinsPower": {
-    "NAME": "致命双枪",
-    "DESCRIPTIONS": [
-      "在这个回合，你打出的下一张 #y技能牌 会打出两次。",
-      "在这个回合，你打出的下 ",
-      " 张 #y机能牌 会打出两次。"
-    ]
-  },
   "RingOfDestiny:LoomingDeathPower": {
     "NAME": "死神降临",
     "DESCRIPTIONS": [
@@ -175,6 +167,13 @@
       " 点 #y格挡 。"
     ]
   },
+  "RingOfDestiny:EpiloguePower": {
+    "NAME": "黑夜尾音",
+    "DESCRIPTIONS": [
+      "本回合你每打出一张 #y技能牌 ，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
   "RingOfDestiny:DoomsdayMarkPower": {
     "NAME": "末日标记",
     "DESCRIPTIONS": [
@@ -189,6 +188,22 @@
       "本回合 #y死亡刻印 伤害翻倍。",
       "接下来的 #b",
       " 个回合造成 #y死亡刻印 伤害翻倍。"
+    ]
+  },
+  "RingOfDestiny:PressuredBulletPower": {
+    "NAME": "高压魔弹",
+    "DESCRIPTIONS": [
+      "本回合你打出的前 #b",
+      " 张牌 #y伤害翻倍 。（已打出 #b",
+      " 张 #y攻击 牌。）"
+    ]
+  },
+  "RingOfDestiny:ResidualPower": {
+    "NAME": "余音之笛",
+    "DESCRIPTIONS": [
+      "#y死亡刻印 引爆时，残留 #b",
+      " 层。（最多 #b",
+      " 层。）"
     ]
   }
 }

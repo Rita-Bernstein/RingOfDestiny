@@ -38,6 +38,7 @@ public class AmmoRain extends AbstractRingCard {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = 6;
         this.magicNumber = this.baseMagicNumber = 3;
+        this.isMultiDamage = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

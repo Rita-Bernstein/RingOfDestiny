@@ -11,10 +11,12 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class ShadowKunai extends CustomRelic {
     public static final String ID = RingOfDestiny.makeID("ShadowKunai");
-    private static Texture texture = new Texture(RingOfDestiny.assetPath("img/relics/ShadowKunai.png"));
+    private static String imgName = "154.png";
+    private static Texture texture = new Texture(RingOfDestiny.assetPath("img/relics/")+ imgName);
+    private static Texture outline = new Texture(RingOfDestiny.assetPath("img/relics/outline/")+ imgName);
 
     public ShadowKunai() {
-        super(ID, texture, RelicTier.STARTER, CustomRelic.LandingSound.FLAT);
+        super(ID, texture,outline, RelicTier.STARTER, CustomRelic.LandingSound.FLAT);
         this.counter = 0;
     }
 

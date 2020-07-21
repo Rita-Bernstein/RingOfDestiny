@@ -324,8 +324,8 @@
   },
   "RingOfDestiny:Enchantment": {
     "NAME": "刻印结界",
-    "DESCRIPTION": "本回合，给予 给予 ring_of_destiny:死亡刻印 时，额外给予 !M! 层。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "本回合，给予 给予 ring_of_destiny:死亡刻印 时，额外给予 !M! 层。"
+    "DESCRIPTION": "本回合，给予 ring_of_destiny:死亡刻印 时，额外给予 !M! 层。 消耗 。",
+    "UPGRADE_DESCRIPTION": "本回合，给予 ring_of_destiny:死亡刻印 时，额外给予 !M! 层。"
   },
   "RingOfDestiny:BlackLight": {
     "NAME": "黑光",
@@ -404,7 +404,7 @@
   },
   "RingOfDestiny:Residual": {
     "NAME": "余音之笛",
-    "DESCRIPTION": " ring_of_destiny:死亡刻印 引爆时，残留 !M! 层。"
+    "DESCRIPTION": " ring_of_destiny:死亡刻印 引爆时， NL 残留 !M! 层。"
   },
   "RingOfDestiny:RestraintRing": {
     "NAME": "约束之戒",
@@ -511,11 +511,12 @@
   },
   "RingOfDestiny:PressuredBullet": {
     "NAME": "高压魔弹",
-    "DESCRIPTION": "下回合开始，每回合打出的第一张攻击牌伤害翻倍。"
+    "DESCRIPTION": "下回合开始，每回合打出的前 !M! 张攻击牌伤害翻倍。"
   },
   "RingOfDestiny:MagicAbsorb": {
     "NAME": "魔力吸收",
-    "DESCRIPTION": "窃取敌人X点 力量 。 NL 消耗 。"
+    "DESCRIPTION": "窃取敌人X点 力量 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "窃取敌人X+ !M! 点 力量 。 NL 消耗 。"
   },
   "RingOfDestiny:Demise": {
     "NAME": "终焉-归零",

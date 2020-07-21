@@ -41,7 +41,7 @@ public class Underhand extends AbstractRingCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
         if (m.hasPower(WeakPower.POWER_ID))
-            addToBot(new ApplyPowerAction(p, p, new EtchPower(p, this.magicNumber), this.magicNumber));
+            addToBot(new ApplyPowerAction(m, p, new EtchPower(m, this.magicNumber), this.magicNumber));
     }
 
     public AbstractCard makeCopy() {

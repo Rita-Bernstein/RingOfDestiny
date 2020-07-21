@@ -12,10 +12,10 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 public abstract class AbstractRingRelic extends CustomRelic {
 
 
-    public AbstractRingRelic(String id, Texture texture, RelicTier tier, LandingSound sfx) {
-        super(id, texture, tier, sfx);
+    public AbstractRingRelic(String id, Texture texture, Texture outline, RelicTier tier, LandingSound sfx) {
+        super(id, texture, outline, tier, sfx);
     }
 
-    public void onCreateShadow(){
+    public void onCreateShadow() {
     }
 }

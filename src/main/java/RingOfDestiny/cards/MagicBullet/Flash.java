@@ -26,7 +26,7 @@ public class Flash extends AbstractRingCard {
     public static final String IMG = RingOfDestiny.assetPath("img/cards/MagicBullet/37.png");
     private static final int COST = 1;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    private static final CardType TYPE = CardType.SKILL;
+    private static final CardType TYPE = CardType.ATTACK;
     private static final CardColor COLOR = CardColorEnum.MagicBullet_LIME;
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.SELF_AND_ENEMY;

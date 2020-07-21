@@ -33,10 +33,11 @@ public class NightPendant extends AbstractRingCard {
 
 	public NightPendant() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
+		this.magicNumber = this.baseMagicNumber = 1;
 	}
 
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		addToBot(new ApplyPowerAction(p, p, new NightPendantPower(p, 1), 1));
+		addToBot(new ApplyPowerAction(p, p, new NightPendantPower(p, this.magicNumber), this.magicNumber));
 			}
 
 	public AbstractCard makeCopy() {

@@ -7,23 +7,24 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
 public class ApoptosisAction extends AbstractGameAction {
     private int times;
     private int healingAmount;
+    private AbstractCreature target;
+    private AbstractCreature source;
 
-    public ApoptosisAction(int times,int healingAmount) {
+    public ApoptosisAction(AbstractCreature target,AbstractCreature source,int times,int healingAmount) {
         this.actionType = AbstractGameAction.ActionType.WAIT;
         this.duration = Settings.ACTION_DUR_FAST;
         this.times = times;
         this.healingAmount = healingAmount;
+        this.target = target;
+        this.source = source;
     }
 
-
-    public ApoptosisAction() {
-        this(2,10);
-    }
 
     public void update() {
         if (this.duration == Settings.ACTION_DUR_FAST && this.target != null && this.target.hasPower(EtchPower.POWER_ID)) {

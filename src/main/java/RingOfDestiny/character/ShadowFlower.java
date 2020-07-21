@@ -33,6 +33,8 @@ import com.megacrit.cardcrawl.ui.panels.energyorb.EnergyOrbBlue;
 
 import java.util.ArrayList;
 
+import static RingOfDestiny.RingOfDestiny.ShadowFlower_Color;
+
 public class ShadowFlower extends CustomPlayer {
     public static final CharacterStrings charStrings = CardCrawlGame.languagePack.getCharacterString(RingOfDestiny.makeID("ShadowFlower"));
 
@@ -42,21 +44,21 @@ public class ShadowFlower extends CustomPlayer {
 
 
     public static final String[] orbTextures = {
-            "images/ui/topPanel/blue/1.png",//4
-            "images/ui/topPanel/blue/2.png",//2
-            "images/ui/topPanel/blue/3.png",//3
-            "images/ui/topPanel/blue/4.png",//5
-            "images/ui/topPanel/blue/5.png",//1
-            "images/ui/topPanel/blue/border.png",
-            "images/ui/topPanel/blue/1d.png",
-            "images/ui/topPanel/blue/2d.png",
-            "images/ui/topPanel/blue/3d.png",
-            "images/ui/topPanel/blue/4d.png",
-            "images/ui/topPanel/blue/5d.png"
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/1.png",//4
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/2.png",//2
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/3.png",//3
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/4.png",//5
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/5.png",//1
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/border.png",
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/1d.png",//4
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/2d.png",//2
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/3d.png",//3
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/4d.png",//5
+            "RingOfDestiny/img/ui/topPanel/ShadowFlower/5d.png",//1
     };
 
     public ShadowFlower(String name, PlayerClass setClass) {
-        super(name, setClass, new EnergyOrbCustomBlue(orbTextures, "images/ui/topPanel/energyBlueVFX.png"), (String) null, null);
+        super(name, setClass, new EnergyOrbCustomBlue(orbTextures, "RingOfDestiny/img/ui/topPanel/ShadowFlower/energyVFX.png"), (String) null, null);
         this.drawX += 5.0F * Settings.scale;
         this.drawY += 7.0F * Settings.scale;
 
@@ -138,7 +140,7 @@ public class ShadowFlower extends CustomPlayer {
 
     @Override
     public Color getCardTrailColor() {
-        return Color.SKY.cpy();
+        return ShadowFlower_Color.cpy();
     }
 
     @Override
@@ -148,7 +150,7 @@ public class ShadowFlower extends CustomPlayer {
 
     @Override
     public BitmapFont getEnergyNumFont() {
-        return FontHelper.energyNumFontBlue;
+        return FontHelper.energyNumFontGreen;
     }
 
     @Override
@@ -180,7 +182,7 @@ public class ShadowFlower extends CustomPlayer {
 
     @Override
     public Color getSlashAttackColor() {
-        return Color.SKY;
+        return Color.GREEN;
     }
 
 
@@ -191,7 +193,7 @@ public class ShadowFlower extends CustomPlayer {
 
     @Override
     public Color getCardRenderColor() {
-        return Color.SKY;
+        return Color.CHARTREUSE;
     }
 
 

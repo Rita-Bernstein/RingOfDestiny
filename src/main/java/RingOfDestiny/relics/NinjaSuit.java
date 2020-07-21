@@ -13,10 +13,12 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class NinjaSuit extends AbstractRingRelic {
     public static final String ID = RingOfDestiny.makeID("NinjaSuit");
-    private static Texture texture = new Texture(RingOfDestiny.assetPath("img/relics/NinjaSuit.png"));
+    private static String imgName = "152.png";
+    private static Texture texture = new Texture(RingOfDestiny.assetPath("img/relics/")+ imgName);
+    private static Texture outline = new Texture(RingOfDestiny.assetPath("img/relics/outline/")+ imgName);
 
     public NinjaSuit() {
-        super(ID, texture, RelicTier.RARE, CustomRelic.LandingSound.FLAT);
+        super(ID, texture,outline, RelicTier.RARE, CustomRelic.LandingSound.FLAT);
     }
 
     public String getUpdatedDescription() {

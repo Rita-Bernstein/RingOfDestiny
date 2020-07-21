@@ -39,8 +39,8 @@ public class CovertOperation extends AbstractRingCard {
 
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		addToBot(new DamageAction(m,new DamageInfo(p, this.damage, this.damageTypeForTurn),AbstractGameAction.AttackEffect.BLUNT_HEAVY));
-		addToBot(new DrawCardAction(p, this.magicNumber));
 		addToBot(new DiscardAction(p, p, this.magicNumber, false));
+		addToBot(new DrawCardAction(p, this.magicNumber));
 			}
 
 	public AbstractCard makeCopy() {

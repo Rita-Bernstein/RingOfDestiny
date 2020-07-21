@@ -31,7 +31,7 @@ public class DoubleEtchDamagePower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("phantasmal");
+        loadRegion("doubleDamage");
     }
 
 
@@ -45,6 +45,6 @@ public class DoubleEtchDamagePower extends AbstractPower {
     }
 
     public void atStartOfTurn() {
-        addToBot(new ReducePowerAction(this.owner, this.owner, DoomsdayMarkPower.POWER_ID, 1));
+        addToBot(new ReducePowerAction(this.owner, this.owner, DoubleEtchDamagePower.POWER_ID, 1));
     }
 }

@@ -292,7 +292,7 @@ public class RingOfDestiny
         cards.add(new EtchPhantom());
         cards.add(new SolidEtch());
         cards.add(new BulletZero());
-//        余音
+        cards.add(new Residual());
         cards.add(new RestraintRing());
         cards.add(new EtchReflection());
         cards.add(new Reload());
@@ -324,7 +324,7 @@ public class RingOfDestiny
         cards.add(new BlackFuneral());
         cards.add(new MoonCurtain());
         cards.add(new NightPendant());
-//      起源仪式
+        cards.add(new RiteOfOrigin());
         cards.add(new Elegance());
 
 
@@ -353,6 +353,12 @@ public class RingOfDestiny
 
         BaseMod.addRelicToCustomPool(new ShadowKunai(), CardColorEnum.ShadowFlower_LIME);
         BaseMod.addRelicToCustomPool(new NinjaSuit(), CardColorEnum.ShadowFlower_LIME);
+
+
+        BaseMod.addRelicToCustomPool(new Flintlock(), CardColorEnum.MagicBullet_LIME);
+        BaseMod.addRelicToCustomPool(new GothicDress(), CardColorEnum.MagicBullet_LIME);
+        BaseMod.addRelicToCustomPool(new Bow(), CardColorEnum.MagicBullet_LIME);
+        BaseMod.addRelicToCustomPool(new LeatherShoes(), CardColorEnum.MagicBullet_LIME);
 
 
         logger.debug("receiveEditRelics finished.");
