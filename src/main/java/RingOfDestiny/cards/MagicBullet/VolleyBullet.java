@@ -43,6 +43,7 @@ public class VolleyBullet extends AbstractRingCard {
 		if(AbstractDungeon.player.hasPower(DexterityPower.POWER_ID))
 			d += AbstractDungeon.player.getPower(DexterityPower.POWER_ID).amount / this.secondaryM;
 
+		if(d < 1) d = 0;
 		d += this.magicNumber;
 		for(int i = 0;i < d;i++)
 		addToBot(new DamageAction(m,new DamageInfo(p, this.damage, this.damageTypeForTurn),AbstractGameAction.AttackEffect.BLUNT_HEAVY));

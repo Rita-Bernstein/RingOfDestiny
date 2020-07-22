@@ -3,6 +3,7 @@ package RingOfDestiny.cards.ShadowFlower;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.ShadowFlower.EthMudraAction;
 import RingOfDestiny.actions.ShadowFlower.FlashOfSlashAction;
+import RingOfDestiny.actions.ShadowFlower.GetAndDamagePoisonEmenyAction;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import RingOfDestiny.patches.CustomTagsEnum;
@@ -44,9 +45,8 @@ public class EthMudra extends AbstractRingCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m,new DamageInfo(p, this.damage, this.damageTypeForTurn),AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
-        addToBot(new EthMudraAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
+        addToBot(new GetAndDamagePoisonEmenyAction(m,this.damageTypeForTurn));
     }
-
 
     public AbstractCard makeCopy() {
         return new EthMudra();

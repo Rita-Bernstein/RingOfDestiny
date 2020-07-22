@@ -32,7 +32,7 @@ public class AmmoRain extends AbstractRingCard {
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardColor COLOR = CardColorEnum.MagicBullet_LIME;
     private static final CardRarity RARITY = CardRarity.COMMON;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
 
     public AmmoRain() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
@@ -46,6 +46,7 @@ public class AmmoRain extends AbstractRingCard {
     	if(AbstractDungeon.player.hasPower(DexterityPower.POWER_ID))
     		num += (int)Math.floor(AbstractDungeon.player.getPower(DexterityPower.POWER_ID).amount/ (float)this.magicNumber);
 
+        if(num < 1) num = 1;
     	for(int i = 0;i < num;i++){
             addToBot(new SFXAction("ATTACK_HEAVY"));
             addToBot(new VFXAction(p, new CleaveEffect(), 0.1F));

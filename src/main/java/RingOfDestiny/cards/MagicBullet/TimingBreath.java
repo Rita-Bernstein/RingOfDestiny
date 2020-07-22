@@ -49,6 +49,7 @@ public class TimingBreath extends AbstractRingCard {
         if(AbstractDungeon.player.hasPower(DexterityPower.POWER_ID))
             d += AbstractDungeon.player.getPower(DexterityPower.POWER_ID).amount / this.secondaryM;
 
+        if(d < 1) d = 0;
         addToBot(new DrawCardAction(p, this.magicNumber + d));
         addToBot(new GainBlockAction(p, p, this.block));
     }

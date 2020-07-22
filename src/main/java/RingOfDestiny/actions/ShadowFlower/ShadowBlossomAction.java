@@ -32,7 +32,7 @@ public class ShadowBlossomAction
 
     public void update() {
         if (this.duration == Settings.ACTION_DUR_FASTER && this.target != null) {
-            AbstractDungeon.effectList.add(new FlashAtkImgEffect(this.target.hb.cX, this.target.hb.cY, AbstractGameAction.AttackEffect.BLUNT_HEAVY));
+            AbstractDungeon.effectList.add(new FlashAtkImgEffect(this.target.hb.cX, this.target.hb.cY, AttackEffect.NONE));
 
             this.target.damage(this.info);
 

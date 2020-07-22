@@ -15,5 +15,10 @@
       "将",
       " 张牌复制到手牌"
     ]
+  },
+  "RingOfDestiny:DarkProjectionAction": {
+    "TEXT": [
+      "将复制一张技能牌"
+    ]
   }
 }

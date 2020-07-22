@@ -2,6 +2,7 @@ package RingOfDestiny.cards.ShadowFlower;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.ShadowFlower.ShadowBlossomAction;
+import RingOfDestiny.actions.ShadowFlower.ShadowBlossomAllEnemyAction;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import RingOfDestiny.patches.CustomTagsEnum;
@@ -43,19 +44,7 @@ public class ShadowBlossom extends AbstractRingCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (m != null) {
-            addToBot(new VFXAction(p, new CleaveEffect(), 0.1F));
-            addToBot(new WaitAction(0.2F));
-        }
-
-        if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
-            flash();
-            for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
-                if (!monster.isDead && !monster.isDying) {
-                    addToBot(new ShadowBlossomAction(monster, new DamageInfo(p, this.damage, this.damageTypeForTurn), this.magicNumber, this.upgraded));
-                }
-            }
-        }
+        addToBot(new ShadowBlossomAllEnemyAction(new DamageInfo(p, this.damage, this.damageTypeForTurn), this.magicNumber, this.upgraded));
     }
 
     public AbstractCard makeCopy() {

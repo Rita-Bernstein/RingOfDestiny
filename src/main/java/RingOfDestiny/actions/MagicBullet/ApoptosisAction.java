@@ -1,5 +1,6 @@
 package RingOfDestiny.actions.MagicBullet;
 
+import RingOfDestiny.powers.EnchantmentPower;
 import RingOfDestiny.powers.EtchPower;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.*;
@@ -33,7 +34,9 @@ public class ApoptosisAction extends AbstractGameAction {
             if(i < 1) i = 1;
             addToBot(new ApplyPowerAction(this.target, this.source, new EtchPower(this.target,power.amount * i),power.amount * i));
 
-            if(power.amount * this.times >= 4)
+            int k = 0;
+            if(AbstractDungeon.player.hasPower(EnchantmentPower.POWER_ID)) k = AbstractDungeon.player.getPower(EnchantmentPower.POWER_ID).amount;
+            if(power.amount * this.times + k >= 4)
                 addToBot(new HealAction(AbstractDungeon.player,AbstractDungeon.player,this.healingAmount));
         }
 

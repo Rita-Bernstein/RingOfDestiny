@@ -18,6 +18,8 @@ public class DarkProjectionAction
     private static final float DURATION_PER_CARD = 0.25F;
     public static final String[] TEXT = uiStrings.TEXT;
     private AbstractPlayer p;
+    private int dupeAmount;
+    private ArrayList<AbstractCard> cannotDuplicate;
 
     public DarkProjectionAction(AbstractCreature source, int amount) {
         this.dupeAmount = 1;
@@ -30,9 +32,6 @@ public class DarkProjectionAction
         this.p = AbstractDungeon.player;
         this.dupeAmount = amount;
     }
-
-    private int dupeAmount;
-    private ArrayList<AbstractCard> cannotDuplicate;
 
     public void update() {
         if (this.duration == Settings.ACTION_DUR_FAST) {
@@ -107,7 +106,7 @@ public class DarkProjectionAction
 
 
     private boolean isDualWieldable(AbstractCard card) {
-        return (card.type.equals(AbstractCard.CardType.SKILL));
+        return card.type.equals(AbstractCard.CardType.SKILL);
     }
 }
 

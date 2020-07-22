@@ -45,6 +45,7 @@ public class OriginBullet extends AbstractRingCard {
     	if(AbstractDungeon.player.hasPower(DexterityPower.POWER_ID))
     		num += (int)Math.floor(AbstractDungeon.player.getPower(DexterityPower.POWER_ID).amount/ (float)this.magicNumber);
 
+    	if(num < 1) num = 1;
     	for(int i = 0;i < num;i++){
             addToBot(new DamageAction(m,new DamageInfo(p, this.damage, this.damageTypeForTurn),AbstractGameAction.AttackEffect.BLUNT_HEAVY));
         }
