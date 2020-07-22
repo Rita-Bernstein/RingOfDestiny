@@ -36,6 +36,7 @@ public class EtchSpirit extends AbstractRingCard {
         this.magicNumber = this.baseMagicNumber = 2;
         this.secondaryM = this.baseSecondaryM = this.misc;
         this.tags.add(CustomTagsEnum.SoleCard);
+        this.tags.add(CustomTagsEnum.SoleCommon);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
@@ -44,31 +45,6 @@ public class EtchSpirit extends AbstractRingCard {
     }
 
     public AbstractCard makeCopy() {
-//        AbstractCard c;
-//        if (AbstractDungeon.player != null && AbstractDungeon.getCurrRoom() != null) {
-//            boolean haveThis = false;
-//            for (AbstractCard soleCard : AbstractDungeon.player.masterDeck.group) {
-//                if (soleCard instanceof EtchSpirit)
-//                    haveThis = true;
-//            }
-//
-//
-//            if ((AbstractDungeon.getCurrRoom()).phase == AbstractRoom.RoomPhase.COMBAT && !AbstractDungeon.isScreenUp) {
-//                c = new EtchSpirit();
-//            } else {
-//                if (!haveThis) {
-//                    c = new EtchSpirit();
-//                } else {
-//                    c = returnNonSoleCommonCard();
-//                }
-//
-//            }
-//
-//        } else {
-//            c = new EtchSpirit();
-//        }
-//
-//        return c;
 
         return new EtchSpirit();
     }

@@ -33,7 +33,7 @@ public class ApoptosisAction extends AbstractGameAction {
             int i = this.times -1;
             if(i < 1) i = 1;
             addToBot(new ApplyPowerAction(this.target, this.source, new EtchPower(this.target,power.amount * i),power.amount * i));
-
+//            AbstractDungeon.getCardFromPool(AbstractDungeon.rollRarity(), hoveredCard.type, false).makeCopy();
             int k = 0;
             if(AbstractDungeon.player.hasPower(EnchantmentPower.POWER_ID)) k = AbstractDungeon.player.getPower(EnchantmentPower.POWER_ID).amount;
             if(power.amount * this.times + k >= 4)

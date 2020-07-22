@@ -10,5 +10,10 @@ public class CustomTagsEnum {
 	public static AbstractCard.CardTags MagicBullet;
 	@SpireEnum
 	public static AbstractCard.CardTags SoleCard;
-
+	@SpireEnum
+	public static AbstractCard.CardTags SoleCommon;
+	@SpireEnum
+	public static AbstractCard.CardTags SoleUncommon;
+	@SpireEnum
+	public static AbstractCard.CardTags SoleRare;
 }

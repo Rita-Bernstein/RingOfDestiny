@@ -89,7 +89,7 @@ public class RingOfDestiny
 
 
     public static final Logger logger = LogManager.getLogger(RingOfDestiny.class.getSimpleName());
-
+    public static List<CustomCard> MB_SoleCards = new ArrayList<>();
 
     public RingOfDestiny() {
         BaseMod.subscribe(this);
@@ -336,6 +336,15 @@ public class RingOfDestiny
         for (CustomCard card : cards) {
             BaseMod.addCard(card);
             UnlockTracker.unlockCard(card.cardID);
+
+            if(card.hasTag(CustomTagsEnum.SoleCard)){
+                if(card.color == CardColorEnum.MagicBullet_LIME){
+                    System.out.println("魔弹唯一卡池加入"+ card.name);
+                    MB_SoleCards.add(card);
+                }
+
+            }
+
         }
 
         logger.debug("receiveEditCards finished.");

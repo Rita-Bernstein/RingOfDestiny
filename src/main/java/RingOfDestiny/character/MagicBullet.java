@@ -25,7 +25,9 @@ import com.megacrit.cardcrawl.core.EnergyManager;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.events.city.Vampires;
+import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.ModHelper;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -127,6 +129,26 @@ public class MagicBullet extends CustomPlayer {
     @Override
     public String getTitle(PlayerClass playerClass) {
         return charStrings.NAMES[1];
+    }
+
+    @Override
+    public ArrayList<AbstractCard> getCardPool(ArrayList<AbstractCard> tmpPool) {
+        if (ModHelper.isModEnabled("Red Cards")) {
+            CardLibrary.addRedCards(tmpPool);
+        }
+        if (ModHelper.isModEnabled("Green Cards")) {
+            CardLibrary.addGreenCards(tmpPool);
+        }
+
+        if (ModHelper.isModEnabled("Blue Cards")) {
+            CardLibrary.addBlueCards(tmpPool);
+        }
+
+        if (ModHelper.isModEnabled("Purple Cards")) {
+            CardLibrary.addPurpleCards(tmpPool);
+        }
+
+        return super.getCardPool(tmpPool);
     }
 
     @Override
