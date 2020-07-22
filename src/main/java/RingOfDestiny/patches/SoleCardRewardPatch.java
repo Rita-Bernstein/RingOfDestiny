@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.ModHelper;
 
 import static basemod.BaseMod.getModdedCharacters;
+import static com.megacrit.cardcrawl.dungeons.AbstractDungeon.*;
 
 
 public class SoleCardRewardPatch {
@@ -25,11 +26,10 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class RareCardPoolPrePatch {
-        @SpireInsertPatch(rloc = 3, localvars = {"rareCardPool"})
+        @SpireInsertPatch(rloc = 3)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
-                                               boolean useRng,
-                                               @ByRef(type = "cards.CardGroup") Object[] rareCardPool) {
+                                               boolean useRng) {
             if (AbstractDungeon.player != null) {
                 CardGroup newRareGroup = returnSoleCard(rarity);
 
@@ -37,7 +37,7 @@ public class SoleCardRewardPatch {
                 if (newRareGroup.size() > 0) {
                     for (AbstractCard c : newRareGroup.group) {
                         System.out.println(rarity + "唯一卡牌卡池加入：" + c.name);
-                        ((CardGroup) rareCardPool[0]).group.add(c);
+                        rareCardPool.group.add(c);
                     }
                 } else {
                     System.out.println(rarity + "唯一牌为空");
@@ -56,21 +56,20 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class RareCardPoolPostPatch {
-        @SpireInsertPatch(rloc = 4, localvars = {"rareCardPool"})
+        @SpireInsertPatch(rloc = 4)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
-                                               boolean useRng,
-                                               @ByRef(type = "cards.CardGroup") Object[] rareCardPool) {
+                                               boolean useRng) {
             CardGroup groupForRemove = new CardGroup(CardGroup.CardGroupType.CARD_POOL);
             groupForRemove.clear();
 
-            for (AbstractCard c : ((CardGroup) rareCardPool[0]).group) {
+            for (AbstractCard c : rareCardPool.group) {
                 if (c.hasTag(CustomTagsEnum.SoleCard))
                     groupForRemove.group.add(c);
             }
 
             for (AbstractCard c : groupForRemove.group) {
-                ((CardGroup) rareCardPool[0]).removeCard(c);
+                rareCardPool.removeCard(c);
             }
 
             return SpireReturn.Continue();
@@ -83,11 +82,10 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class UncommonCardPoolPrePatch {
-        @SpireInsertPatch(rloc = 10, localvars = {"uncommonCardPool"})
+        @SpireInsertPatch(rloc = 10)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
-                                               boolean useRng,
-                                               @ByRef(type = "cards.CardGroup") Object[] uncommonCardPool) {
+                                               boolean useRng) {
             if (AbstractDungeon.player != null) {
                 CardGroup newUncommonGroup = returnSoleCard(rarity);
 
@@ -95,7 +93,7 @@ public class SoleCardRewardPatch {
                 if (newUncommonGroup.size() > 0) {
                     for (AbstractCard c : newUncommonGroup.group) {
                         System.out.println(rarity + "唯一卡牌卡池加入：" + c.name);
-                        ((CardGroup) uncommonCardPool[0]).group.add(c);
+                        uncommonCardPool.group.add(c);
                     }
                 } else {
                     System.out.println(rarity + "唯一牌为空");
@@ -114,21 +112,20 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class UncommonCardPoolPostPatch {
-        @SpireInsertPatch(rloc = 11, localvars = {"uncommonCardPool"})
+        @SpireInsertPatch(rloc = 11)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
-                                               boolean useRng,
-                                               @ByRef(type = "cards.CardGroup") Object[] uncommonCardPool) {
+                                               boolean useRng) {
             CardGroup groupForRemove = new CardGroup(CardGroup.CardGroupType.CARD_POOL);
             groupForRemove.clear();
 
-            for (AbstractCard c : ((CardGroup) uncommonCardPool[0]).group) {
+            for (AbstractCard c : uncommonCardPool.group) {
                 if (c.hasTag(CustomTagsEnum.SoleCard))
                     groupForRemove.group.add(c);
             }
 
             for (AbstractCard c : groupForRemove.group) {
-                ((CardGroup) uncommonCardPool[0]).removeCard(c);
+                uncommonCardPool.removeCard(c);
             }
 
             return SpireReturn.Continue();
@@ -142,11 +139,10 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class CommonCardPoolPrePatch {
-        @SpireInsertPatch(rloc = 19, localvars = {"commonCardPool"})
+        @SpireInsertPatch(rloc = 19)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
-                                               boolean useRng,
-                                               @ByRef(type = "cards.CardGroup") Object[] commonCardPool) {
+                                               boolean useRng) {
             if (AbstractDungeon.player != null) {
                 CardGroup newCommonGroup = returnSoleCard(rarity);
 
@@ -154,7 +150,7 @@ public class SoleCardRewardPatch {
                 if (newCommonGroup.size() > 0) {
                     for (AbstractCard c : newCommonGroup.group) {
                         System.out.println(rarity + "唯一卡牌卡池加入：" + c.name);
-                        ((CardGroup) commonCardPool[0]).group.add(c);
+                        commonCardPool.group.add(c);
                     }
                 } else {
                     System.out.println(rarity + "唯一牌为空");
@@ -173,21 +169,20 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class CommonCardPoolPostPatch {
-        @SpireInsertPatch(rloc = 20, localvars = {"commonCardPool"})
+        @SpireInsertPatch(rloc = 20)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
-                                               boolean useRng,
-                                               @ByRef(type = "cards.CardGroup") Object[] commonCardPool) {
+                                               boolean useRng) {
             CardGroup groupForRemove = new CardGroup(CardGroup.CardGroupType.CARD_POOL);
             groupForRemove.clear();
 
-            for (AbstractCard c : ((CardGroup) commonCardPool[0]).group) {
+            for (AbstractCard c : commonCardPool.group) {
                 if (c.hasTag(CustomTagsEnum.SoleCard))
                     groupForRemove.group.add(c);
             }
 
             for (AbstractCard c : groupForRemove.group) {
-                ((CardGroup) commonCardPool[0]).removeCard(c);
+                commonCardPool.removeCard(c);
             }
 
             return SpireReturn.Continue();
@@ -237,31 +232,27 @@ public class SoleCardRewardPatch {
             method = "getRewardCards"
     )
     public static class CardRewardGetCardPrePatch {
-        @SpireInsertPatch(rloc = 42, localvars = {"rareCardPool", "uncommonCardPool", "commonCardPool"})
-        public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
-                                               @ByRef(type = "cards.CardGroup") Object[] rareCardPool,
-                                               @ByRef(type = "cards.CardGroup") Object[] uncommonCardPool,
-                                               @ByRef(type = "cards.CardGroup") Object[] commonCardPool
-        ) {
+        @SpireInsertPatch(rloc = 42, localvars = {"rarity"})
+        public static SpireReturn<Void> Insert(@ByRef(type = "cards.AbstractCard.CardRarity") Object[] rarity) {
             if (AbstractDungeon.player != null) {
-                CardGroup newCommonGroup = returnSoleCard(rarity);
+                CardGroup newCommonGroup = returnSoleCard((AbstractCard.CardRarity) rarity[0]);
 
-                System.out.println("=============唯一=============" + rarity);
+                System.out.println("=============唯一=============" + rarity[0]);
                 if (newCommonGroup.size() > 0) {
                     for (AbstractCard c : newCommonGroup.group) {
-                        System.out.println(rarity + "唯一卡牌卡池加入：" + c.name);
-                        if (rarity == AbstractCard.CardRarity.RARE) {
-                            ((CardGroup) rareCardPool[0]).group.add(c);
+                        System.out.println(rarity[0] + "唯一卡牌卡池加入：" + c.name);
+                        if ((AbstractCard.CardRarity) rarity[0] == AbstractCard.CardRarity.RARE) {
+                            rareCardPool.group.add(c);
                         }
-                        if (rarity == AbstractCard.CardRarity.UNCOMMON) {
-                            ((CardGroup) uncommonCardPool[0]).group.add(c);
+                        if ((AbstractCard.CardRarity) rarity[0] == AbstractCard.CardRarity.UNCOMMON) {
+                            uncommonCardPool.group.add(c);
                         }
-                        if (rarity == AbstractCard.CardRarity.COMMON) {
-                            ((CardGroup) commonCardPool[0]).group.add(c);
+                        if ((AbstractCard.CardRarity) rarity[0] == AbstractCard.CardRarity.COMMON) {
+                            commonCardPool.group.add(c);
                         }
                     }
                 } else {
-                    System.out.println(rarity + "唯一牌为空");
+                    System.out.println(rarity[0] + "唯一牌为空");
                 }
 
             }
@@ -276,45 +267,43 @@ public class SoleCardRewardPatch {
             method = "getRewardCards"
     )
     public static class CardRewardGetCardPostPatch {
-        @SpireInsertPatch(rloc = 43, localvars = {"rareCardPool", "uncommonCardPool", "commonCardPool"})
-        public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
-                                               @ByRef(type = "cards.CardGroup") Object[] rareCardPool,
-                                               @ByRef(type = "cards.CardGroup") Object[] uncommonCardPool,
-                                               @ByRef(type = "cards.CardGroup") Object[] commonCardPool
-        ) {
+        @SpireInsertPatch(rloc = 43, localvars = {"rarity"})
+        public static SpireReturn<Void> Insert(@ByRef(type = "cards.AbstractCard.CardRarity") Object[] rarity) {
             CardGroup groupForRemove = new CardGroup(CardGroup.CardGroupType.CARD_POOL);
-            groupForRemove.clear();
 
-            if (rarity == AbstractCard.CardRarity.RARE) {
-                for (AbstractCard c : ((CardGroup) commonCardPool[0]).group) {
+            if ((AbstractCard.CardRarity) rarity[0] == AbstractCard.CardRarity.RARE) {
+                groupForRemove.clear();
+                for (AbstractCard c : rareCardPool.group) {
                     if (c.hasTag(CustomTagsEnum.SoleCard))
                         groupForRemove.group.add(c);
                 }
 
                 for (AbstractCard c : groupForRemove.group) {
-                    ((CardGroup) rareCardPool[0]).removeCard(c);
+                    rareCardPool.removeCard(c);
                 }
             }
 
-            if (rarity == AbstractCard.CardRarity.UNCOMMON) {
-                for (AbstractCard c : ((CardGroup) commonCardPool[0]).group) {
+            if ((AbstractCard.CardRarity) rarity[0] == AbstractCard.CardRarity.UNCOMMON) {
+                groupForRemove.clear();
+                for (AbstractCard c : commonCardPool.group) {
                     if (c.hasTag(CustomTagsEnum.SoleCard))
                         groupForRemove.group.add(c);
                 }
 
                 for (AbstractCard c : groupForRemove.group) {
-                    ((CardGroup) uncommonCardPool[0]).removeCard(c);
+                    uncommonCardPool.removeCard(c);
                 }
             }
 
-            if (rarity == AbstractCard.CardRarity.COMMON) {
-                for (AbstractCard c : ((CardGroup) commonCardPool[0]).group) {
+            if ((AbstractCard.CardRarity) rarity[0] == AbstractCard.CardRarity.COMMON) {
+                groupForRemove.clear();
+                for (AbstractCard c : commonCardPool.group) {
                     if (c.hasTag(CustomTagsEnum.SoleCard))
                         groupForRemove.group.add(c);
                 }
 
                 for (AbstractCard c : groupForRemove.group) {
-                    ((CardGroup) commonCardPool[0]).removeCard(c);
+                    commonCardPool.removeCard(c);
                 }
             }
 
@@ -340,17 +329,17 @@ public class SoleCardRewardPatch {
                 || ModHelper.isModEnabled("MagicBullet" + "Modded Character Cards")) {
             System.out.println(rarity + "唯一卡牌临时卡池开始加入");
             for (AbstractCard c : RingOfDestiny.MB_SoleCards) {
-                if (rarity == AbstractCard.CardRarity.RARE && c.hasTag(CustomTagsEnum.SoleRare) && !AbstractDungeon.player.masterDeck.contains(c)) {
+                if (rarity == AbstractCard.CardRarity.RARE && c.hasTag(CustomTagsEnum.SoleRare) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
                     System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
                     groupForReturn.group.add(c);
                 }
 
-                if (rarity == AbstractCard.CardRarity.UNCOMMON && c.hasTag(CustomTagsEnum.SoleUncommon) && !AbstractDungeon.player.masterDeck.contains(c)) {
+                if (rarity == AbstractCard.CardRarity.UNCOMMON && c.hasTag(CustomTagsEnum.SoleUncommon) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
                     System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
                     groupForReturn.group.add(c);
                 }
 
-                if (rarity == AbstractCard.CardRarity.COMMON && c.hasTag(CustomTagsEnum.SoleCommon) && !AbstractDungeon.player.masterDeck.contains(c)) {
+                if (rarity == AbstractCard.CardRarity.COMMON && c.hasTag(CustomTagsEnum.SoleCommon) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
                     System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
                     groupForReturn.group.add(c);
                 }
@@ -368,17 +357,17 @@ public class SoleCardRewardPatch {
 
         System.out.println(rarity + "唯一卡牌临时卡池开始加入");
         for (AbstractCard c : RingOfDestiny.MB_SoleCards) {
-            if (rarity == AbstractCard.CardRarity.RARE && c.hasTag(CustomTagsEnum.SoleRare) && !AbstractDungeon.player.masterDeck.contains(c)) {
+            if (rarity == AbstractCard.CardRarity.RARE && c.hasTag(CustomTagsEnum.SoleRare) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
                 System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
                 groupForReturn.group.add(c);
             }
 
-            if (rarity == AbstractCard.CardRarity.UNCOMMON && c.hasTag(CustomTagsEnum.SoleUncommon) && !AbstractDungeon.player.masterDeck.contains(c)) {
+            if (rarity == AbstractCard.CardRarity.UNCOMMON && c.hasTag(CustomTagsEnum.SoleUncommon) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
                 System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
                 groupForReturn.group.add(c);
             }
 
-            if (rarity == AbstractCard.CardRarity.COMMON && c.hasTag(CustomTagsEnum.SoleCommon) && !AbstractDungeon.player.masterDeck.contains(c)) {
+            if (rarity == AbstractCard.CardRarity.COMMON && c.hasTag(CustomTagsEnum.SoleCommon) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
                 System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
                 groupForReturn.group.add(c);
             }
@@ -386,7 +375,6 @@ public class SoleCardRewardPatch {
 
         return groupForReturn;
     }
-
 }
 
 
