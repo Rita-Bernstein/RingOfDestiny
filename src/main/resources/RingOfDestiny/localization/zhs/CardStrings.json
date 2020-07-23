@@ -20,7 +20,7 @@
     "NAME": "影刺",
     "DESCRIPTION": "造成 !D! 点伤害。"
   },
-  "RingOfDestiny:Corrosion": {
+  "RingOfDestiny:ShadowCorrosion": {
     "NAME": "影蚀",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 。"
   },
@@ -692,7 +692,137 @@
     "NAME": "苟住",
     "DESCRIPTION": "获得 !B! 点 格挡 X次。"
   },
-
+  "RingOfDestiny:Recommend": {
+    "NAME": "安利",
+    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。给予 !M! 层 ring_of_destiny:流血 ， !RODSecondM! 层 虚弱 。如果 ring_of_destiny:氪金石 不足，则失去3点生命。"
+  },
+  "RingOfDestiny:AristocraticPedigree": {
+    "NAME": "贵族血统",
+    "DESCRIPTION": "本场战斗中，临时提高生命上限 !M! 点。"
+  },
+  "RingOfDestiny:NoInvest": {
+  "NAME": "无氪党",
+  "DESCRIPTION": "本场战斗中无法获得 ring_of_destiny:氪金石 。每当从卡牌失去生命时，随机给予 !M! 层 ring_of_destiny:流血 。 ",
+  "UPGRADE_DESCRIPTION": "固有 。 NL 本场战斗中无法获得 ring_of_destiny:氪金石 。每当从卡牌失去生命时，随机给予 !M! 层 ring_of_destiny:流血 。 "
+},
+  "RingOfDestiny:MonthCard": {
+    "NAME": "月卡",
+    "DESCRIPTION": "每回合开始时，获得 !M! 颗 ring_of_destiny:氪金石 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每回合开始时，获得 !M! 颗 ring_of_destiny:氪金石 。"
+  },
+  "RingOfDestiny:Shiny": {
+    "NAME": "金光闪闪",
+    "DESCRIPTION": "提升 ring_of_destiny:氪金光环 和 ring_of_destiny:招财喵之怒 造成的伤害 !M! 点。"
+  },
+  "RingOfDestiny:Reinforcement": {
+    "NAME": "光环加固",
+    "DESCRIPTION": "提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:氪金石 数量的的 格挡 获得。"
+  },
+  "RingOfDestiny:BuyBuyBuy": {
+    "NAME": "血拼",
+    "DESCRIPTION": "造成 !D! 点伤害。每失去 !M! 点生命 ，额外增加1点伤害。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 造成 !D! 点伤害。每失去 !M! 点生命 ，额外增加1点伤害。"
+  },
+  "RingOfDestiny:Conversion": {
+    "NAME": "转化",
+    "DESCRIPTION": "造成 !D! 点伤害。临时提高生命上限 !M! 点。 NL 消耗 。"
+  },
+  "RingOfDestiny:Joyride": {
+    "NAME": "飙",
+    "DESCRIPTION": "使用所有 ring_of_destiny:氪金石 。每使用一颗，临时提高生命上限 !M! 点。"
+  },
+  "RingOfDestiny:SwornRevenge": {
+    "NAME": "血灾",
+    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。翻倍敌人的 ring_of_destiny:流血 。如果 ring_of_destiny:氪金石 不足，失去 !RODSecondM! 点生命 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。翻倍敌人的 ring_of_destiny:流血 。如果 ring_of_destiny:氪金石 不足，失去 !RODSecondM! 点生命 。"
+  },
+  "RingOfDestiny:DoubleInvest": {
+    "NAME": "氪金翻倍",
+    "DESCRIPTION": "本回合内，翻倍从卡牌获得的  ring_of_destiny:氪金石 。"
+  },
+  "RingOfDestiny:DiamondOfTime": {
+    "NAME": "石之杀",
+    "DESCRIPTION": "造成 !D! 点伤害。每有 !M! 颗 ring_of_destiny:氪金石 ，提高1点伤害。"
+  },
+  "RingOfDestiny:BloodAvalanche": {
+    "NAME": "血崩",
+    "DESCRIPTION": "本回合结束时，不结算 ring_of_destiny:流血 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "本回合结束时，不结算 ring_of_destiny:流血 。"
+  },
+  "RingOfDestiny:Corrosion": {
+    "NAME": "腐蚀",
+    "DESCRIPTION": "消耗 手牌中所有非攻击牌。每 消耗 一张牌，给予敌人 !M! 层 ring_of_destiny:流血 。"
+  },
+  "RingOfDestiny:CrushDiamond": {
+    "NAME": "碎石",
+    "DESCRIPTION": "将每 !M! 颗 ring_of_destiny:氪金石 转化为 [E] 。"
+  },
+  "RingOfDestiny:Metaphysics": {
+    "NAME": "玄学",
+    "DESCRIPTION": "随机获得1到 !M! 颗 ring_of_destiny:氪金石 。"
+  },
+  "RingOfDestiny:InvestMagic": {
+    "NAME": "氪金大法",
+    "DESCRIPTION": "每有一颗 ring_of_destiny:氪金石 ，对所有敌人造成 !D! 点伤害。"
+  },
+  "RingOfDestiny:LargeGains": {
+    "NAME": "血赚",
+    "DESCRIPTION": "造成 !D! 点伤害。回复等于敌人 ring_of_destiny:流血 层数的生命。 NL 消耗 。"
+  },
+  "RingOfDestiny:Rich": {
+    "NAME": "壕",
+    "DESCRIPTION": "使用所有 ring_of_destiny:氪金石 。每使用一颗，对敌人造成 !D! 点伤害 。"
+  },
+  "RingOfDestiny:Repeat": {
+    "NAME": "复读",
+    "DESCRIPTION": "这张牌的效果，视作你使用的上一张牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:ScrewRules": {
+    "NAME": "为所欲为",
+    "DESCRIPTION": "保留 !M! 张手牌。 NL 在本回合结束后，额外获得一回合。 NL 结束你的回合。 NL 消耗 。"
+  },
+  "RingOfDestiny:Cheat": {
+    "NAME": "开挂",
+    "DESCRIPTION": "本回合将你打出的下 !M! 张攻击牌变为全体攻击。"
+  },
+  "RingOfDestiny:hundredDollar": {
+    "NAME": "648",
+    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。获得 [E] 。抽 !RODSecondM! 张牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。获得 [E] [E] 。抽 !RODSecondM! 张牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:CatCannon": {
+    "NAME": "氪金大炮",
+    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 ring_of_destiny:招财喵之怒 变为攻击全部敌人。"
+  },
+  "RingOfDestiny:Bloodmourne": {
+    "NAME": "血之哀",
+    "DESCRIPTION": "每当你给予敌人 ring_of_destiny:流血 时，额外给予 !M! 层。"
+  },
+  "RingOfDestiny:Extraction": {
+    "NAME": "萃取",
+    "DESCRIPTION": "消耗 手牌中所有状态和诅咒牌。每 消耗 一张，临时提高生命上限 !M! 点。 NL 消耗 。"
+  },
+  "RingOfDestiny:GoldProtect": {
+    "NAME": "氪金护体",
+    "DESCRIPTION": "下一次失去生命时，回复损失生命的120%。 NL 消耗 。"
+  },
+  "RingOfDestiny:Privilege": {
+    "NAME": "特权",
+    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。如果 ring_of_destiny:氪金石 不足，失去 !M! 点生命。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 使用 !M! 颗 ring_of_destiny:氪金石 。下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。如果 ring_of_destiny:氪金石 不足，失去 !M! 点生命。"
+  },
+  "RingOfDestiny:DanceOfBlood": {
+    "NAME": "血之舞",
+    "DESCRIPTION": "给予 !M! 层 ring_of_destiny:流血 。将弃牌堆中所有0耗能的牌放入你的手牌。"
+  },
+  "RingOfDestiny:Show": {
+    "NAME": "秀",
+    "DESCRIPTION": "每次获得 ring_of_destiny:氪金石 。给予所有敌人 !M! 层 ring_of_destiny:流血 。"
+  },
+  "RingOfDestiny:Act": {
+    "NAME": "演",
+    "DESCRIPTION": "每次使用 ring_of_destiny:氪金石 。获得 !M! 点 格挡 。"
+  },
   "RingOfDestiny:Defend_IH": {
     "NAME": "光之盾",
     "DESCRIPTION": "获得 !B! 点 格挡 。"
@@ -701,8 +831,215 @@
     "NAME": "惩击",
     "DESCRIPTION": "造成 !D! 点伤害。"
   },
+  "RingOfDestiny:FairJudgement": {
+    "NAME": "公正审判",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 ring_of_destiny:定罪 。"
+  },
+  "RingOfDestiny:HonourJudgement": {
+    "NAME": "荣耀审判",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 ring_of_destiny:定罪 。 NL 消耗 。"
+  },
+  "RingOfDestiny:ForbiddenStrike": {
+    "NAME": "禁断打击",
+    "DESCRIPTION": "使敌人失去 !M! 点生命上限。 NL 丢弃一张牌。 NL 回到你的手牌。"
+  },
+  "RingOfDestiny:Pray": {
+    "NAME": "祷告",
+    "DESCRIPTION": "获得 [E] [E] [E] ,从0到 !M! 随机化手牌本回合的耗能。"
+  },
+  "RingOfDestiny:ForbiddenBook": {
+    "NAME": "禁断之书",
+    "DESCRIPTION": "获得一张 *禁断打击 。获得两张 *祭品 。",
+    "UPGRADE_DESCRIPTION": "获得一张 *禁断打击+ 。获得两张 *祭品 。"
+  },
+  "RingOfDestiny:HolyInterweaving": {
+    "NAME": "圣光交织",
+    "DESCRIPTION": "随机造成 !D! 点伤害 !M! 次。"
+  },
+  "RingOfDestiny:HolyStrike": {
+    "NAME": "圣光打击",
+    "DESCRIPTION": "造成 !D! 点伤害。抽 !M! 张牌。"
+  },
+  "RingOfDestiny:WeakenStrike": {
+    "NAME": "虚弱打击",
+    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 虚弱 。"
+  },
+  "RingOfDestiny:BathingInGrace": {
+    "NAME": "沐浴圣恩",
+    "DESCRIPTION": "抽 !M! 张牌。获得两张 *祭品 。"
+  },
+  "RingOfDestiny:Aerostigmata": {
+    "NAME": "破风圣痕",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。给予 !M! 层 易伤 。"
+  },
+  "RingOfDestiny:ShimmerBarrier": {
+    "NAME": "微光屏障",
+    "DESCRIPTION": "获得 !B! 点 格挡 。"
+  },
+  "RingOfDestiny:DevoutPray": {
+    "NAME": "虔诚祷言",
+    "DESCRIPTION": "获得 !B! 点 格挡 。丢弃一张牌。抽 !M! 张牌。"
+  },
+  "RingOfDestiny:HolyJustice": {
+    "NAME": "神圣裁决",
+    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 ring_of_destiny:定罪 。回复 !M! 点生命。 NL stslib:抹除 。"
+  },
+  "RingOfDestiny:Villainous": {
+    "NAME": "黑化",
+    "DESCRIPTION": "进入 ring_of_destiny:黑暗形态 。"
+  },
+  "RingOfDestiny:JudgementOfLight": {
+    "NAME": "光明审判",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 ring_of_destiny:定罪 。"
+  },
+  "RingOfDestiny:JudgementOfSanctity": {
+    "NAME": "圣洁审判",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 ring_of_destiny:定罪 。 NL 在本场战斗中每打出一次，耗能增加1。"
+  },
+  "RingOfDestiny:HolyGift": {
+    "NAME": "神圣恩赐",
+    "DESCRIPTION": " ring_of_destiny:公平 。获得 !M! 点 力量 。"
+  },
+  "RingOfDestiny:PowerOfLight": {
+    "NAME": "光明之力",
+    "DESCRIPTION": "翻倍你的 力量 。 NL stslib:抹除 。"
+  },
+  "RingOfDestiny:SacredOverload": {
+    "NAME": "神圣过载",
+    "DESCRIPTION": "获得 [E] [E] 。下回合少抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] [E] 。下回合少抽 !M! 张牌。"
+  },
+  "RingOfDestiny:Sacrifice": {
+    "NAME": "祭祀",
+    "DESCRIPTION": "失去 !RODSecondM! 点最大生命。 NL 获得 !M! 点 力量 。"
+  },
+  "RingOfDestiny:BladeOfFaith": {
+    "NAME": "信仰之刃",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 回复 !M! 点生命。"
+  },
+  "RingOfDestiny:ChainOfLight": {
+    "NAME": "光之锁",
+    "DESCRIPTION": "打出这张牌后，本回合你从卡牌失去生命时，随机使敌人失去两倍的生命。",
+    "UPGRADE_DESCRIPTION": "打出这张牌后，本回合你从卡牌失去生命时，使所有敌人失去两倍的生命。"
+  },
+  "RingOfDestiny:AngelTalisman": {
+    "NAME": "天使护符",
+    "DESCRIPTION": " ring_of_destiny:唯一 。每 stslib:抹除 一张牌。获得 [E] 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每 stslib:抹除 一张牌。获得 [E] [E] 。"
+  },
+  "RingOfDestiny:HolyAssault": {
+    "NAME": "神圣连击",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。"
+  },
+  "RingOfDestiny:HolyStorm": {
+    "NAME": "神圣风暴",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。"
+  },
+  "RingOfDestiny:FireOfJustice": {
+    "NAME": "正义之火",
+    "DESCRIPTION": "造成 !D! 点伤害。每失去 !M! 点生命。增加 !RODSecondM! 点伤害。"
+  },
+  "RingOfDestiny:ExposeAndCriticize": {
+    "NAME": "清算",
+    "DESCRIPTION": "造成 !D! 点伤害。 如果杀死了敌人，获得 !M! 点 力量 。"
+  },
+  "RingOfDestiny:JusticeWarning": {
+    "NAME": "正义警告",
+    "DESCRIPTION": "造成等于当前弃牌堆数的伤害。"
+  },
+  "RingOfDestiny:HolyPressure": {
+    "NAME": "天谴",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。获得 !M! 张 *祭品 。 NL 消耗 。"
+  },
+  "RingOfDestiny:SwordShield": {
+    "NAME": "剑盾猛攻",
+    "DESCRIPTION": "造成 !D! 点伤害。获得 !B! 点 格挡 。 NL stslib:抹除 。"
+  },
+  "RingOfDestiny:ProtectionOfLight": {
+    "NAME": "光明庇佑",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 人工制品 。"
+  },
+  "RingOfDestiny:InsightTruth": {
+    "NAME": "洞察真理",
+    "DESCRIPTION": "如果敌人的意图是攻击，获得 !M! 点 力量 。"
+  },
+  "RingOfDestiny:AmuletHeart": {
+    "NAME": "守护之心",
+    "DESCRIPTION": "ring_of_destiny:唯一 。每 消耗 一张牌。获得 !M! 点 格挡 。"
+  },
+  "RingOfDestiny:HandOfGod": {
+    "NAME": "上帝之手",
+    "DESCRIPTION": "将手牌中的一张技能牌复制 !M! 张。"
+  },
+  "RingOfDestiny:PureHeart": {
+    "NAME": "纯洁之心",
+    "DESCRIPTION": "ring_of_destiny:唯一 。每回合开始时，将 !M! 张 *神圣裁决 加入你的手牌。",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:唯一 。每回合开始时，将 !M! 张 *神圣裁决+ 加入你的手牌。"
+  },
+  "RingOfDestiny:HymnOfAngels": {
+    "NAME": "天使赞歌",
+    "DESCRIPTION": "本回合你的所有技能牌耗能变为0。 NL 本回合无法打出非技能牌。"
+  },
+  "RingOfDestiny:ShieldOfHeaven": {
+    "NAME": "天堂之盾",
+    "DESCRIPTION": "获得 !B! 点格挡。获得 !M! 层 脆弱。 NL 消耗 。"
+  },
+  "RingOfDestiny:ExpiateSin": {
+    "NAME": "赎罪",
+    "DESCRIPTION": "本回合定罪层数消耗减 !M! 。 NL stslib:抹除 。"
+  },
+  "RingOfDestiny:Resuscitation": {
+    "NAME": "复苏",
+    "DESCRIPTION": "使用X点 ring_of_destiny:傲娇 ，回复X点生命。",
+    "UPGRADE_DESCRIPTION": "使用X点 ring_of_destiny:傲娇 ，回复X+ !M! 点生命。"
+  },
+  "RingOfDestiny:DawnJudgement": {
+    "NAME": "曙光审判",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。给予 !M! 层 ring_of_destiny:定罪 。"
+  },
+  "RingOfDestiny:FinalJudgement": {
+    "NAME": "终结审判",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。目标身上每有一层 ring_of_destiny:定罪 增加一次。失去所有 ring_of_destiny:定罪 。"
+  },
+  "RingOfDestiny:SheathOfLight": {
+    "NAME": "圣光出鞘",
+    "DESCRIPTION": "造成 !D! 点伤害。每有一点 力量 ，回复 !M! 点生命。"
+  },
+  "RingOfDestiny:HolyPouring": {
+    "NAME": "神圣倾泻",
+    "DESCRIPTION": "丢弃所有非攻击牌。每丢弃一张牌，对所有敌人造成 !D! 点伤害。"
+  },
+  "RingOfDestiny:Tsudere": {
+    "NAME": "凛娇",
+    "DESCRIPTION": "翻倍你的能量。 NL stslib:抹除 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 翻倍你的能量。 NL stslib:抹除 。"
+  },
+  "RingOfDestiny:HolyEcho": {
+    "NAME": "神圣回响",
+    "DESCRIPTION": "将使弃牌堆顶部的牌打出 !M! 次。"
+  },
+  "RingOfDestiny:PowerPendant": {
+    "NAME": "力量吊坠",
+    "DESCRIPTION": "每回合开始时，失去 !RODSecondM! 点生命。获得 !M! 点 力量 。"
+  },
+  "RingOfDestiny:ResurrectionGem": {
+    "NAME": "复活宝石",
+    "DESCRIPTION": "ring_of_destiny:唯一 。当你将要死亡时，满血复活。 NL stslib:抹除 。"
+  },
+  "RingOfDestiny:HolyShock": {
+    "NAME": "圣力冲击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 力量 在这张牌上发挥 !M! 倍效果。失去一半的 力量 。"
+  },
+  "RingOfDestiny:BaptismOfLight": {
+    "NAME": "圣光洗礼",
+    "DESCRIPTION": "造成 !D! 点伤害。回复未被 格挡 伤害的生命。 NL stslib:抹除 。"
+  },
 
 
+  "RingOfDestiny:heroify": {
+    "NAME": "洗白",
+    "DESCRIPTION": "进入 ring_of_destiny:光明形态 。获得 [E] 。"
+  },
 
   "RingOfDestiny:Defend_SU": {
     "NAME": "暗影防护",
@@ -711,5 +1048,9 @@
   "RingOfDestiny:Strike_SU": {
     "NAME": "暗影打击",
     "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "RingOfDestiny:Offering": {
+    "NAME": "祭品",
+    "DESCRIPTION": "不能被打出 。如果这张牌被丢弃，获得 !M! 点 ring_of_destiny:傲娇 。"
   }
 }

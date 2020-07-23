@@ -44,8 +44,14 @@ public class EtchSpirit extends AbstractRingCard {
         addToBot(new ApplyPowerAction(p, p, new EtchSpiritPower(p, this.secondaryM), this.secondaryM));
     }
 
-    public AbstractCard makeCopy() {
+    public void applyPowers() {
+        this.secondaryM = this.baseSecondaryM =  this.misc;
+        super.applyPowers();
+        initializeDescription();
+    }
 
+
+    public AbstractCard makeCopy() {
         return new EtchSpirit();
     }
 

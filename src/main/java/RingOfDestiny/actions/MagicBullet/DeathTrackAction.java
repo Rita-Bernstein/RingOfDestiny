@@ -14,13 +14,18 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import javax.swing.*;
 
 
-public class DanceOfDeathAction extends AbstractGameAction {
+public class DeathTrackAction extends AbstractGameAction {
     private int numTimes;
     private int amount;
+    private DamageInfo info;
+    private AttackEffect attackEffect;
 
 
-    public DanceOfDeathAction(AbstractCreature target, int amount, int numTimes) {
+    public DeathTrackAction(AbstractCreature target,DamageInfo info, AttackEffect effect, int amount, int numTimes) {
         this.target = target;
+        this.info = info;
+        setValues(target, info);
+        this.attackEffect = effect;
         this.actionType = AbstractGameAction.ActionType.DEBUFF;
         this.duration = 0.01F;
         this.numTimes = numTimes;
@@ -47,11 +52,13 @@ public class DanceOfDeathAction extends AbstractGameAction {
             AbstractMonster randomMonster = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng);
 
 
-            addToBot(new DanceOfDeathAction(randomMonster, this.amount, this.numTimes));
+            addToBot(new DeathTrackAction(randomMonster, this.info , this.attackEffect, this.amount, this.numTimes));
 
         }
 
         if (this.target.currentHealth > 0) {
+
+            addToBot(new DamageAction(this.target, this.info, this.attackEffect));
             addToBot(new ApplyPowerAction(this.target, AbstractDungeon.player, new EtchPower(this.target, this.amount), this.amount, true, AttackEffect.NONE));
             addToBot(new WaitAction(0.1F));
         }

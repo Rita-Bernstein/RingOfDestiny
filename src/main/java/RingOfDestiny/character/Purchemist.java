@@ -94,6 +94,13 @@ public class Purchemist extends CustomPlayer {
     public ArrayList<String> getStartingDeck() {
         ArrayList<String> retVal = new ArrayList<>();
         retVal.add(Defend_PU.ID);
+        retVal.add(Defend_PU.ID);
+        retVal.add(Defend_PU.ID);
+        retVal.add(Defend_PU.ID);
+
+        retVal.add(Strike_PU.ID);
+        retVal.add(Strike_PU.ID);
+        retVal.add(Strike_PU.ID);
 
         return retVal;
     }

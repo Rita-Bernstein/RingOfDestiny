@@ -18,8 +18,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.PoisonPower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
-public class Corrosion extends AbstractRingCard {
-	public static final String ID = RingOfDestiny.makeID("Corrosion");
+public class ShadowCorrosion extends AbstractRingCard {
+	public static final String ID = RingOfDestiny.makeID("ShadowCorrosion");
 	private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 	public static final String NAME = cardStrings.NAME;
 	public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/05.png");
@@ -32,7 +32,7 @@ public class Corrosion extends AbstractRingCard {
 
 
 
-	public Corrosion() {
+	public ShadowCorrosion() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
 		this.damage =  this.baseDamage = 8;
 		this.magicNumber = this.baseMagicNumber = 1;
@@ -44,7 +44,7 @@ public class Corrosion extends AbstractRingCard {
 			}
 
 	public AbstractCard makeCopy() {
-		return new Corrosion();
+		return new ShadowCorrosion();
 	}
 
 	public void upgrade() {

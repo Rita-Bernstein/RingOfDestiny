@@ -1,6 +1,7 @@
 package RingOfDestiny.cards.MagicBullet;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.MagicBullet.DeathTrackAction;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import RingOfDestiny.patches.CustomTagsEnum;
@@ -37,13 +38,14 @@ public class DeathTrack extends AbstractRingCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractMonster randomMonster;
-        for (int i = 0; i < this.magicNumber; i++) {
-            randomMonster = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng);
-            addToBot(new DamageAction(randomMonster, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
-            addToBot(new ApplyPowerAction(randomMonster, p, new EtchPower(m, this.magicNumber), this.magicNumber));
-        }
+        AbstractMonster randomMonster = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng);
 
+//        for (int i = 0; i < this.magicNumber; i++) {
+////            randomMonster = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng);
+////            addToBot(new DamageAction(randomMonster, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
+////            addToBot(new ApplyPowerAction(randomMonster, p, new EtchPower(m, this.magicNumber), this.magicNumber));
+////        }
+        addToBot(new DeathTrackAction(randomMonster, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_HEAVY, 1, this.magicNumber));
     }
 
     public AbstractCard makeCopy() {

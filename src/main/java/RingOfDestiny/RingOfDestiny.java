@@ -201,7 +201,7 @@ public class RingOfDestiny
         cards.add(new ShadowCard());
         cards.add(new PoisonedShiv());
         cards.add(new ShadowStab());
-        cards.add(new Corrosion());
+        cards.add(new ShadowCorrosion());
         cards.add(new FlashOfSlash());
         cards.add(new HexaMudra());
         cards.add(new ShadowBlossom());
