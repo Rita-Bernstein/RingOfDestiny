@@ -1,6 +1,7 @@
 package RingOfDestiny;
 
 import RingOfDestiny.cards.MagicBullet.*;
+import RingOfDestiny.cards.Purchemist.*;
 import RingOfDestiny.cards.ShadowFlower.*;
 import RingOfDestiny.helpers.SecondaryMagicVariable;
 import basemod.BaseMod;
@@ -177,6 +178,9 @@ public class RingOfDestiny
         logger.info(MagicBullet.charStrings.NAMES[1]);
         BaseMod.addCharacter(new MagicBullet(MagicBullet.charStrings.NAMES[1],AbstractPlayerEnum.MagicBullet),assetPath("characters/MagicBullet/Button.png"),assetPath("characters/MagicBullet/portrait.png"),AbstractPlayerEnum.MagicBullet);
 
+        logger.info(Purchemist.charStrings.NAMES[1]);
+        BaseMod.addCharacter(new Purchemist(Purchemist.charStrings.NAMES[1],AbstractPlayerEnum.Purchemist),assetPath("characters/Purchemist/Button.png"),assetPath("characters/Purchemist/portrait.png"),AbstractPlayerEnum.Purchemist);
+
     }
 
 
@@ -329,6 +333,12 @@ public class RingOfDestiny
 
 
 
+
+// ======================
+// ======================
+// ======================氪金术士
+        cards.add(new Strike_PU());
+        cards.add(new Defend_PU());
 
 
 
