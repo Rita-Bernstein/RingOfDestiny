@@ -193,6 +193,31 @@ public class SoleCardRewardPatch {
 //================================
 //================================
 //================================商店奖励
+    //================================
+//================================
+//================================
+//================================商店价钱
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //================================
+//================================
+//================================
+//================================商店价钱
 
 
     //================================
@@ -328,7 +353,7 @@ public class SoleCardRewardPatch {
                 || ModHelper.isModEnabled("Diverse")
                 || ModHelper.isModEnabled("MagicBullet" + "Modded Character Cards")) {
             System.out.println(rarity + "唯一卡牌临时卡池开始加入");
-            for (AbstractCard c : RingOfDestiny.MB_SoleCards) {
+            for (AbstractCard c : RingOfDestiny.mb_SoleCards) {
                 if (rarity == AbstractCard.CardRarity.RARE && c.hasTag(CustomTagsEnum.SoleRare) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
                     System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
                     groupForReturn.group.add(c);
@@ -356,7 +381,7 @@ public class SoleCardRewardPatch {
         groupForReturn.clear();
 
         System.out.println(rarity + "唯一卡牌临时卡池开始加入");
-        for (AbstractCard c : RingOfDestiny.MB_SoleCards) {
+        for (AbstractCard c : RingOfDestiny.all_SoleCards) {
             if (rarity == AbstractCard.CardRarity.RARE && c.hasTag(CustomTagsEnum.SoleRare) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
                 System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
                 groupForReturn.group.add(c);
