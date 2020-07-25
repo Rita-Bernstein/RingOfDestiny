@@ -1,5 +1,6 @@
 package RingOfDestiny.actions.ShadowFlower;
 
+import RingOfDestiny.RingOfDestiny;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -12,9 +13,8 @@ import com.megacrit.cardcrawl.localization.UIStrings;
 
 import java.util.ArrayList;
 
-public class DarkProjectionAction
-        extends AbstractGameAction {
-    private static final UIStrings uiStrings = CardCrawlGame.languagePack.getUIString("DarkProjectionAction");
+public class DarkProjectionAction extends AbstractGameAction {
+    private static final UIStrings uiStrings = CardCrawlGame.languagePack.getUIString(RingOfDestiny.makeID("DarkProjectionAction"));
     private static final float DURATION_PER_CARD = 0.25F;
     public static final String[] TEXT = uiStrings.TEXT;
     private AbstractPlayer p;

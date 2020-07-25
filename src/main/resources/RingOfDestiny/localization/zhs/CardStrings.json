@@ -1397,6 +1397,76 @@
     "NAME": "末日疯狂",
     "DESCRIPTION": "失去 !RODSecondM! 点生命。抽 !M! 张牌3次到抽到非0耗能牌。"
   },
+  "RingOfDestiny:DoomsdayEcho": {
+    "NAME": "末日回响",
+    "DESCRIPTION": "将 !M! 张 *末日陨石 加入手牌，如果抽牌堆中有 *末日陨石 ，抽一张牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将 !M! 张 *末日陨石+ 加入手牌，如果抽牌堆中有 *末日陨石/+ ，抽一张牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:FairDealing": {
+    "NAME": "公平交易",
+    "DESCRIPTION": "失去 !M! 点生命 !RODSecondM!次。获得 [E] 和 !B! 点 格挡 。"
+  },
+  "RingOfDestiny:MaskOfSuffering": {
+    "NAME": "苦难面具",
+    "DESCRIPTION": " ring_of_destiny:唯一 。获得 !B! 点 格挡 。 NL 每打出一次，这张牌在本局游戏中的格挡值永久性增加 !M! 。 NL 消耗 。"
+  },
+  "RingOfDestiny:MaliciousLeakage": {
+    "NAME": "恶意绽放",
+    "DESCRIPTION": "失去生命 !M! 次。对敌人造成 !D! 点伤害 !M! 次。"
+  },
+  "RingOfDestiny:DemonGovernor": {
+    "NAME": "恶魔督军",
+    "DESCRIPTION": "丢弃所有手牌。每丢弃一张牌， ring_of_destiny:恶魔 攻击 !M! 次。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "丢弃所有手牌。每丢弃一张牌， ring_of_destiny:恶魔 攻击 !M! 次。"
+  },
+  "RingOfDestiny:PowerOfGluttony": {
+    "NAME": "暴食之力",
+    "DESCRIPTION": " ring_of_destiny:原罪 。造成 !D! 点伤害。如果杀死了敌人，这张牌的伤害永久提高 !M! 点并返回手牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:RingOfGreed": {
+    "NAME": "贪婪指环",
+    "DESCRIPTION": " ring_of_destiny:唯一 。每回合开始时失去 !RODSecondM! 点生命。获得 !M! 点 格挡 。"
+  },
+  "RingOfDestiny:EnvyNecklace": {
+    "NAME": "嫉妒项链",
+    "DESCRIPTION": " ring_of_destiny:唯一 。每回合开始时，将 !M! 张 *嫉妒之力 加入手牌。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每回合开始时，将 !M! 张 *嫉妒之力+ 加入手牌。"
+  },
+  "RingOfDestiny:AngerSword": {
+    "NAME": "愤怒魔剑",
+    "DESCRIPTION": "每打出一张技能牌，对随机敌人造成 !M! 点伤害并给予 ring_of_destiny:榨取 。",
+    "UPGRADE_DESCRIPTION": "每打出一张技能或攻击牌，对随机敌人造成 !M! 点伤害并给予 ring_of_destiny:榨取 。"
+  },
+  "RingOfDestiny:MaliciousSword": {
+    "NAME": "恶意魔剑",
+    "DESCRIPTION": "造成 !D! 点伤害。每有一颗 ring_of_destiny:灵魂石 ，给予 !M! 层 ring_of_destiny:榨取 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。每有一颗 ring_of_destiny:灵魂石 ，给予 !M! 层 ring_of_destiny:榨取 。给予 !RODSecondM! 层 ring_of_destiny:榨取 。"
+  },
+  "RingOfDestiny:PowerOfDesire": {
+    "NAME": "欲望之力",
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。回复 !M! 点生命。 ring_of_destiny:恶魔 攻击 !D! 点伤害3次。"
+  },
+  "RingOfDestiny:Doomsday": {
+    "NAME": "末日降临",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害 !M! 次。并给予 !RODSecondM! 层 ring_of_destiny:末日印记 。"
+  },
+  "RingOfDestiny:AbyssOfDesire": {
+    "NAME": "欲望深渊",
+    "DESCRIPTION": "造成你当前 格挡 值的伤害。失去所有 格挡 。",
+    "UPGRADE_DESCRIPTION": "造成你当前 格挡 值的伤害。失去所有 格挡 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （造成 !D! 点伤害。）"
+    ]
+  },
+  "RingOfDestiny:CostOfSoul": {
+    "NAME": "灵魂代价",
+    "DESCRIPTION": "失去 !RODSecondM! 点生命。获得 [E] [E] 。如果 ring_of_destiny:灵魂石 不足，在失去 !M! 点生命。"
+  },
+  "RingOfDestiny:PowerOfArrogance": {
+    "NAME": "傲慢之力",
+    "DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能牌。 ring_of_destiny:恶魔 攻击一次。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能或攻击牌。 ring_of_destiny:恶魔 攻击一次。"
+  },
   "RingOfDestiny:Offering": {
     "NAME": "祭品",
     "DESCRIPTION": "不能被打出 。如果这张牌被丢弃，获得 !M! 点 ring_of_destiny:傲娇 。"
