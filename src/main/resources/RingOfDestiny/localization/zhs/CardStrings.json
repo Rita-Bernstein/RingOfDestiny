@@ -39,8 +39,8 @@
   },
   "RingOfDestiny:ShadowBlossom": {
     "NAME": "暗影绽放",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。如果杀死了敌人，将2张 *影之花 加入手牌。",
-    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。如果杀死了敌人，将2张 *影之花+ 加入手牌。"
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 ring_of_destiny:击杀 时，将2张 *影之花 加入手牌。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。 ring_of_destiny:击杀 时，将2张 *影之花+ 加入手牌。"
   },
   "RingOfDestiny:Spur": {
     "NAME": "连刺",
@@ -105,7 +105,7 @@
   },
   "RingOfDestiny:ShadowCutter": {
     "NAME": "影切",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果杀死了敌人， NL 抽 !M! 张牌。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL  ring_of_destiny:击杀 时，抽 !M! 张牌。"
   },
   "RingOfDestiny:EthMudra": {
     "NAME": "结印-丑",
@@ -202,7 +202,7 @@
   },
   "RingOfDestiny:DeadlyShadow": {
     "NAME": "死亡之影",
-    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，则制造一个 ring_of_destiny:影分身 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 ring_of_destiny:击杀 时，制造一个 ring_of_destiny:影分身 。"
   },
   "RingOfDestiny:DeadlyArts": {
     "NAME": "杀阵",
@@ -224,7 +224,7 @@
   },
   "RingOfDestiny:PerfectExecution": {
     "NAME": "杀缭乱",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果杀死了敌人，返回手牌并获得 [E] [E] [E] 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL  ring_of_destiny:击杀 时，返回手牌并获得 [E] [E] [E] 。"
   },
   "RingOfDestiny:DodeMudra": {
     "NAME": "结印-亥",
@@ -288,7 +288,7 @@
   },
   "RingOfDestiny:DeadlyShoot": {
     "NAME": "必杀一击",
-    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，再随机攻击一次。"
+    "DESCRIPTION": "造成 !D! 点伤害。 ring_of_destiny:击杀 时，再随机攻击一次。"
   },
   "RingOfDestiny:EtchSpirit": {
     "NAME": "刻印之灵",
@@ -638,7 +638,7 @@
   },
   "RingOfDestiny:GoldFinger": {
     "NAME": "点金",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果杀死了敌人，获得 !M! 颗 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL  ring_of_destiny:击杀 时，获得 !M! 颗 ring_of_destiny:氪金石 。"
   },
   "RingOfDestiny:Wild": {
     "NAME": "莽",
@@ -913,8 +913,8 @@
   },
   "RingOfDestiny:ChainOfLight2": {
     "NAME": "影之刃",
-    "DESCRIPTION": "打出这张牌后，本回合你每击杀一名敌人，获得 !M! 点最大生命。",
-    "UPGRADE_DESCRIPTION": "打出这张牌后，本回合你每击杀一名敌人，获得 !M! 点最大生命。"
+    "DESCRIPTION": "打出这张牌后，本回合你 ring_of_destiny:击杀 时，获得 !M! 点最大生命。",
+    "UPGRADE_DESCRIPTION": "打出这张牌后，本回合你 ring_of_destiny:击杀 时，获得 !M! 点最大生命。"
   },
   "RingOfDestiny:AngelTalisman2": {
     "NAME": "罪恶王冠",
@@ -936,7 +936,7 @@
   },
   "RingOfDestiny:ExposeAndCriticize2": {
     "NAME": "复仇",
-    "DESCRIPTION": "造成 !D! 点伤害。 如果杀死了敌人，获得 !M! 点 金属化 。"
+    "DESCRIPTION": "造成 !D! 点伤害。  ring_of_destiny:击杀 时，获得 !M! 点 金属化 。"
   },
   "RingOfDestiny:JusticeWarning2": {
     "NAME": "最后通牒",
@@ -1004,7 +1004,7 @@
   },
   "RingOfDestiny:SheathOfLight2": {
     "NAME": "无尽吞噬",
-    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，获得 !M! 点最大生命。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 ring_of_destiny:击杀 时，获得 !M! 点最大生命。 NL 消耗 。"
   },
   "RingOfDestiny:HolyPouring2": {
     "NAME": "邪恶燃烧",
@@ -1157,7 +1157,7 @@
   },
   "RingOfDestiny:ExposeAndCriticize": {
     "NAME": "清算",
-    "DESCRIPTION": "造成 !D! 点伤害。 如果杀死了敌人，获得 !M! 点 力量 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 ring_of_destiny:击杀 时，获得 !M! 点 力量 。"
   },
   "RingOfDestiny:JusticeWarning": {
     "NAME": "正义警告",
@@ -1339,7 +1339,7 @@
   },
   "RingOfDestiny:PowerOfEnvy": {
     "NAME": "嫉妒之力",
-    "DESCRIPTION": "ring_of_destiny:原罪 。造成 !D! 点伤害。获得造成伤害的格挡 。"
+    "DESCRIPTION": "ring_of_destiny:原罪 。造成 !D! 点伤害。获得未被 格挡 伤害的格挡 。"
   },
   "RingOfDestiny:LazyCloak": {
     "NAME": "懒惰披风",
@@ -1421,7 +1421,7 @@
   },
   "RingOfDestiny:PowerOfGluttony": {
     "NAME": "暴食之力",
-    "DESCRIPTION": " ring_of_destiny:原罪 。造成 !D! 点伤害。如果杀死了敌人，这张牌的伤害永久提高 !M! 点并返回手牌。 NL 消耗 。"
+    "DESCRIPTION": " ring_of_destiny:原罪 。造成 !D! 点伤害。 ring_of_destiny:击杀 时，这张牌的伤害永久提高 !M! 点并返回手牌。 NL 消耗 。"
   },
   "RingOfDestiny:RingOfGreed": {
     "NAME": "贪婪指环",
@@ -1466,6 +1466,73 @@
     "NAME": "傲慢之力",
     "DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能牌。 ring_of_destiny:恶魔 攻击一次。",
     "UPGRADE_DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能或攻击牌。 ring_of_destiny:恶魔 攻击一次。"
+  },
+  "RingOfDestiny:DoomsdayRitual": {
+    "NAME": "末日仪式",
+    "DESCRIPTION": "消耗 所有手牌。每 消耗 一张牌，将一张 *末日陨石 加入你的手牌。",
+    "UPGRADE_DESCRIPTION": "消耗 所有手牌。每 消耗 一张牌，将一张 *末日陨石+ 加入你的手牌。"
+  },
+  "RingOfDestiny:DoomsdayBlade": {
+    "NAME": "末日战刃",
+    "DESCRIPTION": "造成 !D! 点伤害。对有 ring_of_destiny:末日印记 的敌人伤害提高 !M! 。 ring_of_destiny:击杀 时，将 !RODSecondM! 张 *末日陨石 加入手牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。对有 ring_of_destiny:末日印记 的敌人伤害提高 !M! 。 ring_of_destiny:击杀 时，将 !RODSecondM! 张 *末日陨石+ 加入手牌。"
+  },
+  "RingOfDestiny:DoomsdayLava": {
+    "NAME": "末日熔岩",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。造成 ring_of_destiny:末日印记 层数的伤害。移除  ring_of_destiny:末日印记 。"
+  },
+  "RingOfDestiny:PowerOfWrath": {
+    "NAME": "愤怒之力",
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。造成 !D! 点伤害 !M! 次。本场战斗耗能提高1，次数提高1（最多为4）"
+  },
+  "RingOfDestiny:ScepterOfGluttony": {
+    "NAME": "暴食权杖",
+    "DESCRIPTION": " ring_of_destiny:唯一 。每回合开始时将手牌中的 !M! 张非 ring_of_destiny:灵魂石 牌的耗能本回合变为0。"
+  },
+  "RingOfDestiny:PowerOfLaziness": {
+    "NAME": "懒惰之力",
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。获得 !B! 点 格挡 。每打出一次，本场战斗 格挡 获得提高 !M! 。（至多25）"
+  },
+  "RingOfDestiny:VoodooDoll": {
+    "NAME": "诅咒人偶",
+    "DESCRIPTION": " ring_of_destiny:唯一 。 选择目标，本回合内受到的所有伤害被这名敌人承受。目标死亡时，将这个效果给予随机敌人。 NL stslib:抹除 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 选择目标，本回合内受到的所有伤害被这名敌人承受。目标死亡时，将这个效果给予随机敌人。 NL 消耗 。"
+  },
+  "RingOfDestiny:HegemonyOfDevil": {
+    "NAME": "魔王霸权",
+    "DESCRIPTION": " ring_of_destiny:唯一 。将 金属化 变为 力量 。回合结束时，所有 力量 变为 金属化 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。获得 !M! 点 力量 。将 金属化 变为 力量 。回合结束时，所有 力量 变为 金属化 。 NL 消耗 。"
+  },
+  "RingOfDestiny:ConqueringBlade": {
+    "NAME": "征服战刃",
+    "DESCRIPTION": "造成 !D! 点伤害。如果 ring_of_destiny:恶魔 的伤害大于 !M! ,获得1颗 ring_of_destiny:灵魂石 。 NL 消耗 。"
+  },
+  "RingOfDestiny:DoomsdayProphecy": {
+    "NAME": "末日预言",
+    "DESCRIPTION": "将 !M! - !RODSecondM! 张 *末日陨石 加入你的抽牌堆。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将 !M! - !RODSecondM! 张 *末日陨石+ 加入你的抽牌堆。 NL 消耗 。"
+  },
+  "RingOfDestiny:GripOfMaster": {
+    "NAME": "霸主之握",
+    "DESCRIPTION": "  ring_of_destiny:唯一 。 ring_of_destiny:压制 目标，获得等于造成伤害的 [E] （最多为5）。 NL 消耗 。"
+  },
+  "RingOfDestiny:SummonOfDoomsday": {
+    "NAME": "末日召唤",
+    "DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 NL stslib:抹除 。",
+    "UPGRADE_DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 NL 消耗 。"
+  },
+  "RingOfDestiny:DevilKing": {
+    "NAME": "恶魔君主",
+    "DESCRIPTION": " ring_of_destiny:恶魔 攻击 !M! 次。 ring_of_destiny:恶魔 的攻击变为全体攻击 。 NL 消耗 。"
+  },
+  "RingOfDestiny:CrownOfPride": {
+    "NAME": "傲慢王冠",
+    "DESCRIPTION": " ring_of_destiny:唯一 。每使用一颗 ring_of_destiny:灵魂石 ， 获得 [E] 。 NL stslib:抹除 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每使用一颗 ring_of_destiny:灵魂石 ， 获得 [E] 。"
+  },
+  "RingOfDestiny:ChainBlade": {
+    "NAME": "锁链战刃",
+    "DESCRIPTION": "造成 !D! 点伤害。本场战斗造成伤害减少 !M! ，如果造成了未被 格挡 的伤害，返回手牌。伤害为零时被丢弃。"
   },
   "RingOfDestiny:Offering": {
     "NAME": "祭品",
