@@ -9,12 +9,14 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.shop.ShopScreen;
 
 import static basemod.BaseMod.getModdedCharacters;
 import static com.megacrit.cardcrawl.dungeons.AbstractDungeon.*;
 
 
 public class SoleCardRewardPatch {
+    /*
 //================================
 //================================
 //================================
@@ -82,7 +84,7 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class UncommonCardPoolPrePatch {
-        @SpireInsertPatch(rloc = 10)
+        @SpireInsertPatch(rloc = 9)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
                                                boolean useRng) {
@@ -112,7 +114,7 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class UncommonCardPoolPostPatch {
-        @SpireInsertPatch(rloc = 11)
+        @SpireInsertPatch(rloc = 10)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
                                                boolean useRng) {
@@ -139,7 +141,7 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class CommonCardPoolPrePatch {
-        @SpireInsertPatch(rloc = 19)
+        @SpireInsertPatch(rloc = 21)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
                                                boolean useRng) {
@@ -169,7 +171,7 @@ public class SoleCardRewardPatch {
             paramtypez = {AbstractCard.CardRarity.class, AbstractCard.CardType.class, boolean.class}
     )
     public static class CommonCardPoolPostPatch {
-        @SpireInsertPatch(rloc = 20)
+        @SpireInsertPatch(rloc = 22)
         public static SpireReturn<Void> Insert(AbstractCard.CardRarity rarity,
                                                AbstractCard.CardType type,
                                                boolean useRng) {
@@ -198,7 +200,32 @@ public class SoleCardRewardPatch {
 //================================
 //================================商店价钱
 
+    @SpirePatch(
+            clz = ShopScreen.class,
+            method = "initCards"
+    )
+    public static class InitCardsPatch {
+        @SpireInsertPatch(rloc = 11,localvars = {"tmp","c"})
+        public static SpireReturn<Void> Insert(ShopScreen _instance,
+                                               @ByRef float[] tmp,
+                                               AbstractCard card) {
 
+            if(card.hasTag(CustomTagsEnum.SoleCard)){
+                if(card.hasTag(CustomTagsEnum.SoleRare)){
+                    tmp[0] = AbstractCard.getPrice(AbstractCard.CardRarity.RARE) * AbstractDungeon.merchantRng.random(0.9F, 1.1F);
+                }
+                if(card.hasTag(CustomTagsEnum.SoleRare)){
+                    tmp[0] = AbstractCard.getPrice(AbstractCard.CardRarity.UNCOMMON) * AbstractDungeon.merchantRng.random(0.9F, 1.1F);
+                }
+                if(card.hasTag(CustomTagsEnum.SoleRare)){
+                    tmp[0] = AbstractCard.getPrice(AbstractCard.CardRarity.COMMON) * AbstractDungeon.merchantRng.random(0.9F, 1.1F);
+                }
+
+            }
+
+            return SpireReturn.Continue();
+        }
+    }
 
 
 
@@ -219,6 +246,7 @@ public class SoleCardRewardPatch {
 //================================
 //================================商店价钱
 
+    */
 
     //================================
 //================================
