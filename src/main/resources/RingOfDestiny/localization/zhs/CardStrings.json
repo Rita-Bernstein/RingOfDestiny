@@ -1311,6 +1311,92 @@
     "DESCRIPTION": "获得 !B! 点 格挡 。 NL 本回合每受到一次攻击，给予攻击者 !M! 层 ring_of_destiny:榨取 。",
     "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 本回合每受到一次攻击，给予攻击者 !M! 层 ring_of_destiny:榨取 和 虚弱 。"
   },
+  "RingOfDestiny:SongOfDoomsday": {
+    "NAME": "末日绝唱",
+    "DESCRIPTION": "给予所有敌人 !M! 层 ring_of_destiny:末日印记 。抽 !RODSecondM! 张牌。"
+  },
+  "RingOfDestiny:FeastOfDoomsday": {
+    "NAME": "末日盛宴",
+    "DESCRIPTION": "给予所有敌人 !M! 层 ring_of_destiny:末日印记 。将 ring_of_destiny:末日印记 变为 ring_of_destiny:榨取 。"
+  },
+  "RingOfDestiny:DoomsdayStrike": {
+    "NAME": "末日打击",
+    "DESCRIPTION": "造成 !D! 点伤害。将 !M! 张 *末日陨石 加入你的抽牌堆。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。将 !M! 张 *末日陨石+ 加入你的抽牌堆。"
+  },
+  "RingOfDestiny:DoomsdayProtection": {
+    "NAME": "末日庇护",
+    "DESCRIPTION": "获得 !B! 点 格挡 。将 !M! 张 *末日陨石 加入你的弃牌堆。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。将 !M! 张 *末日陨石+ 加入你的弃牌堆。"
+  },
+  "RingOfDestiny:DemonVanguard": {
+    "NAME": "恶魔先锋",
+    "DESCRIPTION": "指挥你的 ring_of_destiny:恶魔 随机攻击 !M! 次。"
+  },
+  "RingOfDestiny:PowerOfGreed": {
+    "NAME": "贪婪之力",
+    "DESCRIPTION": "ring_of_destiny:原罪 。造成 !D! 点伤害。每有一张 *贪婪之力/+ ，这张牌的伤害提高1。"
+  },
+  "RingOfDestiny:PowerOfEnvy": {
+    "NAME": "嫉妒之力",
+    "DESCRIPTION": "ring_of_destiny:原罪 。造成 !D! 点伤害。获得造成伤害的格挡 。"
+  },
+  "RingOfDestiny:LazyCloak": {
+    "NAME": "懒惰披风",
+    "DESCRIPTION": "ring_of_destiny:恶魔 每次攻击，给予你 !M! 点 格挡 。"
+  },
+  "RingOfDestiny:CupOfDesire": {
+    "NAME": "欲望酒杯",
+    "DESCRIPTION": "每次回复生命时，对所有敌人造成 !M! 点伤害。"
+  },
+  "RingOfDestiny:SoulDiversion": {
+    "NAME": "灵魂分流",
+    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:灵魂石 。 NL 消耗 。"
+  },
+  "RingOfDestiny:SoulAccumulation": {
+    "NAME": "灵魂积淀",
+    "DESCRIPTION": "抽 !M! 张牌。如果其中有 ring_of_destiny:灵魂石 牌。获得 ring_of_destiny:灵魂石 。"
+  },
+  "RingOfDestiny:DemonSkin": {
+    "NAME": "恶魔皮肤",
+    "DESCRIPTION": "获得 !B! 点 格挡 。本回合每次受到敌人攻击时，获得 !M! 点 格挡 。"
+  },
+  "RingOfDestiny:DesireMastery": {
+    "NAME": "欲望掌握",
+    "DESCRIPTION": "回复 !M! 点生命。抽 !RODSecondM! 张牌。所有敌人的意图变为攻击。 NL 消耗 。"
+  },
+  "RingOfDestiny:MaliciousBlade": {
+    "NAME": "恶意战刃",
+    "DESCRIPTION": "对随机敌人造成 !D! 点伤害并给予 ring_of_destiny:榨取 !M! 次。能被多次 升级 。"
+  },
+  "RingOfDestiny:ManaEnhance": {
+    "NAME": "魔能强化",
+    "DESCRIPTION": "失去 !RODSecondM! 点生命。本回合下一张攻击牌耗能降低 !M! 。"
+  },
+  "RingOfDestiny:Demonic": {
+    "NAME": "恶魔守御",
+    "DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非技能牌。每 消耗 一张牌，获得 !M! 点 金属化 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非攻击牌。每 消耗 一张牌，获得 !M! 点 金属化 。 NL 消耗 。"
+  },
+  "RingOfDestiny:MaliciousSuppress": {
+    "NAME": "恶意压制",
+    "DESCRIPTION": "造成 !D! 点伤害。如果目标的意图为攻击。对所有敌人造成 !RODSecondM! 点伤害。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。如果目标的意图为攻击。对所有敌人造成 !RODSecondM! 点伤害并给予 ring_of_destiny:榨取 。"
+  },
+  "RingOfDestiny:MemoryBlade": {
+    "NAME": "记忆战刃",
+    "DESCRIPTION": "造成 !D! 点伤害。造成伤害为上一张攻击牌的伤害。至少为1。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。造成伤害为上一张攻击牌的伤害。至少为1。"
+  },
+  "RingOfDestiny:DoomsdayMeteorite": {
+    "NAME": "末日陨石",
+    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 ring_of_destiny:末日印记 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 ring_of_destiny:末日印记 。"
+  },
+  "RingOfDestiny:DoomsdayMadness": {
+    "NAME": "末日疯狂",
+    "DESCRIPTION": "失去 !RODSecondM! 点生命。抽 !M! 张牌3次到抽到非0耗能牌。"
+  },
   "RingOfDestiny:Offering": {
     "NAME": "祭品",
     "DESCRIPTION": "不能被打出 。如果这张牌被丢弃，获得 !M! 点 ring_of_destiny:傲娇 。"
