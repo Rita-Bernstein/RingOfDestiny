@@ -20,5 +20,13 @@
     "TEXT": [
       "将复制一张技能牌"
     ]
+  },
+  "RingOfDestiny:DiamondManager": {
+    "TEXT": [
+      "将复制一张技能牌"
+    ],
+    "EXTRA_TEXT": [
+      "氪金石"
+    ]
   }
 }

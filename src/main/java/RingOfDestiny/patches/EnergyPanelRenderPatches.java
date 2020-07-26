@@ -29,6 +29,9 @@ public class EnergyPanelRenderPatches {
             method=SpirePatch.CLASS
     )
     public static class PatchEnergyPanelField {
+        public static SpireField<Boolean> canUseDiamond = new SpireField<>(() -> false);
+        public static SpireField<DiamondManager> diamondManager = new SpireField<>(() -> new DiamondManager());
+
         public static SpireField<AbstractDiamond[]> diamonds  = new SpireField<>(() -> new  AbstractDiamond[]{
                 new BlueDiamondSlot( -88.0f * Settings.scale, 18.0f * Settings.scale,  0.4f * Settings.scale,95.0f),
                 new BlueDiamondSlot( -72.0f * Settings.scale,  29.0f * Settings.scale, 0.425f * Settings.scale,88.0f),
@@ -40,6 +43,8 @@ public class EnergyPanelRenderPatches {
                 new YellowDiamondSlot(36.0f * Settings.scale,  -28.0f * Settings.scale, 0.65f * Settings.scale,-80.0f),
                 new YellowDiamondSlot(34.0f * Settings.scale,  -58.0f * Settings.scale, 0.65f * Settings.scale,-100.0f),
                 new YellowDiamondSlot(22.0f * Settings.scale,  -84.0f * Settings.scale, 0.65f * Settings.scale,-130.0f)
+
+
         });
     }
 
@@ -50,10 +55,13 @@ public class EnergyPanelRenderPatches {
     public static class ExtraEnergyPanelRenderPatch {
         @SpireInsertPatch(rloc = 5)
         public static SpireReturn<Void> Insert(EnergyPanel _instance, SpriteBatch sb) {
-            AbstractDiamond[] di = PatchEnergyPanelField.diamonds.get(_instance);
-            for(AbstractDiamond diamond : di){
-                diamond.render(sb);
+            if(PatchEnergyPanelField.canUseDiamond.get(_instance)){
+                AbstractDiamond[] di = PatchEnergyPanelField.diamonds.get(_instance);
+                for(AbstractDiamond diamond : di){
+                    diamond.render(sb);
+                }
             }
+
             return SpireReturn.Continue();
         }
     }
@@ -65,13 +73,14 @@ public class EnergyPanelRenderPatches {
     public static class ExtraEnergyPanelUpdatePatch {
         @SpireInsertPatch(rloc = 0)
         public static SpireReturn<Void> Insert(EnergyPanel _instance) {
-            AbstractDiamond[] di = PatchEnergyPanelField.diamonds.get(_instance);
-            for(AbstractDiamond diamond : di){
-                diamond.cX = _instance.current_x;
-                diamond.cY = _instance.current_y;
-                diamond.update();
+            if(PatchEnergyPanelField.canUseDiamond.get(_instance)){
+                AbstractDiamond[] di = PatchEnergyPanelField.diamonds.get(_instance);
+                for(AbstractDiamond diamond : di){
+                    diamond.cX = _instance.current_x;
+                    diamond.cY = _instance.current_y;
+                    diamond.update();
+                }
             }
-
             return SpireReturn.Continue();
         }
     }

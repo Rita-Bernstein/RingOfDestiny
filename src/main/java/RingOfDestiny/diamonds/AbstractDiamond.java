@@ -1,14 +1,17 @@
 package RingOfDestiny.diamonds;
 
+import RingOfDestiny.patches.EnergyPanelRenderPatches;
 import RingOfDestiny.vfx.DiamondFireEffect;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Interpolation;
+import com.megacrit.cardcrawl.core.OverlayMenu;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
 
 public abstract class AbstractDiamond {
@@ -21,7 +24,6 @@ public abstract class AbstractDiamond {
     protected float angle;
     protected float scale;
     protected boolean isSocket;
-    protected float channelAnimTimer;
     protected float particleTimer;
 
 
@@ -31,8 +33,7 @@ public abstract class AbstractDiamond {
     public AbstractDiamond() {
         this.c = Settings.CREAM_COLOR.cpy();
         this.isSocket = false;
-        this.channelAnimTimer = 0.5F;
-        this.particleTimer = 0.06f;
+        this.particleTimer = 0.12f;
     }
 
     public void onEvoke() {
@@ -43,28 +44,40 @@ public abstract class AbstractDiamond {
         this.isSocket = true;
     }
 
-    public void update() {
-        if (isSocket) {
-            this.particleTimer -= Gdx.graphics.getDeltaTime();
-            if (this.particleTimer < 0.0F) {
-                this.particleTimer = 0.06F;
-                AbstractDungeon.effectList.add(new DiamondFireEffect(this.cX + this.current_x,this.cY + this.current_y,this.scale,this.particleColor));
+
+
+    public static void addDiamond() {
+        for (AbstractDiamond di : EnergyPanelRenderPatches.PatchEnergyPanelField.diamonds.get(AbstractDungeon.overlayMenu.energyPanel)) {
+            if (di.isSocket = false) {
+                di.onSocket();
             }
         }
-
-
     }
 
-
-    public void updateAnimation() {
-        if (this.channelAnimTimer != 0.0F) {
-            this.channelAnimTimer -= Gdx.graphics.getDeltaTime();
-            if (this.channelAnimTimer < 0.0F) {
-                this.channelAnimTimer = 0.0F;
+    public static void evokeDiamond() {
+        int count = 0;
+        for (AbstractDiamond di : EnergyPanelRenderPatches.PatchEnergyPanelField.diamonds.get(AbstractDungeon.overlayMenu.energyPanel)) {
+            if (di.isSocket = true) {
+                count++;
             }
         }
+        if (count > 0) {
+            EnergyPanelRenderPatches.PatchEnergyPanelField.diamonds.get(AbstractDungeon.overlayMenu.energyPanel)[count - 1].onEvoke();
+        }
+    }
 
-        this.c.a = Interpolation.pow2In.apply(1.0F, 0.01F, this.channelAnimTimer / 0.5F);
+    public void update() {
+        if (isSocket && !AbstractDungeon.player.isDead) {
+            this.particleTimer -= Gdx.graphics.getDeltaTime();
+            if (this.particleTimer < 0.0F) {
+                this.particleTimer = 0.12F;
+                AbstractDungeon.topLevelEffectsQueue.add(new DiamondFireEffect(
+                        this.cX + this.current_x + 42.0f * Settings.scale,
+                        this.cY + this.current_y + 42.0f * Settings.scale,
+                        this.scale * 0.55f,
+                        this.particleColor));
+            }
+        }
     }
 
     public void render(SpriteBatch sb) {

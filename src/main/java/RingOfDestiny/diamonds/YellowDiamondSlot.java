@@ -11,7 +11,7 @@ public class YellowDiamondSlot extends AbstractDiamond {
         this.current_y = y;
         this.angle = angle;
         this.scale = scale;
-        this.channelAnimTimer = 0.5F;
+
         this.particleColor = new Color(0.953f,0.871f,0.531f,0.0f);
     }
 }

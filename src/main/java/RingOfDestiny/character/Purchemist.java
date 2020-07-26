@@ -81,6 +81,12 @@ public class Purchemist extends CustomPlayer {
     }
 
 
+    @Override
+    public void preBattlePrep() {
+        super.preBattlePrep();
+        EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.set(AbstractDungeon.overlayMenu.energyPanel,true);
+    }
+
     public String getPortraitImageName() {
         return null;
     }
