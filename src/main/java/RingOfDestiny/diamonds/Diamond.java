@@ -25,10 +25,6 @@ public class Diamond extends AbstractDiamond {
         this.hFlip2 = MathUtils.randomBoolean();
 
         this.ID = ORB_ID;
-        this.baseEvokeAmount = 5;
-        this.evokeAmount = this.baseEvokeAmount;
-        this.basePassiveAmount = 2;
-        this.passiveAmount = this.basePassiveAmount;
         this.channelAnimTimer = 0.5F;
     }
 
@@ -38,7 +34,6 @@ public class Diamond extends AbstractDiamond {
 
 
     public void onEvoke() {
-        AbstractDungeon.actionManager.addToTop(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, this.evokeAmount));
     }
 
 
@@ -65,7 +60,7 @@ public class Diamond extends AbstractDiamond {
 
 //        AbstractDungeon.actionManager.addToBottom(new VFXAction(new OrbFlareEffect(this, OrbFlareEffect.OrbFlareColor.Diamond), speedTime));
 
-        AbstractDungeon.actionManager.addToBottom(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, this.passiveAmount, true));
+
     }
 
 
@@ -76,17 +71,12 @@ public class Diamond extends AbstractDiamond {
 
 
     public void render(SpriteBatch sb) {
-        sb.setColor(this.c);/*
+        sb.setColor(this.c);
+        /*
         sb.draw(ImageMaster.Diamond_ORB_RIGHT, this.cX - 48.0F + this.bobEffect.y / 4.0F, this.cY - 48.0F + this.bobEffect.y / 4.0F, 48.0F, 48.0F, 96.0F, 96.0F, this.scale, this.scale, 0.0F, 0, 0, 96, 96, this.hFlip1, false);
-
-
         sb.draw(ImageMaster.Diamond_ORB_LEFT, this.cX - 48.0F + this.bobEffect.y / 4.0F, this.cY - 48.0F - this.bobEffect.y / 4.0F, 48.0F, 48.0F, 96.0F, 96.0F, this.scale, this.scale, 0.0F, 0, 0, 96, 96, this.hFlip1, false);
-
-
         sb.draw(ImageMaster.Diamond_ORB_MIDDLE, this.cX - 48.0F - this.bobEffect.y / 4.0F, this.cY - 48.0F + this.bobEffect.y / 2.0F, 48.0F, 48.0F, 96.0F, 96.0F, this.scale, this.scale, 0.0F, 0, 0, 96, 96, this.hFlip2, false);
 */
-
-        renderText(sb);
         this.hb.render(sb);
     }
 
