@@ -3,7 +3,7 @@ package RingOfDestiny.patches;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.character.MagicBullet;
 import RingOfDestiny.diamonds.AbstractDiamond;
-import RingOfDestiny.diamonds.EmptyDiamondSlot;
+import RingOfDestiny.diamonds.*;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -30,16 +30,16 @@ public class EnergyPanelRenderPatches {
     )
     public static class PatchEnergyPanelField {
         public static SpireField<AbstractDiamond[]> diamonds  = new SpireField<>(() -> new  AbstractDiamond[]{
-                new EmptyDiamondSlot( -88.0f * Settings.scale, 18.0f * Settings.scale,  0.4f * Settings.scale,95.0f),
-                new EmptyDiamondSlot( -72.0f * Settings.scale,  29.0f * Settings.scale, 0.425f * Settings.scale,88.0f),
-                new EmptyDiamondSlot(-53.0f * Settings.scale,  35.0f * Settings.scale, 0.45f * Settings.scale, 15.0f),
-                new EmptyDiamondSlot(-31.0f * Settings.scale,  37.0f * Settings.scale, 0.5f * Settings.scale,2.0f),
-                new EmptyDiamondSlot(-9.0f * Settings.scale,  30.0f * Settings.scale, 0.525f * Settings.scale,-20.0f),
-                new EmptyDiamondSlot( 12.0f * Settings.scale,  18.0f * Settings.scale, 0.575f * Settings.scale,-32.0f),
-                new EmptyDiamondSlot(28.0f * Settings.scale,   -3.0f * Settings.scale, 0.6f * Settings.scale,-55.0f),
-                new EmptyDiamondSlot(36.0f * Settings.scale,  -28.0f * Settings.scale, 0.65f * Settings.scale,-80.0f),
-                new EmptyDiamondSlot(34.0f * Settings.scale,  -58.0f * Settings.scale, 0.65f * Settings.scale,-100.0f),
-                new EmptyDiamondSlot(22.0f * Settings.scale,  -84.0f * Settings.scale, 0.65f * Settings.scale,-130.0f)
+                new BlueDiamondSlot( -88.0f * Settings.scale, 18.0f * Settings.scale,  0.4f * Settings.scale,95.0f),
+                new BlueDiamondSlot( -72.0f * Settings.scale,  29.0f * Settings.scale, 0.425f * Settings.scale,88.0f),
+                new BlueDiamondSlot(-53.0f * Settings.scale,  35.0f * Settings.scale, 0.45f * Settings.scale, 15.0f),
+                new PurpleDiamondSlot(-31.0f * Settings.scale,  37.0f * Settings.scale, 0.5f * Settings.scale,2.0f),
+                new PurpleDiamondSlot(-9.0f * Settings.scale,  30.0f * Settings.scale, 0.525f * Settings.scale,-20.0f),
+                new PurpleDiamondSlot( 12.0f * Settings.scale,  18.0f * Settings.scale, 0.575f * Settings.scale,-32.0f),
+                new YellowDiamondSlot(28.0f * Settings.scale,   -3.0f * Settings.scale, 0.6f * Settings.scale,-55.0f),
+                new YellowDiamondSlot(36.0f * Settings.scale,  -28.0f * Settings.scale, 0.65f * Settings.scale,-80.0f),
+                new YellowDiamondSlot(34.0f * Settings.scale,  -58.0f * Settings.scale, 0.65f * Settings.scale,-100.0f),
+                new YellowDiamondSlot(22.0f * Settings.scale,  -84.0f * Settings.scale, 0.65f * Settings.scale,-130.0f)
         });
     }
 
