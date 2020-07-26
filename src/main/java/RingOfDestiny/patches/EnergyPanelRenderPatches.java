@@ -9,6 +9,7 @@ import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.ModHelper;
@@ -29,16 +30,16 @@ public class EnergyPanelRenderPatches {
     )
     public static class PatchEnergyPanelField {
         public static SpireField<AbstractDiamond[]> diamonds  = new SpireField<>(() -> new  AbstractDiamond[]{
-                new EmptyDiamondSlot(),
-                new EmptyDiamondSlot(),
-                new EmptyDiamondSlot(),
-                new EmptyDiamondSlot(),
-                new EmptyDiamondSlot(),
-                new EmptyDiamondSlot(),
-                new EmptyDiamondSlot(),
-                new EmptyDiamondSlot(),
-                new EmptyDiamondSlot(),
-                new EmptyDiamondSlot()
+                new EmptyDiamondSlot( -88.0f * Settings.scale, 18.0f * Settings.scale,  0.4f * Settings.scale,95.0f),
+                new EmptyDiamondSlot( -72.0f * Settings.scale,  29.0f * Settings.scale, 0.425f * Settings.scale,88.0f),
+                new EmptyDiamondSlot(-53.0f * Settings.scale,  35.0f * Settings.scale, 0.45f * Settings.scale, 15.0f),
+                new EmptyDiamondSlot(-31.0f * Settings.scale,  37.0f * Settings.scale, 0.5f * Settings.scale,2.0f),
+                new EmptyDiamondSlot(-9.0f * Settings.scale,  30.0f * Settings.scale, 0.525f * Settings.scale,-20.0f),
+                new EmptyDiamondSlot( 12.0f * Settings.scale,  18.0f * Settings.scale, 0.575f * Settings.scale,-32.0f),
+                new EmptyDiamondSlot(28.0f * Settings.scale,   -3.0f * Settings.scale, 0.6f * Settings.scale,-55.0f),
+                new EmptyDiamondSlot(36.0f * Settings.scale,  -28.0f * Settings.scale, 0.65f * Settings.scale,-80.0f),
+                new EmptyDiamondSlot(34.0f * Settings.scale,  -58.0f * Settings.scale, 0.65f * Settings.scale,-100.0f),
+                new EmptyDiamondSlot(22.0f * Settings.scale,  -84.0f * Settings.scale, 0.65f * Settings.scale,-130.0f)
         });
     }
 
@@ -53,7 +54,6 @@ public class EnergyPanelRenderPatches {
             for(AbstractDiamond diamond : di){
                 diamond.render(sb);
             }
-
             return SpireReturn.Continue();
         }
     }
@@ -69,8 +69,7 @@ public class EnergyPanelRenderPatches {
             for(AbstractDiamond diamond : di){
                 diamond.cX = _instance.current_x;
                 diamond.cY = _instance.current_y;
-//                diamond.update();
-                diamond.updateAnimation();
+                diamond.update();
             }
 
             return SpireReturn.Continue();
