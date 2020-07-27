@@ -26,14 +26,6 @@ public class DiamondManager {
     public static final String[] desc = uiStrings.TEXT;
     public String description;
 
-    private Texture aoeImg = ImageMaster.loadImage("RingOfDestiny/img/diamonds/intent/aoe.png");
-    private Texture evokeImg = ImageMaster.loadImage("RingOfDestiny/img/diamonds/intent/evoke.png");
-    private Texture cardDrawImg = ImageMaster.loadImage("RingOfDestiny/img/diamonds/intent/carddraw.png");
-    private Texture defendImg = ImageMaster.loadImage("RingOfDestiny/img/diamonds/intent/defend.png");
-    private static final float imgScale = 0.7f;
-    private static final float imgFix_X = -24.0f;
-    private static final float imgFix_Y = -24.0f;
-
     public float tX;
     public float tY;
 
@@ -45,6 +37,14 @@ public class DiamondManager {
     private static final float fontFix_X = -110.0f;
     private static final float fontFix_Y = 70.0f;
     private static final float icon_space = 80.0f;
+
+    private Texture aoeImg = ImageMaster.loadImage("RingOfDestiny/img/diamonds/intent/aoe.png");
+    private Texture evokeImg = ImageMaster.loadImage("RingOfDestiny/img/diamonds/intent/evoke.png");
+    private Texture cardDrawImg = ImageMaster.loadImage("RingOfDestiny/img/diamonds/intent/carddraw.png");
+    private Texture defendImg = ImageMaster.loadImage("RingOfDestiny/img/diamonds/intent/defend.png");
+    private static final float imgScale = 1.0f * Settings.scale;
+    private static final float imgFix_X = 24.0f + fontFix_X;
+    private static final float imgFix_Y = 24.0f + fontFix_Y;
 
     protected int evokeAmount;
     protected int baseEvokeAmount;
@@ -94,9 +94,9 @@ public class DiamondManager {
         sb.setColor(this.colorW);
 
         sb.draw(evokeImg,
-                this.tX + (fontFix_X + imgFix_X) * Settings.scale,
-                this.tY + (fontFix_Y + imgFix_Y) * Settings.scale,
-                32.0F, 32.0F, 54.0F, 54.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
+                this.tX + imgFix_X * Settings.scale - 32.0f,
+                this.tY + imgFix_Y * Settings.scale - 32.0f,
+                32.0F, 32.0F, 64.0F, 64.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
 
         FontHelper.renderFontCentered(sb,
                 FontHelper.cardEnergyFont_L,
@@ -107,9 +107,9 @@ public class DiamondManager {
 
         if (haloAmount >= 1) {
             sb.draw(aoeImg,
-                    this.tX + (fontFix_X + imgFix_X) * Settings.scale + icon_space * num * Settings.scale,
-                    this.tY + (fontFix_Y + imgFix_Y) * Settings.scale + icon_space * Settings.scale,
-                    32.0F, 32.0F, 54.0F, 54.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
+                    this.tX + imgFix_X * Settings.scale + icon_space * num * Settings.scale - 32.0f,
+                    this.tY + imgFix_Y * Settings.scale + icon_space * Settings.scale - 32.0f,
+                    32.0F, 32.0F, 64.0F, 64.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
 
             FontHelper.renderFontCentered(sb,
                     FontHelper.cardEnergyFont_L,
@@ -122,9 +122,9 @@ public class DiamondManager {
 
         if (haloAmount >= 2) {
             sb.draw(cardDrawImg,
-                    this.tX + (fontFix_X + imgFix_X) * Settings.scale + icon_space * num * Settings.scale,
-                    this.tY + (fontFix_Y + imgFix_Y) * Settings.scale + icon_space * Settings.scale,
-                    32.0F, 32.0F, 54.0F, 54.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
+                    this.tX + imgFix_X * Settings.scale + icon_space * num * Settings.scale - 32.0f,
+                    this.tY + imgFix_Y * Settings.scale + icon_space * Settings.scale - 32.0f,
+                    32.0F, 32.0F, 64.0F, 64.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
 
             FontHelper.renderFontCentered(sb,
                     FontHelper.cardEnergyFont_L,
@@ -137,9 +137,9 @@ public class DiamondManager {
 
         if (haloAmount >= 3) {
             sb.draw(defendImg,
-                    this.tX + (fontFix_X + imgFix_X) * Settings.scale + icon_space * num * Settings.scale,
-                    this.tY + (fontFix_Y + imgFix_Y) * Settings.scale + icon_space * Settings.scale,
-                    32.0F, 32.0F, 54.0F, 54.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
+                    this.tX + imgFix_X * Settings.scale + icon_space * num * Settings.scale - 32.0f,
+                    this.tY + imgFix_Y * Settings.scale + icon_space * Settings.scale - 32.0f,
+                    32.0F, 32.0F, 64.0F, 64.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
 
             FontHelper.renderFontCentered(sb,
                     FontHelper.cardEnergyFont_L,
@@ -191,6 +191,11 @@ public class DiamondManager {
                 AbstractDungeon.actionManager.addToTop(new DarkOrbEvokeAction(
                         new DamageInfo(AbstractDungeon.player, this.evokeAmount, DamageInfo.DamageType.THORNS),
                         AbstractGameAction.AttackEffect.FIRE));
+                AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.evokeImg,
+                        this.tX + imgFix_X * Settings.scale ,
+                        this.tY + imgFix_Y * Settings.scale,
+                        imgScale
+                ));
             }
         }
     }
@@ -198,13 +203,18 @@ public class DiamondManager {
     public void onStartOfTurn() {
         if (getHaloAmount() >= 2) {
             AbstractDungeon.actionManager.addToBottom(new DrawCardAction(AbstractDungeon.player, this.cardDrawAmount));
+            AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.cardDrawImg,
+                    this.tX + imgFix_X * Settings.scale + icon_space  * 1 * Settings.scale,
+                    this.tY + imgFix_Y * Settings.scale + icon_space * Settings.scale,
+                    imgScale
+            ));
         }
         if (getHaloAmount() >= 3) {
             AbstractDungeon.actionManager.addToBottom(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, this.blockAmount));
             AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.defendImg,
-                    this.tX + (fontFix_X + imgFix_X) * Settings.scale + icon_space * 2 * Settings.scale,
-                    this.tY + (fontFix_Y + imgFix_Y) * Settings.scale + icon_space * Settings.scale,
-                    imgScale * 0.2f
+                    this.tX + imgFix_X * Settings.scale + icon_space * 2 * Settings.scale,
+                    this.tY + imgFix_Y * Settings.scale + icon_space * Settings.scale,
+                    imgScale
             ));
         }
     }
@@ -213,6 +223,12 @@ public class DiamondManager {
         if (getHaloAmount() >= 1) {
             AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(null,
                     DamageInfo.createDamageMatrix(this.passiveAmount, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_HEAVY));
+
+            AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.aoeImg,
+                    this.tX + imgFix_X * Settings.scale + icon_space * 0 * Settings.scale ,
+                    this.tY + imgFix_Y * Settings.scale + icon_space * Settings.scale ,
+                    imgScale
+            ));
         }
     }
 

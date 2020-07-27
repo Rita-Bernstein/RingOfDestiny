@@ -10,6 +10,7 @@ import com.badlogic.gdx.math.Interpolation;
 import com.megacrit.cardcrawl.core.OverlayMenu;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
@@ -32,7 +33,7 @@ public abstract class AbstractDiamond {
 
     public AbstractDiamond() {
         this.c = Settings.CREAM_COLOR.cpy();
-        this.isSocket = true;
+        this.isSocket = false;
         this.particleTimer = 0.12f;
     }
 
@@ -72,8 +73,8 @@ public abstract class AbstractDiamond {
             if (this.particleTimer < 0.0F) {
                 this.particleTimer = 0.12F;
                 AbstractDungeon.topLevelEffectsQueue.add(new DiamondFireEffect(
-                        this.cX + this.current_x + 42.0f * Settings.scale,
-                        this.cY + this.current_y + 42.0f * Settings.scale,
+                        this.cX + this.current_x ,//this.cX + this.current_x + 42.0f * Settings.scale,
+                        this.cY + this.current_y ,//this.cY + this.current_y + 42.0f * Settings.scale,
                         this.scale * 0.55f,
                         this.particleColor));
             }
@@ -83,15 +84,17 @@ public abstract class AbstractDiamond {
     public void render(SpriteBatch sb) {
         sb.setColor(this.c);
 
+
+
         sb.draw(slot,
-                this.cX + this.current_x,
-                this.cY + this.current_y,
+                this.cX + this.current_x - 27.0f,
+                this.cY + this.current_y - 27.0f,
                 27.0F, 27.0F, 54.0F, 54.0F, this.scale, this.scale, this.angle, 0, 0, 54, 54, false, false);
 
         if (this.isSocket) {
             sb.draw(slot2,
-                    this.cX + this.current_x,
-                    this.cY + this.current_y,
+                    this.cX + this.current_x - 27.0f,
+                    this.cY + this.current_y - 27.0f,
                     27.0F, 27.0F, 54.0F, 54.0F, this.scale, this.scale, this.angle, 0, 0, 54, 54, false, false);
         }
     }

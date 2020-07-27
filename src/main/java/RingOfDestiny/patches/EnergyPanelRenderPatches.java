@@ -33,16 +33,16 @@ public class EnergyPanelRenderPatches {
         public static SpireField<DiamondManager> diamondManager = new SpireField<>(() -> new DiamondManager());
 
         public static SpireField<AbstractDiamond[]> diamonds  = new SpireField<>(() -> new  AbstractDiamond[]{
-                new BlueDiamondSlot( -88.0f * Settings.scale, 18.0f * Settings.scale,  0.4f * Settings.scale,95.0f),
-                new BlueDiamondSlot( -72.0f * Settings.scale,  29.0f * Settings.scale, 0.425f * Settings.scale,88.0f),
-                new BlueDiamondSlot(-53.0f * Settings.scale,  35.0f * Settings.scale, 0.45f * Settings.scale, 15.0f),
-                new PurpleDiamondSlot(-31.0f * Settings.scale,  37.0f * Settings.scale, 0.5f * Settings.scale,2.0f),
-                new PurpleDiamondSlot(-9.0f * Settings.scale,  30.0f * Settings.scale, 0.525f * Settings.scale,-20.0f),
-                new PurpleDiamondSlot( 12.0f * Settings.scale,  18.0f * Settings.scale, 0.575f * Settings.scale,-32.0f),
-                new YellowDiamondSlot(28.0f * Settings.scale,   -3.0f * Settings.scale, 0.6f * Settings.scale,-55.0f),
-                new YellowDiamondSlot(36.0f * Settings.scale,  -28.0f * Settings.scale, 0.65f * Settings.scale,-80.0f),
-                new YellowDiamondSlot(34.0f * Settings.scale,  -58.0f * Settings.scale, 0.65f * Settings.scale,-100.0f),
-                new YellowDiamondSlot(22.0f * Settings.scale,  -84.0f * Settings.scale, 0.65f * Settings.scale,-130.0f)
+                new BlueDiamondSlot( -47.5f * Settings.scale , 58.5f * Settings.scale , 0.4f * Settings.scale,95.0f),
+                new BlueDiamondSlot( -32.0f * Settings.scale,  69.0f * Settings.scale, 0.425f * Settings.scale,88.0f),
+                new BlueDiamondSlot(-13.0f * Settings.scale,  75.0f * Settings.scale, 0.45f * Settings.scale, 15.0f),
+                new PurpleDiamondSlot(9.0f * Settings.scale,  77.0f * Settings.scale, 0.5f * Settings.scale,2.0f),
+                new PurpleDiamondSlot(31.0f * Settings.scale,  70.0f * Settings.scale, 0.525f * Settings.scale,-20.0f),
+                new PurpleDiamondSlot( 52.0f * Settings.scale,  58.0f * Settings.scale, 0.575f * Settings.scale,-32.0f),
+                new YellowDiamondSlot(68.0f * Settings.scale,   37.0f * Settings.scale, 0.6f * Settings.scale,-55.0f),
+                new YellowDiamondSlot(76.0f * Settings.scale,  12.0f * Settings.scale, 0.65f * Settings.scale,-80.0f),
+                new YellowDiamondSlot(74.0f * Settings.scale,  -18.0f * Settings.scale, 0.65f * Settings.scale,-100.0f),
+                new YellowDiamondSlot(62.0f * Settings.scale,  -44.0f * Settings.scale, 0.65f * Settings.scale,-130.0f)
 
 
         });
