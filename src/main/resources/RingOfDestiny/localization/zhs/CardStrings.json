@@ -558,7 +558,7 @@
   },
   "RingOfDestiny:DrawAgain": {
     "NAME": "再来一发",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 ring_of_destiny:流血 。将抽牌堆的一张 *再来一发 /+加入手牌。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 ring_of_destiny:流血 。将抽牌堆的一张 *再来一发/+ 加入手牌。"
   },
   "RingOfDestiny:MultipleInvest": {
     "NAME": "多氪",
@@ -655,8 +655,8 @@
   },
   "RingOfDestiny:FiveDollar": {
     "NAME": "30",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 和 !B! 点 格挡 。 NL 弃一张牌。 NL 变化为 “98” 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 和 !B! 点 格挡 。 NL 弃一张牌。 NL 变化为 “98+” 。"
+    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 NL 和 !B! 点 格挡 。 NL 丢弃一张牌。 NL 变化为 “98” 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 NL 和 !B! 点 格挡 。 NL 丢弃一张牌。 NL 变化为 “98+” 。"
   },
   "RingOfDestiny:FifteenDollar": {
     "NAME": "98",

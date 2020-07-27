@@ -16,7 +16,7 @@ public class FiveDollar extends AbstractPurchemistCard {
     public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/19.png");
     private static final int COST = 1;
     public static final CardType TYPE = CardType.SKILL;
-    private static final CardRarity RARITY = CardRarity.BASIC;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
 

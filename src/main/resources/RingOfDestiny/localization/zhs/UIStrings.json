@@ -32,5 +32,12 @@
     "EXTRA_TEXT": [
       "氪金石"
     ]
+  },
+  "RingOfDestiny:DrawAgainAction": {
+    "TEXT": [
+      "将一张 #y再来一发 加入手牌",
+      "将",
+      " #y再来一发 加入手牌"
+    ]
   }
 }

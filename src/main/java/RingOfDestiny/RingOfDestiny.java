@@ -340,6 +340,8 @@ public class RingOfDestiny
         cards.add(new Strike_PU());
         cards.add(new Defend_PU());
         cards.add(new FirstInvest());
+        cards.add(new Disdain());
+        cards.add(new DrawAgain());
 
 
         cards.add(new FiveDollar());
