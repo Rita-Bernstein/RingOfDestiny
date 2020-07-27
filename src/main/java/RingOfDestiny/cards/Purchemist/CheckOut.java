@@ -1,41 +1,29 @@
-package RingOfDestiny.cards.ShadowFlower;
+package RingOfDestiny.cards.Purchemist;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.cards.AbstractRingCard;
-import RingOfDestiny.patches.CardColorEnum;
-import basemod.abstracts.CustomCard;
-import basemod.helpers.BaseModCardTags;
+import RingOfDestiny.cards.AbstractPurchemistCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-public class FinalAttack extends AbstractRingCard {
-    public static final String ID = RingOfDestiny.makeID("FinalAttack");
-    private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
-    public static final String NAME = cardStrings.NAME;
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/ShadowFlower/30.png");
+public class CheckOut extends AbstractPurchemistCard {
+    public static final String ID = RingOfDestiny.makeID("CheckOut");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/01.png");
     private static final int COST = 1;
-    public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     private static final CardType TYPE = CardType.ATTACK;
-    private static final CardColor COLOR = CardColorEnum.ShadowFlower_LIME;
-    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
-    private static final int trueBaseDamage = 5;
+    private static final int trueBaseDamage = 8;
 
-
-    public FinalAttack() {
-        super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseDamage = 5;
-        this.baseMagicNumber = 3;
+    public CheckOut() {
+        super(ID, IMG, COST, TYPE, RARITY, TARGET);
+        this.baseDamage = 8;
+        this.magicNumber = this.baseMagicNumber = 5;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
@@ -47,7 +35,7 @@ public class FinalAttack extends AbstractRingCard {
     public void applyPowers() {
         super.applyPowers();
 
-        int cardsAmount = AbstractDungeon.actionManager.cardsPlayedThisTurn.size();
+        int cardsAmount = attackThisTurn();
         this.baseDamage = trueBaseDamage + cardsAmount * this.magicNumber;
         this.rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0] + cardsAmount;
         if (cardsAmount == 1) {
@@ -63,14 +51,26 @@ public class FinalAttack extends AbstractRingCard {
         initializeDescription();
     }
 
+
+    public int attackThisTurn(){
+		int count = 0;
+		for (AbstractCard c : AbstractDungeon.actionManager.cardsPlayedThisTurn) {
+			if (c.type == AbstractCard.CardType.ATTACK) {
+				count++;
+			}
+		}
+
+		return count;
+	}
+
     public AbstractCard makeCopy() {
-        return new FinalAttack();
+        return new CheckOut();
     }
 
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeMagicNumber(2);
+            upgradeMagicNumber(3);
         }
     }
 }

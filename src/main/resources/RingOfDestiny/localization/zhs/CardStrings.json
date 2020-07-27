@@ -130,7 +130,7 @@
   },
   "RingOfDestiny:FinalAttack": {
     "NAME": "终焉一击",
-    "DESCRIPTION": "造成 !D! 点伤害。本回合每打出过一张牌，增加 !M! 点伤害。",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 本回合每打出过一张牌，增加 !M! 点伤害。",
     "EXTENDED_DESCRIPTION": [
       " NL （你本回合打出过",
       " 张牌。）",
@@ -626,15 +626,20 @@
   },
   "RingOfDestiny:NoLoss": {
     "NAME": "不亏",
-    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。造成 !D! 点伤害。 NL 如果 ring_of_destiny:氪金石 不足，失去 !RODSecondM! 点生命。"
+    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL 造成 !D! 点伤害。 NL 如果 ring_of_destiny:氪金石 不足，失去 !RODSecondM! 点生命。"
   },
   "RingOfDestiny:CheckOut": {
     "NAME": "结账",
-    "DESCRIPTION": "造成 !D! 点伤害。本回合内，每打出过一张攻击牌，增加 !M! 点伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 本回合内，每打出过一张攻击牌，增加 !M! 点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （你本回合打出过",
+      " 张攻击牌。）",
+      " 张攻击牌。）"
+    ]
   },
   "RingOfDestiny:FreePlay": {
     "NAME": "白嫖",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 消耗。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 消耗 。"
   },
   "RingOfDestiny:GoldFinger": {
     "NAME": "点金",

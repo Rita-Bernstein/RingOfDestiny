@@ -263,7 +263,7 @@ public class DiamondManager {
     public boolean enoughDiamond(int amount) {
         boolean enough = false;
         if(EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.get(AbstractDungeon.overlayMenu.energyPanel)){
-            if (getCurrentDiamond() >= amount) {
+            if (amount <= getCurrentDiamond() ) {
                 enough = true;
             }
         }

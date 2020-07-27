@@ -15,8 +15,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class Rebate extends AbstractPurchemistCard {
     public static final String ID = RingOfDestiny.makeID("Rebate");
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/58.png");
-    private static final int COST = 1;
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/59.png");
+    private static final int COST = 0;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.SELF;

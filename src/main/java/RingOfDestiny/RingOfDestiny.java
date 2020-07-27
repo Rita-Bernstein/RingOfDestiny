@@ -355,6 +355,11 @@ public class RingOfDestiny
         cards.add(new CatGash());
         cards.add(new Filter());
         cards.add(new Concentrate());
+        cards.add(new Rebate());
+        cards.add(new ThreeRaffles());
+        cards.add(new NoLoss());
+        cards.add(new CheckOut());
+        cards.add(new FreePlay());
 
 
         cards.add(new FiveDollar());
