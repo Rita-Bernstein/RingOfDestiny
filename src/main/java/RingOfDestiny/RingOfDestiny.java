@@ -342,6 +342,19 @@ public class RingOfDestiny
         cards.add(new FirstInvest());
         cards.add(new Disdain());
         cards.add(new DrawAgain());
+        cards.add(new MultipleInvest());
+        cards.add(new StayUpLate());
+        cards.add(new Windfall());
+        cards.add(new Wilful());
+        cards.add(new RaiseMoney());
+        cards.add(new NoviceReward());
+        cards.add(new BloodBorne());
+        cards.add(new Purification());
+        cards.add(new Refine());
+        cards.add(new Laugh());
+        cards.add(new CatGash());
+        cards.add(new Filter());
+        cards.add(new Concentrate());
 
 
         cards.add(new FiveDollar());

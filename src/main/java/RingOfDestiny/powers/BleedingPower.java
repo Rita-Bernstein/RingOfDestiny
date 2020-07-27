@@ -6,6 +6,7 @@ import RingOfDestiny.cards.ShadowFlower.ShadowRose;
 import com.badlogic.gdx.graphics.Color;
 import com.evacipated.cardcrawl.mod.stslib.powers.interfaces.HealthBarRenderPower;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.LoseHPAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -35,16 +36,14 @@ public class BleedingPower extends AbstractPower implements HealthBarRenderPower
         loadRegion("poison");
     }
 
-    @Override
-    public float atDamageFinalGive(float damage, DamageInfo.DamageType type) {
-        return damage + this.amount;
-    }
-
 
     @Override
-    public int onAttackedToChangeDamage(DamageInfo info, int damageAmount) {
-        addToTop(new ReducePowerAction(this.owner, this.owner, this.ID, 1));
-        return super.onAttackedToChangeDamage(info, damageAmount);
+    public int onAttacked(DamageInfo info, int damageAmount) {
+        if(info.owner != null && info.type == DamageInfo.DamageType.NORMAL){
+            addToTop(new ReducePowerAction(this.owner, this.owner, this.ID, 1));
+            addToTop(new LoseHPAction(this.owner,null,this.amount));
+        }
+        return super.onAttacked(info, damageAmount);
     }
 
     public void atStartOfTurn() {

@@ -1,48 +1,47 @@
 package RingOfDestiny.cards.Purchemist;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Purchemist.AddDiamondAction;
 import RingOfDestiny.cards.AbstractPurchemistCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DiscardAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.actions.common.ExhaustAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-public class Disdain extends AbstractPurchemistCard {
-    public static final String ID = RingOfDestiny.makeID("Disdain");
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/04.png");
+public class Rebate extends AbstractPurchemistCard {
+    public static final String ID = RingOfDestiny.makeID("Rebate");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/58.png");
     private static final int COST = 1;
-    public static final CardType TYPE = CardType.ATTACK;
+    private static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.COMMON;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardTarget TARGET = CardTarget.SELF;
 
-
-
-    public Disdain() {
+    public Rebate() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
-        this.baseDamage = 9;
         this.magicNumber = this.baseMagicNumber = 1;
+        this.exhaust = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
+		addToBot(new AddDiamondAction(this.magicNumber));
 
-        addToBot(new DamageAction(m,new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-        addToBot(new DiscardAction(p,p,this.magicNumber,false));
     }
 
     public AbstractCard makeCopy() {
-        return new Disdain();
+        return new Rebate();
     }
 
     public void upgrade() {
         if (!this.upgraded) {
-            upgradeName();
-            upgradeDamage(2);
+            this.upgradeName();
+            this.isInnate = true;
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+            initializeDescription();
         }
     }
-
 }

@@ -18,7 +18,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 public class DrawAgain extends AbstractPurchemistCard {
     public static final String ID = RingOfDestiny.makeID("DrawAgain");
     public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/05.png");
-    private static final int COST = 1;
+    private static final int COST = 0;
     public static final CardType TYPE = CardType.ATTACK;
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
@@ -27,7 +27,7 @@ public class DrawAgain extends AbstractPurchemistCard {
 
     public DrawAgain() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
-        this.baseDamage = 9;
+        this.baseDamage = 4;
         this.magicNumber = this.baseMagicNumber = 1;
     }
 
@@ -45,6 +45,7 @@ public class DrawAgain extends AbstractPurchemistCard {
         if (!this.upgraded) {
             upgradeName();
             upgradeDamage(2);
+            upgradeMagicNumber(1);
         }
     }
 
