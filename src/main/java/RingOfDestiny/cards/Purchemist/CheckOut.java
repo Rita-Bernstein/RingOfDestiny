@@ -12,10 +12,10 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class CheckOut extends AbstractPurchemistCard {
     public static final String ID = RingOfDestiny.makeID("CheckOut");
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/01.png");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/13.png");
     private static final int COST = 1;
     private static final CardType TYPE = CardType.ATTACK;
-    private static final CardRarity RARITY = CardRarity.BASIC;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
     private static final int trueBaseDamage = 8;

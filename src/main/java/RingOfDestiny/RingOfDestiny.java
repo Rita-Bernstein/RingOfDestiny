@@ -360,13 +360,14 @@ public class RingOfDestiny
         cards.add(new NoLoss());
         cards.add(new CheckOut());
         cards.add(new FreePlay());
-
-
+        cards.add(new GoldFinger());
+        cards.add(new Wild());
+        cards.add(new Superior());
+        cards.add(new Shuffle());
         cards.add(new FiveDollar());
-
-
         cards.add(new FifteenDollar());
         cards.add(new ThirtyDollar());
+
         cards.add(new HundredDollar());
 
 

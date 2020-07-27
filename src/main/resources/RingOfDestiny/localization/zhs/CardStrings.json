@@ -647,8 +647,8 @@
   },
   "RingOfDestiny:Wild": {
     "NAME": "莽",
-    "DESCRIPTION": "造成你最大生命四分之一的伤害。",
-    "UPGRADE_DESCRIPTION": "造成你最大生命三分之一的伤害。"
+    "DESCRIPTION": "造成你最大生命四分之一（ !D! ）的伤害。",
+    "UPGRADE_DESCRIPTION": "造成你最大生命三分之一（ !D! ）的伤害。"
   },
   "RingOfDestiny:Superior": {
     "NAME": "高端",
@@ -656,7 +656,8 @@
   },
   "RingOfDestiny:Shuffle": {
     "NAME": "洗牌",
-    "DESCRIPTION": "将弃牌堆的牌洗入抽牌堆。抽 !M! 张牌。"
+    "DESCRIPTION": "将弃牌堆的牌洗入抽牌堆。抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "将弃牌堆的牌洗入抽牌堆。抽 !M! 张牌。"
   },
   "RingOfDestiny:FiveDollar": {
     "NAME": "30",

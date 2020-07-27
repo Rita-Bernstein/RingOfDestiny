@@ -24,8 +24,9 @@ public class UseDiamondIfLostHPAction extends AbstractGameAction {
         if (this.duration == Settings.ACTION_DUR_FAST) {
             if(!EnergyPanelRenderPatches.PatchEnergyPanelField.diamondManager.get(AbstractDungeon.overlayMenu.energyPanel).enoughDiamond(this.amount)){
                 addToBot(new LoseHPAction(AbstractDungeon.player,AbstractDungeon.player,this.hpForLost));
+            }else {
+                addToBot(new UseDiamondAction(this.amount));
             }
-            addToBot(new UseDiamondAction(this.amount));
         }
         tickDuration();
     }
