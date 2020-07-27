@@ -57,9 +57,12 @@ public class EnergyPanelRenderPatches {
         public static SpireReturn<Void> Insert(EnergyPanel _instance, SpriteBatch sb) {
             if(PatchEnergyPanelField.canUseDiamond.get(_instance)){
                 AbstractDiamond[] di = PatchEnergyPanelField.diamonds.get(_instance);
+                DiamondManager diaManager = PatchEnergyPanelField.diamondManager.get(_instance);
                 for(AbstractDiamond diamond : di){
                     diamond.render(sb);
                 }
+
+                diaManager.render(sb);
             }
 
             return SpireReturn.Continue();
@@ -75,11 +78,15 @@ public class EnergyPanelRenderPatches {
         public static SpireReturn<Void> Insert(EnergyPanel _instance) {
             if(PatchEnergyPanelField.canUseDiamond.get(_instance)){
                 AbstractDiamond[] di = PatchEnergyPanelField.diamonds.get(_instance);
+                DiamondManager diaManager = PatchEnergyPanelField.diamondManager.get(_instance);
                 for(AbstractDiamond diamond : di){
                     diamond.cX = _instance.current_x;
                     diamond.cY = _instance.current_y;
                     diamond.update();
                 }
+                diaManager.tX = _instance.current_x + 30.0f * Settings.scale;
+                diaManager.tY = _instance.current_y + 50.0f * Settings.scale;
+                diaManager.update();
             }
             return SpireReturn.Continue();
         }

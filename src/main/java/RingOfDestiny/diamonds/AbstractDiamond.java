@@ -32,7 +32,7 @@ public abstract class AbstractDiamond {
 
     public AbstractDiamond() {
         this.c = Settings.CREAM_COLOR.cpy();
-        this.isSocket = false;
+        this.isSocket = true;
         this.particleTimer = 0.12f;
     }
 
