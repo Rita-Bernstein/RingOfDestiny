@@ -234,7 +234,7 @@ public class DiamondManager {
     }
 
 
-    public static int getCurrentDiamond() {
+    public int getCurrentDiamond() {
         int count = 0;
         for (AbstractDiamond di : EnergyPanelRenderPatches.PatchEnergyPanelField.diamonds.get(AbstractDungeon.overlayMenu.energyPanel)) {
             if (di.isSocket) {
@@ -244,7 +244,7 @@ public class DiamondManager {
         return count;
     }
 
-    public static int getHaloAmount() {
+    public int getHaloAmount() {
         int halo = 0;
         int count = getCurrentDiamond();
 
@@ -260,11 +260,12 @@ public class DiamondManager {
     }
 
 
-    public static boolean enoughDiamond(int amount) {
+    public boolean enoughDiamond(int amount) {
         boolean enough = false;
-        int count = getCurrentDiamond();
-        if (count >= amount) {
-            enough = true;
+        if(EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.get(AbstractDungeon.overlayMenu.energyPanel)){
+            if (getCurrentDiamond() >= amount) {
+                enough = true;
+            }
         }
         return enough;
     }

@@ -21,7 +21,6 @@ public class AddDiamondAction extends AbstractGameAction {
         if (this.duration == Settings.ACTION_DUR_FAST) {
             EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.set(AbstractDungeon.overlayMenu.energyPanel,true);
             EnergyPanelRenderPatches.PatchEnergyPanelField.diamondManager.get(AbstractDungeon.overlayMenu.energyPanel).createDiamond(this.amount);
-
         }
         tickDuration();
     }
