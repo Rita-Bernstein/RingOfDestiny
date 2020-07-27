@@ -109,6 +109,8 @@ public class Purchemist extends CustomPlayer {
         retVal.add(Strike_PU.ID);
         retVal.add(Strike_PU.ID);
 
+        retVal.add(FirstInvest.ID);
+
         return retVal;
     }
 

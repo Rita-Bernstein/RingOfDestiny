@@ -25,7 +25,7 @@ public class Defend_PU extends AbstractPurchemistCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, p, this.block));
+       addToBot(new GainBlockAction(p, p, this.block));
     }
 
     public AbstractCard makeCopy() {

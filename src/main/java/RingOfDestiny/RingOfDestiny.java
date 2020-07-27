@@ -334,12 +334,21 @@ public class RingOfDestiny
 
 
 
-
 // ======================
 // ======================
 // ======================氪金术士
         cards.add(new Strike_PU());
         cards.add(new Defend_PU());
+        cards.add(new FirstInvest());
+
+
+        cards.add(new FiveDollar());
+
+
+        cards.add(new FifteenDollar());
+        cards.add(new ThirtyDollar());
+        cards.add(new HundredDollar());
+
 
 
 

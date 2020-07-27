@@ -39,5 +39,9 @@ public abstract class AbstractPurchemistCard extends AbstractRingCard {
         return EnergyPanelRenderPatches.PatchEnergyPanelField.diamondManager.get(AbstractDungeon.overlayMenu.energyPanel).enoughDiamond(amount);
     }
 
+    public int getDiamond() {
+        return EnergyPanelRenderPatches.PatchEnergyPanelField.diamondManager.get(AbstractDungeon.overlayMenu.energyPanel).getCurrentDiamond();
+    }
+
 
 }

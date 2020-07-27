@@ -549,8 +549,8 @@
   },
   "RingOfDestiny:FirstInvest": {
     "NAME": "首充",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。获得 !B! 点 格挡 。变化为 *98 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。获得 !B! 点 格挡 。变化为 *98+ 。"
+    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 !B! 点 格挡 。 NL 变化为 “98” 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 !B! 点 格挡 。 NL 变化为 “98+” 。"
   },
   "RingOfDestiny:Disdain": {
     "NAME": "不屑",
@@ -655,18 +655,18 @@
   },
   "RingOfDestiny:FiveDollar": {
     "NAME": "30",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 和 !B! 点 格挡 。弃一张牌。变化为 *98 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 和 !B! 点 格挡 。弃一张牌。变化为 *98+ 。"
+    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 和 !B! 点 格挡 。 NL 弃一张牌。 NL 变化为 “98” 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 和 !B! 点 格挡 。 NL 弃一张牌。 NL 变化为 “98+” 。"
   },
   "RingOfDestiny:FifteenDollar": {
     "NAME": "98",
-    "DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。抽 !M! 张牌。变化为 *198 。",
-    "UPGRADE_DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。抽 !M! 张牌。变化为 *198+ 。"
+    "DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。 NL 抽 !M! 张牌。 NL 变化为 “198” 。",
+    "UPGRADE_DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。 NL 抽 !M! 张牌。 NL 变化为 “198+” 。"
   },
   "RingOfDestiny:ThirtyDollar": {
     "NAME": "198",
-    "DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。获得当前 ring_of_destiny:氪金石 两倍的 格挡 （ !B! ）。变化为 *648 。 NL 虚无 。",
-    "UPGRADE_DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。获得当前 ring_of_destiny:氪金石 两倍的 格挡 （ !B! ）。变化为 *648+ 。 NL 虚无 。"
+    "DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。 NL 获得当前 ring_of_destiny:氪金石 两倍的 格挡 （ !B! ）。 NL 变化为 “648” 。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。 NL 获得当前 ring_of_destiny:氪金石 两倍的 格挡 （ !B! ）。 NL 变化为 “648+” 。 NL 虚无 。"
   },
   "RingOfDestiny:Overdraft": {
     "NAME": "透支",
@@ -778,10 +778,10 @@
     "NAME": "开挂",
     "DESCRIPTION": "本回合将你打出的下 !M! 张攻击牌变为全体攻击。"
   },
-  "RingOfDestiny:hundredDollar": {
+  "RingOfDestiny:HundredDollar": {
     "NAME": "648",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。获得 [E] 。抽 !RODSecondM! 张牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。获得 [E] [E] 。抽 !RODSecondM! 张牌。 NL 消耗 。"
+    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 [E] 。 NL 抽 !RODSecondM! 张牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 [E] [E] 。 NL 抽 !RODSecondM! 张牌。 NL 消耗 。"
   },
   "RingOfDestiny:CatCannon": {
     "NAME": "氪金大炮",
