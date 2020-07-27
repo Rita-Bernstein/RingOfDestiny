@@ -385,6 +385,9 @@ public class RingOfDestiny
         BaseMod.addRelicToCustomPool(new LeatherShoes(), CardColorEnum.MagicBullet_LIME);
 
 
+        BaseMod.addRelicToCustomPool(new DogEyes(), CardColorEnum.Purchemist_LIME);
+
+
         logger.debug("receiveEditRelics finished.");
     }
 

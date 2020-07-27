@@ -42,5 +42,13 @@
     "DESCRIPTIONS": [
       "每场战斗开始时，给予所有敌人 #b1 层 #y死亡刻印 。"
     ]
+  },
+  "RingOfDestiny:DogEyes": {
+    "NAME": "氪金狗眼",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，获得 #b",
+      " 颗 #y氪金石 。"
+    ]
   }
 }

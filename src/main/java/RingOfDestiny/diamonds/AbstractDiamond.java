@@ -42,15 +42,18 @@ public abstract class AbstractDiamond {
     }
 
     public void onSocket() {
+        System.out.println("最后了");
         this.isSocket = true;
     }
 
 
 
     public static void addDiamond() {
+        System.out.println("addDiamond运行了");
         for (AbstractDiamond di : EnergyPanelRenderPatches.PatchEnergyPanelField.diamonds.get(AbstractDungeon.overlayMenu.energyPanel)) {
-            if (di.isSocket = false) {
+            if (!di.isSocket) {
                 di.onSocket();
+                break;
             }
         }
     }
@@ -58,7 +61,7 @@ public abstract class AbstractDiamond {
     public static void evokeDiamond() {
         int count = 0;
         for (AbstractDiamond di : EnergyPanelRenderPatches.PatchEnergyPanelField.diamonds.get(AbstractDungeon.overlayMenu.energyPanel)) {
-            if (di.isSocket = true) {
+            if (di.isSocket) {
                 count++;
             }
         }

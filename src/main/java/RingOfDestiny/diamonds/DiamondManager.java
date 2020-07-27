@@ -171,6 +171,7 @@ public class DiamondManager {
 
 
     public void createDiamond(int amount) {
+        System.out.println("createDiamond运行了");
         int diamondsNum = getCurrentDiamond();
         int extraDia = 0;
         if (diamondsNum >= 10 || amount <= 0) {

@@ -5,6 +5,7 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.Purchemist.*;
 import RingOfDestiny.modules.EnergyOrbCustomBlue;
 import RingOfDestiny.patches.*;
+import RingOfDestiny.relics.DogEyes;
 import RingOfDestiny.relics.ShadowKunai;
 import basemod.abstracts.CustomPlayer;
 import basemod.interfaces.OnCardUseSubscriber;
@@ -93,7 +94,7 @@ public class Purchemist extends CustomPlayer {
 
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
-        retVal.add(ShadowKunai.ID);
+        retVal.add(DogEyes.ID);
         return retVal;
     }
 
