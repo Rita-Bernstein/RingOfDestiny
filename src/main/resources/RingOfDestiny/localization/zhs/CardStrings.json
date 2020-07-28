@@ -777,7 +777,7 @@
   },
   "RingOfDestiny:Repeat": {
     "NAME": "复读",
-    "DESCRIPTION": "这张牌的效果，视作你使用的上一张牌。 NL 消耗 。"
+    "DESCRIPTION": "打出你本场战斗中的上一张牌。 NL 消耗 。"
   },
   "RingOfDestiny:ScrewRules": {
     "NAME": "为所欲为",
@@ -785,7 +785,7 @@
   },
   "RingOfDestiny:Cheat": {
     "NAME": "开挂",
-    "DESCRIPTION": "本回合将你打出的下 !M! 张攻击牌变为全体攻击。"
+    "DESCRIPTION": "本回合你打出的下 !M! 张攻击牌变为全体攻击。"
   },
   "RingOfDestiny:HundredDollar": {
     "NAME": "648",
@@ -802,20 +802,20 @@
   },
   "RingOfDestiny:Extraction": {
     "NAME": "萃取",
-    "DESCRIPTION": "消耗 手牌中所有状态和诅咒牌。每 消耗 一张，临时提高生命上限 !M! 点。 NL 消耗 。"
+    "DESCRIPTION": "消耗 手牌中所有状态和诅咒牌。 NL 每 消耗 一张，临时提高生命上限 !M! 点。 NL 消耗 。"
   },
   "RingOfDestiny:GoldProtect": {
     "NAME": "氪金护体",
-    "DESCRIPTION": "下一次失去生命时，回复损失生命的120%。 NL 消耗 。"
+    "DESCRIPTION": "下 !M! 次失去生命时，回复损失生命的120%的生命。 NL 消耗 。"
   },
   "RingOfDestiny:Privilege": {
     "NAME": "特权",
-    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。如果 ring_of_destiny:氪金石 不足，失去 !M! 点生命。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 使用 !M! 颗 ring_of_destiny:氪金石 。下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。如果 ring_of_destiny:氪金石 不足，失去 !M! 点生命。"
+    "DESCRIPTION": "使用2颗 ring_of_destiny:氪金石 。 NL 下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去3点生命。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 使用2颗 ring_of_destiny:氪金石 。 NL 下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去3点生命。"
   },
   "RingOfDestiny:DanceOfBlood": {
     "NAME": "血之舞",
-    "DESCRIPTION": "给予 !M! 层 ring_of_destiny:流血 。将弃牌堆中所有0耗能的牌放入你的手牌。"
+    "DESCRIPTION": "给予 !M! 层 ring_of_destiny:流血 。将弃牌堆中所有0耗能攻击牌放入你的手牌。"
   },
   "RingOfDestiny:Show": {
     "NAME": "秀",
@@ -823,7 +823,7 @@
   },
   "RingOfDestiny:Act": {
     "NAME": "演",
-    "DESCRIPTION": "每次使用 ring_of_destiny:氪金石 。获得 !M! 点 格挡 。"
+    "DESCRIPTION": "每次使用 ring_of_destiny:氪金石 。 NL 获得 !M! 点 格挡 。"
   },
   "RingOfDestiny:Defend_IH2": {
     "NAME": "暗之盾",

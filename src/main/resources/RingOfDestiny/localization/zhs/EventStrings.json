@@ -10,7 +10,15 @@
   "RingOfDestiny:SpireHeart_MagicBullet": {
     "NAME": "Spire Heart",
     "DESCRIPTIONS": [
-      "NL 你将充满了手里剑用尽全力挥舞……"
+      "NL 你将手中的燧发枪装填完毕……"
+    ],
+    "OPTIONS": [
+    ]
+  },
+  "RingOfDestiny:SpireHeart_Purchemist": {
+    "NAME": "Spire Heart",
+    "DESCRIPTIONS": [
+      "NL 你大氪特氪……"
     ],
     "OPTIONS": [
     ]

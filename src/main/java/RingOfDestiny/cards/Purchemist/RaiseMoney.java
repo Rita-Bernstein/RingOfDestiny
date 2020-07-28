@@ -24,6 +24,7 @@ public class RaiseMoney extends AbstractPurchemistCard {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.magicNumber = this.baseMagicNumber = 2;
         this.cardsToPreview = new DrawAgain();
+        this.exhaust = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

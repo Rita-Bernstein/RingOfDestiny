@@ -2,19 +2,18 @@ package RingOfDestiny.diamonds;
 
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Purchemist.UseDiamondAction;
 import RingOfDestiny.cards.Purchemist.DoubleInvest;
 import RingOfDestiny.cards.Purchemist.NoInvest;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
 import RingOfDestiny.powers.*;
+import RingOfDestiny.relics.Truncheon;
 import RingOfDestiny.vfx.FlashTextureEffect;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
-import com.megacrit.cardcrawl.actions.common.DarkOrbEvokeAction;
-import com.megacrit.cardcrawl.actions.common.DrawCardAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
+import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -22,7 +21,9 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.*;
 import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.PoisonPower;
 
 public class DiamondManager {
     private static final UIStrings uiStrings = CardCrawlGame.languagePack.getUIString(RingOfDestiny.makeID("DiamondManager"));
@@ -168,9 +169,13 @@ public class DiamondManager {
     //    =====================工具函数
     public void evokeDiamond(int amount) {
         int diamondsNum = getCurrentDiamond();
-        if (diamondsNum <= 10 || amount <= 0) {
+        if (diamondsNum == 0 || amount <= 0) {
             return;
         }
+
+        if (AbstractDungeon.player.hasPower(ActPower.POWER_ID))
+            AbstractDungeon.actionManager.addToBottom(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player.getPower(ActPower.POWER_ID).amount));
+
 
         if (diamondsNum < amount) {
             amount = diamondsNum;
@@ -187,7 +192,7 @@ public class DiamondManager {
             int diamondsNum = getCurrentDiamond();
             int extraDia = 0;
 
-            if (AbstractDungeon.player.hasPower(DoubleInvestPower.POWER_ID)) {
+            if (AbstractDungeon.player.hasPower(DoubleInvestPower.POWER_ID) && !isRelic) {
                 AbstractDungeon.player.getPower(DoubleInvestPower.POWER_ID).flash();
                 amount *= 2;
             }
@@ -196,6 +201,25 @@ public class DiamondManager {
             if (amount <= 0) {
                 return;
             }
+
+            if (AbstractDungeon.player.hasRelic(Truncheon.ID)) {
+                AbstractDungeon.actionManager.addToBottom(new HealAction(AbstractDungeon.player, AbstractDungeon.player, 2));
+            }
+
+            if (AbstractDungeon.player.hasPower(ShowPower.POWER_ID)) {
+                AbstractDungeon.player.getPower(ShowPower.POWER_ID).flash();
+                int bleedingToApply = AbstractDungeon.player.getPower(ShowPower.POWER_ID).amount;
+
+                if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
+                    for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
+                        if (!monster.isDead && !monster.isDying) {
+                            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(monster, AbstractDungeon.player,
+                                    new BleedingPower(monster, AbstractDungeon.player, bleedingToApply), bleedingToApply));
+                        }
+                    }
+                }
+            }
+
 
             if (diamondsNum + amount > 10) {
                 extraDia = diamondsNum + amount - 10;
@@ -263,24 +287,26 @@ public class DiamondManager {
     }
 
     public void applyFocus() {
-        AbstractPower shinyPower = AbstractDungeon.player.getPower(ShinyPower.POWER_ID);
-        if (shinyPower != null) {
+        this.passiveAmount = this.basePassiveAmount;
+        this.evokeAmount = this.baseEvokeAmount;
+        this.blockAmount = this.baseBlockAmount;
+
+        if (AbstractDungeon.player.hasPower(ShinyPower.POWER_ID)) {
+            AbstractPower shinyPower = AbstractDungeon.player.getPower(ShinyPower.POWER_ID);
             this.passiveAmount = Math.max(0, this.basePassiveAmount + shinyPower.amount);
             this.evokeAmount = Math.max(0, this.baseEvokeAmount + shinyPower.amount);
-        } else {
-            this.passiveAmount = this.basePassiveAmount;
-            this.evokeAmount = this.baseEvokeAmount;
         }
 
-        AbstractPower reinforcementPower = AbstractDungeon.player.getPower(ReinforcementPower.POWER_ID);
-        if (shinyPower != null) {
+        if (AbstractDungeon.player.hasPower(ReinforcementPower.POWER_ID)) {
+            AbstractPower reinforcementPower = AbstractDungeon.player.getPower(ReinforcementPower.POWER_ID);
             this.blockAmount = Math.max(0, this.baseBlockAmount + reinforcementPower.amount);
-        } else {
-            this.blockAmount = this.baseBlockAmount;
         }
     }
 
     public void reset() {
+        for (AbstractDiamond di : EnergyPanelRenderPatches.PatchEnergyPanelField.diamonds.get(AbstractDungeon.overlayMenu.energyPanel)) {
+            di.isSocket = false;
+        }
         this.evokeAmount = this.baseEvokeAmount = 6;
         this.passiveAmount = this.basePassiveAmount = 3;
         this.cardDrawAmount = this.baseCardDrawAmount = 1;

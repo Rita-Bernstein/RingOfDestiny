@@ -34,7 +34,7 @@ public class Joyride extends AbstractPurchemistCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            upgradeMagicNumber(7);
+            upgradeMagicNumber(2);
         }
     }
 }

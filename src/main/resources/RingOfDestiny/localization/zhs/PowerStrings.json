@@ -209,6 +209,7 @@
   "RingOfDestiny:BleedingPower": {
     "NAME": "流血",
     "DESCRIPTIONS": [
+      "受到攻击伤害时额外受到 #y流血 层数的伤害，并减少 #b1 层。在其回合开始时，减少 #b",
       "受到攻击伤害时额外受到 #y流血 层数的伤害，并减少 #b1 层。在你的回合开始时，减少 #b",
       " 点生命然后移除该效果。"
     ]
@@ -284,5 +285,35 @@
     "每当你给予 #y流血 时，额外给予 #b",
     " 层 #y流血 。"
   ]
-}
+},
+  "RingOfDestiny:GoldProtectPower": {
+    "NAME": "氪金护体",
+    "DESCRIPTIONS": [
+      "下 #b",
+      " 次失去生命时，回复损失生命的 #g120% 的生命。",
+      " 次失去生命时，回复损失生命的 #g120% 的生命。"
+    ]
+  },
+  "RingOfDestiny:PrivilegePower": {
+    "NAME": "特权",
+    "DESCRIPTIONS": [
+      "每回合的前 #b",
+      " 张 #y稀有 攻击牌伤害翻倍。",
+      " 张 #y稀有 攻击牌伤害翻倍。"
+    ]
+  },
+  "RingOfDestiny:ShowPower": {
+    "NAME": "秀",
+    "DESCRIPTIONS": [
+      "每次获得 #y氪金石 。给予所有敌人 #b",
+      " 层 #y流血 。"
+    ]
+  },
+  "RingOfDestiny:ActPower": {
+    "NAME": "演",
+    "DESCRIPTIONS": [
+      "每次使用 #y氪金石 。获得 #b",
+      " 点 #y格挡 。"
+    ]
+  }
 }

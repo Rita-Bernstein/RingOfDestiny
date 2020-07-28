@@ -50,5 +50,13 @@
       "每场战斗开始时，获得 #b",
       " 颗 #y氪金石 。"
     ]
+  },
+  "RingOfDestiny:Truncheon": {
+    "NAME": "氪金权杖",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每次从卡牌中获得 #y氪金石 时，回复 #b",
+      " 点生命。"
+    ]
   }
 }

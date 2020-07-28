@@ -390,15 +390,22 @@ public class RingOfDestiny
         cards.add(new InvestMagic());
         cards.add(new LargeGains());
         cards.add(new Rich());
-//     复读
+        cards.add(new Repeat());
         cards.add(new ScrewRules());
-//     开挂
+        cards.add(new Cheat());
         cards.add(new HundredDollar());
         cards.add(new CatCannon());
         cards.add(new Bloodmourne());
         cards.add(new Extraction());
+        cards.add(new GoldProtect());
+        cards.add(new Privilege());
+        cards.add(new DanceOfBlood());
+        cards.add(new Show());
+        cards.add(new Act());
 
-
+// ======================
+// ======================
+// ======================恶魔召唤师
 
 
 
@@ -444,6 +451,7 @@ public class RingOfDestiny
 
 
         BaseMod.addRelicToCustomPool(new DogEyes(), CardColorEnum.Purchemist_LIME);
+        BaseMod.addRelicToCustomPool(new Truncheon(), CardColorEnum.Purchemist_LIME);
 
 
         logger.debug("receiveEditRelics finished.");

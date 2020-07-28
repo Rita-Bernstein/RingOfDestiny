@@ -20,6 +20,7 @@ public class UseDiamondAction extends AbstractGameAction {
     public void update() {
         if (this.duration == Settings.ACTION_DUR_FAST) {
             if(EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.get(AbstractDungeon.overlayMenu.energyPanel)){
+                System.out.println("玩家有氪金石UI");
                 EnergyPanelRenderPatches.PatchEnergyPanelField.diamondManager.get(AbstractDungeon.overlayMenu.energyPanel).evokeDiamond(this.amount);
             }else {
                 this.isDone = true;

@@ -11,16 +11,15 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 
-public class DogEyes extends CustomRelic {
-    public static final String ID = RingOfDestiny.makeID("DogEyes");
-    private static String imgName = "125.png";
+public class Truncheon extends CustomRelic {
+    public static final String ID = RingOfDestiny.makeID("Truncheon");
+    private static String imgName = "128.png";
     private static Texture texture = new Texture(RingOfDestiny.assetPath("img/relics/")+ imgName);
     private static Texture outline = new Texture(RingOfDestiny.assetPath("img/relics/outline/")+ imgName);
     private static final int amount = 2;
 
-    public DogEyes() {
-        super(ID, texture,outline, RelicTier.STARTER, CustomRelic.LandingSound.FLAT);
-
+    public Truncheon() {
+        super(ID, texture,outline, RelicTier.RARE, CustomRelic.LandingSound.FLAT);
     }
 
     public String getUpdatedDescription() {
@@ -28,19 +27,12 @@ public class DogEyes extends CustomRelic {
     }
 
 
-    public void atBattleStart() {
-        flash();
-        addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, this));
-        addToBot(new AddDiamondAction(amount,true));
-        this.grayscale = true;
-    }
-
 
     public void justEnteredRoom(AbstractRoom room) {
         this.grayscale = false;
     }
 
     public CustomRelic makeCopy() {
-        return new DogEyes();
+        return new Truncheon();
     }
 }

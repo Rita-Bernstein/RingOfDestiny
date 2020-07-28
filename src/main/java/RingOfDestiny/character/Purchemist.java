@@ -111,6 +111,7 @@ public class Purchemist extends CustomPlayer {
 
         retVal.add(FirstInvest.ID);
         retVal.add(DiamondOfDeath.ID);
+        retVal.add(Metaphysics.ID);
 
         return retVal;
     }

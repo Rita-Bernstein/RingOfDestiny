@@ -35,9 +35,9 @@
   },
   "RingOfDestiny:DrawAgainAction": {
     "TEXT": [
-      "将一张 #y再来一发 加入手牌",
+      "将一张 再来一发 加入手牌",
       "将",
-      " #y再来一发 加入手牌"
+      " 再来一发 加入手牌"
     ]
   },
   "RingOfDestiny:AttackIntent": {

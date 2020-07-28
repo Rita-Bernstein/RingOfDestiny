@@ -26,7 +26,7 @@ public class Filter extends AbstractPurchemistCard {
 
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		if(upgraded){
-			addToBot(new ExhaustAction(this.magicNumber, true));
+			addToBot(new ExhaustAction(this.magicNumber, false,true,false));
 			addToBot(new DrawCardAction(p,this.magicNumber));
 		}else {
 			addToBot(new ExhaustAction(this.magicNumber, false));

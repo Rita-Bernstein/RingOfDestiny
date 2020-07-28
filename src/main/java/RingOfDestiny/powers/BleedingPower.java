@@ -63,7 +63,12 @@ public class BleedingPower extends AbstractPower implements HealthBarRenderPower
 
 
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
+        if (this.owner == null || this.owner.isPlayer) {
+            this.description = DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2];
+        }else {
+            this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[2];
+        }
+
     }
 
     @Override
@@ -73,7 +78,7 @@ public class BleedingPower extends AbstractPower implements HealthBarRenderPower
 
     @Override
     public Color getColor() {
-        return Color.RED.cpy();
+        return new Color(127.0f/256.0f,12.0f/256.0f,0.0f,1.0f);
     }
 }
 
