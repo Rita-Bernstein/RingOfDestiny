@@ -32,6 +32,7 @@ public class BleedingPower extends AbstractPower implements HealthBarRenderPower
         this.owner = owner;
         this.source = source;
         this.amount = amount;
+        this.type = PowerType.DEBUFF;
         updateDescription();
         loadRegion("poison");
     }

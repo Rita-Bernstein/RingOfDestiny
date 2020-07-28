@@ -367,6 +367,11 @@ public class RingOfDestiny
         cards.add(new FiveDollar());
         cards.add(new FifteenDollar());
         cards.add(new ThirtyDollar());
+        cards.add(new Overdraft());
+        cards.add(new Happy());
+        cards.add(new MassInvest());
+        cards.add(new HoldOn());
+        cards.add(new Recommend());
 
         cards.add(new HundredDollar());
 
