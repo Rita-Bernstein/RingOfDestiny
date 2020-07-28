@@ -372,6 +372,7 @@ public class RingOfDestiny
         cards.add(new MassInvest());
         cards.add(new HoldOn());
         cards.add(new Recommend());
+        cards.add(new AristocraticPedigree());
 
         cards.add(new HundredDollar());
 

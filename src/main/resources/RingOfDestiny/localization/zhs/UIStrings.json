@@ -45,5 +45,10 @@
       "这个敌人的意图不是攻击！",
       "这个敌人的意图是攻击！"
     ]
+  },
+  "RingOfDestiny:TempIncreaseMaxHPAction": {
+    "TEXT": [
+      "临时最大生命+"
+    ]
   }
 }

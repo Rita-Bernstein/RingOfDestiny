@@ -220,5 +220,12 @@
       " [E] 。",
       " [E] 。"
     ]
+  },
+  "RingOfDestiny:LoseMaxHpPower": {
+    "NAME": "失去最大生命",
+    "DESCRIPTIONS": [
+      "在战斗结束时，失去 #b",
+      " 最大生命。"
+    ]
   }
 }
