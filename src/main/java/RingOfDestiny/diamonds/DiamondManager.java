@@ -2,8 +2,10 @@ package RingOfDestiny.diamonds;
 
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.cards.Purchemist.DoubleInvest;
 import RingOfDestiny.cards.Purchemist.NoInvest;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
+import RingOfDestiny.powers.DoubleInvestPower;
 import RingOfDestiny.powers.NoInvestPower;
 import RingOfDestiny.powers.ReinforcementPower;
 import RingOfDestiny.powers.ShinyPower;
@@ -176,10 +178,17 @@ public class DiamondManager {
     }
 
 
-    public void createDiamond(int amount) {
+    public void createDiamond(int amount,boolean isRelic) {
         if (!AbstractDungeon.player.hasPower(NoInvestPower.POWER_ID)) {
             int diamondsNum = getCurrentDiamond();
             int extraDia = 0;
+
+            if (AbstractDungeon.player.hasPower(DoubleInvestPower.POWER_ID)){
+                AbstractDungeon.player.getPower(DoubleInvestPower.POWER_ID).flash();
+                amount *= 2;
+            }
+
+
             if (amount <= 0) {
                 return;
             }

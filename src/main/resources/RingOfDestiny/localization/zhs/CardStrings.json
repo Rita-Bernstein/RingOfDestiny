@@ -715,7 +715,8 @@
   },
   "RingOfDestiny:Reinforcement": {
     "NAME": "光环加固",
-    "DESCRIPTION": "提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:氪金石 数量的的 格挡 获得。"
+    "DESCRIPTION": "虚无 。 NL 提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:氪金石 数量的 格挡 获得。",
+    "UPGRADE_DESCRIPTION": "提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:氪金石 数量的 格挡 获得。"
   },
   "RingOfDestiny:BuyBuyBuy": {
     "NAME": "血拼",
@@ -724,29 +725,29 @@
   },
   "RingOfDestiny:Conversion": {
     "NAME": "转化",
-    "DESCRIPTION": "造成 !D! 点伤害。临时提高生命上限 !M! 点。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 本场战斗中，临时提高生命上限 !M! 点。 NL 消耗 。"
   },
   "RingOfDestiny:Joyride": {
     "NAME": "飙",
-    "DESCRIPTION": "使用所有 ring_of_destiny:氪金石 。每使用一颗，临时提高生命上限 !M! 点。"
+    "DESCRIPTION": "使用所有 ring_of_destiny:氪金石 。 NL 每使用一颗，临时提高生命上限 !M! 点。"
   },
   "RingOfDestiny:SwornRevenge": {
     "NAME": "血灾",
-    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。翻倍敌人的 ring_of_destiny:流血 。如果 ring_of_destiny:氪金石 不足，失去 !RODSecondM! 点生命 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。翻倍敌人的 ring_of_destiny:流血 。如果 ring_of_destiny:氪金石 不足，失去 !RODSecondM! 点生命 。"
+    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL 翻倍敌人的 ring_of_destiny:流血 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL 翻倍敌人的 ring_of_destiny:流血 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命 。"
   },
   "RingOfDestiny:DoubleInvest": {
     "NAME": "氪金翻倍",
-    "DESCRIPTION": "本回合内，翻倍从卡牌获得的  ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "本回合内，翻倍从卡牌获得的 ring_of_destiny:氪金石 。"
   },
-  "RingOfDestiny:DiamondOfTime": {
+  "RingOfDestiny:DiamondOfDeath": {
     "NAME": "石之杀",
-    "DESCRIPTION": "造成 !D! 点伤害。每有 !M! 颗 ring_of_destiny:氪金石 ，提高1点伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。每颗 ring_of_destiny:氪金石 ，提高1点伤害。"
   },
   "RingOfDestiny:BloodAvalanche": {
     "NAME": "血崩",
-    "DESCRIPTION": "本回合结束时，不结算 ring_of_destiny:流血 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "本回合结束时，不结算 ring_of_destiny:流血 。"
+    "DESCRIPTION": "本回合结束时， NL 不结算 ring_of_destiny:流血 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "本回合结束时， NL 不结算 ring_of_destiny:流血 。"
   },
   "RingOfDestiny:Corrosion": {
     "NAME": "腐蚀",
@@ -754,11 +755,13 @@
   },
   "RingOfDestiny:CrushDiamond": {
     "NAME": "碎石",
-    "DESCRIPTION": "将每 !M! 颗 ring_of_destiny:氪金石 转化为 [E] 。"
+    "DESCRIPTION": "将每 !M! 颗 ring_of_destiny:氪金石 NL 转化为 [E] 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将每 !M! 颗 ring_of_destiny:氪金石 NL 转化为 [E] 。"
   },
   "RingOfDestiny:Metaphysics": {
     "NAME": "玄学",
-    "DESCRIPTION": "随机获得1到 !M! 颗 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "随机获得1到 !M! 颗 ring_of_destiny:氪金石 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 随机获得1到 !M! 颗 ring_of_destiny:氪金石 。"
   },
   "RingOfDestiny:InvestMagic": {
     "NAME": "氪金大法",

@@ -378,6 +378,20 @@ public class RingOfDestiny
         cards.add(new Shiny());
         cards.add(new Reinforcement());
         cards.add(new BuyBuyBuy());
+        cards.add(new Conversion());
+        cards.add(new Joyride());
+        cards.add(new SwornRevenge());
+        cards.add(new DoubleInvest());
+        cards.add(new DiamondOfDeath());
+        cards.add(new BloodAvalanche());
+        cards.add(new Corrosion());
+        cards.add(new CrushDiamond());
+        cards.add(new Metaphysics());
+        cards.add(new InvestMagic());
+        cards.add(new LargeGains());
+        cards.add(new Rich());
+//     复读
+        cards.add(new ScrewRules());
 
         cards.add(new HundredDollar());
 

@@ -255,5 +255,21 @@
       "提升 #y氪金光环 的 #y格挡 获得 #b",
       " 点。"
     ]
+  },
+  "RingOfDestiny:DoubleInvestPower": {
+    "NAME": "氪金翻倍",
+    "DESCRIPTIONS": [
+      "本回合，翻倍从卡牌获得的  #y氪金石 。",
+      "在 #b",
+      " 个回合内，翻倍从卡牌获得的  #y氪金石 。"
+    ]
+  },
+  "RingOfDestiny:BloodAvalanchePower": {
+    "NAME": "血崩",
+    "DESCRIPTIONS": [
+      "本回合，不结算 #y流血 。",
+      "在 #b",
+      " 个回合内，不结算 #y流血 。"
+    ]
   }
 }
