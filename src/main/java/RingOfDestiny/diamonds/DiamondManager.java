@@ -5,10 +5,7 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.Purchemist.DoubleInvest;
 import RingOfDestiny.cards.Purchemist.NoInvest;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
-import RingOfDestiny.powers.DoubleInvestPower;
-import RingOfDestiny.powers.NoInvestPower;
-import RingOfDestiny.powers.ReinforcementPower;
-import RingOfDestiny.powers.ShinyPower;
+import RingOfDestiny.powers.*;
 import RingOfDestiny.vfx.FlashTextureEffect;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
@@ -101,10 +98,17 @@ public class DiamondManager {
 
         sb.setColor(this.colorW);
 
-        sb.draw(evokeImg,
-                this.tX + imgFix_X * Settings.scale - 32.0f,
-                this.tY + imgFix_Y * Settings.scale - 32.0f,
-                32.0F, 32.0F, 64.0F, 64.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
+        if (AbstractDungeon.player.hasPower(CatCannonPower.POWER_ID)) {
+            sb.draw(aoeImg,
+                    this.tX + imgFix_X * Settings.scale - 32.0f,
+                    this.tY + imgFix_Y * Settings.scale - 32.0f,
+                    32.0F, 32.0F, 64.0F, 64.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
+        } else {
+            sb.draw(evokeImg,
+                    this.tX + imgFix_X * Settings.scale - 32.0f,
+                    this.tY + imgFix_Y * Settings.scale - 32.0f,
+                    32.0F, 32.0F, 64.0F, 64.0F, imgScale, imgScale, 0.0f, 0, 0, 64, 64, false, false);
+        }
 
         FontHelper.renderFontCentered(sb,
                 FontHelper.cardEnergyFont_L,
@@ -178,12 +182,12 @@ public class DiamondManager {
     }
 
 
-    public void createDiamond(int amount,boolean isRelic) {
+    public void createDiamond(int amount, boolean isRelic) {
         if (!AbstractDungeon.player.hasPower(NoInvestPower.POWER_ID)) {
             int diamondsNum = getCurrentDiamond();
             int extraDia = 0;
 
-            if (AbstractDungeon.player.hasPower(DoubleInvestPower.POWER_ID)){
+            if (AbstractDungeon.player.hasPower(DoubleInvestPower.POWER_ID)) {
                 AbstractDungeon.player.getPower(DoubleInvestPower.POWER_ID).flash();
                 amount *= 2;
             }
@@ -204,14 +208,23 @@ public class DiamondManager {
 
             if (extraDia > 0) {
                 for (int i = 0; i < extraDia; i++) {
-                    AbstractDungeon.actionManager.addToTop(new DarkOrbEvokeAction(
-                            new DamageInfo(AbstractDungeon.player, this.evokeAmount, DamageInfo.DamageType.THORNS),
-                            AbstractGameAction.AttackEffect.FIRE));
-                    AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.evokeImg,
-                            this.tX + imgFix_X * Settings.scale,
-                            this.tY + imgFix_Y * Settings.scale,
-                            imgScale
-                    ));
+                    if (AbstractDungeon.player.hasPower(CatCannonPower.POWER_ID)) {
+                        AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(null,
+                                DamageInfo.createDamageMatrix(this.evokeAmount, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.FIRE));
+
+                        AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.aoeImg,
+                                this.tX + imgFix_X * Settings.scale,
+                                this.tY + imgFix_Y * Settings.scale,
+                                imgScale));
+                    } else {
+                        AbstractDungeon.actionManager.addToTop(new DarkOrbEvokeAction(
+                                new DamageInfo(AbstractDungeon.player, this.evokeAmount, DamageInfo.DamageType.THORNS),
+                                AbstractGameAction.AttackEffect.FIRE));
+                        AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.evokeImg,
+                                this.tX + imgFix_X * Settings.scale,
+                                this.tY + imgFix_Y * Settings.scale,
+                                imgScale));
+                    }
                 }
             }
         }

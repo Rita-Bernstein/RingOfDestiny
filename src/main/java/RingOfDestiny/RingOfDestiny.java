@@ -392,8 +392,11 @@ public class RingOfDestiny
         cards.add(new Rich());
 //     复读
         cards.add(new ScrewRules());
-
+//     开挂
         cards.add(new HundredDollar());
+        cards.add(new CatCannon());
+        cards.add(new Bloodmourne());
+        cards.add(new Extraction());
 
 
 

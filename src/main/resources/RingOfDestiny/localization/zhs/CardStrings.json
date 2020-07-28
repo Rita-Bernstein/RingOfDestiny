@@ -769,11 +769,11 @@
   },
   "RingOfDestiny:LargeGains": {
     "NAME": "血赚",
-    "DESCRIPTION": "造成 !D! 点伤害。回复等于敌人 ring_of_destiny:流血 层数的生命。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 回复等于敌人 ring_of_destiny:流血 层数的生命。 NL 消耗 。"
   },
   "RingOfDestiny:Rich": {
     "NAME": "壕",
-    "DESCRIPTION": "使用所有 ring_of_destiny:氪金石 。每使用一颗，对敌人造成 !D! 点伤害 。"
+    "DESCRIPTION": "使用所有 ring_of_destiny:氪金石 。 NL 每使用一颗，对敌人造成 !D! 点伤害 。"
   },
   "RingOfDestiny:Repeat": {
     "NAME": "复读",
@@ -794,7 +794,7 @@
   },
   "RingOfDestiny:CatCannon": {
     "NAME": "氪金大炮",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 ring_of_destiny:招财喵之怒 变为攻击全部敌人。"
+    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL ring_of_destiny:招财喵之怒 变为攻击全部敌人。"
   },
   "RingOfDestiny:Bloodmourne": {
     "NAME": "血之哀",

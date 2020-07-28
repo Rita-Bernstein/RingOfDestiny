@@ -24,7 +24,7 @@ public class ChangeApplyPowerPatch {
         public static SpireReturn<Void> Insert(ApplyPowerAction _instance,
                                                AbstractCreature target,
                                                AbstractCreature source,
-                                               AbstractPower powerToApply,
+                                                   AbstractPower powerToApply,
                                                int stackAmount,
                                                boolean isFast,
                                                AbstractGameAction.AttackEffect effect, @ByRef int[] amount) {
@@ -59,7 +59,15 @@ public class ChangeApplyPowerPatch {
                 powerToApply.amount += AbstractDungeon.player.getPower(EnchantmentPower.POWER_ID).amount;
                 amount[0] = amount[0] + AbstractDungeon.player.getPower(EnchantmentPower.POWER_ID).amount;
             }
+//            刻印相关
 
+//            流血相关
+            if (AbstractDungeon.player.hasPower(BloodmournePower.POWER_ID) && source != null && source.isPlayer && target != source && powerToApply.ID.equals(BleedingPower.POWER_ID)) {
+                AbstractDungeon.player.getPower(BloodmournePower.POWER_ID).flash();
+                powerToApply.amount += AbstractDungeon.player.getPower(BloodmournePower.POWER_ID).amount;
+                amount[0] = amount[0] + AbstractDungeon.player.getPower(BloodmournePower.POWER_ID).amount;
+            }
+//            流血相关
 
 
             return SpireReturn.Continue();
