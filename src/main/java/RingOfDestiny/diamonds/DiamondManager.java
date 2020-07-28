@@ -2,7 +2,11 @@ package RingOfDestiny.diamonds;
 
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.cards.Purchemist.NoInvest;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
+import RingOfDestiny.powers.NoInvestPower;
+import RingOfDestiny.powers.ReinforcementPower;
+import RingOfDestiny.powers.ShinyPower;
 import RingOfDestiny.vfx.FlashTextureEffect;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
@@ -19,6 +23,7 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.*;
 import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 
 public class DiamondManager {
     private static final UIStrings uiStrings = CardCrawlGame.languagePack.getUIString(RingOfDestiny.makeID("DiamondManager"));
@@ -67,6 +72,7 @@ public class DiamondManager {
     }
 
     public void updateDescription() {
+        applyFocus();
         this.description = desc[0] + this.evokeAmount + desc[1] + this.passiveAmount + desc[2] + this.cardDrawAmount + desc[3] + this.blockAmount + desc[4];
     }
 
@@ -171,32 +177,33 @@ public class DiamondManager {
 
 
     public void createDiamond(int amount) {
-        System.out.println("createDiamond运行了");
-        int diamondsNum = getCurrentDiamond();
-        int extraDia = 0;
-        if (amount <= 0) {
-            return;
-        }
+        if (!AbstractDungeon.player.hasPower(NoInvestPower.POWER_ID)) {
+            int diamondsNum = getCurrentDiamond();
+            int extraDia = 0;
+            if (amount <= 0) {
+                return;
+            }
 
-        if (diamondsNum + amount > 10) {
-            extraDia = diamondsNum + amount - 10;
-            amount = 10 - diamondsNum;
-        }
+            if (diamondsNum + amount > 10) {
+                extraDia = diamondsNum + amount - 10;
+                amount = 10 - diamondsNum;
+            }
 
-        for (int i = 0; i < amount; i++) {
-            AbstractDiamond.addDiamond();
-        }
+            for (int i = 0; i < amount; i++) {
+                AbstractDiamond.addDiamond();
+            }
 
-        if (extraDia > 0) {
-            for (int i = 0; i < extraDia; i++) {
-                AbstractDungeon.actionManager.addToTop(new DarkOrbEvokeAction(
-                        new DamageInfo(AbstractDungeon.player, this.evokeAmount, DamageInfo.DamageType.THORNS),
-                        AbstractGameAction.AttackEffect.FIRE));
-                AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.evokeImg,
-                        this.tX + imgFix_X * Settings.scale ,
-                        this.tY + imgFix_Y * Settings.scale,
-                        imgScale
-                ));
+            if (extraDia > 0) {
+                for (int i = 0; i < extraDia; i++) {
+                    AbstractDungeon.actionManager.addToTop(new DarkOrbEvokeAction(
+                            new DamageInfo(AbstractDungeon.player, this.evokeAmount, DamageInfo.DamageType.THORNS),
+                            AbstractGameAction.AttackEffect.FIRE));
+                    AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.evokeImg,
+                            this.tX + imgFix_X * Settings.scale,
+                            this.tY + imgFix_Y * Settings.scale,
+                            imgScale
+                    ));
+                }
             }
         }
     }
@@ -205,7 +212,7 @@ public class DiamondManager {
         if (getHaloAmount() >= 2) {
             AbstractDungeon.actionManager.addToBottom(new DrawCardAction(AbstractDungeon.player, this.cardDrawAmount));
             AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.cardDrawImg,
-                    this.tX + imgFix_X * Settings.scale + icon_space  * 1 * Settings.scale,
+                    this.tX + imgFix_X * Settings.scale + icon_space * 1 * Settings.scale,
                     this.tY + imgFix_Y * Settings.scale + icon_space * Settings.scale,
                     imgScale
             ));
@@ -226,11 +233,36 @@ public class DiamondManager {
                     DamageInfo.createDamageMatrix(this.passiveAmount, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_HEAVY));
 
             AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.aoeImg,
-                    this.tX + imgFix_X * Settings.scale + icon_space * 0 * Settings.scale ,
-                    this.tY + imgFix_Y * Settings.scale + icon_space * Settings.scale ,
+                    this.tX + imgFix_X * Settings.scale + icon_space * 0 * Settings.scale,
+                    this.tY + imgFix_Y * Settings.scale + icon_space * Settings.scale,
                     imgScale
             ));
         }
+    }
+
+    public void applyFocus() {
+        AbstractPower shinyPower = AbstractDungeon.player.getPower(ShinyPower.POWER_ID);
+        if (shinyPower != null) {
+            this.passiveAmount = Math.max(0, this.basePassiveAmount + shinyPower.amount);
+            this.evokeAmount = Math.max(0, this.baseEvokeAmount + shinyPower.amount);
+        } else {
+            this.passiveAmount = this.basePassiveAmount;
+            this.evokeAmount = this.baseEvokeAmount;
+        }
+
+        AbstractPower reinforcementPower = AbstractDungeon.player.getPower(ReinforcementPower.POWER_ID);
+        if (shinyPower != null) {
+            this.blockAmount = Math.max(0, this.baseBlockAmount + reinforcementPower.amount);
+        } else {
+            this.blockAmount = this.baseBlockAmount;
+        }
+    }
+
+    public void reset() {
+        this.evokeAmount = this.baseEvokeAmount = 6;
+        this.passiveAmount = this.basePassiveAmount = 3;
+        this.cardDrawAmount = this.baseCardDrawAmount = 1;
+        this.blockAmount = this.baseBlockAmount = 6;
     }
 
 
@@ -262,8 +294,8 @@ public class DiamondManager {
 
     public boolean enoughDiamond(int amount) {
         boolean enough = false;
-        if(EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.get(AbstractDungeon.overlayMenu.energyPanel)){
-            if (amount <= getCurrentDiamond() ) {
+        if (EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.get(AbstractDungeon.overlayMenu.energyPanel)) {
+            if (amount <= getCurrentDiamond()) {
                 enough = true;
             }
         }

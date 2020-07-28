@@ -706,8 +706,8 @@
   },
   "RingOfDestiny:MonthCard": {
     "NAME": "月卡",
-    "DESCRIPTION": "每回合开始时，获得 !M! 颗 ring_of_destiny:氪金石 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 每回合开始时，获得 !M! 颗 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "每回合开始时， NL 获得 !M! 颗 ring_of_destiny:氪金石 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每回合开始时， NL 获得 !M! 颗 ring_of_destiny:氪金石 。"
   },
   "RingOfDestiny:Shiny": {
     "NAME": "金光闪闪",

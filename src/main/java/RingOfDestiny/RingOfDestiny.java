@@ -373,6 +373,11 @@ public class RingOfDestiny
         cards.add(new HoldOn());
         cards.add(new Recommend());
         cards.add(new AristocraticPedigree());
+        cards.add(new NoInvest());
+        cards.add(new MonthCard());
+        cards.add(new Shiny());
+        cards.add(new Reinforcement());
+        cards.add(new BuyBuyBuy());
 
         cards.add(new HundredDollar());
 

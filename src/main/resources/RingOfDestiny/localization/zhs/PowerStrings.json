@@ -227,5 +227,33 @@
       "在战斗结束时，失去 #b",
       " 最大生命。"
     ]
+  },
+  "RingOfDestiny:NoInvestPower": {
+    "NAME": "无氪党",
+    "DESCRIPTIONS": [
+      "本场战斗无法获得 #y氪金石 。当你从一张牌中失去生命时，随机给予 #b",
+      " 层 #y流血 。"
+    ]
+  },
+  "RingOfDestiny:MonthCardPower": {
+    "NAME": "月卡",
+    "DESCRIPTIONS": [
+      "每回合开始时，获得 #b",
+      " 颗 #y氪金石 。"
+    ]
+  },
+  "RingOfDestiny:ShinyPower": {
+    "NAME": "金光闪闪",
+    "DESCRIPTIONS": [
+      "提升 #y氪金光环 和 #y招财喵之怒 的伤害 #b",
+      " 点。"
+    ]
+  },
+  "RingOfDestiny:ReinforcementPower": {
+    "NAME": "光环加固",
+    "DESCRIPTIONS": [
+      "提升 #y氪金光环 的 #y格挡 获得 #b",
+      " 点。"
+    ]
   }
 }
