@@ -165,7 +165,7 @@ public class Purchemist extends CustomPlayer {
 
     @Override
     public AbstractCard getStartCardForEvent() {
-        return new Strike_PU();
+        return new FirstInvest();
     }
 
     @Override

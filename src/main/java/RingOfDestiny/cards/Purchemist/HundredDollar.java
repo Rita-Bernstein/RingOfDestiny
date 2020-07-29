@@ -27,7 +27,7 @@ public class HundredDollar extends AbstractPurchemistCard {
         this.secondaryM = this.baseSecondaryM = 2;
         this.exhaust = true;
 
-        this.setBannerTexture("RingOfDestiny/img/banner/512/banner_rare.png","RingOfDestiny/img/banner/1024/banner_uncommon.png");
+        this.setBannerTexture("RingOfDestiny/img/banner/512/banner_rare.png","RingOfDestiny/img/banner/1024/banner_rare.png");
         this.setPortraitTextures("RingOfDestiny/img/banner/512/frame_skill_rare.png","RingOfDestiny/img/banner/1024/frame_skill_rare.png");
     }
 

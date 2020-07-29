@@ -28,7 +28,7 @@ public class Concentrate extends AbstractPurchemistCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-		addToBot(new DrawCardAction(p, this.magicNumber));
+        addToBot(new DiscardAction(p, p, this.secondaryM, false));
 		addToBot(new AddDiamondAction(this.magicNumber));
 
     }
