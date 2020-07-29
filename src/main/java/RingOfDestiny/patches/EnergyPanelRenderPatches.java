@@ -84,8 +84,6 @@ public class EnergyPanelRenderPatches {
                     diamond.cY = _instance.current_y;
                     diamond.update();
                 }
-                diaManager.tX = _instance.current_x + 30.0f * Settings.scale;
-                diaManager.tY = _instance.current_y + 50.0f * Settings.scale;
                 diaManager.update();
             }
             return SpireReturn.Continue();

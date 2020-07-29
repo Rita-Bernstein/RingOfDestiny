@@ -77,6 +77,8 @@ public class DiamondManager {
     }
 
     public void update() {
+        this.tX = AbstractDungeon.overlayMenu.energyPanel.current_x + 30.0f * Settings.scale;
+        this.tY = AbstractDungeon.overlayMenu.energyPanel.current_y + 50.0f * Settings.scale;
         this.hb.move(this.tX, this.tY);
         this.hb2.move(this.tX + 56 * Settings.scale, this.tY - 64.0F * Settings.scale);
         this.hb.update();

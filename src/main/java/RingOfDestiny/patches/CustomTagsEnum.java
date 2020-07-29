@@ -16,4 +16,6 @@ public class CustomTagsEnum {
 	public static AbstractCard.CardTags SoleUncommon;
 	@SpireEnum
 	public static AbstractCard.CardTags SoleRare;
+	@SpireEnum
+	public static AbstractCard.CardTags PurgeOnUse;
 }

@@ -1,41 +1,41 @@
-package RingOfDestiny.cards.Purchemist;
+package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.cards.AbstractPurchemistCard;
-import RingOfDestiny.powers.DoubleInvestPower;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import RingOfDestiny.cards.AbstractInheritCard;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-public class DoubleInvest extends AbstractPurchemistCard {
-    public static final String ID = RingOfDestiny.makeID("DoubleInvest");
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/Purchemist/49.png");
+public class Defend_IH extends AbstractInheritCard {
+    public static final String ID = RingOfDestiny.makeID("Defend_IH");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/02.png");
     private static final int COST = 1;
     public static final CardType TYPE = CardType.SKILL;
-    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.SELF;
 
 
 
-    public DoubleInvest() {
+    public Defend_IH() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
+        this.baseBlock = 6;
+        this.tags.add(CardTags.STARTER_DEFEND);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-       addToBot(new ApplyPowerAction(p,p,new DoubleInvestPower(p,1)));
+       addToBot(new GainBlockAction(p, p, this.block));
     }
 
     public AbstractCard makeCopy() {
-        return new DoubleInvest();
+        return new Defend_IH();
     }
 
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            upgradeBaseCost(0);
+            upgradeBlock(3);
         }
     }
 
