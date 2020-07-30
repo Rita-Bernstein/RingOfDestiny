@@ -19,22 +19,22 @@ import java.util.Set;
 import static com.megacrit.cardcrawl.core.AbstractCreature.sr;
 
 
-public class Demon extends AbstractSummon {
-    public static final String ID = RingOfDestiny.makeID("Demon");
+public class Succubus extends AbstractSummon {
+    public static final String ID = RingOfDestiny.makeID("Succubus");
     private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings(ID);
     public static final String NAME = monsterStrings.NAME;
 
-    public Demon() {
+    public Succubus() {
         super(NAME);
-        loadAnimation(RingOfDestiny.assetPath("characters/Summoner/summon/summon_10002.atlas"), RingOfDestiny.assetPath("characters/Summoner/summon/summon_10002.json"), 0.67f);
+        loadAnimation(RingOfDestiny.assetPath("characters/Summoner/summon/summon_10001.atlas"), RingOfDestiny.assetPath("characters/Summoner/summon/summon_10001.json"), 1.4f);
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "huxi", true);
         e.setTime(e.getEndTime() * MathUtils.random());
 
-        this.hb_x = 50.0f * Settings.scale;
+        this.hb_x = 0.0f * Settings.scale;
         this.hb_y = -50.0f * Settings.scale;
-        this.hb_w = 420.0f * Settings.scale;
-        this.hb_h = 460.0f * Settings.scale;
+        this.hb_w = 280.0f * Settings.scale;
+        this.hb_h = 420.0f * Settings.scale;
 
         this.hb = new Hitbox(this.hb_w, this.hb_h);
     }

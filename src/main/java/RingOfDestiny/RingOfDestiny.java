@@ -508,7 +508,7 @@ public class RingOfDestiny
         BaseMod.loadCustomStringsFile(UIStrings.class, assetPath(path + "UIStrings.json"));
         BaseMod.loadCustomStringsFile(PotionStrings.class, assetPath(path + "PotionStrings.json"));
         BaseMod.loadCustomStringsFile(CardStrings.class, assetPath(path + "CardStrings.json"));
-        //BaseMod.loadCustomStringsFile(MonsterStrings.class, assetPath(path + "monsters.json"));
+        BaseMod.loadCustomStringsFile(MonsterStrings.class, assetPath(path + "MonsterStrings.json"));
         BaseMod.loadCustomStringsFile(PowerStrings.class, assetPath(path + "PowerStrings.json"));
         BaseMod.loadCustomStringsFile(RelicStrings.class, assetPath(path + "RelicStrings.json"));
         BaseMod.loadCustomStringsFile(CharacterStrings.class, assetPath(path + "CharacterStrings.json"));

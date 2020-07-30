@@ -9,6 +9,7 @@ import com.esotericsoftware.spine.*;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.Hitbox;
 import com.megacrit.cardcrawl.vfx.TintEffect;
 
 import static com.megacrit.cardcrawl.core.AbstractCreature.sr;
@@ -17,8 +18,13 @@ import static com.megacrit.cardcrawl.core.AbstractCreature.sr;
 public class NullSummon extends AbstractSummon {
 
     public NullSummon() {
-        super(16.0f,16.0f);
-       
+        super("");
+        this.hb_x = 0.0f * Settings.scale;
+        this.hb_y = 0.0f * Settings.scale;
+        this.hb_w = 160.0f;
+        this.hb_h = 160.0f;
+
+        this.hb = new Hitbox(this.hb_w, this.hb_h);
     }
 }
 

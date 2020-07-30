@@ -1,0 +1,57 @@
+{
+  "downfall:ChangingTotem": {
+    "MOVES": [
+      "改变凝视"
+    ],
+    "NAME": "改变头像",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "downfall:ForgetfulTotem": {
+    "MOVES": [
+      "忘却注视"
+    ],
+    "NAME": "忘却头像",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "downfall:GrowingTotem": {
+    "MOVES": [
+      "成长射线"
+    ],
+    "NAME": "成长头像",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "downfall:FleeingMerchant": {
+    "MOVES": [
+      "灵魂窃取"
+    ],
+    "NAME": "商人",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "downfall:LooterAlt": {
+    "MOVES": [
+    ],
+    "NAME": "抢劫的",
+    "DIALOG": [
+      "~喂，~ 你根本没有钱！",
+      "@不——！@",
+      "你今天必须死，蠢货。"
+    ]
+  },
+  "downfall:MuggerAlt": {
+    "MOVES": [
+    ],
+    "NAME": "打劫的",
+    "DIALOG": [
+      "给它点教训。",
+      "一辈子都忘不了的教训！"
+    ]
+  }
+}

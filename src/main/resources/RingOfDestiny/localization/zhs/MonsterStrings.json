@@ -1,0 +1,29 @@
+{
+  "RingOfDestiny:Demon": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "魔王阿鲁多",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Succubus": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "魅魔莉莉丝",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Vampire": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "伯爵拉夏尔",
+    "DIALOG": [
+      ""
+    ]
+  }
+}
