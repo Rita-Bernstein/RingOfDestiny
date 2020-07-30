@@ -30,10 +30,10 @@ public class EnergyPanelRenderPatches {
             method=SpirePatch.CLASS
     )
     public static class PatchEnergyPanelField {
-        public static SpireField<Boolean> canUseDiamond = new SpireField<>(() -> true);
+        public static SpireField<Boolean> canUseDiamond = new SpireField<>(() -> false);
         public static SpireField<DiamondManager> diamondManager = new SpireField<>(() -> new DiamondManager());
 
-        public static SpireField<Boolean> canUseSoulStone = new SpireField<>(() -> true);
+        public static SpireField<Boolean> canUseSoulStone = new SpireField<>(() -> false);
         public static SpireField<SoulStone> soulStone = new SpireField<>(() -> new SoulStone());
 
         public static SpireField<AbstractDiamond[]> diamonds  = new SpireField<>(() -> new  AbstractDiamond[]{

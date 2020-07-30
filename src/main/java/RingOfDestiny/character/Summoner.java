@@ -84,7 +84,14 @@ public class Summoner extends CustomPlayer {
         e.setTime(e.getEndTime() * MathUtils.random());
     }
 
-        public String getPortraitImageName() {
+
+    @Override
+    public void preBattlePrep() {
+        super.preBattlePrep();
+        EnergyPanelRenderPatches.PatchEnergyPanelField.canUseSoulStone.set(AbstractDungeon.overlayMenu.energyPanel,true);
+    }
+
+    public String getPortraitImageName() {
         return null;
     }
 
