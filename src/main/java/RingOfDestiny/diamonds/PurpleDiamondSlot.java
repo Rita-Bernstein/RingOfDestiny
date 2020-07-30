@@ -6,11 +6,12 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class PurpleDiamondSlot extends AbstractDiamond {
 
-    public PurpleDiamondSlot(float x, float y, float scale, float angle) {
+    public PurpleDiamondSlot(float x, float y, float scale, float angle,int index) {
         this.current_x = x;
         this.current_y = y;
         this.angle = angle;
         this.scale = scale;
+        this.index = index;
         this.particleColor = new Color(0.859f,0.382f,0.925f,1.0f);
     }
 }

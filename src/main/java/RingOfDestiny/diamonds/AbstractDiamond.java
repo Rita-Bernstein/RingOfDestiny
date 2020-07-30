@@ -26,6 +26,7 @@ public abstract class AbstractDiamond {
     protected float scale;
     protected boolean isSocket;
     protected float particleTimer;
+    protected int index = 0;
 
 
     protected Texture slot = ImageMaster.loadImage("RingOfDestiny/img/diamonds/lightbg.png");
@@ -81,6 +82,13 @@ public abstract class AbstractDiamond {
                         this.scale * 0.55f,
                         this.particleColor));
             }
+        }
+
+        if(EnergyPanelRenderPatches.PatchEnergyPanelField.canUseSoulStone.get(AbstractDungeon.overlayMenu.energyPanel)){
+            this.current_x = -100.0f * Settings.scale + this.index * 30.0f * Settings.scale;;
+            this.current_y = 100.0f * Settings.scale;
+            this.scale = 0.5f * Settings.scale;
+            this.angle = 0.0f;
         }
     }
 
