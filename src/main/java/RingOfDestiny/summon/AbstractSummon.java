@@ -1,68 +1,58 @@
 package RingOfDestiny.summon;
 
-import RingOfDestiny.patches.EnergyPanelRenderPatches;
-import RingOfDestiny.vfx.DiamondFireEffect;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.math.Interpolation;
 import com.esotericsoftware.spine.*;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
-import com.megacrit.cardcrawl.core.OverlayMenu;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.helpers.FontHelper;
-import com.megacrit.cardcrawl.helpers.ImageMaster;
-import com.megacrit.cardcrawl.helpers.ModHelper;
-import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
+import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.vfx.TintEffect;
 
-import java.util.HashMap;
-import java.util.Map;
+import static com.megacrit.cardcrawl.core.AbstractCreature.sr;
 
 
 public abstract class AbstractSummon {
     public float cX = 0.0F;
     public float cY = 0.0F;
-    protected float current_x = 0.0f;
-    protected float current_y = 0.0f;
+    protected float current_x = 250.0f * Settings.scale;
+    protected float current_y = 50.0f * Settings.scale;
     protected Color c;
-    protected Color particleColor;
-    protected float angle;
-    protected float scale;
-    protected boolean isSocket;
-    protected float particleTimer;
-    protected int index = 0;
-
 
     protected TextureAtlas atlas;
     protected Skeleton skeleton;
     public AnimationState state;
     protected AnimationStateData stateData;
 
-    public AbstractSummon() {
-        this.c = Settings.CREAM_COLOR.cpy();
-        this.isSocket = false;
-        this.particleTimer = 0.12f;
+    protected TintEffect tint = new TintEffect();
+
+    public boolean flipHorizontal = false;
+    public boolean flipVertical = false;
+
+    public Hitbox hb;
+    protected float hb_w = 0.0f;
+    protected float hb_h = 0.0f;
+    protected float hb_x = 0.0f;
+    protected float hb_y = 0.0f;
+
+
+    public AbstractSummon(float hb_w,float hb_h) {
+        this.c = Color.WHITE.cpy();
+        this.hb_w = hb_w;
+        this.hb_h = hb_h;
+
+        this.hb = new Hitbox(this.hb_w,this.hb_h);
+
     }
 
-    public void onEvoke() {
-        this.isSocket = false;
-    }
-
-    public void onSocket() {
-        System.out.println("最后了");
-        this.isSocket = true;
+    protected void attackAnimation(){
+        this.state.setAnimation(0, "gongji", true);
+        this.state.addAnimation(0, "huxi", true, 0.0F);
     }
 
 
-
-    public static void addDiamond() {
-    }
-
-    public static void evokeDiamond() {
-    }
 
     protected void loadAnimation(String atlasUrl, String skeletonUrl, float scale) {
         this.atlas = new TextureAtlas(Gdx.files.internal(atlasUrl));
@@ -77,23 +67,37 @@ public abstract class AbstractSummon {
     }
 
     public void update() {
-        if (isSocket && !AbstractDungeon.player.isDead) {
-            this.particleTimer -= Gdx.graphics.getDeltaTime();
-            if (this.particleTimer < 0.0F) {
-                this.particleTimer = 0.12F;
-                AbstractDungeon.topLevelEffectsQueue.add(new DiamondFireEffect(
-                        this.cX + this.current_x ,//this.cX + this.current_x + 42.0f * Settings.scale,
-                        this.cY + this.current_y ,//this.cY + this.current_y + 42.0f * Settings.scale,
-                        this.scale * 0.55f,
-                        this.particleColor));
-            }
+        if (AbstractDungeon.player != null) {
+            this.cX = AbstractDungeon.player.drawX;
+            this.cY = AbstractDungeon.player.drawY;
+            this.flipHorizontal = AbstractDungeon.player.flipHorizontal;
+            this.flipVertical = AbstractDungeon.player.flipVertical;
         }
+
+        this.hb.move(this.cX + this.current_x + this.hb_x, this.cY + this.current_y + this.hb_y + this.hb_h * 0.5f);
+        this.hb.update();
+
     }
 
     public void render(SpriteBatch sb) {
-        sb.setColor(this.c);
 
+        if(this.atlas != null){
+            sb.setColor(this.c);
+            this.state.update(Gdx.graphics.getDeltaTime());
+            this.state.apply(this.skeleton);
+            this.skeleton.updateWorldTransform();
+            this.skeleton.setPosition(this.cX + this.current_x, this.cY + this.current_y);
+            this.skeleton.setColor(this.tint.color);
+            this.skeleton.setFlip(this.flipHorizontal, this.flipVertical);
 
+            sb.end();
+            CardCrawlGame.psb.begin();
+            sr.draw(CardCrawlGame.psb, this.skeleton);
+            CardCrawlGame.psb.end();
+            sb.begin();
+        }
+
+        this.hb.render(sb);
     }
 }
 
