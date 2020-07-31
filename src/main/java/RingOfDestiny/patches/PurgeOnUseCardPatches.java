@@ -31,7 +31,7 @@ public class PurgeOnUseCardPatches {
             method = "update"
     )
     public static class UseCardActionUpdatePatch {
-        @SpireInsertPatch(rloc = 24, localvars = {"targetCard"})
+        @SpireInsertPatch(rloc = 17, localvars = {"targetCard"})
         public static SpireReturn<Void> Insert(UseCardAction _instance, AbstractCard targetCard) {
             if (targetCard.hasTag(CustomTagsEnum.PurgeOnUse)) {
                 AbstractDungeon.actionManager.addToTop(new ShowCardAndPoofAction(targetCard));

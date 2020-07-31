@@ -46,6 +46,7 @@ public class Vampire extends AbstractSummon {
 
     @Override
     public void onAttacked(DamageInfo info, int damageAmount) {
+        super.onAttacked(info, damageAmount);
         if (info.type != DamageInfo.DamageType.THORNS && info.type != DamageInfo.DamageType.HP_LOSS && info.owner != null && info.owner != AbstractDungeon.player){
             AbstractDungeon.actionManager.addToBottom
                     (new DamageAction(info.owner, new DamageInfo(AbstractDungeon.player, this.damage, DamageInfo.DamageType.THORNS),

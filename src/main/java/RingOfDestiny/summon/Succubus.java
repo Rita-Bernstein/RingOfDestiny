@@ -47,6 +47,7 @@ public class Succubus extends AbstractSummon {
 
     @Override
     public void onUseCard(AbstractCard card, UseCardAction action) {
+        super.onUseCard(card, action);
         if (card.type == AbstractCard.CardType.SKILL){
             AbstractDungeon.actionManager.addToBottom(
                     new DamageRandomEnemyAction(new DamageInfo(null, this.damage, DamageInfo.DamageType.THORNS),
