@@ -33,14 +33,24 @@ public class SoulStone {
     }
 
 
-    public void addSoulStone() {
-        if (this.soulStoneAmount <= 3)
-            this.soulStoneAmount++;
+    public void addSoulStone(int amount) {
+        if (amount <= 0) return;
+        int num = amount;
+
+        if (this.soulStoneAmount + num > 3)
+            num = 3 - soulStoneAmount;
+
+        this.soulStoneAmount += num;
     }
 
-    public void evokeSoulStone() {
-        if (this.soulStoneAmount >= 1) ;
-        this.soulStoneAmount--;
+    public void evokeSoulStone(int amount) {
+        if (amount <= 0) return;
+
+        int num = amount;
+        if (this.soulStoneAmount < num)
+            num = soulStoneAmount;
+
+        this.soulStoneAmount -= num;
     }
 
     public void update() {
@@ -51,7 +61,7 @@ public class SoulStone {
     public void render(SpriteBatch sb) {
         sb.setColor(this.c);
 
-        for (int i = 0; i < this.soulStoneAmount ; i++) {
+        for (int i = 0; i < this.soulStoneAmount; i++) {
             sb.draw(stoneImg[i],
                     this.cX + this.current_x - 80.0f,
                     this.cY + this.current_y - 80.0f,

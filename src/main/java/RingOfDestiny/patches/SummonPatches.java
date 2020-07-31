@@ -12,11 +12,16 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.daily.mods.AbstractDailyMod;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.relics.PrismaticShard;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.ui.buttons.PeekButton;
+import com.megacrit.cardcrawl.ui.panels.TopPanel;
 
 import static com.megacrit.cardcrawl.dungeons.AbstractDungeon.*;
+import static com.megacrit.cardcrawl.helpers.ModHelper.enabledMods;
 
 public class SummonPatches {
     //    ============实际宠物
@@ -28,6 +33,19 @@ public class SummonPatches {
         public static SpireField<AbstractSummon> summon = new SpireField<>(() -> new NullSummon());
     }
 
+
+    @SpirePatch(
+            clz = AbstractPlayer.class,
+            method = "onVictory"
+    )
+    public static class OnVictoryPatch {
+        @SpireInsertPatch(rloc = 1)
+        public static SpireReturn<Void> Insert(AbstractPlayer _instance) {
+            AbstractPlayerSummonField.summon.set(_instance,new NullSummon());
+
+            return SpireReturn.Continue();
+        }
+    }
 
     @SpirePatch(
             clz = AbstractPlayer.class,
@@ -86,7 +104,7 @@ public class SummonPatches {
     }
 //    ============实际宠物
 
-    //    ============选择界面
+//    ============选择界面
     @SpirePatch(
             clz = AbstractDungeon.class,
             method = SpirePatch.CLASS
@@ -98,12 +116,17 @@ public class SummonPatches {
 
     @SpirePatch(
             clz = AbstractPlayer.class,
-            method = "applyPreCombatLogic"
+            method = "applyStartOfCombatLogic"
     )
-    public static class ApplyPreCombatLogicPatch {
+    public static class applyStartOfCombatLogicPatch {
         @SpireInsertPatch(rloc = 0)
         public static SpireReturn<Void> Insert(AbstractPlayer _instance) {
-            SummonSelectScreenField.summonSelectScreen.get(CardCrawlGame.dungeon).open();
+
+            if (_instance.chosenClass == AbstractPlayerEnum.Summoner
+                    || ModHelper.isModEnabled("Diverse")
+                    || ModHelper.isModEnabled("Summoner" + "Modded Character Cards")
+                    || _instance.hasRelic(PrismaticShard.ID))
+                SummonSelectScreenField.summonSelectScreen.get(CardCrawlGame.dungeon).open();
 
             return SpireReturn.Continue();
         }
@@ -149,9 +172,39 @@ public class SummonPatches {
         @SpireInsertPatch(rloc = 5)
         public static SpireReturn<Void> Insert() {
             if (AbstractDungeon.screen == CustomCurrentScreenEnum.SummonSelect) {
-                AbstractDungeon.overlayMenu.showCombatPanels();
-                AbstractDungeon.dynamicBanner.hide();
                 genericScreenOverlayReset();
+                AbstractDungeon.dynamicBanner.hide();
+            }
+
+            return SpireReturn.Continue();
+        }
+    }
+
+    @SpirePatch(
+            clz = AbstractDungeon.class,
+            method = "openPreviousScreen"
+    )
+    public static class OpenPreviousScreenPatch {
+        @SpireInsertPatch(rloc = 0)
+        public static SpireReturn<Void> Insert(CurrentScreen s) {
+            if (s == CustomCurrentScreenEnum.SummonSelect) {
+                SummonSelectScreenField.summonSelectScreen.get(CardCrawlGame.dungeon).reopen();
+            }
+
+            return SpireReturn.Continue();
+        }
+    }
+
+    @SpirePatch(
+            clz = TopPanel.class,
+            method = "updateSettingsButtonLogic"
+    )
+    public static class UpdateSettingsButtonLogicPatch {
+        @SpireInsertPatch(rloc = 129)
+        public static SpireReturn<Void> Insert(TopPanel _instance) {
+            if (AbstractDungeon.screen == CustomCurrentScreenEnum.SummonSelect){
+                AbstractDungeon.previousScreen = CustomCurrentScreenEnum.SummonSelect;
+                AbstractDungeon.dynamicBanner.hide();
             }
 
             return SpireReturn.Continue();

@@ -47,6 +47,8 @@ public abstract class AbstractSummon {
     public boolean flipVertical = false;
 
     public Hitbox hb;
+    protected float clickTimer = 0.0f;
+    protected boolean longClicked = false;
     protected float hb_w;
     protected float hb_h;
     protected float hb_x;
@@ -67,6 +69,16 @@ public abstract class AbstractSummon {
     public int baseDamage;
     public float damageUIScale = 1.0f * Settings.scale;
     private Texture damageUI = ImageMaster.loadImage("RingOfDestiny/img/ui/topPanel/Summoner/summonAtkShow.png");
+
+
+
+    public boolean reticleRendered = false;
+    private float reticleOffset = 0.0F;
+    public float reticleAlpha = 0.0F;
+    private float reticleAnimTimer = 0.0F;
+    private static final float RETICLE_OFFSET_DIST = 15.0F * Settings.scale;
+    private Color reticleShadowColor = new Color(0.0F, 0.0F, 0.0F, 0.0F);
+    private Color reticleColor = new Color(1.0F, 1.0F, 1.0F, 0.0F);
 
     public AbstractSummon(String id) {
 
@@ -128,12 +140,14 @@ public abstract class AbstractSummon {
 
             this.hb.move(this.cX + this.current_x + this.hb_x, this.cY + this.current_y + this.hb_y + this.hb_h * 0.5f);
             this.hb.update();
-            if (this.hb.hovered) {
+            if (this.hb.hovered && !AbstractDungeon.player.isDraggingCard && AbstractDungeon.player.hoveredCard == null ) {
                 TipHelper.renderGenericTip(this.hb.cX + this.hb_w * 0.5f, this.hb.cY + this.hb_h * 0.3f, name, this.description[0] + this.description[1]);
+                this.reticleRendered = true;
             }
 
             updateHbPopInAnimation();
-            updateRightClick();
+            updateLongClick();
+            updateReticle();
         }
     }
 
@@ -163,6 +177,8 @@ public abstract class AbstractSummon {
 
 
             this.hb.render(sb);
+
+            renderReticle(sb,this.hb);
         }
     }
 
@@ -188,7 +204,7 @@ public abstract class AbstractSummon {
             this.hoverTimer += Gdx.graphics.getDeltaTime();
         }
 
-        if (!AbstractDungeon.player.isDraggingCard || AbstractDungeon.player.hoveredCard == null) {
+        if (!AbstractDungeon.player.isDraggingCard && AbstractDungeon.player.hoveredCard == null) {
 
             if (this.hoverTimer != 0.0F) {
                 if (this.hoverTimer * 2.0F > 1.0F) {
@@ -235,8 +251,24 @@ public abstract class AbstractSummon {
         this.hbAlpha = 0.0F;
     }
 
-    protected void updateRightClick() {
-        if (HitboxRightClick.rightClicked.get(this.hb)) {
+    protected void updateLongClick() {
+        if (InputHelper.justClickedLeft && this.hb.hovered && !AbstractDungeon.player.isDraggingCard && AbstractDungeon.player.hoveredCard == null) {
+            this.hb.clickStarted = true;
+        }
+
+
+        if(this.hb.clickStarted){
+            this.clickTimer += Gdx.graphics.getDeltaTime();
+        }else {
+            this.clickTimer = 0.0f;
+        }
+
+        if(this.clickTimer > 0.5f ){
+            this.longClicked = true;
+            this.clickTimer = 0.0f;
+        }
+
+        if (this.longClicked) {
             onSacrifice();
         }
     }
@@ -260,6 +292,47 @@ public abstract class AbstractSummon {
 
         return su;
     }
+
+       public void renderReticle(SpriteBatch sb, Hitbox hb) {
+
+                renderReticleCorner(sb, -hb.width / 2.0F + this.reticleOffset, hb.height / 2.0F - this.reticleOffset, hb, false, false);
+                renderReticleCorner(sb, hb.width / 2.0F - this.reticleOffset, hb.height / 2.0F - this.reticleOffset, hb, true, false);
+                renderReticleCorner(sb, -hb.width / 2.0F + this.reticleOffset, -hb.height / 2.0F + this.reticleOffset, hb, false, true);
+                renderReticleCorner(sb, hb.width / 2.0F - this.reticleOffset, -hb.height / 2.0F + this.reticleOffset, hb, true, true);
+           }
+
+       protected void updateReticle() {
+             if (this.reticleRendered) {
+                   this.reticleRendered = false;
+                   this.reticleAlpha += Gdx.graphics.getDeltaTime() * 3.0F;
+                   if (this.reticleAlpha > 1.0F) {
+                         this.reticleAlpha = 1.0F;
+                       }
+            
+            
+                   this.reticleAnimTimer += Gdx.graphics.getDeltaTime();
+                   if (this.reticleAnimTimer > 1.0F) {
+                         this.reticleAnimTimer = 1.0F;
+                       }
+                   this.reticleOffset = Interpolation.elasticOut.apply(RETICLE_OFFSET_DIST, 0.0F, this.reticleAnimTimer);
+                 }
+             else {
+            
+                   this.reticleAlpha = 0.0F;
+                   this.reticleAnimTimer = 0.0F;
+                   this.reticleOffset = RETICLE_OFFSET_DIST;
+                 }
+           }
+
+       private void renderReticleCorner(SpriteBatch sb, float x, float y, Hitbox hb, boolean flipX, boolean flipY) {
+             this.reticleShadowColor.a = this.reticleAlpha / 4.0F;
+             sb.setColor(this.reticleShadowColor);
+             sb.draw(ImageMaster.RETICLE_CORNER, hb.cX + x - 18.0F + 4.0F * Settings.scale, hb.cY + y - 18.0F - 4.0F * Settings.scale, 18.0F, 18.0F, 36.0F, 36.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 36, 36, flipX, flipY);
+
+             this.reticleColor.a = this.reticleAlpha;
+             sb.setColor(this.reticleColor);
+             sb.draw(ImageMaster.RETICLE_CORNER, hb.cX + x - 18.0F, hb.cY + y - 18.0F, 18.0F, 18.0F, 36.0F, 36.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 36, 36, flipX, flipY);
+           }
 }
 
 

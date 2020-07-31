@@ -7,12 +7,14 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.math.Interpolation;
 import com.esotericsoftware.spine.*;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.Hitbox;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.helpers.TipHelper;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
@@ -49,6 +51,15 @@ public class AbstractSummonSelectItem {
     public String[] description;
     public String[] extra_description;
 
+
+    public boolean reticleRendered = false;
+    private float reticleOffset = 0.0F;
+    public float reticleAlpha = 0.0F;
+    private float reticleAnimTimer = 0.0F;
+    private static final float RETICLE_OFFSET_DIST = 15.0F * Settings.scale;
+    private Color reticleShadowColor = new Color(0.0F, 0.0F, 0.0F, 0.0F);
+    private Color reticleColor = new Color(1.0F, 1.0F, 1.0F, 0.0F);
+
     public AbstractSummonSelectItem(String id){
         this.id = id;
         this.name =  CardCrawlGame.languagePack.getUIString(this.id).TEXT[0];
@@ -62,11 +73,13 @@ public class AbstractSummonSelectItem {
         this.hb.update();
 
 
-        if (this.hb.hovered) {
+        if (this.hb.hovered && !AbstractDungeon.player.isDraggingCard && AbstractDungeon.player.hoveredCard == null) {
             TipHelper.renderGenericTip(this.hb.cX + this.hb_w * 0.5f, this.hb.cY + this.hb_h * 0.3f, name, this.extra_description[0] + this.extra_description[1]);
+            this.reticleRendered = true;
         }
 
         updateClick();
+        updateReticle();
     }
 
 
@@ -87,7 +100,7 @@ public class AbstractSummonSelectItem {
             sb.begin();
 
             this.hb.render(sb);
-
+            renderReticle(sb,this.hb);
 
             FontHelper.bannerFont.getData().setScale(1.0F);
             FontHelper.renderFontCentered(sb, FontHelper.bannerFont, name, this.hb.cX, this.hb.cY - this.hb_h /2 - 10.0f * Settings.scale, Settings.GOLD_COLOR.cpy());
@@ -111,7 +124,7 @@ public class AbstractSummonSelectItem {
     }
 
     protected void updateClick() {
-        if (InputHelper.justClickedLeft && this.hb.hovered) {
+        if (InputHelper.justClickedLeft && this.hb.hovered && !AbstractDungeon.player.isDraggingCard && AbstractDungeon.player.hoveredCard == null) {
             this.hb.clickStarted = true;
         }
 
@@ -124,6 +137,48 @@ public class AbstractSummonSelectItem {
     public void onClicked() {
         AbstractDungeon.closeCurrentScreen();
         SummonPatches.AbstractPlayerSummonField.summon.set(AbstractDungeon.player, AbstractSummon.getSummonForID(this.id));
+    }
+
+
+    public void renderReticle(SpriteBatch sb, Hitbox hb) {
+
+        renderReticleCorner(sb, -hb.width / 2.0F + this.reticleOffset, hb.height / 2.0F - this.reticleOffset, hb, false, false);
+        renderReticleCorner(sb, hb.width / 2.0F - this.reticleOffset, hb.height / 2.0F - this.reticleOffset, hb, true, false);
+        renderReticleCorner(sb, -hb.width / 2.0F + this.reticleOffset, -hb.height / 2.0F + this.reticleOffset, hb, false, true);
+        renderReticleCorner(sb, hb.width / 2.0F - this.reticleOffset, -hb.height / 2.0F + this.reticleOffset, hb, true, true);
+    }
+
+    protected void updateReticle() {
+        if (this.reticleRendered) {
+            this.reticleRendered = false;
+            this.reticleAlpha += Gdx.graphics.getDeltaTime() * 3.0F;
+            if (this.reticleAlpha > 1.0F) {
+                this.reticleAlpha = 1.0F;
+            }
+
+
+            this.reticleAnimTimer += Gdx.graphics.getDeltaTime();
+            if (this.reticleAnimTimer > 1.0F) {
+                this.reticleAnimTimer = 1.0F;
+            }
+            this.reticleOffset = Interpolation.elasticOut.apply(RETICLE_OFFSET_DIST, 0.0F, this.reticleAnimTimer);
+        }
+        else {
+
+            this.reticleAlpha = 0.0F;
+            this.reticleAnimTimer = 0.0F;
+            this.reticleOffset = RETICLE_OFFSET_DIST;
+        }
+    }
+
+    private void renderReticleCorner(SpriteBatch sb, float x, float y, Hitbox hb, boolean flipX, boolean flipY) {
+        this.reticleShadowColor.a = this.reticleAlpha / 4.0F;
+        sb.setColor(this.reticleShadowColor);
+        sb.draw(ImageMaster.RETICLE_CORNER, hb.cX + x - 18.0F + 4.0F * Settings.scale, hb.cY + y - 18.0F - 4.0F * Settings.scale, 18.0F, 18.0F, 36.0F, 36.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 36, 36, flipX, flipY);
+
+        this.reticleColor.a = this.reticleAlpha;
+        sb.setColor(this.reticleColor);
+        sb.draw(ImageMaster.RETICLE_CORNER, hb.cX + x - 18.0F, hb.cY + y - 18.0F, 18.0F, 18.0F, 36.0F, 36.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 36, 36, flipX, flipY);
     }
 }
 

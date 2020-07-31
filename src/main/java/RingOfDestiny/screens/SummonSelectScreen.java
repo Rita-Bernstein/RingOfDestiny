@@ -46,6 +46,15 @@ public class SummonSelectScreen {
         AbstractDungeon.overlayMenu.showBlackScreen();
 
     }
+
+    public void  reopen(){
+        AbstractDungeon.dynamicBanner.appear(header);
+        AbstractDungeon.overlayMenu.showBlackScreen();
+        items = new AbstractSummonSelectItem[]{
+                new SummonSelectItemSuccubus(),
+                new SummonSelectItemDemon(),
+                new SummonSelectItemVampire()};
+    }
 }
 
 
