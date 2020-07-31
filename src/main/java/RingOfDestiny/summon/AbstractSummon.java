@@ -1,20 +1,30 @@
 package RingOfDestiny.summon;
 
+import RingOfDestiny.patches.SummonPatches;
+import RingOfDestiny.relics.AbstractRingRelic;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.esotericsoftware.spine.*;
+import com.evacipated.cardcrawl.mod.stslib.patches.HitboxRightClick;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.AttackDamageRandomEnemyAction;
+import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
+import com.megacrit.cardcrawl.actions.utility.UseCardAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.helpers.FontHelper;
-import com.megacrit.cardcrawl.helpers.Hitbox;
-import com.megacrit.cardcrawl.helpers.ImageMaster;
-import com.megacrit.cardcrawl.helpers.MathHelper;
+import com.megacrit.cardcrawl.helpers.*;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
+import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.vfx.TintEffect;
 import com.badlogic.gdx.math.Interpolation;
+import org.apache.commons.lang3.ObjectUtils;
 
 import static com.megacrit.cardcrawl.core.AbstractCreature.sr;
 
@@ -44,6 +54,7 @@ public abstract class AbstractSummon {
 
 
     public String name;
+    public String[] description;
 
     private float hoverTimer;
     private Color nameColor;
@@ -52,13 +63,15 @@ public abstract class AbstractSummon {
     public float hbAlpha = 0.0F;
     public float hbShowTimer = 0.0F;
 
-    public int damage ;
+    public int damage;
     public int baseDamage;
     public float damageUIScale = 1.0f * Settings.scale;
     private Texture damageUI = ImageMaster.loadImage("RingOfDestiny/img/ui/topPanel/Summoner/summonAtkShow.png");
 
-    public AbstractSummon(String name) {
-        this.name = name;
+    public AbstractSummon(String id) {
+
+        this.name =  CardCrawlGame.languagePack.getUIString(id).TEXT[0];
+        this.description = CardCrawlGame.languagePack.getUIString(id).EXTRA_TEXT;
         this.c = Color.WHITE.cpy();
         this.damage = this.baseDamage = 3;
 
@@ -70,7 +83,25 @@ public abstract class AbstractSummon {
         showHealthBar();
     }
 
-    protected void attackAnimation() {
+    public void onUseCard(AbstractCard card, UseCardAction action) {
+    }
+
+    public void onAttacked(DamageInfo info, int damageAmount) {
+    }
+
+    public void onSacrifice() {
+        if (AbstractDungeon.player != null) {
+            for (AbstractRelic r : AbstractDungeon.player.relics) {
+                if(r instanceof AbstractRingRelic){
+                    ((AbstractRingRelic) r).onSacrifice();
+                }
+            }
+
+            SummonPatches.AbstractPlayerSummonField.summon.set(AbstractDungeon.player,new NullSummon());
+        }
+    }
+
+    public void attackAnimation() {
         this.state.setAnimation(0, "gongji", true);
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
@@ -94,14 +125,16 @@ public abstract class AbstractSummon {
             this.cY = AbstractDungeon.player.drawY;
             this.flipHorizontal = AbstractDungeon.player.flipHorizontal;
             this.flipVertical = AbstractDungeon.player.flipVertical;
+
+            this.hb.move(this.cX + this.current_x + this.hb_x, this.cY + this.current_y + this.hb_y + this.hb_h * 0.5f);
+            this.hb.update();
+            if (this.hb.hovered) {
+                TipHelper.renderGenericTip(this.hb.cX + this.hb_w * 0.5f, this.hb.cY + this.hb_h * 0.3f, name, this.description[0] + this.description[1]);
+            }
+
+            updateHbPopInAnimation();
+            updateRightClick();
         }
-
-        this.hb.move(this.cX + this.current_x + this.hb_x, this.cY + this.current_y + this.hb_y + this.hb_h * 0.5f);
-        this.hb.update();
-
-
-
-        updateHbPopInAnimation();
     }
 
     public void render(SpriteBatch sb) {
@@ -129,12 +162,11 @@ public abstract class AbstractSummon {
             }
 
 
-
             this.hb.render(sb);
         }
     }
 
-    private void renderDamage(SpriteBatch sb){
+    private void renderDamage(SpriteBatch sb) {
         sb.draw(damageUI,
                 this.hb.cX + this.hb_w * 0.5f - 62.0f,
                 this.hb.cY + this.hb_h * 0.5f - 47.0f,
@@ -173,7 +205,7 @@ public abstract class AbstractSummon {
             this.nameColor.g = Interpolation.fade.apply(Color.DARK_GRAY.g, Settings.CREAM_COLOR.g, this.hoverTimer * 3.0F);
             this.nameColor.b = Interpolation.fade.apply(Color.DARK_GRAY.b, Settings.CREAM_COLOR.b, this.hoverTimer * 3.0F);
 
-            float y = Interpolation.exp10Out.apply(this.hb.cY + 8.0F * Settings.scale, this.hb.cY , this.nameColor.a) - this.hb_h * 0.5f;
+            float y = Interpolation.exp10Out.apply(this.hb.cY + 8.0F * Settings.scale, this.hb.cY, this.nameColor.a) - this.hb_h * 0.5f;
             float x = this.hb.cX;
 
             this.nameBgColor.a = this.nameColor.a / 2.0F * this.hbAlpha;
@@ -201,6 +233,32 @@ public abstract class AbstractSummon {
     public void showHealthBar() {
         this.hbShowTimer = 0.7F;
         this.hbAlpha = 0.0F;
+    }
+
+    protected void updateRightClick() {
+        if (HitboxRightClick.rightClicked.get(this.hb)) {
+            onSacrifice();
+        }
+    }
+
+    public static AbstractSummon getSummonForID(String id){
+        AbstractSummon su = new NullSummon();
+        switch (id){
+            case "RingOfDestiny:Demon":
+                su = new Demon();
+                break;
+
+            case "RingOfDestiny:Succubus":
+                su = new Succubus();
+                break;
+
+            case  "RingOfDestiny:Vampire":
+                su = new Vampire();
+                break;
+
+        }
+
+        return su;
     }
 }
 

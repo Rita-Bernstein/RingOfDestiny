@@ -27,7 +27,7 @@ public class SoulStone {
 
     public SoulStone() {
         this.c = Settings.CREAM_COLOR.cpy();
-        this.soulStoneAmount = 3;
+        this.soulStoneAmount = 0;
         this.scale = 1.15f * Settings.scale;
         this.angle = 0.0f;
     }

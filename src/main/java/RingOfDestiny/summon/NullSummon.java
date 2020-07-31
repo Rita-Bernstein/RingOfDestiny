@@ -16,9 +16,11 @@ import static com.megacrit.cardcrawl.core.AbstractCreature.sr;
 
 
 public class NullSummon extends AbstractSummon {
+    public static final String ID = RingOfDestiny.makeID("NullSummon");
 
     public NullSummon() {
-        super("");
+        super(ID);
+
         this.hb_x = 0.0f * Settings.scale;
         this.hb_y = 0.0f * Settings.scale;
         this.hb_w = 160.0f;

@@ -18,4 +18,8 @@ public abstract class AbstractRingRelic extends CustomRelic {
 
     public void onCreateShadow() {
     }
+
+    public void onSacrifice(){
+
+    }
 }

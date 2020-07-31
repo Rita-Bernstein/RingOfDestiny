@@ -85,12 +85,6 @@ public class Summoner extends CustomPlayer {
     }
 
 
-    @Override
-    public void preBattlePrep() {
-        super.preBattlePrep();
-        EnergyPanelRenderPatches.PatchEnergyPanelField.canUseSoulStone.set(AbstractDungeon.overlayMenu.energyPanel,true);
-    }
-
     public String getPortraitImageName() {
         return null;
     }
