@@ -315,5 +315,34 @@
       "每次使用 #y氪金石 。获得 #b",
       " 点 #y格挡 。"
     ]
+  },
+  "RingOfDestiny:HegemonyPower": {
+    "NAME": "魔界霸权",
+    "DESCRIPTIONS": [
+      "每回合开始时手牌中的随机 #b",
+      " 张 #y攻击牌 本回合耗能为零。"
+    ]
+  },
+  "RingOfDestiny:ManaControlPower": {
+    "NAME": "魔力掌控",
+    "DESCRIPTIONS": [
+      "本角色技能牌耗能减 #b1 （不低于1）。每获得 #b20 点 #y格挡 ，获得1颗 #y灵魂石 。（已获得",
+      " 点 #y格挡 ）"
+    ]
+  },
+  "RingOfDestiny:AncientBloodPower": {
+    "NAME": "远古血统",
+    "DESCRIPTIONS": [
+      "每次失去生命时，给予随机敌人 #b",
+      " 层 #y榨取 。"
+    ]
+  },
+  "RingOfDestiny:ExtractPower": {
+    "NAME": "榨取",
+    "DESCRIPTIONS": [
+      "每有 #b2 层引爆，你将回复 #g",
+      "每有 #b2 层引爆，这名敌人将回复 #g",
+      " 点生命。"
+    ]
   }
 }

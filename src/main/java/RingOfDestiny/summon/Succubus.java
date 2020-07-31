@@ -1,6 +1,7 @@
 package RingOfDestiny.summon;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.powers.summon.ManaControlPower;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -8,6 +9,7 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.MathUtils;
 import com.esotericsoftware.spine.*;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -51,6 +53,12 @@ public class Succubus extends AbstractSummon {
                             AbstractGameAction.AttackEffect.SLASH_HEAVY));
             this.attackAnimation();
         }
+    }
+
+    @Override
+    public void onSacrifice() {
+        super.onSacrifice();
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player,AbstractDungeon.player,new ManaControlPower(AbstractDungeon.player)));
     }
 }
 
