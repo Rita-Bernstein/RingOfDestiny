@@ -468,7 +468,7 @@
   },
   "RingOfDestiny:Prelude": {
     "NAME": "白夜序曲",
-    "DESCRIPTION": "每打出一张攻击牌。获得 !M! 点 格挡 。"
+    "DESCRIPTION": "每打出一张攻击牌， NL 获得 !M! 点 格挡 。"
   },
   "RingOfDestiny:Epilogue": {
     "NAME": "黑夜尾音",
@@ -1349,11 +1349,11 @@
   },
   "RingOfDestiny:PowerOfEnvy": {
     "NAME": "嫉妒之力",
-    "DESCRIPTION": "ring_of_destiny:原罪 。造成 !D! 点伤害。获得未被 格挡 伤害的格挡 。"
+    "DESCRIPTION": "ring_of_destiny:原罪 。造成 !D! 点伤害。获得未被 格挡 伤害的 格挡 。"
   },
   "RingOfDestiny:LazyCloak": {
     "NAME": "懒惰披风",
-    "DESCRIPTION": "ring_of_destiny:恶魔 每次攻击，给予你 !M! 点 格挡 。"
+    "DESCRIPTION": "恶魔每次攻击时，给予你 !M! 点 格挡 。"
   },
   "RingOfDestiny:CupOfDesire": {
     "NAME": "欲望酒杯",
@@ -1426,8 +1426,8 @@
   },
   "RingOfDestiny:DemonGovernor": {
     "NAME": "恶魔督军",
-    "DESCRIPTION": "丢弃所有手牌。每丢弃一张牌， ring_of_destiny:恶魔 攻击 !M! 次。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "丢弃所有手牌。每丢弃一张牌， ring_of_destiny:恶魔 攻击 !M! 次。"
+    "DESCRIPTION": "丢弃所有手牌。每丢弃一张牌， 恶魔 攻击 !M! 次。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "丢弃所有手牌。每丢弃一张牌， 恶魔 攻击 !M! 次。"
   },
   "RingOfDestiny:PowerOfGluttony": {
     "NAME": "暴食之力",
@@ -1454,7 +1454,7 @@
   },
   "RingOfDestiny:PowerOfDesire": {
     "NAME": "欲望之力",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。回复 !M! 点生命。 ring_of_destiny:恶魔 攻击 !D! 点伤害3次。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。回复 !M! 点生命。 恶魔 攻击 !D! 点伤害3次。"
   },
   "RingOfDestiny:Doomsday": {
     "NAME": "末日降临",
@@ -1474,8 +1474,8 @@
   },
   "RingOfDestiny:PowerOfArrogance": {
     "NAME": "傲慢之力",
-    "DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能牌。 ring_of_destiny:恶魔 攻击一次。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能或攻击牌。 ring_of_destiny:恶魔 攻击一次。"
+    "DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能牌。 恶魔 攻击一次。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能或攻击牌。 恶魔 攻击一次。"
   },
   "RingOfDestiny:DoomsdayRitual": {
     "NAME": "末日仪式",
@@ -1515,7 +1515,7 @@
   },
   "RingOfDestiny:ConqueringBlade": {
     "NAME": "征服战刃",
-    "DESCRIPTION": "造成 !D! 点伤害。如果 ring_of_destiny:恶魔 的伤害大于 !M! ,获得1颗 ring_of_destiny:灵魂石 。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果 恶魔 的伤害大于 !M! ,获得1颗 ring_of_destiny:灵魂石 。 NL 消耗 。"
   },
   "RingOfDestiny:DoomsdayProphecy": {
     "NAME": "末日预言",
@@ -1533,7 +1533,7 @@
   },
   "RingOfDestiny:DevilKing": {
     "NAME": "恶魔君主",
-    "DESCRIPTION": " ring_of_destiny:恶魔 攻击 !M! 次。 ring_of_destiny:恶魔 的攻击变为全体攻击 。 NL 消耗 。"
+    "DESCRIPTION": " 恶魔 攻击 !M! 次。 恶魔 的攻击变为全体攻击 。 NL 消耗 。"
   },
   "RingOfDestiny:CrownOfPride": {
     "NAME": "傲慢王冠",

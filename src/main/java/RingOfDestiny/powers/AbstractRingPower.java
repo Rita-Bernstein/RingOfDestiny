@@ -9,7 +9,9 @@ public abstract class AbstractRingPower extends AbstractPower {
         super();
     }
 
+    public void onSummonAttack(){
 
+    }
 
     public void onManualDiscard() {}
 }

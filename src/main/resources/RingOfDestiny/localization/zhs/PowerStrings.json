@@ -358,5 +358,12 @@
       "这名敌人受到 #y末日陨石 的伤害提高 #b",
       " 点。最多 #b10 层。"
     ]
+  },
+  "RingOfDestiny:LazyCloakPower": {
+    "NAME": "懒惰披风",
+    "DESCRIPTIONS": [
+      " #y恶魔 每次攻击时，给予你 #b",
+      " 点 #y格挡 。"
+    ]
   }
 }

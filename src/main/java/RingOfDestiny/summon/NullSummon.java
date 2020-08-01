@@ -34,7 +34,8 @@ public class NullSummon extends AbstractSummon {
     }
 
     @Override
-    public void randomAttack() {
+    public void randomAttack(int amount) {
+
     }
 
     @Override

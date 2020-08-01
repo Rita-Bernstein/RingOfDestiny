@@ -1,6 +1,7 @@
 package RingOfDestiny.summon;
 
 import RingOfDestiny.patches.SummonPatches;
+import RingOfDestiny.powers.AbstractRingPower;
 import RingOfDestiny.relics.AbstractRingRelic;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -15,12 +16,14 @@ import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.*;
 import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.vfx.TintEffect;
 import com.badlogic.gdx.math.Interpolation;
@@ -114,6 +117,7 @@ public abstract class AbstractSummon {
     }
 
     public void attackAnimation() {
+        triggerPowerOnAttack();
         this.state.setAnimation(0, "gongji", true);
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
@@ -123,10 +127,20 @@ public abstract class AbstractSummon {
             AbstractDungeon.actionManager.addToBottom(
                     new DamageRandomEnemyAction(new DamageInfo(null, this.damage, DamageInfo.DamageType.THORNS),
                             AbstractGameAction.AttackEffect.SLASH_HEAVY));
+            triggerPowerOnAttack();
         }
 
         this.state.setAnimation(0, "gongji", true);
         this.state.addAnimation(0, "huxi", true, 0.0F);
+    }
+
+    protected void triggerPowerOnAttack(){
+        for(AbstractPower p : AbstractDungeon.player.powers){
+            if(p instanceof AbstractRingPower){
+                p.flash();
+                ((AbstractRingPower)p).onSummonAttack();
+            }
+        }
     }
 
 

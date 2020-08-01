@@ -444,11 +444,16 @@ public class RingOfDestiny
         cards.add(new DoomsdayStrike());
         cards.add(new DoomsdayProtection());
         cards.add(new DemonVanguard());
+        cards.add(new PowerOfGreed());
+        cards.add(new PowerOfEnvy());
+        cards.add(new LazyCloak());
+        cards.add(new CupOfDesire());
+        cards.add(new SoulDiversion());
 
         cards.add(new DoomsdayMeteorite());
 
 
-        cards.add(new PowerOfGreed());
+
 
 
 
