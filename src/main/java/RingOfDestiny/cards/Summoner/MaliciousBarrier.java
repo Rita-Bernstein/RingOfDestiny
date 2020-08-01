@@ -23,6 +23,7 @@ public class MaliciousBarrier extends AbstractSummonerCard {
     public MaliciousBarrier() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.baseBlock = 9;
+        this.magicNumber = this.baseMagicNumber = 1;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

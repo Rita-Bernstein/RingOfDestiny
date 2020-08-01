@@ -1326,7 +1326,8 @@
   },
   "RingOfDestiny:FeastOfDoomsday": {
     "NAME": "末日盛宴",
-    "DESCRIPTION": "给予所有敌人 !M! 层 ring_of_destiny:末日印记 。将 ring_of_destiny:末日印记 变为 ring_of_destiny:榨取 。"
+    "DESCRIPTION": "给予所有敌人 !M! 层 ring_of_destiny:末日印记 。将 ring_of_destiny:末日印记 变为 ring_of_destiny:榨取 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 ring_of_destiny:末日印记 。将 ring_of_destiny:末日印记 变为 ring_of_destiny:榨取 。"
   },
   "RingOfDestiny:DoomsdayStrike": {
     "NAME": "末日打击",

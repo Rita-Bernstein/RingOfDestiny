@@ -28,6 +28,7 @@ public class MaliciousErode extends AbstractSummonerCard {
     public MaliciousErode() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.baseDamage = 7;
+        this.magicNumber = this.baseMagicNumber = 1;
         this.isMultiDamage = true;
     }
 
@@ -39,7 +40,7 @@ public class MaliciousErode extends AbstractSummonerCard {
         if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
             for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
                 if (!monster.isDead && !monster.isDying) {
-                    addToBot(new ApplyPowerAction(monster, p, new ExtractPower(monster, p, 1), 1));
+                    addToBot(new ApplyPowerAction(monster, p, new ExtractPower(monster, p, this.magicNumber), this.magicNumber));
                     addToBot(new ApplyPowerAction(monster, p, new WeakPower(monster, this.magicNumber, false), 1));
                 }
             }

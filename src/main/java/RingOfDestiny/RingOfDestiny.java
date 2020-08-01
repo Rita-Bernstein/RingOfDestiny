@@ -439,6 +439,11 @@ public class RingOfDestiny
         cards.add(new MaliciousFang());
         cards.add(new MaliciousErode());
         cards.add(new MaliciousBarrier());
+        cards.add(new SongOfDoomsday());
+        cards.add(new FeastOfDoomsday());
+        cards.add(new DoomsdayStrike());
+
+        cards.add(new DoomsdayMeteorite());
 
 
         cards.add(new PowerOfGreed());

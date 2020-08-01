@@ -351,5 +351,12 @@
       "本回合每受到一次 #y攻击 ,给予 #b",
       " 层 #y榨取 和 #y虚弱 。"
     ]
+  },
+  "RingOfDestiny:DoomsdayMark": {
+    "NAME": "末日印记",
+    "DESCRIPTIONS": [
+      "这名敌人受到 #y末日陨石 的伤害提高 #b",
+      " 点。最多 #b10 层。"
+    ]
   }
 }
