@@ -1295,8 +1295,8 @@
   },
   "RingOfDestiny:MaliciousConversion": {
     "NAME": "恶意转化",
-    "DESCRIPTION": "失去1点生命。抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": "失去1点生命两次。抽 !M! 张牌。"
+    "DESCRIPTION": "失去1点生命。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "失去1点生命两次。 NL 抽 !M! 张牌。"
   },
   "RingOfDestiny:EndlessDesire": {
     "NAME": "无尽欲望",
@@ -1305,7 +1305,7 @@
   },
   "RingOfDestiny:TortureBlade": {
     "NAME": "折磨战刃",
-    "DESCRIPTION": "造成 !D! 点伤害。如果耗能改变，将保持直到战斗结束。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果耗能改变，将保持直到战斗结束。"
   },
   "RingOfDestiny:MaliciousFang": {
     "NAME": "恶意獠牙",

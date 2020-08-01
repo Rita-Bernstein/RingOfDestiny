@@ -27,12 +27,13 @@ public class MaliciousRelease extends AbstractSummonerCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
+        addToBot(new DrawCardAction(this.magicNumber));
 
-        addToBot(new ApplyPowerAction(m, p, new ExtractPower(m, p, 1), 1));
+
         if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
             for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
                 if (!monster.isDead && !monster.isDying) {
-                    addToBot(new DrawCardAction(this.magicNumber));
+                    addToBot(new ApplyPowerAction(monster, p, new ExtractPower(monster, p, 1), 1));
                 }
             }
         }

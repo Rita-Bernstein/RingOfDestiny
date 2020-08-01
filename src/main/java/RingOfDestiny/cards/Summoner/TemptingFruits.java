@@ -36,7 +36,7 @@ public class TemptingFruits extends AbstractIntentChangingCard {
         if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
             for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
                 if (!monster.isDead && !monster.isDying) {
-                    AbstractDungeon.actionManager.addToTop(new ForceIntentAction(p, m, this.intentType));
+                    AbstractDungeon.actionManager.addToTop(new ForceIntentAction(p, monster, this.intentType));
                 }
             }
         }

@@ -433,6 +433,10 @@ public class RingOfDestiny
         cards.add(new SarcasticSword());
         cards.add(new TemptingFruits());
         cards.add(new MaliciousRelease());
+        cards.add(new MaliciousConversion());
+        cards.add(new EndlessDesire());
+        cards.add(new TortureBlade());
+        cards.add(new MaliciousFang());
 
 
         cards.add(new PowerOfGreed());
