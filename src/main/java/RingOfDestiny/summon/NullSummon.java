@@ -28,6 +28,19 @@ public class NullSummon extends AbstractSummon {
 
         this.hb = new Hitbox(this.hb_w, this.hb_h);
     }
+
+    @Override
+    public void attackAnimation() {
+    }
+
+    @Override
+    public void randomAttack() {
+    }
+
+    @Override
+    public void onSacrifice() {
+
+    }
 }
 
 

@@ -1341,7 +1341,7 @@
   },
   "RingOfDestiny:DemonVanguard": {
     "NAME": "恶魔先锋",
-    "DESCRIPTION": "指挥你的 ring_of_destiny:恶魔 随机攻击 !M! 次。"
+    "DESCRIPTION": "指挥恶魔随机攻击 !M! 次。"
   },
   "RingOfDestiny:PowerOfGreed": {
     "NAME": "贪婪之力",

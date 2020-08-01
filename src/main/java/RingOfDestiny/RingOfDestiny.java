@@ -442,6 +442,8 @@ public class RingOfDestiny
         cards.add(new SongOfDoomsday());
         cards.add(new FeastOfDoomsday());
         cards.add(new DoomsdayStrike());
+        cards.add(new DoomsdayProtection());
+        cards.add(new DemonVanguard());
 
         cards.add(new DoomsdayMeteorite());
 

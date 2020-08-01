@@ -118,6 +118,17 @@ public abstract class AbstractSummon {
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
 
+    public void randomAttack(int amount ){
+        for(int i = 0 ;i < amount;i++){
+            AbstractDungeon.actionManager.addToBottom(
+                    new DamageRandomEnemyAction(new DamageInfo(null, this.damage, DamageInfo.DamageType.THORNS),
+                            AbstractGameAction.AttackEffect.SLASH_HEAVY));
+        }
+
+        this.state.setAnimation(0, "gongji", true);
+        this.state.addAnimation(0, "huxi", true, 0.0F);
+    }
+
 
     protected void loadAnimation(String atlasUrl, String skeletonUrl, float scale) {
         this.atlas = new TextureAtlas(Gdx.files.internal(atlasUrl));
