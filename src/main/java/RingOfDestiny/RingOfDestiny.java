@@ -86,13 +86,16 @@ public class RingOfDestiny
     public static final Color MagicBullet_Color = new Color(0.796F,0.273F,0.277F,1.0F);
     public static final Color Purchemist_Color = new Color(0.57F,0.277F,0.695F,1.0F);
     public static final Color Inherit_Color = new Color(0.246F,0.566F,0.839F,1.0F);
-    public static final Color Summoner_Color = Inherit_Color;//new Color(0.796F,0.273F,0.273F,1.0F);
+    public static final Color Summoner_Color = new Color(0.418F,0.230F,0.566F,1.0F);
 
 
 
 
     public static final Logger logger = LogManager.getLogger(RingOfDestiny.class.getSimpleName());
+
+    public static List<CustomCard> sf_Cards = new ArrayList<>();
     public static List<CustomCard> mb_SoleCards = new ArrayList<>();
+
     public static List<CustomCard> all_SoleCards = new ArrayList<>();
 
     public RingOfDestiny() {
@@ -426,6 +429,15 @@ public class RingOfDestiny
 // ======================恶魔召唤师
         cards.add(new Defend_SU());
         cards.add(new Strike_SU());
+        cards.add(new GreedySummon());
+        cards.add(new SarcasticSword());
+        cards.add(new TemptingFruits());
+        cards.add(new MaliciousRelease());
+
+
+        cards.add(new PowerOfGreed());
+
+
 
 
         for (CustomCard card : cards) {
@@ -442,6 +454,10 @@ public class RingOfDestiny
                     mb_SoleCards.add(card);
                 }
 
+            }
+
+            if(card.color == CardColorEnum.ShadowFlower_LIME){
+                sf_Cards.add(card);
             }
 
         }

@@ -38,7 +38,6 @@ public class WorldOfFloweringTree extends AbstractRingCard {
     public WorldOfFloweringTree() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.magicNumber = this.baseMagicNumber = 10;
-        this.tags.add(CustomTagsEnum.Mudra);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

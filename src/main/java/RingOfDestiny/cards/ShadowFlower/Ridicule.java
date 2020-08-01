@@ -28,13 +28,9 @@ public class Ridicule extends AbstractIntentChangingCard {
     private static final CardRarity RARITY = AbstractCard.CardRarity.COMMON;
     private static final CardTarget TARGET = AbstractCard.CardTarget.ENEMY;
 
-
-    private static final int BLOCK = 10;
-    private static final int UPGRADE_PLUS_BLOCK = 3;
-
     public Ridicule() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET, AbstractIntentChangingCard.IntentTypes.ATTACK);
-        this.baseBlock = BLOCK;
+        this.baseBlock = 10;
         this.exhaust = true;
     }
 

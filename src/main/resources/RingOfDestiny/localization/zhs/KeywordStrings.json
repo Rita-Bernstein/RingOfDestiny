@@ -61,5 +61,19 @@
       "氪金光环"
     ],
     "DESCRIPTION": " #y氪金石 达到一定数量时将触发一些 #g额外效果 。"
+  },
+  {
+    "PROPER_NAME": "原罪",
+    "NAMES": [
+      "原罪"
+    ],
+    "DESCRIPTION": " #y原罪 将提高 #p恶魔 造成的伤害。"
+  },
+  {
+    "PROPER_NAME": "榨取",
+    "NAMES": [
+      "榨取"
+    ],
+    "DESCRIPTION": " #y每有 #b2 层引爆，引爆时你将回复 #b1 点生命。"
   }
 ]

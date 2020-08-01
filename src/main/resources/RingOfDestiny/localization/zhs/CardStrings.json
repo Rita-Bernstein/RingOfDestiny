@@ -1277,8 +1277,8 @@
   },
   "RingOfDestiny:GreedySummon": {
     "NAME": "贪婪召唤",
-    "DESCRIPTION": "将 !M! 张 *贪婪之力 加入手牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "将 !M! 张 *贪婪之力+ 加入手牌。 NL 消耗 。"
+    "DESCRIPTION": "将 !M! 张 *贪婪之力 加入手牌。 消耗 。",
+    "UPGRADE_DESCRIPTION": "将 !M! 张 *贪婪之力+ 加入手牌。 消耗 。"
   },
   "RingOfDestiny:SarcasticSword": {
     "NAME": "嘲讽战刃",
@@ -1344,7 +1344,7 @@
   },
   "RingOfDestiny:PowerOfGreed": {
     "NAME": "贪婪之力",
-    "DESCRIPTION": "ring_of_destiny:原罪 。造成 !D! 点伤害。每有一张 *贪婪之力/+ ，这张牌的伤害提高1。"
+    "DESCRIPTION": "ring_of_destiny:原罪 。 NL 造成 !D! 点伤害。 NL 每有 !RODSecondM! 张 *贪婪之力 ，这张牌的伤害提高 !M! 。"
   },
   "RingOfDestiny:PowerOfEnvy": {
     "NAME": "嫉妒之力",

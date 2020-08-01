@@ -1,5 +1,6 @@
 package RingOfDestiny.actions.ShadowFlower;
  
+ import RingOfDestiny.RingOfDestiny;
  import RingOfDestiny.patches.CustomTagsEnum;
  import com.megacrit.cardcrawl.actions.AbstractGameAction;
  import com.megacrit.cardcrawl.actions.common.ExhaustSpecificCardAction;
@@ -43,17 +44,8 @@ package RingOfDestiny.actions.ShadowFlower;
 
    private static AbstractCard returnRamdonMudraCard(){
        ArrayList<AbstractCard> list = new ArrayList<AbstractCard>();
-       for (AbstractCard c : AbstractDungeon.srcCommonCardPool.group) {
-           if (c.hasTag(CustomTagsEnum.Mudra)  && !c.hasTag(AbstractCard.CardTags.HEALING)) {
-               list.add(c);
-           }
-       }
-       for (AbstractCard c : AbstractDungeon.srcUncommonCardPool.group) {
-           if (c.hasTag(CustomTagsEnum.Mudra)  && !c.hasTag(AbstractCard.CardTags.HEALING)) {
-               list.add(c);
-           }
-       }
-       for (AbstractCard c : AbstractDungeon.srcRareCardPool.group) {
+
+       for (AbstractCard c : RingOfDestiny.sf_Cards) {
            if (c.hasTag(CustomTagsEnum.Mudra)  && !c.hasTag(AbstractCard.CardTags.HEALING)) {
                list.add(c);
            }
