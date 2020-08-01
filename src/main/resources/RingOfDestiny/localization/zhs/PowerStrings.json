@@ -344,5 +344,12 @@
       "每有 #b2 层引爆，引爆时这名敌人将回复 #g",
       " 点生命。"
     ]
+  },
+  "RingOfDestiny:MaliciousBarrierPower": {
+    "NAME": "恶意屏障",
+    "DESCRIPTIONS": [
+      "本回合每受到一次 #y攻击 ,给予 #b",
+      " 层 #y榨取 和 #y虚弱 。"
+    ]
   }
 }

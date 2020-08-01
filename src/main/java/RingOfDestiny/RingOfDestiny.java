@@ -437,6 +437,8 @@ public class RingOfDestiny
         cards.add(new EndlessDesire());
         cards.add(new TortureBlade());
         cards.add(new MaliciousFang());
+        cards.add(new MaliciousErode());
+        cards.add(new MaliciousBarrier());
 
 
         cards.add(new PowerOfGreed());
