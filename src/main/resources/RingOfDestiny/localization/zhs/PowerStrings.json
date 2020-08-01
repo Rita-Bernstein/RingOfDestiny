@@ -365,5 +365,12 @@
       " #y恶魔 每次攻击时，给予你 #b",
       " 点 #y格挡 。"
     ]
+  },
+  "RingOfDestiny:DemonSkinPower": {
+    "NAME": "恶魔皮肤",
+    "DESCRIPTIONS": [
+      "本回合，每当你受到攻击时，获得 #b",
+      " 点 #y格挡 。"
+    ]
   }
 }

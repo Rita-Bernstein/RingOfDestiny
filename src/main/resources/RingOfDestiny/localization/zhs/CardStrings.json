@@ -1373,7 +1373,8 @@
   },
   "RingOfDestiny:DesireMastery": {
     "NAME": "欲望掌握",
-    "DESCRIPTION": "回复 !M! 点生命。抽 !RODSecondM! 张牌。所有敌人的意图变为攻击。 NL 消耗 。"
+    "DESCRIPTION": "回复 !M! 点生命。 NL 抽2张牌。 NL 所有敌人的意图变为攻击。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "回复 !M! 点生命。 NL 抽3张牌。 NL 所有敌人的意图变为攻击。 NL 消耗 。"
   },
   "RingOfDestiny:MaliciousBlade": {
     "NAME": "恶意战刃",
@@ -1532,8 +1533,8 @@
     "UPGRADE_DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 NL 消耗 。"
   },
   "RingOfDestiny:DevilKing": {
-    "NAME": "恶魔君主",
-    "DESCRIPTION": " 恶魔 攻击 !M! 次。 恶魔 的攻击变为全体攻击 。 NL 消耗 。"
+    "NAME": "恶魔君王",
+    "DESCRIPTION": "指挥恶魔攻击 !M! 次。 恶魔 的攻击变为全体攻击 。 NL 消耗 。"
   },
   "RingOfDestiny:CrownOfPride": {
     "NAME": "傲慢王冠",

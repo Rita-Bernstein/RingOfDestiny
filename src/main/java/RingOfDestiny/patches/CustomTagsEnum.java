@@ -20,4 +20,6 @@ public class CustomTagsEnum {
 	public static AbstractCard.CardTags PurgeOnUse;
 	@SpireEnum
 	public static AbstractCard.CardTags Original_Sin;
+	@SpireEnum
+	public static AbstractCard.CardTags Soul_Stone;
 }

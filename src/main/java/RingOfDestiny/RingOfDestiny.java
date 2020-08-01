@@ -449,6 +449,10 @@ public class RingOfDestiny
         cards.add(new LazyCloak());
         cards.add(new CupOfDesire());
         cards.add(new SoulDiversion());
+        cards.add(new SoulAccumulation());
+        cards.add(new DemonSkin());
+        cards.add(new DesireMastery());
+        cards.add(new MaliciousBlade());
 
         cards.add(new DoomsdayMeteorite());
 
