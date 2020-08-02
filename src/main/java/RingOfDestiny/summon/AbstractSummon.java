@@ -1,5 +1,6 @@
 package RingOfDestiny.summon;
 
+import RingOfDestiny.patches.CustomTagsEnum;
 import RingOfDestiny.patches.SummonPatches;
 import RingOfDestiny.powers.AbstractRingPower;
 import RingOfDestiny.relics.AbstractRingRelic;
@@ -99,6 +100,10 @@ public abstract class AbstractSummon {
     }
 
     public void onUseCard(AbstractCard card, UseCardAction action) {
+        if(card.hasTag(CustomTagsEnum.Original_Sin)){
+            this.damage ++;
+        }
+
     }
 
     public void onAttacked(DamageInfo info, int damageAmount) {

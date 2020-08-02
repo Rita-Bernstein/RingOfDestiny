@@ -1,14 +1,19 @@
 package RingOfDestiny.soulStone;
 
+import RingOfDestiny.RingOfDestiny;
+import basemod.abstracts.CustomSavable;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.google.gson.reflect.TypeToken;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 
+import static RingOfDestiny.RingOfDestiny.soulStoneCustomSavable;
 
-public class SoulStone {
+
+public class SoulStone implements CustomSavable<Integer> {
     public float cX = 0.0F;
     public float cY = 0.0F;
     protected float current_x = 0.0f;
@@ -27,9 +32,11 @@ public class SoulStone {
 
     public SoulStone() {
         this.c = Settings.CREAM_COLOR.cpy();
-        this.soulStoneAmount = 0;
+
         this.scale = 1.15f * Settings.scale;
         this.angle = 0.0f;
+
+        this.soulStoneAmount = RingOfDestiny.soulStoneCustomSavable.soulStoneSaved;
     }
 
 
@@ -69,6 +76,20 @@ public class SoulStone {
 
         }
     }
+
+
+    @Override
+    public Integer onSave() {
+        System.out.println("存下来的值：" + this.soulStoneAmount );
+        return null;
+    }
+
+    @Override
+    public void onLoad(Integer integer) {
+        System.out.println("输出的值：" + this.soulStoneAmount + "      另一个："+integer);
+        soulStoneAmount = soulStoneCustomSavable.soulStoneSaved;
+    }
+
 }
 
 

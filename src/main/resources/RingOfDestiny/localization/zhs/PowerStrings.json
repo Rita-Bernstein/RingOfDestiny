@@ -352,7 +352,7 @@
       " 层 #y榨取 和 #y虚弱 。"
     ]
   },
-  "RingOfDestiny:DoomsdayMark": {
+  "RingOfDestiny:DoomsdayImprintPower": {
     "NAME": "末日印记",
     "DESCRIPTIONS": [
       "这名敌人受到 #y末日陨石 的伤害提高 #b",
@@ -366,11 +366,32 @@
       " 点 #y格挡 。"
     ]
   },
+  "RingOfDestiny:CupOfDesirePower": {
+    "NAME": "欲望酒杯",
+    "DESCRIPTIONS": [
+      "每次回复生命时，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
   "RingOfDestiny:DemonSkinPower": {
     "NAME": "恶魔皮肤",
     "DESCRIPTIONS": [
       "本回合，每当你受到攻击时，获得 #b",
       " 点 #y格挡 。"
+    ]
+  },
+  "RingOfDestiny:ManaEnhancePower": {
+    "NAME": "魔能强化",
+    "DESCRIPTIONS": [
+      "本回合你的下 #b",
+      " 张打出的 #y攻击牌 耗能减少 #b1 。"
+    ]
+  },
+  "RingOfDestiny:UpgradedManaEnhancePower": {
+    "NAME": "魔能强化+",
+    "DESCRIPTIONS": [
+      "本回合你的下 #b",
+      " 张打出的 #y攻击牌 耗能减少 #b2 。"
     ]
   }
 }

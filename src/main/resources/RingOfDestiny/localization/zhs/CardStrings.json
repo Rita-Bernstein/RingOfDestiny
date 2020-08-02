@@ -109,7 +109,11 @@
   },
   "RingOfDestiny:EthMudra": {
     "NAME": "结印-丑",
-    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 中毒 ，则再造成 中毒 层数的伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 中毒 ，则再造成 中毒 层数的伤害。",
+    "EXTENDED_DESCRIPTION": [
+      "( !RODSecondM! )"
+    ]
+
   },
   "RingOfDestiny:OctMudra": {
     "NAME": "结印-未",
@@ -1382,22 +1386,23 @@
   },
   "RingOfDestiny:ManaEnhance": {
     "NAME": "魔能强化",
-    "DESCRIPTION": "失去 !RODSecondM! 点生命。本回合下一张攻击牌耗能降低 !M! 。"
+    "DESCRIPTION": "失去 !RODSecondM! 点生命。本回合下 !M! 张攻击牌耗能降低1。",
+    "UPGRADE_DESCRIPTION": "失去 !RODSecondM! 点生命。本回合下 !M! 张攻击牌耗能降低2。"
   },
   "RingOfDestiny:Demonic": {
     "NAME": "恶魔守御",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非技能牌。每 消耗 一张牌，获得 !M! 点 金属化 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非攻击牌。每 消耗 一张牌，获得 !M! 点 金属化 。 NL 消耗 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非技能牌。 NL 每 消耗 一张牌， NL 获得 !M! 点 ring_of_destiny:金属化 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非攻击牌。 NL 每 消耗 一张牌， NL 获得 !M! 点 ring_of_destiny:金属化 。 NL 消耗 。"
   },
   "RingOfDestiny:MaliciousSuppress": {
     "NAME": "恶意压制",
-    "DESCRIPTION": "造成 !D! 点伤害。如果目标的意图为攻击。对所有敌人造成 !RODSecondM! 点伤害。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。如果目标的意图为攻击。对所有敌人造成 !RODSecondM! 点伤害并给予 ring_of_destiny:榨取 。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果目标的意图为攻击，对所有敌人造成 !RODSecondM! 点伤害。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。如果目标的意图为攻击，对所有敌人造成 !RODSecondM! 点伤害并给予 ring_of_destiny:榨取 。"
   },
   "RingOfDestiny:MemoryBlade": {
     "NAME": "记忆战刃",
-    "DESCRIPTION": "造成 !D! 点伤害。造成伤害为上一张攻击牌的伤害。至少为1。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。造成伤害为上一张攻击牌的伤害。至少为1。"
+    "DESCRIPTION": "造成 !D! 点伤害。造成伤害为上一张攻击牌的攻击值。至少为1。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。造成伤害为上一张攻击牌的攻击值。至少为1。"
   },
   "RingOfDestiny:DoomsdayMeteorite": {
     "NAME": "末日陨石",

@@ -5,7 +5,8 @@ import RingOfDestiny.cards.MagicBullet.*;
 import RingOfDestiny.cards.Purchemist.*;
 import RingOfDestiny.cards.ShadowFlower.*;
 import RingOfDestiny.cards.Summoner.*;
-import RingOfDestiny.helpers.SecondaryMagicVariable;
+import RingOfDestiny.helpers.*;
+import RingOfDestiny.soulStone.SoulStone;
 import basemod.BaseMod;
 
 import basemod.ModLabeledToggleButton;
@@ -47,7 +48,9 @@ public class RingOfDestiny
         EditCharactersSubscriber,
         EditCardsSubscriber,
         EditRelicsSubscriber,
-        EditKeywordsSubscriber{
+        EditKeywordsSubscriber,
+        PreStartGameSubscriber,
+        PostDungeonInitializeSubscriber {
 
     public static String MOD_ID = "RingOfDestiny";
 
@@ -95,8 +98,11 @@ public class RingOfDestiny
 
     public static List<CustomCard> sf_Cards = new ArrayList<>();
     public static List<CustomCard> mb_SoleCards = new ArrayList<>();
+    public static List<CustomCard> su_SoleCards = new ArrayList<>();
 
     public static List<CustomCard> all_SoleCards = new ArrayList<>();
+
+    public static SoulStoneCustomSavable soulStoneCustomSavable = new SoulStoneCustomSavable();
 
     public RingOfDestiny() {
         BaseMod.subscribe(this);
@@ -164,6 +170,8 @@ public class RingOfDestiny
                 assetPath("img/cardui/Summoner/512/card_lime_small_orb.png"));
 
 
+
+        BaseMod.addSaveField("RingOfDestiny:SoulStone", soulStoneCustomSavable);
     }
 
 
@@ -172,6 +180,21 @@ public class RingOfDestiny
     public static void initialize() {
         new RingOfDestiny();
         logger.info("========================= 初始化完成 =========================");
+    }
+
+    @Override
+    public void receivePreStartGame() {
+//        System.out.println("重开游戏");
+//        EnergyPanelRenderPatches.PatchEnergyPanelField.soulStone.get(AbstractDungeon.overlayMenu.energyPanel).soulStoneAmount = 0;
+    }
+
+
+    @Override
+    public void receivePostDungeonInitialize() {
+        System.out.println("重开游戏");
+        if(AbstractDungeon.floorNum == 0){
+            EnergyPanelRenderPatches.PatchEnergyPanelField.soulStone.get(AbstractDungeon.overlayMenu.energyPanel).soulStoneAmount = 0;
+        }
     }
 
     @Override
@@ -453,7 +476,10 @@ public class RingOfDestiny
         cards.add(new DemonSkin());
         cards.add(new DesireMastery());
         cards.add(new MaliciousBlade());
-
+        cards.add(new ManaEnhance());
+        cards.add(new Demonic());
+        cards.add(new MaliciousSuppress());
+        cards.add(new MemoryBlade());
         cards.add(new DoomsdayMeteorite());
 
 
@@ -474,6 +500,11 @@ public class RingOfDestiny
                 if(card.color == CardColorEnum.MagicBullet_LIME){
                     System.out.println("魔弹唯一卡池加入"+ card.name);
                     mb_SoleCards.add(card);
+                }
+
+                if(card.color == CardColorEnum.Summoner_LIME){
+                    System.out.println("召唤师唯一卡池加入"+ card.name);
+                    su_SoleCards.add(card);
                 }
 
             }

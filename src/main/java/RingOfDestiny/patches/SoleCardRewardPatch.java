@@ -400,8 +400,33 @@ public class SoleCardRewardPatch {
         }
 
 
+        if (AbstractDungeon.player.chosenClass == AbstractPlayerEnum.Summoner
+                || ModHelper.isModEnabled("Diverse")
+                || ModHelper.isModEnabled("MagicBullet" + "Modded Character Cards")) {
+            System.out.println(rarity + "唯一卡牌临时卡池开始加入");
+            for (AbstractCard c : RingOfDestiny.su_SoleCards) {
+                if (rarity == AbstractCard.CardRarity.RARE && c.hasTag(CustomTagsEnum.SoleRare) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
+                    System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
+                    groupForReturn.group.add(c);
+                }
+
+                if (rarity == AbstractCard.CardRarity.UNCOMMON && c.hasTag(CustomTagsEnum.SoleUncommon) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
+                    System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
+                    groupForReturn.group.add(c);
+                }
+
+                if (rarity == AbstractCard.CardRarity.COMMON && c.hasTag(CustomTagsEnum.SoleCommon) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {
+                    System.out.println(rarity + "唯一卡牌临时卡池加入：" + c.name);
+                    groupForReturn.group.add(c);
+                }
+            }
+        }
+
+
         return groupForReturn;
     }
+
+
 
 
     public static CardGroup returnAnySoleCard(AbstractCard.CardRarity rarity) {
@@ -428,6 +453,7 @@ public class SoleCardRewardPatch {
 
         return groupForReturn;
     }
+
 }
 
 

@@ -52,6 +52,7 @@ public class EnergyPanelRenderPatches {
 
 
         });
+
     }
 
     @SpirePatch(
@@ -116,8 +117,11 @@ public class EnergyPanelRenderPatches {
             if (_instance.chosenClass == AbstractPlayerEnum.Summoner
                     || ModHelper.isModEnabled("Diverse")
                     || ModHelper.isModEnabled("Summoner" + "Modded Character Cards")
-                    || _instance.hasRelic(PrismaticShard.ID))
+                    || _instance.hasRelic(PrismaticShard.ID)){
+
                 actionManager.addToBottom(new AddSoulStoneAction(1));
+            }
+
             return SpireReturn.Continue();
         }
     }

@@ -40,12 +40,38 @@ public class EthMudra extends AbstractRingCard {
     public EthMudra() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = 3;
+        this.secondaryM = this.baseSecondaryM = 0;
         this.tags.add(CustomTagsEnum.Mudra);
+        this.isAnotherDamage = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m,new DamageInfo(p, this.damage, this.damageTypeForTurn),AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
-        addToBot(new GetAndDamagePoisonEmenyAction(m,this.damageTypeForTurn));
+        addToBot(new DamageAction(m,new DamageInfo(p, this.secondaryM, this.damageTypeForTurn),AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+    }
+
+    @Override
+    public void calculateCardDamage(AbstractMonster mo) {
+        if(mo.hasPower(PoisonPower.POWER_ID)){
+            this.secondaryM = this.baseSecondaryM = mo.getPower(PoisonPower.POWER_ID).amount;
+        }
+        super.calculateCardDamage(mo);
+    }
+
+    @Override
+    public void applyPowers() {
+        super.applyPowers();
+        this.rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+        initializeDescription();
+    }
+
+    @Override
+    public void onMoveToDiscard() {
+        super.onMoveToDiscard();
+        this.secondaryM = this.baseSecondaryM = 0;
+        this.isSecondaryMModified = false;
+        this.rawDescription = cardStrings.DESCRIPTION;
+        initializeDescription();
     }
 
     public AbstractCard makeCopy() {
