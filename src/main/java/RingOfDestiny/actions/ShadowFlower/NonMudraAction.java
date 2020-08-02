@@ -8,8 +8,12 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 
-public class NonMudraAction
-        extends AbstractGameAction {
+public class NonMudraAction  extends AbstractGameAction {
+    public NonMudraAction(){
+
+    }
+
+
     public void update() {
         AbstractDungeon.actionManager.addToTop(new WaitAction(0.4F));
 

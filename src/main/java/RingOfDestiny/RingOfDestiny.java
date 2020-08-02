@@ -481,6 +481,15 @@ public class RingOfDestiny
         cards.add(new MaliciousSuppress());
         cards.add(new MemoryBlade());
         cards.add(new DoomsdayMeteorite());
+        cards.add(new DoomsdayMadness());
+        cards.add(new DoomsdayEcho());
+        cards.add(new FairDealing());
+        cards.add(new MaskOfSuffering());
+        cards.add(new MaliciousLeakage());
+        cards.add(new DemonGovernor());
+        cards.add(new PowerOfGluttony());
+        cards.add(new RingOfGreed());
+        cards.add(new EnvyNecklace());
 
 
 
