@@ -19,6 +19,8 @@ public class DoomsdayMeteorite extends AbstractSummonerCard {
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
+    private static final int realBaseDamage = 5;
+
     public DoomsdayMeteorite() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
 
@@ -31,6 +33,7 @@ public class DoomsdayMeteorite extends AbstractSummonerCard {
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
         addToBot(new ApplyPowerAction(m,p,new DoomsdayImprintPower(m,this.magicNumber),this.magicNumber));
     }
+
 
     public AbstractCard makeCopy() {
         return new DoomsdayMeteorite();

@@ -13,6 +13,7 @@ import com.esotericsoftware.spine.*;
 import com.evacipated.cardcrawl.mod.stslib.patches.HitboxRightClick;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.AttackDamageRandomEnemyAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -24,6 +25,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.*;
 import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.vfx.TintEffect;
@@ -132,6 +134,22 @@ public abstract class AbstractSummon {
             AbstractDungeon.actionManager.addToBottom(
                     new DamageRandomEnemyAction(new DamageInfo(null, this.damage, DamageInfo.DamageType.THORNS),
                             AbstractGameAction.AttackEffect.SLASH_HEAVY));
+            triggerPowerOnAttack();
+        }
+
+        this.state.setAnimation(0, "gongji", true);
+        this.state.addAnimation(0, "huxi", true, 0.0F);
+    }
+
+    public void attackDamage(AbstractMonster m, int amount , int damage){
+        for(int i = 0 ;i < amount;i++){
+            AbstractDungeon.actionManager.addToBottom(new DamageAction(m,
+                    new DamageInfo(null,damage, DamageInfo.DamageType.THORNS),
+                    AbstractGameAction.AttackEffect.SLASH_HEAVY));
+
+//            AbstractDungeon.actionManager.addToBottom(
+//                    new DamageRandomEnemyAction(new DamageInfo(null, damage, DamageInfo.DamageType.THORNS),
+//                            AbstractGameAction.AttackEffect.SLASH_HEAVY));
             triggerPowerOnAttack();
         }
 

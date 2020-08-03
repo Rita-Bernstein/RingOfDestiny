@@ -423,5 +423,21 @@
       "每回合开始时，将 #b",
       " 张 #y嫉妒之力+ 加入手牌。"
     ]
+  },
+  "RingOfDestiny:AngerSwordPower": {
+    "NAME": "愤怒魔剑",
+    "DESCRIPTIONS": [
+      "每打出一张 #y技能牌 ，对随机敌人造成 #b",
+      " 点伤害并给予 #b",
+      " 层 #y榨取 。"
+    ]
+  },
+  "RingOfDestiny:UpgradedAngerSwordPower": {
+    "NAME": "愤怒魔剑+",
+    "DESCRIPTIONS": [
+      "每打出一张 #y技能牌 或 #y攻击牌 ，对随机敌人造成 #b",
+      " 点伤害并给予 #b",
+      " 层 #y榨取 。"
+    ]
   }
 }

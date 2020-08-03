@@ -70,7 +70,7 @@
     ],
     "EXTRA_TEXT": [
       "  #y魅惑 ： NL 魅魔存在时，玩家每打出一张 #y技能牌 ，魅魔将对随机敌人造成伤害。 NL NL ",
-      "  #y魔力掌控 ：（长按献祭） NL 魅魔献祭后，所有本角色技能牌耗能减1（不低于1）。 NL 每获得 #b20 点 #y格挡 获得1颗 #y灵魂石 。"
+      "  #y魔力掌控 ：（长按献祭） NL 魅魔献祭后，所有本角色 #y技能牌 耗能减1（不低于1）。 NL 每获得 #b20 点 #y格挡 获得1颗 #y灵魂石 。"
     ]
   },
   "RingOfDestiny:Vampire": {
@@ -97,8 +97,12 @@
   },
   "RingOfDestiny:SummonSelectScreen": {
     "TEXT": [
-      "请选择契约的恶魔",
-      ""
+      "请选择契约的恶魔"
+    ]
+  },
+  "RingOfDestiny:SoulStoneCantUseMessage": {
+    "TEXT": [
+      "灵魂石不足"
     ]
   }
 }

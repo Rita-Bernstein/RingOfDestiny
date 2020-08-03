@@ -490,6 +490,13 @@ public class RingOfDestiny
         cards.add(new PowerOfGluttony());
         cards.add(new RingOfGreed());
         cards.add(new EnvyNecklace());
+        cards.add(new AngerSword());
+        cards.add(new MaliciousSword());
+        cards.add(new PowerOfDesire());
+        cards.add(new Doomsday());
+        cards.add(new AbyssOfDesire());
+        cards.add(new CostOfSoul());
+        cards.add(new PowerOfArrogance());
 
 
 

@@ -1377,8 +1377,8 @@
   },
   "RingOfDestiny:DesireMastery": {
     "NAME": "欲望掌握",
-    "DESCRIPTION": "回复 !M! 点生命。 NL 抽2张牌。 NL 所有敌人的意图变为攻击。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "回复 !M! 点生命。 NL 抽3张牌。 NL 所有敌人的意图变为攻击。 NL 消耗 。"
+    "DESCRIPTION": "回复 !M! 点生命。 NL 抽2张牌。 NL 所有敌人的意图变为攻击。 消耗 。",
+    "UPGRADE_DESCRIPTION": "回复 !M! 点生命。 NL 抽3张牌。 NL 所有敌人的意图变为攻击。 消耗 。"
   },
   "RingOfDestiny:MaliciousBlade": {
     "NAME": "恶意战刃",
@@ -1411,8 +1411,8 @@
   },
   "RingOfDestiny:DoomsdayMadness": {
     "NAME": "末日疯狂",
-    "DESCRIPTION": "失去 !RODSecondM! 点生命。 NL 抽 !M! 张牌3次直到抽到非0耗能牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "失去 !RODSecondM! 点生命。 NL 抽 !M! 张牌3次直到抽到非0耗能牌。"
+    "DESCRIPTION": "失去3点生命。 NL 抽 !M! 张牌，如果是0耗能牌，继续抽1张牌直到抽到非0耗能牌(最多3次)。 消耗 。",
+    "UPGRADE_DESCRIPTION": "失去3点生命。 NL 抽 !M! 张牌，如果都是0耗能牌，继续抽1张牌直到抽到非0耗能牌(最多3次)。"
   },
   "RingOfDestiny:DoomsdayEcho": {
     "NAME": "末日回响",
@@ -1451,8 +1451,8 @@
   },
   "RingOfDestiny:AngerSword": {
     "NAME": "愤怒魔剑",
-    "DESCRIPTION": "每打出一张技能牌，对随机敌人造成 !M! 点伤害并给予 ring_of_destiny:榨取 。",
-    "UPGRADE_DESCRIPTION": "每打出一张技能或攻击牌，对随机敌人造成 !M! 点伤害并给予 ring_of_destiny:榨取 。"
+    "DESCRIPTION": "每打出一张技能牌，对随机敌人造成 !M! 点伤害并给予1层 ring_of_destiny:榨取 。",
+    "UPGRADE_DESCRIPTION": "每打出一张技能或攻击牌，对随机敌人造成 !M! 点伤害并给予1层 ring_of_destiny:榨取 。"
   },
   "RingOfDestiny:MaliciousSword": {
     "NAME": "恶意魔剑",
@@ -1461,16 +1461,16 @@
   },
   "RingOfDestiny:PowerOfDesire": {
     "NAME": "欲望之力",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。回复 !M! 点生命。 恶魔 攻击 !D! 点伤害3次。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。 NL 回复 !M! 点生命。 NL 对随机敌人造成 !D! 点伤害 !M! 次。"
   },
   "RingOfDestiny:Doomsday": {
     "NAME": "末日降临",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害 !M! 次。并给予 !RODSecondM! 层 ring_of_destiny:末日印记 。"
+    "DESCRIPTION": "对所有敌人造成 NL !D! 点伤害 !M! 次。 NL 并给予 !RODSecondM! 层 ring_of_destiny:末日印记 。"
   },
   "RingOfDestiny:AbyssOfDesire": {
     "NAME": "欲望深渊",
     "DESCRIPTION": "造成你当前 格挡 值的伤害。失去所有 格挡 。",
-    "UPGRADE_DESCRIPTION": "造成你当前 格挡 值的伤害。失去所有 格挡 。",
+    "UPGRADE_DESCRIPTION": "造成你当前 格挡 值的伤害。",
     "EXTENDED_DESCRIPTION": [
       " NL （造成 !D! 点伤害。）"
     ]
@@ -1481,8 +1481,8 @@
   },
   "RingOfDestiny:PowerOfArrogance": {
     "NAME": "傲慢之力",
-    "DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能牌。 恶魔 攻击一次。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌。每抽到一张技能或攻击牌。 恶魔 攻击一次。"
+    "DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌,每抽到一张技能牌,恶魔攻击一次。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:原罪 。抽 !M! 张牌,每抽到一张技能或攻击牌,恶魔攻击一次。"
   },
   "RingOfDestiny:DoomsdayRitual": {
     "NAME": "末日仪式",

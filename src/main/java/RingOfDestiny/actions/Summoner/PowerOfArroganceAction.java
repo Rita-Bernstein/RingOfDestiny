@@ -8,14 +8,14 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 
-public class DoomsdayMadnessAction extends AbstractGameAction {
-    private boolean drawAgain = true;
-    private int amount ;
+public class PowerOfArroganceAction extends AbstractGameAction {
+    private boolean willAttack = false;
     private int times ;
+    private boolean upgraded ;
 
-    public DoomsdayMadnessAction(int amount,int times){
-        this.amount = amount;
-        this.times = times;
+    public PowerOfArroganceAction(boolean upgraded){
+        this.times = 0;
+        this.upgraded = upgraded;
     }
 
     public void update() {
@@ -25,15 +25,14 @@ public class DoomsdayMadnessAction extends AbstractGameAction {
 
         if (this.isDone){
             for (AbstractCard c : DrawCardAction.drawnCards) {
-                if(c.costForTurn != 0)
-                    this.drawAgain = false;
 
+                if(c.type == AbstractCard.CardType.SKILL || (this.upgraded && c.type == AbstractCard.CardType.ATTACK))
+                    this.willAttack = true;
+                    this.times ++;
             }
 
-            this.times--;
-
-            if (this.drawAgain && this.times > 0)
-                addToTop(new DrawCardAction(this.amount, new DoomsdayMadnessAction(1,this.times)));
+            if (this.willAttack && this.times > 0)
+                addToTop(new SummonAttackAction(this.times));
         }
 
     }
