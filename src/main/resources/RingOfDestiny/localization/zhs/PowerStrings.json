@@ -439,5 +439,12 @@
       " 点伤害并给予 #b",
       " 层 #y榨取 。"
     ]
+  },
+  "RingOfDestiny:ScepterOfGluttonyPower": {
+    "NAME": "暴食权杖",
+    "DESCRIPTIONS": [
+      "每回合开始时，将手牌中的 #b",
+      " 张牌在本回合的耗能变为 #b0"
+    ]
   }
 }

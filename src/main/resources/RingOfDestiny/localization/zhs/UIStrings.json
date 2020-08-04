@@ -104,5 +104,10 @@
     "TEXT": [
       "灵魂石不足"
     ]
+  },
+  "RingOfDestiny:ScepterOfGluttonyAction": {
+    "TEXT": [
+      "将牌的耗能本回合变为0"
+    ]
   }
 }

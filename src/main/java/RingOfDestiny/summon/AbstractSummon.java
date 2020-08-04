@@ -1,5 +1,7 @@
 package RingOfDestiny.summon;
 
+import RingOfDestiny.actions.Summoner.SummonAddDamageAction;
+import RingOfDestiny.cards.Summoner.PowerOfLaziness;
 import RingOfDestiny.patches.CustomTagsEnum;
 import RingOfDestiny.patches.SummonPatches;
 import RingOfDestiny.powers.AbstractRingPower;
@@ -77,7 +79,6 @@ public abstract class AbstractSummon {
     private Texture damageUI = ImageMaster.loadImage("RingOfDestiny/img/ui/topPanel/Summoner/summonAtkShow.png");
 
 
-
     public boolean reticleRendered = false;
     private float reticleOffset = 0.0F;
     public float reticleAlpha = 0.0F;
@@ -88,7 +89,7 @@ public abstract class AbstractSummon {
 
     public AbstractSummon(String id) {
 
-        this.name =  CardCrawlGame.languagePack.getUIString(id).TEXT[0];
+        this.name = CardCrawlGame.languagePack.getUIString(id).TEXT[0];
         this.description = CardCrawlGame.languagePack.getUIString(id).EXTRA_TEXT;
         this.c = Color.WHITE.cpy();
         this.damage = this.baseDamage = 3;
@@ -102,8 +103,13 @@ public abstract class AbstractSummon {
     }
 
     public void onUseCard(AbstractCard card, UseCardAction action) {
-        if(card.hasTag(CustomTagsEnum.Original_Sin)){
-            this.damage ++;
+        if (card.hasTag(CustomTagsEnum.Original_Sin)) {
+            if (card.cardID.equals(PowerOfLaziness.ID) && card.upgraded) {
+                AbstractDungeon.actionManager.addToBottom(new SummonAddDamageAction(this, 3));
+            } else {
+                AbstractDungeon.actionManager.addToBottom(new SummonAddDamageAction(this));
+            }
+
         }
 
     }
@@ -114,12 +120,12 @@ public abstract class AbstractSummon {
     public void onSacrifice() {
         if (AbstractDungeon.player != null) {
             for (AbstractRelic r : AbstractDungeon.player.relics) {
-                if(r instanceof AbstractRingRelic){
+                if (r instanceof AbstractRingRelic) {
                     ((AbstractRingRelic) r).onSacrifice();
                 }
             }
 
-            SummonPatches.AbstractPlayerSummonField.summon.set(AbstractDungeon.player,new NullSummon());
+            SummonPatches.AbstractPlayerSummonField.summon.set(AbstractDungeon.player, new NullSummon());
         }
     }
 
@@ -129,8 +135,8 @@ public abstract class AbstractSummon {
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
 
-    public void randomAttack(int amount ){
-        for(int i = 0 ;i < amount;i++){
+    public void randomAttack(int amount) {
+        for (int i = 0; i < amount; i++) {
             AbstractDungeon.actionManager.addToBottom(
                     new DamageRandomEnemyAction(new DamageInfo(null, this.damage, DamageInfo.DamageType.THORNS),
                             AbstractGameAction.AttackEffect.SLASH_HEAVY));
@@ -141,10 +147,10 @@ public abstract class AbstractSummon {
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
 
-    public void attackDamage(AbstractMonster m, int amount , int damage){
-        for(int i = 0 ;i < amount;i++){
+    public void attackDamage(AbstractMonster m, int amount, int damage) {
+        for (int i = 0; i < amount; i++) {
             AbstractDungeon.actionManager.addToBottom(new DamageAction(m,
-                    new DamageInfo(null,damage, DamageInfo.DamageType.THORNS),
+                    new DamageInfo(null, damage, DamageInfo.DamageType.THORNS),
                     AbstractGameAction.AttackEffect.SLASH_HEAVY));
 
 //            AbstractDungeon.actionManager.addToBottom(
@@ -157,11 +163,11 @@ public abstract class AbstractSummon {
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
 
-    protected void triggerPowerOnAttack(){
-        for(AbstractPower p : AbstractDungeon.player.powers){
-            if(p instanceof AbstractRingPower){
+    protected void triggerPowerOnAttack() {
+        for (AbstractPower p : AbstractDungeon.player.powers) {
+            if (p instanceof AbstractRingPower) {
                 p.flash();
-                ((AbstractRingPower)p).onSummonAttack();
+                ((AbstractRingPower) p).onSummonAttack();
             }
         }
     }
@@ -188,7 +194,7 @@ public abstract class AbstractSummon {
 
             this.hb.move(this.cX + this.current_x + this.hb_x, this.cY + this.current_y + this.hb_y + this.hb_h * 0.5f);
             this.hb.update();
-            if (this.hb.hovered && !AbstractDungeon.player.isDraggingCard && AbstractDungeon.player.hoveredCard == null ) {
+            if (this.hb.hovered && !AbstractDungeon.player.isDraggingCard && AbstractDungeon.player.hoveredCard == null) {
                 TipHelper.renderGenericTip(this.hb.cX + this.hb_w * 0.5f, this.hb.cY + this.hb_h * 0.3f, name, this.description[0] + this.description[1]);
                 this.reticleRendered = true;
             }
@@ -226,7 +232,7 @@ public abstract class AbstractSummon {
 
             this.hb.render(sb);
 
-            renderReticle(sb,this.hb);
+            renderReticle(sb, this.hb);
         }
     }
 
@@ -305,13 +311,13 @@ public abstract class AbstractSummon {
         }
 
 
-        if(this.hb.clickStarted){
+        if (this.hb.clickStarted) {
             this.clickTimer += Gdx.graphics.getDeltaTime();
-        }else {
+        } else {
             this.clickTimer = 0.0f;
         }
 
-        if(this.clickTimer > 0.5f ){
+        if (this.clickTimer > 0.5f) {
             this.longClicked = true;
             this.clickTimer = 0.0f;
         }
@@ -321,9 +327,9 @@ public abstract class AbstractSummon {
         }
     }
 
-    public static AbstractSummon getSummonForID(String id){
+    public static AbstractSummon getSummonForID(String id) {
         AbstractSummon su = new NullSummon();
-        switch (id){
+        switch (id) {
             case "RingOfDestiny:Demon":
                 su = new Demon();
                 break;
@@ -332,7 +338,7 @@ public abstract class AbstractSummon {
                 su = new Succubus();
                 break;
 
-            case  "RingOfDestiny:Vampire":
+            case "RingOfDestiny:Vampire":
                 su = new Vampire();
                 break;
 
@@ -341,46 +347,45 @@ public abstract class AbstractSummon {
         return su;
     }
 
-       public void renderReticle(SpriteBatch sb, Hitbox hb) {
+    public void renderReticle(SpriteBatch sb, Hitbox hb) {
 
-                renderReticleCorner(sb, -hb.width / 2.0F + this.reticleOffset, hb.height / 2.0F - this.reticleOffset, hb, false, false);
-                renderReticleCorner(sb, hb.width / 2.0F - this.reticleOffset, hb.height / 2.0F - this.reticleOffset, hb, true, false);
-                renderReticleCorner(sb, -hb.width / 2.0F + this.reticleOffset, -hb.height / 2.0F + this.reticleOffset, hb, false, true);
-                renderReticleCorner(sb, hb.width / 2.0F - this.reticleOffset, -hb.height / 2.0F + this.reticleOffset, hb, true, true);
-           }
+        renderReticleCorner(sb, -hb.width / 2.0F + this.reticleOffset, hb.height / 2.0F - this.reticleOffset, hb, false, false);
+        renderReticleCorner(sb, hb.width / 2.0F - this.reticleOffset, hb.height / 2.0F - this.reticleOffset, hb, true, false);
+        renderReticleCorner(sb, -hb.width / 2.0F + this.reticleOffset, -hb.height / 2.0F + this.reticleOffset, hb, false, true);
+        renderReticleCorner(sb, hb.width / 2.0F - this.reticleOffset, -hb.height / 2.0F + this.reticleOffset, hb, true, true);
+    }
 
-       protected void updateReticle() {
-             if (this.reticleRendered) {
-                   this.reticleRendered = false;
-                   this.reticleAlpha += Gdx.graphics.getDeltaTime() * 3.0F;
-                   if (this.reticleAlpha > 1.0F) {
-                         this.reticleAlpha = 1.0F;
-                       }
-            
-            
-                   this.reticleAnimTimer += Gdx.graphics.getDeltaTime();
-                   if (this.reticleAnimTimer > 1.0F) {
-                         this.reticleAnimTimer = 1.0F;
-                       }
-                   this.reticleOffset = Interpolation.elasticOut.apply(RETICLE_OFFSET_DIST, 0.0F, this.reticleAnimTimer);
-                 }
-             else {
-            
-                   this.reticleAlpha = 0.0F;
-                   this.reticleAnimTimer = 0.0F;
-                   this.reticleOffset = RETICLE_OFFSET_DIST;
-                 }
-           }
+    protected void updateReticle() {
+        if (this.reticleRendered) {
+            this.reticleRendered = false;
+            this.reticleAlpha += Gdx.graphics.getDeltaTime() * 3.0F;
+            if (this.reticleAlpha > 1.0F) {
+                this.reticleAlpha = 1.0F;
+            }
 
-       private void renderReticleCorner(SpriteBatch sb, float x, float y, Hitbox hb, boolean flipX, boolean flipY) {
-             this.reticleShadowColor.a = this.reticleAlpha / 4.0F;
-             sb.setColor(this.reticleShadowColor);
-             sb.draw(ImageMaster.RETICLE_CORNER, hb.cX + x - 18.0F + 4.0F * Settings.scale, hb.cY + y - 18.0F - 4.0F * Settings.scale, 18.0F, 18.0F, 36.0F, 36.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 36, 36, flipX, flipY);
 
-             this.reticleColor.a = this.reticleAlpha;
-             sb.setColor(this.reticleColor);
-             sb.draw(ImageMaster.RETICLE_CORNER, hb.cX + x - 18.0F, hb.cY + y - 18.0F, 18.0F, 18.0F, 36.0F, 36.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 36, 36, flipX, flipY);
-           }
+            this.reticleAnimTimer += Gdx.graphics.getDeltaTime();
+            if (this.reticleAnimTimer > 1.0F) {
+                this.reticleAnimTimer = 1.0F;
+            }
+            this.reticleOffset = Interpolation.elasticOut.apply(RETICLE_OFFSET_DIST, 0.0F, this.reticleAnimTimer);
+        } else {
+
+            this.reticleAlpha = 0.0F;
+            this.reticleAnimTimer = 0.0F;
+            this.reticleOffset = RETICLE_OFFSET_DIST;
+        }
+    }
+
+    private void renderReticleCorner(SpriteBatch sb, float x, float y, Hitbox hb, boolean flipX, boolean flipY) {
+        this.reticleShadowColor.a = this.reticleAlpha / 4.0F;
+        sb.setColor(this.reticleShadowColor);
+        sb.draw(ImageMaster.RETICLE_CORNER, hb.cX + x - 18.0F + 4.0F * Settings.scale, hb.cY + y - 18.0F - 4.0F * Settings.scale, 18.0F, 18.0F, 36.0F, 36.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 36, 36, flipX, flipY);
+
+        this.reticleColor.a = this.reticleAlpha;
+        sb.setColor(this.reticleColor);
+        sb.draw(ImageMaster.RETICLE_CORNER, hb.cX + x - 18.0F, hb.cY + y - 18.0F, 18.0F, 18.0F, 36.0F, 36.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 36, 36, flipX, flipY);
+    }
 }
 
 

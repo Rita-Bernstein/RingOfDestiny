@@ -2,7 +2,7 @@ package RingOfDestiny.powers.Summoner;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
-import RingOfDestiny.cards.Summoner.DoomsdayMeteorite;
+import RingOfDestiny.cards.Summoner.*;
 import com.megacrit.cardcrawl.actions.common.HealAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
@@ -43,14 +43,22 @@ public class DoomsdayImprintPower extends AbstractPower {
         if(this.amount > 10)this.amount = 10;
     }
 
+
     @Override
-    public float atDamageGive(float damage, DamageInfo.DamageType type, AbstractCard card) {
-        if (type == DamageInfo.DamageType.NORMAL && card.cardID.equals(DoomsdayMeteorite.ID)) {
+    public float atDamageFinalReceive(float damage, DamageInfo.DamageType type, AbstractCard card) {
+        if (type == DamageInfo.DamageType.NORMAL && (card.cardID.equals(DoomsdayMeteorite.ID) || card.cardID.equals(DoomsdayLava.ID) )) {
             return damage + this.amount;
         }
-        return damage;
 
+        if (type == DamageInfo.DamageType.NORMAL && card.cardID.equals(DoomsdayBlade.ID)) {
+            return damage + card.magicNumber;
+        }
+
+        return damage;
     }
+
+
+
 
     public void updateDescription() {
         this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];

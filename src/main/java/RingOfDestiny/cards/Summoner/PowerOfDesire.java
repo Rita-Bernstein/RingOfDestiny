@@ -2,7 +2,7 @@ package RingOfDestiny.cards.Summoner;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Summoner.SummonAttackDamageAction;
-import RingOfDestiny.actions.Summoner.UseSoulStioneAction;
+import RingOfDestiny.actions.Summoner.UseSoulStoneAction;
 import RingOfDestiny.cards.AbstractSummonerCard;
 import RingOfDestiny.patches.CustomTagsEnum;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -42,7 +42,7 @@ public class PowerOfDesire extends AbstractSummonerCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new UseSoulStioneAction(1));
+        addToBot(new UseSoulStoneAction(1));
         addToBot(new HealAction(p, p, this.secondaryM));
         for (int i = 0; i < this.magicNumber; i++) {
             addToBot(new AttackDamageRandomEnemyAction(this, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));

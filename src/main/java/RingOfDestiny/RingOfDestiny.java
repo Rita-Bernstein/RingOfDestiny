@@ -497,6 +497,13 @@ public class RingOfDestiny
         cards.add(new AbyssOfDesire());
         cards.add(new CostOfSoul());
         cards.add(new PowerOfArrogance());
+        cards.add(new DoomsdayRitual());
+        cards.add(new DoomsdayBlade());
+        cards.add(new DoomsdayLava());
+        cards.add(new PowerOfWrath());
+        cards.add(new ScepterOfGluttony());
+        cards.add(new PowerOfLaziness());
+
 
 
 

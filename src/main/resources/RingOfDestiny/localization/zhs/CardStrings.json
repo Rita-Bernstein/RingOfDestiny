@@ -888,7 +888,7 @@
   },
   "RingOfDestiny:HolyJustice2": {
     "NAME": "异端审判",
-    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 ring_of_destiny:定罪 。使其失去 !M! 点最大生命。 NL stslib:抹除 。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 ring_of_destiny:定罪 。使其失去 !M! 点最大生命。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:Villainous2": {
     "NAME": "洗白",
@@ -909,7 +909,7 @@
   },
   "RingOfDestiny:PowerOfLight2": {
     "NAME": "源力咆哮",
-    "DESCRIPTION": "翻倍你的 金属化 。 NL stslib:抹除 。"
+    "DESCRIPTION": "翻倍你的 金属化 。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:SacredOverload2": {
     "NAME": "混乱透支",
@@ -931,8 +931,8 @@
   },
   "RingOfDestiny:AngelTalisman2": {
     "NAME": "罪恶王冠",
-    "DESCRIPTION": " ring_of_destiny:唯一 。每 stslib:抹除 一张牌。获得 !M! 点 ring_of_destiny:傲娇 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每 stslib:抹除 一张牌。获得 !M! 点 ring_of_destiny:傲娇 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。每 ring_of_destiny:抹除 一张牌。获得 !M! 点 ring_of_destiny:傲娇 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每 ring_of_destiny:抹除 一张牌。获得 !M! 点 ring_of_destiny:傲娇 。"
   },
   "RingOfDestiny:HolyAssault2": {
     "NAME": "虚空鞭挞",
@@ -964,7 +964,7 @@
   },
   "RingOfDestiny:SwordShield2": {
     "NAME": "攻守兼备",
-    "DESCRIPTION": "造成 !D! 点伤害。获得 !B! 点 格挡 。 NL stslib:抹除 。"
+    "DESCRIPTION": "造成 !D! 点伤害。获得 !B! 点 格挡 。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:ProtectionOfLight2": {
     "NAME": "怒焰护盾",
@@ -998,8 +998,8 @@
   },
   "RingOfDestiny:ExpiateSin2": {
     "NAME": "崩坏",
-    "DESCRIPTION": "翻倍敌人的 ring_of_destiny:定罪 。 NL stslib:抹除 。",
-    "UPGRADE_DESCRIPTION": "翻倍所有敌人的 ring_of_destiny:定罪 。 NL stslib:抹除 。"
+    "DESCRIPTION": "翻倍敌人的 ring_of_destiny:定罪 。 NL ring_of_destiny:抹除 。",
+    "UPGRADE_DESCRIPTION": "翻倍所有敌人的 ring_of_destiny:定罪 。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:Resuscitation": {
     "NAME": "复苏",
@@ -1025,8 +1025,8 @@
   },
   "RingOfDestiny:Tsudere2": {
     "NAME": "傲娇",
-    "DESCRIPTION": "翻倍你的 ring_of_destiny:傲娇 。 NL stslib:抹除 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 翻倍你的 ring_of_destiny:傲娇 。 NL stslib:抹除 。"
+    "DESCRIPTION": "翻倍你的 ring_of_destiny:傲娇 。 NL ring_of_destiny:抹除 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 翻倍你的 ring_of_destiny:傲娇 。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:HolyEcho2": {
     "NAME": "暗影重塑",
@@ -1038,8 +1038,8 @@
   },
   "RingOfDestiny:ResurrectionGem2": {
     "NAME": "伪之圣杯",
-    "DESCRIPTION": "ring_of_destiny:唯一 。失去 !RODSecondM! 点最大生命。每回合开始时，获得 [E] 。 NL stslib:抹除 。",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:唯一 。失去 !RODSecondM! 点最大生命。每回合开始时，获得 [E] [E] 。 NL stslib:抹除 。"
+    "DESCRIPTION": "ring_of_destiny:唯一 。失去 !RODSecondM! 点最大生命。每回合开始时，获得 [E] 。 NL ring_of_destiny:抹除 。",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:唯一 。失去 !RODSecondM! 点最大生命。每回合开始时，获得 [E] [E] 。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:HolyShock2": {
     "NAME": "源力打击",
@@ -1109,7 +1109,7 @@
   },
   "RingOfDestiny:HolyJustice": {
     "NAME": "神圣裁决",
-    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 ring_of_destiny:定罪 。回复 !M! 点生命。 NL stslib:抹除 。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 ring_of_destiny:定罪 。回复 !M! 点生命。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:Villainous": {
     "NAME": "黑化",
@@ -1130,7 +1130,7 @@
   },
   "RingOfDestiny:PowerOfLight": {
     "NAME": "光明之力",
-    "DESCRIPTION": "翻倍你的 力量 。 NL stslib:抹除 。"
+    "DESCRIPTION": "翻倍你的 力量 。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:SacredOverload": {
     "NAME": "神圣过载",
@@ -1152,8 +1152,8 @@
   },
   "RingOfDestiny:AngelTalisman": {
     "NAME": "天使护符",
-    "DESCRIPTION": " ring_of_destiny:唯一 。每 stslib:抹除 一张牌。获得 [E] 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每 stslib:抹除 一张牌。获得 [E] [E] 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。每 ring_of_destiny:抹除 一张牌。获得 [E] 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每 ring_of_destiny:抹除 一张牌。获得 [E] [E] 。"
   },
   "RingOfDestiny:HolyAssault": {
     "NAME": "神圣连击",
@@ -1185,7 +1185,7 @@
   },
   "RingOfDestiny:SwordShield": {
     "NAME": "剑盾猛攻",
-    "DESCRIPTION": "造成 !D! 点伤害。获得 !B! 点 格挡 。 NL stslib:抹除 。"
+    "DESCRIPTION": "造成 !D! 点伤害。获得 !B! 点 格挡 。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:ProtectionOfLight": {
     "NAME": "光明庇佑",
@@ -1219,8 +1219,8 @@
   },
   "RingOfDestiny:ExpiateSin": {
     "NAME": "赎罪",
-    "DESCRIPTION": "本回合 ring_of_destiny:定罪 层数消耗减 !M! 。 NL stslib:抹除 。",
-    "UPGRADE_DESCRIPTION": "本回合 ring_of_destiny:定罪 层数消耗减 !M! 。 NL stslib:抹除 。"
+    "DESCRIPTION": "本回合 ring_of_destiny:定罪 层数消耗减 !M! 。 NL ring_of_destiny:抹除 。",
+    "UPGRADE_DESCRIPTION": "本回合 ring_of_destiny:定罪 层数消耗减 !M! 。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:Resuscitation2": {
     "NAME": "虹吸",
@@ -1246,8 +1246,8 @@
   },
   "RingOfDestiny:Tsudere": {
     "NAME": "凛娇",
-    "DESCRIPTION": "翻倍你的能量。 NL stslib:抹除 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 翻倍你的能量。 NL stslib:抹除 。"
+    "DESCRIPTION": "翻倍你的能量。 NL ring_of_destiny:抹除 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 翻倍你的能量。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:HolyEcho": {
     "NAME": "神圣回响",
@@ -1259,8 +1259,8 @@
   },
   "RingOfDestiny:ResurrectionGem": {
     "NAME": "复活宝石",
-    "DESCRIPTION": "ring_of_destiny:唯一 。当你将要死亡时，半血血复活一次。 NL stslib:抹除 。",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:唯一 。当你将要死亡时，满血复活一次。 NL stslib:抹除 。"
+    "DESCRIPTION": "ring_of_destiny:唯一 。当你将要死亡时，半血血复活一次。 NL ring_of_destiny:抹除 。",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:唯一 。当你将要死亡时，满血复活一次。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:HolyShock": {
     "NAME": "圣力冲击",
@@ -1268,8 +1268,8 @@
   },
   "RingOfDestiny:BaptismOfLight": {
     "NAME": "圣光洗礼",
-    "DESCRIPTION": "造成 !D! 点伤害。回复未被 格挡 伤害的生命。 NL stslib:抹除 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。回复未被 格挡 伤害的生命。 NL stslib:抹除 。"
+    "DESCRIPTION": "造成 !D! 点伤害。回复未被 格挡 伤害的生命。 NL ring_of_destiny:抹除 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。回复未被 格挡 伤害的生命。 NL ring_of_destiny:抹除 。"
   },
   "RingOfDestiny:Defend_SU": {
     "NAME": "暗影防护",
@@ -1309,7 +1309,7 @@
   },
   "RingOfDestiny:TortureBlade": {
     "NAME": "折磨战刃",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果耗能改变，将保持直到战斗结束。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 耗能改变将保持到战斗结束。"
   },
   "RingOfDestiny:MaliciousFang": {
     "NAME": "恶意獠牙",
@@ -1486,21 +1486,21 @@
   },
   "RingOfDestiny:DoomsdayRitual": {
     "NAME": "末日仪式",
-    "DESCRIPTION": "消耗 所有手牌。每 消耗 一张牌，将一张 *末日陨石 加入你的手牌。",
-    "UPGRADE_DESCRIPTION": "消耗 所有手牌。每 消耗 一张牌，将一张 *末日陨石+ 加入你的手牌。"
+    "DESCRIPTION": "消耗 所有手牌。每 消耗 一张牌，将一张 *末日陨石 加入手牌。",
+    "UPGRADE_DESCRIPTION": "消耗 所有手牌。每 消耗 一张牌，将一张 *末日陨石+ 加入手牌。"
   },
   "RingOfDestiny:DoomsdayBlade": {
     "NAME": "末日战刃",
-    "DESCRIPTION": "造成 !D! 点伤害。对有 ring_of_destiny:末日印记 的敌人伤害提高 !M! 。 ring_of_destiny:击杀 时，将 !RODSecondM! 张 *末日陨石 加入手牌。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。对有 ring_of_destiny:末日印记 的敌人伤害提高 !M! 。 ring_of_destiny:击杀 时，将 !RODSecondM! 张 *末日陨石+ 加入手牌。"
+    "DESCRIPTION": "造成 !D! 点伤害。对有 ring_of_destiny:末日印记 的敌人伤害提高 !M! 。 ring_of_destiny:击杀 时，将 !RODSecondM! 张 *末日陨石 洗入抽牌堆。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。对有 ring_of_destiny:末日印记 的敌人伤害提高 !M! 。 ring_of_destiny:击杀 时，将 !RODSecondM! 张 *末日陨石+ 洗入抽牌堆。"
   },
   "RingOfDestiny:DoomsdayLava": {
     "NAME": "末日熔岩",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。造成 ring_of_destiny:末日印记 层数的伤害。移除  ring_of_destiny:末日印记 。"
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 ring_of_destiny:末日印记 提高伤害。移除  ring_of_destiny:末日印记 。"
   },
   "RingOfDestiny:PowerOfWrath": {
     "NAME": "愤怒之力",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。造成 !D! 点伤害 !M! 次。本场战斗耗能提高1，次数提高1（最多为4）"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。造成 !D! 点伤害 !M! 次。本场战斗耗能和次数提高1（最多为4） NL 耗能改变将保持到战斗结束。"
   },
   "RingOfDestiny:ScepterOfGluttony": {
     "NAME": "暴食权杖",
@@ -1508,11 +1508,12 @@
   },
   "RingOfDestiny:PowerOfLaziness": {
     "NAME": "懒惰之力",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。获得 !B! 点 格挡 。每打出一次，本场战斗 格挡 获得提高 !M! 。（至多25）"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。 NL 获得 !B! 点 格挡 。每打出一次，本场战斗 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 +2。 NL 获得 !B! 点 格挡 。每打出一次，本场战斗 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）"
   },
   "RingOfDestiny:VoodooDoll": {
     "NAME": "诅咒人偶",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 选择目标，本回合内受到的所有伤害被这名敌人承受。目标死亡时，将这个效果给予随机敌人。 NL stslib:抹除 。",
+    "DESCRIPTION": " ring_of_destiny:唯一 。 选择目标，本回合内受到的所有伤害被这名敌人承受。目标死亡时，将这个效果给予随机敌人。 NL ring_of_destiny:抹除 。",
     "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 选择目标，本回合内受到的所有伤害被这名敌人承受。目标死亡时，将这个效果给予随机敌人。 NL 消耗 。"
   },
   "RingOfDestiny:HegemonyOfDevil": {
@@ -1535,7 +1536,7 @@
   },
   "RingOfDestiny:SummonOfDoomsday": {
     "NAME": "末日召唤",
-    "DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 NL stslib:抹除 。",
+    "DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 NL ring_of_destiny:抹除 。",
     "UPGRADE_DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 NL 消耗 。"
   },
   "RingOfDestiny:DevilKing": {
@@ -1544,7 +1545,7 @@
   },
   "RingOfDestiny:CrownOfPride": {
     "NAME": "傲慢王冠",
-    "DESCRIPTION": " ring_of_destiny:唯一 。每使用一颗 ring_of_destiny:灵魂石 ， 获得 [E] 。 NL stslib:抹除 。",
+    "DESCRIPTION": " ring_of_destiny:唯一 。每使用一颗 ring_of_destiny:灵魂石 ， 获得 [E] 。 NL ring_of_destiny:抹除 。",
     "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每使用一颗 ring_of_destiny:灵魂石 ， 获得 [E] 。"
   },
   "RingOfDestiny:ChainBlade": {
