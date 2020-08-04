@@ -503,6 +503,7 @@ public class RingOfDestiny
         cards.add(new PowerOfWrath());
         cards.add(new ScepterOfGluttony());
         cards.add(new PowerOfLaziness());
+        cards.add(new VoodooDoll());
 
 
 

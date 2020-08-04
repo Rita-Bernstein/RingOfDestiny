@@ -446,5 +446,19 @@
       "每回合开始时，将手牌中的 #b",
       " 张牌在本回合的耗能变为 #b0"
     ]
+  },
+  "RingOfDestiny:VoodooDollSelfPower": {
+    "NAME": "诅咒人偶-己",
+    "DESCRIPTIONS": [
+      "本回合内，你受到的伤害将由敌人承受"
+    ]
+  },
+  "RingOfDestiny:VoodooDollMonsterPower": {
+    "NAME": "诅咒人偶-敌",
+    "DESCRIPTIONS": [
+      "本回合内， #y",
+      " 将代你承受所受的伤害的 #b",
+      " 倍伤害。如果死亡，则给予随机其他一名敌人同等效果。"
+    ]
   }
 }

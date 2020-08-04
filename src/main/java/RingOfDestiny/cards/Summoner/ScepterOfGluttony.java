@@ -23,6 +23,7 @@ public class ScepterOfGluttony extends AbstractSummonerCard {
     public ScepterOfGluttony() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.baseBlock = 6;
+        this.magicNumber = this.baseMagicNumber = 1;
         this.tags.add(CustomTagsEnum.SoleRare);
 
         this.setBannerTexture("RingOfDestiny/img/banner/512/banner_rare.png","RingOfDestiny/img/banner/1024/banner_rare.png");

@@ -47,11 +47,6 @@ public class CostOfSoul extends AbstractSummonerCard {
             return false;
         }
 
-        if (!cardPlayable(m)) {
-            canUse = false;
-            this.cantUseMessage = SoulStoneCantUseMessage;
-        }
-
         return canUse;
     }
 

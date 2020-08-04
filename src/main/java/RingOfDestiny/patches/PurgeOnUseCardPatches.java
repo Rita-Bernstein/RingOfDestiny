@@ -1,9 +1,11 @@
 package RingOfDestiny.patches;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.character.MagicBullet;
 import RingOfDestiny.diamonds.AbstractDiamond;
 import RingOfDestiny.diamonds.*;
+import RingOfDestiny.powers.AbstractRingPower;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.actions.utility.ShowCardAndPoofAction;
@@ -33,12 +35,16 @@ public class PurgeOnUseCardPatches {
     public static class UseCardActionUpdatePatch {
         @SpireInsertPatch(rloc = 17, localvars = {"targetCard"})
         public static SpireReturn<Void> Insert(UseCardAction _instance, AbstractCard targetCard) {
-            if (targetCard.hasTag(CustomTagsEnum.PurgeOnUse)) {
-                AbstractDungeon.actionManager.addToTop(new ShowCardAndPoofAction(targetCard));
-                _instance.isDone = true;
-                AbstractDungeon.player.cardInUse = null;
+            if (targetCard instanceof AbstractRingCard) {
+                AbstractRingCard c = ((AbstractRingCard)targetCard);
+                if(c.isDestructive){
+                    AbstractDungeon.actionManager.addToTop(new ShowCardAndPoofAction(targetCard));
+                    _instance.isDone = true;
+                    AbstractDungeon.player.cardInUse = null;
 
-                return SpireReturn.Return(null);
+
+                    return SpireReturn.Return(null);
+                }
             }
 
 

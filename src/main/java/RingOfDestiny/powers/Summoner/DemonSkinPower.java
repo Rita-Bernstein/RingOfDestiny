@@ -42,7 +42,7 @@ public class DemonSkinPower extends AbstractPower {
     }
 
     public void atStartOfTurn() {
-        addToBot(new RemoveSpecificPowerAction(AbstractDungeon.player, AbstractDungeon.player, EtchReflectionPower.POWER_ID));
+        addToBot(new RemoveSpecificPowerAction(AbstractDungeon.player, AbstractDungeon.player, DemonSkinPower.POWER_ID));
     }
 }
 

@@ -53,7 +53,7 @@ public class ManaEnhancePower extends AbstractPower {
     }
 
     public void atStartOfTurn() {
-        addToBot(new RemoveSpecificPowerAction(AbstractDungeon.player, AbstractDungeon.player, EtchReflectionPower.POWER_ID));
+        addToBot(new RemoveSpecificPowerAction(AbstractDungeon.player, AbstractDungeon.player, ManaEnhancePower.POWER_ID));
     }
 }
 

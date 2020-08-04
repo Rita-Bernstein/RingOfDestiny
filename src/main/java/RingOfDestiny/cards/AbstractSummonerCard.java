@@ -29,8 +29,8 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
     protected final String[] EXTENDED_DESCRIPTION;
 
     protected static final String SoulStoneCantUseMessage = CardCrawlGame.languagePack.getUIString(RingOfDestiny.makeID("SoulStoneCantUseMessage")).TEXT[0];
-    protected final Texture soulStoneOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Summoner/512/card_lime_orb2.png");
-    protected final Color soulStoneOrbRenderColor = Color.WHITE.cpy();
+    protected static final Texture soulStoneOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Summoner/512/card_lime_orb2.png");
+    protected static final Color soulStoneOrbRenderColor = Color.WHITE.cpy();
 
     public AbstractSummonerCard(String id, String img, int cost,CardType type,  CardRarity rarity, CardTarget target) {
         super(id, CardCrawlGame.languagePack.getCardStrings(id).NAME, img, cost, CardCrawlGame.languagePack.getCardStrings(id).DESCRIPTION, type,
@@ -52,7 +52,7 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
             return false;
         }
 
-        if (!hasEnoughSoulStone(1) && this.hasTag(CustomTagsEnum.Soul_Stone) && !cardPlayable(m)) {
+        if (!hasEnoughSoulStone(1) && this.hasTag(CustomTagsEnum.Soul_Stone)) {
             canUse = false;
             this.cantUseMessage = SoulStoneCantUseMessage;
         }
