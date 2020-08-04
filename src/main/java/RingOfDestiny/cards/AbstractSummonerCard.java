@@ -4,11 +4,13 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.patches.CardColorEnum;
 import RingOfDestiny.patches.CustomTagsEnum;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
+import RingOfDestiny.patches.SummonPatches;
 import basemod.abstracts.CustomCard;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireOverride;
+import com.evacipated.cardcrawl.modthespire.lib.SpireSuper;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -60,6 +62,14 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
         return canUse;
     }
 
+    @SpireOverride
+    protected void renderEnergy(SpriteBatch sb){
+        if(this.hasTag(CustomTagsEnum.Soul_Stone)){
+            soulStoneRenderHelper(sb, soulStoneOrbRenderColor, soulStoneOrb, this.current_x, this.current_y);
+        }else {
+            SpireSuper.call(sb);
+        }
+    }
 
     protected int getCurrentSoulStone(){
         return EnergyPanelRenderPatches.PatchEnergyPanelField.soulStone.get(AbstractDungeon.overlayMenu.energyPanel).soulStoneAmount;
@@ -72,6 +82,11 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
         }
 
         return enough;
+    }
+
+
+    protected int getCurrentSummonDamage(){
+        return SummonPatches.AbstractPlayerSummonField.summon.get(AbstractDungeon.player).damage;
     }
 
     protected void soulStoneRenderHelper(SpriteBatch sb, Color color, Texture img, float drawX, float drawY) {

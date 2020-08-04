@@ -909,7 +909,7 @@
   },
   "RingOfDestiny:PowerOfLight2": {
     "NAME": "源力咆哮",
-    "DESCRIPTION": "翻倍你的 金属化 。 NL ring_of_destiny:损毁 。"
+    "DESCRIPTION": "翻倍你的 ring_of_destiny:金属化 。 NL ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:SacredOverload2": {
     "NAME": "混乱透支",
@@ -918,7 +918,7 @@
   },
   "RingOfDestiny:Sacrifice2": {
     "NAME": "献祭",
-    "DESCRIPTION": "失去 !RODSecondM! 点最大生命。 NL 获得 !M! 层 金属化 。"
+    "DESCRIPTION": "失去 !RODSecondM! 点最大生命。 NL 获得 !M! 层 ring_of_destiny:金属化 。"
   },
   "RingOfDestiny:BladeOfFaith2": {
     "NAME": "黑暗之刃",
@@ -949,7 +949,7 @@
   },
   "RingOfDestiny:ExposeAndCriticize2": {
     "NAME": "复仇",
-    "DESCRIPTION": "造成 !D! 点伤害。  ring_of_destiny:击杀 时，获得 !M! 点 金属化 。"
+    "DESCRIPTION": "造成 !D! 点伤害。  ring_of_destiny:击杀 时，获得 !M! 点 ring_of_destiny:金属化 。"
   },
   "RingOfDestiny:JusticeWarning2": {
     "NAME": "最后通牒",
@@ -972,7 +972,7 @@
   },
   "RingOfDestiny:InsightTruth2": {
     "NAME": "黑暗窥视",
-    "DESCRIPTION": "如果敌人的意图不是攻击，获得 !M! 点 金属化 。"
+    "DESCRIPTION": "如果敌人的意图不是攻击，获得 !M! 点 ring_of_destiny:金属化 。"
   },
   "RingOfDestiny:AmuletHeart2": {
     "NAME": "余烬",
@@ -1034,7 +1034,7 @@
   },
   "RingOfDestiny:PowerPendant2": {
     "NAME": "源力指环",
-    "DESCRIPTION": "每回合开始时，失去 !RODSecondM! 点生命。获得 !M! 点 金属化 。"
+    "DESCRIPTION": "每回合开始时，失去 !RODSecondM! 点生命。获得 !M! 点 ring_of_destiny:金属化 。"
   },
   "RingOfDestiny:ResurrectionGem2": {
     "NAME": "伪之圣杯",
@@ -1043,7 +1043,7 @@
   },
   "RingOfDestiny:HolyShock2": {
     "NAME": "源力打击",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 金属化 在这张牌上发挥 !M! 倍效果。失去一半的 金属化 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL ring_of_destiny:金属化 在这张牌上发挥 !M! 倍效果。失去一半的 ring_of_destiny:金属化 。"
   },
   "RingOfDestiny:BaptismOfLight2": {
     "NAME": "湮灭",
@@ -1518,8 +1518,8 @@
   },
   "RingOfDestiny:HegemonyOfDevil": {
     "NAME": "魔王霸权",
-    "DESCRIPTION": " ring_of_destiny:唯一 。将 金属化 变为 力量 。回合结束时，所有 力量 变为 金属化 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。获得 !M! 点 力量 。将 金属化 变为 力量 。回合结束时，所有 力量 变为 金属化 。 NL 消耗 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。将 ring_of_destiny:金属化 变为 力量 。回合结束时，所有 力量 变为 ring_of_destiny:金属化 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。获得 !M! 点 力量 。将 ring_of_destiny:金属化 变为 力量 。回合结束时，所有 力量 变为 ring_of_destiny:金属化 。 NL 消耗 。"
   },
   "RingOfDestiny:ConqueringBlade": {
     "NAME": "征服战刃",
@@ -1527,21 +1527,21 @@
   },
   "RingOfDestiny:DoomsdayProphecy": {
     "NAME": "末日预言",
-    "DESCRIPTION": "将 !M! - !RODSecondM! 张 *末日陨石 加入你的抽牌堆。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "将 !M! - !RODSecondM! 张 *末日陨石+ 加入你的抽牌堆。 NL 消耗 。"
+    "DESCRIPTION": "将5到 !M! 张 *末日陨石 加入你的抽牌堆。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将5到 !M! 张 *末日陨石+ 加入你的抽牌堆。 NL 消耗 。"
   },
   "RingOfDestiny:GripOfMaster": {
     "NAME": "霸主之握",
-    "DESCRIPTION": "  ring_of_destiny:唯一 。 ring_of_destiny:压制 目标，获得等于造成伤害的 [E] （最多为5）。 NL 消耗 。"
+    "DESCRIPTION": "  ring_of_destiny:唯一 。造成 !D! 点伤害，获得等于造成未被 格挡 伤害的 [E] NL （最多为5）。 消耗 。"
   },
   "RingOfDestiny:SummonOfDoomsday": {
     "NAME": "末日召唤",
-    "DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 NL ring_of_destiny:损毁 。",
-    "UPGRADE_DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 NL 消耗 。"
+    "DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 ring_of_destiny:损毁 。",
+    "UPGRADE_DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 消耗 。"
   },
   "RingOfDestiny:DevilKing": {
     "NAME": "恶魔君王",
-    "DESCRIPTION": "指挥恶魔攻击 !M! 次。 恶魔 的攻击变为全体攻击 。 NL 消耗 。"
+    "DESCRIPTION": "指挥恶魔对所有敌人攻击 !M! 次。 消耗 。"
   },
   "RingOfDestiny:CrownOfPride": {
     "NAME": "傲慢王冠",
@@ -1550,7 +1550,7 @@
   },
   "RingOfDestiny:ChainBlade": {
     "NAME": "锁链战刃",
-    "DESCRIPTION": "造成 !D! 点伤害。本场战斗造成伤害减少 !M! ，如果造成了未被 格挡 的伤害，返回手牌。伤害为零时被丢弃。"
+    "DESCRIPTION": "造成 !D! 点伤害。本场战斗造成伤害减少 !M! ，如果造成了未被 格挡 的伤害且伤害不为零时返回手牌。"
   },
   "RingOfDestiny:Offering": {
     "NAME": "祭品",

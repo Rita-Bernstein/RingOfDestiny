@@ -84,11 +84,7 @@ public class AbyssOfDesire extends AbstractSummonerCard {
         initializeDescription();
     }
 
-    @SpireOverride
-    protected void renderEnergy(SpriteBatch sb){
-        soulStoneRenderHelper(sb, this.soulStoneOrbRenderColor, this.soulStoneOrb, this.current_x, this.current_y);
-//        SpireSuper.call(sb);
-    }
+
 
     public AbstractCard makeCopy() {
         return new AbyssOfDesire();

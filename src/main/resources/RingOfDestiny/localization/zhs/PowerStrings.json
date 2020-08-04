@@ -460,5 +460,25 @@
       " 将代你承受所受的伤害的 #b",
       " 倍伤害。如果死亡，则给予随机其他一名敌人同等效果。"
     ]
+  },
+  "RingOfDestiny:HegemonyOfDevilPower": {
+    "NAME": "魔王霸权",
+    "DESCRIPTIONS": [
+      "回合结束时，将你的 #y力量 转换为 #y金属化 。"
+    ]
+  },
+  "RingOfDestiny:SummonOfDoomsdayPower": {
+    "NAME": "末日召唤",
+    "DESCRIPTIONS": [
+      "本回合内， #y消耗 所有打出的牌。每打出 #b1 张攻击牌，抽 #b",
+      " 张攻击牌。"
+    ]
+  },
+  "RingOfDestiny:CrownOfPridePower": {
+    "NAME": "傲慢王冠",
+    "DESCRIPTIONS": [
+      "每 #y使用 一颗 #y灵魂石 ，获得 #b",
+      " [E] 。"
+    ]
   }
 }

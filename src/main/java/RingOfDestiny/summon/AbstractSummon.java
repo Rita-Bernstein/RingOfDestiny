@@ -16,6 +16,7 @@ import com.evacipated.cardcrawl.mod.stslib.patches.HitboxRightClick;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.AttackDamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -147,15 +148,24 @@ public abstract class AbstractSummon {
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
 
+    public void allEnemyAttack(int amount) {
+        for (int i = 0; i < amount; i++) {
+            AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(null,
+                    DamageInfo.createDamageMatrix(this.damage, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_HEAVY));
+            triggerPowerOnAttack();
+        }
+
+        this.state.setAnimation(0, "gongji", true);
+        this.state.addAnimation(0, "huxi", true, 0.0F);
+    }
+
     public void attackDamage(AbstractMonster m, int amount, int damage) {
         for (int i = 0; i < amount; i++) {
             AbstractDungeon.actionManager.addToBottom(new DamageAction(m,
                     new DamageInfo(null, damage, DamageInfo.DamageType.THORNS),
                     AbstractGameAction.AttackEffect.SLASH_HEAVY));
 
-//            AbstractDungeon.actionManager.addToBottom(
-//                    new DamageRandomEnemyAction(new DamageInfo(null, damage, DamageInfo.DamageType.THORNS),
-//                            AbstractGameAction.AttackEffect.SLASH_HEAVY));
+
             triggerPowerOnAttack();
         }
 

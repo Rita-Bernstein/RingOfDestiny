@@ -3,7 +3,9 @@ package RingOfDestiny.powers.summon;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Summoner.AddSoulStoneAction;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import RingOfDestiny.patches.CorruptionPatches;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -30,10 +32,17 @@ public class ManaControlPower extends AbstractPower {
     public void onGainedBlock(float blockAmount) {
         flash();
         this.amount += blockAmount;
-        if(this.amount > 20 ){
+        if (this.amount > 20) {
             int ten = this.amount / 20;
             addToBot(new AddSoulStoneAction(ten));
             this.amount = this.amount % 20;
+        }
+    }
+
+    @Override
+    public void onCardDraw(AbstractCard card) {
+        if(card.type == AbstractCard.CardType.SKILL && card.color == AbstractDungeon.player.getCardColor()){
+            CorruptionPatches.setCostForTurnManaControl(card);
         }
     }
 

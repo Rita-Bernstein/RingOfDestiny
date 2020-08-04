@@ -504,6 +504,14 @@ public class RingOfDestiny
         cards.add(new ScepterOfGluttony());
         cards.add(new PowerOfLaziness());
         cards.add(new VoodooDoll());
+        cards.add(new HegemonyOfDevil());
+        cards.add(new ConqueringBlade());
+        cards.add(new DoomsdayProphecy());
+        cards.add(new GripOfMaster());
+        cards.add(new SummonOfDoomsday());
+        cards.add(new DevilKing());
+        cards.add(new CrownOfPride());
+        cards.add(new ChainBlade());
 
 
 
