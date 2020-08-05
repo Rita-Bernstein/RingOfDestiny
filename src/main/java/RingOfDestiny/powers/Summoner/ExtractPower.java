@@ -27,6 +27,7 @@ public class ExtractPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         this.source = source;
+        this.type =PowerType.DEBUFF;
         updateDescription();
         loadRegion("focus");
     }

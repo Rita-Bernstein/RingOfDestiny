@@ -8,9 +8,11 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 
 public class EnergyOrbInherit extends CustomEnergyOrb {
     private static final float ORB_IMG_SCALE = 1.15F * Settings.scale;
+    private static final Texture inheritOrbCover = ImageMaster.loadImage("RingOfDestiny/img/ui/topPanel/Inherit/ballBg.png");
     private float angle5;
     private float angle4;
     private float angle3;
@@ -55,6 +57,8 @@ public class EnergyOrbInherit extends CustomEnergyOrb {
             sb.draw(this.noEnergyLayers[3], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle4, 0, 0, 160, 160, false, false);
             sb.draw(this.noEnergyLayers[4], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle5, 0, 0, 160, 160, false, false);
         }
+
+        sb.draw(inheritOrbCover, current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 160, 160, false, false);
 
     }
 }

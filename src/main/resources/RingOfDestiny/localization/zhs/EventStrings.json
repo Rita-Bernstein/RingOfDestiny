@@ -22,5 +22,21 @@
     ],
     "OPTIONS": [
     ]
+  },
+  "RingOfDestiny:SpireHeart_Inherit": {
+    "NAME": "Spire Heart",
+    "DESCRIPTIONS": [
+      "NL 终结审判……"
+    ],
+    "OPTIONS": [
+    ]
+  },
+  "RingOfDestiny:SpireHeart_Summoner": {
+    "NAME": "Spire Heart",
+    "DESCRIPTIONS": [
+      "NL 你的恶魔用尽全力……"
+    ],
+    "OPTIONS": [
+    ]
   }
 }

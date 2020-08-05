@@ -44,7 +44,7 @@ public class Purchemist extends CustomPlayer {
     public static final int ENERGY_PER_TURN = 3;
     public static final int START_HP = 90;
     public static final int START_GOLD = 99;
-
+    public static boolean firstAttackAnimation = true;
 
     public static final String[] orbTextures = {
             "RingOfDestiny/img/ui/topPanel/Purchemist/1.png",//4
@@ -248,15 +248,20 @@ public class Purchemist extends CustomPlayer {
     public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
         super.useCard(c, monster, energyOnUse);
         if (c.type == AbstractCard.CardType.ATTACK) {
-            AbstractDungeon.player.state.setAnimation(0, "gongji_1", true);
+            if (firstAttackAnimation) {
+                AbstractDungeon.player.state.setAnimation(0, "gongji_1", false);
+            } else {
+                AbstractDungeon.player.state.setAnimation(0, "gongji_2", true);
+            }
+            firstAttackAnimation = !firstAttackAnimation;
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.SKILL) {
-            AbstractDungeon.player.state.setAnimation(0, "fashu", true);
+            AbstractDungeon.player.state.setAnimation(0, "fashu", false);
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.POWER) {
-            AbstractDungeon.player.state.setAnimation(0, "zhuangbei", true);
+            AbstractDungeon.player.state.setAnimation(0, "zhuangbei", false);
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
     }

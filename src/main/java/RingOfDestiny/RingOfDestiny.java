@@ -210,8 +210,8 @@ public class RingOfDestiny
         logger.info(Purchemist.charStrings.NAMES[1]);
         BaseMod.addCharacter(new Purchemist(Purchemist.charStrings.NAMES[1],AbstractPlayerEnum.Purchemist),assetPath("characters/Purchemist/Button.png"),assetPath("characters/Purchemist/portrait.png"),AbstractPlayerEnum.Purchemist);
 
-        logger.info(Inherit.charStrings.NAMES[1]);
-        BaseMod.addCharacter(new Inherit(Inherit.charStrings.NAMES[1],AbstractPlayerEnum.Inherit),assetPath("characters/Inherit/Button.png"),assetPath("characters/Inherit/portrait.png"),AbstractPlayerEnum.Inherit);
+//        logger.info(Inherit.charStrings.NAMES[1]);
+//        BaseMod.addCharacter(new Inherit(Inherit.charStrings.NAMES[1],AbstractPlayerEnum.Inherit),assetPath("characters/Inherit/Button.png"),assetPath("characters/Inherit/portrait.png"),AbstractPlayerEnum.Inherit);
 
         logger.info(Summoner.charStrings.NAMES[1]);
         BaseMod.addCharacter(new Summoner(Summoner.charStrings.NAMES[1],AbstractPlayerEnum.Summoner),assetPath("characters/Summoner/Button.png"),assetPath("characters/Summoner/portrait.png"),AbstractPlayerEnum.Summoner);
@@ -441,8 +441,8 @@ public class RingOfDestiny
 // ======================
 // ======================
 // ======================传承天使
-        cards.add(new Strike_IH());
-        cards.add(new Defend_IH());
+//        cards.add(new Strike_IH());
+//        cards.add(new Defend_IH());
 
 
 

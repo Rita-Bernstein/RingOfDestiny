@@ -33,6 +33,7 @@ public class CostOfSoul extends AbstractSummonerCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
        addToBot(new UseSoulStoneAction(1));
+        addToBot(new LoseHPAction(p,p,this.baseSecondaryM));
        addToBot(new GainEnergyAction(2));
 
        if(!hasEnoughSoulStone(1)){
@@ -42,10 +43,7 @@ public class CostOfSoul extends AbstractSummonerCard {
 
     @Override
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        boolean canUse = super.canUse(p, m);
-        if (!canUse) {
-            return false;
-        }
+        boolean canUse = soulStoneCanForceUse(p,m);
 
         return canUse;
     }

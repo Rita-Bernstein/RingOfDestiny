@@ -50,9 +50,6 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
     @Override
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
         boolean canUse = super.canUse(p, m);
-        if (!canUse) {
-            return false;
-        }
 
         if (!hasEnoughSoulStone(1) && this.hasTag(CustomTagsEnum.Soul_Stone)) {
             canUse = false;
@@ -60,6 +57,10 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
         }
 
         return canUse;
+    }
+
+    public boolean soulStoneCanForceUse(AbstractPlayer p, AbstractMonster m){
+        return super.canUse(p, m);
     }
 
     @SpireOverride

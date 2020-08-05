@@ -22,9 +22,8 @@ public class PowerOfGluttony extends AbstractSummonerCard {
     public PowerOfGluttony() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.misc = 6;
-        this.magicNumber = this.baseMagicNumber = 2;
         this.baseDamage = this.misc;
-
+        this.magicNumber = this.baseMagicNumber = 2;
         this.exhaust = true;
     }
 
@@ -34,6 +33,7 @@ public class PowerOfGluttony extends AbstractSummonerCard {
 
     @Override
     public void applyPowers() {
+        this.baseDamage = this.misc;
         super.applyPowers();
         initializeDescription();
     }

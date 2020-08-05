@@ -42,7 +42,7 @@ public class PowerOfGluttonyAction extends AbstractGameAction {
 
             this.target.damage(this.info);
 
-            if (((AbstractMonster) this.target).isDying || this.target.currentHealth <= 0) {
+            if (((AbstractMonster) this.target).isDying || this.target.currentHealth <= 0  && !this.target.halfDead) {
 
                          for (AbstractCard c : AbstractDungeon.player.masterDeck.group) {
                                if (!c.uuid.equals(this.uuid))

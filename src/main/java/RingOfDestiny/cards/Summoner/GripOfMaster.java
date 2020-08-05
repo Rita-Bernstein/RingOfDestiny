@@ -17,7 +17,7 @@ public class GripOfMaster extends AbstractSummonerCard {
     public static final String IMG = RingOfDestiny.assetPath("img/cards/Summoner/52.png");
     private static final int COST = -2;
     private static final CardType TYPE = CardType.ATTACK;
-    private static final CardRarity RARITY = CardRarity.RARE;
+    private static final CardRarity RARITY = CardRarity.SPECIAL;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public GripOfMaster() {
@@ -25,7 +25,11 @@ public class GripOfMaster extends AbstractSummonerCard {
 
         this.baseDamage = 2;
         this.tags.add(CustomTagsEnum.Soul_Stone);
+        this.tags.add(CustomTagsEnum.SoleRare);
         this.exhaust = true;
+
+        this.setBannerTexture("RingOfDestiny/img/banner/512/banner_rare.png","RingOfDestiny/img/banner/1024/banner_rare.png");
+        this.setPortraitTextures("RingOfDestiny/img/banner/512/frame_attack_rare.png","RingOfDestiny/img/banner/1024/frame_attack_rare.png");
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

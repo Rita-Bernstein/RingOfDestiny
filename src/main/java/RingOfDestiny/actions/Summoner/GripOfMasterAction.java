@@ -27,9 +27,9 @@ public class GripOfMasterAction extends AbstractGameAction {
     public void update() {
         if (shouldCancelAction()) {
             this.isDone = true;
-
             return;
         }
+
         tickDuration();
 
         if (this.isDone) {
@@ -39,7 +39,7 @@ public class GripOfMasterAction extends AbstractGameAction {
             if (this.target.lastDamageTaken > 0) {
                 int amount = this.target.lastDamageTaken;
                 if(amount >5) amount = 5;
-                addToTop(new GainEnergyAction(amount));
+                addToBot(new GainEnergyAction(amount));
                 if (this.target.hb != null) {
                     addToTop(new VFXAction(new WallopEffect(this.target.lastDamageTaken, this.target.hb.cX, this.target.hb.cY)));
                 }

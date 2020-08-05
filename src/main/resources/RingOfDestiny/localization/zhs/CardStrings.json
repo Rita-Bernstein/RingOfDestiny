@@ -1478,7 +1478,7 @@
   },
   "RingOfDestiny:CostOfSoul": {
     "NAME": "灵魂代价",
-    "DESCRIPTION": "失去 !RODSecondM! 点生命。获得 [E] [E] 。如果 ring_of_destiny:灵魂石 不足，在失去 !M! 点生命。"
+    "DESCRIPTION": "失去 !RODSecondM! 点生命。获得 [E] [E] 。如果 ring_of_destiny:灵魂石 不足，再失去 !M! 点生命。"
   },
   "RingOfDestiny:PowerOfArrogance": {
     "NAME": "傲慢之力",
