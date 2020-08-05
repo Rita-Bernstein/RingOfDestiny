@@ -16,6 +16,7 @@ public class PowerOfArroganceAction extends AbstractGameAction {
     public PowerOfArroganceAction(boolean upgraded){
         this.times = 0;
         this.upgraded = upgraded;
+        this.duration = 0.001F;
     }
 
     public void update() {

@@ -10,7 +10,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class NonMudraAction  extends AbstractGameAction {
     public NonMudraAction(){
-
+        this.duration = 0.001F;
     }
 
 

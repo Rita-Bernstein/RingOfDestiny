@@ -22,7 +22,7 @@ public class AbyssOfDesire extends AbstractSummonerCard {
     private static final int COST = -2;
     public static final CardType TYPE = CardType.ATTACK;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
-    private static final CardTarget TARGET = CardTarget.SELF;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
 
 
     public AbyssOfDesire() {

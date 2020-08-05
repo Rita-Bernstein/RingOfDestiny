@@ -1349,7 +1349,8 @@
   },
   "RingOfDestiny:PowerOfGreed": {
     "NAME": "贪婪之力",
-    "DESCRIPTION": "ring_of_destiny:原罪 。 NL 造成 !D! 点伤害。 NL 每有 !RODSecondM! 张 *贪婪之力 ，这张牌的伤害提高 !M! 。"
+    "DESCRIPTION": "ring_of_destiny:原罪 。 NL 造成 !D! 点伤害。 NL 每有2张 *贪婪之力 ，这张牌的伤害提高 !M! 。",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:原罪 。 NL 造成 !D! 点伤害。 NL 每有1张 *贪婪之力 ，这张牌的伤害提高 !M! 。"
   },
   "RingOfDestiny:PowerOfEnvy": {
     "NAME": "嫉妒之力",
@@ -1417,7 +1418,7 @@
   "RingOfDestiny:DoomsdayEcho": {
     "NAME": "末日回响",
     "DESCRIPTION": "将 !M! 张 *末日陨石 加入手牌，如果抽牌堆中有 *末日陨石 ，抽一张牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "将 !M! 张 *末日陨石+ 加入手牌，如果抽牌堆中有 *末日陨石/+ ，抽一张牌。 NL 消耗 。"
+    "UPGRADE_DESCRIPTION": "将 !M! 张 *末日陨石+ 加入手牌，如果抽牌堆中有 *末日陨石 ，抽一张牌。 NL 消耗 。"
   },
   "RingOfDestiny:FairDealing": {
     "NAME": "公平交易",

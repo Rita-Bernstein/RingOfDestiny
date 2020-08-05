@@ -1,6 +1,7 @@
 package RingOfDestiny.relics;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.summon.AbstractSummon;
 import basemod.abstracts.CustomRelic;
 import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -19,7 +20,7 @@ public abstract class AbstractRingRelic extends CustomRelic {
     public void onCreateShadow() {
     }
 
-    public void onSacrifice(){
+    public void onSacrifice(AbstractSummon summon){
 
     }
 }

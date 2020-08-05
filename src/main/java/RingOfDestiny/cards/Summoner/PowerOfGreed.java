@@ -23,7 +23,6 @@ public class PowerOfGreed extends AbstractSummonerCard {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.baseDamage = 7;
         this.magicNumber = this.baseMagicNumber = 1;
-        this.secondaryM = this.baseSecondaryM = 2;
         this.tags.add(CustomTagsEnum.Original_Sin);
     }
 
@@ -54,8 +53,8 @@ public class PowerOfGreed extends AbstractSummonerCard {
 
     public void calculateCardDamage(AbstractMonster mo) {
         int realBaseDamage = this.baseDamage;
-        int amount = this.secondaryM;
-        if(amount < 1)amount = 1;
+        int amount = 2;
+        if(upgraded) amount = 1;
         this.baseDamage +=  (countCards() / amount) * this.magicNumber;
         super.calculateCardDamage(mo);
         this.baseDamage = realBaseDamage;
@@ -82,7 +81,8 @@ public class PowerOfGreed extends AbstractSummonerCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            upgradeSecondM(-1);
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+            initializeDescription();
         }
     }
 }

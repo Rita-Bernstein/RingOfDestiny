@@ -19,7 +19,6 @@ public class DemonSkin extends AbstractSummonerCard {
     private static final CardTarget TARGET = CardTarget.SELF;
 
 
-
     public DemonSkin() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.baseBlock = 7;
@@ -27,7 +26,8 @@ public class DemonSkin extends AbstractSummonerCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-       addToBot(new ApplyPowerAction(p,p,new DemonSkinPower(p,this.magicNumber)));
+        addToBot(new GainBlockAction(p, this.baseBlock));
+        addToBot(new ApplyPowerAction(p, p, new DemonSkinPower(p, this.magicNumber)));
     }
 
     public AbstractCard makeCopy() {

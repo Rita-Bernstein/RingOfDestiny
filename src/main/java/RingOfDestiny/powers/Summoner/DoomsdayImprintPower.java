@@ -26,6 +26,7 @@ public class DoomsdayImprintPower extends AbstractPower {
         this.ID = POWER_ID;
         this.owner = owner;
         this.amount = amount;
+        this.type = PowerType.DEBUFF;
         if(this.amount > 10)this.amount = 10;
         updateDescription();
         loadRegion("focus");

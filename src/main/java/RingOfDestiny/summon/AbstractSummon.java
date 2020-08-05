@@ -122,7 +122,7 @@ public abstract class AbstractSummon {
         if (AbstractDungeon.player != null) {
             for (AbstractRelic r : AbstractDungeon.player.relics) {
                 if (r instanceof AbstractRingRelic) {
-                    ((AbstractRingRelic) r).onSacrifice();
+                    ((AbstractRingRelic) r).onSacrifice(this);
                 }
             }
 

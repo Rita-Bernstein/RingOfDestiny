@@ -7,6 +7,7 @@ import RingOfDestiny.cards.Summoner.*;
 import RingOfDestiny.modules.EnergyOrbCustomBlue;
 import RingOfDestiny.modules.EnergyOrbSummoner;
 import RingOfDestiny.patches.*;
+import RingOfDestiny.relics.DemonicContract;
 import RingOfDestiny.relics.DogEyes;
 import RingOfDestiny.relics.ShadowKunai;
 import basemod.abstracts.CustomPlayer;
@@ -91,7 +92,7 @@ public class Summoner extends CustomPlayer {
 
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
-        retVal.add(BurningBlood.ID);
+        retVal.add(DemonicContract.ID);
         return retVal;
     }
 
@@ -104,6 +105,11 @@ public class Summoner extends CustomPlayer {
         retVal.add(Strike_SU.ID);
         retVal.add(Strike_SU.ID);
         retVal.add(Strike_SU.ID);
+
+        retVal.add(MaliciousBarrier.ID);
+        retVal.add(DoomsdayStrike.ID);
+        retVal.add(PowerOfGreed.ID);
+        retVal.add(PowerOfEnvy.ID);
 
 
         return retVal;

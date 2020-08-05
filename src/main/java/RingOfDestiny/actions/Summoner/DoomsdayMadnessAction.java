@@ -16,6 +16,7 @@ public class DoomsdayMadnessAction extends AbstractGameAction {
     public DoomsdayMadnessAction(int amount,int times){
         this.amount = amount;
         this.times = times;
+        this.duration = 0.001F;
     }
 
     public void update() {

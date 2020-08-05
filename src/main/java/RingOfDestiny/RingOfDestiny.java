@@ -574,6 +574,10 @@ public class RingOfDestiny
         BaseMod.addRelicToCustomPool(new Truncheon(), CardColorEnum.Purchemist_LIME);
 
 
+        BaseMod.addRelicToCustomPool(new DemonicContract(), CardColorEnum.Summoner_LIME);
+        BaseMod.addRelicToCustomPool(new RingOfSoul(), CardColorEnum.Summoner_LIME);
+
+
         logger.debug("receiveEditRelics finished.");
     }
 
