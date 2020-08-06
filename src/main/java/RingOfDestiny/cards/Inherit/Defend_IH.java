@@ -14,7 +14,7 @@ public class Defend_IH extends AbstractInheritCard {
     public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/02.png");
     public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/55.png");
     private static final int COST = 1;
-    private static final int SUB_GAIN = 2;
+    private static final int SUB_GAIN = 1;
     public static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.SELF;
@@ -30,7 +30,14 @@ public class Defend_IH extends AbstractInheritCard {
         this(false);
     }
 
-    public void use(AbstractPlayer p, AbstractMonster m) {
+
+    @Override
+    protected void cardEffect1(AbstractPlayer p, AbstractMonster m) {
+        addToBot(new GainBlockAction(p, p, this.block));
+    }
+
+    @Override
+    protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
         addToBot(new GainBlockAction(p, p, this.block));
     }
 
@@ -43,10 +50,5 @@ public class Defend_IH extends AbstractInheritCard {
             upgradeName();
             upgradeBlock(3);
         }
-    }
-
-    @Override
-    protected String getUpgradeDescription() {
-        return DESCRIPTION;
     }
 }

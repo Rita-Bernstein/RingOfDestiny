@@ -15,26 +15,31 @@ public class Strike_IH extends AbstractInheritCard {
     public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/01.png");
     public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/54.png");
     private static final int COST = 1;
-    private static final int SUB_GAIN = 2;
+    private static final int SUB_GAIN = 1;
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public Strike_IH(boolean isDark) {
-        super(ID, IMG, COST, TYPE, RARITY, TARGET,SUB_IMG,isDark,SUB_GAIN);
+        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN);
 
         this.baseDamage = 7;
         this.tags.add(CardTags.STARTER_STRIKE);
         this.tags.add(CardTags.STRIKE);
     }
 
-    public Strike_IH(){
+    public Strike_IH() {
         this(false);
     }
 
-    public void use(AbstractPlayer p, AbstractMonster m) {
+    @Override
+    protected void cardEffect1(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+    }
 
+    @Override
+    protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
+        addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
     }
 
     public AbstractCard makeCopy() {
@@ -46,10 +51,5 @@ public class Strike_IH extends AbstractInheritCard {
             this.upgradeName();
             this.upgradeDamage(3);
         }
-    }
-
-    @Override
-    protected String getUpgradeDescription() {
-        return DESCRIPTION;
     }
 }
