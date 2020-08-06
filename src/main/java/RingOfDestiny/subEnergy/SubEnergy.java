@@ -2,6 +2,7 @@ package RingOfDestiny.subEnergy;
 
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Inherit.SwitchFormAction;
 import RingOfDestiny.actions.Purchemist.UseDiamondAction;
 import RingOfDestiny.cards.Purchemist.DoubleInvest;
 import RingOfDestiny.cards.Purchemist.NoInvest;
@@ -289,8 +290,7 @@ public class SubEnergy {
 
         if (hb.clicked) {
             hb.clicked = false;
-            switchForm(getCurrentForm());
-
+            AbstractDungeon.actionManager.addToBottom(new SwitchFormAction());
         }
     }
 
@@ -300,8 +300,12 @@ public class SubEnergy {
     }
 
 
-    public void switchForm(boolean isInDark, boolean changeForFree) {
-        if (!isInDark) {
+    public void switchForm(boolean switchToDark, boolean changeForFree) {
+        if(switchToDark == EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel)){
+            return;
+        }
+
+        if (switchToDark) {
             boolean canSwitch = false;
             if (EnergyPanel.totalCount > 0 || changeForFree) {
                 canSwitch = true;
@@ -315,6 +319,8 @@ public class SubEnergy {
                 if (AbstractDungeon.player instanceof Inherit) {
                     ((Inherit) AbstractDungeon.player).switchFromAnimation(true);
                 }
+
+
             } else {
                 AbstractDungeon.effectList.add(new ThoughtBubble(AbstractDungeon.player.dialogX, AbstractDungeon.player.dialogY, 3.0F,
                         CardCrawlGame.languagePack.getUIString("SingleCardViewPopup").TEXT[11], true));

@@ -12,22 +12,26 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 public class Defend_IH extends AbstractInheritCard {
     public static final String ID = RingOfDestiny.makeID("Defend_IH");
     public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/02.png");
+    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/55.png");
     private static final int COST = 1;
+    private static final int SUB_GAIN = 2;
     public static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.SELF;
 
 
-
-    public Defend_IH() {
-        super(ID, IMG, COST, TYPE, RARITY, TARGET);
+    public Defend_IH(boolean isDark) {
+        super(ID, IMG, COST, TYPE, RARITY, TARGET,SUB_IMG,isDark,SUB_GAIN);
         this.baseBlock = 6;
         this.tags.add(CardTags.STARTER_DEFEND);
     }
 
+    public Defend_IH(){
+        this(false);
+    }
+
     public void use(AbstractPlayer p, AbstractMonster m) {
-       addToBot(new GainBlockAction(p, p, this.block));
-       addToBot(new AddSubEnergyAction(1));
+        addToBot(new GainBlockAction(p, p, this.block));
     }
 
     public AbstractCard makeCopy() {
@@ -41,4 +45,8 @@ public class Defend_IH extends AbstractInheritCard {
         }
     }
 
+    @Override
+    protected String getUpgradeDescription() {
+        return DESCRIPTION;
+    }
 }

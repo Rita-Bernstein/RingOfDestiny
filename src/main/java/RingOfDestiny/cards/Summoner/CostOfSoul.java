@@ -43,7 +43,7 @@ public class CostOfSoul extends AbstractSummonerCard {
 
     @Override
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        return this.cardPlayable(m) && (this.hasEnoughEnergy() || EnergyPanel.totalCount > -99);
+        return hasEnoughSoulStone(1,true);
     }
 
 

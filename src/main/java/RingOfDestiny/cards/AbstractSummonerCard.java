@@ -11,6 +11,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireOverride;
 import com.evacipated.cardcrawl.modthespire.lib.SpireSuper;
+import com.megacrit.cardcrawl.blights.AbstractBlight;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -19,6 +20,8 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 import java.util.ArrayList;
 
@@ -31,6 +34,7 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
     protected final String[] EXTENDED_DESCRIPTION;
 
     protected static final String SoulStoneCantUseMessage = CardCrawlGame.languagePack.getUIString(RingOfDestiny.makeID("SoulStoneCantUseMessage")).TEXT[0];
+    protected static final String[] oriSoulStoneCantUseMessage = CardCrawlGame.languagePack.getUIString("SingleCardViewPopup").TEXT;
     protected static final Texture soulStoneOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Summoner/512/card_lime_orb2.png");
     protected static final Color soulStoneOrbRenderColor = Color.WHITE.cpy();
 
@@ -49,14 +53,11 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
 
     @Override
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        boolean canUse = super.canUse(p, m);
-
-        if (!hasEnoughSoulStone(1) && this.hasTag(CustomTagsEnum.Soul_Stone)) {
-            canUse = false;
-            this.cantUseMessage = SoulStoneCantUseMessage;
+        if (hasEnoughSoulStone(1) && this.hasTag(CustomTagsEnum.Soul_Stone)) {
+            return true;
+        }else {
+            return super.canUse(p, m);
         }
-
-        return canUse;
     }
 
 
@@ -74,12 +75,51 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
     }
 
     protected boolean hasEnoughSoulStone(int amount){
-        boolean enough = false;
-        if(amount <= getCurrentSoulStone()){
-            enough = true;
+       return hasEnoughSoulStone(amount,false);
+    }
+
+    protected boolean hasEnoughSoulStone(int amount,boolean soulStoneFreeToPlay){
+        if (AbstractDungeon.actionManager.turnHasEnded) {
+            this.cantUseMessage = TEXT[9];
+            return false;
         }
 
-        return enough;
+        for (AbstractPower p : AbstractDungeon.player.powers) {
+            if (!p.canPlayCard(this)) {
+                this.cantUseMessage = oriSoulStoneCantUseMessage[13];
+                return false;
+            }
+        }
+
+        if (AbstractDungeon.player.hasPower("Entangled") && this.type == CardType.ATTACK) {
+            this.cantUseMessage = oriSoulStoneCantUseMessage[10];
+            return false;
+        }
+
+        for (AbstractRelic r : AbstractDungeon.player.relics) {
+            if (!r.canPlay(this)) {
+                return false;
+            }
+        }
+
+        for (AbstractBlight b : AbstractDungeon.player.blights) {
+            if (!b.canPlay(this)) {
+                return false;
+            }
+        }
+
+        for (AbstractCard c : AbstractDungeon.player.hand.group) {
+            if (!c.canPlay(this)) {
+                return false;
+            }
+        }
+
+        if (getCurrentSoulStone() >= amount || freeToPlay() || this.isInAutoplay || soulStoneFreeToPlay) {
+            return true;
+        }
+
+        this.cantUseMessage = SoulStoneCantUseMessage;
+        return false;
     }
 
 
