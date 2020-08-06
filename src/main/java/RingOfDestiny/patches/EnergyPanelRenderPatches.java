@@ -6,6 +6,7 @@ import RingOfDestiny.character.MagicBullet;
 import RingOfDestiny.diamonds.AbstractDiamond;
 import RingOfDestiny.diamonds.*;
 import RingOfDestiny.soulStone.SoulStone;
+import RingOfDestiny.subEnergy.SubEnergy;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -37,6 +38,10 @@ public class EnergyPanelRenderPatches {
 
         public static SpireField<Boolean> canUseSoulStone = new SpireField<>(() -> false);
         public static SpireField<SoulStone> soulStone = new SpireField<>(() -> new SoulStone());
+
+        public static SpireField<Boolean> canUseSubEnergy = new SpireField<>(() -> false);
+        public static SpireField<Boolean> isInDark = new SpireField<>(() -> false);
+        public static SpireField<SubEnergy> subEnergy = new SpireField<>(() -> new SubEnergy());
 
         public static SpireField<AbstractDiamond[]> diamonds = new SpireField<>(() -> new AbstractDiamond[]{
                 new BlueDiamondSlot(-47.5f * Settings.scale, 58.5f * Settings.scale, 0.4f * Settings.scale, 95.0f, 0),
@@ -77,6 +82,44 @@ public class EnergyPanelRenderPatches {
                 stone.render(sb);
             }
 
+            if (PatchEnergyPanelField.canUseSubEnergy.get(_instance)) {
+                SubEnergy subEnergy = PatchEnergyPanelField.subEnergy.get(_instance);
+                subEnergy.bottonRender(sb);
+            }
+
+            return SpireReturn.Continue();
+        }
+    }
+
+    @SpirePatch(
+            clz = EnergyPanel.class,
+            method = "render"
+    )
+    public static class EnergyPanelTotalCountChangeRenderPatch {
+        @SpireInsertPatch(rloc = 11,localvars = "energyMsg")
+        public static SpireReturn<Void> Insert(EnergyPanel _instance, SpriteBatch sb,@ByRef String[] energyMsg){
+            if(PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel)){
+                energyMsg[0] = PatchEnergyPanelField.subEnergy.get(overlayMenu.energyPanel).totalCount + "/" + SubEnergy.maxCount;
+                AbstractDungeon.player.getEnergyNumFont().getData().setScale(1.0f);
+            }
+
+            return SpireReturn.Continue();
+        }
+    }
+
+
+    @SpirePatch(
+            clz = EnergyPanel.class,
+            method = "render"
+    )
+    public static class SubEnergyPanelRenderPatch {
+        @SpireInsertPatch(rloc = 15)
+        public static SpireReturn<Void> Insert(EnergyPanel _instance, SpriteBatch sb) {
+            if (PatchEnergyPanelField.canUseSubEnergy.get(_instance)) {
+                SubEnergy subEnergy = PatchEnergyPanelField.subEnergy.get(_instance);
+                subEnergy.render(sb);
+            }
+
             return SpireReturn.Continue();
         }
     }
@@ -103,6 +146,12 @@ public class EnergyPanelRenderPatches {
                 SoulStone stone = PatchEnergyPanelField.soulStone.get(_instance);
                 stone.update();
             }
+
+            if (PatchEnergyPanelField.canUseSubEnergy.get(_instance)) {
+                SubEnergy subEnergy = PatchEnergyPanelField.subEnergy.get(_instance);
+                subEnergy.update();
+            }
+
             return SpireReturn.Continue();
         }
     }
@@ -117,7 +166,7 @@ public class EnergyPanelRenderPatches {
             if (_instance.chosenClass == AbstractPlayerEnum.Summoner
                     || ModHelper.isModEnabled("Diverse")
                     || ModHelper.isModEnabled("Summoner" + "Modded Character Cards")
-                    || _instance.hasRelic(PrismaticShard.ID)){
+                    || _instance.hasRelic(PrismaticShard.ID)) {
 
                 actionManager.addToBottom(new AddSoulStoneAction(1));
             }

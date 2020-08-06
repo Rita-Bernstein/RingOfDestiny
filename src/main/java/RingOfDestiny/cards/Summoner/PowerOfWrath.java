@@ -26,6 +26,7 @@ public class PowerOfWrath extends AbstractSummonerCard {
         this.magicNumber = this.baseMagicNumber = 1;
 
         this.tags.add(CustomTagsEnum.SoleRare);
+        this.tags.add(CustomTagsEnum.SoleCard);
         this.tags.add(CustomTagsEnum.Original_Sin);
 
         this.setBannerTexture("RingOfDestiny/img/banner/512/banner_rare.png","RingOfDestiny/img/banner/1024/banner_rare.png");

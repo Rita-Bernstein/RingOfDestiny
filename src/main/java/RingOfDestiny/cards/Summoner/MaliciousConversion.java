@@ -22,7 +22,6 @@ public class MaliciousConversion extends AbstractSummonerCard {
     public MaliciousConversion() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.magicNumber = this.baseMagicNumber = 2;
-        this.tags.add(CardTags.STARTER_DEFEND);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

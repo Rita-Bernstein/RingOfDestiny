@@ -23,6 +23,7 @@ public class SoulDiversion extends AbstractSummonerCard {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.magicNumber = this.baseMagicNumber = 1;
         this.tags.add(CardTags.STARTER_DEFEND);
+        this.exhaust = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {

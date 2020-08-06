@@ -29,6 +29,7 @@ public class PowerOfLaziness extends AbstractSummonerCard {
         this.secondaryM = this.baseSecondaryM = 25;
         this.tags.add(CustomTagsEnum.Original_Sin);
         this.tags.add(CustomTagsEnum.SoleRare);
+        this.tags.add(CustomTagsEnum.SoleCard);
         this.tags.add(CustomTagsEnum.Soul_Stone);
 
         this.setBannerTexture("RingOfDestiny/img/banner/512/banner_rare.png", "RingOfDestiny/img/banner/1024/banner_rare.png");

@@ -14,6 +14,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
@@ -33,22 +34,21 @@ public class VoodooDollMonsterPower extends AbstractRingPower {
     }
 
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0] + this.owner.name + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2];
+        this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
     }
 
     @Override
     public void onDeath() {
-        addToBot(new ApplyPowerToRandomEnemyAction(this.owner, new VoodooDollMonsterPower(null, amount), amount, false, AbstractGameAction.AttackEffect.NONE));
+
+//        addToBot(new ApplyPowerToRandomEnemyAction(this.owner, new VoodooDollMonsterPower(null, amount), amount, false, AbstractGameAction.AttackEffect.NONE));
         super.onDeath();
+        AbstractMonster randomMonster = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.miscRng);
+        addToTop(new ApplyPowerAction(randomMonster,null,new VoodooDollMonsterPower(randomMonster, amount), amount));
     }
 
     @Override
     public void atEndOfTurn(boolean isPlayer) {
         addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, VoodooDollMonsterPower.POWER_ID));
-    }
-
-    public void atE() {
-
     }
 }
 

@@ -34,7 +34,7 @@ public class UpgradedAngerSwordPower extends AbstractRingPower {
     }
 
     public void updateDescription() {
-        this.description = powerStrings.DESCRIPTIONS[0] + this.amount*3 + powerStrings.DESCRIPTIONS[1] + this.amount + powerStrings.DESCRIPTIONS[2];
+        this.description = powerStrings.DESCRIPTIONS[0] + this.amount * 3 + powerStrings.DESCRIPTIONS[1] + this.amount + powerStrings.DESCRIPTIONS[2];
     }
 
 

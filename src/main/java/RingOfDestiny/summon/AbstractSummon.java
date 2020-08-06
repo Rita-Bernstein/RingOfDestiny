@@ -132,7 +132,7 @@ public abstract class AbstractSummon {
 
     public void attackAnimation() {
         triggerPowerOnAttack();
-        this.state.setAnimation(0, "gongji", true);
+        this.state.setAnimation(0, "gongji", false);
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
 
@@ -144,7 +144,7 @@ public abstract class AbstractSummon {
             triggerPowerOnAttack();
         }
 
-        this.state.setAnimation(0, "gongji", true);
+        this.state.setAnimation(0, "gongji", false);
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
 
@@ -155,7 +155,7 @@ public abstract class AbstractSummon {
             triggerPowerOnAttack();
         }
 
-        this.state.setAnimation(0, "gongji", true);
+        this.state.setAnimation(0, "gongji", false);
         this.state.addAnimation(0, "huxi", true, 0.0F);
     }
 

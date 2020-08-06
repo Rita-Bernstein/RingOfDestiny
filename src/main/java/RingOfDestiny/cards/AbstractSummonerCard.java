@@ -59,9 +59,6 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
         return canUse;
     }
 
-    public boolean soulStoneCanForceUse(AbstractPlayer p, AbstractMonster m){
-        return super.canUse(p, m);
-    }
 
     @SpireOverride
     protected void renderEnergy(SpriteBatch sb){

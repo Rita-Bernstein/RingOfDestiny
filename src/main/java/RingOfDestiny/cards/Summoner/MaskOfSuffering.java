@@ -27,6 +27,7 @@ public class MaskOfSuffering extends AbstractSummonerCard {
         this.exhaust = true;
 
         this.tags.add(CustomTagsEnum.SoleUncommon);
+        this.tags.add(CustomTagsEnum.SoleCard);
 
         this.setBannerTexture("RingOfDestiny/img/banner/512/banner_uncommon.png","RingOfDestiny/img/banner/1024/banner_uncommon.png");
         this.setPortraitTextures("RingOfDestiny/img/banner/512/frame_skill_uncommon.png","RingOfDestiny/img/banner/1024/frame_skill_uncommon.png");

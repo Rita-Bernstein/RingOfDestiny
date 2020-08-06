@@ -1,6 +1,7 @@
 package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Inherit.AddSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -26,6 +27,7 @@ public class Defend_IH extends AbstractInheritCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
        addToBot(new GainBlockAction(p, p, this.block));
+       addToBot(new AddSubEnergyAction(1));
     }
 
     public AbstractCard makeCopy() {

@@ -74,7 +74,7 @@
     "NAMES": [
       "榨取"
     ],
-    "DESCRIPTION": "每有 #b2 层引爆，引爆时你将回复 #b1 点生命。"
+    "DESCRIPTION": "每有 #b2 层时，失去 #b2 层。同时你将回复 #b1 点生命。"
   },
   {
     "PROPER_NAME": "末日印记",

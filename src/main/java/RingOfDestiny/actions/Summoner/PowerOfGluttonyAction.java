@@ -1,5 +1,6 @@
 package RingOfDestiny.actions.Summoner;
 
+import RingOfDestiny.actions.unique.SafeExhaustToHandAction;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.actions.defect.IncreaseMiscAction;
@@ -57,7 +58,7 @@ public class PowerOfGluttonyAction extends AbstractGameAction {
                                c.applyPowers();
                                c.baseDamage = c.misc;
                              }
-                addToBot(new ExhaustToHandAction(cardForReturn));
+                addToBot(new SafeExhaustToHandAction(cardForReturn));
             }
 
             if ((AbstractDungeon.getCurrRoom()).monsters.areMonstersBasicallyDead()) {

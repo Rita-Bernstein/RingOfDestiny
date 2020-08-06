@@ -26,6 +26,7 @@ public class RingOfGreed extends AbstractSummonerCard {
         this.magicNumber = this.baseMagicNumber = 5;
         this.secondaryM = this.baseSecondaryM = 2;
         this.tags.add(CustomTagsEnum.SoleUncommon);
+        this.tags.add(CustomTagsEnum.SoleCard);
 
         this.setBannerTexture("RingOfDestiny/img/banner/512/banner_uncommon.png","RingOfDestiny/img/banner/1024/banner_uncommon.png");
         this.setPortraitTextures("RingOfDestiny/img/banner/512/frame_power_uncommon.png","RingOfDestiny/img/banner/1024/frame_power_uncommon.png");

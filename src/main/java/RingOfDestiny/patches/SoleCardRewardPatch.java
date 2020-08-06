@@ -402,7 +402,7 @@ public class SoleCardRewardPatch {
 
         if (AbstractDungeon.player.chosenClass == AbstractPlayerEnum.Summoner
                 || ModHelper.isModEnabled("Diverse")
-                || ModHelper.isModEnabled("MagicBullet" + "Modded Character Cards")) {
+                || ModHelper.isModEnabled("Summoner" + "Modded Character Cards")) {
             System.out.println(rarity + "唯一卡牌临时卡池开始加入");
             for (AbstractCard c : RingOfDestiny.su_SoleCards) {
                 if (rarity == AbstractCard.CardRarity.RARE && c.hasTag(CustomTagsEnum.SoleRare) && AbstractDungeon.player.masterDeck.findCardById(c.cardID) == null) {

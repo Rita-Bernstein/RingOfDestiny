@@ -23,7 +23,7 @@ public class AllCostAndTypeToHandAction extends AbstractGameAction {
     public void update() {
         if (this.p.discardPile.size() > 0) {
             for (AbstractCard card : this.p.discardPile.group) {
-                if (card.cost == this.costTarget || card.type == this.cardType || card.freeToPlayOnce) {
+                if ((card.cost == this.costTarget || card.freeToPlayOnce) && card.type == this.cardType) {
                     addToBot(new DiscardToHandAction(card));
                 }
             }

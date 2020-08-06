@@ -340,8 +340,8 @@
   "RingOfDestiny:ExtractPower": {
     "NAME": "榨取",
     "DESCRIPTIONS": [
-      "每有 #b2 层引爆，引爆时你将回复 #g",
-      "每有 #b2 层引爆，引爆时这名敌人将回复 #g",
+      "每有 #b2 层时失去 #b2 层。同时你将回复 #g",
+      "每有 #b2 层时失去 #b2 层。同时这名敌人将回复 #g",
       " 点生命。"
     ]
   },
@@ -383,15 +383,9 @@
   "RingOfDestiny:ManaEnhancePower": {
     "NAME": "魔能强化",
     "DESCRIPTIONS": [
-      "本回合你的下 #b",
-      " 张打出的 #y攻击牌 耗能减少 #b1 。"
-    ]
-  },
-  "RingOfDestiny:UpgradedManaEnhancePower": {
-    "NAME": "魔能强化+",
-    "DESCRIPTIONS": [
-      "本回合你的下 #b",
-      " 张打出的 #y攻击牌 耗能减少 #b2 。"
+      "本回合你打出下一张的 #y攻击牌 无视耗能。",
+      "本回合你打出下 #b",
+      " 张 #y攻击牌 无视耗能。"
     ]
   },
   "RingOfDestiny:RingOfGreedPower": {
@@ -456,8 +450,7 @@
   "RingOfDestiny:VoodooDollMonsterPower": {
     "NAME": "诅咒人偶-敌",
     "DESCRIPTIONS": [
-      "本回合内， #y",
-      " 将代你承受所受的伤害的 #b",
+      "本回合内，这名敌人将代你承受所受的伤害的 #b",
       " 倍伤害。如果死亡，则给予随机其他一名敌人同等效果。"
     ]
   },

@@ -680,8 +680,8 @@
   },
   "RingOfDestiny:Overdraft": {
     "NAME": "透支",
-    "DESCRIPTION": "使用 !M! 颗 获得 ring_of_destiny:氪金石 。获得 [E] [E] 。 NL 下回合失去 [E] [E] 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命。",
-    "UPGRADE_DESCRIPTION": "使用 !M! 颗 获得 ring_of_destiny:氪金石 。获得 [E] [E] [E] 。 NL 下回合失去 [E] [E] 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命。"
+    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 [E] [E] 。 NL 下回合失去 [E] [E] 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命。",
+    "UPGRADE_DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 [E] [E] [E] 。 NL 下回合失去 [E] [E] 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命。"
   },
   "RingOfDestiny:Happy": {
     "NAME": "开森",
@@ -810,7 +810,7 @@
   },
   "RingOfDestiny:GoldProtect": {
     "NAME": "氪金护体",
-    "DESCRIPTION": "下 !M! 次失去生命时，回复损失生命的120%的生命。 NL 消耗 。"
+    "DESCRIPTION": "下 !M! 次失去生命时，回复损失生命的120%的生命。 消耗 。"
   },
   "RingOfDestiny:Privilege": {
     "NAME": "特权",
@@ -1387,8 +1387,7 @@
   },
   "RingOfDestiny:ManaEnhance": {
     "NAME": "魔能强化",
-    "DESCRIPTION": "失去 !RODSecondM! 点生命。本回合下 !M! 张攻击牌耗能降低1。",
-    "UPGRADE_DESCRIPTION": "失去 !RODSecondM! 点生命。本回合下 !M! 张攻击牌耗能降低2。"
+    "DESCRIPTION": "失去 !RODSecondM! 点生命。本回合下 !M! 张攻击牌耗能变为0。"
   },
   "RingOfDestiny:Demonic": {
     "NAME": "恶魔守御",
@@ -1452,8 +1451,8 @@
   },
   "RingOfDestiny:AngerSword": {
     "NAME": "愤怒魔剑",
-    "DESCRIPTION": "每打出一张技能牌，对随机敌人造成 !M! 点伤害并给予1层 ring_of_destiny:榨取 。",
-    "UPGRADE_DESCRIPTION": "每打出一张技能或攻击牌，对随机敌人造成 !M! 点伤害并给予1层 ring_of_destiny:榨取 。"
+    "DESCRIPTION": "每打出一张技能牌，对随机敌人造成 !RODSecondM! 点伤害并给予 !M! 层 ring_of_destiny:榨取 。",
+    "UPGRADE_DESCRIPTION": "每打出一张技能或攻击牌，对随机敌人造成 !RODSecondM! 点伤害并给予 !M! 层 ring_of_destiny:榨取 。"
   },
   "RingOfDestiny:MaliciousSword": {
     "NAME": "恶意魔剑",

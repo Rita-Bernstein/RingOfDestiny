@@ -26,6 +26,7 @@ public class GripOfMaster extends AbstractSummonerCard {
         this.baseDamage = 2;
         this.tags.add(CustomTagsEnum.Soul_Stone);
         this.tags.add(CustomTagsEnum.SoleRare);
+        this.tags.add(CustomTagsEnum.SoleCard);
         this.exhaust = true;
 
         this.setBannerTexture("RingOfDestiny/img/banner/512/banner_rare.png","RingOfDestiny/img/banner/1024/banner_rare.png");

@@ -1,6 +1,7 @@
 package RingOfDestiny.modules;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.patches.EnergyPanelRenderPatches;
 import basemod.abstracts.CustomEnergyOrb;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -8,6 +9,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 
 public class EnergyOrbInherit extends CustomEnergyOrb {
@@ -41,23 +43,43 @@ public class EnergyOrbInherit extends CustomEnergyOrb {
     @Override
     public void renderOrb(SpriteBatch sb, boolean enabled, float current_x, float current_y) {
         sb.setColor(Color.WHITE);
-
         sb.draw(this.baseLayer, current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 160, 160, false, false);
 
-        if (enabled) {
-            sb.draw(this.energyLayers[0], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 160, 160, false, false);
-            sb.draw(this.energyLayers[1], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle2, 0, 0, 160, 160, false, false);
-            sb.draw(this.energyLayers[2], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle3, 0, 0, 160, 160, false, false);
-            sb.draw(this.energyLayers[3], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle4, 0, 0, 160, 160, false, false);
-            sb.draw(this.energyLayers[4], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle5, 0, 0, 160, 160, false, false);
-        } else {
-            sb.draw(this.noEnergyLayers[0], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 160, 160, false, false);
-            sb.draw(this.noEnergyLayers[1], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle2, 0, 0, 160, 160, false, false);
-            sb.draw(this.noEnergyLayers[2], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle3, 0, 0, 160, 160, false, false);
-            sb.draw(this.noEnergyLayers[3], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle4, 0, 0, 160, 160, false, false);
-            sb.draw(this.noEnergyLayers[4], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle5, 0, 0, 160, 160, false, false);
+
+        if(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel)){
+            if (enabled) {
+                sb.draw(this.energyLayers[5], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 160, 160, false, false);
+                sb.draw(this.energyLayers[6], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle2, 0, 0, 160, 160, false, false);
+                sb.draw(this.energyLayers[7], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle3, 0, 0, 160, 160, false, false);
+                sb.draw(this.energyLayers[8], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle4, 0, 0, 160, 160, false, false);
+                sb.draw(this.energyLayers[9], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle5, 0, 0, 160, 160, false, false);
+            } else {
+                sb.draw(this.noEnergyLayers[5], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 160, 160, false, false);
+                sb.draw(this.noEnergyLayers[6], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle2, 0, 0, 160, 160, false, false);
+                sb.draw(this.noEnergyLayers[7], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle3, 0, 0, 160, 160, false, false);
+                sb.draw(this.noEnergyLayers[8], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle4, 0, 0, 160, 160, false, false);
+                sb.draw(this.noEnergyLayers[9], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle5, 0, 0, 160, 160, false, false);
+            }
+        }else {
+            if (enabled) {
+                sb.draw(this.energyLayers[0], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 160, 160, false, false);
+                sb.draw(this.energyLayers[1], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle2, 0, 0, 160, 160, false, false);
+                sb.draw(this.energyLayers[2], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle3, 0, 0, 160, 160, false, false);
+                sb.draw(this.energyLayers[3], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle4, 0, 0, 160, 160, false, false);
+                sb.draw(this.energyLayers[4], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle5, 0, 0, 160, 160, false, false);
+            } else {
+                sb.draw(this.noEnergyLayers[0], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 160, 160, false, false);
+                sb.draw(this.noEnergyLayers[1], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle2, 0, 0, 160, 160, false, false);
+                sb.draw(this.noEnergyLayers[2], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle3, 0, 0, 160, 160, false, false);
+                sb.draw(this.noEnergyLayers[3], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle4, 0, 0, 160, 160, false, false);
+                sb.draw(this.noEnergyLayers[4], current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle5, 0, 0, 160, 160, false, false);
+            }
         }
 
+
+
+
+        sb.setColor(Color.WHITE);
         sb.draw(inheritOrbCover, current_x - 80.0F, current_y - 80.0F, 80.0F, 80.0F, 160.0F, 160.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 160, 160, false, false);
 
     }

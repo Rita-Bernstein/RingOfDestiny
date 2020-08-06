@@ -13,6 +13,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
 public class CostOfSoul extends AbstractSummonerCard {
     public static final String ID = RingOfDestiny.makeID("CostOfSoul");
@@ -23,7 +24,6 @@ public class CostOfSoul extends AbstractSummonerCard {
     private static final CardTarget TARGET = CardTarget.SELF;
 
 
-
     public CostOfSoul() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.secondaryM = this.baseSecondaryM = 1;
@@ -32,22 +32,19 @@ public class CostOfSoul extends AbstractSummonerCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-       addToBot(new UseSoulStoneAction(1));
-        addToBot(new LoseHPAction(p,p,this.baseSecondaryM));
-       addToBot(new GainEnergyAction(2));
+        addToBot(new UseSoulStoneAction(1));
+        addToBot(new LoseHPAction(p, p, this.baseSecondaryM));
+        addToBot(new GainEnergyAction(2));
 
-       if(!hasEnoughSoulStone(1)){
-           addToBot(new LoseHPAction(p,p,this.magicNumber));
-       }
+        if (!hasEnoughSoulStone(1)) {
+            addToBot(new LoseHPAction(p, p, this.magicNumber));
+        }
     }
 
     @Override
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        boolean canUse = soulStoneCanForceUse(p,m);
-
-        return canUse;
+        return this.cardPlayable(m) && (this.hasEnoughEnergy() || EnergyPanel.totalCount > -99);
     }
-
 
 
     public AbstractCard makeCopy() {

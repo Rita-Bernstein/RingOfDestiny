@@ -27,6 +27,7 @@ public class CrownOfPride extends AbstractSummonerCard {
         this.magicNumber = this.baseMagicNumber = 1;
         this.tags.add(CustomTagsEnum.Soul_Stone);
         this.tags.add(CustomTagsEnum.SoleRare);
+        this.tags.add(CustomTagsEnum.SoleCard);
         this.isDestructive = true;
 
         this.setBannerTexture("RingOfDestiny/img/banner/512/banner_rare.png","RingOfDestiny/img/banner/1024/banner_rare.png");

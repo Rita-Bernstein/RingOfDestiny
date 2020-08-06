@@ -7,10 +7,7 @@ import RingOfDestiny.cards.AbstractSummonerCard;
 import RingOfDestiny.patches.CardColorEnum;
 import basemod.helpers.CardTags;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-import com.megacrit.cardcrawl.actions.common.HealAction;
+import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -36,6 +33,11 @@ public class DesireMastery extends AbstractIntentChangingCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new HealAction(p,p,this.magicNumber));
+        if(upgraded){
+            addToBot(new DrawCardAction(p,3));
+        }else {
+            addToBot(new DrawCardAction(p,2));
+        }
 
         if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
             for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {

@@ -50,6 +50,10 @@ public class TurnBaseActionPatches {
             if(EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.get(AbstractDungeon.overlayMenu.energyPanel)){
                 EnergyPanelRenderPatches.PatchEnergyPanelField.diamondManager.get(AbstractDungeon.overlayMenu.energyPanel).reset();
             }
+
+            if(EnergyPanelRenderPatches.PatchEnergyPanelField.canUseSubEnergy.get(AbstractDungeon.overlayMenu.energyPanel)){
+                EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).reset();
+            }
             return SpireReturn.Continue();
         }
     }

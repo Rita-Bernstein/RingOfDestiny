@@ -50,12 +50,22 @@ public class Inherit extends CustomPlayer {
             "RingOfDestiny/img/ui/topPanel/Inherit/3.png",//3
             "RingOfDestiny/img/ui/topPanel/Inherit/4.png",//5
             "RingOfDestiny/img/ui/topPanel/Inherit/5.png",//1
+            "RingOfDestiny/img/ui/topPanel/Summoner/1.png",//4
+            "RingOfDestiny/img/ui/topPanel/Summoner/2.png",//2
+            "RingOfDestiny/img/ui/topPanel/Summoner/3.png",//3
+            "RingOfDestiny/img/ui/topPanel/Summoner/4.png",//5
+            "RingOfDestiny/img/ui/topPanel/Summoner/5.png",//1
             "RingOfDestiny/img/ui/topPanel/Inherit/border.png",
             "RingOfDestiny/img/ui/topPanel/Inherit/1d.png",//4
             "RingOfDestiny/img/ui/topPanel/Inherit/2d.png",//2
             "RingOfDestiny/img/ui/topPanel/Inherit/3d.png",//3
             "RingOfDestiny/img/ui/topPanel/Inherit/4d.png",//5
             "RingOfDestiny/img/ui/topPanel/Inherit/5d.png",//1
+            "RingOfDestiny/img/ui/topPanel/Summoner/1d.png",//4
+            "RingOfDestiny/img/ui/topPanel/Summoner/2d.png",//2
+            "RingOfDestiny/img/ui/topPanel/Summoner/3d.png",//3
+            "RingOfDestiny/img/ui/topPanel/Summoner/4d.png",//5
+            "RingOfDestiny/img/ui/topPanel/Summoner/5d.png",//1
     };
 
     public Inherit(String name, PlayerClass setClass) {
@@ -79,6 +89,24 @@ public class Inherit extends CustomPlayer {
         e.setTime(e.getEndTime() * MathUtils.random());
     }
 
+    public void switchFromAnimation(boolean isDark) {
+        if (isDark) {
+            this.loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501_02.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501_02.json"), 1.4f);
+        } else {
+            this.loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501.json"), 1.4f);
+        }
+            AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
+            this.stateData.setMix("Hit", "Idle", 0.1F);
+            e.setTime(e.getEndTime() * MathUtils.random());
+
+    }
+
+
+    @Override
+    public void preBattlePrep() {
+        super.preBattlePrep();
+        EnergyPanelRenderPatches.PatchEnergyPanelField.canUseSubEnergy.set(AbstractDungeon.overlayMenu.energyPanel, true);
+    }
 
     public String getPortraitImageName() {
         return null;

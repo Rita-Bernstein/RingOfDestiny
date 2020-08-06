@@ -38,8 +38,9 @@ public class VoodooDollSelfPower extends AbstractRingPower {
         this.description = DESCRIPTIONS[0];
     }
 
-    public int onAttacked(DamageInfo info, int damageAmount) {
 
+    @Override
+    public int onAttackedToChangeDamage(DamageInfo info, int damageAmount) {
         flash();
         if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
             for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
@@ -52,7 +53,9 @@ public class VoodooDollSelfPower extends AbstractRingPower {
             }
         }
 
-        return 0;
+        damageAmount = 0;
+
+        return damageAmount;
     }
 
     public void atStartOfTurn() {

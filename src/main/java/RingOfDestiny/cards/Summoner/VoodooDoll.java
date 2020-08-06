@@ -30,6 +30,7 @@ public class VoodooDoll extends AbstractSummonerCard {
 
         this.tags.add(CustomTagsEnum.Soul_Stone);
         this.tags.add(CustomTagsEnum.SoleRare);
+        this.tags.add(CustomTagsEnum.SoleCard);
 
         this.isDestructive = true;
         this.exhaust = false;

@@ -28,29 +28,26 @@ public class ManaEnhancePower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("flameBarrier");
+        loadRegion("swivel");
     }
 
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
+        if (this.amount == 1) {
+            this.description = powerStrings.DESCRIPTIONS[0];
+        } else {
+            this.description = powerStrings.DESCRIPTIONS[1] + this.amount + powerStrings.DESCRIPTIONS[2];
+        }
     }
 
-    @Override
     public void onUseCard(AbstractCard card, UseCardAction action) {
-        super.onUseCard(card, action);
-        if(card.type == AbstractCard.CardType.ATTACK){
-            if(!AbstractDungeon.player.hasPower(UpgradedManaEnhancePower.POWER_ID))
-            addToTop(new ReducePowerAction(this.owner,this.owner,ManaEnhancePower.POWER_ID,1));
+        if (card.type == AbstractCard.CardType.ATTACK && !card.purgeOnUse && this.amount > 0) {
+            flash();
+            this.amount--;
+            if (this.amount == 0)
+                addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, ManaEnhancePower.POWER_ID));
         }
     }
 
-    public static int changeCost(int cost){
-        int newCost = cost;
-        if(newCost > 0) {
-            newCost -=1;
-        }
-        return newCost;
-    }
 
     public void atStartOfTurn() {
         addToBot(new RemoveSpecificPowerAction(AbstractDungeon.player, AbstractDungeon.player, ManaEnhancePower.POWER_ID));

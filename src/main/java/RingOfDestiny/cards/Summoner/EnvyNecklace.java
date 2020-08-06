@@ -25,6 +25,7 @@ public class EnvyNecklace extends AbstractSummonerCard {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.magicNumber = this.baseMagicNumber = 2;
         this.tags.add(CustomTagsEnum.SoleUncommon);
+        this.tags.add(CustomTagsEnum.SoleCard);
         this.cardsToPreview = new PowerOfEnvy();
 
 

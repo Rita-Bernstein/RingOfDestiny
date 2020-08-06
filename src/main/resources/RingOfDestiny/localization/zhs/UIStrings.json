@@ -59,7 +59,7 @@
     ],
     "EXTRA_TEXT": [
       " #y暴虐 ： NL 魔王存在时，玩家每打出一张 #y攻击牌 ，魔王将对随机敌人造成伤害。 NL NL ",
-      " #y魔界霸权 ：（长按献祭） NL 魔王献祭后，每回合开始时手牌中的随机一张攻击牌本回合耗能为零。"
+      " #y魔界霸权 ：（长按献祭） NL 魔王献祭后，每回合开始时手牌中的随机一张 #y攻击牌 本回合耗能为零。"
     ]
   },
   "RingOfDestiny:Succubus": {
@@ -108,6 +108,15 @@
   "RingOfDestiny:ScepterOfGluttonyAction": {
     "TEXT": [
       "将牌的耗能本回合变为0"
+    ]
+  },
+  "RingOfDestiny:SubEnergy": {
+    "TEXT": [
+      "傲娇"
+    ],
+    "EXTRA_TEXT": [
+      "你当前的傲娇。打出黑暗卡牌需要傲娇。",
+      "点击使用 [E] 进入 #y黑暗形态 。"
     ]
   }
 }

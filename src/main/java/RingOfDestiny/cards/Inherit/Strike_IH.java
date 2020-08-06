@@ -1,6 +1,7 @@
 package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
@@ -27,6 +28,7 @@ public class Strike_IH extends AbstractInheritCard {
 
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		addToBot(new DamageAction(m,new DamageInfo(p, this.damage, this.damageTypeForTurn),AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+		addToBot(new UseSubEnergyAction(1));
 			}
 
 	public AbstractCard makeCopy() {
