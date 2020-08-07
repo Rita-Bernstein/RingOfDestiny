@@ -38,7 +38,7 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
     protected static final Texture soulStoneOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Summoner/512/card_lime_orb2.png");
     protected static final Color soulStoneOrbRenderColor = Color.WHITE.cpy();
 
-    public AbstractSummonerCard(String id, String img, int cost,CardType type,  CardRarity rarity, CardTarget target) {
+    public AbstractSummonerCard(String id, String img, int cost, CardType type, CardRarity rarity, CardTarget target) {
         super(id, CardCrawlGame.languagePack.getCardStrings(id).NAME, img, cost, CardCrawlGame.languagePack.getCardStrings(id).DESCRIPTION, type,
                 CardColorEnum.Summoner_LIME, rarity, target);
 
@@ -53,32 +53,32 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
 
     @Override
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        if (hasEnoughSoulStone(1) && this.hasTag(CustomTagsEnum.Soul_Stone)) {
+        if (this.hasTag(CustomTagsEnum.Soul_Stone) && cardPlayable(m) && hasEnoughSoulStone(1)) {
             return true;
-        }else {
+        } else {
             return super.canUse(p, m);
         }
     }
 
 
     @SpireOverride
-    protected void renderEnergy(SpriteBatch sb){
-        if(this.hasTag(CustomTagsEnum.Soul_Stone)){
+    protected void renderEnergy(SpriteBatch sb) {
+        if (this.hasTag(CustomTagsEnum.Soul_Stone)) {
             soulStoneRenderHelper(sb, soulStoneOrbRenderColor, soulStoneOrb, this.current_x, this.current_y);
-        }else {
+        } else {
             SpireSuper.call(sb);
         }
     }
 
-    protected int getCurrentSoulStone(){
+    protected int getCurrentSoulStone() {
         return EnergyPanelRenderPatches.PatchEnergyPanelField.soulStone.get(AbstractDungeon.overlayMenu.energyPanel).soulStoneAmount;
     }
 
-    protected boolean hasEnoughSoulStone(int amount){
-       return hasEnoughSoulStone(amount,false);
+    protected boolean hasEnoughSoulStone(int amount) {
+        return hasEnoughSoulStone(amount, false);
     }
 
-    protected boolean hasEnoughSoulStone(int amount,boolean soulStoneFreeToPlay){
+    protected boolean hasEnoughSoulStone(int amount, boolean soulStoneFreeToPlay) {
         if (AbstractDungeon.actionManager.turnHasEnded) {
             this.cantUseMessage = TEXT[9];
             return false;
@@ -123,7 +123,7 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
     }
 
 
-    protected int getCurrentSummonDamage(){
+    protected int getCurrentSummonDamage() {
         return SummonPatches.AbstractPlayerSummonField.summon.get(AbstractDungeon.player).damage;
     }
 

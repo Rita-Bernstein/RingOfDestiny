@@ -39,30 +39,6 @@ public class SwitchFormAction extends AbstractGameAction {
 
 
             EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).switchForm(switchToDark,changeForFree);
-
-            for(AbstractCard card : AbstractDungeon.player.hand.group){
-                if(card instanceof AbstractInheritCard){
-                    ((AbstractInheritCard)card).initializeForm(switchToDark);
-                }
-            }
-
-            for(AbstractCard card : AbstractDungeon.player.discardPile.group){
-                if(card instanceof AbstractInheritCard){
-                    ((AbstractInheritCard)card).initializeForm(switchToDark);
-                }
-            }
-
-            for(AbstractCard card : AbstractDungeon.player.drawPile.group){
-                if(card instanceof AbstractInheritCard){
-                    ((AbstractInheritCard)card).initializeForm(switchToDark);
-                }
-            }
-
-            for(AbstractCard card : AbstractDungeon.player.exhaustPile.group){
-                if(card instanceof AbstractInheritCard){
-                    ((AbstractInheritCard)card).initializeForm(switchToDark);
-                }
-            }
         }
         tickDuration();
     }

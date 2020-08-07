@@ -20,10 +20,14 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.helpers.TipHelper;
 import com.megacrit.cardcrawl.relics.PrismaticShard;
 import com.megacrit.cardcrawl.shop.ShopScreen;
 import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 import com.megacrit.cardcrawl.vfx.RefreshEnergyEffect;
+import javassist.CannotCompileException;
+import javassist.expr.ExprEditor;
+import javassist.expr.MethodCall;
 
 import java.lang.reflect.Constructor;
 
@@ -121,8 +125,8 @@ public class SubEnergyVfxPatches {
             if (EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel)) {
                 AbstractDungeon.effectsQueue.add(
                         new RefreshEnergyBetterEffect(
-                                AbstractDungeon.overlayMenu.energyPanel.current_x - 50.0f * Settings.scale,
-                                AbstractDungeon.overlayMenu.energyPanel.current_y - 50.0f * Settings.scale,
+                                AbstractDungeon.overlayMenu.energyPanel.current_x + SubEnergy.orbFix_x,
+                                AbstractDungeon.overlayMenu.energyPanel.current_y + SubEnergy.orbFix_y,
                                 SubEnergy.imgScale * 2.0f));
             }
             return SpireReturn.Continue();
@@ -140,8 +144,8 @@ public class SubEnergyVfxPatches {
             if (EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel)) {
                 AbstractDungeon.effectsQueue.add(
                         new RefreshEnergyBetterEffect(
-                                AbstractDungeon.overlayMenu.energyPanel.current_x - 50.0f * Settings.scale,
-                                AbstractDungeon.overlayMenu.energyPanel.current_y - 50.0f * Settings.scale,
+                                AbstractDungeon.overlayMenu.energyPanel.current_x + SubEnergy.orbFix_x,
+                                AbstractDungeon.overlayMenu.energyPanel.current_y + SubEnergy.orbFix_y,
                                 SubEnergy.imgScale * 2.0f));
             }
             return SpireReturn.Continue();
@@ -158,9 +162,9 @@ public class SubEnergyVfxPatches {
         public static SpireReturn<Void> Prefix(EnergyPanel _instance, SpriteBatch sb) {
             totalCountSaved = EnergyPanel.totalCount;
             if (EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel)) {
-                if (EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(_instance).totalCount > 0){
+                if (EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(_instance).totalCount > 0) {
                     EnergyPanel.totalCount = 1;
-                }else {
+                } else {
                     EnergyPanel.totalCount = 0;
                 }
 
@@ -181,6 +185,31 @@ public class SubEnergyVfxPatches {
             return SpireReturn.Continue();
         }
     }
+
+    @SpirePatch(
+            clz = EnergyPanel.class,
+            method = "render"
+    )
+    public static class renderTextPatch {
+        public static ExprEditor Instrument() {
+            return new ExprEditor() {
+                @Override
+                public void edit(MethodCall m) throws CannotCompileException {
+                    if (m.getClassName().equals(TipHelper.class.getName())  && m.getMethodName().equals("renderGenericTip")) {
+                        m.replace(
+                                "if(" + EnergyPanelRenderPatches.PatchEnergyPanelField.class.getName() + ".isInDarkCpy){"
+                                +   "$proceed($1, $2, " + SubEnergy.class.getName()  + ".NAME ," + SubEnergy.class.getName() + ".DESCRIPTION);"
+                                +"} else {"
+                                +     "$proceed($$);"
+                                +"}"
+
+                        );
+                    }
+                }
+            };
+        }
+    }
+
 }
 
 

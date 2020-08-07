@@ -2,27 +2,31 @@ package RingOfDestiny.cards;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.AddSubEnergyAction;
-import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
+
 import RingOfDestiny.helpers.SubEnergyModifier;
 import RingOfDestiny.patches.CardColorEnum;
-import RingOfDestiny.patches.CustomTagsEnum;
+
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
-import basemod.abstracts.CustomCard;
+
 import basemod.helpers.CardModifierManager;
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireOverride;
+import com.evacipated.cardcrawl.modthespire.lib.SpireSuper;
 import com.megacrit.cardcrawl.blights.AbstractBlight;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
-import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
-
-import java.util.ArrayList;
 
 
 public abstract class AbstractInheritCard extends AbstractRingCard {
@@ -36,12 +40,24 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     protected String imgPath;
     protected String imgSubPath;
 
+    private static final Color ENERGY_COST_RESTRICTED_COLOR = new Color(1.0F, 0.3F, 0.3F, 1.0F);
+    private static final Color ENERGY_COST_MODIFIED_COLOR = new Color(0.4F, 1.0F, 0.4F, 1.0F);
     protected static final String subEnergyCantUseMessage = CardCrawlGame.languagePack.getUIString(RingOfDestiny.makeID("SubEnergy")).EXTRA_TEXT[2];
     protected static final String[] oriCantUseMessage = CardCrawlGame.languagePack.getUIString("SingleCardViewPopup").TEXT;
 
     public boolean isDark = false;
-    public int subCost;
     private int subGain;
+
+    public int subCost;
+    public int subCostForTurn;
+    public boolean isSubCostModified;
+    public boolean isSubCostModifiedForTurn;
+    public boolean upgradedSubCost;
+
+    protected static final Texture darkOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb2.png");
+    protected static final Texture subGainOrb = ImageMaster.loadImage("RingOfDestiny/img/ui/topPanel/Inherit/tsundere.png");
+    protected static final float subGainOrbScale = 1.8f;
+    protected static final Color drakOrbRenderColor = Color.WHITE.cpy();
 
     public AbstractInheritCard(String id, String img, int cost, CardType type, CardRarity rarity, CardTarget target, String imgSubPath, boolean currentFormIsDark, int subGain) {
         super(id, CardCrawlGame.languagePack.getCardStrings(id).NAME, img, cost, CardCrawlGame.languagePack.getCardStrings(id).DESCRIPTION, type,
@@ -54,7 +70,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         initializeForm(currentFormIsDark);
         initializeTitle();
         initializeDescription();
-        autoGetSubCost(cost);
+        initializeSubCost(cost);
         CardModifierManager.addModifier(this, new SubEnergyModifier());
     }
 
@@ -65,6 +81,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if (isDark) {
+//            addToBot(new UseSubEnergyAction(this.subCost));
             cardEffect2(p, m);
         } else {
             addToBot(new AddSubEnergyAction(this.subGain));
@@ -85,12 +102,12 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         reinitializeDescription();
     }
 
-    public void reloadCardIMG(boolean isDark){
-        if(isDark){
-            setOrbTexture("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb2.png","RingOfDestiny/img/cardui/Inherit/1024/card_lime_orb2.png");
+    public void reloadCardIMG(boolean isDark) {
+        if (isDark) {
+//            setOrbTexture("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb2.png", "RingOfDestiny/img/cardui/Inherit/1024/card_lime_orb2.png");
             loadCardImage(imgSubPath);
-        }else {
-            setOrbTexture("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb.png","RingOfDestiny/img/cardui/Inherit/1024/card_lime_orb.png");
+        } else {
+//            setOrbTexture("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb.png", "RingOfDestiny/img/cardui/Inherit/1024/card_lime_orb.png");
             loadCardImage(imgPath);
         }
 
@@ -109,10 +126,10 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         EXTENDED_DESCRIPTION = cardStrings.EXTENDED_DESCRIPTION;
 
         this.name = NAME;
-        if (upgraded){
+        if (upgraded) {
             upgradeName();
             this.rawDescription = getUpgradeDescription();
-        }else {
+        } else {
             this.rawDescription = cardStrings.DESCRIPTION;
         }
 
@@ -120,27 +137,30 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         initializeDescription();
     }
 
-    protected String getUpgradeDescription(){
+    protected String getUpgradeDescription() {
         return DESCRIPTION;
     }
 
-    public int getSubCost() {
+    public int getSubTotalCount() {
         return EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).totalCount;
+    }
+
+    public void initializeSubCost(int cost) {
+        isSubCostModified = false;
+        isSubCostModifiedForTurn = false;
+        upgradedSubCost = false;
+        autoGetSubCost(cost);
+        subCostForTurn = subCost;
+    }
+
+    public void reinitializeSubCost(int cost) {
+        subCost = subCostForTurn = cost;
     }
 
     public void autoGetSubCost(int cost) {
         this.subCost = cost * 2;
     }
 
-    @Override
-    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        if (isDark && hasEnoughSubEnergy(this.subCost)) {
-            return true;
-        } else {
-            return super.canUse(p, m);
-        }
-
-    }
 
     @Override
     public void render(SpriteBatch sb) {
@@ -149,12 +169,8 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
 
 
     public boolean hasEnoughSubEnergy(int amount) {
-        return hasEnoughSubEnergy(amount, false);
-    }
-
-    public boolean hasEnoughSubEnergy(int amount, boolean subEnergyFreeToPlay) {
         if (AbstractDungeon.actionManager.turnHasEnded) {
-            this.cantUseMessage = TEXT[9];
+            this.cantUseMessage = oriCantUseMessage[9];
             return false;
         }
 
@@ -188,7 +204,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
             }
         }
 
-        if (getSubCost() >= amount || this.isInAutoplay || subEnergyFreeToPlay) {
+        if (getSubTotalCount() >= subCostForTurn || this.isInAutoplay || freeToPlay()) {
             return true;
         }
 
@@ -196,5 +212,185 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         return false;
     }
 
+
+    @Override
+    public void displayUpgrades() {
+        super.displayUpgrades();
+
+        if (upgradedSubCost) {
+            isSubCostModified = true;
+        }
+    }
+
+    @Override
+    protected void upgradeBaseCost(int newBaseCost) {
+        super.upgradeBaseCost(newBaseCost);
+        int diff = this.subCostForTurn - this.subCost;
+        this.subCost = newBaseCost * 2;
+
+        if (this.subCostForTurn > 0) {
+            this.subCostForTurn = this.subCost + diff;
+        }
+        if (this.subCostForTurn < 0) {
+            this.subCostForTurn = 0;
+        }
+        this.upgradedSubCost = true;
+    }
+
+    protected void upgradeBaseSubCost(int newBaseCost) {
+        int diff = this.subCostForTurn - this.subCost;
+        this.subCost = newBaseCost * 2;
+
+        if (this.subCostForTurn > 0) {
+            this.subCostForTurn = this.subCost + diff;
+        }
+        if (this.subCostForTurn < 0) {
+            this.subCostForTurn = 0;
+        }
+        this.upgradedSubCost = true;
+    }
+
+    @Override
+    public AbstractCard makeStatEquivalentCopy() {
+        AbstractInheritCard card = (AbstractInheritCard) super.makeStatEquivalentCopy();
+        card.subCost = this.subCost;
+        card.subCostForTurn = this.subCostForTurn;
+        card.isSubCostModified = this.isSubCostModified;
+        card.isSubCostModifiedForTurn = this.isSubCostModifiedForTurn;
+        return card;
+    }
+
+    @Override
+    public void updateCost(int amt) {
+        super.updateCost(amt);
+
+        int tmpCost = this.subCost;
+        int diff = this.subCost - this.subCostForTurn;
+
+        tmpCost += amt * 2;
+        if (tmpCost < 0) {
+            tmpCost = 0;
+        }
+
+        if (tmpCost != this.cost) {
+            this.isSubCostModified = true;
+            this.subCost = tmpCost;
+            this.subCostForTurn = this.cost - diff;
+
+            if (this.subCostForTurn < 0) {
+                this.subCostForTurn = 0;
+            }
+        }
+    }
+
+    @Override
+    public void setCostForTurn(int amt) {
+        super.setCostForTurn(amt);
+        if (this.subCostForTurn >= 0) {
+            this.subCostForTurn = amt * 2;
+            if (this.subCostForTurn < 0) {
+                this.subCostForTurn = 0;
+            }
+
+            if (this.subCostForTurn != this.subCost) {
+                this.isSubCostModifiedForTurn = true;
+            }
+        }
+    }
+
+    @Override
+    public void modifyCostForCombat(int amt) {
+        super.modifyCostForCombat(amt);
+        if (this.subCostForTurn > 0) {
+            this.subCostForTurn += amt * 2;
+            if (this.subCostForTurn < 0) {
+                this.subCostForTurn = 0;
+            }
+
+            if (this.subCost != this.subCostForTurn) {
+                this.isSubCostModified = true;
+            }
+            this.subCost = this.subCostForTurn;
+        } else if (this.subCost >= 0) {
+            this.subCost += amt * 2;
+            if (this.subCost < 0) {
+                this.subCost = 0;
+            }
+            this.subCostForTurn = 0;
+            if (this.subCost != this.subCostForTurn) {
+                this.isSubCostModified = true;
+            }
+        }
+    }
+
+
+    @SpireOverride
+    protected void renderEnergy(SpriteBatch sb) {
+        if (this.isDark) {
+            if (this.subCost <= -2 || this.isLocked || !this.isSeen) {
+                return;
+            }
+
+
+            darkOrbRenderHelper(sb, drakOrbRenderColor, darkOrb, this.current_x, this.current_y);
+
+            Color costColor = Color.WHITE.cpy();
+            if (AbstractDungeon.player != null && AbstractDungeon.player.hand.contains(this) && !hasEnoughSubEnergy(this.subCostForTurn)) {
+                costColor = ENERGY_COST_RESTRICTED_COLOR;
+            } else if (this.isSubCostModified || this.isSubCostModifiedForTurn || freeToPlay()) {
+                costColor = ENERGY_COST_MODIFIED_COLOR;
+            }
+            costColor.a = this.transparency;
+
+            String text = getSubCost();
+            BitmapFont font = getEnergyFont();
+
+            if ((this.type != CardType.STATUS || this.cardID.equals("Slimed")) && (this.color != CardColor.CURSE || this.cardID.equals("Pride"))) {
+                FontHelper.renderRotatedText(sb, font, text, this.current_x, this.current_y, -132.0F * this.drawScale * Settings.scale, 192.0F * this.drawScale * Settings.scale, this.angle, false, costColor);
+            }
+
+
+        } else {
+            for (int i = 1; i <= subGain; i++) {
+                subGainOrbRenderHelper(sb,
+                        -70.0f,
+                        95.0f - i * 20.0f
+                );
+            }
+
+            SpireSuper.call(sb);
+        }
+    }
+
+
+    protected void darkOrbRenderHelper(SpriteBatch sb, Color color, Texture img, float drawX, float drawY) {
+        sb.setColor(color);
+        sb.draw(img, drawX - 256.0F, drawY - 256.0F, 256.0F, 256.0F, 512.0F, 512.0F, this.drawScale * Settings.scale, this.drawScale * Settings.scale, this.angle, 0, 0, 512, 512, false, false);
+    }
+
+    protected void subGainOrbRenderHelper(SpriteBatch sb, float posX, float posY) {
+        sb.setColor(drakOrbRenderColor);
+        float length = (float) Math.sqrt(posX * posX + posY * posY);
+        float angleFinal = (float) Math.toRadians(this.angle + 180.0f - (float) Math.toDegrees(Math.sinh(posY / length)));
+        float drawX = this.current_x + length * (float) Math.cos(angleFinal) * this.drawScale * Settings.scale * subGainOrbScale;
+        float drawY = this.current_y + length * (float) Math.sin(angleFinal) * this.drawScale * Settings.scale * subGainOrbScale;
+
+
+        sb.draw(subGainOrb, drawX - 7.0F, drawY - 7.0F, 7.0F, 7.0F, 14.0F, 14.0F, this.drawScale * Settings.scale * subGainOrbScale, this.drawScale * Settings.scale * subGainOrbScale, this.angle, 0, 0, 14, 14, false, false);
+    }
+
+    protected String getSubCost() {
+        if (this.subCost == -1)
+            return "X";
+        if (freeToPlay()) {
+            return "0";
+        }
+        return Integer.toString(this.subCostForTurn);
+    }
+
+    private BitmapFont getEnergyFont() {
+        FontHelper.cardEnergyFont_L.getData().setScale(this.drawScale);
+        return FontHelper.cardEnergyFont_L;
+    }
 
 }
