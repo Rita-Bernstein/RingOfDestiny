@@ -851,12 +851,12 @@
   },
   "RingOfDestiny:Pray2": {
     "NAME": "魔咒",
-    "DESCRIPTION": "从1到 !M! 随机化手牌本回合的 ring_of_destiny:傲娇 。"
+    "DESCRIPTION": "从1到 !M! 随机手牌本回合 ring_of_destiny:傲娇 。"
   },
   "RingOfDestiny:ForbiddenBook2": {
     "NAME": "堕落魔典",
-    "DESCRIPTION": "获得一张 *堕落打击 。获得两张 *祭品 。",
-    "UPGRADE_DESCRIPTION": "获得一张 *堕落打击+ 。获得两张 *祭品 。"
+    "DESCRIPTION": "获得一张 *堕落打击 。 NL 获得两张 *血祭 。",
+    "UPGRADE_DESCRIPTION": "获得一张 *堕落打击+ 。 NL 获得两张 *血祭 。"
   },
   "RingOfDestiny:HolyInterweaving2": {
     "NAME": "邪恶弥漫",
@@ -872,7 +872,7 @@
   },
   "RingOfDestiny:BathingInGrace2": {
     "NAME": "深渊预言",
-    "DESCRIPTION": "抽 !M! 张牌。获得 !M! 张 *祭品 。 NL 消耗 。"
+    "DESCRIPTION": "抽 !M! 张牌。获得 !M! 张 *血祭 。 NL 消耗 。"
   },
   "RingOfDestiny:Aerostigmata2": {
     "NAME": "毁灭冲击",
@@ -960,7 +960,7 @@
   },
   "RingOfDestiny:HolyPressure2": {
     "NAME": "寂灭",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。获得 !M! 张 *祭品 。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。获得 !M! 张 *血祭 。 NL 消耗 。"
   },
   "RingOfDestiny:SwordShield2": {
     "NAME": "攻守兼备",
@@ -1072,12 +1072,12 @@
   },
   "RingOfDestiny:Pray": {
     "NAME": "祷告",
-    "DESCRIPTION": "获得 [E] [E] [E] ,从0到 !M! 随机化手牌本回合的耗能。"
+    "DESCRIPTION": "获得 [E] [E] [E] ,从0到 !M! 随机手牌本回合耗能。"
   },
   "RingOfDestiny:ForbiddenBook": {
     "NAME": "禁断之书",
-    "DESCRIPTION": "获得一张 *禁断打击 。获得两张 *祭品 。",
-    "UPGRADE_DESCRIPTION": "获得一张 *禁断打击+ 。获得两张 *祭品 。"
+    "DESCRIPTION": "获得一张 *禁断打击 。 NL 获得两张 *血祭 。",
+    "UPGRADE_DESCRIPTION": "获得一张 *禁断打击+ 。 NL 获得两张 *血祭 。"
   },
   "RingOfDestiny:HolyInterweaving": {
     "NAME": "圣光交织",
@@ -1093,7 +1093,7 @@
   },
   "RingOfDestiny:BathingInGrace": {
     "NAME": "沐浴圣恩",
-    "DESCRIPTION": "抽 !M! 张牌。获得 !M! 张 *祭品 。"
+    "DESCRIPTION": "抽 !M! 张牌。获得 !M! 张 *血祭 。"
   },
   "RingOfDestiny:Aerostigmata": {
     "NAME": "破风圣痕",
@@ -1181,7 +1181,7 @@
   },
   "RingOfDestiny:HolyPressure": {
     "NAME": "天谴",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。获得 !M! 张 *祭品 。 NL 消耗 。"
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。获得 !M! 张 *血祭 。 NL 消耗 。"
   },
   "RingOfDestiny:SwordShield": {
     "NAME": "剑盾猛攻",
@@ -1552,8 +1552,8 @@
     "NAME": "锁链战刃",
     "DESCRIPTION": "造成 !D! 点伤害。本场战斗造成伤害减少 !M! ，如果造成了未被 格挡 的伤害且伤害不为零时返回手牌。"
   },
-  "RingOfDestiny:Offering": {
-    "NAME": "祭品",
+  "RingOfDestiny:BloodSacrifice": {
+    "NAME": "血祭",
     "DESCRIPTION": "不能被打出 。如果这张牌被丢弃，获得 !M! 点 ring_of_destiny:傲娇 。"
   },
   "RingOfDestiny:Venom": {

@@ -444,6 +444,10 @@ public class RingOfDestiny
         cards.add(new Strike_IH());
         cards.add(new Defend_IH());
         cards.add(new FairJudgement());
+        cards.add(new HonourJudgement());
+        cards.add(new ForbiddenStrike());
+        cards.add(new Pray());
+        cards.add(new ForbiddenBook());
 
 
 

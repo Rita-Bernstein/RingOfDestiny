@@ -18,12 +18,13 @@ public class Strike_IH extends AbstractInheritCard {
     public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/54.png");
     private static final int COST = 1;
     private static final int SUB_GAIN = 1;
+    private static final int SUB_GAIN2 = 0;
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public Strike_IH(boolean isDark) {
-        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN);
+        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN,SUB_GAIN2);
 
         this.baseDamage = 7;
         this.tags.add(CardTags.STARTER_STRIKE);

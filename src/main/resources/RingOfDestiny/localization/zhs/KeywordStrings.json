@@ -110,5 +110,12 @@
       "定罪"
     ],
     "DESCRIPTION": " #y定罪 降低生命回复效果。"
+  },
+  {
+    "PROPER_NAME": "傲娇",
+    "NAMES": [
+      "傲娇"
+    ],
+    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y傲娇 。"
   }
 ]

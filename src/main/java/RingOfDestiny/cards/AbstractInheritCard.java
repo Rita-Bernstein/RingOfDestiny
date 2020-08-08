@@ -47,6 +47,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
 
     public boolean isDark = false;
     public int subGain;
+    public int subGain2;
 
     public int subCost;
     public int subCostForTurn;
@@ -59,7 +60,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     protected static final float subGainOrbScale = 1.8f;
     protected static final Color drakOrbRenderColor = Color.WHITE.cpy();
 
-    public AbstractInheritCard(String id, String img, int cost, CardType type, CardRarity rarity, CardTarget target, String imgSubPath, boolean currentFormIsDark, int subGain) {
+    public AbstractInheritCard(String id, String img, int cost, CardType type, CardRarity rarity, CardTarget target, String imgSubPath, boolean currentFormIsDark, int subGain, int subGain2) {
         super(id, CardCrawlGame.languagePack.getCardStrings(id).NAME, img, cost, CardCrawlGame.languagePack.getCardStrings(id).DESCRIPTION, type,
                 CardColorEnum.Inherit_LIME, rarity, target);
 
@@ -69,6 +70,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         this.imgSubPath = imgSubPath;
 
         this.subGain = subGain;
+        this.subGain2 = subGain2;
         initializeNumber();
         initializeForm(currentFormIsDark);
         initializeTitle();
@@ -78,15 +80,15 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     }
 
     public AbstractInheritCard(String id, String img, int cost, CardType type, CardRarity rarity, CardTarget target) {
-        this(id, img, cost, type, rarity, target, "RingOfDestiny/img/cards/Inherit/01.png", false, 0);
+        this(id, img, cost, type, rarity, target, "RingOfDestiny/img/cards/Inherit/01.png", false, 0, 0);
     }
 
-    public Texture getLargeCardIMG(String img){
+    public Texture getLargeCardIMG(String img) {
         int endingIndex = img.lastIndexOf(".");
         return ImageMaster.loadImage(img.substring(0, endingIndex) + "_p" + img.substring(endingIndex));
     }
 
-    protected void initializeNumber(){
+    protected void initializeNumber() {
         if (isDark) {
             initializeNumber2();
         } else {
@@ -94,11 +96,11 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         }
     }
 
-    protected void initializeNumber1(){
+    protected void initializeNumber1() {
 
     }
 
-    protected void initializeNumber2(){
+    protected void initializeNumber2() {
 
     }
 
@@ -106,7 +108,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if (isDark) {
-//            addToBot(new UseSubEnergyAction(this.subCost));
+            addToBot(new AddSubEnergyAction(this.subGain2));
             cardEffect2(p, m);
         } else {
             addToBot(new AddSubEnergyAction(this.subGain));
@@ -132,10 +134,10 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         }
     }
 
-    protected void upgrade1(){
+    protected void upgrade1() {
     }
 
-    protected void upgrade2(){
+    protected void upgrade2() {
     }
 
     public void initializeForm(boolean isDark) {
@@ -319,6 +321,15 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         card.initializeTitle();
         card.initializeDescription();
 
+        AbstractInheritCard cardForPreview;
+        if (isDark) {
+            cardForPreview = getCardToPreview1();
+        } else {
+            cardForPreview = getCardToPreview2();
+        }
+        if (cardForPreview != null)
+            card.cardsToPreview = cardForPreview;
+
         card.subCost = this.subCost;
         card.subCostForTurn = this.subCostForTurn;
         card.isSubCostModified = this.isSubCostModified;
@@ -331,6 +342,14 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         card.isAnotherDamage = this.isAnotherDamage;
         card.isDestructive = this.isDestructive;
         return card;
+    }
+
+    public AbstractInheritCard getCardToPreview1() {
+        return null;
+    }
+
+    public AbstractInheritCard getCardToPreview2() {
+        return null;
     }
 
     @Override
@@ -422,6 +441,13 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
                 FontHelper.renderRotatedText(sb, font, text, this.current_x, this.current_y, -132.0F * this.drawScale * Settings.scale, 192.0F * this.drawScale * Settings.scale, this.angle, false, costColor);
             }
 
+
+            for (int i = 1; i <= subGain2; i++) {
+                subGainOrbRenderHelper(sb,
+                        -75.0f,
+                        95.0f - i * 20.0f
+                );
+            }
 
         } else {
             for (int i = 1; i <= subGain; i++) {

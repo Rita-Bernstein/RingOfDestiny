@@ -16,13 +16,14 @@ public class Defend_IH extends AbstractInheritCard {
     public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/55.png");
     private static final int COST = 1;
     private static final int SUB_GAIN = 1;
+    private static final int SUB_GAIN2 = 0;
     public static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.SELF;
 
 
     public Defend_IH(boolean isDark) {
-        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN);
+        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN,SUB_GAIN2);
         this.baseBlock = 6;
         this.tags.add(CardTags.STARTER_DEFEND);
     }
