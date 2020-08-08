@@ -25,7 +25,7 @@
     "NAMES": [
       "宣判"
     ],
-    "DESCRIPTION": "消除敌人一定层数的 #y定罪 。敌人身上每缺少1层 ring_of_destiny:定罪 ，造成伤害次数减少1。"
+    "DESCRIPTION": "消除敌人一定层数的 #y定罪 来提高攻击次数。"
   },
   {
     "PROPER_NAME": "击杀",
@@ -103,5 +103,12 @@
       "损毁"
     ],
     "DESCRIPTION": "战斗结束前从牌堆中暂时移除，并 #r不会 放入消耗堆"
+  },
+  {
+    "PROPER_NAME": "定罪",
+    "NAMES": [
+      "定罪"
+    ],
+    "DESCRIPTION": " #y定罪 降低生命回复效果。"
   }
 ]

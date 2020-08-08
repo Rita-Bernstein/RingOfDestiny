@@ -443,6 +443,7 @@ public class RingOfDestiny
 // ======================传承天使
         cards.add(new Strike_IH());
         cards.add(new Defend_IH());
+        cards.add(new FairJudgement());
 
 
 

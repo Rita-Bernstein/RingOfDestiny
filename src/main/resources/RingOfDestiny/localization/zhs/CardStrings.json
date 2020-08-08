@@ -839,7 +839,7 @@
   },
   "RingOfDestiny:FairJudgement2": {
     "NAME": "扭曲浩劫",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 ring_of_destiny:宣判 1。"
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 ring_of_destiny:宣判 1。 消耗 。"
   },
   "RingOfDestiny:HonourJudgement2": {
     "NAME": "恐惧浩劫",

@@ -126,6 +126,8 @@ public class Inherit extends CustomPlayer {
         retVal.add(Defend_IH.ID);
         retVal.add(Defend_IH.ID);
 
+        retVal.add(FairJudgement.ID);
+        retVal.add(FairJudgement.ID);
 
         return retVal;
     }

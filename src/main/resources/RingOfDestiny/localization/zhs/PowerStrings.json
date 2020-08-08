@@ -473,5 +473,12 @@
       "每 #y使用 一颗 #y灵魂石 ，获得 #b",
       " [E] 。"
     ]
+  },
+  "RingOfDestiny:ConvictionPower": {
+    "NAME": "定罪",
+    "DESCRIPTIONS": [
+      "降低生命回复效果 #b",
+      " 点。"
+    ]
   }
 }

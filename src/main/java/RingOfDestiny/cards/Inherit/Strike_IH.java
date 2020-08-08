@@ -3,11 +3,13 @@ package RingOfDestiny.cards.Inherit;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
+import RingOfDestiny.patches.EnergyPanelRenderPatches;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class Strike_IH extends AbstractInheritCard {
@@ -43,9 +45,14 @@ public class Strike_IH extends AbstractInheritCard {
     }
 
     public AbstractCard makeCopy() {
-        return new Strike_IH();
+        if (AbstractDungeon.player == null) {
+            return new Strike_IH();
+        } else {
+            return new Strike_IH(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDarkCpy);
+        }
     }
 
+    @Override
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();

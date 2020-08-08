@@ -3,6 +3,7 @@ package RingOfDestiny.cards.Inherit;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.AddSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
+import RingOfDestiny.patches.EnergyPanelRenderPatches;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -21,12 +22,12 @@ public class Defend_IH extends AbstractInheritCard {
 
 
     public Defend_IH(boolean isDark) {
-        super(ID, IMG, COST, TYPE, RARITY, TARGET,SUB_IMG,isDark,SUB_GAIN);
+        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN);
         this.baseBlock = 6;
         this.tags.add(CardTags.STARTER_DEFEND);
     }
 
-    public Defend_IH(){
+    public Defend_IH() {
         this(false);
     }
 
@@ -42,9 +43,14 @@ public class Defend_IH extends AbstractInheritCard {
     }
 
     public AbstractCard makeCopy() {
-        return new Defend_IH();
+        if (AbstractDungeon.player == null) {
+            return new Defend_IH();
+        } else {
+            return new Defend_IH(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDarkCpy);
+        }
     }
 
+    @Override
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
