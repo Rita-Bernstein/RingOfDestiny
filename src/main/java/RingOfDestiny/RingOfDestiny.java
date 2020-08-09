@@ -448,6 +448,8 @@ public class RingOfDestiny
         cards.add(new ForbiddenStrike());
         cards.add(new Pray());
         cards.add(new ForbiddenBook());
+        cards.add(new HolyInterweaving());
+        cards.add(new HolyStrike());
 
 
         cards.add(new BloodSacrifice());
