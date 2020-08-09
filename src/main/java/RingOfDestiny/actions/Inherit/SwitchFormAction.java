@@ -22,6 +22,10 @@ public class SwitchFormAction extends AbstractGameAction {
         this.duration = Settings.ACTION_DUR_FAST;
     }
 
+    public SwitchFormAction(boolean changeForFree,boolean changToDark) {
+        this(changeForFree,false,changToDark);
+    }
+
     public SwitchFormAction() {
         this(false,false,false);
     }

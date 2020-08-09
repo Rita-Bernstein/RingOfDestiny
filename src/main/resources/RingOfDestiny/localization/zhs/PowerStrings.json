@@ -480,5 +480,12 @@
       "降低生命回复效果 #b",
       " 点。"
     ]
+  },
+  "RingOfDestiny:LoseMetallicizePower": {
+    "NAME": "失去金属化",
+    "DESCRIPTIONS": [
+      "在你的回合结束时，失去 #b",
+      " 点 #y金属化 。"
+    ]
   }
 }

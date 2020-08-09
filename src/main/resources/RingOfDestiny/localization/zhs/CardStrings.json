@@ -864,15 +864,15 @@
   },
   "RingOfDestiny:HolyStrike2": {
     "NAME": "深渊打击",
-    "DESCRIPTION": "虚无 。 NL 造成 !D! 点伤害。抽 !M! 张牌。"
+    "DESCRIPTION": "虚无 。 NL 造成 !D! 点伤害。 NL 抽 !M! 张牌。"
   },
   "RingOfDestiny:WeakenStrike2": {
     "NAME": "致伤打击",
-    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 易伤 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。"
   },
   "RingOfDestiny:BathingInGrace2": {
     "NAME": "深渊预言",
-    "DESCRIPTION": "抽 !M! 张牌。获得 !M! 张 *血祭 。 NL 消耗 。"
+    "DESCRIPTION": "抽 !M! 张牌。 NL 获得 !RODSecondM! 张 *血祭 。 NL 消耗 。"
   },
   "RingOfDestiny:Aerostigmata2": {
     "NAME": "毁灭冲击",
@@ -884,7 +884,7 @@
   },
   "RingOfDestiny:DevoutPray2": {
     "NAME": "幽暗咒语",
-    "DESCRIPTION": "获得 !B! 点 格挡 。抽一张牌。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 抽 !M! 张牌。"
   },
   "RingOfDestiny:HolyJustice2": {
     "NAME": "异端审判",
@@ -1085,15 +1085,15 @@
   },
   "RingOfDestiny:HolyStrike": {
     "NAME": "圣光打击",
-    "DESCRIPTION": "造成 !D! 点伤害。抽 !M! 张牌。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 !M! 张牌。"
   },
   "RingOfDestiny:WeakenStrike": {
     "NAME": "虚弱打击",
-    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 虚弱 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 。"
   },
   "RingOfDestiny:BathingInGrace": {
     "NAME": "沐浴圣恩",
-    "DESCRIPTION": "抽 !M! 张牌。获得 !M! 张 *血祭 。"
+    "DESCRIPTION": "抽 !M! 张牌。 NL 获得 !RODSecondM! 张 *血祭 。"
   },
   "RingOfDestiny:Aerostigmata": {
     "NAME": "破风圣痕",
@@ -1105,7 +1105,7 @@
   },
   "RingOfDestiny:DevoutPray": {
     "NAME": "虔诚祷言",
-    "DESCRIPTION": "获得 !B! 点 格挡 。丢弃一张牌。抽 !M! 张牌。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 丢弃一张牌。 NL 抽 !M! 张牌。"
   },
   "RingOfDestiny:HolyJustice": {
     "NAME": "神圣裁决",

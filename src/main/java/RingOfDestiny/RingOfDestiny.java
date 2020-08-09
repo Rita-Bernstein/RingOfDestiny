@@ -450,6 +450,13 @@ public class RingOfDestiny
         cards.add(new ForbiddenBook());
         cards.add(new HolyInterweaving());
         cards.add(new HolyStrike());
+        cards.add(new WeakenStrike());
+        cards.add(new BathingInGrace());
+        cards.add(new Aerostigmata());
+        cards.add(new ShimmerBarrier());
+        cards.add(new DevoutPray());
+        cards.add(new HolyJustice());
+        cards.add(new Villainous());
 
 
         cards.add(new BloodSacrifice());
