@@ -450,6 +450,9 @@ public class RingOfDestiny
         cards.add(new ForbiddenBook());
 
 
+        cards.add(new BloodSacrifice());
+
+
 
 
 // ======================

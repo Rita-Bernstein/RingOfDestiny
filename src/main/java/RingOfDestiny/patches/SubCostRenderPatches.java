@@ -55,7 +55,7 @@ public class SubCostRenderPatches {
                 Hitbox hb = SingleCardViewPopupField.switchHitbox.get(_instance);
 
                 float cX = Settings.WIDTH / 2.0F - 0.0f * Settings.scale;
-                float cY = Settings.HEIGHT / 2.0F - 370.0f * Settings.scale;
+                float cY = Settings.HEIGHT / 2.0F - 360.0f * Settings.scale;
 
                 hb.move(cX, cY);
 
@@ -69,13 +69,13 @@ public class SubCostRenderPatches {
                     hb.clicked = false;
                     c.initializeForm(!c.isDark);
 
-//                    try {
-//                        Method methodLoad = SingleCardViewPopup.class.getDeclaredMethod("loadPortraitImg");
-//                        methodLoad.setAccessible(true);
-//                        methodLoad.invoke(_instance);
-//                    } catch (Exception e) {
-//                        e.printStackTrace();
-//                    }
+                    try {
+                        Method methodLoad = SingleCardViewPopup.class.getDeclaredMethod("loadPortraitImg");
+                        methodLoad.setAccessible(true);
+                        methodLoad.invoke(_instance);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
 
                 }
 
@@ -167,16 +167,41 @@ public class SubCostRenderPatches {
             method = "renderPortrait"
     )
     public static class loadPortraitImgPatchA {
+        public static Texture largeImg = null;
 
         @SpireInsertPatch(rloc = 0, localvars = {"card"})
         public static SpireReturn<Void> Insert(SingleCardViewPopup _instance, SpriteBatch sb,
                                                @ByRef(type = "com.megacrit.cardcrawl.cards.AbstractCard") Object[] card) {
             if ((card[0] instanceof AbstractInheritCard)) {
                 AbstractInheritCard c = ((AbstractInheritCard) card[0]);
+                if (Settings.PLAYTESTER_ART_MODE || UnlockTracker.betaCardPref.getBoolean(c.cardID, false)) {
+                    return SpireReturn.Continue();
+                }else {
+                    sb.draw(largeImg, Settings.WIDTH / 2.0F - 250.0F, Settings.HEIGHT / 2.0F - 190.0F + 136.0F * Settings.scale, 250.0F, 190.0F, 500.0F, 380.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 500, 380, false, false);
+                }
+
+                return SpireReturn.Return(null);
+            }
+            return SpireReturn.Continue();
+        }
+    }
+
+
+    @SpirePatch(
+            clz = SingleCardViewPopup.class,
+            method = "loadPortraitImg"
+    )
+    public static class loadPortraitImgPatchB {
+
+        @SpireInsertPatch(rloc = 0, localvars = {"card"})
+        public static SpireReturn<Void> Insert(SingleCardViewPopup _instance,
+                                               @ByRef(type = "com.megacrit.cardcrawl.cards.AbstractCard") Object[] card) {
+            if ((card[0] instanceof AbstractInheritCard)) {
+                AbstractInheritCard c = ((AbstractInheritCard) card[0]);
                 if (c.isDark) {
-                    sb.draw(c.getLargeCardIMG(c.imgSubPath), Settings.WIDTH / 2.0F - 250.0F, Settings.HEIGHT / 2.0F - 190.0F + 136.0F * Settings.scale, 250.0F, 190.0F, 500.0F, 380.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 500, 380, false, false);
+                    loadPortraitImgPatchA.largeImg = c.getLargeCardIMG(c.imgSubPath);
                 } else {
-                    sb.draw(c.getLargeCardIMG(c.imgPath), Settings.WIDTH / 2.0F - 250.0F, Settings.HEIGHT / 2.0F - 190.0F + 136.0F * Settings.scale, 250.0F, 190.0F, 500.0F, 380.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 500, 380, false, false);
+                    loadPortraitImgPatchA.largeImg = c.getLargeCardIMG(c.imgPath);
                 }
 
 
@@ -185,6 +210,25 @@ public class SubCostRenderPatches {
             return SpireReturn.Continue();
         }
     }
+
+
+    @SpirePatch(
+            clz = SingleCardViewPopup.class,
+            method = "updateUpgradePreview"
+    )
+    public static class updateUpgradePreviewPatch {
+
+        @SpireInsertPatch(rloc = 9, localvars = {"card"})
+        public static SpireReturn<Void> Insert(SingleCardViewPopup _instance,
+                                               @ByRef(type = "com.megacrit.cardcrawl.cards.AbstractCard") Object[] card) {
+            if ((card[0] instanceof AbstractInheritCard)) {
+                AbstractInheritCard c = ((AbstractInheritCard) card[0]);
+                c.reGetCardToPreview();
+            }
+            return SpireReturn.Continue();
+        }
+    }
+
 
     @SpirePatch(
             clz = SingleCardViewPopup.class,

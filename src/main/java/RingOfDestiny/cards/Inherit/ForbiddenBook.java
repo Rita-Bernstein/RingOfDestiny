@@ -3,8 +3,10 @@ package RingOfDestiny.cards.Inherit;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
+import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
 import RingOfDestiny.powers.Inherit.ConvictionPower;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.actions.utility.DiscardToHandAction;
@@ -12,6 +14,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.red.Offering;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -24,7 +27,8 @@ public class ForbiddenBook extends AbstractInheritCard {
     private static final int SUB_GAIN2 = 0;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.COMMON;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardTarget TARGET = CardTarget.SELF;
+
 
     public ForbiddenBook(boolean isDark) {
         super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN, SUB_GAIN2);
@@ -52,6 +56,7 @@ public class ForbiddenBook extends AbstractInheritCard {
         AbstractCard s = (new ForbiddenStrike()).makeCopy();
         if (upgraded) s.upgrade();
         addToBot(new MakeTempCardInHandAction(s, this.magicNumber));
+        addToBot(new MakeTempCardInHandAction(new BloodSacrifice(),2));
     }
 
     @Override
@@ -59,6 +64,7 @@ public class ForbiddenBook extends AbstractInheritCard {
         AbstractCard s = (new ForbiddenStrike(true)).makeCopy();
         if (upgraded) s.upgrade();
         addToBot(new MakeTempCardInHandAction(s, this.magicNumber));
+        addToBot(new MakeTempCardInHandAction(new BloodSacrifice(),2));
     }
 
     public AbstractCard makeCopy() {
@@ -86,11 +92,15 @@ public class ForbiddenBook extends AbstractInheritCard {
 
     @Override
     public AbstractInheritCard getCardToPreview1() {
-        return (AbstractInheritCard) this.cardsToPreview;
+        AbstractInheritCard c = new ForbiddenStrike();
+        if(upgraded)c.upgrade();
+        return c;
     }
 
     @Override
     public AbstractInheritCard getCardToPreview2() {
-        return (AbstractInheritCard) this.cardsToPreview;
+        AbstractInheritCard c = new ForbiddenStrike(true);
+        if(upgraded)c.upgrade();
+        return c;
     }
 }

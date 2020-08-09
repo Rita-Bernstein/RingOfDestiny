@@ -39,6 +39,8 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     public String rawID;
     public String imgPath;
     public String imgSubPath;
+    public Texture imgLarge;
+    public Texture imgSubLarge;
 
     private static final Color ENERGY_COST_RESTRICTED_COLOR = new Color(1.0F, 0.3F, 0.3F, 1.0F);
     private static final Color ENERGY_COST_MODIFIED_COLOR = new Color(0.4F, 1.0F, 0.4F, 1.0F);
@@ -145,6 +147,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         initializeNumber();
         reloadCardIMG(isDark);
         reinitializeDescription();
+        reGetCardToPreview();
     }
 
     public void reloadCardIMG(boolean isDark) {
@@ -154,6 +157,17 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
             loadCardImage(imgPath);
         }
 
+    }
+
+    public void reGetCardToPreview() {
+        AbstractInheritCard cardForPreview;
+        if (isDark) {
+            cardForPreview = getCardToPreview2();
+        } else {
+            cardForPreview = getCardToPreview1();
+        }
+        if (cardForPreview != null)
+            this.cardsToPreview = cardForPreview;
     }
 
     public void reinitializeDescription() {
@@ -321,14 +335,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         card.initializeTitle();
         card.initializeDescription();
 
-        AbstractInheritCard cardForPreview;
-        if (isDark) {
-            cardForPreview = getCardToPreview1();
-        } else {
-            cardForPreview = getCardToPreview2();
-        }
-        if (cardForPreview != null)
-            card.cardsToPreview = cardForPreview;
+        card.cardsToPreview = this.cardsToPreview;
 
         card.subCost = this.subCost;
         card.subCostForTurn = this.subCostForTurn;

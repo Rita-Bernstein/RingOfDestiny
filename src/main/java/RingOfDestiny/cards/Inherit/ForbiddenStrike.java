@@ -1,6 +1,7 @@
 package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Inherit.LoseMaxHPAction;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
@@ -47,14 +48,14 @@ public class ForbiddenStrike extends AbstractInheritCard {
 
     @Override
     protected void cardEffect1(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new LoseHPAction(m,p,this.magicNumber));
+        addToBot(new LoseMaxHPAction(m,p,this.magicNumber));
         addToBot(new DiscardAction(p,p,1,false));
         addToBot(new DiscardToHandAction(this));
     }
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new LoseHPAction(m,p,this.magicNumber));
+        addToBot(new LoseMaxHPAction(m,p,this.magicNumber));
         addToBot(new ExhaustAction(p,p,1,false));
         addToBot(new DiscardToHandAction(this));
     }
