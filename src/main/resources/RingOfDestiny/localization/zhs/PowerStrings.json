@@ -487,5 +487,47 @@
       "在你的回合结束时，失去 #b",
       " 点 #y金属化 。"
     ]
+  },
+  "RingOfDestiny:ChainOfLightPower": {
+    "NAME": "光之锁",
+    "DESCRIPTIONS": [
+      "当你从一张牌中失去生命时，对随机敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "RingOfDestiny:UpgradedChainOfLightPower": {
+    "NAME": "光之锁+",
+    "DESCRIPTIONS": [
+      "当你从一张牌中失去生命时，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "RingOfDestiny:BladeOfShadowPower": {
+    "NAME": "影之刃",
+    "DESCRIPTIONS": [
+      "本回合每当杀死一名敌人时，获得 #b",
+      " 点最大生命。"
+    ]
+  },
+  "RingOfDestiny:AngelTalismanPower": {
+    "NAME": "天使护符",
+    "DESCRIPTIONS": [
+      "每当你 #y损毁 一张牌，获得 #b",
+      " 点能量。"
+    ]
+  },
+  "RingOfDestiny:GuiltyCrownPower": {
+    "NAME": "天使护符",
+    "DESCRIPTIONS": [
+      "每当你 #y损毁 一张牌，获得 #b",
+      " 点 #y傲娇 。"
+    ]
+  },
+  "RingOfDestiny:EmbersPower": {
+    "NAME": "余烬",
+    "DESCRIPTIONS": [
+      "每当你 #y消耗 一张牌，对随机敌人造成 #b",
+      " 点伤害。"
+    ]
   }
 }

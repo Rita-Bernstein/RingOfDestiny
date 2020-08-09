@@ -36,6 +36,7 @@ public class HolyInterweaving extends AbstractInheritCard {
     @Override
     protected void initializeNumber1() {
         this.target = CardTarget.ENEMY;
+        this.isMultiDamage = false;
         this.baseDamage = 5;
         this.magicNumber = this.baseMagicNumber = 2;
     }
@@ -76,11 +77,13 @@ public class HolyInterweaving extends AbstractInheritCard {
 
     @Override
     protected void upgrade1() {
+        this.isMultiDamage = false;
         upgradeDamage(2);
     }
 
     @Override
-    protected void upgrade2(){
+    protected void upgrade2() {
+        this.isMultiDamage = true;
         upgradeDamage(2);
     }
 }

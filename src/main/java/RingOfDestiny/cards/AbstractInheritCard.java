@@ -215,7 +215,12 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     }
 
     public void autoGetSubCost(int cost) {
-        this.subCost = cost * 2;
+        if(cost > 0){
+            this.subCost = cost * 2;
+        }else {
+            this.subCost = cost;
+        }
+
     }
 
 

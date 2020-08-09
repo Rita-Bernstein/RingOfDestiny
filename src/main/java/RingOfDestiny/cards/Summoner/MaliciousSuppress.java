@@ -40,7 +40,7 @@ public class MaliciousSuppress extends AbstractSummonerCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-        if (m.getIntentBaseDmg() >= 0) {
+        if (m != null && m.getIntentBaseDmg() >= 0) {
             addToBot(new MaliciousSuppressAction(this.isSingleAndAOEDamage,this.damageTypeForTurn));
 
             if (upgraded) {

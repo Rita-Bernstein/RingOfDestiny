@@ -31,6 +31,8 @@ public class SingleAndAOEPatches {
                     if (mo != null) {
                         float tmp = card.baseSecondaryM;
 
+                        if (card.modifyAlterDamage)
+                            tmp = card.getModifyAlterDamage();
 
                         for (AbstractRelic r : AbstractDungeon.player.relics) {
                             tmp = r.atDamageModify(tmp, _instance);
@@ -87,7 +89,14 @@ public class SingleAndAOEPatches {
 
                     for (int i = 0; i < tmp.length; i++) {
                         tmp[i] = card.baseSecondaryM;
+
                     }
+
+
+                    if (card.modifyAlterDamage)
+                        for (int i = 0; i < tmp.length; i++) {
+                            tmp[i] = card.getModifyAlterDamage();
+                        }
 
 
                     for (int i = 0; i < tmp.length; i++) {

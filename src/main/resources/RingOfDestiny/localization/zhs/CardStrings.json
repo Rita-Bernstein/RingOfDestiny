@@ -940,8 +940,11 @@
   },
   "RingOfDestiny:HolyStorm2": {
     "NAME": "混乱风暴",
-    "DESCRIPTION": "对所有敌人造成X点伤害 !RODSecondM! 次。",
-    "UPGRADE_DESCRIPTION": "对所有敌人造成X+!M!点伤害 !RODSecondM! 次。"
+    "DESCRIPTION": "对所有敌人造成X点伤害2次。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成X+ !M! 点伤害2次。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （造成 !D! 点伤害。）"
+    ]
   },
   "RingOfDestiny:FireOfJustice2": {
     "NAME": "混乱怒焰",
@@ -960,7 +963,7 @@
   },
   "RingOfDestiny:HolyPressure2": {
     "NAME": "寂灭",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。获得 !M! 张 *血祭 。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。获得2张 *血祭 。 NL 消耗 。"
   },
   "RingOfDestiny:SwordShield2": {
     "NAME": "攻守兼备",
@@ -1147,8 +1150,8 @@
   },
   "RingOfDestiny:ChainOfLight": {
     "NAME": "光之锁",
-    "DESCRIPTION": "打出这张牌后，本回合你从卡牌失去生命时，随机使敌人失去两倍的生命。",
-    "UPGRADE_DESCRIPTION": "打出这张牌后，本回合你从卡牌失去生命时，使所有敌人失去两倍的生命。"
+    "DESCRIPTION": "打出这张牌后，本回合你从卡牌失去生命时，随机使敌人失去 !M! 倍的生命。",
+    "UPGRADE_DESCRIPTION": "打出这张牌后，本回合你从卡牌失去生命时，使所有敌人失去 !M! 倍的生命。"
   },
   "RingOfDestiny:AngelTalisman": {
     "NAME": "天使护符",
@@ -1162,7 +1165,10 @@
   "RingOfDestiny:HolyStorm": {
     "NAME": "神圣风暴",
     "DESCRIPTION": "对所有敌人造成 !D! 点伤害X次。",
-    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害X次。"
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害X次。",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
   },
   "RingOfDestiny:FireOfJustice": {
     "NAME": "正义之火",
@@ -1181,7 +1187,7 @@
   },
   "RingOfDestiny:HolyPressure": {
     "NAME": "天谴",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。获得 !M! 张 *血祭 。 NL 消耗 。"
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。获得2张 *血祭 。 NL 消耗 。"
   },
   "RingOfDestiny:SwordShield": {
     "NAME": "剑盾猛攻",

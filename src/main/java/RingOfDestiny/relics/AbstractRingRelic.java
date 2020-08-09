@@ -23,4 +23,6 @@ public abstract class AbstractRingRelic extends CustomRelic {
     public void onSacrifice(AbstractSummon summon){
 
     }
+
+    public void onDestructive(){}
 }

@@ -99,6 +99,7 @@ public class RingOfDestiny
     public static List<CustomCard> sf_Cards = new ArrayList<>();
     public static List<CustomCard> mb_SoleCards = new ArrayList<>();
     public static List<CustomCard> su_SoleCards = new ArrayList<>();
+    public static List<CustomCard> ih_SoleCards = new ArrayList<>();
 
     public static List<CustomCard> all_SoleCards = new ArrayList<>();
 
@@ -464,15 +465,18 @@ public class RingOfDestiny
         cards.add(new SacredOverload());
         cards.add(new Sacrifice());
         cards.add(new BladeOfFaith());
-
-//        光之锁
-//        天使护符
+        cards.add(new ChainOfLight());
+        cards.add(new AngelTalisman());
         cards.add(new HolyAssault());
-//神圣风暴
-//        正义之火
-//        清算
-//        正义警告
+        cards.add(new HolyStorm());
+        cards.add(new FireOfJustice());
+        cards.add(new ExposeAndCriticize());
+        cards.add(new JusticeWarning());
         cards.add(new HolyPressure());
+        cards.add(new SwordShield());
+        cards.add(new ProtectionOfLight());
+        cards.add(new InsightTruth());
+        cards.add(new AmuletHeart());
 
         cards.add(new BloodSacrifice());
 
@@ -569,6 +573,11 @@ public class RingOfDestiny
                 if(card.color == CardColorEnum.Summoner_LIME){
                     System.out.println("召唤师唯一卡池加入"+ card.name);
                     su_SoleCards.add(card);
+                }
+
+                if(card.color == CardColorEnum.Inherit_LIME){
+                    System.out.println("天使唯一卡池加入"+ card.name);
+                    ih_SoleCards.add(card);
                 }
 
             }

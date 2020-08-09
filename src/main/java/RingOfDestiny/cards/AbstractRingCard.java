@@ -20,6 +20,7 @@ public abstract class AbstractRingCard extends CustomCard {
     public boolean isSingleAndAOE = false;
     public boolean isAnotherDamage = false;
     public int[] isSingleAndAOEDamage ;
+    public boolean modifyAlterDamage = false;
 
     public boolean isDestructive = false;
 
@@ -85,6 +86,10 @@ public abstract class AbstractRingCard extends CustomCard {
             this.secondaryM = this.baseSecondaryM;
             this.isSecondaryMModified = true;
         }
+    }
+
+    public int getModifyAlterDamage(){
+        return this.secondaryM;
     }
 
     @Override
