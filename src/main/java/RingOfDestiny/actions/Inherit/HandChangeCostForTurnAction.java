@@ -25,16 +25,7 @@ public class HandChangeCostForTurnAction extends AbstractGameAction {
         if (this.duration == Settings.ACTION_DUR_FAST) {
             for (AbstractCard card : AbstractDungeon.player.hand.group) {
                 int amt = AbstractDungeon.cardRandomRng.random(this.minCost,this.maxCost);
-                if (card.costForTurn >= 0) {
-                    card.costForTurn = amt;
-                    if (card.costForTurn < 0) {
-                        card.costForTurn = 0;
-                    }
-
-                    if (card.costForTurn != card.cost) {
-                        card.isCostModifiedForTurn = true;
-                    }
-                }
+                card.setCostForTurn(amt);
             }
         }
         tickDuration();

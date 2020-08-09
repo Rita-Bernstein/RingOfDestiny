@@ -892,7 +892,7 @@
   },
   "RingOfDestiny:Villainous2": {
     "NAME": "洗白",
-    "DESCRIPTION": "进入 ring_of_destiny:光明形态 。获得 [E] [E] 。"
+    "DESCRIPTION": "进入 ring_of_destiny:光明形态 。 NL 获得 [E] [E] 。"
   },
   "RingOfDestiny:JudgementOfLight2": {
     "NAME": "黑暗浩劫",
@@ -1109,7 +1109,7 @@
   },
   "RingOfDestiny:HolyJustice": {
     "NAME": "神圣裁决",
-    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 ring_of_destiny:定罪 。回复 !M! 点生命。 NL ring_of_destiny:损毁 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果敌人有 ring_of_destiny:定罪 。 NL 回复 !M! 点生命。 NL ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:Villainous": {
     "NAME": "黑化",

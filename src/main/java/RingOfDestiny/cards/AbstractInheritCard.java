@@ -279,8 +279,8 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         }
     }
 
-    @Override
-    protected void upgradeBaseCost(int newBaseCost) {
+
+    protected void upgradeBaseSubCost(int newBaseCost) {
         super.upgradeBaseCost(newBaseCost);
         int diff = this.subCostForTurn - this.subCost;
         this.subCost = newBaseCost * 2;
@@ -294,18 +294,6 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         this.upgradedSubCost = true;
     }
 
-    protected void upgradeBaseSubCost(int newBaseCost) {
-        int diff = this.subCostForTurn - this.subCost;
-        this.subCost = newBaseCost * 2;
-
-        if (this.subCostForTurn > 0) {
-            this.subCostForTurn = this.subCost + diff;
-        }
-        if (this.subCostForTurn < 0) {
-            this.subCostForTurn = 0;
-        }
-        this.upgradedSubCost = true;
-    }
 
     @Override
     public AbstractCard makeStatEquivalentCopy() {
@@ -359,10 +347,8 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         return null;
     }
 
-    @Override
-    public void updateCost(int amt) {
-        super.updateCost(amt);
 
+    public void updateSubCost(int amt) {
         int tmpCost = this.subCost;
         int diff = this.subCost - this.subCostForTurn;
 
@@ -382,9 +368,8 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         }
     }
 
-    @Override
-    public void setCostForTurn(int amt) {
-        super.setCostForTurn(amt);
+
+    public void setSubCostForTurn(int amt) {
         if (this.subCostForTurn >= 0) {
             this.subCostForTurn = amt * 2;
             if (this.subCostForTurn < 0) {
@@ -397,8 +382,8 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         }
     }
 
-    @Override
-    public void modifyCostForCombat(int amt) {
+
+    public void modifySubCostForCombat(int amt) {
         super.modifyCostForCombat(amt);
         if (this.subCostForTurn > 0) {
             this.subCostForTurn += amt * 2;

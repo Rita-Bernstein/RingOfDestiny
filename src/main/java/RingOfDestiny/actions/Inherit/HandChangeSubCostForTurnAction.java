@@ -28,17 +28,7 @@ public class HandChangeSubCostForTurnAction extends AbstractGameAction {
                 if (card instanceof AbstractInheritCard) {
                     AbstractInheritCard c = (AbstractInheritCard) card;
                     int amt = AbstractDungeon.cardRandomRng.random(this.minCost, this.maxCost);
-                    if (c.subCostForTurn >= 0) {
-                        c.subCostForTurn = amt;
-
-                        if (c.subCostForTurn < 0) {
-                            c.subCostForTurn = 0;
-                        }
-
-                        if (c.subCostForTurn != c.subCost) {
-                            c.isSubCostModifiedForTurn = true;
-                        }
-                    }
+                    c.setSubCostForTurn(amt);
                 }
             }
         }

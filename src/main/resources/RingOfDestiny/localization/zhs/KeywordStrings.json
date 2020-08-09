@@ -117,5 +117,19 @@
       "傲娇"
     ],
     "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y傲娇 。"
+  },
+  {
+    "PROPER_NAME": "黑暗形态",
+    "NAMES": [
+      "黑暗形态"
+    ],
+    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y傲娇 。"
+  },
+  {
+    "PROPER_NAME": "光明形态",
+    "NAMES": [
+      "光明形态"
+    ],
+    "DESCRIPTION": "在 #y光明形态 中，出牌消耗 #y能量 。"
   }
 ]

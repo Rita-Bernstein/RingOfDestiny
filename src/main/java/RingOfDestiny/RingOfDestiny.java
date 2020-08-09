@@ -457,6 +457,8 @@ public class RingOfDestiny
         cards.add(new DevoutPray());
         cards.add(new HolyJustice());
         cards.add(new Villainous());
+        cards.add(new JudgementOfLight());
+        cards.add(new JudgementOfSanctity());
 
 
         cards.add(new BloodSacrifice());

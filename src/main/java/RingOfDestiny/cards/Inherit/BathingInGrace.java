@@ -30,6 +30,7 @@ public class BathingInGrace extends AbstractInheritCard {
 
     public BathingInGrace(boolean isDark) {
         super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN,SUB_GAIN2);
+        this.cardsToPreview = new BloodSacrifice();
     }
 
     @Override

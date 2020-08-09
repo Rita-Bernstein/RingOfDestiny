@@ -1,6 +1,7 @@
 package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Inherit.SentencingAction;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
@@ -57,15 +58,7 @@ public class FairJudgement extends AbstractInheritCard {
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        int count = this.magicNumber;
-        if (m.hasPower(ConvictionPower.POWER_ID)) {
-            count++;
-            addToBot(new ReducePowerAction(m, p, ConvictionPower.POWER_ID, 1));
-        }
-
-        for (int i = 0; i < count; i++) {
-            addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-        }
+        addToBot(new SentencingAction(1, this.magicNumber, m, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
     }
 
     public AbstractCard makeCopy() {
