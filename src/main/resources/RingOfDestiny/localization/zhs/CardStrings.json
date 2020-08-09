@@ -1134,8 +1134,8 @@
   },
   "RingOfDestiny:SacredOverload": {
     "NAME": "神圣过载",
-    "DESCRIPTION": "获得 [E] [E] 。下回合少抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": "获得 [E] [E] [E] 。下回合少抽 !M! 张牌。"
+    "DESCRIPTION": "获得 [E] [E] 。 NL 下回合少抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] [E] 。 NL 下回合少抽 !M! 张牌。"
   },
   "RingOfDestiny:Sacrifice": {
     "NAME": "祭祀",

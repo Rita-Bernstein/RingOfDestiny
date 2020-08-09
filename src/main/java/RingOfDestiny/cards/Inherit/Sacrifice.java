@@ -2,7 +2,6 @@ package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.LoseMaxHPAction;
-import RingOfDestiny.actions.Inherit.SwitchFormAction;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
@@ -15,63 +14,71 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.MetallicizePower;
+import com.megacrit.cardcrawl.powers.StrengthPower;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
-public class Villainous extends AbstractInheritCard {
-    public static final String ID = RingOfDestiny.makeID("Villainous");
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/52.png");
-    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/103.png");
-    private static final int COST = 0;
-    private static final int SUB_GAIN = 2;
+public class Sacrifice extends AbstractInheritCard {
+    public static final String ID = RingOfDestiny.makeID("Sacrifice");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/15.png");
+    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/82.png");
+    private static final int COST = 1;
+    private static final int SUB_GAIN = 1;
     private static final int SUB_GAIN2 = 0;
     private static final CardType TYPE = CardType.SKILL;
-    private static final CardRarity RARITY = CardRarity.COMMON;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-    public Villainous(boolean isDark) {
+    public Sacrifice(boolean isDark) {
         super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN,SUB_GAIN2);
+
     }
 
     @Override
     protected void initializeNumber1() {
+        this.secondaryM = this.baseSecondaryM = 1;
+        this.magicNumber = this.baseMagicNumber = 2;
     }
 
     @Override
     protected void initializeNumber2() {
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.secondaryM = this.baseSecondaryM = 1;
+        this.magicNumber = this.baseMagicNumber = 2;
     }
 
-    public Villainous() {
+    public Sacrifice() {
         this(false);
     }
 
     @Override
     protected void cardEffect1(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new SwitchFormAction(true,true));
+        addToBot(new LoseMaxHPAction(p,p,this.secondaryM));
+        addToBot(new ApplyPowerAction(m,p,new StrengthPower(p,this.magicNumber),this.magicNumber));
     }
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new SwitchFormAction(true,false));
-        addToBot(new GainEnergyAction(this.magicNumber));
+        addToBot(new LoseMaxHPAction(p,p,this.secondaryM));
+        addToBot(new ApplyPowerAction(m,p,new MetallicizePower(p,this.magicNumber),this.magicNumber));
     }
 
     public AbstractCard makeCopy() {
         if (AbstractDungeon.player == null) {
-            return new Villainous();
+            return new Sacrifice();
         } else {
-            return new Villainous(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDarkCpy);
+            return new Sacrifice(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDarkCpy);
         }
     }
 
     @Override
     protected void upgrade1() {
-        this.subGain += 2;
+       upgradeMagicNumber(1);
+
     }
 
     @Override
     protected void upgrade2() {
-        upgradeMagicNumber(1);
+        upgradeMagicNumber(2);
     }
 }

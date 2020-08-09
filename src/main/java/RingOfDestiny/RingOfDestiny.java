@@ -459,7 +459,20 @@ public class RingOfDestiny
         cards.add(new Villainous());
         cards.add(new JudgementOfLight());
         cards.add(new JudgementOfSanctity());
+        cards.add(new HolyGift());
+        cards.add(new PowerOfLight());
+        cards.add(new SacredOverload());
+        cards.add(new Sacrifice());
+        cards.add(new BladeOfFaith());
 
+//        光之锁
+//        天使护符
+        cards.add(new HolyAssault());
+//神圣风暴
+//        正义之火
+//        清算
+//        正义警告
+        cards.add(new HolyPressure());
 
         cards.add(new BloodSacrifice());
 
