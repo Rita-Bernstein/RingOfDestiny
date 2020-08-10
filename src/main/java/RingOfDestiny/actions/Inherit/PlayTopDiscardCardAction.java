@@ -15,11 +15,10 @@ import java.util.ArrayList;
 public class PlayTopDiscardCardAction extends AbstractGameAction {
     private int amount;
 
-    public PlayTopDiscardCardAction(AbstractCreature target, int amount) {
+    public PlayTopDiscardCardAction(int amount) {
         this.duration = Settings.ACTION_DUR_FAST;
         this.actionType = AbstractGameAction.ActionType.WAIT;
         this.source = AbstractDungeon.player;
-        this.target = target;
         this.amount = amount;
     }
 

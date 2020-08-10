@@ -1048,7 +1048,7 @@
   },
   "RingOfDestiny:HolyShock2": {
     "NAME": "源力打击",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL ring_of_destiny:金属化 在这张牌上发挥 !M! 倍效果。失去一半的 ring_of_destiny:金属化 。"
+    "DESCRIPTION": "造成当前 ring_of_destiny:金属化 层数的伤害（造成 !D! 点伤害。）。失去一半的 ring_of_destiny:金属化 。"
   },
   "RingOfDestiny:BaptismOfLight2": {
     "NAME": "湮灭",
@@ -1274,7 +1274,7 @@
   },
   "RingOfDestiny:HolyShock": {
     "NAME": "圣力冲击",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 力量 在这张牌上发挥 !M! 倍效果。失去一半的 力量 。"
+    "DESCRIPTION": "造成当前 力量 层数两倍的伤害。（造成 !D! 点伤害。） 失去一半的 力量 。"
   },
   "RingOfDestiny:BaptismOfLight": {
     "NAME": "圣光洗礼",

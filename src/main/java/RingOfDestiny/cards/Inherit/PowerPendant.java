@@ -2,8 +2,6 @@ package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.LoseMaxHPAction;
-import RingOfDestiny.actions.Inherit.PlayTopDiscardCardAction;
-import RingOfDestiny.actions.Inherit.PlayTopExhasutCardAction;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
@@ -19,57 +17,58 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
-public class HolyEcho extends AbstractInheritCard {
-    public static final String ID = RingOfDestiny.makeID("HolyEcho");
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/16.png");
-    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/66.png");
-    private static final int COST = 1;
-    private static final int SUB_GAIN = 1;
+public class PowerPendant extends AbstractInheritCard {
+    public static final String ID = RingOfDestiny.makeID("PowerPendant");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/17.png");
+    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/67.png");
+    private static final int COST = 2;
+    private static final int SUB_GAIN = 0;
     private static final int SUB_GAIN2 = 0;
-    private static final CardType TYPE = CardType.SKILL;
+    private static final CardType TYPE = CardType.POWER;
     private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-    public HolyEcho(boolean isDark) {
-        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN, SUB_GAIN2);
+    public PowerPendant(boolean isDark) {
+        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN,SUB_GAIN2);
 
     }
 
     @Override
     protected void initializeNumber1() {
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.magicNumber = this.baseMagicNumber = 2;
+        this.secondaryM = this.baseSecondaryM = 3;
     }
 
     @Override
     protected void initializeNumber2() {
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.magicNumber = this.baseMagicNumber = 2;
+        this.secondaryM = this.baseSecondaryM = 3;
     }
 
-    public HolyEcho() {
+    public PowerPendant() {
         this(false);
     }
 
     @Override
     protected void cardEffect1(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new PlayTopDiscardCardAction(this.magicNumber));
+
     }
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new PlayTopExhasutCardAction(this.magicNumber));
     }
 
     public AbstractCard makeCopy() {
         if (AbstractDungeon.player == null) {
-            return new HolyEcho();
+            return new PowerPendant();
         } else {
-            return new HolyEcho(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDarkCpy);
+            return new PowerPendant(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDarkCpy);
         }
     }
 
     @Override
     protected void upgrade1() {
-        upgradeMagicNumber(1);
+       upgradeMagicNumber(1);
 
     }
 

@@ -489,6 +489,10 @@ public class RingOfDestiny
         cards.add(new HolyPouring());
         cards.add(new Tsudere());
         cards.add(new HolyEcho());
+        cards.add(new PowerPendant());
+        cards.add(new ResurrectionGem());
+        cards.add(new HolyShock());
+        cards.add(new BaptismOfLight());
 
 
         cards.add(new BloodSacrifice());

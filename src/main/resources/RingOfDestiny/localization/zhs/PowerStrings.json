@@ -596,5 +596,20 @@
       "本回合 #y定罪 的层数消耗减少 #b",
       " 。"
     ]
+  },
+  "RingOfDestiny:PowerPendantPower": {
+    "NAME": "力量吊坠",
+    "DESCRIPTIONS": [
+      "每回合开始时，失去 #b",
+      " 点生命并获得 #b",
+      " 点 #y力量 。"
+    ]
+  },
+  "RingOfDestiny:ResurrectionGem": {
+    "NAME": "复活宝石",
+    "DESCRIPTIONS": [
+      "当你即将死亡时，回复 #b",
+      "% 生命并移除此效果。"
+    ]
   }
 }
