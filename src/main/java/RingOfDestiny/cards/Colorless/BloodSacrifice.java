@@ -1,4 +1,4 @@
-package RingOfDestiny.cards.Inherit;
+package RingOfDestiny.cards.Colorless;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.AddSubEnergyAction;
@@ -18,7 +18,7 @@ public class BloodSacrifice extends AbstractRingCard {
     private static final int COST = -2;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     private static final CardType TYPE = CardType.STATUS;
-    private static final CardColor COLOR = CardColorEnum.Inherit_LIME;
+    private static final CardColor COLOR = CardColorEnum.Status_LIME;
     private static final CardRarity RARITY = CardRarity.SPECIAL;
     private static final CardTarget TARGET = CardTarget.NONE;
 

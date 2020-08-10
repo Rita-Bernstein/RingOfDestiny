@@ -1,7 +1,7 @@
 package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.actions.Inherit.LoseMaxHPAction;
+import RingOfDestiny.cards.Colorless.*;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;

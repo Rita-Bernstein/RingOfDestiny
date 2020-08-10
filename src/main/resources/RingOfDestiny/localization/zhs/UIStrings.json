@@ -130,5 +130,10 @@
       "我不能打出非攻击牌",
       "我不能打出非技能牌"
     ]
+  },
+  "RingOfDestiny:StatusCardPatch": {
+    "TEXT": [
+      "通用"
+    ]
   }
 }

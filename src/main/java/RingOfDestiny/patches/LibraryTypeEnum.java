@@ -14,5 +14,6 @@ public class LibraryTypeEnum {
 	public static CardLibrary.LibraryType Inherit_LIME;
 	@SpireEnum
 	public static CardLibrary.LibraryType Summoner_LIME;
-
+	@SpireEnum(name = "Status")
+	public static CardLibrary.LibraryType Status_LIME;
 }

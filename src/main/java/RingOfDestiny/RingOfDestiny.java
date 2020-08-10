@@ -5,6 +5,7 @@ import RingOfDestiny.cards.MagicBullet.*;
 import RingOfDestiny.cards.Purchemist.*;
 import RingOfDestiny.cards.ShadowFlower.*;
 import RingOfDestiny.cards.Summoner.*;
+import RingOfDestiny.cards.Colorless.*;
 import RingOfDestiny.helpers.*;
 import RingOfDestiny.soulStone.SoulStone;
 import basemod.BaseMod;
@@ -90,6 +91,7 @@ public class RingOfDestiny
     public static final Color Purchemist_Color = new Color(0.57F,0.277F,0.695F,1.0F);
     public static final Color Inherit_Color = new Color(0.246F,0.566F,0.839F,1.0F);
     public static final Color Summoner_Color = new Color(0.418F,0.230F,0.566F,1.0F);
+    public static final Color Status_Color = new Color(0.605F,0.589F,0.597F,1.0F);
 
 
 
@@ -170,6 +172,18 @@ public class RingOfDestiny
                 assetPath("img/cardui/Summoner/1024/card_lime_orb.png"),
                 assetPath("img/cardui/Summoner/512/card_lime_small_orb.png"));
 
+
+        BaseMod.addColor(CardColorEnum.Status_LIME,
+                Status_Color,  Status_Color,  Status_Color,  Status_Color,  Status_Color,  Status_Color, Status_Color,
+                assetPath("img/cardui/Colorless/512/bg_attack_lime.png"),
+                assetPath("img/cardui/Colorless/512/bg_skill_lime.png"),
+                assetPath("img/cardui/Colorless/512/bg_power_lime.png"),
+                assetPath("img/cardui/Colorless/512/card_lime_orb.png"),
+                assetPath("img/cardui/Colorless/1024/bg_attack_lime.png"),
+                assetPath("img/cardui/Colorless/1024/bg_skill_lime.png"),
+                assetPath("img/cardui/Colorless/1024/bg_power_lime.png"),
+                assetPath("img/cardui/Colorless/1024/card_lime_orb.png"),
+                assetPath("img/cardui/Colorless/512/card_lime_small_orb.png"));
 
 
         BaseMod.addSaveField("RingOfDestiny:SoulStone", soulStoneCustomSavable);

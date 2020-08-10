@@ -14,4 +14,6 @@ public class CardColorEnum {
 	public static AbstractCard.CardColor Inherit_LIME;
 	@SpireEnum
 	public static AbstractCard.CardColor Summoner_LIME;
+	@SpireEnum(name = "Status")
+	public static AbstractCard.CardColor Status_LIME;
 }
