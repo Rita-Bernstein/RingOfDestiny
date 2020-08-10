@@ -492,6 +492,7 @@ public class RingOfDestiny
         cards.add(new PowerPendant());
         cards.add(new ResurrectionGem());
         cards.add(new HolyShock());
+        cards.add(new DivinePenalty());
         cards.add(new BaptismOfLight());
 
 

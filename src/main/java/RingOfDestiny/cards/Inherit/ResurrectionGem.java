@@ -50,6 +50,7 @@ public class ResurrectionGem extends AbstractInheritCard {
     @Override
     protected void initializeNumber2() {
         this.magicNumber = this.baseMagicNumber = 1;
+        this.secondaryM = this.baseSecondaryM = 3;
     }
 
     public ResurrectionGem() {
@@ -63,7 +64,7 @@ public class ResurrectionGem extends AbstractInheritCard {
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new LoseMaxHPAction(p, p, 3));
+        addToBot(new LoseMaxHPAction(p, p, this.secondaryM));
         addToBot(new ApplyPowerAction(p, p, new BerserkPower(p, this.magicNumber), this.magicNumber));
     }
 
@@ -78,10 +79,14 @@ public class ResurrectionGem extends AbstractInheritCard {
     @Override
     protected void upgrade1() {
         upgradeMagicNumber(50);
+        this.rawDescription = cardStrings.DESCRIPTION;
+        initializeDescription();
     }
 
     @Override
     protected void upgrade2() {
         upgradeMagicNumber(1);
+        this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+        initializeDescription();
     }
 }

@@ -77,7 +77,6 @@
       " 层 #y中毒 。"
     ]
   },
-
   "RingOfDestiny:EtchPower": {
     "NAME": "死亡刻印",
     "DESCRIPTIONS": [
@@ -147,16 +146,7 @@
   "RingOfDestiny:FlowerOfDespairPower": {
     "NAME": "绝望之花",
     "DESCRIPTIONS": [
-      "每回合开始时，失去 #b",
-      " 点生命并给予所有敌人 #b",
-      " 层 #y死亡刻印 。"
-    ]
-  },
-  "RingOfDestiny:UpgradeFlowerOfDespairPower": {
-    "NAME": "绝望之花+",
-    "DESCRIPTIONS": [
-      "每回合开始时，失去 #b",
-      " 点生命并给予所有敌人 #b",
+      "每回合开始时，给予所有敌人 #b",
       " 层 #y死亡刻印 。"
     ]
   },
@@ -280,12 +270,12 @@
     ]
   },
   "RingOfDestiny:BloodmournePower": {
-  "NAME": "血之哀",
-  "DESCRIPTIONS": [
-    "每当你给予 #y流血 时，额外给予 #b",
-    " 层 #y流血 。"
-  ]
-},
+    "NAME": "血之哀",
+    "DESCRIPTIONS": [
+      "每当你给予 #y流血 时，额外给予 #b",
+      " 层 #y流血 。"
+    ]
+  },
   "RingOfDestiny:GoldProtectPower": {
     "NAME": "氪金护体",
     "DESCRIPTIONS": [
@@ -386,22 +376,6 @@
       "本回合你打出下一张的 #y攻击牌 无视耗能。",
       "本回合你打出下 #b",
       " 张 #y攻击牌 无视耗能。"
-    ]
-  },
-  "RingOfDestiny:RingOfGreedPower": {
-    "NAME": "贪婪指环",
-    "DESCRIPTIONS": [
-      "每回合开始时，失去 #b",
-      " 点生命获得 #b",
-      " 点 #y格挡 。"
-    ]
-  },
-  "RingOfDestiny:UpgradeRingOfGreedPower": {
-    "NAME": "贪婪指环+",
-    "DESCRIPTIONS": [
-      "每回合开始时，失去 #b",
-      " 点生命获得 #b",
-      " 点 #y格挡 。"
     ]
   },
   "RingOfDestiny:EnvyNecklacePower": {
@@ -605,11 +579,18 @@
       " 点 #y力量 。"
     ]
   },
-  "RingOfDestiny:ResurrectionGem": {
-    "NAME": "复活宝石",
+  "RingOfDestiny:LoseHpPower": {
+    "NAME": "失去生命",
     "DESCRIPTIONS": [
-      "当你即将死亡时，回复 #b",
-      "% 生命并移除此效果。"
+      "每回合开始时，失去 #b",
+      " 点生命。"
+    ]
+  },
+  "RingOfDestiny:MetalRingPower": {
+    "NAME": "源力指环",
+    "DESCRIPTIONS": [
+      "每回合开始时，获得 #b",
+      " 点 #y金属化 。"
     ]
   }
 }

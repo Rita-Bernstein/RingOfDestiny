@@ -4,6 +4,7 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import RingOfDestiny.powers.FlowerOfDespairPower;
+import RingOfDestiny.powers.LoseHpPower;
 import RingOfDestiny.powers.UpgradeFlowerOfDespairPower;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -35,12 +36,8 @@ public class FlowerOfDespair extends AbstractRingCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (this.upgraded) {
-            addToBot(new ApplyPowerAction(p, p, new UpgradeFlowerOfDespairPower(p, this.magicNumber), this.magicNumber));
-        } else {
-            addToBot(new ApplyPowerAction(p, p, new FlowerOfDespairPower(p, this.magicNumber), this.magicNumber));
-        }
-
+        addToBot(new ApplyPowerAction(p, p, new FlowerOfDespairPower(p, this.magicNumber), this.magicNumber));
+        addToBot(new ApplyPowerAction(p, p, new LoseHpPower(p, this.secondaryM), this.secondaryM));
     }
 
     public AbstractCard makeCopy() {

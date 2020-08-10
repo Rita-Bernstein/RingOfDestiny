@@ -41,8 +41,7 @@ public class RingOfGreedPower extends TwoAmountPower {
     public void atStartOfTurn() {
         if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
             flash();
-            addToBot(new LoseHPAction(this.owner, this.owner, this.amount2, AbstractGameAction.AttackEffect.FIRE));
-            addToBot(new GainBlockAction(this.owner,this.amount));
+            addToBot(new GainBlockAction(this.owner, this.amount));
         }
     }
 }

@@ -15,16 +15,17 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class FlowerOfDespairPower extends AbstractRingPower {
-    public static final String POWER_ID = RingOfDestiny.makeID("FlowerOfDespairPower");
+public class LoseHpPower extends AbstractRingPower {
+    public static final String POWER_ID = RingOfDestiny.makeID("LoseHpPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 
 
-    public FlowerOfDespairPower(AbstractCreature owner, int amount) {
+    public LoseHpPower(AbstractCreature owner, int amount) {
         this.name = powerStrings.NAME;
         this.ID = POWER_ID;
+        this.type = PowerType.DEBUFF;
         this.owner = owner;
         this.amount = amount;
         updateDescription();
@@ -32,19 +33,16 @@ public class FlowerOfDespairPower extends AbstractRingPower {
     }
 
     public void updateDescription() {
-        this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1] ;
+        this.description = powerStrings.DESCRIPTIONS[0] + this.amount + powerStrings.DESCRIPTIONS[1];
     }
 
 
     @Override
     public void atStartOfTurn() {
-        if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
-            flash();
-            for (AbstractMonster mo : (AbstractDungeon.getCurrRoom()).monsters.monsters) {
-                addToBot(new ApplyPowerAction(mo, AbstractDungeon.player, new EtchPower(mo, this.amount), this.amount));
-            }
-        }
+        flash();
+        addToBot(new LoseHPAction(this.owner, this.owner, this.amount, AbstractGameAction.AttackEffect.FIRE));
     }
+
 }
 
 

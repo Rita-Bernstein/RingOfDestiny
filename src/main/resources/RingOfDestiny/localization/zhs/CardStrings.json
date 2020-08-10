@@ -1039,7 +1039,7 @@
   },
   "RingOfDestiny:PowerPendant2": {
     "NAME": "源力指环",
-    "DESCRIPTION": "每回合开始时，失去 !RODSecondM! 点生命。获得 !M! 点 ring_of_destiny:金属化 。"
+    "DESCRIPTION": "每回合开始时， NL 失去 !RODSecondM! 点生命。 NL 获得 !M! 点 ring_of_destiny:金属化 。"
   },
   "RingOfDestiny:ResurrectionGem2": {
     "NAME": "伪之圣杯",
@@ -1050,10 +1050,13 @@
     "NAME": "源力打击",
     "DESCRIPTION": "造成当前 ring_of_destiny:金属化 层数的伤害（造成 !D! 点伤害。）。失去一半的 ring_of_destiny:金属化 。"
   },
-  "RingOfDestiny:BaptismOfLight2": {
+  "RingOfDestiny:DivinePenalty2": {
     "NAME": "湮灭",
-    "DESCRIPTION": "失去 !RODSecondM! 点最大生命。对所有敌人造成其剩余生命 !M! %的伤害（boss效果减半）。",
-    "UPGRADE_DESCRIPTION": "失去 !RODSecondM! 点最大生命。对所有敌人造成其剩余生命 !M! %的伤害（boss效果减半）。"
+    "DESCRIPTION": "失去 !RODSecondM! 点最大生命。对敌人造成其剩余生命 !M! %的伤害（boss效果减半）"
+  },
+  "RingOfDestiny:BaptismOfLight2": {
+    "NAME": "灵魂震击",
+    "DESCRIPTION": "ring_of_destiny:公平 。失去当前 !M! %生命。 ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:Defend_IH": {
     "NAME": "光之盾",
@@ -1265,7 +1268,7 @@
   },
   "RingOfDestiny:PowerPendant": {
     "NAME": "力量吊坠",
-    "DESCRIPTION": "每回合开始时，失去 !RODSecondM! 点生命。获得 !M! 点 力量 。"
+    "DESCRIPTION": "每回合开始时， NL 失去 !RODSecondM! 点生命。 NL 获得 !M! 点 力量 。"
   },
   "RingOfDestiny:ResurrectionGem": {
     "NAME": "复活宝石",
@@ -1276,10 +1279,13 @@
     "NAME": "圣力冲击",
     "DESCRIPTION": "造成当前 力量 层数两倍的伤害。（造成 !D! 点伤害。） 失去一半的 力量 。"
   },
+  "RingOfDestiny:DivinePenalty": {
+    "NAME": "神罚",
+    "DESCRIPTION": "失去 !M! 点生命。 NL 造成 !D! 点伤害。"
+  },
   "RingOfDestiny:BaptismOfLight": {
     "NAME": "圣光洗礼",
-    "DESCRIPTION": "造成 !D! 点伤害。回复未被 格挡 伤害的生命。 NL ring_of_destiny:损毁 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。回复未被 格挡 伤害的生命。 NL ring_of_destiny:损毁 。"
+    "DESCRIPTION": "造成 !D! 点伤害。回复未被 格挡 伤害的生命。 NL ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:Defend_SU": {
     "NAME": "暗影防护",
@@ -1452,7 +1458,7 @@
   },
   "RingOfDestiny:RingOfGreed": {
     "NAME": "贪婪指环",
-    "DESCRIPTION": " ring_of_destiny:唯一 。每回合开始时失去 !RODSecondM! 点生命, NL 获得 !M! 点 格挡 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 NL 获得 !M! 点 ring_of_destiny:金属化 。每回合开始时失去 !RODSecondM! 点生命。 "
   },
   "RingOfDestiny:EnvyNecklace": {
     "NAME": "嫉妒项链",
