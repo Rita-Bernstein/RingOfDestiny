@@ -31,7 +31,7 @@ public class BladeOfFaith extends AbstractInheritCard {
 
     public BladeOfFaith(boolean isDark) {
         super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN, SUB_GAIN2);
-
+        this.tags.add(CardTags.HEALING);
     }
 
     @Override

@@ -112,12 +112,12 @@
   },
   "RingOfDestiny:SubEnergy": {
     "TEXT": [
-      "傲娇"
+      "暗能量"
     ],
     "EXTRA_TEXT": [
-      "你当前的傲娇。打出黑暗卡牌需要傲娇。",
+      "你当前的暗能量。打出黑暗卡牌需要暗能量。",
       "点击使用 [E] 进入 #y黑暗形态 。",
-      "傲娇不足"
+      "暗能量不足"
     ]
   },
   "RingOfDestiny:DevilGripAction": {

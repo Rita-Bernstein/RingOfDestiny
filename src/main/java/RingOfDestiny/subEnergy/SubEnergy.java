@@ -374,8 +374,6 @@ public class SubEnergy {
     public boolean getCurrentForm() {
         return EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel);
     }
-
-
 }
 
 

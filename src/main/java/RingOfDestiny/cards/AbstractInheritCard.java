@@ -59,6 +59,8 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     public boolean isSubCostModifiedForTurn;
     public boolean upgradedSubCost;
 
+    public int subEnergyOnUse = 0;
+    public boolean ignoreSubEnergyOnUse = false;
 
     public boolean flipOrb = false;
     private static final Texture oriOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb.png");

@@ -1,6 +1,7 @@
 package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Inherit.ChaosStromAction;
 import RingOfDestiny.actions.Inherit.LoseMaxHPAction;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
@@ -47,10 +48,7 @@ public class HolyStorm extends AbstractInheritCard {
     @Override
     protected void initializeNumber2() {
         this.baseDamage = 9;
-        this.magicNumber = this.baseMagicNumber = 2;
-        this.secondaryM = this.baseSecondaryM = 0;
-        this.isSingleAndAOE = true;
-
+        this.magicNumber = this.baseMagicNumber = 0;
     }
 
     public HolyStorm() {
@@ -66,18 +64,14 @@ public class HolyStorm extends AbstractInheritCard {
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new SFXAction("ATTACK_HEAVY"));
-        addToBot(new VFXAction(p, new CleaveEffect(), 0.1F));
-        addToBot(new DamageAllEnemiesAction(p, this.isSingleAndAOEDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE));
-        addToBot(new SFXAction("ATTACK_HEAVY"));
-        addToBot(new VFXAction(p, new CleaveEffect(), 0.1F));
-        addToBot(new DamageAllEnemiesAction(p, this.isSingleAndAOEDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE));
+        addToBot(new ChaosStromAction(p, this.multiDamage, this.damageTypeForTurn, this.freeToPlayOnce, this.subEnergyOnUse));
 
         if (upgraded) {
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         } else {
             this.rawDescription = cardStrings.DESCRIPTION;
         }
+
         initializeDescription();
     }
 
@@ -90,25 +84,35 @@ public class HolyStorm extends AbstractInheritCard {
     }
 
     public void applyPowers() {
-        this.baseDamage = getSubTotalCount();
+        this.baseDamage = this.subEnergyOnUse;
+        if (AbstractDungeon.player.hasRelic("Chemical X")) {
+            this.baseDamage += 2;
+        }
+
         if (upgraded) this.baseDamage += this.magicNumber;
         super.applyPowers();
+
         if (upgraded) {
-            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         } else {
-            this.rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+            this.rawDescription = cardStrings.DESCRIPTION;
         }
+
+        this.rawDescription += cardStrings.EXTENDED_DESCRIPTION[0];
         initializeDescription();
     }
 
-
+    @Override
     public void calculateCardDamage(AbstractMonster mo) {
         super.calculateCardDamage(mo);
+
         if (upgraded) {
-            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         } else {
-            this.rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+            this.rawDescription = cardStrings.DESCRIPTION;
         }
+
+        this.rawDescription += cardStrings.EXTENDED_DESCRIPTION[0];
 
         initializeDescription();
     }
@@ -124,6 +128,7 @@ public class HolyStorm extends AbstractInheritCard {
 
     @Override
     protected void upgrade2() {
+        upgradeMagicNumber(2);
         this.isSingleAndAOE = true;
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();

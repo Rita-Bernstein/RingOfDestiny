@@ -31,6 +31,7 @@ public class HolyJustice extends AbstractInheritCard {
     public HolyJustice(boolean isDark) {
         super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN, SUB_GAIN2);
         this.isDestructive = true;
+        this.tags.add(CardTags.HEALING);
     }
 
     @Override

@@ -851,7 +851,7 @@
   },
   "RingOfDestiny:Pray2": {
     "NAME": "魔咒",
-    "DESCRIPTION": "从1到 !M! 随机手牌本回合 ring_of_destiny:傲娇 。"
+    "DESCRIPTION": "从1到 !M! 随机手牌本回合 ring_of_destiny:暗能量 。"
   },
   "RingOfDestiny:ForbiddenBook2": {
     "NAME": "堕落魔典",
@@ -931,8 +931,8 @@
   },
   "RingOfDestiny:AngelTalisman2": {
     "NAME": "罪恶王冠",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 NL 每 ring_of_destiny:损毁 一张牌， NL 获得 !M! 点 ring_of_destiny:傲娇 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 NL 每 ring_of_destiny:损毁 一张牌， NL 获得 !M! 点 ring_of_destiny:傲娇 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 NL 每 ring_of_destiny:损毁 一张牌， NL 获得 !M! 点 ring_of_destiny:暗能量 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 NL 每 ring_of_destiny:损毁 一张牌， NL 获得 !M! 点 ring_of_destiny:暗能量 。"
   },
   "RingOfDestiny:HolyAssault2": {
     "NAME": "虚空鞭挞",
@@ -1028,8 +1028,8 @@
   },
   "RingOfDestiny:Tsudere2": {
     "NAME": "傲娇",
-    "DESCRIPTION": "翻倍你的 ring_of_destiny:傲娇 。 NL ring_of_destiny:损毁 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 翻倍你的 ring_of_destiny:傲娇 。 NL ring_of_destiny:损毁 。"
+    "DESCRIPTION": "翻倍你的 ring_of_destiny:暗能量 。 NL ring_of_destiny:损毁 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 翻倍你的 ring_of_destiny:暗能量 。 NL ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:HolyEcho2": {
     "NAME": "暗影重塑",
@@ -1225,13 +1225,13 @@
   },
   "RingOfDestiny:ExpiateSin": {
     "NAME": "赎罪",
-    "DESCRIPTION": "本回合 ring_of_destiny:定罪 的层数消耗减少 !M! 。 NL ring_of_destiny:损毁 。",
-    "UPGRADE_DESCRIPTION": "本回合 ring_of_destiny:定罪 的层数消耗减少 !M! 。 NL ring_of_destiny:损毁 。"
+    "DESCRIPTION": "本回合 ring_of_destiny:定罪 的层数消耗减少 !M! 。 ring_of_destiny:损毁 。",
+    "UPGRADE_DESCRIPTION": "本回合 ring_of_destiny:定罪 的层数消耗减少 !M! 。 ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:Resuscitation2": {
     "NAME": "虹吸",
-    "DESCRIPTION": "获得 !M! X点 ring_of_destiny:傲娇 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! X点 ring_of_destiny:傲娇 。"
+    "DESCRIPTION": "获得 !M! X点 ring_of_destiny:暗能量 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! X点 ring_of_destiny:暗能量 。"
   },
   "RingOfDestiny:DawnJudgement": {
     "NAME": "曙光审判",
@@ -1560,7 +1560,7 @@
   },
   "RingOfDestiny:BloodSacrifice": {
     "NAME": "血祭",
-    "DESCRIPTION": "不能被打出 。如果这张牌被丢弃，获得 !M! 点 ring_of_destiny:傲娇 。"
+    "DESCRIPTION": "不能被打出 。如果这张牌被丢弃，获得 !M! 点 ring_of_destiny:暗能量 。"
   },
   "RingOfDestiny:Venom": {
     "NAME": "毒液",

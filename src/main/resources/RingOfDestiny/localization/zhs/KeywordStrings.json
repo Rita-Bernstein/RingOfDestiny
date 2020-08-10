@@ -112,18 +112,18 @@
     "DESCRIPTION": " #y定罪 降低生命回复效果。"
   },
   {
-    "PROPER_NAME": "傲娇",
+    "PROPER_NAME": "暗能量",
     "NAMES": [
-      "傲娇"
+      "暗能量"
     ],
-    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y傲娇 。"
+    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y暗能量 。"
   },
   {
     "PROPER_NAME": "黑暗形态",
     "NAMES": [
       "黑暗形态"
     ],
-    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y傲娇 。"
+    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y暗能量 。"
   },
   {
     "PROPER_NAME": "光明形态",

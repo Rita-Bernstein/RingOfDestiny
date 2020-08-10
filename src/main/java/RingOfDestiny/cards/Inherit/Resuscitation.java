@@ -2,6 +2,7 @@ package RingOfDestiny.cards.Inherit;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.LoseMaxHPAction;
+import RingOfDestiny.actions.Inherit.ResuscitationAction;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.patches.CustomTagsEnum;
@@ -27,8 +28,8 @@ import com.megacrit.cardcrawl.powers.WeakPower;
 
 public class Resuscitation extends AbstractInheritCard {
     public static final String ID = RingOfDestiny.makeID("Resuscitation");
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/31.png");
-    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/84.png");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/53.png");
+    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/82.png");
     private static final int COST = -1;
     private static final int SUB_GAIN = 0;
     private static final int SUB_GAIN2 = 0;
@@ -36,33 +37,17 @@ public class Resuscitation extends AbstractInheritCard {
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-    private static final Color orbRenderColor = Color.WHITE.cpy();
-    private static final Texture oriOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb.png");
-    private static final Texture subOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb2.png");
 
     public Resuscitation(boolean isDark) {
-        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN,SUB_GAIN2);
+        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN, SUB_GAIN2);
         this.tags.add(CardTags.HEALING);
         this.flipOrb = true;
     }
 
-    private void soulStoneRenderHelper(SpriteBatch sb, Color color, Texture img, float drawX, float drawY) {
-        sb.setColor(color);
-        sb.draw(img, drawX - 256.0F, drawY - 256.0F, 256.0F, 256.0F, 512.0F, 512.0F, this.drawScale * Settings.scale, this.drawScale * Settings.scale, this.angle, 0, 0, 512, 512, false, false);
-    }
-
-    @SpireOverride
-    protected void renderEnergy(SpriteBatch sb) {
-        if (this.isDark) {
-            soulStoneRenderHelper(sb, orbRenderColor, oriOrb, this.current_x, this.current_y);
-        } else {
-            soulStoneRenderHelper(sb, orbRenderColor, subOrb, this.current_x, this.current_y);
-        }
-    }
 
     @Override
     protected void initializeNumber1() {
-        this.magicNumber = this.baseMagicNumber = 2;
+        this.magicNumber = this.baseMagicNumber = 0;
     }
 
     @Override
@@ -76,6 +61,7 @@ public class Resuscitation extends AbstractInheritCard {
 
     @Override
     protected void cardEffect1(AbstractPlayer p, AbstractMonster m) {
+        addToBot(new ResuscitationAction(p, this.freeToPlayOnce, this.subEnergyOnUse, this.magicNumber));
     }
 
     @Override
@@ -92,6 +78,7 @@ public class Resuscitation extends AbstractInheritCard {
 
     @Override
     protected void upgrade1() {
+        upgradeMagicNumber(2);
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
     }

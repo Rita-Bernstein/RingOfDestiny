@@ -84,5 +84,7 @@ public class ExpiateSin extends AbstractInheritCard {
     protected void upgrade2() {
         this.target = CardTarget.ALL_ENEMY;
         upgradeMagicNumber(1);
+        this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+        initializeDescription();
     }
 }
