@@ -42,7 +42,7 @@ public class HonourJudgement extends AbstractInheritCard {
     @Override
     protected void initializeNumber2() {
         this.baseDamage = 4;
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.magicNumber = this.baseMagicNumber = 2;
         this.exhaust = true;
     }
 
@@ -58,7 +58,7 @@ public class HonourJudgement extends AbstractInheritCard {
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new SentencingAction(1, this.magicNumber, m, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
+        addToBot(new SentencingAction(this.magicNumber, m, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
     }
 
     public AbstractCard makeCopy() {

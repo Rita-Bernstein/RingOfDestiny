@@ -477,6 +477,15 @@ public class RingOfDestiny
         cards.add(new ProtectionOfLight());
         cards.add(new InsightTruth());
         cards.add(new AmuletHeart());
+        cards.add(new HandOfGod());
+        cards.add(new PureHeart());
+        cards.add(new HymnOfAngels());
+        cards.add(new ShieldOfHeaven());
+
+//        赎罪
+//        复苏
+        cards.add(new DawnJudgement());
+//终结审判
 
         cards.add(new BloodSacrifice());
 

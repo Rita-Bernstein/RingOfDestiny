@@ -58,7 +58,7 @@ public class FairJudgement extends AbstractInheritCard {
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new SentencingAction(1, this.magicNumber, m, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
+        addToBot(new SentencingAction(this.magicNumber, m, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
     }
 
     public AbstractCard makeCopy() {

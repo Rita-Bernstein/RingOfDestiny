@@ -73,7 +73,11 @@ public class HolyStorm extends AbstractInheritCard {
         addToBot(new VFXAction(p, new CleaveEffect(), 0.1F));
         addToBot(new DamageAllEnemiesAction(p, this.isSingleAndAOEDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE));
 
-        this.rawDescription = cardStrings.DESCRIPTION;
+        if (upgraded) {
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+        } else {
+            this.rawDescription = cardStrings.DESCRIPTION;
+        }
         initializeDescription();
     }
 
@@ -87,16 +91,25 @@ public class HolyStorm extends AbstractInheritCard {
 
     public void applyPowers() {
         this.baseDamage = getSubTotalCount();
-        if(upgraded)this.baseDamage += this.magicNumber;
+        if (upgraded) this.baseDamage += this.magicNumber;
         super.applyPowers();
-        this.rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+        if (upgraded) {
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+        } else {
+            this.rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+        }
         initializeDescription();
     }
 
 
     public void calculateCardDamage(AbstractMonster mo) {
         super.calculateCardDamage(mo);
-        this.rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+        if (upgraded) {
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+        } else {
+            this.rawDescription = cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0];
+        }
+
         initializeDescription();
     }
 
@@ -105,13 +118,14 @@ public class HolyStorm extends AbstractInheritCard {
         upgradeDamage(3);
         this.isSingleAndAOE = false;
         this.modifyAlterDamage = false;
+        this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
     }
 
     @Override
     protected void upgrade2() {
         this.isSingleAndAOE = true;
-        upgradeMagicNumber(1);
+        this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
     }
 }

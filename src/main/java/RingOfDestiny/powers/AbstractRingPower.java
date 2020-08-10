@@ -2,6 +2,8 @@ package RingOfDestiny.powers;
 
 
 import com.megacrit.cardcrawl.actions.common.LoseHPAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.purple.Fasting;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
@@ -22,10 +24,20 @@ public abstract class AbstractRingPower extends AbstractPower {
         addToTop(new LoseHPAction(this.owner, null, amount * this.amount));
     }
 
-    public void onEnemyDeath(AbstractMonster m){
+    public void onEnemyDeath(AbstractMonster m) {
     }
 
-    public void onDestructive(){}
+    public void onDestructive() {
+    }
+
+
+    public String getCantPlayMessage() {
+        return "";
+    }
+
+    public void onRefreshHandLayout(){
+
+    }
 
 }
 

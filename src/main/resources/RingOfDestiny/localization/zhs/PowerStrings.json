@@ -529,5 +529,65 @@
       "每当你 #y消耗 一张牌，对随机敌人造成 #b",
       " 点伤害。"
     ]
+  },
+  "RingOfDestiny:PureHeartPower": {
+    "NAME": "纯洁之心",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y神圣裁决 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:UpgradedPureHeartPower": {
+    "NAME": "纯洁之心+",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y神圣裁决+ 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:BlackCloakPower": {
+    "NAME": "黑色斗篷",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y异端审判 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:UpgradedBlackCloakPower": {
+    "NAME": "黑色斗篷+",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y异端审判+ 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:CantPlayNonAttackPower": {
+    "NAME": "不能打出非攻击",
+    "DESCRIPTIONS": [
+      "本回合你不能打出 #y非攻击牌 。",
+      "在 #b",
+      " 回合内，你不能打出 #y非攻击牌 。 "
+    ]
+  },
+  "RingOfDestiny:CantPlayNonSkillPower": {
+    "NAME": "不能打出非技能",
+    "DESCRIPTIONS": [
+      "本回合你不能打出 #y非技能牌 。",
+      "在 #b",
+      " 回合内，你不能打出 #y非技能牌 。 "
+    ]
+  },
+  "RingOfDestiny:HymnOfAngelsPower": {
+    "NAME": "天使赞歌",
+    "DESCRIPTIONS": [
+      "本回合你的 #y技能牌 耗能变为 #b0 。",
+      "在 #b",
+      " 回合内，你的 #y技能牌 耗能变为 #b0 。 "
+    ]
+  },
+  "RingOfDestiny:DevilWhispersPower": {
+    "NAME": "恶魔耳语",
+    "DESCRIPTIONS": [
+      "本回合你的 #y攻击牌 耗能变为 #b0 。",
+      "在 #b",
+      " 回合内，你的 #y攻击牌 耗能变为 #b0 。 "
+    ]
   }
 }

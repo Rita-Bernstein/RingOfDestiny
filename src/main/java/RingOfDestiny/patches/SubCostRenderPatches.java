@@ -262,11 +262,14 @@ public class SubCostRenderPatches {
                             return SpireReturn.Return(null);
                         case -1:
                             FontHelper.renderFont(sb, FontHelper.SCP_cardEnergyFont, "X", 666.0F * Settings.scale, Settings.HEIGHT / 2.0F + 404.0F * Settings.scale, color);
+                            break;
                         case 1:
-                            FontHelper.renderFont(sb, FontHelper.SCP_cardEnergyFont, Integer.toString(c.subCost), 674.0F * Settings.scale, Settings.HEIGHT / 2.0F + 404.0F * Settings.scale, color);
+                            FontHelper.renderFont(sb, FontHelper.SCP_cardEnergyFont, Integer.toString(c.subCost), 674.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F + 404.0F * Settings.scale, color);
+                            break;
+                        default:
+                            FontHelper.renderFont(sb, FontHelper.SCP_cardEnergyFont, Integer.toString(c.subCost), 668.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F + 404.0F * Settings.scale, color);
                     }
 
-                    FontHelper.renderFont(sb, FontHelper.SCP_cardEnergyFont, Integer.toString(c.subCost), 668.0F * Settings.scale, Settings.HEIGHT / 2.0F + 404.0F * Settings.scale, color);
 
                     for (int i = 0; i < c.subGain2; i++) {
                         sb.draw(c.subGainOrb, Settings.WIDTH / 2.0F - 270.0F * Settings.scale - 7.0F, Settings.HEIGHT / 2.0F + (250.0F - i * 70.0f) * Settings.scale - 7.0F, 7.0F, 7.0F, 14.0F, 14.0F, Settings.scale * 3.2f, Settings.scale * 3.2f, 0.0f, 0, 0, 14, 14, false, false);

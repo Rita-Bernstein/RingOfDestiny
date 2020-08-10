@@ -839,11 +839,11 @@
   },
   "RingOfDestiny:FairJudgement2": {
     "NAME": "扭曲浩劫",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 ring_of_destiny:宣判 1。 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL ring_of_destiny:宣判 !M! 。 消耗 。"
   },
   "RingOfDestiny:HonourJudgement2": {
     "NAME": "恐惧浩劫",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 ring_of_destiny:宣判 2。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL ring_of_destiny:宣判 !M! 。 消耗 。"
   },
   "RingOfDestiny:ForbiddenStrike2": {
     "NAME": "堕落打击",
@@ -896,11 +896,11 @@
   },
   "RingOfDestiny:JudgementOfLight2": {
     "NAME": "黑暗浩劫",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 ring_of_destiny:宣判 2。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL ring_of_destiny:宣判 !M! 。"
   },
   "RingOfDestiny:JudgementOfSanctity2": {
     "NAME": "腐朽浩劫",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 ring_of_destiny:宣判 1。 本场战斗中每打出一次，耗能加1。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL  ring_of_destiny:宣判 !M! 。 NL 本场战斗中每打出一次，耗能加1。"
   },
   "RingOfDestiny:HolyGift2": {
     "NAME": "黑暗汲取",
@@ -931,8 +931,8 @@
   },
   "RingOfDestiny:AngelTalisman2": {
     "NAME": "罪恶王冠",
-    "DESCRIPTION": " ring_of_destiny:唯一 。每 ring_of_destiny:损毁 一张牌。获得 !M! 点 ring_of_destiny:傲娇 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每 ring_of_destiny:损毁 一张牌。获得 !M! 点 ring_of_destiny:傲娇 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 NL 每 ring_of_destiny:损毁 一张牌， NL 获得 !M! 点 ring_of_destiny:傲娇 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 NL 每 ring_of_destiny:损毁 一张牌， NL 获得 !M! 点 ring_of_destiny:傲娇 。"
   },
   "RingOfDestiny:HolyAssault2": {
     "NAME": "虚空鞭挞",
@@ -948,26 +948,26 @@
   },
   "RingOfDestiny:FireOfJustice2": {
     "NAME": "混乱怒焰",
-    "DESCRIPTION": "造成 !D! 点伤害。每失去 !M! 点生命。增加 !RODSecondM! 点伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每失去 !M! 点生命， NL 增加 !RODSecondM! 点伤害。"
   },
   "RingOfDestiny:ExposeAndCriticize2": {
     "NAME": "复仇",
-    "DESCRIPTION": "造成 !D! 点伤害。  ring_of_destiny:击杀 时，获得 !M! 点 ring_of_destiny:金属化 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL ring_of_destiny:击杀 时，获得 !M! 点 ring_of_destiny:金属化 。"
   },
   "RingOfDestiny:JusticeWarning2": {
     "NAME": "最后通牒",
-    "DESCRIPTION": "造成等于当前消耗堆堆数 !M! 倍的伤害。",
+    "DESCRIPTION": "造成等于当前消耗堆牌数 !M! 倍的伤害。",
     "EXTENDED_DESCRIPTION": [
       " NL （造成 !D! 点伤害。）"
     ]
   },
   "RingOfDestiny:HolyPressure2": {
     "NAME": "寂灭",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。获得2张 *血祭 。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 获得2张 *血祭 。 NL 消耗 。"
   },
   "RingOfDestiny:SwordShield2": {
     "NAME": "攻守兼备",
-    "DESCRIPTION": "造成 !D! 点伤害。获得 !B! 点 格挡 。 NL ring_of_destiny:损毁 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:ProtectionOfLight2": {
     "NAME": "怒焰护盾",
@@ -992,11 +992,11 @@
   },
   "RingOfDestiny:HymnOfAngels2": {
     "NAME": "恶魔耳语",
-    "DESCRIPTION": "本回合你的所有攻击牌耗能变为0。 NL 本回合无法打出非攻击牌牌。"
+    "DESCRIPTION": "本回合你的所有攻击牌耗能变为0。 NL 本回合无法打出非攻击牌。"
   },
   "RingOfDestiny:ShieldOfHeaven2": {
     "NAME": "地狱之光",
-    "DESCRIPTION": "给予敌人 !M! 层 虚弱 和 易伤 。 NL 消耗 。",
+    "DESCRIPTION": "给予敌人 !M! 层 NL 虚弱 和 易伤 。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 虚弱 和 易伤 。 NL 消耗 。"
   },
   "RingOfDestiny:ExpiateSin2": {
@@ -1011,7 +1011,7 @@
   },
   "RingOfDestiny:DawnJudgement2": {
     "NAME": "末日浩劫",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害 !M! 次。 ring_of_destiny:宣判 2。"
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 ring_of_destiny:宣判 !M! 。"
   },
   "RingOfDestiny:FinalJudgement2": {
     "NAME": "亵渎",
@@ -1155,8 +1155,8 @@
   },
   "RingOfDestiny:AngelTalisman": {
     "NAME": "天使护符",
-    "DESCRIPTION": " ring_of_destiny:唯一 。每 ring_of_destiny:损毁 一张牌。获得 [E] 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。每 ring_of_destiny:损毁 一张牌。获得 [E] [E] 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 NL 每 ring_of_destiny:损毁 一张牌。 NL 获得 [E] 。",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 NL 每 ring_of_destiny:损毁 一张牌。 NL 获得 [E] [E] 。"
   },
   "RingOfDestiny:HolyAssault": {
     "NAME": "神圣连击",
@@ -1172,15 +1172,15 @@
   },
   "RingOfDestiny:FireOfJustice": {
     "NAME": "正义之火",
-    "DESCRIPTION": "造成 !D! 点伤害。每失去 !M! 点生命。增加 !RODSecondM! 点伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每失去 !M! 点生命， NL 增加 !RODSecondM! 点伤害。"
   },
   "RingOfDestiny:ExposeAndCriticize": {
     "NAME": "清算",
-    "DESCRIPTION": "造成 !D! 点伤害。 ring_of_destiny:击杀 时，获得 !M! 点 力量 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL ring_of_destiny:击杀 时，获得 !M! 点 力量 。"
   },
   "RingOfDestiny:JusticeWarning": {
     "NAME": "正义警告",
-    "DESCRIPTION": "造成等于当前弃牌堆数 !M! 倍的伤害。",
+    "DESCRIPTION": "造成等于当前弃牌堆牌数 !M! 倍的伤害。",
     "EXTENDED_DESCRIPTION": [
       " NL （造成 !D! 点伤害。）"
     ]
@@ -1191,7 +1191,7 @@
   },
   "RingOfDestiny:SwordShield": {
     "NAME": "剑盾猛攻",
-    "DESCRIPTION": "造成 !D! 点伤害。获得 !B! 点 格挡 。 NL ring_of_destiny:损毁 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:ProtectionOfLight": {
     "NAME": "光明庇佑",
@@ -1203,7 +1203,7 @@
   },
   "RingOfDestiny:AmuletHeart": {
     "NAME": "守护之心",
-    "DESCRIPTION": "ring_of_destiny:唯一 。每 消耗 一张牌。获得 !M! 点 格挡 。"
+    "DESCRIPTION": "ring_of_destiny:唯一 。 NL 每 消耗 一张牌, NL 获得 !M! 点 格挡 。"
   },
   "RingOfDestiny:HandOfGod": {
     "NAME": "上帝之手",
@@ -1220,8 +1220,8 @@
   },
   "RingOfDestiny:ShieldOfHeaven": {
     "NAME": "天堂之盾",
-    "DESCRIPTION": "获得 !B! 点格挡。获得 !M! 层 脆弱。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得 !B! 点格挡。获得 !M! 层 脆弱。 NL 消耗 。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 脆弱 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 脆弱 。 NL 消耗 。"
   },
   "RingOfDestiny:ExpiateSin": {
     "NAME": "赎罪",

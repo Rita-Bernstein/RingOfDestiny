@@ -17,14 +17,11 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class SentencingAction extends AbstractGameAction {
     private int amount;
-    private int startCount;
-    private boolean isRelic ;
     private AbstractPlayer p;
     private DamageInfo info;
 
-    public SentencingAction(int startCount,int amount, AbstractMonster target,DamageInfo info) {
+    public SentencingAction(int amount, AbstractMonster target,DamageInfo info) {
         this.amount = amount;
-        this.startCount = startCount;
         this.duration = Settings.ACTION_DUR_FAST;
         this.target = target;
         this.p = AbstractDungeon.player;
@@ -35,12 +32,12 @@ public class SentencingAction extends AbstractGameAction {
 
     public void update() {
         if (this.duration == Settings.ACTION_DUR_FAST) {
-            int count = this.amount;
+            int count = 1;
 
             if (this.target.hasPower(ConvictionPower.POWER_ID)) {
-                if (this.target.getPower(ConvictionPower.POWER_ID).amount >= 2) {
+                if (this.target.getPower(ConvictionPower.POWER_ID).amount >= this.amount) {
                     count += 2;
-                    addToBot(new ReducePowerAction(this.target, p, ConvictionPower.POWER_ID, 2));
+                    addToBot(new ReducePowerAction(this.target, p, ConvictionPower.POWER_ID, this.amount));
                 } else {
                     count += this.target.getPower(ConvictionPower.POWER_ID).amount;
                     addToBot(new RemoveSpecificPowerAction(this.target, p, ConvictionPower.POWER_ID));

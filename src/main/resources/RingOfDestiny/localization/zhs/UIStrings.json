@@ -18,7 +18,7 @@
   },
   "RingOfDestiny:DarkProjectionAction": {
     "TEXT": [
-      "复制一张技能牌"
+      "复制技能牌"
     ]
   },
   "RingOfDestiny:DiamondManager": {
@@ -118,6 +118,17 @@
       "你当前的傲娇。打出黑暗卡牌需要傲娇。",
       "点击使用 [E] 进入 #y黑暗形态 。",
       "傲娇不足"
+    ]
+  },
+  "RingOfDestiny:DevilGripAction": {
+    "TEXT": [
+      "复制攻击牌"
+    ]
+  },
+  "RingOfDestiny:CantPlayCardPowerPatch": {
+    "TEXT": [
+      "我不能打出非攻击牌",
+      "我不能打出非技能牌"
     ]
   }
 }

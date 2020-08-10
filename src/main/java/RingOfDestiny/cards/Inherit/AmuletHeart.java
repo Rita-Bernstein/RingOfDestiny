@@ -28,7 +28,7 @@ public class AmuletHeart extends AbstractInheritCard {
     private static final int SUB_GAIN = 0;
     private static final int SUB_GAIN2 = 0;
     private static final CardType TYPE = CardType.POWER;
-    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardRarity RARITY = CardRarity.SPECIAL;
     private static final CardTarget TARGET = CardTarget.SELF;
 
     public AmuletHeart(boolean isDark) {

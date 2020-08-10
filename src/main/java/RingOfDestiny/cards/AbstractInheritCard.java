@@ -8,12 +8,14 @@ import RingOfDestiny.patches.CardColorEnum;
 
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
 
+import RingOfDestiny.powers.AbstractRingPower;
 import basemod.helpers.CardModifierManager;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireOverride;
+import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
 import com.evacipated.cardcrawl.modthespire.lib.SpireSuper;
 import com.megacrit.cardcrawl.blights.AbstractBlight;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -246,6 +248,17 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         if (AbstractDungeon.player.hasPower("Entangled") && this.type == CardType.ATTACK) {
             this.cantUseMessage = oriCantUseMessage[10];
             return false;
+        }
+
+        for (AbstractPower p : AbstractDungeon.player.powers) {
+            if (p instanceof AbstractRingPower) {
+                AbstractRingPower power = (AbstractRingPower) p;
+
+                if (!power.canPlayCard(this)) {
+                    this.cantUseMessage = power.getCantPlayMessage();
+                    SpireReturn.Return(false);
+                }
+            }
         }
 
         for (AbstractRelic r : AbstractDungeon.player.relics) {

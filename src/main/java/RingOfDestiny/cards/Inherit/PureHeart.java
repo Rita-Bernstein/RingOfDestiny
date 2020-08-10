@@ -6,9 +6,7 @@ import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.patches.CustomTagsEnum;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
-import RingOfDestiny.powers.Inherit.AngelTalismanPower;
-import RingOfDestiny.powers.Inherit.ConvictionPower;
-import RingOfDestiny.powers.Inherit.GuiltyCrownPower;
+import RingOfDestiny.powers.Inherit.*;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.actions.utility.DiscardToHandAction;
@@ -20,10 +18,10 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
-public class AngelTalisman extends AbstractInheritCard {
-    public static final String ID = RingOfDestiny.makeID("AngelTalisman");
-    public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/26.png");
-    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/84.png");
+public class PureHeart extends AbstractInheritCard {
+    public static final String ID = RingOfDestiny.makeID("PureHeart");
+    public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/47.png");
+    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/100.png");
     private static final int COST = 1;
     private static final int SUB_GAIN = 0;
     private static final int SUB_GAIN2 = 0;
@@ -31,59 +29,84 @@ public class AngelTalisman extends AbstractInheritCard {
     private static final CardRarity RARITY = CardRarity.SPECIAL;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-    public AngelTalisman(boolean isDark) {
-        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN, SUB_GAIN2);
+    public PureHeart(boolean isDark) {
+        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN,SUB_GAIN2);
         this.tags.add(CustomTagsEnum.SoleCard);
         this.tags.add(CustomTagsEnum.SoleUncommon);
 
-        this.setBannerTexture("RingOfDestiny/img/banner/512/banner_uncommon.png", "RingOfDestiny/img/banner/1024/banner_uncommon.png");
-        this.setPortraitTextures("RingOfDestiny/img/banner/512/frame_power_uncommon.png", "RingOfDestiny/img/banner/1024/frame_power_uncommon.png");
+        this.setBannerTexture("RingOfDestiny/img/banner/512/banner_uncommon.png","RingOfDestiny/img/banner/1024/banner_uncommon.png");
+        this.setPortraitTextures("RingOfDestiny/img/banner/512/frame_power_uncommon.png","RingOfDestiny/img/banner/1024/frame_power_uncommon.png");
     }
 
     @Override
     protected void initializeNumber1() {
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.cardsToPreview = new HolyJustice();
+        this.magicNumber = this.baseMagicNumber = 2;
     }
 
     @Override
     protected void initializeNumber2() {
+        this.cardsToPreview = new HolyJustice(true);
         this.magicNumber = this.baseMagicNumber = 2;
     }
 
-    public AngelTalisman() {
+    public PureHeart() {
         this(false);
     }
 
     @Override
     protected void cardEffect1(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ApplyPowerAction(m, p, new AngelTalismanPower(m, this.magicNumber), this.magicNumber));
+        if(upgraded){
+            addToBot(new ApplyPowerAction(p,p,new UpgradedPureHeartPower(p,this.magicNumber),this.magicNumber));
+        }else {
+            addToBot(new ApplyPowerAction(p,p,new PureHeartPower(p,this.magicNumber),this.magicNumber));
+        }
     }
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ApplyPowerAction(m, p, new GuiltyCrownPower(m, this.magicNumber), this.magicNumber));
+        if(upgraded){
+            addToBot(new ApplyPowerAction(p,p,new UpgradedBlackCloakPower(p,this.magicNumber),this.magicNumber));
+        }else {
+            addToBot(new ApplyPowerAction(p,p,new BlackCloakPower(p,this.magicNumber),this.magicNumber));
+        }
     }
 
     public AbstractCard makeCopy() {
         if (AbstractDungeon.player == null) {
-            return new AngelTalisman();
+            return new PureHeart();
         } else {
-            return new AngelTalisman(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDarkCpy);
+            return new PureHeart(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDarkCpy);
         }
     }
 
     @Override
     protected void upgrade1() {
-        upgradeMagicNumber(1);
-        upgradeBaseCost(0);
+        this.cardsToPreview.upgrade();
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
+
     }
 
     @Override
     protected void upgrade2() {
-        upgradeMagicNumber(2);
+        this.cardsToPreview.upgrade();
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
+    }
+
+
+    @Override
+    public AbstractInheritCard getCardToPreview1() {
+        AbstractInheritCard c = new HolyJustice();
+        if(upgraded)c.upgrade();
+        return c;
+    }
+
+    @Override
+    public AbstractInheritCard getCardToPreview2() {
+        AbstractInheritCard c = new HolyJustice(true);
+        if(upgraded)c.upgrade();
+        return c;
     }
 }

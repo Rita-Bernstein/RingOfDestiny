@@ -4,8 +4,10 @@ package RingOfDestiny.helpers;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
+import RingOfDestiny.powers.AbstractRingPower;
 import basemod.abstracts.AbstractCardModifier;
 import basemod.interfaces.AlternateCardCostModifier;
+import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
 import com.megacrit.cardcrawl.blights.AbstractBlight;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -90,6 +92,17 @@ public class SubEnergyModifier extends AbstractCardModifier implements Alternate
         if (AbstractDungeon.player.hasPower("Entangled") && card.type == AbstractCard.CardType.ATTACK) {
             card.cantUseMessage = oriCantUseMessage[10];
             return false;
+        }
+
+        for (AbstractPower p : AbstractDungeon.player.powers) {
+            if (p instanceof AbstractRingPower) {
+                AbstractRingPower power = (AbstractRingPower) p;
+
+                if (!power.canPlayCard(card)) {
+                    card.cantUseMessage = power.getCantPlayMessage();
+                    SpireReturn.Return(false);
+                }
+            }
         }
 
         for (AbstractRelic r : AbstractDungeon.player.relics) {

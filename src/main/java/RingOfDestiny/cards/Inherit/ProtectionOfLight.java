@@ -44,7 +44,7 @@ public class ProtectionOfLight extends AbstractInheritCard {
     @Override
     protected void initializeNumber2() {
         this.baseBlock = 9;
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.magicNumber = this.baseMagicNumber = 2;
     }
 
     public ProtectionOfLight() {

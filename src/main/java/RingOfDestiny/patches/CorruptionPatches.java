@@ -1,11 +1,13 @@
 package RingOfDestiny.patches;
 
+import RingOfDestiny.powers.AbstractRingPower;
 import RingOfDestiny.powers.summon.ManaControlPower;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.unique.ExhumeAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -153,6 +155,24 @@ public class CorruptionPatches {
             if (c.cost != c.costForTurn) {
                 c.isCostModified = true;
             }
+        }
+    }
+
+    @SpirePatch(
+            clz = CardGroup.class,
+            method = "refreshHandLayout"
+    )
+    public static class refreshHandLayoutPatch {
+        @SpireInsertPatch(rloc = 5)
+        public static SpireReturn<Void> Insert(CardGroup _instance) {
+            for (AbstractPower p : AbstractDungeon.player.powers) {
+                if (p instanceof AbstractRingPower) {
+                    AbstractRingPower power = (AbstractRingPower) p;
+                    power.onRefreshHandLayout();
+
+                }
+            }
+            return SpireReturn.Continue();
         }
     }
 
