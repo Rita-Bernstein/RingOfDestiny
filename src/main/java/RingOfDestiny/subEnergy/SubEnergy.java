@@ -277,6 +277,7 @@ public class SubEnergy {
     public void reset() {
         totalCount = 0;
         EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.set(AbstractDungeon.overlayMenu.energyPanel, false);
+        switchForm(false,true);
     }
 
 

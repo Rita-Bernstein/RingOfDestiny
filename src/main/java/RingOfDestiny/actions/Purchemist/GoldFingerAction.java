@@ -35,7 +35,7 @@ public class GoldFingerAction
 
             this.target.damage(this.info);
 
-            if (((AbstractMonster) this.target).isDying || this.target.currentHealth <= 0) {
+            if ((this.target.isDying || this.target.currentHealth <= 0) && !this.target.halfDead)  {
                 addToBot(new AddDiamondAction(this.amount));
             }
 

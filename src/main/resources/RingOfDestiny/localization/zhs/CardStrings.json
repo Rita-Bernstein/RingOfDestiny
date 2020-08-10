@@ -1015,8 +1015,10 @@
   },
   "RingOfDestiny:FinalJudgement2": {
     "NAME": "亵渎",
-    "DESCRIPTION": "敌人身上每有一层 ring_of_destiny:定罪 ，造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": "敌人身上每有一层 ring_of_destiny:定罪 ，造成 !D! 点伤害。再造成 !M! 次伤害。"
+    "DESCRIPTION": "造成 !D! 点伤害N+ !M! 次。N为敌人的 ring_of_destiny:定罪 层数。",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
   },
   "RingOfDestiny:SheathOfLight2": {
     "NAME": "无尽吞噬",
@@ -1239,8 +1241,10 @@
   },
   "RingOfDestiny:FinalJudgement": {
     "NAME": "终结审判",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。目标身上每有一层 ring_of_destiny:定罪 增加一次。失去所有 ring_of_destiny:定罪 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害 !M! 次。目标身上每有一层 ring_of_destiny:定罪 增加一次。失去所有 ring_of_destiny:定罪 。"
+    "DESCRIPTION": "造成N+ !M! 倍的 !D! 点伤害。N为目标的 ring_of_destiny:定罪 层数。消耗所有 ring_of_destiny:定罪 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （造成 !RODSecondM! 点伤害。）"
+    ]
   },
   "RingOfDestiny:SheathOfLight": {
     "NAME": "圣光出鞘",

@@ -3,6 +3,7 @@ package RingOfDestiny.cards.Inherit;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.LoseMaxHPAction;
 import RingOfDestiny.actions.Inherit.ResuscitationAction;
+import RingOfDestiny.actions.Inherit.SyphonageAction;
 import RingOfDestiny.actions.Inherit.UseSubEnergyAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.patches.CustomTagsEnum;
@@ -66,6 +67,7 @@ public class Resuscitation extends AbstractInheritCard {
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
+        addToBot(new SyphonageAction(p, this.freeToPlayOnce, this.energyOnUse, this.magicNumber));
     }
 
     public AbstractCard makeCopy() {

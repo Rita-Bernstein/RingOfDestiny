@@ -54,6 +54,7 @@ public class TurnBaseActionPatches {
             if(EnergyPanelRenderPatches.PatchEnergyPanelField.canUseSubEnergy.get(AbstractDungeon.overlayMenu.energyPanel)){
                 EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).reset();
             }
+
             return SpireReturn.Continue();
         }
     }

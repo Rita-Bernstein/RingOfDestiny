@@ -84,37 +84,55 @@ public class HolyStorm extends AbstractInheritCard {
     }
 
     public void applyPowers() {
-        this.baseDamage = this.subEnergyOnUse;
-        if (AbstractDungeon.player.hasRelic("Chemical X")) {
-            this.baseDamage += 2;
+        if (this.isDark) {
+            this.baseDamage = this.subEnergyOnUse;
+            if (AbstractDungeon.player.hasRelic("Chemical X")) {
+                this.baseDamage += 2;
+            }
+
+            if (upgraded) this.baseDamage += this.magicNumber;
+            super.applyPowers();
+
+            if (upgraded) {
+                this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+            } else {
+                this.rawDescription = cardStrings.DESCRIPTION;
+            }
+
+            this.rawDescription += cardStrings.EXTENDED_DESCRIPTION[0];
+            initializeDescription();
+        } else {
+            super.applyPowers();
         }
 
-        if (upgraded) this.baseDamage += this.magicNumber;
-        super.applyPowers();
+    }
 
+    @Override
+    public void onMoveToDiscard() {
+        super.onMoveToDiscard();
         if (upgraded) {
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         } else {
             this.rawDescription = cardStrings.DESCRIPTION;
         }
 
-        this.rawDescription += cardStrings.EXTENDED_DESCRIPTION[0];
         initializeDescription();
     }
 
     @Override
     public void calculateCardDamage(AbstractMonster mo) {
         super.calculateCardDamage(mo);
+        if (this.isDark) {
+            if (upgraded) {
+                this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+            } else {
+                this.rawDescription = cardStrings.DESCRIPTION;
+            }
 
-        if (upgraded) {
-            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
-        } else {
-            this.rawDescription = cardStrings.DESCRIPTION;
+            this.rawDescription += cardStrings.EXTENDED_DESCRIPTION[0];
+
+            initializeDescription();
         }
-
-        this.rawDescription += cardStrings.EXTENDED_DESCRIPTION[0];
-
-        initializeDescription();
     }
 
     @Override

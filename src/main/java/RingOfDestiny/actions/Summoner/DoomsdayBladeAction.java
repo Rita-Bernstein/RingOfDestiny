@@ -34,7 +34,7 @@ public class DoomsdayBladeAction extends AbstractGameAction {
 
             this.target.damage(this.info);
 
-            if (((AbstractMonster) this.target).isDying || this.target.currentHealth <= 0) {
+            if ((this.target.isDying || this.target.currentHealth <= 0) && !this.target.halfDead)  {
                 AbstractCard c = new DoomsdayMeteorite();
                 if(upgraded)c.upgrade();
                 addToBot(new MakeTempCardInDrawPileAction(c,2,true,true));

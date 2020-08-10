@@ -33,7 +33,7 @@ public class DeadlyShootAction extends AbstractGameAction {
 
             this.target.damage(this.info);
 
-            if (((AbstractMonster) this.target).isDying || this.target.currentHealth <= 0) {
+            if ((this.target.isDying || this.target.currentHealth <= 0) && !this.target.halfDead)  {
                 addToBot(new AttackDamageRandomEnemyAction(this.cardForReturn, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
             }
 

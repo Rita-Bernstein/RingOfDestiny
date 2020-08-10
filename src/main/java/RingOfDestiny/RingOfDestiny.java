@@ -484,7 +484,12 @@ public class RingOfDestiny
         cards.add(new ExpiateSin());
         cards.add(new Resuscitation());
         cards.add(new DawnJudgement());
-//终结审判
+        cards.add(new FinalJudgement());
+        cards.add(new SheathOfLight());
+        cards.add(new HolyPouring());
+        cards.add(new Tsudere());
+        cards.add(new HolyEcho());
+
 
         cards.add(new BloodSacrifice());
 

@@ -36,7 +36,7 @@ public class ShadowBlossomAction
 
             this.target.damage(this.info);
 
-            if (((AbstractMonster) this.target).isDying || this.target.currentHealth <= 0) {
+            if ((this.target.isDying || this.target.currentHealth <= 0) && !this.target.halfDead)  {
                 AbstractCard s = (new ShadowRose()).makeCopy();
                 if(upgraded) s.upgrade();
                 addToBot(new MakeTempCardInHandAction(s, this.cardAmt));
