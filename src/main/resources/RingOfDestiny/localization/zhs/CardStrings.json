@@ -1006,8 +1006,8 @@
   },
   "RingOfDestiny:Resuscitation": {
     "NAME": "复苏",
-    "DESCRIPTION": "使用全部 ring_of_destiny:傲娇 ，每使用一次，回复1点生命。",
-    "UPGRADE_DESCRIPTION": "使用全部 ring_of_destiny:傲娇 ，每使用一次，回复1点生命。回复 !M! 点生命。"
+    "DESCRIPTION": "回复X点生命。",
+    "UPGRADE_DESCRIPTION": "回复X+ !M! 点生命。"
   },
   "RingOfDestiny:DawnJudgement2": {
     "NAME": "末日浩劫",
@@ -1225,13 +1225,13 @@
   },
   "RingOfDestiny:ExpiateSin": {
     "NAME": "赎罪",
-    "DESCRIPTION": "本回合 ring_of_destiny:定罪 层数消耗减 !M! 。 NL ring_of_destiny:损毁 。",
-    "UPGRADE_DESCRIPTION": "本回合 ring_of_destiny:定罪 层数消耗减 !M! 。 NL ring_of_destiny:损毁 。"
+    "DESCRIPTION": "本回合 ring_of_destiny:定罪 的层数消耗减少 !M! 。 NL ring_of_destiny:损毁 。",
+    "UPGRADE_DESCRIPTION": "本回合 ring_of_destiny:定罪 的层数消耗减少 !M! 。 NL ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:Resuscitation2": {
     "NAME": "虹吸",
-    "DESCRIPTION": "使用所有 [E]，每使用一次，获得 !M! 点 ring_of_destiny:傲娇 。",
-    "UPGRADE_DESCRIPTION": "使用所有 [E]，每使用一次，获得 !M! 点 ring_of_destiny:傲娇 。"
+    "DESCRIPTION": "获得 !M! X点 ring_of_destiny:傲娇 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! X点 ring_of_destiny:傲娇 。"
   },
   "RingOfDestiny:DawnJudgement": {
     "NAME": "曙光审判",

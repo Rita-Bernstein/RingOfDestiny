@@ -59,8 +59,12 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     public boolean isSubCostModifiedForTurn;
     public boolean upgradedSubCost;
 
-    protected static final Texture darkOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb2.png");
+
+    public boolean flipOrb = false;
+    private static final Texture oriOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb.png");
+    private static final Texture subOrb = ImageMaster.loadImage("RingOfDestiny/img/cardui/Inherit/512/card_lime_orb2.png");
     public static final Texture subGainOrb = ImageMaster.loadImage("RingOfDestiny/img/ui/topPanel/Inherit/tsundere.png");
+
     protected static final float subGainOrbScale = 1.8f;
     protected static final Color drakOrbRenderColor = Color.WHITE.cpy();
 
@@ -217,9 +221,9 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     }
 
     public void autoGetSubCost(int cost) {
-        if(cost > 0){
+        if (cost > 0) {
             this.subCost = cost * 2;
-        }else {
+        } else {
             this.subCost = cost;
         }
 
@@ -433,8 +437,12 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
                 return;
             }
 
+            if (this.flipOrb) {
+                darkOrbRenderHelper(sb, drakOrbRenderColor, oriOrb, this.current_x, this.current_y);
+            } else {
+                darkOrbRenderHelper(sb, drakOrbRenderColor, subOrb, this.current_x, this.current_y);
+            }
 
-            darkOrbRenderHelper(sb, drakOrbRenderColor, darkOrb, this.current_x, this.current_y);
 
             Color costColor = Color.WHITE.cpy();
             if (AbstractDungeon.player != null && AbstractDungeon.player.hand.contains(this) && !hasEnoughSubEnergy(this.subCostForTurn)) {
@@ -460,14 +468,38 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
             }
 
         } else {
+
+            if (this.cost > -2 && !this.isLocked && this.isSeen) {
+
+                if (this.flipOrb) {
+                    darkOrbRenderHelper(sb, drakOrbRenderColor, subOrb, this.current_x, this.current_y);
+                } else {
+                    darkOrbRenderHelper(sb, drakOrbRenderColor, oriOrb, this.current_x, this.current_y);
+                }
+
+
+                Color costColor = Color.WHITE.cpy();
+                if (AbstractDungeon.player != null && AbstractDungeon.player.hand.contains(this) && !this.hasEnoughEnergy()) {
+                    costColor = ENERGY_COST_RESTRICTED_COLOR;
+                } else if (this.isCostModified || this.isCostModifiedForTurn || this.freeToPlay()) {
+                    costColor = ENERGY_COST_MODIFIED_COLOR;
+                }
+
+                costColor.a = this.transparency;
+                String text = this.getCost();
+                BitmapFont font = this.getEnergyFont();
+                if ((this.type != AbstractCard.CardType.STATUS || this.cardID.equals("Slimed")) && (this.color != AbstractCard.CardColor.CURSE || this.cardID.equals("Pride"))) {
+                    FontHelper.renderRotatedText(sb, font, text, this.current_x, this.current_y, -132.0F * this.drawScale * Settings.scale, 192.0F * this.drawScale * Settings.scale, this.angle, false, costColor);
+                }
+
+            }
+
             for (int i = 1; i <= subGain; i++) {
                 subGainOrbRenderHelper(sb,
                         -75.0f,
                         95.0f - i * 20.0f
                 );
             }
-
-            SpireSuper.call(sb);
         }
     }
 
@@ -495,6 +527,15 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
             return "0";
         }
         return Integer.toString(this.subCostForTurn);
+    }
+
+    protected String getCost() {
+        if (this.cost == -1)
+            return "X";
+        if (freeToPlay()) {
+            return "0";
+        }
+        return Integer.toString(this.costForTurn);
     }
 
     private BitmapFont getEnergyFont() {

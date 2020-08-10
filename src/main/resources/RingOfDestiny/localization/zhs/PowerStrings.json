@@ -589,5 +589,12 @@
       "在 #b",
       " 回合内，你的 #y攻击牌 耗能变为 #b0 。 "
     ]
+  },
+  "RingOfDestiny:ExpiateSinPower": {
+    "NAME": "赎罪",
+    "DESCRIPTIONS": [
+      "本回合 #y定罪 的层数消耗减少 #b",
+      " 。"
+    ]
   }
 }

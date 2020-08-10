@@ -32,6 +32,7 @@ public class SubCostRenderPatches {
     public static final float hb_scale = 1.2f;
 
     public static final TextureAtlas.AtlasRegion subEnergyLargeOrb = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("RingOfDestiny/img/cardui/Inherit/1024/card_lime_orb2.png"), 0, 0, 246, 246);
+    public static final TextureAtlas.AtlasRegion oriEnergyLargeOrb = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("RingOfDestiny/img/cardui/Inherit/1024/card_lime_orb.png"), 0, 0, 246, 246);
 
     @SpirePatch(
             clz = SingleCardViewPopup.class,
@@ -247,7 +248,11 @@ public class SubCostRenderPatches {
                     }
 
                     if (c.subCost > -2) {
-                        renderHelper(sb, Settings.WIDTH / 2.0F - 270.0F * Settings.scale, Settings.HEIGHT / 2.0F + 380.0F * Settings.scale, subEnergyLargeOrb);
+                        if(c.flipOrb){
+                            renderHelper(sb, Settings.WIDTH / 2.0F - 270.0F * Settings.scale, Settings.HEIGHT / 2.0F + 380.0F * Settings.scale, oriEnergyLargeOrb);
+                        }else {
+                            renderHelper(sb, Settings.WIDTH / 2.0F - 270.0F * Settings.scale, Settings.HEIGHT / 2.0F + 380.0F * Settings.scale, subEnergyLargeOrb);
+                        }
                     }
 
 
@@ -278,12 +283,44 @@ public class SubCostRenderPatches {
                     return SpireReturn.Return(null);
                 } else {
 
+                    if (c.isLocked || !c.isSeen) {
+                        return SpireReturn.Return(null);
+                    }
+
+                    if (c.cost > -2) {
+                        if(c.flipOrb){
+                            renderHelper(sb, Settings.WIDTH / 2.0F - 270.0F * Settings.scale, Settings.HEIGHT / 2.0F + 380.0F * Settings.scale, subEnergyLargeOrb);
+                        }else {
+                            renderHelper(sb, Settings.WIDTH / 2.0F - 270.0F * Settings.scale, Settings.HEIGHT / 2.0F + 380.0F * Settings.scale, oriEnergyLargeOrb);
+                        }
+                    }
+
+
+                    Color color = null;
+                    if (c.isCostModified) {
+                        color = Settings.GREEN_TEXT_COLOR;
+                    } else {
+                        color = Settings.CREAM_COLOR;
+                    }
+                    switch (c.cost) {
+                        case -2:
+                            return SpireReturn.Return(null);
+                        case -1:
+                            FontHelper.renderFont(sb, FontHelper.SCP_cardEnergyFont, "X", 666.0F * Settings.scale, Settings.HEIGHT / 2.0F + 404.0F * Settings.scale, color);
+                            break;
+                        case 1:
+                            FontHelper.renderFont(sb, FontHelper.SCP_cardEnergyFont, Integer.toString(c.cost), 674.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F + 404.0F * Settings.scale, color);
+                            break;
+                        default:
+                            FontHelper.renderFont(sb, FontHelper.SCP_cardEnergyFont, Integer.toString(c.cost), 668.0F * Settings.scale, (float)Settings.HEIGHT / 2.0F + 404.0F * Settings.scale, color);
+                    }
+
                     for (int i = 0; i < c.subGain; i++) {
                         sb.draw(c.subGainOrb, Settings.WIDTH / 2.0F - 270.0F * Settings.scale - 7.0F, Settings.HEIGHT / 2.0F + (250.0F - i * 70.0f) * Settings.scale - 7.0F, 7.0F, 7.0F, 14.0F, 14.0F, Settings.scale * 3.2f, Settings.scale * 3.2f, 0.0f, 0, 0, 14, 14, false, false);
                     }
 
 
-                    return SpireReturn.Continue();
+                    return SpireReturn.Return(null);
                 }
             }
             return SpireReturn.Continue();

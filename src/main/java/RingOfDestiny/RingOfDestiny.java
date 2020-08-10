@@ -481,9 +481,8 @@ public class RingOfDestiny
         cards.add(new PureHeart());
         cards.add(new HymnOfAngels());
         cards.add(new ShieldOfHeaven());
-
-//        赎罪
-//        复苏
+        cards.add(new ExpiateSin());
+        cards.add(new Resuscitation());
         cards.add(new DawnJudgement());
 //终结审判
 
