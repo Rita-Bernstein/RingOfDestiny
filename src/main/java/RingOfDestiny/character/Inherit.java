@@ -8,6 +8,7 @@ import RingOfDestiny.modules.EnergyOrbInherit;
 import RingOfDestiny.modules.EnergyOrbSummoner;
 import RingOfDestiny.patches.*;
 import RingOfDestiny.relics.DogEyes;
+import RingOfDestiny.relics.TwinWings;
 import basemod.abstracts.CustomPlayer;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -114,7 +115,7 @@ public class Inherit extends CustomPlayer {
 
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
-        retVal.add(BurningBlood.ID);
+        retVal.add(TwinWings.ID);
         return retVal;
     }
 
@@ -128,6 +129,10 @@ public class Inherit extends CustomPlayer {
 
         retVal.add(FairJudgement.ID);
         retVal.add(FairJudgement.ID);
+        retVal.add(Pray.ID);
+        retVal.add(Villainous.ID);
+        retVal.add(HolyGift.ID);
+        retVal.add(ProtectionOfLight.ID);
 
         return retVal;
     }
@@ -181,7 +186,7 @@ public class Inherit extends CustomPlayer {
 
     @Override
     public AbstractCard getStartCardForEvent() {
-        return new Strike_IH();
+        return new Villainous();
     }
 
     @Override

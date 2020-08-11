@@ -16,7 +16,7 @@ import static com.megacrit.cardcrawl.dungeons.AbstractDungeon.*;
 
 
 public class SoleCardRewardPatch {
-    /*
+
 //================================
 //================================
 //================================
@@ -205,20 +205,20 @@ public class SoleCardRewardPatch {
             method = "initCards"
     )
     public static class InitCardsPatch {
-        @SpireInsertPatch(rloc = 11,localvars = {"tmp","c"})
+        @SpireInsertPatch(rloc = 11,localvars = {"tmpPrice","c"})
         public static SpireReturn<Void> Insert(ShopScreen _instance,
-                                               @ByRef float[] tmp,
+                                               @ByRef float[] tmpPrice,
                                                AbstractCard card) {
 
             if(card.hasTag(CustomTagsEnum.SoleCard)){
                 if(card.hasTag(CustomTagsEnum.SoleRare)){
-                    tmp[0] = AbstractCard.getPrice(AbstractCard.CardRarity.RARE) * AbstractDungeon.merchantRng.random(0.9F, 1.1F);
+                    tmpPrice[0] = AbstractCard.getPrice(AbstractCard.CardRarity.RARE) * AbstractDungeon.merchantRng.random(0.9F, 1.1F);
                 }
                 if(card.hasTag(CustomTagsEnum.SoleRare)){
-                    tmp[0] = AbstractCard.getPrice(AbstractCard.CardRarity.UNCOMMON) * AbstractDungeon.merchantRng.random(0.9F, 1.1F);
+                    tmpPrice[0] = AbstractCard.getPrice(AbstractCard.CardRarity.UNCOMMON) * AbstractDungeon.merchantRng.random(0.9F, 1.1F);
                 }
                 if(card.hasTag(CustomTagsEnum.SoleRare)){
-                    tmp[0] = AbstractCard.getPrice(AbstractCard.CardRarity.COMMON) * AbstractDungeon.merchantRng.random(0.9F, 1.1F);
+                    tmpPrice[0] = AbstractCard.getPrice(AbstractCard.CardRarity.COMMON) * AbstractDungeon.merchantRng.random(0.9F, 1.1F);
                 }
 
             }
@@ -230,23 +230,11 @@ public class SoleCardRewardPatch {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     //================================
 //================================
 //================================
 //================================商店价钱
 
-    */
 
     //================================
 //================================

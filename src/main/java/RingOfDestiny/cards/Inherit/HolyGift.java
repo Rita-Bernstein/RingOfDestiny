@@ -14,10 +14,7 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.MetallicizePower;
-import com.megacrit.cardcrawl.powers.StrengthPower;
-import com.megacrit.cardcrawl.powers.VulnerablePower;
-import com.megacrit.cardcrawl.powers.WeakPower;
+import com.megacrit.cardcrawl.powers.*;
 
 public class HolyGift extends AbstractInheritCard {
     public static final String ID = RingOfDestiny.makeID("HolyGift");
@@ -28,20 +25,22 @@ public class HolyGift extends AbstractInheritCard {
     private static final int SUB_GAIN2 = 0;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
 
     public HolyGift(boolean isDark) {
-        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN,SUB_GAIN2);
+        super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN, SUB_GAIN2);
     }
 
     @Override
     protected void initializeNumber1() {
+        this.target = CardTarget.ALL_ENEMY;
         this.magicNumber = this.baseMagicNumber = 3;
         this.exhaust = false;
     }
 
     @Override
     protected void initializeNumber2() {
+        this.target = CardTarget.ENEMY;
         this.exhaust = true;
     }
 
@@ -51,16 +50,24 @@ public class HolyGift extends AbstractInheritCard {
 
     @Override
     protected void cardEffect1(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ApplyPowerAction(p,p,new StrengthPower(p,this.magicNumber),this.magicNumber));
-        addToBot(new ApplyPowerAction(m,p,new StrengthPower(m,this.magicNumber),this.magicNumber));
+        if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
+            for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
+                if (!monster.isDead && !monster.isDying) {
+                    addToBot(new ApplyPowerAction(monster, p, new StrengthPower(monster, this.magicNumber), this.magicNumber));
+                }
+            }
+        }
+
+        addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, this.magicNumber), this.magicNumber));
+
     }
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        if(m.hasPower(StrengthPower.POWER_ID)){
+        if (m.hasPower(StrengthPower.POWER_ID)) {
             int amount = m.getPower(StrengthPower.POWER_ID).amount;
-            addToBot(new ApplyPowerAction(p,p,new MetallicizePower(p,amount),amount));
-            addToBot(new RemoveSpecificPowerAction(m,p,StrengthPower.POWER_ID));
+            addToBot(new ApplyPowerAction(p, p, new MetallicizePower(p, amount), amount));
+            addToBot(new RemoveSpecificPowerAction(m, p, StrengthPower.POWER_ID));
         }
     }
 
@@ -74,13 +81,15 @@ public class HolyGift extends AbstractInheritCard {
 
     @Override
     protected void upgrade1() {
+        this.target = CardTarget.ALL_ENEMY;
         this.subGain += 1;
-       upgradeMagicNumber(1);
+        upgradeMagicNumber(1);
         this.exhaust = false;
     }
 
     @Override
     protected void upgrade2() {
+        this.target = CardTarget.ENEMY;
         this.exhaust = true;
     }
 }

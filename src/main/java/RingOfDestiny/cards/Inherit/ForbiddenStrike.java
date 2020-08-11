@@ -38,8 +38,13 @@ public class ForbiddenStrike extends AbstractInheritCard {
 
     @Override
     protected void initializeNumber2() {
-        this.subCost = 1;
+
         this.magicNumber = this.baseMagicNumber = 3;
+    }
+
+    @Override
+    public void autoGetSubCost(int cost) {
+        this.subCost = 1;
     }
 
     public ForbiddenStrike() {

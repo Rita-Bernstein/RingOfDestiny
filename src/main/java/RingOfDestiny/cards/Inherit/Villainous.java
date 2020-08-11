@@ -26,7 +26,7 @@ public class Villainous extends AbstractInheritCard {
     private static final int SUB_GAIN = 2;
     private static final int SUB_GAIN2 = 0;
     private static final CardType TYPE = CardType.SKILL;
-    private static final CardRarity RARITY = CardRarity.COMMON;
+    private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.SELF;
 
     public Villainous(boolean isDark) {

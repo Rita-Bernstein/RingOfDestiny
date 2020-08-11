@@ -116,7 +116,7 @@
     ],
     "EXTRA_TEXT": [
       "你当前的暗能量。打出黑暗卡牌需要暗能量。",
-      "点击使用 [E] 进入 #y黑暗形态 。",
+      " NL 点击使用 [E] 进入 #p黑暗形态 并将所有的 #y力量 变成 #y金属化 。",
       "暗能量不足"
     ]
   },
@@ -134,6 +134,12 @@
   "RingOfDestiny:StatusCardPatch": {
     "TEXT": [
       "通用"
+    ]
+  },
+  "RingOfDestiny:DarkFormLibraryPatches": {
+    "TEXT": [
+      "黑暗形态",
+      "光明形态"
     ]
   }
 }

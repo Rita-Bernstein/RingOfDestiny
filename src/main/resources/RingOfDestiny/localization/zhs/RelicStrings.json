@@ -72,5 +72,19 @@
     "DESCRIPTIONS": [
       "#y献祭 恶魔 时，抽 #b2 张牌。"
     ]
+  },
+  "RingOfDestiny:TwinWings": {
+    "NAME": "双生羽翼",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "战斗胜利时，如果处于 #p黑暗形态 ，获得 #b1 点最大生命，否则回复 #b3 点生命。"
+    ]
+  },
+  "RingOfDestiny:HolyStarSeal": {
+    "NAME": "圣洁星印",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "进入 #p黑暗形态 时， #y力量 将不会变为 #y金属化 。"
+    ]
   }
 }

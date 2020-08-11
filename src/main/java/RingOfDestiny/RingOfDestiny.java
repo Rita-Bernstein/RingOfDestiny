@@ -651,6 +651,10 @@ public class RingOfDestiny
         BaseMod.addRelicToCustomPool(new RingOfSoul(), CardColorEnum.Summoner_LIME);
 
 
+        BaseMod.addRelicToCustomPool(new TwinWings(), CardColorEnum.Inherit_LIME);
+        BaseMod.addRelicToCustomPool(new HolyStarSeal(), CardColorEnum.Inherit_LIME);
+
+
         logger.debug("receiveEditRelics finished.");
     }
 

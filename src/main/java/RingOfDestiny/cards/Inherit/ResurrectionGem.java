@@ -33,13 +33,17 @@ public class ResurrectionGem extends AbstractInheritCard {
 
     public ResurrectionGem(boolean isDark) {
         super(ID, IMG, COST, TYPE, RARITY, TARGET, SUB_IMG, isDark, SUB_GAIN, SUB_GAIN2);
-        this.subCost = 4;
         this.isDestructive = true;
         this.tags.add(CustomTagsEnum.SoleRare);
         this.tags.add(CustomTagsEnum.SoleCard);
 
         this.setBannerTexture("RingOfDestiny/img/banner/512/banner_rare.png", "RingOfDestiny/img/banner/1024/banner_rare.png");
         this.setPortraitTextures("RingOfDestiny/img/banner/512/frame_power_rare.png", "RingOfDestiny/img/banner/1024/frame_power_rare.png");
+    }
+
+    @Override
+    public void autoGetSubCost(int cost) {
+        this.subCost = 4;
     }
 
     @Override

@@ -24,7 +24,7 @@ public class FairJudgement extends AbstractInheritCard {
     private static final int SUB_GAIN = 1;
     private static final int SUB_GAIN2 = 0;
     private static final CardType TYPE = CardType.ATTACK;
-    private static final CardRarity RARITY = CardRarity.BASIC;
+    private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public FairJudgement(boolean isDark) {

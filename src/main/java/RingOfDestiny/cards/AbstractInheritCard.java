@@ -307,7 +307,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     protected void upgradeBaseSubCost(int newBaseCost) {
         super.upgradeBaseCost(newBaseCost);
         int diff = this.subCostForTurn - this.subCost;
-        this.subCost = newBaseCost * 2;
+        this.subCost = newBaseCost;
 
         if (this.subCostForTurn > 0) {
             this.subCostForTurn = this.subCost + diff;
@@ -376,7 +376,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         int tmpCost = this.subCost;
         int diff = this.subCost - this.subCostForTurn;
 
-        tmpCost += amt * 2;
+        tmpCost += amt;
         if (tmpCost < 0) {
             tmpCost = 0;
         }
@@ -395,7 +395,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
 
     public void setSubCostForTurn(int amt) {
         if (this.subCostForTurn >= 0) {
-            this.subCostForTurn = amt * 2;
+            this.subCostForTurn = amt;
             if (this.subCostForTurn < 0) {
                 this.subCostForTurn = 0;
             }
@@ -410,7 +410,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     public void modifySubCostForCombat(int amt) {
         super.modifyCostForCombat(amt);
         if (this.subCostForTurn > 0) {
-            this.subCostForTurn += amt * 2;
+            this.subCostForTurn += amt;
             if (this.subCostForTurn < 0) {
                 this.subCostForTurn = 0;
             }
@@ -420,7 +420,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
             }
             this.subCost = this.subCostForTurn;
         } else if (this.subCost >= 0) {
-            this.subCost += amt * 2;
+            this.subCost += amt ;
             if (this.subCost < 0) {
                 this.subCost = 0;
             }

@@ -23,7 +23,7 @@ import com.megacrit.cardcrawl.powers.WeakPower;
 public class AngelTalisman extends AbstractInheritCard {
     public static final String ID = RingOfDestiny.makeID("AngelTalisman");
     public static final String IMG = RingOfDestiny.assetPath("img/cards/Inherit/26.png");
-    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/84.png");
+    public static final String SUB_IMG = RingOfDestiny.assetPath("img/cards/Inherit/79.png");
     private static final int COST = 1;
     private static final int SUB_GAIN = 0;
     private static final int SUB_GAIN2 = 0;
@@ -56,12 +56,12 @@ public class AngelTalisman extends AbstractInheritCard {
 
     @Override
     protected void cardEffect1(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ApplyPowerAction(m, p, new AngelTalismanPower(m, this.magicNumber), this.magicNumber));
+        addToBot(new ApplyPowerAction(p, p, new AngelTalismanPower(p, this.magicNumber), this.magicNumber));
     }
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ApplyPowerAction(m, p, new GuiltyCrownPower(m, this.magicNumber), this.magicNumber));
+        addToBot(new ApplyPowerAction(p, p, new GuiltyCrownPower(p, this.magicNumber), this.magicNumber));
     }
 
     public AbstractCard makeCopy() {

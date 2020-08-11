@@ -4,6 +4,7 @@ package RingOfDestiny.subEnergy;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Inherit.SwitchFormAction;
 import RingOfDestiny.actions.Purchemist.UseDiamondAction;
+import RingOfDestiny.actions.Summoner.StrengthToMetallicizeAction;
 import RingOfDestiny.cards.AbstractInheritCard;
 import RingOfDestiny.cards.Purchemist.DoubleInvest;
 import RingOfDestiny.cards.Purchemist.NoInvest;
@@ -11,6 +12,7 @@ import RingOfDestiny.character.Inherit;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
 import RingOfDestiny.patches.SubEnergyVfxPatches;
 import RingOfDestiny.powers.*;
+import RingOfDestiny.relics.HolyStarSeal;
 import RingOfDestiny.relics.Truncheon;
 import RingOfDestiny.vfx.FlashTextureEffect;
 import RingOfDestiny.vfx.RefreshEnergyBetterEffect;
@@ -40,7 +42,8 @@ import com.megacrit.cardcrawl.vfx.ThoughtBubble;
 public class SubEnergy {
     private static final UIStrings uiStrings = CardCrawlGame.languagePack.getUIString(RingOfDestiny.makeID("SubEnergy"));
     public static final String NAME = uiStrings.TEXT[0];
-    public static final String DESCRIPTION = uiStrings.EXTRA_TEXT[0] + uiStrings.EXTRA_TEXT[1];
+    public static final String DESCRIPTION = uiStrings.EXTRA_TEXT[0];
+    public static final String DESCRIPTION2 = uiStrings.EXTRA_TEXT[1];
 
     public float tX;
     public float tY;
@@ -78,7 +81,7 @@ public class SubEnergy {
         updateVfx();
 
         if (EnergyPanelRenderPatches.PatchEnergyPanelField.canUseSoulStone.get(AbstractDungeon.overlayMenu.energyPanel)) {
-            orbFix_x =  -2.0f * Settings.scale;
+            orbFix_x = -2.0f * Settings.scale;
             orbFix_y = -60.0f * Settings.scale;
         } else {
             orbFix_x = orbFix_y = -50.0f * Settings.scale;
@@ -92,9 +95,9 @@ public class SubEnergy {
 
         if (this.hb.hovered) {
             if (getCurrentForm()) {
-                TipHelper.renderGenericTip(this.tX - 140.0F * Settings.scale, this.tY + 200.0F * Settings.scale, EnergyPanel.LABEL[0], EnergyPanel.MSG[0]);
+                TipHelper.renderGenericTip(this.tX - 140.0F * Settings.scale, this.tY + 220.0F * Settings.scale, EnergyPanel.LABEL[0], EnergyPanel.MSG[0]);
             } else {
-                TipHelper.renderGenericTip(this.tX - 140.0F * Settings.scale, this.tY + 200.0F * Settings.scale, NAME, DESCRIPTION);
+                TipHelper.renderGenericTip(this.tX - 140.0F * Settings.scale, this.tY + 220.0F * Settings.scale, NAME, DESCRIPTION + DESCRIPTION2);
             }
         }
 
@@ -115,8 +118,8 @@ public class SubEnergy {
             AbstractDungeon.player.getEnergyNumFont().getData().setScale(EnergyPanel.fontScale * defaultFontScale);
             FontHelper.renderFontCentered(sb, AbstractDungeon.player.getEnergyNumFont(), EnergyPanel.totalCount + "", this.tX, this.tY, ENERGY_TEXT_COLOR);
         } else {
-            if(!EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel))
-            renderVfx(sb);
+            if (!EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel))
+                renderVfx(sb);
             FontHelper.renderFontCentered(sb, AbstractDungeon.player.getEnergyNumFont(), energyMsg, this.tX, this.tY, ENERGY_TEXT_COLOR);
         }
 
@@ -124,8 +127,8 @@ public class SubEnergy {
     }
 
     public void bottonRender(SpriteBatch sb) {
-        if(EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel))
-        renderVfx(sb);
+        if (EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel))
+            renderVfx(sb);
     }
 
     private void updateVfx() {
@@ -277,7 +280,7 @@ public class SubEnergy {
     public void reset() {
         totalCount = 0;
         EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.set(AbstractDungeon.overlayMenu.energyPanel, false);
-        switchForm(false,true);
+        switchForm(false, true,true);
     }
 
 
@@ -299,19 +302,22 @@ public class SubEnergy {
 
         if (hb.clicked) {
             hb.clicked = false;
-            if(!AbstractDungeon.actionManager.turnHasEnded)
-            AbstractDungeon.actionManager.addToBottom(new SwitchFormAction());
+            if (!AbstractDungeon.actionManager.turnHasEnded)
+                AbstractDungeon.actionManager.addToBottom(new SwitchFormAction());
         }
     }
 
 
     public void switchForm(boolean isInDark) {
-        switchForm(isInDark, false);
+        switchForm(isInDark, false, false);
     }
 
+    public void switchForm(boolean isInDark, boolean changeForFree) {
+        switchForm(isInDark, changeForFree, false);
+    }
 
-    public void switchForm(boolean switchToDark, boolean changeForFree) {
-        if (switchToDark == EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel)) {
+    public void switchForm(boolean switchToDark, boolean changeForFree, boolean reset) {
+        if (switchToDark == EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel) && !reset) {
             return;
         }
 
@@ -344,30 +350,33 @@ public class SubEnergy {
         }
 
         switchCard(switchToDark);
+
+        if(!AbstractDungeon.player.hasRelic(HolyStarSeal.ID))
+        AbstractDungeon.actionManager.addToTop(new StrengthToMetallicizeAction());
     }
 
-    public void switchCard(boolean switchToDark){
-        for(AbstractCard card : AbstractDungeon.player.hand.group){
-            if(card instanceof AbstractInheritCard){
-                ((AbstractInheritCard)card).initializeForm(switchToDark);
+    public void switchCard(boolean switchToDark) {
+        for (AbstractCard card : AbstractDungeon.player.hand.group) {
+            if (card instanceof AbstractInheritCard) {
+                ((AbstractInheritCard) card).initializeForm(switchToDark);
             }
         }
 
-        for(AbstractCard card : AbstractDungeon.player.discardPile.group){
-            if(card instanceof AbstractInheritCard){
-                ((AbstractInheritCard)card).initializeForm(switchToDark);
+        for (AbstractCard card : AbstractDungeon.player.discardPile.group) {
+            if (card instanceof AbstractInheritCard) {
+                ((AbstractInheritCard) card).initializeForm(switchToDark);
             }
         }
 
-        for(AbstractCard card : AbstractDungeon.player.drawPile.group){
-            if(card instanceof AbstractInheritCard){
-                ((AbstractInheritCard)card).initializeForm(switchToDark);
+        for (AbstractCard card : AbstractDungeon.player.drawPile.group) {
+            if (card instanceof AbstractInheritCard) {
+                ((AbstractInheritCard) card).initializeForm(switchToDark);
             }
         }
 
-        for(AbstractCard card : AbstractDungeon.player.exhaustPile.group){
-            if(card instanceof AbstractInheritCard){
-                ((AbstractInheritCard)card).initializeForm(switchToDark);
+        for (AbstractCard card : AbstractDungeon.player.exhaustPile.group) {
+            if (card instanceof AbstractInheritCard) {
+                ((AbstractInheritCard) card).initializeForm(switchToDark);
             }
         }
     }

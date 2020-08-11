@@ -37,12 +37,14 @@ public class BaptismOfLight extends AbstractInheritCard {
 
     @Override
     protected void initializeNumber1() {
+        this.target = CardTarget.ENEMY;
         this.baseDamage = 30;
 
     }
 
     @Override
     protected void initializeNumber2() {
+        this.target = CardTarget.ALL_ENEMY;
         this.magicNumber = this.baseMagicNumber = 35;
     }
 
@@ -57,7 +59,15 @@ public class BaptismOfLight extends AbstractInheritCard {
 
     @Override
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new LoseHPAction(m, p, (int) Math.floor(m.maxHealth * this.magicNumber * 0.01f)));
+        if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
+            for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
+                if (!monster.isDead && !monster.isDying) {
+                    addToBot(new LoseHPAction(monster, p, (int) Math.floor(monster.maxHealth * this.magicNumber * 0.01f)));
+                }
+            }
+        }
+
+
         addToBot(new LoseHPAction(p, p, (int) Math.floor(p.maxHealth * this.magicNumber * 0.01f)));
     }
 
@@ -71,11 +81,13 @@ public class BaptismOfLight extends AbstractInheritCard {
 
     @Override
     protected void upgrade1() {
+        this.target = CardTarget.ENEMY;
         upgradeDamage(10);
     }
 
     @Override
     protected void upgrade2() {
+        this.target = CardTarget.ALL_ENEMY;
         upgradeMagicNumber(15);
     }
 }
