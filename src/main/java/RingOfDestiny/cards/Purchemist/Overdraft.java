@@ -3,6 +3,8 @@ package RingOfDestiny.cards.Purchemist;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Purchemist.UseDiamondIfLostHPAction;
 import RingOfDestiny.cards.AbstractPurchemistCard;
+import RingOfDestiny.powers.DenergizePower;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -33,7 +35,7 @@ public class Overdraft extends AbstractPurchemistCard {
            addToBot(new GainEnergyAction(2));
        }
        addToBot(new UseDiamondIfLostHPAction(this.magicNumber,this.secondaryM));
-
+       addToBot(new ApplyPowerAction(p,p,new DenergizePower(p,2),2));
     }
 
     public AbstractCard makeCopy() {

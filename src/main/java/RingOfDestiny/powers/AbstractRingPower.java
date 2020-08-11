@@ -1,6 +1,7 @@
 package RingOfDestiny.powers;
 
 
+import RingOfDestiny.patches.AbstractRingPowerPatches;
 import com.megacrit.cardcrawl.actions.common.LoseHPAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.purple.Fasting;
@@ -35,8 +36,13 @@ public abstract class AbstractRingPower extends AbstractPower {
         return "";
     }
 
-    public void onRefreshHandLayout(){
+    public void onRefreshHandLayout() {
 
+    }
+
+    protected void loadRingRegion(String fileName) {
+        this.region48 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("48/" + fileName);
+        this.region128 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("128/" + fileName);
     }
 
 }

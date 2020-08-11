@@ -10,7 +10,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class CatCannonPower extends AbstractPower {
+public class CatCannonPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("CatCannonPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -22,7 +22,7 @@ public class CatCannonPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("mastery");
+        loadRingRegion("4924");
     }
 
     public void updateDescription() {

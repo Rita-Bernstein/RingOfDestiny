@@ -21,7 +21,7 @@ public class MakibisiPower extends AbstractRingPower {
      this.owner = owner;
      this.amount = amount;
      updateDescription();
-     loadRegion("barricade");
+     loadRingRegion("30254");
    }
 
     @Override

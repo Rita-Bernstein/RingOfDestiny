@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class DeadlyArtsPower extends AbstractPower {
+public class DeadlyArtsPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("DeadlyArtsPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -24,7 +24,7 @@ public class DeadlyArtsPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("phantasmal");
+       loadRingRegion("30294");
     }
 
     public void updateDescription() {

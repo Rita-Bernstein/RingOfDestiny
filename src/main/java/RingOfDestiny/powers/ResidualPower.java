@@ -10,7 +10,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class ResidualPower extends AbstractPower {
+public class ResidualPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("ResidualPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -24,7 +24,7 @@ public class ResidualPower extends AbstractPower {
         this.amount = amt;
         if (this.amount > limite) this.amount = limite;
         updateDescription();
-        loadRegion("infiniteBlades");
+        loadRingRegion("4919");
     }
 
     @Override

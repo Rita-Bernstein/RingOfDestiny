@@ -2,6 +2,7 @@ package RingOfDestiny.powers;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import RingOfDestiny.patches.AbstractRingPowerPatches;
 import com.evacipated.cardcrawl.mod.stslib.powers.abstracts.TwoAmountPower;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
@@ -29,7 +30,8 @@ public class ShadowMarkPower extends TwoAmountPower {
         this.amount2 = 0;
         this.type = PowerType.DEBUFF;
         updateDescription();
-        loadRegion("infiniteBlades");
+        this.region48 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("48/" + "10220");
+        this.region128 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("128/" + "10220");
     }
 
     public void updateDescription() {

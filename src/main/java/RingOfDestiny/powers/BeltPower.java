@@ -10,7 +10,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class BeltPower extends AbstractPower {
+public class BeltPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("BeltPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -22,7 +22,7 @@ public class BeltPower extends AbstractPower {
         this.owner = owner;
         this.amount = bladeAmt;
         updateDescription();
-        loadRegion("infiniteBlades");
+        loadRingRegion("30247");
     }
 
 

@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class EtchSpiritPower extends AbstractPower {
+public class EtchSpiritPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("EtchSpiritPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -23,7 +23,7 @@ public class EtchSpiritPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("infiniteBlades");
+        loadRingRegion("4918");
     }
 
     public void updateDescription() {

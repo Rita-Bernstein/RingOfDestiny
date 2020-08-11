@@ -18,7 +18,7 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 
-public class BleedingPower extends AbstractPower implements HealthBarRenderPower {
+public class BleedingPower extends AbstractRingPower implements HealthBarRenderPower {
     public static final String POWER_ID = RingOfDestiny.makeID("BleedingPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -34,7 +34,7 @@ public class BleedingPower extends AbstractPower implements HealthBarRenderPower
         this.amount = amount;
         this.type = PowerType.DEBUFF;
         updateDescription();
-        loadRegion("poison");
+        loadRingRegion("4922");
     }
 
 

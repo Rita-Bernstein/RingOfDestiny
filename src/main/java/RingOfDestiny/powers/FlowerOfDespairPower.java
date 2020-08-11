@@ -28,7 +28,7 @@ public class FlowerOfDespairPower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("infiniteBlades");
+        loadRingRegion("4142");
     }
 
     public void updateDescription() {

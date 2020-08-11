@@ -2,6 +2,7 @@ package RingOfDestiny.powers;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import RingOfDestiny.patches.AbstractRingPowerPatches;
 import com.evacipated.cardcrawl.mod.stslib.powers.abstracts.TwoAmountPower;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
@@ -29,7 +30,8 @@ public class PrivilegePower extends TwoAmountPower {
         this.amount = amount;
         this.amount2 = 0;
         updateDescription();
-        loadRegion("doubleDamage");
+        this.region48 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("48/" + "4942");
+        this.region128 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("128/" + "4942");
 
         this.justApplied = true;
 

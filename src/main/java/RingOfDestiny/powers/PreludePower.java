@@ -13,7 +13,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class PreludePower extends AbstractPower {
+public class PreludePower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("PreludePower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -25,7 +25,7 @@ public class PreludePower extends AbstractPower {
         this.owner = owner;
         this.amount = bladeAmt;
         updateDescription();
-        loadRegion("anger");
+        loadRingRegion("4150");
     }
 
 

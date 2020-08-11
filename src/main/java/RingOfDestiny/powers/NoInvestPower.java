@@ -13,7 +13,7 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class NoInvestPower extends AbstractPower {
+public class NoInvestPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("NoInvestPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -25,7 +25,7 @@ public class NoInvestPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("rupture");
+        loadRingRegion("4166");
     }
 
 

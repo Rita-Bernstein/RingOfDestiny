@@ -19,7 +19,7 @@ import com.megacrit.cardcrawl.vfx.combat.FlashPowerEffect;
 import com.megacrit.cardcrawl.vfx.combat.GainPowerEffect;
 
 
-public class DoubleEtchDamagePower extends AbstractPower {
+public class DoubleEtchDamagePower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("DoubleEtchDamagePower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -31,7 +31,7 @@ public class DoubleEtchDamagePower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("doubleDamage");
+        loadRingRegion("4185");
     }
 
 

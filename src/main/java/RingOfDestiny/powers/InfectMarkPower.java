@@ -15,7 +15,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class InfectMarkPower extends AbstractPower {
+public class InfectMarkPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("InfectMarkPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -29,7 +29,7 @@ public class InfectMarkPower extends AbstractPower {
         this.isTurnBased = true;
         this.type = PowerType.DEBUFF;
         updateDescription();
-        loadRegion("infiniteBlades");
+        loadRingRegion("30276");
     }
 
 

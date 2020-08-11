@@ -1,6 +1,7 @@
 package RingOfDestiny.powers;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.patches.AbstractRingPowerPatches;
 import com.evacipated.cardcrawl.mod.stslib.powers.abstracts.TwoAmountPower;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -25,7 +26,8 @@ public class StaminaBookPower extends TwoAmountPower {
         this.amount = amount;
         this.amount2 = 0;
         updateDescription();
-        loadRegion("barricade");
+        this.region48 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("48/" + "30255");
+        this.region128 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("128/" + "30255");
     }
 
     @Override

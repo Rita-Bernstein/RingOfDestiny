@@ -19,7 +19,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.PoisonPower;
 
-public class CheatPower extends AbstractPower {
+public class CheatPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("CheatPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -31,7 +31,7 @@ public class CheatPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("doubleTap");
+        loadRingRegion("4938");
     }
 
     @Override

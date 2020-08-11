@@ -1,6 +1,7 @@
 package RingOfDestiny.powers;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.patches.AbstractRingPowerPatches;
 import com.badlogic.gdx.graphics.Texture;
 import com.evacipated.cardcrawl.mod.stslib.powers.abstracts.TwoAmountPower;
 import com.megacrit.cardcrawl.actions.common.*;
@@ -33,7 +34,8 @@ public class PressuredBulletPower extends TwoAmountPower {
         this.amount = amount;
         this.amount2 = 0;
         updateDescription();
-        loadRegion("phantasmal");
+        this.region48 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("48/" + "4118");
+        this.region128 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("128/" + "4118");
     }
 
     @Override

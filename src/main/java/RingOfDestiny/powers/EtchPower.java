@@ -2,6 +2,7 @@ package RingOfDestiny.powers;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.MagicBullet.Residual;
+import RingOfDestiny.patches.AbstractRingPowerPatches;
 import com.badlogic.gdx.graphics.Texture;
 import com.evacipated.cardcrawl.mod.stslib.powers.abstracts.TwoAmountPower;
 import com.megacrit.cardcrawl.actions.common.*;
@@ -35,7 +36,8 @@ public class EtchPower extends TwoAmountPower implements CloneablePowerInterface
         this.amount2 = 30;
         this.type = PowerType.DEBUFF;
         updateDescription();
-        loadRegion("phantasmal");
+        this.region48 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("48/" + "4918");
+        this.region128 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("128/" + "4918");
     }
 
     @Override

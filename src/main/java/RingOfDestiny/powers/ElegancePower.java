@@ -14,7 +14,7 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.DexterityPower;
 
-public class ElegancePower extends AbstractPower {
+public class ElegancePower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("ElegancePower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -26,7 +26,7 @@ public class ElegancePower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("darkembrace");
+        loadRingRegion("4148");
     }
 
     public void updateDescription() {

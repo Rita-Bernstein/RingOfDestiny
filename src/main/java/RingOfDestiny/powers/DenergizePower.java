@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class DenergizePower extends AbstractPower {
+public class DenergizePower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("DenergizePower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -23,9 +23,9 @@ public class DenergizePower extends AbstractPower {
         this.ID = POWER_ID;
         this.owner = owner;
         this.amount = amount;
-        this.type   = PowerType.DEBUFF;
+        this.type = PowerType.DEBUFF;
         updateDescription();
-        loadRegion("energized_blue");
+        loadRingRegion("4159");
     }
 
 

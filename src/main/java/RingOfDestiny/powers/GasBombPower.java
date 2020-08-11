@@ -6,7 +6,7 @@ package RingOfDestiny.powers;
  import com.megacrit.cardcrawl.localization.PowerStrings;
  import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class GasBombPower extends AbstractPower {
+public class GasBombPower extends AbstractRingPower {
    public static final String POWER_ID = RingOfDestiny.makeID("GasBombPower");
    private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
    public static final String NAME = powerStrings.NAME;
@@ -18,7 +18,7 @@ public class GasBombPower extends AbstractPower {
      this.owner = owner;
      this.amount = amount;
      updateDescription();
-     loadRegion("barricade");
+     loadRingRegion("10233");
    }
    
    public void updateDescription() {
