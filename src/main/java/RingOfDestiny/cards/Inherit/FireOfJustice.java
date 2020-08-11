@@ -84,14 +84,14 @@ public class FireOfJustice extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeDamage(2);
        upgradeMagicNumber(-2);
 
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeDamage(2);
         upgradeMagicNumber(-2);
     }

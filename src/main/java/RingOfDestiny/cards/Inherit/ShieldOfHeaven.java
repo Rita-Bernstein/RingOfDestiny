@@ -79,7 +79,7 @@ public class ShieldOfHeaven extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.target = CardTarget.SELF;
         upgradeBlock(9);
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
@@ -88,7 +88,7 @@ public class ShieldOfHeaven extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.target = CardTarget.ALL_ENEMY;
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();

@@ -80,7 +80,7 @@ public class HolyGift extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.target = CardTarget.ALL_ENEMY;
         this.subGain += 1;
         upgradeMagicNumber(1);
@@ -88,7 +88,7 @@ public class HolyGift extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.target = CardTarget.ENEMY;
         this.exhaust = true;
     }

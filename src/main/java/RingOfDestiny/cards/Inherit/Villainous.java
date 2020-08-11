@@ -66,12 +66,12 @@ public class Villainous extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.subGain += 2;
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeMagicNumber(1);
     }
 }

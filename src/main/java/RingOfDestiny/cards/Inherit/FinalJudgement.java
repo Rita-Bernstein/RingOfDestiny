@@ -107,7 +107,7 @@ public class FinalJudgement extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.isAnotherDamage = true;
         upgradeMagicNumber(1);
         this.rawDescription = cardStrings.DESCRIPTION;
@@ -115,7 +115,7 @@ public class FinalJudgement extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.isAnotherDamage = false;
         upgradeMagicNumber(1);
         this.rawDescription = cardStrings.DESCRIPTION;

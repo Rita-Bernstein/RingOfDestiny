@@ -73,15 +73,19 @@ public class AngelTalisman extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeMagicNumber(1);
-        upgradeBaseCost(0);
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeCost1() {
+        upgradeBaseCost(0);
+    }
+
+    @Override
+    protected void upgradeNumber2() {
         upgradeMagicNumber(2);
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();

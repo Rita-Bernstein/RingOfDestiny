@@ -101,8 +101,12 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     protected void initializeNumber() {
         if (isDark) {
             initializeNumber2();
+            if (upgraded)
+                this.upgradeNumber2();
         } else {
             initializeNumber1();
+            if (upgraded)
+                this.upgradeNumber1();
         }
     }
 
@@ -137,17 +141,25 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         if (!this.upgraded) {
             upgradeName();
             if (isDark) {
-                upgrade2();
+                upgradeNumber2();
+                upgradeCost2();
             } else {
-                upgrade1();
+                upgradeNumber1();
+                upgradeCost1();
             }
         }
     }
 
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
     }
 
-    protected void upgrade2() {
+    protected void upgradeCost1() {
+    }
+
+    protected void upgradeNumber2() {
+    }
+
+    protected void upgradeCost2() {
     }
 
     public void initializeForm(boolean isDark) {
@@ -156,6 +168,9 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
         reloadCardIMG(isDark);
         reinitializeDescription();
         reGetCardToPreview();
+        if (upgraded) {
+            this.upgrade();
+        }
     }
 
     public void reloadCardIMG(boolean isDark) {
@@ -420,7 +435,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
             }
             this.subCost = this.subCostForTurn;
         } else if (this.subCost >= 0) {
-            this.subCost += amt ;
+            this.subCost += amt;
             if (this.subCost < 0) {
                 this.subCost = 0;
             }

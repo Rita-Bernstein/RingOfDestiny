@@ -88,13 +88,14 @@ public class DawnJudgement extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeDamage(6);
 
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
+
         upgradeDamage(2);
     }
 }

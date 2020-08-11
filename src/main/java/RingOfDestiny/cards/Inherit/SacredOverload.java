@@ -73,13 +73,13 @@ public class SacredOverload extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.subGain2 += 2;
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();

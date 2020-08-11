@@ -73,13 +73,13 @@ public class PowerPendant extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeMagicNumber(1);
 
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeMagicNumber(1);
     }
 }

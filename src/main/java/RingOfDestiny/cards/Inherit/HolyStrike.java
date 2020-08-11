@@ -70,13 +70,13 @@ public class HolyStrike extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeDamage(2);
         this.isEthereal = false;
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.isEthereal = true;
         upgradeDamage(2);
     }

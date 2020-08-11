@@ -72,12 +72,12 @@ public class ProtectionOfLight extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeBlock(3);
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeBlock(3);
     }
 }

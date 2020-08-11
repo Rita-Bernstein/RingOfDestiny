@@ -70,13 +70,13 @@ public class HonourJudgement extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeDamage(4);
         this.exhaust = true;
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeDamage(1);
         this.exhaust = true;
     }

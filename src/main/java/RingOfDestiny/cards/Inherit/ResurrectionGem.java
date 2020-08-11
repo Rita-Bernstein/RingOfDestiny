@@ -81,14 +81,14 @@ public class ResurrectionGem extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeMagicNumber(50);
         this.rawDescription = cardStrings.DESCRIPTION;
         initializeDescription();
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeMagicNumber(1);
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();

@@ -84,14 +84,14 @@ public class SwordShield extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
        upgradeDamage(1);
        upgradeBlock(2);
 
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeDamage(2);
         upgradeBlock(1);
     }

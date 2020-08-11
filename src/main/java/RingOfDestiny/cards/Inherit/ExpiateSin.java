@@ -75,13 +75,13 @@ public class ExpiateSin extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.target = CardTarget.SELF;
         upgradeMagicNumber(1);
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.target = CardTarget.ALL_ENEMY;
         upgradeMagicNumber(1);
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;

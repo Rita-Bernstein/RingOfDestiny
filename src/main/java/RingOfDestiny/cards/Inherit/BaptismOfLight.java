@@ -80,13 +80,13 @@ public class BaptismOfLight extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.target = CardTarget.ENEMY;
         upgradeDamage(10);
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.target = CardTarget.ALL_ENEMY;
         upgradeMagicNumber(15);
     }

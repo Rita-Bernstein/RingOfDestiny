@@ -70,13 +70,17 @@ public class ShimmerBarrier extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
-       upgradeBaseCost(2);
+    protected void upgradeNumber1() {
         this.exhaust = false;
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeCost1() {
+        upgradeBaseCost(2);
+    }
+
+    @Override
+    protected void upgradeNumber2() {
         upgradeMagicNumber(1);
         this.exhaust = true;
     }

@@ -73,13 +73,13 @@ public class JudgementOfSanctity extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
        upgradeDamage(5);
 
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeDamage(3);
     }
 }

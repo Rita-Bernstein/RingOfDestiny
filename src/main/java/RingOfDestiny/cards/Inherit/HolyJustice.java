@@ -75,13 +75,13 @@ public class HolyJustice extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeDamage(2);
         upgradeMagicNumber(1);
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.baseDamage = 5;
         this.magicNumber = this.baseMagicNumber = 1;
     }

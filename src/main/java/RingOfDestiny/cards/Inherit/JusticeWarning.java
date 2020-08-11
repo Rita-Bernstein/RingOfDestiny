@@ -97,14 +97,14 @@ public class JusticeWarning extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeMagicNumber(1);
         initializeDescription();
 
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeMagicNumber(1);
     }
 }

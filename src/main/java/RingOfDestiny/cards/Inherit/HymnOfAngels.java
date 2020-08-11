@@ -65,13 +65,13 @@ public class HymnOfAngels extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeCost1() {
         upgradeBaseCost(1);
 
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeCost2() {
         upgradeBaseSubCost(2);
     }
 }

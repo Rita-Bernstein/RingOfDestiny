@@ -66,13 +66,14 @@ public class PowerOfLight extends AbstractInheritCard {
         }
     }
 
+
     @Override
-    protected void upgrade1() {
+    protected void upgradeCost1() {
         upgradeBaseCost(0);
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeCost2() {
         upgradeBaseSubCost(0);
     }
 }

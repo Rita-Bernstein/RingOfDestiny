@@ -71,13 +71,13 @@ public class BathingInGrace extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
        upgradeMagicNumber(1);
         this.exhaust = false;
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.exhaust = true;
         upgradeMagicNumber(1);
     }

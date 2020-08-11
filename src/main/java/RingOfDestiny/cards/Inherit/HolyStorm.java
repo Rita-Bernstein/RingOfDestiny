@@ -136,7 +136,7 @@ public class HolyStorm extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeDamage(3);
         this.isSingleAndAOE = false;
         this.modifyAlterDamage = false;
@@ -145,7 +145,7 @@ public class HolyStorm extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeMagicNumber(2);
         this.isSingleAndAOE = true;
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;

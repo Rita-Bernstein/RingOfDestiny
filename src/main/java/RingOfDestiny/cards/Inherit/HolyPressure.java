@@ -81,14 +81,14 @@ public class HolyPressure extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.isMultiDamage = true;
         upgradeDamage(4);
 
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.isMultiDamage = false;
         upgradeDamage(1);
     }

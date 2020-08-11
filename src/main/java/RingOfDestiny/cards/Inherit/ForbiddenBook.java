@@ -76,7 +76,7 @@ public class ForbiddenBook extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.cardsToPreview.upgrade();
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
@@ -84,7 +84,7 @@ public class ForbiddenBook extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.cardsToPreview.upgrade();
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();

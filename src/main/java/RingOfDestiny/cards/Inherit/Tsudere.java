@@ -66,14 +66,14 @@ public class Tsudere extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         this.isInnate = true;
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         this.isInnate = true;
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();

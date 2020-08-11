@@ -70,14 +70,18 @@ public class FairJudgement extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeDamage(3);
         this.exhaust = false;
     }
 
     @Override
-    protected void upgrade2() {
-        upgradeBaseSubCost(0);
+    protected void upgradeNumber2() {
         this.exhaust = true;
+    }
+
+    @Override
+    protected void upgradeCost2() {
+        upgradeBaseSubCost(0);
     }
 }

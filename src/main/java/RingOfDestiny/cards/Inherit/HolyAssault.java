@@ -74,13 +74,13 @@ public class HolyAssault extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeDamage(1);
         this.isEthereal = false;
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeMagicNumber(1);
         this.isEthereal = true;
     }

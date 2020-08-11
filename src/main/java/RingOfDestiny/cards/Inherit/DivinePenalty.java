@@ -73,14 +73,14 @@ public class DivinePenalty extends AbstractInheritCard {
     }
 
     @Override
-    protected void upgrade1() {
+    protected void upgradeNumber1() {
         upgradeDamage(15);
         upgradeMagicNumber(5);
 
     }
 
     @Override
-    protected void upgrade2() {
+    protected void upgradeNumber2() {
         upgradeSecondM(1);
         upgradeMagicNumber(5);
     }

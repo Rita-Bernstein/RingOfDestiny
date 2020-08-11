@@ -52,10 +52,12 @@ public class Defend_IH extends AbstractInheritCard {
     }
 
     @Override
-    public void upgrade() {
-        if (!this.upgraded) {
-            upgradeName();
-            upgradeBlock(3);
-        }
+    protected void upgradeNumber1() {
+        upgradeBlock(3);
+    }
+
+    @Override
+    protected void upgradeNumber2() {
+        upgradeBlock(3);
     }
 }
