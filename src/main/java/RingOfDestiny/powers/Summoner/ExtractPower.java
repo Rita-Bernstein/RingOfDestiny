@@ -29,7 +29,7 @@ public class ExtractPower extends AbstractPower {
         this.source = source;
         this.type =PowerType.DEBUFF;
         updateDescription();
-        loadRegion("focus");
+        loadRegion("1010331");
     }
 
     @Override

@@ -32,7 +32,7 @@ public class HegemonyOfDevilPower extends AbstractRingPower {
         this.ID = POWER_ID;
         this.owner = owner;
         updateDescription();
-        loadRegion("flameBarrier");
+        loadRingRegion("1030369");
     }
 
     public void updateDescription() {
@@ -42,9 +42,7 @@ public class HegemonyOfDevilPower extends AbstractRingPower {
 
     @Override
     public void atEndOfTurn(boolean isPlayer) {
-        addToTop(new RemoveSpecificPowerAction(this.owner,this.owner,HegemonyOfDevilPower.POWER_ID));
         addToTop(new StrengthToMetallicizeAction());
-
     }
 }
 

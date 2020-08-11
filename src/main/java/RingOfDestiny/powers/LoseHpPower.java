@@ -29,7 +29,7 @@ public class LoseHpPower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRingRegion("4922");
+        loadRingRegion("1030373");
     }
 
     public void updateDescription() {

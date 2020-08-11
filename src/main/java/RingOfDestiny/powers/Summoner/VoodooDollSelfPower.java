@@ -31,7 +31,7 @@ public class VoodooDollSelfPower extends AbstractRingPower {
         this.ID = POWER_ID;
         this.owner = owner;
         updateDescription();
-        loadRegion("flameBarrier");
+        loadRingRegion("1030370");
     }
 
     public void updateDescription() {

@@ -30,7 +30,7 @@ public class DevilWhispersPower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("corruption");
+        loadRingRegion("1030343");
     }
 
 

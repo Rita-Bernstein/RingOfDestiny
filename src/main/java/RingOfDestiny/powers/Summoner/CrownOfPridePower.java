@@ -30,7 +30,7 @@ public class CrownOfPridePower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("infiniteBlades");
+        loadRingRegion("1030372");
     }
 
     public void updateDescription() {

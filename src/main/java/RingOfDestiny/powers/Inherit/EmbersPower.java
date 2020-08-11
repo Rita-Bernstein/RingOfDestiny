@@ -28,7 +28,7 @@ public class EmbersPower extends AbstractRingPower {
         this.amount = amount;
         this.type = PowerType.DEBUFF;
         updateDescription();
-        loadRegion("flex");
+        loadRingRegion("1030341");
     }
 
     @Override

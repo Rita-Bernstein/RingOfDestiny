@@ -2,6 +2,7 @@ package RingOfDestiny.powers.Summoner;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import RingOfDestiny.powers.AbstractRingPower;
 import RingOfDestiny.powers.EtchPower;
 import RingOfDestiny.powers.EtchReflectionPower;
 import com.megacrit.cardcrawl.actions.common.*;
@@ -14,7 +15,7 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
-public class DemonSkinPower extends AbstractPower {
+public class DemonSkinPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("DemonSkinPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -26,7 +27,7 @@ public class DemonSkinPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("flameBarrier");
+        loadRingRegion("1030360");
     }
 
     public void updateDescription() {

@@ -5,8 +5,6 @@ import RingOfDestiny.cards.AbstractRingCard;
 import RingOfDestiny.patches.CardColorEnum;
 import RingOfDestiny.powers.FlowerOfDespairPower;
 import RingOfDestiny.powers.LoseHpPower;
-import RingOfDestiny.powers.UpgradeFlowerOfDespairPower;
-import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;

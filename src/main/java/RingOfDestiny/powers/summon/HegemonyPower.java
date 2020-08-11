@@ -3,6 +3,7 @@ package RingOfDestiny.powers.summon;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.unique.HegemonyAction;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import RingOfDestiny.powers.AbstractRingPower;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.core.AbstractCreature;
@@ -11,7 +12,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class HegemonyPower extends AbstractPower {
+public class HegemonyPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("HegemonyPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -23,7 +24,7 @@ public class HegemonyPower extends AbstractPower {
         this.owner = owner;
         this.amount = -1;
         updateDescription();
-        loadRegion("focus");
+        loadRingRegion("1030356");
     }
 
 

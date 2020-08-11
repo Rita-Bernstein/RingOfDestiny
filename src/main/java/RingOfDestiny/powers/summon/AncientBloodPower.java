@@ -2,6 +2,7 @@ package RingOfDestiny.powers.summon;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import RingOfDestiny.powers.AbstractRingPower;
 import RingOfDestiny.powers.Summoner.ExtractPower;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
@@ -14,7 +15,7 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class AncientBloodPower extends AbstractPower {
+public class AncientBloodPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("AncientBloodPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -26,7 +27,7 @@ public class AncientBloodPower extends AbstractPower {
         this.owner = owner;
         this.amount = 0;
         updateDescription();
-        loadRegion("focus");
+        loadRingRegion("1030357");
     }
 
     @Override

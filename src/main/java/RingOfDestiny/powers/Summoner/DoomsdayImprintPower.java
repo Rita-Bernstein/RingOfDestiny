@@ -3,6 +3,7 @@ package RingOfDestiny.powers.Summoner;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
 import RingOfDestiny.cards.Summoner.*;
+import RingOfDestiny.powers.AbstractRingPower;
 import com.megacrit.cardcrawl.actions.common.HealAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
@@ -15,7 +16,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class DoomsdayImprintPower extends AbstractPower {
+public class DoomsdayImprintPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("DoomsdayImprintPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -29,7 +30,7 @@ public class DoomsdayImprintPower extends AbstractPower {
         this.type = PowerType.DEBUFF;
         if(this.amount > 10)this.amount = 10;
         updateDescription();
-        loadRegion("focus");
+        loadRingRegion("1010338");
     }
 
     @Override

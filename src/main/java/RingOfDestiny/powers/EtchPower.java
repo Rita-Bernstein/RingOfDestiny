@@ -36,8 +36,8 @@ public class EtchPower extends TwoAmountPower implements CloneablePowerInterface
         this.amount2 = 30;
         this.type = PowerType.DEBUFF;
         updateDescription();
-        this.region48 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("48/" + "4918");
-        this.region128 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("128/" + "4918");
+        this.region48 = AbstractRingPower.ringAtlas.findRegion("48/" + "4918");
+        this.region128 = AbstractRingPower.ringAtlas.findRegion("128/" + "4918");
     }
 
     @Override

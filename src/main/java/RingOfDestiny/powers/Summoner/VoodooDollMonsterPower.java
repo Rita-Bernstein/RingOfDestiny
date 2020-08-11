@@ -30,7 +30,7 @@ public class VoodooDollMonsterPower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("flameBarrier");
+        loadRingRegion("1030370");
     }
 
     public void updateDescription() {

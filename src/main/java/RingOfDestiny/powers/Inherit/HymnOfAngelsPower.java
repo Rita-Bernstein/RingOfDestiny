@@ -30,7 +30,7 @@ public class HymnOfAngelsPower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("corruption");
+        loadRingRegion("1030335");
     }
 
 

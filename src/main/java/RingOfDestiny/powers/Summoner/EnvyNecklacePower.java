@@ -30,7 +30,7 @@ public class EnvyNecklacePower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("infiniteBlades");
+        loadRingRegion("1030364");
     }
 
     public void updateDescription() {

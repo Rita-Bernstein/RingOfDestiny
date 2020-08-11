@@ -24,7 +24,7 @@ public class LoseMetallicizePower extends AbstractRingPower {
         this.amount = amount;
         this.type = PowerType.DEBUFF;
         updateDescription();
-        loadRegion("flex");
+        loadRingRegion("4028");
     }
 
     @Override

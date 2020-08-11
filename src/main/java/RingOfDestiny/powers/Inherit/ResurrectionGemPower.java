@@ -20,7 +20,7 @@ import com.megacrit.cardcrawl.vfx.combat.IntenseZoomEffect;
 
 
 public class ResurrectionGemPower extends AbstractRingPower implements OnPlayerDeathPower, CloneablePowerInterface {
-    public static final String POWER_ID = RingOfDestiny.makeID("ResurrectionGem");
+    public static final String POWER_ID = RingOfDestiny.makeID("ResurrectionGemPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
@@ -33,7 +33,7 @@ public class ResurrectionGemPower extends AbstractRingPower implements OnPlayerD
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("unawakened");
+        loadRingRegion("1010283");
 
     }
 

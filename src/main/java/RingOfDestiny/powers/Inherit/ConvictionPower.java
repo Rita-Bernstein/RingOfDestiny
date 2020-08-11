@@ -20,7 +20,7 @@ public class ConvictionPower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("focus");
+        loadRingRegion("1010270");
     }
 
     @Override

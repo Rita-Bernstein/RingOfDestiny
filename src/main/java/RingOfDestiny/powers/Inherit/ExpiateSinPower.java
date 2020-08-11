@@ -27,7 +27,7 @@ public class ExpiateSinPower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("rupture");
+        loadRingRegion("1030338");
     }
 
 

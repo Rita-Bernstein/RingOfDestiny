@@ -343,7 +343,7 @@
     ]
   },
   "RingOfDestiny:DoomsdayImprintPower": {
-    "NAME": "末日印记",
+    "NAME": "末日标记",
     "DESCRIPTIONS": [
       "这名敌人受到 #y末日陨石 的伤害提高 #b",
       " 点。最多 #b10 层。"
@@ -491,7 +491,7 @@
     ]
   },
   "RingOfDestiny:GuiltyCrownPower": {
-    "NAME": "天使护符",
+    "NAME": "罪恶王冠",
     "DESCRIPTIONS": [
       "每当你 #y损毁 一张牌，获得 #b",
       " 点 #y暗能量 。"
@@ -591,6 +591,13 @@
     "DESCRIPTIONS": [
       "每回合开始时，获得 #b",
       " 点 #y金属化 。"
+    ]
+  },
+  "RingOfDestiny:ResurrectionGemPower": {
+    "NAME": "复活宝石",
+    "DESCRIPTIONS": [
+      "当你将要死亡时，免死并回复 #b",
+      "% 生命。"
     ]
   }
 }

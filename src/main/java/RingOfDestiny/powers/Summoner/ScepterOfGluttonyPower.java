@@ -30,7 +30,7 @@ public class ScepterOfGluttonyPower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("infiniteBlades");
+        loadRingRegion("1030365");
     }
 
     public void updateDescription() {

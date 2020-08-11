@@ -29,7 +29,7 @@ public class UpgradedChainOfLightPower extends AbstractRingPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("rupture");
+        loadRingRegion("1030331");
     }
 
     @Override

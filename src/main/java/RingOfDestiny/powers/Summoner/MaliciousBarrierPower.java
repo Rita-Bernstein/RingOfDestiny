@@ -2,6 +2,7 @@ package RingOfDestiny.powers.Summoner;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import RingOfDestiny.powers.AbstractRingPower;
 import RingOfDestiny.powers.EtchPower;
 import RingOfDestiny.powers.EtchReflectionPower;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -17,7 +18,7 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.WeakPower;
 
-public class MaliciousBarrierPower extends AbstractPower {
+public class MaliciousBarrierPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("MaliciousBarrierPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -32,7 +33,7 @@ public class MaliciousBarrierPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         updateDescription();
-        loadRegion("flameBarrier");
+        loadRingRegion("1030362");
     }
 
     public void updateDescription() {

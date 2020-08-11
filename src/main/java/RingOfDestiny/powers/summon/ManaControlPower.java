@@ -4,6 +4,7 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Summoner.AddSoulStoneAction;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
 import RingOfDestiny.patches.CorruptionPatches;
+import RingOfDestiny.powers.AbstractRingPower;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.tempCards.Shiv;
@@ -13,7 +14,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class ManaControlPower extends AbstractPower {
+public class ManaControlPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("ManaControlPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -25,7 +26,7 @@ public class ManaControlPower extends AbstractPower {
         this.owner = owner;
         this.amount = 0;
         updateDescription();
-        loadRegion("juggernaut");
+        loadRingRegion("1030375");
     }
 
     @Override

@@ -34,8 +34,8 @@ public class PressuredBulletPower extends TwoAmountPower {
         this.amount = amount;
         this.amount2 = 0;
         updateDescription();
-        this.region48 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("48/" + "4118");
-        this.region128 = AbstractRingPowerPatches.PatchEnergyPanelField.ringAtlas.get(this).findRegion("128/" + "4118");
+        this.region48 = AbstractRingPower.ringAtlas.findRegion("48/" + "4118");
+        this.region128 = AbstractRingPower.ringAtlas.findRegion("128/" + "4118");
     }
 
     @Override
