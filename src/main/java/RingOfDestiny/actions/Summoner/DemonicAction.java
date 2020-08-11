@@ -40,7 +40,7 @@ public class DemonicAction extends AbstractGameAction {
         }
 
         if(amount > 0){
-            addToTop(new ApplyPowerAction(AbstractDungeon.player,AbstractDungeon.player,new MetallicizePower(AbstractDungeon.player,this.amount),this.amount));
+            addToTop(new ApplyPowerAction(AbstractDungeon.player,AbstractDungeon.player,new MetallicizePower(AbstractDungeon.player,amount * this.blockPerCard),amount*this.blockPerCard));
         }
 
         for (AbstractCard c : cardsToExhaust) {

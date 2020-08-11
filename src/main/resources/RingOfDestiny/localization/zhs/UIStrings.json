@@ -141,5 +141,16 @@
       "黑暗形态",
       "光明形态"
     ]
+  },
+  "RingOfDestiny:MUGENWorld": {
+    "TEXT": [
+      "MUGEN"
+    ]
+  },
+  "RingOfDestiny:RitaPowermeter": {
+    "TEXT": [
+      "气槽",
+      "当它被充满时，下一回合将使用 #y超必杀 ！"
+    ]
   }
 }

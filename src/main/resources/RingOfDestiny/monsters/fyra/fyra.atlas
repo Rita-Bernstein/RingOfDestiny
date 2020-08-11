@@ -1,0 +1,146 @@
+
+fyra.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fyra2/HairBack
+  rotate: false
+  xy: 1, 1
+  size: 531, 869
+  orig: 531, 869
+  offset: 0, 0
+  index: -1
+fyra2/Arm_R3
+  rotate: false
+  xy: 1410, 698
+  size: 115, 183
+  orig: 115, 183
+  offset: 0, 0
+  index: -1
+fyra2/Arm_R2
+  rotate: false
+  xy: 1619, 698
+  size: 105, 172
+  orig: 105, 172
+  offset: 0, 0
+  index: -1
+fyra2/Arm_R1
+  rotate: false
+  xy: 1823, 698
+  size: 94, 166
+  orig: 94, 166
+  offset: 0, 0
+  index: -1
+fyra2/Leg_L2
+  rotate: false
+  xy: 1062, 698
+  size: 124, 270
+  orig: 124, 270
+  offset: 0, 0
+  index: -1
+fyra2/Leg_L1
+  rotate: false
+  xy: 1527, 698
+  size: 90, 219
+  orig: 90, 219
+  offset: 0, 0
+  index: -1
+fyra2/Leng_R2
+  rotate: false
+  xy: 1188, 698
+  size: 104, 272
+  orig: 104, 272
+  offset: 0, 0
+  index: -1
+fyra2/Leg_R1
+  rotate: false
+  xy: 1919, 698
+  size: 73, 205
+  orig: 73, 205
+  offset: 0, 0
+  index: -1
+fyra2/Body
+  rotate: false
+  xy: 846, 527
+  size: 214, 397
+  orig: 214, 397
+  offset: 0, 0
+  index: -1
+fyra2/Face
+  rotate: false
+  xy: 534, 527
+  size: 310, 360
+  orig: 310, 360
+  offset: 0, 0
+  index: -1
+fyra2/Chest
+  rotate: false
+  xy: 1294, 903
+  size: 127, 76
+  orig: 127, 76
+  offset: 0, 0
+  index: -1
+fyra2/Arm_L1
+  rotate: false
+  xy: 1342, 1
+  size: 82, 169
+  orig: 82, 169
+  offset: 0, 0
+  index: -1
+fyra2/Arm_L2
+  rotate: false
+  xy: 1726, 698
+  size: 95, 184
+  orig: 95, 184
+  offset: 0, 0
+  index: -1
+fyra2/Arm_L3
+  rotate: false
+  xy: 1294, 698
+  size: 114, 203
+  orig: 114, 203
+  offset: 0, 0
+  index: -1
+fyra2/HairFront
+  rotate: false
+  xy: 534, 1
+  size: 434, 524
+  orig: 434, 524
+  offset: 0, 0
+  index: -1
+fyra2/CloseMouth
+  rotate: false
+  xy: 1619, 872
+  size: 49, 5
+  orig: 49, 5
+  offset: 0, 0
+  index: -1
+fyra2/OpenMouth
+  rotate: false
+  xy: 1823, 866
+  size: 47, 26
+  orig: 47, 26
+  offset: 0, 0
+  index: -1
+fyra2/Eye
+  rotate: false
+  xy: 1, 872
+  size: 273, 106
+  orig: 273, 106
+  offset: 0, 0
+  index: -1
+fyra2/CloseEye
+  rotate: false
+  xy: 1062, 527
+  size: 278, 169
+  orig: 278, 169
+  offset: 0, 0
+  index: -1
+fyra2/Necklace
+  rotate: false
+  xy: 1423, 883
+  size: 80, 94
+  orig: 80, 94
+  offset: 0, 0
+  index: -1

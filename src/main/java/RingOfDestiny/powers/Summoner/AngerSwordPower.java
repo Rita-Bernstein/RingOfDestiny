@@ -34,7 +34,7 @@ public class AngerSwordPower extends AbstractRingPower {
     }
 
     public void updateDescription() {
-        this.description = powerStrings.DESCRIPTIONS[0] + this.amount*3 + powerStrings.DESCRIPTIONS[1] + this.amount + powerStrings.DESCRIPTIONS[2];
+        this.description = powerStrings.DESCRIPTIONS[0] + this.amount * 3 + powerStrings.DESCRIPTIONS[1] + this.amount + powerStrings.DESCRIPTIONS[2];
     }
 
 
@@ -43,11 +43,12 @@ public class AngerSwordPower extends AbstractRingPower {
         super.onUseCard(card, action);
         if(card.type == AbstractCard.CardType.SKILL){
             AbstractMonster randomMonster = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng);
-            addToTop(new DamageAction(randomMonster,
-                    new DamageInfo( null,this.amount * 3, DamageInfo.DamageType.THORNS)
-                    ,AbstractGameAction.AttackEffect.SLASH_HEAVY));
-            addToTop(new ApplyPowerAction(randomMonster,this.owner,new ExtractPower(randomMonster,this.owner,this.amount),this.amount));
-
+            if(randomMonster != null){
+                addToTop(new DamageAction(randomMonster,
+                        new DamageInfo( this.owner,this.amount * 3, DamageInfo.DamageType.THORNS)
+                        ,AbstractGameAction.AttackEffect.SLASH_HEAVY));
+                addToTop(new ApplyPowerAction(randomMonster,this.owner,new ExtractPower(randomMonster,this.owner,this.amount),this.amount));
+            }
         }
     }
 }

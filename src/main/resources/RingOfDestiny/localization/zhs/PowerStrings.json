@@ -342,6 +342,13 @@
       " 层 #y榨取 和 #y虚弱 。"
     ]
   },
+  "RingOfDestiny:UpgradedMaliciousBarrierPower": {
+    "NAME": "恶意屏障+",
+    "DESCRIPTIONS": [
+      "本回合每受到一次 #y攻击 ,给予 #b",
+      " 层 #y榨取 。"
+    ]
+  },
   "RingOfDestiny:DoomsdayImprintPower": {
     "NAME": "末日标记",
     "DESCRIPTIONS": [
@@ -598,6 +605,39 @@
     "DESCRIPTIONS": [
       "当你将要死亡时，免死并回复 #b",
       "% 生命。"
+    ]
+  },
+  "RingOfDestiny:Reflection": {
+    "NAME": "反射",
+    "DESCRIPTIONS": [
+      "当攻击未击穿格挡时， 对攻击者造成 #y等量 伤害。"
+    ]
+  },
+  "RingOfDestiny:SelfDetonate": {
+    "NAME": "自爆",
+    "DESCRIPTIONS": [
+      "反射死亡前受到的最后一次生命损失量的伤害。"
+    ]
+  },
+  "RingOfDestiny:SuperMoves": {
+    "NAME": "超杀系统",
+    "DESCRIPTIONS": [
+      "用于给超杀时候给与各种增益的系统"
+    ]
+  },
+  "RingOfDestiny:ArtGallery": {
+    "NAME": "铜像美术馆",
+    "DESCRIPTIONS": [
+      "敌人将会在 #y2 个回合后召唤铜像，场内最多两只。",
+      " "
+    ]
+  },
+  "RingOfDestiny:Probe": {
+    "NAME": "试探",
+    "DESCRIPTIONS": [
+      "敌人将会在 #y5 个回合后自杀并进入下一状态。",
+      " ",
+      "敌人将会在本回合自杀并进入下一状态。"
     ]
   }
 }

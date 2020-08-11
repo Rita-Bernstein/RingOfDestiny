@@ -86,5 +86,13 @@
     "DESCRIPTIONS": [
       "进入 #p黑暗形态 时， #y力量 将不会变为 #y金属化 。"
     ]
+  },
+  "RingOfDestiny:TearsOfMaid": {
+    "NAME": "女仆之泪",
+    "FLAVOR": "谁人开心谁人泪",
+    "DESCRIPTIONS": [
+      "在Boss战开始时，Boss的最大生命增加 #b",
+      "% 。"
+    ]
   }
 }

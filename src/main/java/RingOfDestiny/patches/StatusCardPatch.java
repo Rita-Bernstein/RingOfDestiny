@@ -27,7 +27,6 @@ public class StatusCardPatch {
         @SpireInsertPatch(locator = TabNameLocator.class, localvars = {"tabName"})
         public static void InsertFix(ColorTabBar _instance, SpriteBatch sb, float y, ColorTabBar.CurrentTab curTab, @ByRef String[] tabName) {
             if (tabName[0].equals("Status")) {
-                System.out.println("天剑");
                 tabName[0] = uiStrings.TEXT[0];
             }
 

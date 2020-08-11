@@ -23,9 +23,6 @@ public class MaliciousBarrierPower extends AbstractRingPower {
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
-    private static int limite = 2;
-    private static int healingAmount = 1;
-    private AbstractCreature source ;
 
     public MaliciousBarrierPower(AbstractCreature owner, int amount) {
         this.name = powerStrings.NAME;
@@ -43,8 +40,7 @@ public class MaliciousBarrierPower extends AbstractRingPower {
     public int onAttacked(DamageInfo info, int damageAmount) {
         if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.type != DamageInfo.DamageType.HP_LOSS && info.owner != this.owner) {
             flash();
-            addToTop(new ApplyPowerAction(info.owner,null,new ExtractPower(info.owner,this.owner,this.amount),this.amount));
-            addToTop(new ApplyPowerAction(info.owner,null,new WeakPower(info.owner,this.amount,false),this.amount));
+            addToTop(new ApplyPowerAction(info.owner,this.owner,new ExtractPower(info.owner,this.owner,this.amount),this.amount));
         }
         return damageAmount;
     }

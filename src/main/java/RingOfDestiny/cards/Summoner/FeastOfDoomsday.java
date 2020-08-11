@@ -33,11 +33,12 @@ public class FeastOfDoomsday extends AbstractSummonerCard {
             for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
                 if (!monster.isDead && !monster.isDying) {
                     addToBot(new ApplyPowerAction(monster, p, new DoomsdayImprintPower(monster, this.magicNumber), this.magicNumber));
+                    addToBot(new FeastOfDoomsdayAction(monster));
                 }
             }
         }
 
-        addToBot(new FeastOfDoomsdayAction(m));
+
     }
 
     public AbstractCard makeCopy() {

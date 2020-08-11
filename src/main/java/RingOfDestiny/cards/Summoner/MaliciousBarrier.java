@@ -3,6 +3,7 @@ package RingOfDestiny.cards.Summoner;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.AbstractSummonerCard;
 import RingOfDestiny.powers.Summoner.MaliciousBarrierPower;
+import RingOfDestiny.powers.Summoner.UpgradedMaliciousBarrierPower;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -28,7 +29,12 @@ public class MaliciousBarrier extends AbstractSummonerCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
        addToBot(new GainBlockAction(p, p, this.block));
-        addToBot(new ApplyPowerAction(p,p,new MaliciousBarrierPower(p,this.magicNumber),this.magicNumber));
+       if(upgraded){
+           addToBot(new ApplyPowerAction(p,p,new UpgradedMaliciousBarrierPower(p,this.magicNumber),this.magicNumber));
+       }else {
+           addToBot(new ApplyPowerAction(p,p,new MaliciousBarrierPower(p,this.magicNumber),this.magicNumber));
+       }
+
     }
 
     public AbstractCard makeCopy() {

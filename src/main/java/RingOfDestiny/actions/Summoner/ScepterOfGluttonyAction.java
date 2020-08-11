@@ -45,7 +45,7 @@ public class ScepterOfGluttonyAction extends AbstractGameAction {
             if (this.p.hand.group.size() - this.cannotDuplicate.size() == 1) {
                 for (AbstractCard c : this.p.hand.group) {
                     if (!c.hasTag(CustomTagsEnum.Soul_Stone)) {
-                        modifyCost(c);
+                        c.setCostForTurn(0);
 
 
                         this.isDone = true;
@@ -65,7 +65,7 @@ public class ScepterOfGluttonyAction extends AbstractGameAction {
 
 
             if (this.p.hand.group.size() == 1) {
-                modifyCost(this.p.hand.getTopCard());
+                this.p.hand.getTopCard().setCostForTurn(0);
                 returnCards();
                 this.isDone = true;
             }
@@ -75,7 +75,7 @@ public class ScepterOfGluttonyAction extends AbstractGameAction {
         if (!AbstractDungeon.handCardSelectScreen.wereCardsRetrieved) {
 
             for (AbstractCard c : AbstractDungeon.handCardSelectScreen.selectedCards.group) {
-                modifyCost(c);
+                c.setCostForTurn(0);
                 AbstractDungeon.player.hand.addToTop(c);
             }
 
@@ -96,13 +96,6 @@ public class ScepterOfGluttonyAction extends AbstractGameAction {
         this.p.hand.refreshHandLayout();
     }
 
-    private void modifyCost(AbstractCard card) {
-        if (card.costForTurn > 1) {
-            card.costForTurn = 1;
-            card.isCostModifiedForTurn = true;
-        }
-        AbstractDungeon.player.hand.addToTop(card);
-    }
 }
 
 

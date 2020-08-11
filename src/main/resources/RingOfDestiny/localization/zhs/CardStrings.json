@@ -905,7 +905,7 @@
   "RingOfDestiny:HolyGift2": {
     "NAME": "黑暗汲取",
     "DESCRIPTION": "移除敌人的 力量 。你获得被移除的 力量 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "移除所有敌人的 力量 。你获得被移除的 力量 。 NL 消耗 。"
+    "UPGRADE_DESCRIPTION": "移除所有敌人的 力量 。你获得等量的 ring_of_destiny:金属化 。 NL 消耗 。"
   },
   "RingOfDestiny:PowerOfLight2": {
     "NAME": "源力咆哮",
@@ -1035,7 +1035,7 @@
   },
   "RingOfDestiny:HolyEcho2": {
     "NAME": "暗影重塑",
-    "DESCRIPTION": "将使消耗堆顶部的牌打出 !M! 次。"
+    "DESCRIPTION": "将消耗堆顶部的牌打出 !M! 次。"
   },
   "RingOfDestiny:PowerPendant2": {
     "NAME": "源力指环",
@@ -1264,7 +1264,7 @@
   },
   "RingOfDestiny:HolyEcho": {
     "NAME": "神圣回响",
-    "DESCRIPTION": "将使弃牌堆顶部的牌打出 !M! 次。"
+    "DESCRIPTION": "将弃牌堆顶部的牌打出 !M! 次。"
   },
   "RingOfDestiny:PowerPendant": {
     "NAME": "力量吊坠",
@@ -1272,7 +1272,7 @@
   },
   "RingOfDestiny:ResurrectionGem": {
     "NAME": "复活宝石",
-    "DESCRIPTION": "ring_of_destiny:唯一 。当你将要死亡时，半血血复活一次。 NL ring_of_destiny:损毁 。",
+    "DESCRIPTION": "ring_of_destiny:唯一 。当你将要死亡时，半血复活一次。 NL ring_of_destiny:损毁 。",
     "UPGRADE_DESCRIPTION": "ring_of_destiny:唯一 。当你将要死亡时，满血复活一次。 NL ring_of_destiny:损毁 。"
   },
   "RingOfDestiny:HolyShock": {
@@ -1575,5 +1575,21 @@
   "RingOfDestiny:Venom": {
     "NAME": "毒液",
     "DESCRIPTION": "回合结束时，受到 !M! 点伤害。打出时，受到 !RODSecondM! 点伤害。 NL 消耗 。"
+  },
+  "RingOfDestiny:Misstep": {
+    "NAME": "踩空",
+    "DESCRIPTION": "不能被打出 。抽到这张牌时，丢弃一张随机手牌。"
+  },
+  "RingOfDestiny:Blockade": {
+    "NAME": "封锁",
+    "DESCRIPTION": "这张牌在你的手牌时，你不能再抽任何牌。"
+  },
+  "RingOfDestiny:Slip": {
+    "NAME": "失足",
+    "DESCRIPTION": "不能被打出 。 这张牌被丢弃时，对你造成 4 点伤害。"
+  },
+  "RingOfDestiny:Overcautious": {
+    "NAME": "畏首畏尾",
+    "DESCRIPTION": "不能被打出 。 虚无 。这张牌被丢弃或被 消耗 时，对你造成 4 点伤害并将这张牌的复制品加入你的抽牌堆。"
   }
 }
