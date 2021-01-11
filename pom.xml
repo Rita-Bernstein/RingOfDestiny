@@ -3,7 +3,7 @@
 
     <groupId>RingOfDestiny</groupId>
     <artifactId>RingOfDestiny</artifactId>
-    <version>v1.0.0</version>
+    <version>v1.1.0</version>
     <packaging>jar</packaging>
 
     <name>RingOfDestiny</name>
@@ -12,8 +12,8 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <SlayTheSpire.version>01-23-2019</SlayTheSpire.version>
-        <ModTheSpire.version>3.8.0</ModTheSpire.version>
+        <SlayTheSpire.version>11-29-2020</SlayTheSpire.version>
+        <ModTheSpire.version>3.19.0</ModTheSpire.version>
         <Steam.path>C:/Program Files (x86)/Steam/steamapps</Steam.path>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -36,16 +36,23 @@
         <dependency>
             <groupId>basemod</groupId>
             <artifactId>basemod</artifactId>
-            <version>5.21.1</version>
+            <version>5.29.0</version>
             <scope>system</scope>
             <systemPath>${Steam.path}/workshop/content/646570/1605833019/BaseMod.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.evacipated.cardcrawl.mod</groupId>
             <artifactId>StSLib</artifactId>
-            <version>1.19.3</version>
+            <version>1.21.3</version>
             <scope>system</scope>
             <systemPath>${Steam.path}/workshop/content/646570/1609158507/StSLib.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.evacipated.cardcrawl.mod</groupId>
+            <artifactId>actlikeit</artifactId>
+            <version>1.2.2</version>
+            <scope>system</scope>
+            <systemPath>${Steam.path}/workshop/content/646570/1934902042/actlikeit.jar</systemPath>
         </dependency>
     </dependencies>
 
