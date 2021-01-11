@@ -6,12 +6,18 @@ import RingOfDestiny.cards.Purchemist.*;
 import RingOfDestiny.cards.ShadowFlower.*;
 import RingOfDestiny.cards.Summoner.*;
 import RingOfDestiny.cards.Colorless.*;
+import RingOfDestiny.dungeons.BlackNoah;
+import RingOfDestiny.events.FruitStall;
 import RingOfDestiny.helpers.*;
+import RingOfDestiny.monster.Ending.Rita;
+import RingOfDestiny.monster.Ending.fyra;
 import RingOfDestiny.soulStone.SoulStone;
+import actlikeit.dungeons.CustomDungeon;
 import basemod.BaseMod;
 
 import basemod.ModLabeledToggleButton;
 import basemod.ModPanel;
+import basemod.helpers.RelicType;
 import com.evacipated.cardcrawl.mod.stslib.Keyword;
 import basemod.abstracts.CustomCard;
 import basemod.interfaces.*;
@@ -27,6 +33,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.dungeons.TheEnding;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
@@ -51,7 +58,9 @@ public class RingOfDestiny
         EditRelicsSubscriber,
         EditKeywordsSubscriber,
         PreStartGameSubscriber,
-        PostDungeonInitializeSubscriber {
+        PostDungeonInitializeSubscriber,
+        PostInitializeSubscriber,
+        AddAudioSubscriber{
 
     public static String MOD_ID = "RingOfDestiny";
 
@@ -189,6 +198,79 @@ public class RingOfDestiny
         BaseMod.addSaveField("RingOfDestiny:SoulStone", soulStoneCustomSavable);
     }
 
+
+    @Override
+    public void receivePostInitialize() {
+        CustomDungeon.addAct(CustomDungeon.THEENDING,new BlackNoah());
+
+        BaseMod.addEvent(FruitStall.ID, FruitStall.class,"");
+        //BaseMod.addEvent(FruitStall.ID, FruitStall.class, TheCity.ID);
+
+        BaseMod.addMonster(Rita.ID, () -> new Rita());
+
+        BaseMod.addMonster(fyra.ID, () -> new fyra());
+
+
+        logger.info("========================= 你小子的角色加进去了 =========================");
+
+        BaseMod.addBoss(TheEnding.ID, Rita.ID,
+                assetPath("img/ui/map/boss/Rita.png"),
+                assetPath("img/ui/map/bossOutline/Rita.png"));
+
+
+    }
+
+    @Override
+    public void receiveAddAudio() {
+        BaseMod.addAudio(makeID("VO_Rita_Intimidate"), assetPath("/audio/sound/Rita/VO/嘲讽2.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_KaiserPhoenix"), assetPath("/audio/sound/Rita/VO/凯撒凤凰1.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Repuuken"), assetPath("/audio/sound/Rita/VO/烈风拳.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Heaven"), assetPath("/audio/sound/Rita/VO/这就是最后一击1.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Barrier"), assetPath("/audio/sound/Rita/VO/黑暗屏障.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Kaiser"), assetPath("/audio/sound/Rita/VO/凯撒波.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Execution"), assetPath("/audio/sound/Rita/VO/丽塔处刑1.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Cutter"), assetPath("/audio/sound/Rita/VO/灭族切割.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Pressure"), assetPath("/audio/sound/Rita/VO/死吧1.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Destruction"), assetPath("/audio/sound/Rita/VO/无处可逃 哈哈哈.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Judgement"), assetPath("/audio/sound/Rita/VO/真有趣2.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Hit0"), assetPath("/audio/sound/Rita/VO/受击1.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Hit1"), assetPath("/audio/sound/Rita/VO/受击2.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Form1A"), assetPath("/audio/sound/Rita/VO/转状态1A.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Form1B"), assetPath("/audio/sound/Rita/VO/转状态1C.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Form2A"), assetPath("/audio/sound/Rita/VO/转状态2A.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Form2B"), assetPath("/audio/sound/Rita/VO/转状态2D.wav"));
+        BaseMod.addAudio(makeID("VO_Rita_Form3A"), assetPath("/audio/sound/Rita/VO/转状态3A.wav"));
+
+
+
+        BaseMod.addAudio(makeID("VO_fyra_Stirker"), assetPath("/audio/sound/fyra/VO/Stirker Glugan.wav"));
+        BaseMod.addAudio(makeID("VO_fyra_Mirror"), assetPath("/audio/sound/fyra/VO/Cutting Swallow Mirror Slam.wav"));
+        BaseMod.addAudio(makeID("VO_fyra_Flame"), assetPath("/audio/sound/fyra/VO/Flashing Flame Fortress.wav"));
+        BaseMod.addAudio(makeID("VO_fyra_White1"), assetPath("/audio/sound/fyra/VO/White Destroyer Spirit1.wav"));
+        BaseMod.addAudio(makeID("VO_fyra_White2"), assetPath("/audio/sound/fyra/VO/White Destroyer Spirit2.wav"));
+        BaseMod.addAudio(makeID("VO_fyra_White"), assetPath("/audio/sound/fyra/VO/White Destroyer Spirit.wav"));
+        BaseMod.addAudio(makeID("VO_fyra_Hit0"), assetPath("/audio/sound/fyra/VO/Hit_0.wav"));
+        BaseMod.addAudio(makeID("VO_fyra_Hit1"), assetPath("/audio/sound/fyra/VO/Hit_1.wav"));
+        BaseMod.addAudio(makeID("VO_fyra_Hit2"), assetPath("/audio/sound/fyra/VO/Hit_2.wav"));
+        BaseMod.addAudio(makeID("VO_fyra_Kill"), assetPath("/audio/sound/fyra/VO/Kill.wav"));
+
+        BaseMod.addAudio(makeID("HitHeavy0"), assetPath("/audio/sound/combat/HitHeavy.wav"));
+        BaseMod.addAudio(makeID("HitHeavy1"), assetPath("/audio/sound/combat/HitHeavy1.wav"));
+        BaseMod.addAudio(makeID("HitHeavy2"), assetPath("/audio/sound/combat/HitHeavy2.wav"));
+        BaseMod.addAudio(makeID("Slash"), assetPath("/audio/sound/combat/Slash.wav"));
+        BaseMod.addAudio(makeID("SlashHeavy"), assetPath("/audio/sound/combat/SlashHeavy.wav"));
+
+        BaseMod.addAudio(makeID("Cutter"), assetPath("/audio/sound/combat/Cutter.wav"));
+        BaseMod.addAudio(makeID("Heaven"), assetPath("/audio/sound/combat/Heaven.wav"));
+        BaseMod.addAudio(makeID("Repuuken"), assetPath("/audio/sound/combat/Repuuken.wav"));
+        BaseMod.addAudio(makeID("Kaiser"), assetPath("/audio/sound/combat/Kaiser.wav"));
+
+        BaseMod.addAudio(makeID("Glugan"), assetPath("/audio/sound/combat/Glugan.wav"));
+        BaseMod.addAudio(makeID("ZEROSkirt"), assetPath("/audio/sound/combat/ZEROSkirt.wav"));
+        BaseMod.addAudio(makeID("ZEROShadow"), assetPath("/audio/sound/combat/ZEROShadow.wav"));
+
+        BaseMod.addAudio(makeID("FruitStall"), assetPath("/audio/sound/events/FruitStall.wav"));
+    }
 
 
     @SuppressWarnings("unused")
@@ -582,7 +664,14 @@ public class RingOfDestiny
         cards.add(new ChainBlade());
 
 
+//============================
+//============================
+//============================无色
+        cards.add(new Blockade());
+        cards.add(new Slip());
+        cards.add(new Misstep());
 
+//        cards.add(new NotRegret());
 
 
 
@@ -654,6 +743,7 @@ public class RingOfDestiny
         BaseMod.addRelicToCustomPool(new TwinWings(), CardColorEnum.Inherit_LIME);
         BaseMod.addRelicToCustomPool(new HolyStarSeal(), CardColorEnum.Inherit_LIME);
 
+        BaseMod.addRelic(new TearsOfMaid(), RelicType.SHARED);
 
         logger.debug("receiveEditRelics finished.");
     }

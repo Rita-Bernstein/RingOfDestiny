@@ -3,12 +3,17 @@ package RingOfDestiny.powers;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+import com.megacrit.cardcrawl.actions.utility.NewQueueCardAction;
+import com.megacrit.cardcrawl.actions.utility.UseCardAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.tempCards.Shiv;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+
+import java.util.ArrayList;
 
 public class ActPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("ActPower");
@@ -23,6 +28,22 @@ public class ActPower extends AbstractRingPower {
         this.amount = amount;
         updateDescription();
         loadRingRegion("4188");
+    }
+
+    @Override
+    public void onUseCard(AbstractCard card, UseCardAction action) {
+        super.onUseCard(card, action);
+        ArrayList<AbstractCard> tmp = new ArrayList<>();
+        for (int i = 0; i < this.amount; i++)
+            tmp.add(card.makeStatEquivalentCopy());
+
+        for(AbstractCard c : tmp){
+            c.purgeOnUse = true;
+            addToBot(new NewQueueCardAction(c, true, false, true));
+        }
+
+        AbstractDungeon.player.hand.refreshHandLayout();
+
     }
 
     public void updateDescription() {

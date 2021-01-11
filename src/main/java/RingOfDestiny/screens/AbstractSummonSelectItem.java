@@ -102,12 +102,12 @@ public class AbstractSummonSelectItem {
             this.hb.render(sb);
             renderReticle(sb,this.hb);
 
-            FontHelper.bannerFont.getData().setScale(1.0F);
-            FontHelper.renderFontCentered(sb, FontHelper.bannerFont, name, this.hb.cX, this.hb.cY - this.hb_h /2 - 10.0f * Settings.scale, Settings.GOLD_COLOR.cpy());
+            FontHelper.losePowerFont.getData().setScale(1.0F);
+            FontHelper.renderFontCentered(sb, FontHelper.losePowerFont, name, this.hb.cX, this.hb.cY - this.hb_h /2 - 10.0f * Settings.scale, Settings.GOLD_COLOR.cpy());
 
-            FontHelper.bannerFont.getData().setScale(0.7F);
-            FontHelper.renderFontCentered(sb, FontHelper.bannerFont, description[1], this.hb.cX, this.hb.cY - this.hb_h /2 - 70.0f * Settings.scale, Color.WHITE.cpy());
-            FontHelper.renderFontCentered(sb, FontHelper.bannerFont, description[2], this.hb.cX, this.hb.cY - this.hb_h /2 - 110.0f * Settings.scale, Color.WHITE.cpy());
+            FontHelper.losePowerFont.getData().setScale(0.7F);
+            FontHelper.renderFontCentered(sb, FontHelper.losePowerFont, description[1], this.hb.cX, this.hb.cY - this.hb_h /2 - 70.0f * Settings.scale, Color.WHITE.cpy());
+            FontHelper.renderFontCentered(sb, FontHelper.losePowerFont, description[2], this.hb.cX, this.hb.cY - this.hb_h /2 - 110.0f * Settings.scale, Color.WHITE.cpy());
         }
     }
 

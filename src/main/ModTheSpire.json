@@ -5,7 +5,7 @@
   "credits": "搞事情",
   "description": "",
   "version": "1.1.0",
-  "sts_version": "07-17-2019",
-  "mts_version": "3.8.3",
-  "dependencies": ["basemod", "stslib"]
+  "sts_version": "11-29-2020",
+  "mts_version": "3.19.0",
+  "dependencies": ["basemod", "stslib","actlikeit"]
 }
