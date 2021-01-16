@@ -66,7 +66,7 @@ public class HolyGift extends AbstractInheritCard {
     protected void cardEffect2(AbstractPlayer p, AbstractMonster m) {
         if (m.hasPower(StrengthPower.POWER_ID)) {
             int amount = m.getPower(StrengthPower.POWER_ID).amount;
-            addToBot(new ApplyPowerAction(p, p, new MetallicizePower(p, amount), amount));
+            addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, amount), amount));
             addToBot(new RemoveSpecificPowerAction(m, p, StrengthPower.POWER_ID));
         }
     }

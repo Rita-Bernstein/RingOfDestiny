@@ -26,7 +26,7 @@ public class EmbersPower extends AbstractRingPower {
         this.ID = POWER_ID;
         this.owner = owner;
         this.amount = amount;
-        this.type = PowerType.DEBUFF;
+        this.type = PowerType.BUFF;
         updateDescription();
         loadRingRegion("1030341");
     }

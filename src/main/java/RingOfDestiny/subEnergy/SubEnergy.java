@@ -351,7 +351,7 @@ public class SubEnergy {
 
         switchCard(switchToDark);
 
-        if(!AbstractDungeon.player.hasRelic(HolyStarSeal.ID))
+        if(!AbstractDungeon.player.hasRelic(HolyStarSeal.ID) && switchToDark)
         AbstractDungeon.actionManager.addToTop(new StrengthToMetallicizeAction());
     }
 
