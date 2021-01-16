@@ -3,5 +3,154 @@
     "TEXT": [
       "丢弃手牌并获得弃牌数的能量"
     ]
+  },
+  "RingOfDestiny:SkillCardOnly": {
+    "TEXT": [
+      "我的手牌中还有非技能牌。"
+    ]
+  },
+  "RingOfDestiny:EtchPhantomAction": {
+    "TEXT": [
+      "将一张牌复制到手牌",
+      "将",
+      " 张牌复制到手牌"
+    ]
+  },
+  "RingOfDestiny:DarkProjectionAction": {
+    "TEXT": [
+      "复制技能牌"
+    ]
+  },
+  "RingOfDestiny:DiamondManager": {
+    "TEXT": [
+      " #y招财喵之怒 ： NL 每颗超过上限部分的 #y氪金石 将对生命最少的敌人造成 #b",
+      " 点伤害。 NL NL #y氪金光环 ： NL #b1 层：（3颗激活） NL 回合结束时 NL 对所有敌人造成 #b",
+      " 点伤害。 NL #p2 层：（6颗激活） NL 每回合开始时额外抽 #b",
+      " 张牌。 NL #y3 层：（10颗激活） NL 每回合开始时获得 #b",
+      " 点 #y格挡 。"
+    ],
+    "EXTRA_TEXT": [
+      "氪金石"
+    ]
+  },
+  "RingOfDestiny:DrawAgainAction": {
+    "TEXT": [
+      "将一张 再来一发 加入手牌",
+      "将",
+      " 再来一发 加入手牌"
+    ]
+  },
+  "RingOfDestiny:AttackIntent": {
+    "TEXT": [
+      "这个敌人的意图不是攻击！",
+      "这个敌人的意图是攻击！"
+    ]
+  },
+  "RingOfDestiny:TempIncreaseMaxHPAction": {
+    "TEXT": [
+      "临时最大生命+"
+    ]
+  },
+  "RingOfDestiny:Demon": {
+    "TEXT": [
+      "魔王阿鲁多",
+      "手持地狱战镰的最强战士",
+      "熔岩魔王"
+    ],
+    "EXTRA_TEXT": [
+      " #y暴虐 ： NL 魔王存在时，玩家每打出一张 #y攻击牌 ，魔王将对随机敌人造成伤害。 NL NL ",
+      " #y魔界霸权 ：（长按献祭） NL 魔王献祭后，每回合开始时手牌中的随机一张 #y攻击牌 本回合耗能为零。"
+    ]
+  },
+  "RingOfDestiny:Succubus": {
+    "TEXT": [
+      "魅魔莉莉丝",
+      "擅长魅惑和操纵魔法的",
+      "魅魔女王"
+    ],
+    "EXTRA_TEXT": [
+      "  #y魅惑 ： NL 魅魔存在时，玩家每打出一张 #y技能牌 ，魅魔将对随机敌人造成伤害。 NL NL ",
+      "  #y魔力掌控 ：（长按献祭） NL 魅魔献祭后，所有本角色 #y技能牌 耗能减1（不低于1）。 NL 每获得 #b20 点 #y格挡 获得1颗 #y灵魂石 。"
+    ]
+  },
+  "RingOfDestiny:Vampire": {
+    "TEXT": [
+      "伯爵拉夏尔",
+      "诅咒削弱敌人并吸取能量的",
+      "血族伯爵"
+    ],
+    "EXTRA_TEXT": [
+      "  #y折磨 ： NL 伯爵存在时，玩家受到一次攻击，伯爵将对攻击的敌人造成伤害。 NL NL ",
+      "  #y远古血统 ：（长按献祭） NL 伯爵献祭后，每次失去生命时，给予随机敌人 #b1 层 #y榨取 。"
+    ]
+  },
+  "RingOfDestiny:NullSummon": {
+    "TEXT": [
+      "",
+      "",
+      ""
+    ],
+    "EXTRA_TEXT": [
+      "",
+      ""
+    ]
+  },
+  "RingOfDestiny:SummonSelectScreen": {
+    "TEXT": [
+      "请选择契约的恶魔"
+    ]
+  },
+  "RingOfDestiny:SoulStoneCantUseMessage": {
+    "TEXT": [
+      "灵魂石不足"
+    ]
+  },
+  "RingOfDestiny:ScepterOfGluttonyAction": {
+    "TEXT": [
+      "将牌的耗能本回合变为0"
+    ]
+  },
+  "RingOfDestiny:SubEnergy": {
+    "TEXT": [
+      "暗能量"
+    ],
+    "EXTRA_TEXT": [
+      "你当前的暗能量。打出黑暗卡牌需要暗能量。",
+      " NL 点击使用 [E] 进入 #p黑暗形态 并将所有的 #y力量 变成 #y金属化 。",
+      "暗能量不足"
+    ]
+  },
+  "RingOfDestiny:DevilGripAction": {
+    "TEXT": [
+      "复制攻击牌"
+    ]
+  },
+  "RingOfDestiny:CantPlayCardPowerPatch": {
+    "TEXT": [
+      "我不能打出非攻击牌",
+      "我不能打出非技能牌"
+    ]
+  },
+  "RingOfDestiny:StatusCardPatch": {
+    "TEXT": [
+      "通用"
+    ]
+  },
+  "RingOfDestiny:DarkFormLibraryPatches": {
+    "TEXT": [
+      "黑暗形态",
+      "光明形态"
+    ]
+  },
+  "RingOfDestiny:BlackNoah": {
+    "TEXT": [
+      "黑色诺亚"
+    ]
+  },
+  "RingOfDestiny:RitaPowermeter": {
+    "TEXT": [
+      "气槽",
+      "当它被充满时，下一回合将使用 #y超必杀 ！"
+    ]
   }
 }

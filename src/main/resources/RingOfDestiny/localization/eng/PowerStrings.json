@@ -76,5 +76,568 @@
       "每次使用卡牌攻击时同时给予 #b",
       " 层 #y中毒 。"
     ]
+  },
+  "RingOfDestiny:EtchPower": {
+    "NAME": "死亡刻印",
+    "DESCRIPTIONS": [
+      "每有 #b4 层，减少 #b4 层并失去 #y",
+      " 生命。当前这个敌人有 #b",
+      " 层 。"
+    ]
+  },
+  "RingOfDestiny:LoomingDeathPower": {
+    "NAME": "死神降临",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，获得 #b",
+      " 点 #y敏捷 。"
+    ]
+  },
+  "RingOfDestiny:NightPendantPower": {
+    "NAME": "幻夜坠饰",
+    "DESCRIPTIONS": [
+      "每当有一张牌被 #y消耗 时，获得 #b1 点 #y敏捷 。",
+      "每当有一张牌被 #y消耗 时，获得 #b",
+      " 点 #y敏捷 。"
+    ]
+  },
+  "RingOfDestiny:ElegancePower": {
+    "NAME": "夜之优雅",
+    "DESCRIPTIONS": [
+      "你的回合开始时，将 #b1 张随机 #y技能牌 加入你的手牌。",
+      "你的回合开始时，将 #b",
+      " 张随机 #y技能牌 加入你的手牌。"
+    ]
+  },
+  "RingOfDestiny:EtchSpiritPower": {
+    "NAME": "刻印之灵",
+    "DESCRIPTIONS": [
+      " #y死亡刻印 的伤害提高 #b",
+      " 点。"
+    ]
+  },
+  "RingOfDestiny:EnchantmentPower": {
+    "NAME": "刻印结界",
+    "DESCRIPTIONS": [
+      "本回合，给予 #y死亡刻印 时额外给予 #b",
+      " 层。"
+    ]
+  },
+  "RingOfDestiny:BulletZeroPower": {
+    "NAME": "零之弹",
+    "DESCRIPTIONS": [
+      "本回合结束时回复 #b",
+      " 点生命。卡牌扣除的生命提高本效果。"
+    ]
+  },
+  "RingOfDestiny:EtchReflectionPower": {
+    "NAME": "刻印-弹反",
+    "DESCRIPTIONS": [
+      "本回合每受到一次 #y攻击 ,给予 #b",
+      " 层 #y死亡刻印 。"
+    ]
+  },
+  "RingOfDestiny:OathOfBloodPower": {
+    "NAME": "血之誓言",
+    "DESCRIPTIONS": [
+      "每当你从卡牌失去生命时，给予随机敌人 #b",
+      " 层 #y死亡刻印 。"
+    ]
+  },
+  "RingOfDestiny:FlowerOfDespairPower": {
+    "NAME": "绝望之花",
+    "DESCRIPTIONS": [
+      "每回合开始时，给予所有敌人 #b",
+      " 层 #y死亡刻印 。"
+    ]
+  },
+  "RingOfDestiny:PreludePower": {
+    "NAME": "白夜序曲",
+    "DESCRIPTIONS": [
+      "每打出一张攻击牌，获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "RingOfDestiny:EpiloguePower": {
+    "NAME": "黑夜尾音",
+    "DESCRIPTIONS": [
+      "本回合你每打出一张 #y技能牌 ，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "RingOfDestiny:DoomsdayMarkPower": {
+    "NAME": "末日标记",
+    "DESCRIPTIONS": [
+      "下回合 #y死亡刻印 伤害翻倍。",
+      "下 #b",
+      " 个回合 #y死亡刻印 伤害翻倍。"
+    ]
+  },
+  "RingOfDestiny:DoubleEtchDamagePower": {
+    "NAME": "末日来临",
+    "DESCRIPTIONS": [
+      "本回合 #y死亡刻印 伤害翻倍。",
+      "接下来的 #b",
+      " 个回合造成 #y死亡刻印 伤害翻倍。"
+    ]
+  },
+  "RingOfDestiny:PressuredBulletPower": {
+    "NAME": "高压魔弹",
+    "DESCRIPTIONS": [
+      "本回合你打出的前 #b",
+      " 张牌 #y伤害翻倍 。（已打出 #b",
+      " 张 #y攻击 牌。）"
+    ]
+  },
+  "RingOfDestiny:ResidualPower": {
+    "NAME": "余音之笛",
+    "DESCRIPTIONS": [
+      "#y死亡刻印 引爆时，残留 #b",
+      " 层。（最多 #b",
+      " 层。）"
+    ]
+  },
+  "RingOfDestiny:BleedingPower": {
+    "NAME": "流血",
+    "DESCRIPTIONS": [
+      "受到攻击伤害时额外受到 #y流血 层数的伤害，并减少 #b1 层。在其回合开始时，减少 #b",
+      "受到攻击伤害时额外受到 #y流血 层数的伤害，并减少 #b1 层。在你的回合开始时，减少 #b",
+      " 点生命然后移除该效果。"
+    ]
+  },
+  "RingOfDestiny:DenergizePower": {
+    "NAME": "去能",
+    "DESCRIPTIONS": [
+      "下一回合开始时失去 #b",
+      " [E] 。",
+      " [E] 。"
+    ]
+  },
+  "RingOfDestiny:LoseMaxHpPower": {
+    "NAME": "失去最大生命",
+    "DESCRIPTIONS": [
+      "在战斗结束时，失去 #b",
+      " 最大生命。"
+    ]
+  },
+  "RingOfDestiny:NoInvestPower": {
+    "NAME": "无氪党",
+    "DESCRIPTIONS": [
+      "本场战斗无法获得 #y氪金石 。当你从一张牌中失去生命时，随机给予 #b",
+      " 层 #y流血 。"
+    ]
+  },
+  "RingOfDestiny:MonthCardPower": {
+    "NAME": "月卡",
+    "DESCRIPTIONS": [
+      "每回合开始时，获得 #b",
+      " 颗 #y氪金石 。"
+    ]
+  },
+  "RingOfDestiny:ShinyPower": {
+    "NAME": "金光闪闪",
+    "DESCRIPTIONS": [
+      "提升 #y氪金光环 和 #y招财喵之怒 的伤害 #b",
+      " 点。"
+    ]
+  },
+  "RingOfDestiny:ReinforcementPower": {
+    "NAME": "光环加固",
+    "DESCRIPTIONS": [
+      "提升 #y氪金光环 的 #y格挡 获得 #b",
+      " 点。"
+    ]
+  },
+  "RingOfDestiny:DoubleInvestPower": {
+    "NAME": "氪金翻倍",
+    "DESCRIPTIONS": [
+      "本回合，翻倍从卡牌获得的  #y氪金石 。",
+      "在 #b",
+      " 个回合内，翻倍从卡牌获得的  #y氪金石 。"
+    ]
+  },
+  "RingOfDestiny:BloodAvalanchePower": {
+    "NAME": "血崩",
+    "DESCRIPTIONS": [
+      "本回合，不结算 #y流血 。",
+      "在 #b",
+      " 个回合内，不结算 #y流血 。"
+    ]
+  },
+  "RingOfDestiny:CatCannonPower": {
+    "NAME": "氪金大炮",
+    "DESCRIPTIONS": [
+      " #y招财喵之怒 将攻击全体敌人 。"
+    ]
+  },
+  "RingOfDestiny:BloodmournePower": {
+    "NAME": "血之哀",
+    "DESCRIPTIONS": [
+      "每当你给予 #y流血 时，额外给予 #b",
+      " 层 #y流血 。"
+    ]
+  },
+  "RingOfDestiny:GoldProtectPower": {
+    "NAME": "氪金护体",
+    "DESCRIPTIONS": [
+      "下 #b",
+      " 次失去生命时，回复损失生命的 #g120% 的生命。",
+      " 次失去生命时，回复损失生命的 #g120% 的生命。"
+    ]
+  },
+  "RingOfDestiny:PrivilegePower": {
+    "NAME": "特权",
+    "DESCRIPTIONS": [
+      "每回合的前 #b",
+      " 张 #y稀有 攻击牌伤害翻倍。",
+      " 张 #y稀有 攻击牌伤害翻倍。"
+    ]
+  },
+  "RingOfDestiny:ShowPower": {
+    "NAME": "秀",
+    "DESCRIPTIONS": [
+      "每次获得 #y氪金石 。给予所有敌人 #b",
+      " 层 #y流血 。"
+    ]
+  },
+  "RingOfDestiny:ActPower": {
+    "NAME": "演",
+    "DESCRIPTIONS": [
+      "每次使用 #y氪金石 。获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "RingOfDestiny:HegemonyPower": {
+    "NAME": "魔界霸权",
+    "DESCRIPTIONS": [
+      "每回合开始时手牌中的随机 #b",
+      " 张 #y攻击牌 本回合耗能为零。"
+    ]
+  },
+  "RingOfDestiny:ManaControlPower": {
+    "NAME": "魔力掌控",
+    "DESCRIPTIONS": [
+      "本角色技能牌耗能减 #b1 （不低于1）。每获得 #b20 点 #y格挡 ，获得1颗 #y灵魂石 。（已获得",
+      " 点 #y格挡 ）"
+    ]
+  },
+  "RingOfDestiny:AncientBloodPower": {
+    "NAME": "远古血统",
+    "DESCRIPTIONS": [
+      "每次失去生命时，给予随机敌人 #b",
+      " 层 #y榨取 。"
+    ]
+  },
+  "RingOfDestiny:ExtractPower": {
+    "NAME": "榨取",
+    "DESCRIPTIONS": [
+      "每有 #b2 层时失去 #b2 层。同时你将回复 #g",
+      "每有 #b2 层时失去 #b2 层。同时这名敌人将回复 #g",
+      " 点生命。"
+    ]
+  },
+  "RingOfDestiny:MaliciousBarrierPower": {
+    "NAME": "恶意屏障",
+    "DESCRIPTIONS": [
+      "本回合每受到一次 #y攻击 ,给予 #b",
+      " 层 #y榨取 和 #y虚弱 。"
+    ]
+  },
+  "RingOfDestiny:UpgradedMaliciousBarrierPower": {
+    "NAME": "恶意屏障+",
+    "DESCRIPTIONS": [
+      "本回合每受到一次 #y攻击 ,给予 #b",
+      " 层 #y榨取 。"
+    ]
+  },
+  "RingOfDestiny:DoomsdayImprintPower": {
+    "NAME": "末日标记",
+    "DESCRIPTIONS": [
+      "这名敌人受到 #y末日陨石 的伤害提高 #b",
+      " 点。最多 #b10 层。"
+    ]
+  },
+  "RingOfDestiny:LazyCloakPower": {
+    "NAME": "懒惰披风",
+    "DESCRIPTIONS": [
+      " #y恶魔 每次攻击时，给予你 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "RingOfDestiny:CupOfDesirePower": {
+    "NAME": "欲望酒杯",
+    "DESCRIPTIONS": [
+      "每次回复生命时，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "RingOfDestiny:DemonSkinPower": {
+    "NAME": "恶魔皮肤",
+    "DESCRIPTIONS": [
+      "本回合，每当你受到攻击时，获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "RingOfDestiny:ManaEnhancePower": {
+    "NAME": "魔能强化",
+    "DESCRIPTIONS": [
+      "本回合你打出下一张的 #y攻击牌 无视耗能。",
+      "本回合你打出下 #b",
+      " 张 #y攻击牌 无视耗能。"
+    ]
+  },
+  "RingOfDestiny:EnvyNecklacePower": {
+    "NAME": "嫉妒项链",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y嫉妒之力 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:UpgradeEnvyNecklacePower": {
+    "NAME": "嫉妒项链+",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y嫉妒之力+ 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:AngerSwordPower": {
+    "NAME": "愤怒魔剑",
+    "DESCRIPTIONS": [
+      "每打出一张 #y技能牌 ，对随机敌人造成 #b",
+      " 点伤害并给予 #b",
+      " 层 #y榨取 。"
+    ]
+  },
+  "RingOfDestiny:UpgradedAngerSwordPower": {
+    "NAME": "愤怒魔剑+",
+    "DESCRIPTIONS": [
+      "每打出一张 #y技能牌 或 #y攻击牌 ，对随机敌人造成 #b",
+      " 点伤害并给予 #b",
+      " 层 #y榨取 。"
+    ]
+  },
+  "RingOfDestiny:ScepterOfGluttonyPower": {
+    "NAME": "暴食权杖",
+    "DESCRIPTIONS": [
+      "每回合开始时，将手牌中的 #b",
+      " 张牌在本回合的耗能变为 #b0"
+    ]
+  },
+  "RingOfDestiny:VoodooDollSelfPower": {
+    "NAME": "诅咒人偶-己",
+    "DESCRIPTIONS": [
+      "本回合内，你受到的伤害将由敌人承受"
+    ]
+  },
+  "RingOfDestiny:VoodooDollMonsterPower": {
+    "NAME": "诅咒人偶-敌",
+    "DESCRIPTIONS": [
+      "本回合内，这名敌人将代你承受所受的伤害的 #b",
+      " 倍伤害。如果死亡，则给予随机其他一名敌人同等效果。"
+    ]
+  },
+  "RingOfDestiny:HegemonyOfDevilPower": {
+    "NAME": "魔王霸权",
+    "DESCRIPTIONS": [
+      "回合结束时，将你的 #y力量 转换为 #y金属化 。"
+    ]
+  },
+  "RingOfDestiny:SummonOfDoomsdayPower": {
+    "NAME": "末日召唤",
+    "DESCRIPTIONS": [
+      "本回合内， #y消耗 所有打出的牌。每打出 #b1 张攻击牌，抽 #b",
+      " 张攻击牌。"
+    ]
+  },
+  "RingOfDestiny:CrownOfPridePower": {
+    "NAME": "傲慢王冠",
+    "DESCRIPTIONS": [
+      "每 #y使用 一颗 #y灵魂石 ，获得 #b",
+      " [E] 。"
+    ]
+  },
+  "RingOfDestiny:ConvictionPower": {
+    "NAME": "定罪",
+    "DESCRIPTIONS": [
+      "降低生命回复效果 #b",
+      " 点。"
+    ]
+  },
+  "RingOfDestiny:LoseMetallicizePower": {
+    "NAME": "失去金属化",
+    "DESCRIPTIONS": [
+      "在你的回合结束时，失去 #b",
+      " 点 #y金属化 。"
+    ]
+  },
+  "RingOfDestiny:ChainOfLightPower": {
+    "NAME": "光之锁",
+    "DESCRIPTIONS": [
+      "当你从一张牌中失去生命时，对随机敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "RingOfDestiny:UpgradedChainOfLightPower": {
+    "NAME": "光之锁+",
+    "DESCRIPTIONS": [
+      "当你从一张牌中失去生命时，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "RingOfDestiny:BladeOfShadowPower": {
+    "NAME": "影之刃",
+    "DESCRIPTIONS": [
+      "本回合每当杀死一名敌人时，获得 #b",
+      " 点最大生命。"
+    ]
+  },
+  "RingOfDestiny:AngelTalismanPower": {
+    "NAME": "天使护符",
+    "DESCRIPTIONS": [
+      "每当你 #y损毁 一张牌，获得 #b",
+      " 点能量。"
+    ]
+  },
+  "RingOfDestiny:GuiltyCrownPower": {
+    "NAME": "罪恶王冠",
+    "DESCRIPTIONS": [
+      "每当你 #y损毁 一张牌，获得 #b",
+      " 点 #y暗能量 。"
+    ]
+  },
+  "RingOfDestiny:EmbersPower": {
+    "NAME": "余烬",
+    "DESCRIPTIONS": [
+      "每当你 #y消耗 一张牌，对随机敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "RingOfDestiny:PureHeartPower": {
+    "NAME": "纯洁之心",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y神圣裁决 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:UpgradedPureHeartPower": {
+    "NAME": "纯洁之心+",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y神圣裁决+ 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:BlackCloakPower": {
+    "NAME": "黑色斗篷",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y异端审判 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:UpgradedBlackCloakPower": {
+    "NAME": "黑色斗篷+",
+    "DESCRIPTIONS": [
+      "每回合开始时，将 #b",
+      " 张 #y异端审判+ 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:CantPlayNonAttackPower": {
+    "NAME": "不能打出非攻击",
+    "DESCRIPTIONS": [
+      "本回合你不能打出 #y非攻击牌 。",
+      "在 #b",
+      " 回合内，你不能打出 #y非攻击牌 。 "
+    ]
+  },
+  "RingOfDestiny:CantPlayNonSkillPower": {
+    "NAME": "不能打出非技能",
+    "DESCRIPTIONS": [
+      "本回合你不能打出 #y非技能牌 。",
+      "在 #b",
+      " 回合内，你不能打出 #y非技能牌 。 "
+    ]
+  },
+  "RingOfDestiny:HymnOfAngelsPower": {
+    "NAME": "天使赞歌",
+    "DESCRIPTIONS": [
+      "本回合你的 #y技能牌 耗能变为 #b0 。",
+      "在 #b",
+      " 回合内，你的 #y技能牌 耗能变为 #b0 。 "
+    ]
+  },
+  "RingOfDestiny:DevilWhispersPower": {
+    "NAME": "恶魔耳语",
+    "DESCRIPTIONS": [
+      "本回合你的 #y攻击牌 耗能变为 #b0 。",
+      "在 #b",
+      " 回合内，你的 #y攻击牌 耗能变为 #b0 。 "
+    ]
+  },
+  "RingOfDestiny:ExpiateSinPower": {
+    "NAME": "赎罪",
+    "DESCRIPTIONS": [
+      "本回合 #y定罪 的层数消耗减少 #b",
+      " 。"
+    ]
+  },
+  "RingOfDestiny:PowerPendantPower": {
+    "NAME": "力量吊坠",
+    "DESCRIPTIONS": [
+      "每回合开始时，失去 #b",
+      " 点生命并获得 #b",
+      " 点 #y力量 。"
+    ]
+  },
+  "RingOfDestiny:LoseHpPower": {
+    "NAME": "失去生命",
+    "DESCRIPTIONS": [
+      "每回合开始时，失去 #b",
+      " 点生命。"
+    ]
+  },
+  "RingOfDestiny:MetalRingPower": {
+    "NAME": "源力指环",
+    "DESCRIPTIONS": [
+      "每回合开始时，获得 #b",
+      " 点 #y金属化 。"
+    ]
+  },
+  "RingOfDestiny:ResurrectionGemPower": {
+    "NAME": "复活宝石",
+    "DESCRIPTIONS": [
+      "当你将要死亡时，免死并回复 #b",
+      "% 生命。"
+    ]
+  },
+  "RingOfDestiny:Reflection": {
+    "NAME": "反射",
+    "DESCRIPTIONS": [
+      "当攻击未击穿格挡时， 对攻击者造成 #y等量 伤害。"
+    ]
+  },
+  "RingOfDestiny:SelfDetonate": {
+    "NAME": "自爆",
+    "DESCRIPTIONS": [
+      "反射死亡前受到的最后一次生命损失量的伤害。"
+    ]
+  },
+  "RingOfDestiny:SuperMoves": {
+    "NAME": "超杀系统",
+    "DESCRIPTIONS": [
+      "用于给超杀时候给与各种增益的系统"
+    ]
+  },
+  "RingOfDestiny:ArtGallery": {
+    "NAME": "铜像美术馆",
+    "DESCRIPTIONS": [
+      "敌人将会在 #y2 个回合后召唤铜像，场内最多两只。",
+      " "
+    ]
+  },
+  "RingOfDestiny:Probe": {
+    "NAME": "试探",
+    "DESCRIPTIONS": [
+      "敌人将会在 #y5 个回合后自杀并进入下一状态。",
+      " ",
+      "敌人将会在本回合自杀并进入下一状态。"
+    ]
   }
 }

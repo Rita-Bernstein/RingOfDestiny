@@ -1591,9 +1591,5 @@
   "RingOfDestiny:Overcautious": {
     "NAME": "畏首畏尾",
     "DESCRIPTION": "不能被打出 。 虚无 。这张牌被丢弃或被 消耗 时，对你造成 4 点伤害并将这张牌的复制品加入你的抽牌堆。"
-  },
-  "RingOfDestiny:NotRegret": {
-    "NAME": "龙王蔑视",
-    "DESCRIPTION": " *别后悔！"
   }
 }

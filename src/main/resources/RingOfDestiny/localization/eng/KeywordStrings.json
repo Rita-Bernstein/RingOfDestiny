@@ -5,5 +5,138 @@
       "影分身"
     ],
     "DESCRIPTION": "攻击牌将被打出 #y影分身 数量次数。最多能同时拥有 #b2 个影分身。回合结束时失去所有 #y影分身 。"
+  },
+  {
+    "PROPER_NAME": "死亡刻印",
+    "NAMES": [
+      "死亡刻印"
+    ],
+    "DESCRIPTION": "每叠满 #b4 层之后引爆，造成 #b30 点伤害。"
+  },
+  {
+    "PROPER_NAME": "唯一",
+    "NAMES": [
+      "唯一"
+    ],
+    "DESCRIPTION": "只能从卡牌奖励或商店中获得。 NL 获得本牌后，本局游戏将不会出现这张牌。 NL （同一奖励界面不影响）"
+  },
+  {
+    "PROPER_NAME": "宣判",
+    "NAMES": [
+      "宣判"
+    ],
+    "DESCRIPTION": "消除敌人一定层数的 #y定罪 来提高攻击次数。"
+  },
+  {
+    "PROPER_NAME": "击杀",
+    "NAMES": [
+      "击杀"
+    ],
+    "DESCRIPTION": "如果杀死了敌人，触发效果。"
+  },
+  {
+    "PROPER_NAME": "氪金石",
+    "NAMES": [
+      "氪金石"
+    ],
+    "DESCRIPTION": "最多拥有 #b10 颗。每颗超过上限部分的 #y氪金石 将对生命最少的敌人造成 #b6 点伤害。"
+  },
+  {
+    "PROPER_NAME": "流血",
+    "NAMES": [
+      "流血"
+    ],
+    "DESCRIPTION": "受到攻击伤害时额外受到 #y流血 层数的伤害，并减少一层。 NL 回合结束时失去 #y流血 层数的生命并移除该效果。"
+  },
+  {
+    "PROPER_NAME": "招财喵之怒",
+    "NAMES": [
+      "招财喵之怒"
+    ],
+    "DESCRIPTION": "每颗超过上限部分的 #y氪金石 将对生命最少的敌人造成 #6 点伤害。"
+  },
+  {
+    "PROPER_NAME": "氪金光环",
+    "NAMES": [
+      "氪金光环"
+    ],
+    "DESCRIPTION": " #y氪金石 达到一定数量时将触发一些 #g额外效果 。"
+  },
+  {
+    "PROPER_NAME": "原罪",
+    "NAMES": [
+      "原罪"
+    ],
+    "DESCRIPTION": " #y原罪 将提高 #p恶魔 造成的伤害。"
+  },
+  {
+    "PROPER_NAME": "榨取",
+    "NAMES": [
+      "榨取"
+    ],
+    "DESCRIPTION": "每有 #b2 层时，失去 #b2 层。同时你将回复 #b1 点生命。"
+  },
+  {
+    "PROPER_NAME": "末日印记",
+    "NAMES": [
+      "末日印记"
+    ],
+    "DESCRIPTION": " #y末日陨石 对带有 #y末日印记 的目标伤害提高。最多 #b10 层。"
+  },
+  {
+    "PROPER_NAME": "灵魂石",
+    "NAMES": [
+      "灵魂石"
+    ],
+    "DESCRIPTION": "使用 #y灵魂石 牌需要消耗 #y灵魂石 。这些牌的效果通常比较强大。"
+  },
+  {
+    "PROPER_NAME": "金属化",
+    "NAMES": [
+      "金属化"
+    ],
+    "DESCRIPTION": "在你的回合结束时，获得 #y格挡 。"
+  },
+  {
+    "PROPER_NAME": "损毁",
+    "NAMES": [
+      "损毁"
+    ],
+    "DESCRIPTION": "战斗结束前从牌堆中暂时移除，并 #r不会 放入消耗堆"
+  },
+  {
+    "PROPER_NAME": "定罪",
+    "NAMES": [
+      "定罪"
+    ],
+    "DESCRIPTION": " #y定罪 降低生命回复效果。"
+  },
+  {
+    "PROPER_NAME": "暗能量",
+    "NAMES": [
+      "暗能量"
+    ],
+    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y暗能量 。"
+  },
+  {
+    "PROPER_NAME": "黑暗形态",
+    "NAMES": [
+      "黑暗形态"
+    ],
+    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y暗能量 。"
+  },
+  {
+    "PROPER_NAME": "光明形态",
+    "NAMES": [
+      "光明形态"
+    ],
+    "DESCRIPTION": "在 #y光明形态 中，出牌消耗 #y能量 。"
+  },
+  {
+    "PROPER_NAME": "公平",
+    "NAMES": [
+      "公平"
+    ],
+    "DESCRIPTION": "对你和所有敌人 #y同时使用效果 。"
   }
 ]

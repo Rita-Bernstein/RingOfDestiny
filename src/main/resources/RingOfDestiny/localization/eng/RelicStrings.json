@@ -1,9 +1,98 @@
 {
   "RingOfDestiny:ShadowKunai": {
     "NAME": "影刃",
-    "FLAVOR": "来自东方国度的神秘祝福。",
+    "FLAVOR": "",
     "DESCRIPTIONS": [
       "每造成 #b10 点攻击伤害，回复 #g1 点生命。"
+    ]
+  },
+  "RingOfDestiny:NinjaSuit": {
+    "NAME": "忍服",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每召唤一个 #y影分身 ，将 #b2 张 #y袖剑 加入手牌。"
+    ]
+  },
+  "RingOfDestiny:Flintlock": {
+    "NAME": "燧发枪",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，对随机敌人造成 #b",
+      " 点和 #b",
+      " 点伤害。"
+    ]
+  },
+  "RingOfDestiny:Bow": {
+    "NAME": "蝴蝶结",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每当有敌人死去时，将其身上的 #y死亡刻印 层数移到一名随机敌人身上。"
+    ]
+  },
+  "RingOfDestiny:LeatherShoes": {
+    "NAME": "小皮鞋",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "提升 #y死亡刻印 伤害 #b3 点。"
+    ]
+  },
+  "RingOfDestiny:GothicDress": {
+    "NAME": "哥特礼服",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，给予所有敌人 #b1 层 #y死亡刻印 。"
+    ]
+  },
+  "RingOfDestiny:DogEyes": {
+    "NAME": "氪金狗眼",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，获得 #b",
+      " 颗 #y氪金石 。"
+    ]
+  },
+  "RingOfDestiny:Truncheon": {
+    "NAME": "氪金权杖",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "每次从卡牌中获得 #y氪金石 时，回复 #b",
+      " 点生命。"
+    ]
+  },
+  "RingOfDestiny:DemonicContract": {
+    "NAME": "恶魔契约",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "#y献祭 恶魔 时获得效果： NL 魅魔：获得 #b1 颗 #y灵魂石 ， NL 魔王：获得 #b4 层 #y金属化 ， NL 伯爵： 给予所有敌人 #b3 层 #y虚弱 。"
+    ]
+  },
+  "RingOfDestiny:RingOfSoul": {
+    "NAME": "灵魂指环",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "#y献祭 恶魔 时，抽 #b2 张牌。"
+    ]
+  },
+  "RingOfDestiny:TwinWings": {
+    "NAME": "双生羽翼",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "战斗胜利时，如果处于 #p黑暗形态 ，获得 #b1 点最大生命，否则回复 #b3 点生命。"
+    ]
+  },
+  "RingOfDestiny:HolyStarSeal": {
+    "NAME": "圣洁星印",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "进入 #p黑暗形态 时， #y力量 将不会变为 #y金属化 。"
+    ]
+  },
+  "RingOfDestiny:TearsOfMaid": {
+    "NAME": "女仆之泪",
+    "FLAVOR": "谁人开心谁人泪",
+    "DESCRIPTIONS": [
+      "在Boss战开始时，Boss的最大生命增加 #b",
+      "% 。"
     ]
   }
 }
