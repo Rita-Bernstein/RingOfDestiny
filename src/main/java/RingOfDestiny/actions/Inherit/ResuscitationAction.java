@@ -15,7 +15,6 @@ public class ResuscitationAction extends AbstractGameAction {
 
 
     public ResuscitationAction(AbstractPlayer p, boolean freeToPlayOnce, int subEnergyOnUse, int extraEffect) {
-        this.freeToPlayOnce = false;
         this.subEnergyOnUse = -1;
         this.p = p;
         this.freeToPlayOnce = freeToPlayOnce;
@@ -41,10 +40,7 @@ public class ResuscitationAction extends AbstractGameAction {
 
         if (effect > 0) {
             addToBot(new HealAction(this.p, this.p, effect));
-
-            if (!this.freeToPlayOnce) {
-                addToBot(new UseSubEnergyAction(effect));
-            }
+            addToBot(new UseSubEnergyAction(effect));
         }
         this.isDone = true;
     }

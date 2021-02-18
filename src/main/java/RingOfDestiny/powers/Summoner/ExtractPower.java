@@ -2,6 +2,7 @@ package RingOfDestiny.powers.Summoner;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import RingOfDestiny.powers.AbstractRingPower;
 import com.megacrit.cardcrawl.actions.common.HealAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
@@ -12,7 +13,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class ExtractPower extends AbstractPower {
+public class ExtractPower extends AbstractRingPower {
     public static final String POWER_ID = RingOfDestiny.makeID("ExtractPower");
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
@@ -29,7 +30,7 @@ public class ExtractPower extends AbstractPower {
         this.source = source;
         this.type =PowerType.DEBUFF;
         updateDescription();
-        loadRegion("1010331");
+        loadRingRegion("1010331");
     }
 
     @Override

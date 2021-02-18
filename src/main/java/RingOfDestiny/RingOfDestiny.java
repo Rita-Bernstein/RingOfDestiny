@@ -33,6 +33,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.dungeons.TheCity;
 import com.megacrit.cardcrawl.dungeons.TheEnding;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
@@ -60,7 +61,7 @@ public class RingOfDestiny
         PreStartGameSubscriber,
         PostDungeonInitializeSubscriber,
         PostInitializeSubscriber,
-        AddAudioSubscriber{
+        AddAudioSubscriber {
 
     public static String MOD_ID = "RingOfDestiny";
 
@@ -72,7 +73,7 @@ public class RingOfDestiny
         return MOD_ID + "/" + path;
     }
 
-    public static String CharacterAssetPath(String ClassName,String path) {
+    public static String CharacterAssetPath(String ClassName, String path) {
         return MOD_ID + "/" + ClassName + "/" + path;
     }
 
@@ -93,16 +94,16 @@ public class RingOfDestiny
 
     public static Properties RingOfDestinyDefaults = new Properties();
 
-    public static Color shadowColorFix = new Color(0.473f,0.429f,0.644f,0.9F);
+    public static boolean addInherit = false;
 
-    public static final Color ShadowFlower_Color = new Color(0.277F,0.714F,0.617F,1.0F);
-    public static final Color MagicBullet_Color = new Color(0.796F,0.273F,0.277F,1.0F);
-    public static final Color Purchemist_Color = new Color(0.57F,0.277F,0.695F,1.0F);
-    public static final Color Inherit_Color = new Color(0.246F,0.566F,0.839F,1.0F);
-    public static final Color Summoner_Color = new Color(0.418F,0.230F,0.566F,1.0F);
-    public static final Color Status_Color = new Color(0.605F,0.589F,0.597F,1.0F);
+    public static Color shadowColorFix = new Color(0.473f, 0.429f, 0.644f, 0.9F);
 
-
+    public static final Color ShadowFlower_Color = new Color(0.277F, 0.714F, 0.617F, 1.0F);
+    public static final Color MagicBullet_Color = new Color(0.796F, 0.273F, 0.277F, 1.0F);
+    public static final Color Purchemist_Color = new Color(0.57F, 0.277F, 0.695F, 1.0F);
+    public static final Color Inherit_Color = new Color(0.246F, 0.566F, 0.839F, 1.0F);
+    public static final Color Summoner_Color = new Color(0.418F, 0.230F, 0.566F, 1.0F);
+    public static final Color Status_Color = new Color(0.605F, 0.589F, 0.597F, 1.0F);
 
 
     public static final Logger logger = LogManager.getLogger(RingOfDestiny.class.getSimpleName());
@@ -120,7 +121,7 @@ public class RingOfDestiny
         BaseMod.subscribe(this);
 
         BaseMod.addColor(CardColorEnum.ShadowFlower_LIME,
-                ShadowFlower_Color,  ShadowFlower_Color,  ShadowFlower_Color,  ShadowFlower_Color,  ShadowFlower_Color,  ShadowFlower_Color, ShadowFlower_Color,
+                ShadowFlower_Color, ShadowFlower_Color, ShadowFlower_Color, ShadowFlower_Color, ShadowFlower_Color, ShadowFlower_Color, ShadowFlower_Color,
                 assetPath("img/cardui/ShadowFlower/512/bg_attack_lime.png"),
                 assetPath("img/cardui/ShadowFlower/512/bg_skill_lime.png"),
                 assetPath("img/cardui/ShadowFlower/512/bg_power_lime.png"),
@@ -132,9 +133,8 @@ public class RingOfDestiny
                 assetPath("img/cardui/ShadowFlower/512/card_lime_small_orb.png"));
 
 
-
         BaseMod.addColor(CardColorEnum.MagicBullet_LIME,
-                MagicBullet_Color,  MagicBullet_Color,  MagicBullet_Color,  MagicBullet_Color,  MagicBullet_Color,  MagicBullet_Color, MagicBullet_Color,
+                MagicBullet_Color, MagicBullet_Color, MagicBullet_Color, MagicBullet_Color, MagicBullet_Color, MagicBullet_Color, MagicBullet_Color,
                 assetPath("img/cardui/MagicBullet/512/bg_attack_lime.png"),
                 assetPath("img/cardui/MagicBullet/512/bg_skill_lime.png"),
                 assetPath("img/cardui/MagicBullet/512/bg_power_lime.png"),
@@ -146,7 +146,7 @@ public class RingOfDestiny
                 assetPath("img/cardui/MagicBullet/512/card_lime_small_orb.png"));
 
         BaseMod.addColor(CardColorEnum.Purchemist_LIME,
-                Purchemist_Color,  Purchemist_Color,  Purchemist_Color,  Purchemist_Color,  Purchemist_Color,  Purchemist_Color, Purchemist_Color,
+                Purchemist_Color, Purchemist_Color, Purchemist_Color, Purchemist_Color, Purchemist_Color, Purchemist_Color, Purchemist_Color,
                 assetPath("img/cardui/Purchemist/512/bg_attack_lime.png"),
                 assetPath("img/cardui/Purchemist/512/bg_skill_lime.png"),
                 assetPath("img/cardui/Purchemist/512/bg_power_lime.png"),
@@ -158,7 +158,7 @@ public class RingOfDestiny
                 assetPath("img/cardui/Purchemist/512/card_lime_small_orb.png"));
 
         BaseMod.addColor(CardColorEnum.Inherit_LIME,
-                Inherit_Color,  Inherit_Color,  Inherit_Color,  Inherit_Color,  Inherit_Color,  Inherit_Color, Inherit_Color,
+                Inherit_Color, Inherit_Color, Inherit_Color, Inherit_Color, Inherit_Color, Inherit_Color, Inherit_Color,
                 assetPath("img/cardui/Inherit/512/bg_attack_lime.png"),
                 assetPath("img/cardui/Inherit/512/bg_skill_lime.png"),
                 assetPath("img/cardui/Inherit/512/bg_power_lime.png"),
@@ -170,7 +170,7 @@ public class RingOfDestiny
                 assetPath("img/cardui/Inherit/512/card_lime_small_orb.png"));
 
         BaseMod.addColor(CardColorEnum.Summoner_LIME,
-                Summoner_Color,  Summoner_Color,  Summoner_Color,  Summoner_Color,  Summoner_Color,  Summoner_Color, Summoner_Color,
+                Summoner_Color, Summoner_Color, Summoner_Color, Summoner_Color, Summoner_Color, Summoner_Color, Summoner_Color,
                 assetPath("img/cardui/Summoner/512/bg_attack_lime.png"),
                 assetPath("img/cardui/Summoner/512/bg_skill_lime.png"),
                 assetPath("img/cardui/Summoner/512/bg_power_lime.png"),
@@ -183,7 +183,7 @@ public class RingOfDestiny
 
 
         BaseMod.addColor(CardColorEnum.Status_LIME,
-                Status_Color,  Status_Color,  Status_Color,  Status_Color,  Status_Color,  Status_Color, Status_Color,
+                Status_Color, Status_Color, Status_Color, Status_Color, Status_Color, Status_Color, Status_Color,
                 assetPath("img/cardui/Colorless/512/bg_attack_lime.png"),
                 assetPath("img/cardui/Colorless/512/bg_skill_lime.png"),
                 assetPath("img/cardui/Colorless/512/bg_power_lime.png"),
@@ -199,12 +199,52 @@ public class RingOfDestiny
     }
 
 
+    public static void saveSettings() {
+        try {
+            SpireConfig config = new SpireConfig("RingOfDestiny", "settings", RingOfDestinyDefaults);
+            config.setBool("addInherit", addInherit);
+
+            config.save();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void loadSettings() {
+        try {
+            SpireConfig config = new SpireConfig("RingOfDestiny", "settings", RingOfDestinyDefaults);
+            config.load();
+            addInherit = config.getBool("addInherit");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            clearSettings();
+        }
+    }
+
+    public static void clearSettings() {
+        saveSettings();
+    }
+
+
     @Override
     public void receivePostInitialize() {
-        CustomDungeon.addAct(CustomDungeon.THEENDING,new BlackNoah());
+        loadSettings();
+        Texture badgeTexture = new Texture(assetPath("/img/badge.png"));
+        ModPanel settingsPanel = new ModPanel();
+        BaseMod.registerModBadge(badgeTexture, MODNAME, AUTHOR, DESCRIPTION, settingsPanel);
 
-        BaseMod.addEvent(FruitStall.ID, FruitStall.class,"");
-        //BaseMod.addEvent(FruitStall.ID, FruitStall.class, TheCity.ID);
+
+        ModLabeledToggleButton addInheritSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[0],400.0f, 720.0f-configRow, Settings.CREAM_COLOR, FontHelper.charDescFont,addInherit, settingsPanel,
+                (label) -> {}, (button) -> {addInherit = button.enabled;saveSettings();});
+
+
+        settingsPanel.addUIElement(addInheritSwitch);
+
+        CustomDungeon.addAct(CustomDungeon.THEENDING, new BlackNoah());
+
+//        BaseMod.addEvent(FruitStall.ID, FruitStall.class, "");
+        BaseMod.addEvent(FruitStall.ID, FruitStall.class, TheCity.ID);
 
         BaseMod.addMonster(Rita.ID, () -> new Rita());
 
@@ -240,7 +280,6 @@ public class RingOfDestiny
         BaseMod.addAudio(makeID("VO_Rita_Form2A"), assetPath("/audio/sound/Rita/VO/转状态2A.wav"));
         BaseMod.addAudio(makeID("VO_Rita_Form2B"), assetPath("/audio/sound/Rita/VO/转状态2D.wav"));
         BaseMod.addAudio(makeID("VO_Rita_Form3A"), assetPath("/audio/sound/Rita/VO/转状态3A.wav"));
-
 
 
         BaseMod.addAudio(makeID("VO_fyra_Stirker"), assetPath("/audio/sound/fyra/VO/Stirker Glugan.wav"));
@@ -289,7 +328,7 @@ public class RingOfDestiny
     @Override
     public void receivePostDungeonInitialize() {
         System.out.println("重开游戏");
-        if(AbstractDungeon.floorNum == 0){
+        if (AbstractDungeon.floorNum == 0) {
             EnergyPanelRenderPatches.PatchEnergyPanelField.soulStone.get(AbstractDungeon.overlayMenu.energyPanel).soulStoneAmount = 0;
         }
     }
@@ -299,22 +338,23 @@ public class RingOfDestiny
         logger.info("========================= 开始加载人物 =========================");
 
         logger.info(ShadowFlower.charStrings.NAMES[1]);
-        BaseMod.addCharacter(new ShadowFlower(ShadowFlower.charStrings.NAMES[1],AbstractPlayerEnum.ShadowFlower),assetPath("characters/ShadowFlower/Button.png"),assetPath("characters/ShadowFlower/portrait.png"),AbstractPlayerEnum.ShadowFlower);
+        BaseMod.addCharacter(new ShadowFlower(ShadowFlower.charStrings.NAMES[1], AbstractPlayerEnum.ShadowFlower), assetPath("characters/ShadowFlower/Button.png"), assetPath("characters/ShadowFlower/portrait.png"), AbstractPlayerEnum.ShadowFlower);
 
         logger.info(MagicBullet.charStrings.NAMES[1]);
-        BaseMod.addCharacter(new MagicBullet(MagicBullet.charStrings.NAMES[1],AbstractPlayerEnum.MagicBullet),assetPath("characters/MagicBullet/Button.png"),assetPath("characters/MagicBullet/portrait.png"),AbstractPlayerEnum.MagicBullet);
+        BaseMod.addCharacter(new MagicBullet(MagicBullet.charStrings.NAMES[1], AbstractPlayerEnum.MagicBullet), assetPath("characters/MagicBullet/Button.png"), assetPath("characters/MagicBullet/portrait.png"), AbstractPlayerEnum.MagicBullet);
 
         logger.info(Purchemist.charStrings.NAMES[1]);
-        BaseMod.addCharacter(new Purchemist(Purchemist.charStrings.NAMES[1],AbstractPlayerEnum.Purchemist),assetPath("characters/Purchemist/Button.png"),assetPath("characters/Purchemist/portrait.png"),AbstractPlayerEnum.Purchemist);
+        BaseMod.addCharacter(new Purchemist(Purchemist.charStrings.NAMES[1], AbstractPlayerEnum.Purchemist), assetPath("characters/Purchemist/Button.png"), assetPath("characters/Purchemist/portrait.png"), AbstractPlayerEnum.Purchemist);
 
-        logger.info(Inherit.charStrings.NAMES[1]);
-        BaseMod.addCharacter(new Inherit(Inherit.charStrings.NAMES[1],AbstractPlayerEnum.Inherit),assetPath("characters/Inherit/Button.png"),assetPath("characters/Inherit/portrait.png"),AbstractPlayerEnum.Inherit);
+        if(addInherit){
+            logger.info(Inherit.charStrings.NAMES[1]);
+            BaseMod.addCharacter(new Inherit(Inherit.charStrings.NAMES[1], AbstractPlayerEnum.Inherit), assetPath("characters/Inherit/Button.png"), assetPath("characters/Inherit/portrait.png"), AbstractPlayerEnum.Inherit);
+        }
 
         logger.info(Summoner.charStrings.NAMES[1]);
-        BaseMod.addCharacter(new Summoner(Summoner.charStrings.NAMES[1],AbstractPlayerEnum.Summoner),assetPath("characters/Summoner/Button.png"),assetPath("characters/Summoner/portrait.png"),AbstractPlayerEnum.Summoner);
+        BaseMod.addCharacter(new Summoner(Summoner.charStrings.NAMES[1], AbstractPlayerEnum.Summoner), assetPath("characters/Summoner/Button.png"), assetPath("characters/Summoner/portrait.png"), AbstractPlayerEnum.Summoner);
 
     }
-
 
 
     @Override
@@ -395,7 +435,6 @@ public class RingOfDestiny
         cards.add(new BottlePoison());
 
 
-
 // ======================
 // ======================
 // ======================魔弹射手
@@ -462,7 +501,6 @@ public class RingOfDestiny
         cards.add(new NightPendant());
         cards.add(new RiteOfOrigin());
         cards.add(new Elegance());
-
 
 
 // ======================
@@ -538,64 +576,63 @@ public class RingOfDestiny
 // ======================
 // ======================
 // ======================传承天使
-        cards.add(new Strike_IH());
-        cards.add(new Defend_IH());
-        cards.add(new FairJudgement());
-        cards.add(new HonourJudgement());
-        cards.add(new ForbiddenStrike());
-        cards.add(new Pray());
-        cards.add(new ForbiddenBook());
-        cards.add(new HolyInterweaving());
-        cards.add(new HolyStrike());
-        cards.add(new WeakenStrike());
-        cards.add(new BathingInGrace());
-        cards.add(new Aerostigmata());
-        cards.add(new ShimmerBarrier());
-        cards.add(new DevoutPray());
-        cards.add(new HolyJustice());
-        cards.add(new Villainous());
-        cards.add(new JudgementOfLight());
-        cards.add(new JudgementOfSanctity());
-        cards.add(new HolyGift());
-        cards.add(new PowerOfLight());
-        cards.add(new SacredOverload());
-        cards.add(new Sacrifice());
-        cards.add(new BladeOfFaith());
-        cards.add(new ChainOfLight());
-        cards.add(new AngelTalisman());
-        cards.add(new HolyAssault());
-        cards.add(new HolyStorm());
-        cards.add(new FireOfJustice());
-        cards.add(new ExposeAndCriticize());
-        cards.add(new JusticeWarning());
-        cards.add(new HolyPressure());
-        cards.add(new SwordShield());
-        cards.add(new ProtectionOfLight());
-        cards.add(new InsightTruth());
-        cards.add(new AmuletHeart());
-        cards.add(new HandOfGod());
-        cards.add(new PureHeart());
-        cards.add(new HymnOfAngels());
-        cards.add(new ShieldOfHeaven());
-        cards.add(new ExpiateSin());
-        cards.add(new Resuscitation());
-        cards.add(new DawnJudgement());
-        cards.add(new FinalJudgement());
-        cards.add(new SheathOfLight());
-        cards.add(new HolyPouring());
-        cards.add(new Tsudere());
-        cards.add(new HolyEcho());
-        cards.add(new PowerPendant());
-        cards.add(new ResurrectionGem());
-        cards.add(new HolyShock());
-        cards.add(new DivinePenalty());
-        cards.add(new BaptismOfLight());
+        if(addInherit) {
+            cards.add(new Strike_IH());
+            cards.add(new Defend_IH());
+            cards.add(new FairJudgement());
+            cards.add(new HonourJudgement());
+            cards.add(new ForbiddenStrike());
+            cards.add(new Pray());
+            cards.add(new ForbiddenBook());
+            cards.add(new HolyInterweaving());
+            cards.add(new HolyStrike());
+            cards.add(new WeakenStrike());
+            cards.add(new BathingInGrace());
+            cards.add(new Aerostigmata());
+            cards.add(new ShimmerBarrier());
+            cards.add(new DevoutPray());
+            cards.add(new HolyJustice());
+            cards.add(new Villainous());
+            cards.add(new JudgementOfLight());
+            cards.add(new JudgementOfSanctity());
+            cards.add(new HolyGift());
+            cards.add(new PowerOfLight());
+            cards.add(new SacredOverload());
+            cards.add(new Sacrifice());
+            cards.add(new BladeOfFaith());
+            cards.add(new ChainOfLight());
+            cards.add(new AngelTalisman());
+            cards.add(new HolyAssault());
+            cards.add(new HolyStorm());
+            cards.add(new FireOfJustice());
+            cards.add(new ExposeAndCriticize());
+            cards.add(new JusticeWarning());
+            cards.add(new HolyPressure());
+            cards.add(new SwordShield());
+            cards.add(new ProtectionOfLight());
+            cards.add(new InsightTruth());
+            cards.add(new AmuletHeart());
+            cards.add(new HandOfGod());
+            cards.add(new PureHeart());
+            cards.add(new HymnOfAngels());
+            cards.add(new ShieldOfHeaven());
+            cards.add(new ExpiateSin());
+            cards.add(new Resuscitation());
+            cards.add(new DawnJudgement());
+            cards.add(new FinalJudgement());
+            cards.add(new SheathOfLight());
+            cards.add(new HolyPouring());
+            cards.add(new Tsudere());
+            cards.add(new HolyEcho());
+            cards.add(new PowerPendant());
+            cards.add(new ResurrectionGem());
+            cards.add(new HolyShock());
+            cards.add(new DivinePenalty());
+            cards.add(new BaptismOfLight());
 
 
-        cards.add(new BloodSacrifice());
-
-
-
+            cards.add(new BloodSacrifice());
+        }
 
 // ======================
 // ======================
@@ -674,36 +711,33 @@ public class RingOfDestiny
 //        cards.add(new NotRegret());
 
 
-
-
-
         for (CustomCard card : cards) {
             BaseMod.addCard(card);
             UnlockTracker.unlockCard(card.cardID);
 
-            if(card.hasTag(CustomTagsEnum.SoleCard)){
+            if (card.hasTag(CustomTagsEnum.SoleCard)) {
                 all_SoleCards.add(card);
-                System.out.println("公共唯一卡池加入"+ card.name);
+                System.out.println("公共唯一卡池加入" + card.name);
 
 
-                if(card.color == CardColorEnum.MagicBullet_LIME){
-                    System.out.println("魔弹唯一卡池加入"+ card.name);
+                if (card.color == CardColorEnum.MagicBullet_LIME) {
+                    System.out.println("魔弹唯一卡池加入" + card.name);
                     mb_SoleCards.add(card);
                 }
 
-                if(card.color == CardColorEnum.Summoner_LIME){
-                    System.out.println("召唤师唯一卡池加入"+ card.name);
+                if (card.color == CardColorEnum.Summoner_LIME) {
+                    System.out.println("召唤师唯一卡池加入" + card.name);
                     su_SoleCards.add(card);
                 }
 
-                if(card.color == CardColorEnum.Inherit_LIME){
-                    System.out.println("天使唯一卡池加入"+ card.name);
+                if (card.color == CardColorEnum.Inherit_LIME) {
+                    System.out.println("天使唯一卡池加入" + card.name);
                     ih_SoleCards.add(card);
                 }
 
             }
 
-            if(card.color == CardColorEnum.ShadowFlower_LIME){
+            if (card.color == CardColorEnum.ShadowFlower_LIME) {
                 sf_Cards.add(card);
             }
 
@@ -713,13 +747,11 @@ public class RingOfDestiny
     }
 
 
-
     @Override
     public void receiveEditRelics() {
         logger.debug("receiveEditRelics started.");
 
 //            BaseMod.addRelic(new BadgeBless(), RelicType.SHARED);
-
 
 
         BaseMod.addRelicToCustomPool(new ShadowKunai(), CardColorEnum.ShadowFlower_LIME);
@@ -739,9 +771,10 @@ public class RingOfDestiny
         BaseMod.addRelicToCustomPool(new DemonicContract(), CardColorEnum.Summoner_LIME);
         BaseMod.addRelicToCustomPool(new RingOfSoul(), CardColorEnum.Summoner_LIME);
 
-
-        BaseMod.addRelicToCustomPool(new TwinWings(), CardColorEnum.Inherit_LIME);
-        BaseMod.addRelicToCustomPool(new HolyStarSeal(), CardColorEnum.Inherit_LIME);
+        if(addInherit) {
+            BaseMod.addRelicToCustomPool(new TwinWings(), CardColorEnum.Inherit_LIME);
+            BaseMod.addRelicToCustomPool(new HolyStarSeal(), CardColorEnum.Inherit_LIME);
+        }
 
         BaseMod.addRelic(new TearsOfMaid(), RelicType.SHARED);
 
@@ -749,8 +782,8 @@ public class RingOfDestiny
     }
 
 
-    private Settings.GameLanguage languageSupport()
-    {
+
+    private Settings.GameLanguage languageSupport() {
         switch (Settings.language) {
             case ZHS:
                 return Settings.language;
@@ -760,20 +793,19 @@ public class RingOfDestiny
                 return Settings.GameLanguage.ENG;
         }
     }
-    public void receiveEditStrings()
-    {
+
+    public void receiveEditStrings() {
         Settings.GameLanguage language = languageSupport();
 
         // Load english first to avoid crashing if translation doesn't exist for something
         loadLocStrings(Settings.GameLanguage.ENG);
-        if(!language.equals(Settings.GameLanguage.ENG)) {
+        if (!language.equals(Settings.GameLanguage.ENG)) {
             loadLocStrings(language);
         }
 
     }
 
-    private void loadLocStrings(Settings.GameLanguage language)
-    {
+    private void loadLocStrings(Settings.GameLanguage language) {
         String path = "localization/" + language.toString().toLowerCase() + "/";
 
         BaseMod.loadCustomStringsFile(EventStrings.class, assetPath(path + "EventStrings.json"));
@@ -790,8 +822,7 @@ public class RingOfDestiny
     }
 
 
-    private void loadLocKeywords(Settings.GameLanguage language)
-    {
+    private void loadLocKeywords(Settings.GameLanguage language) {
         String path = "localization/" + language.toString().toLowerCase() + "/";
         Gson gson = new Gson();
         String json = Gdx.files.internal(assetPath(path + "KeywordStrings.json")).readString(String.valueOf(StandardCharsets.UTF_8));

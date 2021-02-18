@@ -22,7 +22,6 @@ public class KunaiSprayAction extends AbstractGameAction {
     private int extraEffect;
 
     public KunaiSprayAction(AbstractPlayer p, int[] multiDamage, DamageInfo.DamageType damageType, boolean freeToPlayOnce, int energyOnUse,int extraEffect) {
-        this.freeToPlayOnce = false;
         this.energyOnUse = -1;
         this.multiDamage = multiDamage;
         this.damageType = damageType;

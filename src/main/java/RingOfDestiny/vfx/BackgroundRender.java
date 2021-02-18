@@ -25,7 +25,9 @@ public class BackgroundRender extends AbstractGameEffect {
 
 
     public BackgroundRender(String id, int gifFrame, float fixX, float fixY, int imageWidth, int imageHeight, float gifScale, float Frameduration) {
+        ZERO = new Texture[gifFrame];
         for (int i = 0; i < gifFrame; i++) {
+            System.out.println(String.format(RingOfDestiny.assetPath("img/stages/") + id + "/" + id + "_" + "%02d.png", i));
             ZERO[i] = new Texture(String.format(RingOfDestiny.assetPath("img/stages/") + id + "/" + id + "_" + "%02d.png", i));
         }
 

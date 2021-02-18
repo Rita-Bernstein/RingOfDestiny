@@ -41,14 +41,13 @@ public class HolyStorm extends AbstractInheritCard {
     @Override
     protected void initializeNumber1() {
         this.baseDamage = 5;
-        this.isSingleAndAOE = false;
-
+        this.magicNumber = this.baseMagicNumber = 0;
     }
 
     @Override
     protected void initializeNumber2() {
-        this.baseDamage = 9;
-        this.magicNumber = this.baseMagicNumber = 0;
+        this.baseDamage = 0;
+        this.magicNumber = this.baseMagicNumber = 2;
     }
 
     public HolyStorm() {
@@ -85,13 +84,14 @@ public class HolyStorm extends AbstractInheritCard {
 
     public void applyPowers() {
         if (this.isDark) {
-            this.baseDamage = this.subEnergyOnUse;
+            this.baseDamage = EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).totalCount;
             if (AbstractDungeon.player.hasRelic("Chemical X")) {
                 this.baseDamage += 2;
             }
 
             if (upgraded) this.baseDamage += this.magicNumber;
             super.applyPowers();
+            System.out.println("Apply Powers:" + this.damage);
 
             if (upgraded) {
                 this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
@@ -138,16 +138,12 @@ public class HolyStorm extends AbstractInheritCard {
     @Override
     protected void upgradeNumber1() {
         upgradeDamage(3);
-        this.isSingleAndAOE = false;
-        this.modifyAlterDamage = false;
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
     }
 
     @Override
     protected void upgradeNumber2() {
-        upgradeMagicNumber(2);
-        this.isSingleAndAOE = true;
         this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         initializeDescription();
     }

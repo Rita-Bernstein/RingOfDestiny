@@ -2,6 +2,7 @@ package RingOfDestiny.powers;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.utility.NewQueueCardAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
@@ -31,19 +32,9 @@ public class ActPower extends AbstractRingPower {
     }
 
     @Override
-    public void onUseCard(AbstractCard card, UseCardAction action) {
-        super.onUseCard(card, action);
-        ArrayList<AbstractCard> tmp = new ArrayList<>();
-        for (int i = 0; i < this.amount; i++)
-            tmp.add(card.makeStatEquivalentCopy());
-
-        for(AbstractCard c : tmp){
-            c.purgeOnUse = true;
-            addToBot(new NewQueueCardAction(c, true, false, true));
-        }
-
-        AbstractDungeon.player.hand.refreshHandLayout();
-
+    public void onUseDiamond() {
+        super.onUseDiamond();
+        addToBot(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, this.amount));
     }
 
     public void updateDescription() {

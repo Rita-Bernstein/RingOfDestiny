@@ -29,7 +29,6 @@ public class DodeMudraAction extends AbstractGameAction {
     private int extraEffect;
 
     public DodeMudraAction(AbstractPlayer p, AbstractMonster target,int block ,boolean freeToPlayOnce, int energyOnUse, int extraEffect) {
-        this.freeToPlayOnce = false;
         this.energyOnUse = -1;
         this.p = p;
         this.m = target;

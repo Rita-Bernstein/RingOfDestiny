@@ -13,17 +13,17 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 public class SwitchFormAction extends AbstractGameAction {
     private boolean changeForFree;
     private boolean setForm;
-    private boolean changToDark;
+    private boolean changeToDark;
 
-    public SwitchFormAction(boolean changeForFree,boolean setForm,boolean changToDark) {
+    public SwitchFormAction(boolean changeForFree,boolean setForm,boolean changeToDark) {
         this.changeForFree = changeForFree;
         this.setForm = setForm;
-        this.changToDark = changToDark;
+        this.changeToDark = changeToDark;
         this.duration = Settings.ACTION_DUR_FAST;
     }
 
-    public SwitchFormAction(boolean changeForFree,boolean changToDark) {
-        this(changeForFree,false,changToDark);
+    public SwitchFormAction(boolean changeForFree,boolean changeToDark) {
+        this(changeForFree,false,changeToDark);
     }
 
     public SwitchFormAction() {
@@ -36,7 +36,7 @@ public class SwitchFormAction extends AbstractGameAction {
             EnergyPanelRenderPatches.PatchEnergyPanelField.canUseSubEnergy.set(AbstractDungeon.overlayMenu.energyPanel, true);
             boolean switchToDark;
             if(setForm){
-                switchToDark = this.changToDark;
+                switchToDark = this.changeToDark;
             }else {
                 switchToDark = !EnergyPanelRenderPatches.PatchEnergyPanelField.isInDark.get(AbstractDungeon.overlayMenu.energyPanel);
             }

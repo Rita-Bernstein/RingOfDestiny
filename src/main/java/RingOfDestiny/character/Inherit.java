@@ -2,6 +2,7 @@ package RingOfDestiny.character;
 
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Inherit.SwitchFormAction;
 import RingOfDestiny.cards.Inherit.*;
 import RingOfDestiny.modules.EnergyOrbCustomBlue;
 import RingOfDestiny.modules.EnergyOrbInherit;
@@ -15,6 +16,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.math.MathUtils;
 import com.esotericsoftware.spine.AnimationState;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.ShoutAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -107,6 +109,12 @@ public class Inherit extends CustomPlayer {
     public void preBattlePrep() {
         super.preBattlePrep();
         EnergyPanelRenderPatches.PatchEnergyPanelField.canUseSubEnergy.set(AbstractDungeon.overlayMenu.energyPanel, true);
+    }
+
+    @Override
+    public void onVictory() {
+        super.onVictory();
+        EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).switchForm(false,true);
     }
 
     public String getPortraitImageName() {

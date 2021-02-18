@@ -26,7 +26,7 @@ public class ChangeStageAction extends AbstractGameAction {
                 break;
         }
 
-        addToBot(new VFXAction(new BackgroundBoardRender(0.0f, 1.04f, 0.0f, 0.15f, 1.5f)));
+        addToBot(new VFXAction(new BackgroundBoardRender(0.0f, 1.05f, 0.0f, 0.15f, 1.5f)));
 
     }
 

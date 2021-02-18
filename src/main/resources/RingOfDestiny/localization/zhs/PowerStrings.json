@@ -619,12 +619,6 @@
       "反射死亡前受到的最后一次生命损失量的伤害。"
     ]
   },
-  "RingOfDestiny:SuperMoves": {
-    "NAME": "超杀系统",
-    "DESCRIPTIONS": [
-      "用于给超杀时候给与各种增益的系统"
-    ]
-  },
   "RingOfDestiny:ArtGallery": {
     "NAME": "铜像美术馆",
     "DESCRIPTIONS": [
@@ -635,9 +629,9 @@
   "RingOfDestiny:Probe": {
     "NAME": "试探",
     "DESCRIPTIONS": [
-      "敌人将会在 #y5 个回合后自杀并进入下一状态。",
-      " ",
-      "敌人将会在本回合自杀并进入下一状态。"
+      "敌人将会在 #b",
+      " 个回合后主动进入下一阶段。",
+      "敌人将会主动进入下一阶段。"
     ]
   }
 }

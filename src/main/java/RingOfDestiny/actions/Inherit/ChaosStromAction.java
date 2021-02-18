@@ -19,7 +19,6 @@ public class ChaosStromAction extends AbstractGameAction {
     public int[] multiDamage;
 
     public ChaosStromAction(AbstractPlayer p, int[] multiDamage, DamageInfo.DamageType damageType, boolean freeToPlayOnce, int subEnergyOnUse) {
-        this.freeToPlayOnce = false;
         this.subEnergyOnUse = -1;
         this.p = p;
         this.freeToPlayOnce = freeToPlayOnce;
@@ -32,16 +31,10 @@ public class ChaosStromAction extends AbstractGameAction {
 
 
     public void update() {
-        int effect = EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).totalCount;
-        if (this.subEnergyOnUse != -1) {
-            effect = this.subEnergyOnUse;
-        }
-
         if (this.p.hasRelic("Chemical X")) {
             this.p.getRelic("Chemical X").flash();
         }
 
-
         addToBot(new SFXAction("ATTACK_HEAVY"));
         addToBot(new VFXAction(p, new CleaveEffect(), 0.1F));
         addToBot(new DamageAllEnemiesAction(this.p, this.multiDamage, this.damageType, AbstractGameAction.AttackEffect.NONE, true));
@@ -49,9 +42,8 @@ public class ChaosStromAction extends AbstractGameAction {
         addToBot(new VFXAction(p, new CleaveEffect(), 0.1F));
         addToBot(new DamageAllEnemiesAction(this.p, this.multiDamage, this.damageType, AbstractGameAction.AttackEffect.NONE, true));
 
-            if (!this.freeToPlayOnce) {
-                addToBot(new UseSubEnergyAction(effect));
-            }
+        System.out.println("ChaosStromAction"+EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).totalCount);
+        addToBot(new UseSubEnergyAction(EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).totalCount));
 
         this.isDone = true;
     }

@@ -14,12 +14,9 @@ public class MagicAbsorbAction extends AbstractGameAction {
     private int exEffect;
 
     public MagicAbsorbAction(AbstractPlayer p, AbstractMonster m, int exEffect, boolean freeToPlayOnce, int energyOnUse) {
-        this.freeToPlayOnce = false;
         this.exEffect = 0;
 
-
         this.energyOnUse = -1;
-
 
         this.p = p;
         this.m = m;

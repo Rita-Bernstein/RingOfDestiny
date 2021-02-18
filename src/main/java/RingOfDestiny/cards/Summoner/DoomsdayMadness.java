@@ -30,7 +30,7 @@ public class DoomsdayMadness extends AbstractSummonerCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
        addToBot(new LoseHPAction(p,p,this.secondaryM));
-        addToBot(new DrawCardAction(this.magicNumber, new DoomsdayMadnessAction(1,3)));
+       addToBot(new DrawCardAction(this.magicNumber, new DoomsdayMadnessAction(1,3)));
     }
 
     public AbstractCard makeCopy() {

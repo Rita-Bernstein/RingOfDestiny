@@ -205,7 +205,7 @@ public class SoleCardRewardPatch {
             method = "initCards"
     )
     public static class InitCardsPatch {
-        @SpireInsertPatch(rloc = 11,localvars = {"tmpPrice","c"})
+        @SpireInsertPatch(rloc = 12,localvars = {"tmpPrice","c"})
         public static SpireReturn<Void> Insert(ShopScreen _instance,
                                                @ByRef float[] tmpPrice,
                                                AbstractCard card) {

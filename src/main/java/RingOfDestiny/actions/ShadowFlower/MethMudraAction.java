@@ -27,7 +27,6 @@ public class MethMudraAction extends AbstractGameAction {
     private int extraEffect;
 
     public MethMudraAction(AbstractPlayer p, AbstractMonster target,int damage, DamageInfo.DamageType damageType, boolean freeToPlayOnce, int energyOnUse, int extraEffect) {
-        this.freeToPlayOnce = false;
         this.energyOnUse = -1;
         this.damageType = damageType;
         this.p = p;

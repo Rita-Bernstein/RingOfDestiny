@@ -144,13 +144,19 @@
   },
   "RingOfDestiny:BlackNoah": {
     "TEXT": [
+      "强者的世界",
       "黑色诺亚"
     ]
   },
   "RingOfDestiny:RitaPowermeter": {
     "TEXT": [
       "气槽",
-      "当它被充满时，下一回合将使用 #y超必杀 ！"
+      "当它被充满时，下一回合将使用 #y超必杀 ！ NL #y超必杀 :获得无实体且进行一次强力攻击。"
+    ]
+  },
+  "RingOfDestiny:ModSettings": {
+    "TEXT": [
+      "加入未完成角色：传承天使的相关内容（需要重启游戏）"
     ]
   }
 }

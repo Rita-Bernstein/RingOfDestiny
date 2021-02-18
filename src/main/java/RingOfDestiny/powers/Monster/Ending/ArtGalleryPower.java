@@ -38,9 +38,8 @@ public class ArtGalleryPower extends AbstractPower implements CloneablePowerInte
 		this.justApplied = justApplied;
 		//this.type = PowerType.BUFF;
         this.isTurnBased = false;
-		this.description = DESCRIPTIONS[0];
 		loadRegion("buffer");
-
+		updateDescription();
 	}
 
   

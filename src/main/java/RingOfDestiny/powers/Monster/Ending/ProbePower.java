@@ -35,38 +35,26 @@ public class ProbePower
         this.owner = owner;
         this.amount = amount;
         this.justApplied = justApplied;
-
         this.isTurnBased = false;
-        this.description = DESCRIPTIONS[0];
         loadRegion("fading");
-
+        updateDescription();
     }
 
 
     @Override
     public void updateDescription() {
         if (this.amount == 1) {
-
             this.description = DESCRIPTIONS[2];
-
         } else {
-
             this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
-
         }
 
     }
 
     @Override
     public void duringTurn() {
-        if (this.justApplied) {
-            this.justApplied = false;
-            return;
-        }
-        if (this.amount == 1 && !this.owner.isDying) {
-            AbstractDungeon.actionManager.addToTop(new DamageAction(this.owner, new DamageInfo(this.owner, this.owner.currentHealth, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE, true));
-        }
         this.amount -= 1;
+        updateDescription();
     }
 
 

@@ -4,6 +4,7 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.monster.Ending.Rita;
 import RingOfDestiny.monster.Ending.fyra;
 import RingOfDestiny.rooms.FixedMonsterRoom;
+import RingOfDestiny.rooms.RitaVictoryRoom;
 import RingOfDestiny.scenes.BlackNoahScene;
 import actlikeit.dungeons.CustomDungeon;
 import com.badlogic.gdx.graphics.Color;
@@ -35,7 +36,7 @@ public class BlackNoah extends CustomDungeon {
     private static final UIStrings uiStrings = CardCrawlGame.languagePack.getUIString(ID);
     private static final EventStrings forkStrings = CardCrawlGame.languagePack.getEventString(RingOfDestiny.makeID("ForkInTheRoad"));
     public static final String[] TEXT = uiStrings.TEXT;
-    public static final String NAME = TEXT[0];
+    public static final String NAME = TEXT[1];
 
     private static final Logger logger = LogManager.getLogger(BlackNoah.class.getName());
 
@@ -57,6 +58,16 @@ public class BlackNoah extends CustomDungeon {
     public AbstractScene DungeonScene() {
         return new BlackNoahScene();
 
+    }
+
+    @Override
+    public void Ending() {
+        CardCrawlGame.music.fadeOutBGM();
+        MapRoomNode node = new MapRoomNode(3, 4);
+        node.room = new TrueVictoryRoom();
+        AbstractDungeon.nextRoom = node;
+        AbstractDungeon.closeCurrentScreen();
+        AbstractDungeon.nextRoomTransitionStart();
     }
 
     @Override
@@ -365,7 +376,7 @@ public class BlackNoah extends CustomDungeon {
 
     @Override
     public String getActNumberText() {
-        return "强者的世界";
+        return CardCrawlGame.languagePack.getUIString(RingOfDestiny.makeID("BlackNoah")).TEXT[0];
     }
 
     protected ArrayList<String> generateExclusions() {

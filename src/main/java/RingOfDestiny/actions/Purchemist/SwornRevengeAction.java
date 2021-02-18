@@ -22,7 +22,7 @@ public class SwornRevengeAction  extends AbstractGameAction {
 
     public void update() {
         if (this.duration == Settings.ACTION_DUR_XFAST && this.target.hasPower(BleedingPower.POWER_ID)) {
-            int amount = this.target.getPower(ThornsPower.POWER_ID).amount;
+            int amount = this.target.getPower(BleedingPower.POWER_ID).amount;
             addToTop(new ApplyPowerAction(this.target, AbstractDungeon.player, new BleedingPower(this.target,AbstractDungeon.player, amount), amount));
         }
 

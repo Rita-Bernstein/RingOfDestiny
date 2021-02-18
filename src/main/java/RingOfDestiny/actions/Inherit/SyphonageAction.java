@@ -16,7 +16,6 @@ public class SyphonageAction extends AbstractGameAction {
 
 
     public SyphonageAction(AbstractPlayer p, boolean freeToPlayOnce, int energyOnUse, int times) {
-        this.freeToPlayOnce = false;
         this.energyOnUse = -1;
         this.p = p;
         this.freeToPlayOnce = freeToPlayOnce;

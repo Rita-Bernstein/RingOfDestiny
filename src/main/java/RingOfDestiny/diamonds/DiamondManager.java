@@ -2,6 +2,8 @@ package RingOfDestiny.diamonds;
 
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.actions.Purchemist.DiamondAttackAllAction;
+import RingOfDestiny.actions.Purchemist.DiamondAttackRandomlAction;
 import RingOfDestiny.actions.Purchemist.UseDiamondAction;
 import RingOfDestiny.cards.Purchemist.DoubleInvest;
 import RingOfDestiny.cards.Purchemist.NoInvest;
@@ -235,21 +237,25 @@ public class DiamondManager {
             if (extraDia > 0) {
                 for (int i = 0; i < extraDia; i++) {
                     if (AbstractDungeon.player.hasPower(CatCannonPower.POWER_ID)) {
-                        AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(null,
-                                DamageInfo.createDamageMatrix(this.evokeAmount, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.FIRE));
+                        AbstractDungeon.actionManager.addToBottom(new DiamondAttackAllAction(this.evokeAmount, imgScale, this.tX, this.tY, this.imgFix_X, this.imgFix_Y));
 
-                        AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.aoeImg,
-                                this.tX + imgFix_X * Settings.scale,
-                                this.tY + imgFix_Y * Settings.scale,
-                                imgScale));
+//                        AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(null,
+//                                DamageInfo.createDamageMatrix(this.evokeAmount, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.FIRE));
+//
+//                        AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.aoeImg,
+//                                this.tX + imgFix_X * Settings.scale,
+//                                this.tY + imgFix_Y * Settings.scale,
+//                                imgScale));
                     } else {
-                        AbstractDungeon.actionManager.addToTop(new DarkOrbEvokeAction(
-                                new DamageInfo(AbstractDungeon.player, this.evokeAmount, DamageInfo.DamageType.THORNS),
-                                AbstractGameAction.AttackEffect.FIRE));
-                        AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.evokeImg,
-                                this.tX + imgFix_X * Settings.scale,
-                                this.tY + imgFix_Y * Settings.scale,
-                                imgScale));
+                        AbstractDungeon.actionManager.addToBottom(new DiamondAttackRandomlAction(this.evokeAmount, imgScale, this.tX, this.tY, this.imgFix_X, this.imgFix_Y));
+
+//                        AbstractDungeon.actionManager.addToTop(new DarkOrbEvokeAction(
+//                                new DamageInfo(AbstractDungeon.player, this.evokeAmount, DamageInfo.DamageType.THORNS),
+//                                AbstractGameAction.AttackEffect.FIRE));
+//                        AbstractDungeon.topLevelEffectsQueue.add(new FlashTextureEffect(this.evokeImg,
+//                                this.tX + imgFix_X * Settings.scale,
+//                                this.tY + imgFix_Y * Settings.scale,
+//                                imgScale));
                     }
                 }
             }
