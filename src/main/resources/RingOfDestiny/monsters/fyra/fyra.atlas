@@ -1,146 +1,146 @@
 
-fyra.png
-size: 2048,1024
+Fyra.png
+size: 1150,1150
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-fyra2/HairBack
+biyan
+  rotate: true
+  xy: 212, 12
+  size: 267, 162
+  orig: 280, 171
+  offset: 6, 8
+  index: -1
+bizui
   rotate: false
-  xy: 1, 1
-  size: 531, 869
-  orig: 531, 869
+  xy: 0, 0
+  size: 48, 5
+  orig: 51, 7
+  offset: 1, 1
+  index: -1
+houfa
+  rotate: false
+  xy: 0, 279
+  size: 533, 871
+  orig: 533, 871
   offset: 0, 0
   index: -1
-fyra2/Arm_R3
+lian
   rotate: false
-  xy: 1410, 698
-  size: 115, 183
-  orig: 115, 183
-  offset: 0, 0
-  index: -1
-fyra2/Arm_R2
-  rotate: false
-  xy: 1619, 698
-  size: 105, 172
-  orig: 105, 172
-  offset: 0, 0
-  index: -1
-fyra2/Arm_R1
-  rotate: false
-  xy: 1823, 698
-  size: 94, 166
-  orig: 94, 166
-  offset: 0, 0
-  index: -1
-fyra2/Leg_L2
-  rotate: false
-  xy: 1062, 698
-  size: 124, 270
-  orig: 124, 270
-  offset: 0, 0
-  index: -1
-fyra2/Leg_L1
-  rotate: false
-  xy: 1527, 698
-  size: 90, 219
-  orig: 90, 219
-  offset: 0, 0
-  index: -1
-fyra2/Leng_R2
-  rotate: false
-  xy: 1188, 698
-  size: 104, 272
-  orig: 104, 272
-  offset: 0, 0
-  index: -1
-fyra2/Leg_R1
-  rotate: false
-  xy: 1919, 698
-  size: 73, 205
-  orig: 73, 205
-  offset: 0, 0
-  index: -1
-fyra2/Body
-  rotate: false
-  xy: 846, 527
-  size: 214, 397
-  orig: 214, 397
-  offset: 0, 0
-  index: -1
-fyra2/Face
-  rotate: false
-  xy: 534, 527
+  xy: 720, 356
   size: 310, 360
-  orig: 310, 360
-  offset: 0, 0
+  orig: 312, 362
+  offset: 1, 1
   index: -1
-fyra2/Chest
-  rotate: false
-  xy: 1294, 903
-  size: 127, 76
-  orig: 127, 76
-  offset: 0, 0
-  index: -1
-fyra2/Arm_L1
-  rotate: false
-  xy: 1342, 1
-  size: 82, 169
-  orig: 82, 169
-  offset: 0, 0
-  index: -1
-fyra2/Arm_L2
-  rotate: false
-  xy: 1726, 698
-  size: 95, 184
-  orig: 95, 184
-  offset: 0, 0
-  index: -1
-fyra2/Arm_L3
-  rotate: false
-  xy: 1294, 698
-  size: 114, 203
-  orig: 114, 203
-  offset: 0, 0
-  index: -1
-fyra2/HairFront
-  rotate: false
-  xy: 534, 1
+qianfa
+  rotate: true
+  xy: 590, 716
   size: 434, 524
-  orig: 434, 524
-  offset: 0, 0
+  orig: 436, 526
+  offset: 1, 1
   index: -1
-fyra2/CloseMouth
+shenti
   rotate: false
-  xy: 1619, 872
-  size: 49, 5
-  orig: 49, 5
-  offset: 0, 0
+  xy: 590, 9
+  size: 216, 339
+  orig: 216, 399
+  offset: 0, 60
   index: -1
-fyra2/OpenMouth
+xianglian
   rotate: false
-  xy: 1823, 866
-  size: 47, 26
-  orig: 47, 26
-  offset: 0, 0
-  index: -1
-fyra2/Eye
-  rotate: false
-  xy: 1, 872
-  size: 273, 106
-  orig: 273, 106
-  offset: 0, 0
-  index: -1
-fyra2/CloseEye
-  rotate: false
-  xy: 1062, 527
-  size: 278, 169
-  orig: 278, 169
-  offset: 0, 0
-  index: -1
-fyra2/Necklace
-  rotate: false
-  xy: 1423, 883
+  xy: 806, 15
   size: 80, 94
-  orig: 80, 94
+  orig: 82, 96
+  offset: 1, 1
+  index: -1
+xiong
+  rotate: false
+  xy: 1008, 259
+  size: 127, 76
+  orig: 129, 78
+  offset: 1, 1
+  index: -1
+yanjing
+  rotate: true
+  xy: 106, 9
+  size: 270, 106
+  orig: 275, 108
+  offset: 3, 1
+  index: -1
+youhoutui
+  rotate: false
+  xy: 374, 12
+  size: 126, 267
+  orig: 126, 272
+  offset: 0, 5
+  index: -1
+youqiantui
+  rotate: false
+  xy: 500, 60
+  size: 90, 219
+  orig: 92, 221
+  offset: 1, 1
+  index: -1
+youquan
+  rotate: false
+  xy: 533, 348
+  size: 187, 368
+  orig: 192, 370
+  offset: 1, 1
+  index: -1
+youshangbi
+  rotate: true
+  xy: 806, 201
+  size: 82, 168
+  orig: 84, 171
+  offset: 1, 1
+  index: -1
+youxiabi
+  rotate: false
+  xy: 1030, 335
+  size: 114, 198
+  orig: 116, 205
+  offset: 1, 6
+  index: -1
+zhangzui
+  rotate: true
+  xy: 500, 13
+  size: 47, 26
+  orig: 49, 28
+  offset: 1, 1
+  index: -1
+zuohoutui
+  rotate: false
+  xy: 0, 5
+  size: 106, 274
+  orig: 106, 274
   offset: 0, 0
+  index: -1
+zuoqiantui
+  rotate: true
+  xy: 806, 283
+  size: 73, 202
+  orig: 75, 207
+  offset: 1, 1
+  index: -1
+zuoquantou
+  rotate: true
+  xy: 974, 154
+  size: 105, 167
+  orig: 107, 174
+  offset: 1, 6
+  index: -1
+zuoshangbi
+  rotate: true
+  xy: 806, 109
+  size: 92, 166
+  orig: 96, 168
+  offset: 3, 1
+  index: -1
+zuoxiabi
+  rotate: false
+  xy: 1030, 533
+  size: 115, 183
+  orig: 117, 185
+  offset: 1, 1
   index: -1

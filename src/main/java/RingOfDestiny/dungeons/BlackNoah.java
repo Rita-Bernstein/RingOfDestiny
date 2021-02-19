@@ -2,7 +2,7 @@ package RingOfDestiny.dungeons;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.monster.Ending.Rita;
-import RingOfDestiny.monster.Ending.fyra;
+import RingOfDestiny.monster.Ending.Fyra;
 import RingOfDestiny.rooms.FixedMonsterRoom;
 import RingOfDestiny.rooms.RitaVictoryRoom;
 import RingOfDestiny.scenes.BlackNoahScene;
@@ -386,14 +386,14 @@ public class BlackNoah extends CustomDungeon {
 
     protected void generateMonsters() {
         monsterList = new ArrayList();
-        monsterList.add(fyra.ID);
-        monsterList.add(fyra.ID);
-        monsterList.add(fyra.ID);
+        monsterList.add(Fyra.ID);
+        monsterList.add(Fyra.ID);
+        monsterList.add(Fyra.ID);
 
         eliteMonsterList = new ArrayList();
-        eliteMonsterList.add(fyra.ID);
-        eliteMonsterList.add(fyra.ID);
-        eliteMonsterList.add(fyra.ID);
+        eliteMonsterList.add(Fyra.ID);
+        eliteMonsterList.add(Fyra.ID);
+        eliteMonsterList.add(Fyra.ID);
     }
 
     protected void initializeBoss() {

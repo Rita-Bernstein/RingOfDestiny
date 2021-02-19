@@ -10,7 +10,7 @@ import RingOfDestiny.dungeons.BlackNoah;
 import RingOfDestiny.events.FruitStall;
 import RingOfDestiny.helpers.*;
 import RingOfDestiny.monster.Ending.Rita;
-import RingOfDestiny.monster.Ending.fyra;
+import RingOfDestiny.monster.Ending.Fyra;
 import RingOfDestiny.soulStone.SoulStone;
 import actlikeit.dungeons.CustomDungeon;
 import basemod.BaseMod;
@@ -248,7 +248,7 @@ public class RingOfDestiny
 
         BaseMod.addMonster(Rita.ID, () -> new Rita());
 
-        BaseMod.addMonster(fyra.ID, () -> new fyra());
+        BaseMod.addMonster(Fyra.ID, () -> new Fyra());
 
 
         logger.info("========================= 你小子的角色加进去了 =========================");

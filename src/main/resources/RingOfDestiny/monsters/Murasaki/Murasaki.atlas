@@ -1,0 +1,174 @@
+
+Murasaki.png
+size: 1038,1038
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+badaoyong
+  rotate: false
+  xy: 886, 333
+  size: 93, 182
+  orig: 96, 184
+  offset: 2, 1
+  index: -1
+biyan
+  rotate: false
+  xy: 582, 18
+  size: 267, 163
+  orig: 281, 171
+  offset: 6, 7
+  index: -1
+bizui
+  rotate: false
+  xy: 431, 462
+  size: 49, 6
+  orig: 51, 8
+  offset: 1, 1
+  index: -1
+dao
+  rotate: false
+  xy: 851, 684
+  size: 127, 82
+  orig: 129, 84
+  offset: 1, 1
+  index: -1
+daoqiao
+  rotate: false
+  xy: 743, 683
+  size: 108, 83
+  orig: 110, 85
+  offset: 1, 1
+  index: -1
+erhuan
+  rotate: false
+  xy: 582, 209
+  size: 43, 86
+  orig: 45, 88
+  offset: 1, 1
+  index: -1
+houfa
+  rotate: false
+  xy: 638, 181
+  size: 162, 330
+  orig: 164, 332
+  offset: 1, 1
+  index: -1
+lian
+  rotate: true
+  xy: 383, 683
+  size: 355, 360
+  orig: 357, 362
+  offset: 1, 1
+  index: -1
+qianfa
+  rotate: false
+  xy: 0, 2
+  size: 488, 437
+  orig: 491, 439
+  offset: 2, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 651, 515
+  size: 168, 286
+  orig: 168, 399
+  offset: 0, 113
+  index: -1
+weijin
+  rotate: true
+  xy: 594, 378
+  size: 90, 40
+  orig: 92, 42
+  offset: 1, 1
+  index: -1
+weijin2
+  rotate: false
+  xy: 0, 439
+  size: 383, 599
+  orig: 383, 599
+  offset: 0, 0
+  index: -1
+xiong
+  rotate: true
+  xy: 488, 0
+  size: 128, 80
+  orig: 130, 83
+  offset: 1, 1
+  index: -1
+yan
+  rotate: false
+  xy: 383, 511
+  size: 268, 172
+  orig: 281, 180
+  offset: 6, 7
+  index: -1
+yanjing
+  rotate: false
+  xy: 383, 468
+  size: 255, 43
+  orig: 257, 45
+  offset: 1, 1
+  index: -1
+youbi
+  rotate: false
+  xy: 937, 533
+  size: 76, 151
+  orig: 79, 153
+  offset: 1, 1
+  index: -1
+youdatui
+  rotate: true
+  xy: 800, 193
+  size: 93, 220
+  orig: 95, 222
+  offset: 1, 1
+  index: -1
+youquan
+  rotate: false
+  xy: 849, 11
+  size: 92, 182
+  orig: 96, 184
+  offset: 1, 1
+  index: -1
+youxiaotui
+  rotate: false
+  xy: 870, 768
+  size: 125, 270
+  orig: 125, 270
+  offset: 0, 0
+  index: -1
+zhangzui
+  rotate: false
+  xy: 383, 441
+  size: 48, 27
+  orig: 50, 29
+  offset: 1, 1
+  index: -1
+zuobi
+  rotate: false
+  xy: 488, 128
+  size: 94, 167
+  orig: 97, 170
+  offset: 2, 2
+  index: -1
+zuodatui
+  rotate: false
+  xy: 800, 286
+  size: 86, 229
+  orig: 88, 231
+  offset: 1, 1
+  index: -1
+zuoquan
+  rotate: false
+  xy: 488, 295
+  size: 106, 173
+  orig: 108, 179
+  offset: 1, 5
+  index: -1
+zuoxiaotui
+  rotate: false
+  xy: 743, 766
+  size: 127, 272
+  orig: 127, 272
+  offset: 0, 0
+  index: -1

@@ -52,13 +52,13 @@ import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.actions.common.RollMoveAction;
 
 
-public class fyra extends CustomMonster {
-    public static final String ID = RingOfDestiny.makeID("fyra");
+public class Fyra extends CustomMonster {
+    public static final String ID = RingOfDestiny.makeID("Fyra");
     private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings(ID);
     public static final String NAME = monsterStrings.NAME;
     public static final String[] MOVES = monsterStrings.MOVES;
     public static final String[] DIALOG = monsterStrings.DIALOG;
-    public static final String MURDER_ENCOUNTER_KEY = RingOfDestiny.makeID("fyra");
+    public static final String MURDER_ENCOUNTER_KEY = RingOfDestiny.makeID("Fyra");
     private static final int HP_MIN = 48;
     private static final int HP_MAX = 54;
     private static final int A_2_HP_MIN = 50;
@@ -94,7 +94,7 @@ public class fyra extends CustomMonster {
     public boolean superMoves = false;
 
 
-    public fyra() {
+    public Fyra() {
         super(NAME, ID, 160, 0.0F, -15.0F, 300.0F, 350.0F, null, 0.0F, -10.0F);
 
         this.pixel = AssetLoader.loadImage(RingOfDestiny.assetPath("img/misc/filledpixel.png"));
@@ -132,7 +132,7 @@ public class fyra extends CustomMonster {
         this.dialogY = 50.0F * Settings.scale;
 
 
-        loadAnimation("RingOfDestiny/monsters/fyra/fyra.atlas", "RingOfDestiny/monsters/fyra/fyra.json", 3.4F);
+        loadAnimation("RingOfDestiny/monsters/Fyra/Fyra.atlas", "RingOfDestiny/monsters/Fyra/Fyra.json", 3.4F);
 
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);

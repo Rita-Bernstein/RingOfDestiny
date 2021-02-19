@@ -245,24 +245,34 @@ public class Summoner extends CustomPlayer {
 
     @Override
     public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
+        super.useCard(c, monster, energyOnUse);
         if (c.type == AbstractCard.CardType.ATTACK) {
-            if (firstAttackAnimation) {
-                AbstractDungeon.player.state.setAnimation(0, "gongji_1", true);
-            } else {
-                AbstractDungeon.player.state.setAnimation(0, "gongji_2", true);
-            }
+            if (firstAttackAnimation)
+                AbstractDungeon.player.state.setAnimation(0, "Attack1", true);
+            else
+                AbstractDungeon.player.state.setAnimation(0, "Attack2", true);
+
             firstAttackAnimation = !firstAttackAnimation;
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.SKILL) {
-            AbstractDungeon.player.state.setAnimation(0, "fashu", true);
+            if (firstAttackAnimation)
+                AbstractDungeon.player.state.setAnimation(0, "Skill1", true);
+            else
+                AbstractDungeon.player.state.setAnimation(0, "Skill2", true);
+
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.POWER) {
-            AbstractDungeon.player.state.setAnimation(0, "zhuangbei", true);
+            AbstractDungeon.player.state.setAnimation(0, "Power", true);
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
-        super.useCard(c, monster, energyOnUse);
+    }
+
+    @Override
+    public void playDeathAnimation() {
+        if(AbstractDungeon.player != null)
+            AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
 }
 
