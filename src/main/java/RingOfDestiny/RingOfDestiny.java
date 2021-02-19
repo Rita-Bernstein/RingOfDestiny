@@ -316,6 +316,7 @@ public class RingOfDestiny
     public static void initialize() {
         new RingOfDestiny();
         logger.info("========================= 初始化完成 =========================");
+        loadSettings();
     }
 
     @Override

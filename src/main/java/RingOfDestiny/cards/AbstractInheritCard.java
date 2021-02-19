@@ -218,7 +218,7 @@ public abstract class AbstractInheritCard extends AbstractRingCard {
     }
 
     protected String getUpgradeDescription() {
-        return DESCRIPTION;
+        return UPGRADE_DESCRIPTION;
     }
 
     public int getSubTotalCount() {

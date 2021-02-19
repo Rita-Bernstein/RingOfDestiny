@@ -37,7 +37,7 @@ public class SelfDetonatePower extends AbstractPower {
 
     @Override
     public int onAttacked(final DamageInfo info, final int damageAmount) {
-        if (info.owner != this.owner && info.output > this.owner.currentHealth  ) {
+        if (info.owner != this.owner && info.output >= this.owner.currentHealth  ) {
             this.flash();
             AbstractDungeon.actionManager.addToTop(new DamageAction(AbstractDungeon.player, new DamageInfo(this.owner, this.owner.currentHealth, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE, true));
         }

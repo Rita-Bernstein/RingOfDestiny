@@ -31,11 +31,12 @@ public class Slip extends AbstractRingCard {
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.NONE;
 
-    private static final int actualDamage = 4;
+
 
     public Slip() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        setBackgroundTexture("RingOfDestiny/img/cardui/Colorless/512/bg_skill_lime.png","RingOfDestiny/img/cardui/Colorless/1024/bg_skill_lime.png");
+        setBackgroundTexture("RingOfDestiny/img/cardui/Colorless/512/bg_skill_lime.png", "RingOfDestiny/img/cardui/Colorless/1024/bg_skill_lime.png");
+        this.magicNumber = this.baseMagicNumber = 4;
     }
 
 
@@ -48,7 +49,7 @@ public class Slip extends AbstractRingCard {
 
     public void triggerOnManualDiscard() {
 
-        AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, new DamageInfo(AbstractDungeon.player, this.actualDamage, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE));
+        AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, new DamageInfo(AbstractDungeon.player, this.magicNumber, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE));
     }
 
 

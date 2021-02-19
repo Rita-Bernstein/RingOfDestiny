@@ -1578,15 +1578,15 @@
   },
   "RingOfDestiny:Misstep": {
     "NAME": "踩空",
-    "DESCRIPTION": "不能被打出 。抽到这张牌时，丢弃一张随机手牌。"
+    "DESCRIPTION": "不能被打出 。 NL 抽到这张牌时，丢弃一张随机手牌。"
   },
   "RingOfDestiny:Blockade": {
     "NAME": "封锁",
-    "DESCRIPTION": "抽到时，获得不能抽牌"
+    "DESCRIPTION": "抽到这张牌时，你在这个回合内不能再抽任何牌。 NL 消耗 。"
   },
   "RingOfDestiny:Slip": {
     "NAME": "失足",
-    "DESCRIPTION": "不能被打出 。 这张牌被丢弃时，对你造成 4 点伤害。"
+    "DESCRIPTION": "不能被打出 。 NL 这张牌被丢弃时，对你造成 4 点伤害。"
   },
   "RingOfDestiny:Overcautious": {
     "NAME": "畏首畏尾",

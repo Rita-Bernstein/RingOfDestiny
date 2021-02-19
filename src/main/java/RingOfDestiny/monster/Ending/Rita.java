@@ -195,6 +195,15 @@ public class Rita extends CustomMonster {
         CardCrawlGame.music.playTempBGM(RingOfDestiny.makeID("music16"));
         (AbstractDungeon.getCurrRoom()).cannotLose = true;
         addToBot(new ApplyPowerAction(this, this, new ProbePower(this, this.timeLimit + 1)));
+
+        if (AbstractDungeon.ascensionLevel >= 19) {
+            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Blockade(), 1));
+        } else {
+            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+        }
     }
 
 
@@ -218,14 +227,14 @@ public class Rita extends CustomMonster {
 
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, this, new VulnerablePower(AbstractDungeon.player, 2, true), 2));
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, this, new WeakPower(AbstractDungeon.player, 2, true), 2));
-                if (AbstractDungeon.ascensionLevel >= 19) {
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Blockade(), 1));
-                } else {
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                }
+//                if (AbstractDungeon.ascensionLevel >= 19) {
+//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Blockade(), 1));
+//                } else {
+//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+//                }
                 break;
 
             case 1://普通投

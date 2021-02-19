@@ -29,7 +29,7 @@ public class Blockade extends AbstractRingCard {
     public Blockade() {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         setBackgroundTexture("RingOfDestiny/img/cardui/Colorless/512/bg_skill_lime.png","RingOfDestiny/img/cardui/Colorless/1024/bg_skill_lime.png");
-
+        this.exhaust = true;
     }
 
 
