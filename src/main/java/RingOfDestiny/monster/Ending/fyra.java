@@ -156,14 +156,14 @@ public class fyra extends CustomMonster {
 
 
     public void usePreBattleAction() {
-        AbstractDungeon.actionManager.addToBottom(new ChangeStageAction("ZERO"));
+        addToBot(new ChangeStageAction("ZERO"));
 
 
         CardCrawlGame.music.silenceTempBgmInstantly();
         CardCrawlGame.music.silenceBGM();
         AbstractDungeon.scene.fadeOutAmbiance();
         CardCrawlGame.music.playTempBGM(RingOfDestiny.makeID("music02"));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new ArtifactPower(this, 1)));
+        addToBot(new ApplyPowerAction(this, this, new ArtifactPower(this, 1)));
     }
 
 
@@ -176,20 +176,20 @@ public class fyra extends CustomMonster {
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_fyra_Stirker"));
 
 
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new GluganEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.y), 0.0F));
-                AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.52f)));
+                addToBot(new VFXAction(new GluganEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.y), 0.0F));
+                addToBot((new CustomWaitAction(0.52f)));
                 for (temp = 0; temp < this.StirkerHitCount; temp++) {
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(0), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(0), AbstractGameAction.AttackEffect.NONE, true));
 
                 }
 
                 if (AbstractDungeon.ascensionLevel >= 19) {
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Wound(), 2, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Wound(), 1));
+                    addToBot(new MakeTempCardInDrawPileAction(new Wound(), 2, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+                    addToBot(new MakeTempCardInDiscardAction(new Wound(), 1));
                 } else {
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Dazed(), 2, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Dazed(), 1));
+                    addToBot(new MakeTempCardInDrawPileAction(new Dazed(), 2, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+                    addToBot(new MakeTempCardInDiscardAction(new Dazed(), 1));
                 }
 
                 if (this.powerMeter > 1000) {
@@ -201,16 +201,16 @@ public class fyra extends CustomMonster {
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_fyra_Mirror"));
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("ZEROSkirt"));
                 for (temp = 0; temp < this.MirrorHitCount; temp++) {
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new SlashEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(1), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot(new VFXAction(new SlashEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(1), AbstractGameAction.AttackEffect.NONE, true));
                 }
-                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new ArtifactPower(this, 1)));
+                addToBot(new ApplyPowerAction(this, this, new ArtifactPower(this, 1)));
                 if (AbstractDungeon.ascensionLevel >= 19) {
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Burn(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Burn(), 2));
+                    addToBot(new MakeTempCardInDrawPileAction(new Burn(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+                    addToBot(new MakeTempCardInDiscardAction(new Burn(), 2));
                 } else {
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Wound(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Wound(), 2));
+                    addToBot(new MakeTempCardInDrawPileAction(new Wound(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+                    addToBot(new MakeTempCardInDiscardAction(new Wound(), 2));
                 }
 
                 this.powerMeter += 333;
@@ -226,16 +226,16 @@ public class fyra extends CustomMonster {
 
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("ZEROShadow"));
                 for (temp = 0; temp < this.FlameHitCount; temp++) {
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(2), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(2), AbstractGameAction.AttackEffect.NONE, true));
                 }
 
                 if (AbstractDungeon.ascensionLevel >= 19) {
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new VoidCard(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new VoidCard(), 1));
+                    addToBot(new MakeTempCardInDrawPileAction(new VoidCard(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+                    addToBot(new MakeTempCardInDiscardAction(new VoidCard(), 1));
                 } else {
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slimed(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Slimed(), 1));
+                    addToBot(new MakeTempCardInDrawPileAction(new Slimed(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+                    addToBot(new MakeTempCardInDiscardAction(new Slimed(), 1));
                 }
 
 
@@ -250,21 +250,21 @@ public class fyra extends CustomMonster {
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_fyra_White"));
 
 
-                AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.38f)));
+                addToBot((new CustomWaitAction(0.38f)));
                 for (temp = 0; temp < this.WhiteHitCount; temp++) {
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(3), AbstractGameAction.AttackEffect.NONE, true));
-                    AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.25f)));
+                    addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(3), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot((new CustomWaitAction(0.25f)));
                 }
 
 
                 if (AbstractDungeon.ascensionLevel >= 19) {
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new StrengthPower(this, 5)));
+                    addToBot(new ApplyPowerAction(this, this, new StrengthPower(this, 5)));
                 } else {
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new StrengthPower(this, 3)));
+                    addToBot(new ApplyPowerAction(this, this, new StrengthPower(this, 3)));
                 }
 
-                AbstractDungeon.actionManager.addToBottom(new UpgardeStateAction(0.5f));
+                addToBot(new UpgardeStateAction(0.5f));
 
                 displayPowerMeter = 0;
                 this.powerMeter = 0;
@@ -273,7 +273,7 @@ public class fyra extends CustomMonster {
 
         }
 
-        AbstractDungeon.actionManager.addToBottom(new RollMoveAction(this));
+        addToBot(new RollMoveAction(this));
 
     }
 
@@ -376,7 +376,7 @@ public class fyra extends CustomMonster {
 
         if (this.superMoves == true && this.halfDead == false) {
             setMove(MOVES[3], (byte) 3, AbstractMonster.Intent.ATTACK_DEBUFF, ((DamageInfo) this.damage.get(3)).base, this.WhiteHitCount, true);
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new IntangiblePlayerPower(this, 2)));
+            addToBot(new ApplyPowerAction(this, this, new IntangiblePlayerPower(this, 2)));
             return;
         }
 

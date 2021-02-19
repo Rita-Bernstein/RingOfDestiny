@@ -7,11 +7,16 @@ import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class ChangeStageAction extends AbstractGameAction {
+    private String id;
+
     public ChangeStageAction(String id) {
+        this.id = id;
+    }
 
-        AbstractDungeon.effectList.clear();
+    public void update() {
+        addToBot(new ClearStageAction());
 
-        switch (id) {
+        switch (this.id) {
             case "Black1":
                 addToBot(new VFXAction(new BackgroundRender("Black1", 10, 0.0F, 0.55F, 768, 259, 2.5f, 8.0f), 0.0F));
                 break;
@@ -28,9 +33,7 @@ public class ChangeStageAction extends AbstractGameAction {
 
         addToBot(new VFXAction(new BackgroundBoardRender(0.0f, 1.05f, 0.0f, 0.15f, 1.5f)));
 
-    }
 
-    public void update() {
-        this.tickDuration();
+        this.isDone = true;
     }
 }

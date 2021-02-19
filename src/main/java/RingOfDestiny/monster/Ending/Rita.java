@@ -187,8 +187,9 @@ public class Rita extends CustomMonster {
     }
 
 
+
     public void usePreBattleAction() {
-        AbstractDungeon.actionManager.addToBottom(new ChangeStageAction("Black1"));
+        addToBot(new ChangeStageAction("Black1"));
         CardCrawlGame.music.silenceTempBgmInstantly();
         CardCrawlGame.music.silenceBGM();
         AbstractDungeon.scene.fadeOutAmbiance();
@@ -197,12 +198,12 @@ public class Rita extends CustomMonster {
         addToBot(new ApplyPowerAction(this, this, new ProbePower(this, this.timeLimit + 1)));
 
         if (AbstractDungeon.ascensionLevel >= 19) {
-            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Blockade(), 1));
+            addToBot(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+            addToBot(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+            addToBot(new MakeTempCardInDiscardAction(new Blockade(), 1));
         } else {
-            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+            addToBot(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+            addToBot(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
         }
     }
 
@@ -223,23 +224,23 @@ public class Rita extends CustomMonster {
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Intimidate"));
                 AbstractDungeon.actionManager.addToTop(new ChangeStateAction(this, "Intimidate"));
 
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(this, new ShockWaveEffect(this.hb.cX, this.hb.cY, Settings.RED_TEXT_COLOR, ShockWaveEffect.ShockWaveType.ADDITIVE), 0.2F));
+                addToBot(new VFXAction(this, new ShockWaveEffect(this.hb.cX, this.hb.cY, Settings.RED_TEXT_COLOR, ShockWaveEffect.ShockWaveType.ADDITIVE), 0.2F));
 
-                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, this, new VulnerablePower(AbstractDungeon.player, 2, true), 2));
-                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, this, new WeakPower(AbstractDungeon.player, 2, true), 2));
+                addToBot(new ApplyPowerAction(AbstractDungeon.player, this, new VulnerablePower(AbstractDungeon.player, 2, true), 2));
+                addToBot(new ApplyPowerAction(AbstractDungeon.player, this, new WeakPower(AbstractDungeon.player, 2, true), 2));
 //                if (AbstractDungeon.ascensionLevel >= 19) {
-//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Blockade(), 1));
+//                    addToBot(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+//                    addToBot(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+//                    addToBot(new MakeTempCardInDiscardAction(new Blockade(), 1));
 //                } else {
-//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-//                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+//                    addToBot(new MakeTempCardInDrawPileAction(new Misstep(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+//                    addToBot(new MakeTempCardInDrawPileAction(new Slip(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
 //                }
                 break;
 
             case 1://普通投
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(0), AbstractGameAction.AttackEffect.NONE));
+                addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(0), AbstractGameAction.AttackEffect.NONE));
 
                 addPowerMeter(60);
                 break;
@@ -248,13 +249,13 @@ public class Rita extends CustomMonster {
             case 0://烈风拳
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Repuuken"));
 
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new Repuuken0Effect(this.hb.x, this.hb.y), 0.0F));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new Repuuken1Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.y, this.hb.x, this.hb.y), 0.0F));
-                AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.16f)));
+                addToBot(new VFXAction(new Repuuken0Effect(this.hb.x, this.hb.y), 0.0F));
+                addToBot(new VFXAction(new Repuuken1Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.y, this.hb.x, this.hb.y), 0.0F));
+                addToBot((new CustomWaitAction(0.16f)));
 
                 for (temp = 0; temp < this.repuukenHitCount; temp++) {
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(1), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(1), AbstractGameAction.AttackEffect.NONE, true));
                 }
 
                 addPowerMeter(60);
@@ -264,8 +265,8 @@ public class Rita extends CustomMonster {
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Heaven"));
                 AbstractDungeon.actionManager.addToTop((new CustomWaitAction(0.5F)));
                 for (temp = 0; temp < this.HeavenHitCount; temp++) {
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(7), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(7), AbstractGameAction.AttackEffect.NONE, true));
                 }
 
                 displayPowerMeter = 0;
@@ -277,13 +278,13 @@ public class Rita extends CustomMonster {
 //第二阶段------------------------------------------------------
             case 10://黑暗屏障
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Barrier"));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(this, new FlameBarrierEffect(this.hb.cX, this.hb.cY), 0.5F));
-                AbstractDungeon.actionManager.addToBottom(new GainBlockAction(this, this, 50));
-                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new ArtifactPower(this, 2)));
+                addToBot(new VFXAction(this, new FlameBarrierEffect(this.hb.cX, this.hb.cY), 0.5F));
+                addToBot(new GainBlockAction(this, this, 50));
+                addToBot(new ApplyPowerAction(this, this, new ArtifactPower(this, 2)));
                 if (AbstractDungeon.ascensionLevel >= 19) {
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new ReflectionPower(this, 3)));
+                    addToBot(new ApplyPowerAction(this, this, new ReflectionPower(this, 3)));
                 } else {
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new ReflectionPower(this, 2)));
+                    addToBot(new ApplyPowerAction(this, this, new ReflectionPower(this, 2)));
                 }
 
                 addPowerMeter(60);
@@ -293,12 +294,12 @@ public class Rita extends CustomMonster {
             case 11://凯撒波
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Kaiser"));
                 AbstractDungeon.actionManager.addToTop((new CustomWaitAction(0.5F)));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new Kaiser0Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.x, this.hb.cY), 0.0F));
-                AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.08f)));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(2), AbstractGameAction.AttackEffect.NONE));
-                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new PlatedArmorPower(this, 5)));
-                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new StrengthPower(this, 2)));
+                addToBot(new VFXAction(new Kaiser0Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.x, this.hb.cY), 0.0F));
+                addToBot((new CustomWaitAction(0.08f)));
+                addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(2), AbstractGameAction.AttackEffect.NONE));
+                addToBot(new ApplyPowerAction(this, this, new PlatedArmorPower(this, 5)));
+                addToBot(new ApplyPowerAction(this, this, new StrengthPower(this, 2)));
 
                 addPowerMeter(60);
                 break;
@@ -306,8 +307,8 @@ public class Rita extends CustomMonster {
             case 12://丽塔处刑
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Execution"));
                 for (temp = 0; temp < this.ExecutionHitCount; temp++) {
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(3), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(3), AbstractGameAction.AttackEffect.NONE, true));
                 }
 
                 break;
@@ -318,19 +319,19 @@ public class Rita extends CustomMonster {
                 for (temp = 0; temp < this.PhoenixHitCount; temp++) {
                     switch (MathUtils.random(2)) {
                         case 0:
-                            AbstractDungeon.actionManager.addToBottom(new VFXAction(new Kaiser0Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.x, this.hb.cY), 0.0F));
+                            addToBot(new VFXAction(new Kaiser0Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.x, this.hb.cY), 0.0F));
                             break;
                         case 1:
-                            AbstractDungeon.actionManager.addToBottom(new VFXAction(new Kaiser1Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.x, this.hb.cY), 0.0F));
+                            addToBot(new VFXAction(new Kaiser1Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.x, this.hb.cY), 0.0F));
                             break;
                         case 2:
-                            AbstractDungeon.actionManager.addToBottom(new VFXAction(new Kaiser2Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.x, this.hb.cY), 0.0F));
+                            addToBot(new VFXAction(new Kaiser2Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.x, this.hb.cY), 0.0F));
                             break;
                     }
-                    AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.08f)));
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(8), AbstractGameAction.AttackEffect.NONE, true));
-                    AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.15f)));
+                    addToBot((new CustomWaitAction(0.08f)));
+                    addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(8), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot((new CustomWaitAction(0.15f)));
                 }
                 displayPowerMeter = 0;
                 this.powerMeter = 0;
@@ -341,59 +342,59 @@ public class Rita extends CustomMonster {
             case 20://灭族切割
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Cutter"));
 
-                AbstractDungeon.actionManager.addToBottom(new AnimateJumpAction(this));
-                //AbstractDungeon.actionManager.addToBottom(new VFXAction(new GoldenSlashEffect(AbstractDungeon.player.hb.cX + 60.0F * Settings.scale, AbstractDungeon.player.hb.cY, true), 0.1F));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new CutterEffect(AbstractDungeon.player.hb.x + AbstractDungeon.player.hb.width, AbstractDungeon.player.hb.cY), 0.0F));
-                AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(4), AbstractGameAction.AttackEffect.NONE));
+                addToBot(new AnimateJumpAction(this));
+                //addToBot(new VFXAction(new GoldenSlashEffect(AbstractDungeon.player.hb.cX + 60.0F * Settings.scale, AbstractDungeon.player.hb.cY, true), 0.1F));
+                addToBot(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                addToBot(new VFXAction(new CutterEffect(AbstractDungeon.player.hb.x + AbstractDungeon.player.hb.width, AbstractDungeon.player.hb.cY), 0.0F));
+                addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(4), AbstractGameAction.AttackEffect.NONE));
 
 
-                AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.1f)));
-                //AbstractDungeon.actionManager.addToBottom(new VFXAction(new GoldenSlashEffect(AbstractDungeon.player.hb.cX - 60.0F * Settings.scale, AbstractDungeon.player.hb.cY, true), 0.1F));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(4), AbstractGameAction.AttackEffect.NONE));
+                addToBot((new CustomWaitAction(0.1f)));
+                //addToBot(new VFXAction(new GoldenSlashEffect(AbstractDungeon.player.hb.cX - 60.0F * Settings.scale, AbstractDungeon.player.hb.cY, true), 0.1F));
+                addToBot(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(4), AbstractGameAction.AttackEffect.NONE));
 
                 addPowerMeter(60);
                 break;
 
             case 21://地狱压杀
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Pressure"));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new HeavenEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.y + Settings.HEIGHT * 0.1f), 0.0F));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                //AbstractDungeon.actionManager.addToBottom(new VFXAction(new ViceCrushEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.5F));
-                AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(5), AbstractGameAction.AttackEffect.NONE));
+                addToBot(new VFXAction(new HeavenEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.y + Settings.HEIGHT * 0.1f), 0.0F));
+                addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                //addToBot(new VFXAction(new ViceCrushEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.5F));
+                addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(5), AbstractGameAction.AttackEffect.NONE));
                 //AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(this, this, new IntangiblePower(this, 1)));
                 break;
 
             case 22://终极覆灭
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Destruction"));
-                //AbstractDungeon.actionManager.addToBottom(new VFXAction(new BloodShotEffect(this.hb.cX, this.hb.cY, AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.DestructionHitCount), 0.25F));
+                //addToBot(new VFXAction(new BloodShotEffect(this.hb.cX, this.hb.cY, AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.DestructionHitCount), 0.25F));
                 for (temp = 0; temp < this.DestructionHitCount - 3; temp++) {
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(6), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(6), AbstractGameAction.AttackEffect.NONE, true));
                 }
 
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new CutterEffect(AbstractDungeon.player.hb.x + AbstractDungeon.player.hb.width, AbstractDungeon.player.hb.cY), 0.0F));
+                addToBot(new VFXAction(new CutterEffect(AbstractDungeon.player.hb.x + AbstractDungeon.player.hb.width, AbstractDungeon.player.hb.cY), 0.0F));
 
                 for (temp = 0; temp < 2; temp++) {
-                    AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.1f)));
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot((new CustomWaitAction(0.1f)));
+                    addToBot(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
 
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(6), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(6), AbstractGameAction.AttackEffect.NONE, true));
                 }
 
-                AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(0.2f)));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(6), AbstractGameAction.AttackEffect.NONE, true));
+                addToBot((new CustomWaitAction(0.2f)));
+                addToBot(new VFXAction(new SlashHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(6), AbstractGameAction.AttackEffect.NONE, true));
 
                 if (this.timeLimit <= 0) {
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new StrengthPower(this, 50)));
+                    addToBot(new ApplyPowerAction(this, this, new StrengthPower(this, 50)));
                     this.timeLimit = 3;
                 } else {
                     if (AbstractDungeon.ascensionLevel >= 19) {
-                        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new StrengthPower(this, 6)));
+                        addToBot(new ApplyPowerAction(this, this, new StrengthPower(this, 6)));
                     } else {
-                        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new StrengthPower(this, 5)));
+                        addToBot(new ApplyPowerAction(this, this, new StrengthPower(this, 5)));
                     }
                 }
 
@@ -404,18 +405,18 @@ public class Rita extends CustomMonster {
                 animateParticles = true;
 
                 for (temp = 0; temp < this.JudgementHitCount; temp++) {
-                    AbstractDungeon.actionManager.addToBottom(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
-                    AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(9), AbstractGameAction.AttackEffect.NONE, true));
+                    addToBot(new VFXAction(new HitHeavyEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY), 0.0F));
+                    addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(9), AbstractGameAction.AttackEffect.NONE, true));
                 }
 
                 if (this.timeLimit <= 0) {
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new StrengthPower(this, 50)));
+                    addToBot(new ApplyPowerAction(this, this, new StrengthPower(this, 50)));
                     this.timeLimit = 3;
                 } else {
                     if (AbstractDungeon.ascensionLevel >= 19) {
-                        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new StrengthPower(this, 10)));
+                        addToBot(new ApplyPowerAction(this, this, new StrengthPower(this, 10)));
                     } else {
-                        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new StrengthPower(this, 8)));
+                        addToBot(new ApplyPowerAction(this, this, new StrengthPower(this, 8)));
                     }
                 }
 
@@ -451,22 +452,22 @@ public class Rita extends CustomMonster {
                         CardCrawlGame.music.silenceTempBgmInstantly();
                         CardCrawlGame.music.playTempBGM(RingOfDestiny.makeID("music18"));
                         CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Form1B"));
-                        AbstractDungeon.actionManager.addToTop((new CustomWaitAction(1.0F)));
-                        AbstractDungeon.actionManager.addToTop((new ShoutAction(this, DIALOG[2])));
+                        addToTop((new CustomWaitAction(1.0F)));
+                        addToTop((new ShoutAction(this, DIALOG[2])));
 
 
-                        AbstractDungeon.actionManager.addToBottom(new SpawnMonsterAction(new Bronze_Statue(-300.0F, 0.0F, 0), true, 0));
-                        AbstractDungeon.actionManager.addToBottom(new SpawnMonsterAction(new Bronze_Statue(200.0F, 0.0F, 1), true, 1));
+                        addToBot(new SpawnMonsterAction(new Bronze_Statue(-300.0F, 0.0F, 0), true, 0));
+                        addToBot(new SpawnMonsterAction(new Bronze_Statue(200.0F, 0.0F, 1), true, 1));
 
 
                         addToBot(new RemoveSpecificPowerAction(this, this, ProbePower.POWER_ID));
                         addToBot(new ApplyPowerAction(this, this, new UnawakenedPower(this)));
 
-                        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new SelfDetonatePower(this)));
-                        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new BarricadePower(this)));
+                        addToBot(new ApplyPowerAction(this, this, new SelfDetonatePower(this)));
+                        addToBot(new ApplyPowerAction(this, this, new BarricadePower(this)));
 
-                        AbstractDungeon.actionManager.addToBottom(new ChangeStageAction("Black2"));
-                        AbstractDungeon.actionManager.addToTop(new ChangeStateAction(this, "Form2"));
+                        addToBot(new ChangeStageAction("Black2"));
+                        addToTop(new ChangeStateAction(this, "Form2"));
 
                         break;
 //复活：第三形态
@@ -478,12 +479,12 @@ public class Rita extends CustomMonster {
                         CardCrawlGame.music.playTempBGM(RingOfDestiny.makeID("music21"));
 
                         CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Form2B"));
-                        AbstractDungeon.actionManager.addToBottom(new VFXAction(this, new ShockWaveEffect(this.hb.cX, this.hb.cY, Settings.RED_TEXT_COLOR, ShockWaveEffect.ShockWaveType.ADDITIVE), 0.2F));
-                        AbstractDungeon.actionManager.addToBottom((new ShoutAction(this, DIALOG[6])));
+                        addToBot(new VFXAction(this, new ShockWaveEffect(this.hb.cX, this.hb.cY, Settings.RED_TEXT_COLOR, ShockWaveEffect.ShockWaveType.ADDITIVE), 0.2F));
+                        addToBot((new ShoutAction(this, DIALOG[6])));
 
                         addToBot(new RemoveSpecificPowerAction(this, this, UnawakenedPower.POWER_ID));
 
-                        AbstractDungeon.actionManager.addToBottom(new ChangeStageAction("Rocket"));
+                        addToBot(new ChangeStageAction("Rocket"));
                         AbstractDungeon.actionManager.addToTop(new ChangeStateAction(this, "Form2"));
 
 
@@ -498,7 +499,7 @@ public class Rita extends CustomMonster {
                         break;
                 }
 
-                AbstractDungeon.actionManager.addToBottom(new HealAction(this, this, this.maxHealth));
+                addToBot(new HealAction(this, this, this.maxHealth));
 
                 if (formAmount >= 3) {
                     (AbstractDungeon.getCurrRoom()).cannotLose = false;
@@ -514,7 +515,7 @@ public class Rita extends CustomMonster {
         }
         this.timeLimit -= 1;
         this.isFormChanged = false;
-        AbstractDungeon.actionManager.addToBottom(new RollMoveAction(this));
+        addToBot(new RollMoveAction(this));
         //轮回行动
     }
 
@@ -523,11 +524,11 @@ public class Rita extends CustomMonster {
     private void playSfx() {
         int roll = MathUtils.random(2);
         if (roll == 0) {
-            AbstractDungeon.actionManager.addToBottom(new SFXAction("VO_CULTIST_1A"));
+            addToBot(new SFXAction("VO_CULTIST_1A"));
         } else if (roll == 1) {
-            AbstractDungeon.actionManager.addToBottom(new SFXAction("VO_CULTIST_1B"));
+            addToBot(new SFXAction("VO_CULTIST_1B"));
         } else {
-            AbstractDungeon.actionManager.addToBottom(new SFXAction("VO_CULTIST_1C"));
+            addToBot(new SFXAction("VO_CULTIST_1C"));
         }
     }
 
@@ -669,13 +670,13 @@ public class Rita extends CustomMonster {
 
             //对话演出
             CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Form1A"));
-            AbstractDungeon.actionManager.addToBottom(new ShoutAction(this, DIALOG[0]));
-            AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(1.0F)));
-            AbstractDungeon.actionManager.addToBottom((new ShoutAction(this, DIALOG[1])));
+            addToBot(new ShoutAction(this, DIALOG[0]));
+            addToBot((new CustomWaitAction(1.0F)));
+            addToBot((new ShoutAction(this, DIALOG[1])));
 
             AbstractDungeon.actionManager.addToTop(new ClearCardQueueAction());
 
-            AbstractDungeon.actionManager.addToBottom(new SetMoveAction(this, (byte) 99, AbstractMonster.Intent.UNKNOWN));
+            addToBot(new SetMoveAction(this, (byte) 99, AbstractMonster.Intent.UNKNOWN));
             return;
         }
         switch (formAmount) {
@@ -685,7 +686,7 @@ public class Rita extends CustomMonster {
 //超杀
                 if (this.superMoves && !this.halfDead) {
                     setMove(MOVES[3], (byte) 3, AbstractMonster.Intent.ATTACK, ((DamageInfo) this.damage.get(7)).base, this.HeavenHitCount, true);
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new IntangiblePlayerPower(this, 2)));
+                    addToBot(new ApplyPowerAction(this, this, new IntangiblePlayerPower(this, 2)));
                     return;
                 }
 
@@ -726,7 +727,7 @@ public class Rita extends CustomMonster {
 //超杀
                 if (this.superMoves && !this.halfDead) {
                     setMove(MOVES[7], (byte) 13, AbstractMonster.Intent.ATTACK, ((DamageInfo) this.damage.get(8)).base, this.PhoenixHitCount, true);
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new IntangiblePlayerPower(this, 2)));
+                    addToBot(new ApplyPowerAction(this, this, new IntangiblePlayerPower(this, 2)));
                     return;
                 }
 //第一回合行动
@@ -761,14 +762,14 @@ public class Rita extends CustomMonster {
 //超杀
                 if (this.superMoves && !this.halfDead) {
                     setMove(MOVES[11], (byte) 23, AbstractMonster.Intent.ATTACK, ((DamageInfo) this.damage.get(9)).base, this.JudgementHitCount, true);
-                    AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new IntangiblePlayerPower(this, 2)));
+                    addToBot(new ApplyPowerAction(this, this, new IntangiblePlayerPower(this, 2)));
                     return;
                 }
 
 //第一回合行动
                 if (this.isFirstMove) {
                     setMove(MOVES[8], (byte) 20, AbstractMonster.Intent.ATTACK, ((DamageInfo) this.damage.get(4)).base, 2, true);
-                    //AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(this, this, new IntangiblePower(this, 1)));
+                    //addToBot(new ApplyPowerAction(this, this, new IntangiblePower(this, 1)));
                     this.isFirstMove = false;
                     return;
                 }
@@ -880,9 +881,9 @@ public class Rita extends CustomMonster {
 
                         //对话演出
                         CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Form1A"));
-                        AbstractDungeon.actionManager.addToBottom(new ShoutAction(this, DIALOG[0]));
-                        AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(1.0F)));
-                        AbstractDungeon.actionManager.addToBottom((new ShoutAction(this, DIALOG[1])));
+                        addToBot(new ShoutAction(this, DIALOG[0]));
+                        addToBot((new CustomWaitAction(1.0F)));
+                        addToBot((new ShoutAction(this, DIALOG[1])));
 
                         AbstractDungeon.actionManager.addToTop(new ClearCardQueueAction());
 
@@ -898,12 +899,12 @@ public class Rita extends CustomMonster {
                         //对话演出
 
                         CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Form2A"));
-                        AbstractDungeon.actionManager.addToBottom(new ShoutAction(this, DIALOG[3]));
-                        AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(1.0F)));
-                        AbstractDungeon.actionManager.addToBottom((new ShoutAction(this, DIALOG[4])));
-                        AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(3.2F)));
-                        AbstractDungeon.actionManager.addToBottom((new ShoutAction(this, DIALOG[5])));
-                        AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(5.0F)));
+                        addToBot(new ShoutAction(this, DIALOG[3]));
+                        addToBot((new CustomWaitAction(1.0F)));
+                        addToBot((new ShoutAction(this, DIALOG[4])));
+                        addToBot((new CustomWaitAction(3.2F)));
+                        addToBot((new ShoutAction(this, DIALOG[5])));
+                        addToBot((new CustomWaitAction(5.0F)));
 
                         AbstractDungeon.actionManager.addToTop(new ClearCardQueueAction());
                         this.killStatue = true;
@@ -918,14 +919,14 @@ public class Rita extends CustomMonster {
 
 
                         CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Form3A"));
-                        AbstractDungeon.actionManager.addToBottom(new ShoutAction(this, DIALOG[7]));
-                        AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(2.5F)));
-                        AbstractDungeon.actionManager.addToBottom(new ShoutAction(this, DIALOG[8]));
-                        AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(3.0F)));
-                        AbstractDungeon.actionManager.addToBottom((new ShoutAction(this, DIALOG[9])));
-                        AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(6.0F)));
-                        AbstractDungeon.actionManager.addToBottom((new ShoutAction(this, DIALOG[10])));
-                        AbstractDungeon.actionManager.addToBottom((new CustomWaitAction(1.0F)));
+                        addToBot(new ShoutAction(this, DIALOG[7]));
+                        addToBot((new CustomWaitAction(2.5F)));
+                        addToBot(new ShoutAction(this, DIALOG[8]));
+                        addToBot((new CustomWaitAction(3.0F)));
+                        addToBot((new ShoutAction(this, DIALOG[9])));
+                        addToBot((new CustomWaitAction(6.0F)));
+                        addToBot((new ShoutAction(this, DIALOG[10])));
+                        addToBot((new CustomWaitAction(1.0F)));
                         AbstractDungeon.actionManager.addToTop(new ClearCardQueueAction());
 
 
@@ -935,7 +936,7 @@ public class Rita extends CustomMonster {
 
 
 //切到复活意图
-                AbstractDungeon.actionManager.addToBottom(new SetMoveAction(this, (byte) 99, AbstractMonster.Intent.UNKNOWN));
+                addToBot(new SetMoveAction(this, (byte) 99, AbstractMonster.Intent.UNKNOWN));
                 applyPowers();
 
                 this.isFirstMove = true;
