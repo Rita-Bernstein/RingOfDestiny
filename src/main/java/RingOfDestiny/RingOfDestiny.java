@@ -8,6 +8,8 @@ import RingOfDestiny.cards.Summoner.*;
 import RingOfDestiny.cards.Colorless.*;
 import RingOfDestiny.dungeons.BlackNoah;
 import RingOfDestiny.dungeons.IdeologyCorridor;
+import RingOfDestiny.dungeons.KnowledgeHall;
+import RingOfDestiny.dungeons.WisdomThrone;
 import RingOfDestiny.events.FruitStall;
 import RingOfDestiny.helpers.*;
 import RingOfDestiny.monster.Ending.Rita;
@@ -260,10 +262,12 @@ public class RingOfDestiny
         settingsPanel.addUIElement(neverSeeSoulStoneTutorialSwitch);
 
         CustomDungeon.addAct(CustomDungeon.EXORDIUM, new IdeologyCorridor());
+        CustomDungeon.addAct(CustomDungeon.THECITY, new KnowledgeHall());
+        CustomDungeon.addAct(CustomDungeon.THEBEYOND, new WisdomThrone());
         CustomDungeon.addAct(CustomDungeon.THEENDING, new BlackNoah());
 
 //        BaseMod.addEvent(FruitStall.ID, FruitStall.class, "");
-        BaseMod.addEvent(FruitStall.ID, FruitStall.class, TheCity.ID);
+//        BaseMod.addEvent(FruitStall.ID, FruitStall.class, TheCity.ID);
 
         BaseMod.addMonster(Rita.ID, () -> new Rita());
 

@@ -1,0 +1,353 @@
+
+scene.png
+size: 1920,1920
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+event
+  rotate: false
+  xy: 0, 784
+  size: 1920, 1136
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+
+scene2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_1_0
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_1_1
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_1_2
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_1_boss_0
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_1_boss_1
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_1_boss_2
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_2_0
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_2_1
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene6.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_2_boss
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_2_boss_1
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene7.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_2_boss_2
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_3_0
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene8.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_3_1
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_3_2
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene9.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_3_boss_0
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_3_boss_1
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene10.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_3_boss_2
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_camp
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene11.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_gift
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+bg_shop
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene12.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+change_bg_1_0
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+change_bg_1_1
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene13.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+change_bg_1_boss
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+change_bg_2_0
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene14.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+change_bg_2_1
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+change_bg_2_boss
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene15.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+change_bg_3_0
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+change_bg_3_boss
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene16.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+change_bg_4_0
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+change_bg_4_1
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene17.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+change_bg_4_boss
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+change_bg_5_0
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+
+scene18.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+change_bg_5_1
+  rotate: false
+  xy: 0, 1102
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1
+change_bg_5_boss
+  rotate: false
+  xy: 0, 156
+  size: 2048, 946
+  orig: 2048, 946
+  offset: 0, 0
+  index: -1

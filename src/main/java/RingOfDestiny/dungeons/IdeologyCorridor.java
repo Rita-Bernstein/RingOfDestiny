@@ -2,6 +2,7 @@ package RingOfDestiny.dungeons;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.monster.Ending.Rita;
+import RingOfDestiny.scenes.IdeologyCorridorScene;
 import actlikeit.dungeons.CustomDungeon;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -54,7 +55,7 @@ public class IdeologyCorridor extends CustomDungeon {
 
     @Override
     public AbstractScene DungeonScene() {
-        return new TheBottomScene();
+        return new IdeologyCorridorScene();
     }
 
 
