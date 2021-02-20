@@ -142,6 +142,24 @@
       "光明形态"
     ]
   },
+  "RingOfDestiny:IdeologyCorridor": {
+    "TEXT": [
+      "第一阶段",
+      "思想长廊"
+    ]
+  },
+  "RingOfDestiny:KnowledgeHall": {
+    "TEXT": [
+      "第二阶段",
+      "知识大厅"
+    ]
+  },
+  "RingOfDestiny:WisdomThrone": {
+    "TEXT": [
+      "第二阶段",
+      "智慧王座"
+    ]
+  },
   "RingOfDestiny:BlackNoah": {
     "TEXT": [
       "强者的世界",
@@ -156,7 +174,9 @@
   },
   "RingOfDestiny:ModSettings": {
     "TEXT": [
-      "加入未完成角色：传承天使的相关内容（需要重启游戏）"
+      "加入未完成角色：传承天使的相关内容（需要重启游戏）",
+      "关闭氪金石教程",
+      "关闭灵魂石教程"
     ]
   }
 }

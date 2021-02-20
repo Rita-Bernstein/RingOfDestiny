@@ -17,8 +17,10 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ModHelper;
 import com.megacrit.cardcrawl.relics.PrismaticShard;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import com.megacrit.cardcrawl.screens.options.SettingsScreen;
 import com.megacrit.cardcrawl.ui.buttons.PeekButton;
 import com.megacrit.cardcrawl.ui.panels.TopPanel;
+import javassist.CtBehavior;
 
 import static com.megacrit.cardcrawl.dungeons.AbstractDungeon.*;
 import static com.megacrit.cardcrawl.helpers.ModHelper.enabledMods;
@@ -41,7 +43,7 @@ public class SummonPatches {
     public static class OnVictoryPatch {
         @SpireInsertPatch(rloc = 1)
         public static SpireReturn<Void> Insert(AbstractPlayer _instance) {
-            AbstractPlayerSummonField.summon.set(_instance,new NullSummon());
+            AbstractPlayerSummonField.summon.set(_instance, new NullSummon());
 
             return SpireReturn.Continue();
         }
@@ -104,7 +106,7 @@ public class SummonPatches {
     }
 //    ============实际宠物
 
-//    ============选择界面
+    //    ============选择界面
     @SpirePatch(
             clz = AbstractDungeon.class,
             method = SpirePatch.CLASS
@@ -116,7 +118,7 @@ public class SummonPatches {
 
     @SpirePatch(
             clz = AbstractPlayer.class,
-            method = "applyStartOfCombatLogic"
+            method = "preBattlePrep"
     )
     public static class applyStartOfCombatLogicPatch {
         @SpireInsertPatch(rloc = 0)
@@ -200,14 +202,23 @@ public class SummonPatches {
             method = "updateSettingsButtonLogic"
     )
     public static class UpdateSettingsButtonLogicPatch {
-        @SpireInsertPatch(rloc = 129)
+        @SpireInsertPatch(locator = SummonScreenLocator.class)
         public static SpireReturn<Void> Insert(TopPanel _instance) {
-            if (AbstractDungeon.screen == CustomCurrentScreenEnum.SummonSelect){
+            if (AbstractDungeon.screen == CustomCurrentScreenEnum.SummonSelect) {
                 AbstractDungeon.previousScreen = CustomCurrentScreenEnum.SummonSelect;
                 AbstractDungeon.dynamicBanner.hide();
             }
 
             return SpireReturn.Continue();
+        }
+    }
+
+    private static class SummonScreenLocator extends SpireInsertLocator {
+        @Override
+        public int[] Locate(CtBehavior ctMethodToPatch) throws Exception {
+            Matcher.MethodCallMatcher methodCallMatcher = new Matcher.MethodCallMatcher(SettingsScreen.class, "open");
+            int[] lines = LineFinder.findAllInOrder(ctMethodToPatch, methodCallMatcher);
+            return new int[]{lines[lines.length - 1]};
         }
     }
 

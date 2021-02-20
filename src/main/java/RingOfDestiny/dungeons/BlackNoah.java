@@ -38,8 +38,6 @@ public class BlackNoah extends CustomDungeon {
     public static final String[] TEXT = uiStrings.TEXT;
     public static final String NAME = TEXT[1];
 
-    private static final Logger logger = LogManager.getLogger(BlackNoah.class.getName());
-
 
     public BlackNoah() {
         super(NAME, ID);
@@ -72,8 +70,9 @@ public class BlackNoah extends CustomDungeon {
 
     @Override
     public String getAfterSelectText() {
-        return forkStrings.DESCRIPTIONS[forkStrings.DESCRIPTIONS.length - 1];
+        return forkStrings.DESCRIPTIONS[1];
     }
+
 
     @Override
     public String getOptionText() {
@@ -82,60 +81,12 @@ public class BlackNoah extends CustomDungeon {
 
     @Override
     public String getBodyText() {
-        return forkStrings.DESCRIPTIONS[forkStrings.DESCRIPTIONS.length - 2].replace(" NL", "");
-    }
-
-    private String Format(String subject, String prefix, String suffix) {
-        subject = subject.replaceAll("(?<!\\sNL)(?!\\sNL)\\s+", suffix + ' ' + prefix);
-        subject = subject.replaceAll("NL\\s+", "NL " + prefix);
-        subject = subject.replaceAll("\\s+NL", suffix + " NL");
-        return prefix + subject + suffix;
+        return forkStrings.DESCRIPTIONS[0];
     }
 
 
     protected void makeMap() {
-/*         ArrayList<MonsterRoomCreator> toughEncounters = new ArrayList();
-         ArrayList<MonsterRoomCreator> easyishEncounters = new ArrayList();
 
-         easyishEncounters.add(new MonsterRoomCreator(RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"), fyra.ID));
-         easyishEncounters.add(new MonsterRoomCreator(RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"), fyra.ID));
-         easyishEncounters.add(new MonsterRoomCreator(RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"), fyra.ID));
-         easyishEncounters.add(new MonsterRoomCreator(RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"), fyra.ID));
-         easyishEncounters.add(new MonsterRoomCreator(RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"), fyra.ID));
-
-
-
-
-         toughEncounters.add(new MonsterRoomCreator(RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"), fyra.ID));
-         toughEncounters.add(new MonsterRoomCreator(RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"), Rita.ID));
-         toughEncounters.add(new MonsterRoomCreator(RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"), Rita.ID));
-         toughEncounters.add(new MonsterRoomCreator(RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"), Rita.ID));
-
-
-         map = new ArrayList();
-
-         int index = 0;
-//         map.add(populate(easyishEncounters, index++));
-//         map.add(populate(easyishEncounters, index++));
-         map.add(singleNodeArea(new EventRoom(), index++));
-         map.add(doubleNodeArea(new TreasureRoom(), new ShopRoom(), index++));
-         map.add(singleNodeArea(new FixedMonsterRoom(Rita.ID,RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png")), index++));
-
-         map.add(populate(toughEncounters, index++));
-
-         map.add(singleNodeArea(new RestRoom(), index++));
-
-
-//         enemyNode.addEdge(new MapEdge(enemyNode.x, enemyNode.y, enemyNode.offsetX, enemyNode.offsetY, bossNode.x, bossNode.y, bossNode.offsetX, bossNode.offsetY, false));
-         map.add(singleNodeArea(new MonsterRoomBoss(), index++));
-         map.add(singleNodeArea(new TrueVictoryRoom(), index++));
-
-
-
-         logger.info("Generated the following dungeon map:");
-         logger.info(MapGenerator.toString(map, true));
-         firstRoomChosen = false;
-         fadeIn();*/
 
         long startTime = System.currentTimeMillis();
 
@@ -150,7 +101,6 @@ public class BlackNoah extends CustomDungeon {
         shopNode.room = new ShopRoom();
         MapRoomNode enemyNode = new MapRoomNode(3, 2);
         enemyNode.room = new MonsterRoomElite();
-//              enemyNode.room = new FixedMonsterRoom(fyra.ID,RingOfDestiny.assetPath("images/ui/map/ironcluck.png"), RingOfDestiny.assetPath("images/ui/map/ironcluckOutline.png"));
         MapRoomNode bossNode = new MapRoomNode(3, 3);
         bossNode.room = new MonsterRoomBoss();
         MapRoomNode victoryNode = new MapRoomNode(3, 4);
@@ -376,7 +326,7 @@ public class BlackNoah extends CustomDungeon {
 
     @Override
     public String getActNumberText() {
-        return CardCrawlGame.languagePack.getUIString(RingOfDestiny.makeID("BlackNoah")).TEXT[0];
+        return uiStrings.TEXT[0];
     }
 
     protected ArrayList<String> generateExclusions() {

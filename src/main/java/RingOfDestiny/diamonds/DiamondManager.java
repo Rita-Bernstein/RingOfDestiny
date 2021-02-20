@@ -7,6 +7,7 @@ import RingOfDestiny.actions.Purchemist.DiamondAttackRandomlAction;
 import RingOfDestiny.actions.Purchemist.UseDiamondAction;
 import RingOfDestiny.cards.Purchemist.DoubleInvest;
 import RingOfDestiny.cards.Purchemist.NoInvest;
+import RingOfDestiny.character.Purchemist;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
 import RingOfDestiny.powers.*;
 import RingOfDestiny.relics.Truncheon;
@@ -188,12 +189,16 @@ public class DiamondManager {
         for (int i = 0; i < amount; i++) {
             AbstractDiamond.evokeDiamond();
         }
+
+        if (AbstractDungeon.player instanceof Purchemist && needToChangeFrom(diamondsNum, getCurrentDiamond())) {
+            ((Purchemist) AbstractDungeon.player).switchFromAnimation();
+        }
     }
 
 
     public void createDiamond(int amount, boolean isRelic) {
+        int diamondsNum = getCurrentDiamond();
         if (!AbstractDungeon.player.hasPower(NoInvestPower.POWER_ID)) {
-            int diamondsNum = getCurrentDiamond();
             int extraDia = 0;
 
             if (AbstractDungeon.player.hasPower(DoubleInvestPower.POWER_ID) && !isRelic) {
@@ -260,6 +265,35 @@ public class DiamondManager {
                 }
             }
         }
+
+
+        if (AbstractDungeon.player instanceof Purchemist && needToChangeFrom(diamondsNum, getCurrentDiamond())) {
+            ((Purchemist) AbstractDungeon.player).switchFromAnimation();
+        }
+    }
+
+    private boolean needToChangeFrom(int pre, int current) {
+        int a, b;
+        if (pre >= 6) {
+            a = 3;
+        } else if (pre >= 3) {
+            a = 2;
+        } else {
+            a = 1;
+        }
+
+        if (current >= 6) {
+            b = 3;
+        } else if (current >= 3) {
+            b = 2;
+        } else {
+            b = 1;
+        }
+
+        if (a == b)
+            return false;
+        else
+            return true;
     }
 
     public void onStartOfTurn() {
@@ -319,6 +353,10 @@ public class DiamondManager {
         this.passiveAmount = this.basePassiveAmount = 3;
         this.cardDrawAmount = this.baseCardDrawAmount = 1;
         this.blockAmount = this.baseBlockAmount = 6;
+
+        if (AbstractDungeon.player instanceof Purchemist) {
+            ((Purchemist) AbstractDungeon.player).switchFromAnimation();
+        }
     }
 
 

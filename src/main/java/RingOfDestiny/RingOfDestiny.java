@@ -7,6 +7,7 @@ import RingOfDestiny.cards.ShadowFlower.*;
 import RingOfDestiny.cards.Summoner.*;
 import RingOfDestiny.cards.Colorless.*;
 import RingOfDestiny.dungeons.BlackNoah;
+import RingOfDestiny.dungeons.IdeologyCorridor;
 import RingOfDestiny.events.FruitStall;
 import RingOfDestiny.helpers.*;
 import RingOfDestiny.monster.Ending.Rita;
@@ -95,6 +96,13 @@ public class RingOfDestiny
     public static Properties RingOfDestinyDefaults = new Properties();
 
     public static boolean addInherit = false;
+    public static boolean neverSeeDiamondTutorial = false;
+    public static boolean neverSeeSoulStoneTutorial = false;
+
+    public static ModLabeledToggleButton addInheritSwitch;
+    public static ModLabeledToggleButton neverSeeDiamondTutorialSwitch;
+    public static ModLabeledToggleButton neverSeeSoulStoneTutorialSwitch;
+
 
     public static Color shadowColorFix = new Color(0.473f, 0.429f, 0.644f, 0.9F);
 
@@ -203,6 +211,8 @@ public class RingOfDestiny
         try {
             SpireConfig config = new SpireConfig("RingOfDestiny", "settings", RingOfDestinyDefaults);
             config.setBool("addInherit", addInherit);
+            config.setBool("neverSeeDiamondTutorial", neverSeeDiamondTutorial);
+            config.setBool("neverSeeSoulStoneTutorial", neverSeeSoulStoneTutorial);
 
             config.save();
         } catch (Exception e) {
@@ -215,6 +225,8 @@ public class RingOfDestiny
             SpireConfig config = new SpireConfig("RingOfDestiny", "settings", RingOfDestinyDefaults);
             config.load();
             addInherit = config.getBool("addInherit");
+            neverSeeDiamondTutorial = config.getBool("neverSeeDiamondTutorial");
+            neverSeeSoulStoneTutorial = config.getBool("neverSeeSoulStoneTutorial");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -235,12 +247,19 @@ public class RingOfDestiny
         BaseMod.registerModBadge(badgeTexture, MODNAME, AUTHOR, DESCRIPTION, settingsPanel);
 
 
-        ModLabeledToggleButton addInheritSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[0],400.0f, 720.0f-configRow, Settings.CREAM_COLOR, FontHelper.charDescFont,addInherit, settingsPanel,
+        addInheritSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[0],400.0f, 720.0f- 0 * configRow, Settings.CREAM_COLOR, FontHelper.charDescFont,addInherit, settingsPanel,
                 (label) -> {}, (button) -> {addInherit = button.enabled;saveSettings();});
+        neverSeeDiamondTutorialSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[1],400.0f, 720.0f-1 * configRow, Settings.CREAM_COLOR, FontHelper.charDescFont,neverSeeDiamondTutorial, settingsPanel,
+                (label) -> {}, (button) -> {neverSeeDiamondTutorial = button.enabled;saveSettings();});
+        neverSeeSoulStoneTutorialSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[2],400.0f, 720.0f- 2 * configRow, Settings.CREAM_COLOR, FontHelper.charDescFont,neverSeeSoulStoneTutorial, settingsPanel,
+                (label) -> {}, (button) -> {neverSeeSoulStoneTutorial = button.enabled;saveSettings();});
 
 
         settingsPanel.addUIElement(addInheritSwitch);
+        settingsPanel.addUIElement(neverSeeDiamondTutorialSwitch);
+        settingsPanel.addUIElement(neverSeeSoulStoneTutorialSwitch);
 
+        CustomDungeon.addAct(CustomDungeon.EXORDIUM, new IdeologyCorridor());
         CustomDungeon.addAct(CustomDungeon.THEENDING, new BlackNoah());
 
 //        BaseMod.addEvent(FruitStall.ID, FruitStall.class, "");
@@ -818,7 +837,7 @@ public class RingOfDestiny
         BaseMod.loadCustomStringsFile(RelicStrings.class, assetPath(path + "RelicStrings.json"));
         BaseMod.loadCustomStringsFile(CharacterStrings.class, assetPath(path + "CharacterStrings.json"));
         BaseMod.loadCustomStringsFile(OrbStrings.class, assetPath(path + "OrbStrings.json"));
-
+        BaseMod.loadCustomStringsFile(TutorialStrings.class,assetPath(path + "TutorialStrings.json"));
 
     }
 

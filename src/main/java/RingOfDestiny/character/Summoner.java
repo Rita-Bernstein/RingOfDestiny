@@ -10,6 +10,7 @@ import RingOfDestiny.patches.*;
 import RingOfDestiny.relics.DemonicContract;
 import RingOfDestiny.relics.DogEyes;
 import RingOfDestiny.relics.ShadowKunai;
+import RingOfDestiny.ui.SoulStoneTutorial;
 import basemod.abstracts.CustomPlayer;
 import basemod.interfaces.OnCardUseSubscriber;
 import com.badlogic.gdx.graphics.Color;
@@ -85,6 +86,16 @@ public class Summoner extends CustomPlayer {
         e.setTime(e.getEndTime() * MathUtils.random());
     }
 
+    @Override
+    public void preBattlePrep() {
+        super.preBattlePrep();
+        if (!RingOfDestiny.neverSeeSoulStoneTutorial) {
+            AbstractDungeon.ftue = new SoulStoneTutorial();
+            RingOfDestiny.neverSeeSoulStoneTutorial = true;
+            RingOfDestiny.neverSeeSoulStoneTutorialSwitch.toggle.enabled = true;
+            RingOfDestiny.saveSettings();
+        }
+    }
 
     public String getPortraitImageName() {
         return null;
@@ -271,7 +282,7 @@ public class Summoner extends CustomPlayer {
 
     @Override
     public void playDeathAnimation() {
-        if(AbstractDungeon.player != null)
+        if (AbstractDungeon.player != null)
             AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
 }

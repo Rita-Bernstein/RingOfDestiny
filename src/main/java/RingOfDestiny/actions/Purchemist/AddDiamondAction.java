@@ -1,5 +1,6 @@
 package RingOfDestiny.actions.Purchemist;
 
+import RingOfDestiny.character.Purchemist;
 import RingOfDestiny.diamonds.AbstractDiamond;
 import RingOfDestiny.diamonds.DiamondManager;
 import RingOfDestiny.patches.EnergyPanelRenderPatches;
@@ -18,7 +19,7 @@ public class AddDiamondAction extends AbstractGameAction {
         this.duration = Settings.ACTION_DUR_FAST;
     }
 
-    public AddDiamondAction(int amount,boolean isRelic) {
+    public AddDiamondAction(int amount, boolean isRelic) {
         this.amount = amount;
         this.isRelic = isRelic;
         this.duration = Settings.ACTION_DUR_FAST;
@@ -26,8 +27,9 @@ public class AddDiamondAction extends AbstractGameAction {
 
     public void update() {
         if (this.duration == Settings.ACTION_DUR_FAST) {
-            EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.set(AbstractDungeon.overlayMenu.energyPanel,true);
+            EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.set(AbstractDungeon.overlayMenu.energyPanel, true);
             EnergyPanelRenderPatches.PatchEnergyPanelField.diamondManager.get(AbstractDungeon.overlayMenu.energyPanel).createDiamond(this.amount, this.isRelic);
+
         }
         tickDuration();
     }

@@ -7,6 +7,7 @@ import RingOfDestiny.modules.EnergyOrbCustomBlue;
 import RingOfDestiny.patches.*;
 import RingOfDestiny.relics.DogEyes;
 import RingOfDestiny.relics.ShadowKunai;
+import RingOfDestiny.ui.DiamondTutorial;
 import basemod.abstracts.CustomPlayer;
 import basemod.interfaces.OnCardUseSubscriber;
 import com.badlogic.gdx.graphics.Color;
@@ -81,11 +82,33 @@ public class Purchemist extends CustomPlayer {
         e.setTime(e.getEndTime() * MathUtils.random());
     }
 
+    public void switchFromAnimation() {
+        int sum = EnergyPanelRenderPatches.PatchEnergyPanelField.diamondManager.get(AbstractDungeon.overlayMenu.energyPanel).getCurrentDiamond();
+        if (sum >= 6) {
+            loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/hero_003_03.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/hero_003_03.json"), 1.6f);
+        } else if (sum >= 3) {
+            loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/hero_003_02.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/hero_003_02.json"), 1.6f);
+        } else {
+            loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/hero_003.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/hero_003.json"), 1.6f);
+        }
+
+        AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
+        this.stateData.setMix("Hit", "Idle", 0.1F);
+        e.setTime(e.getEndTime() * MathUtils.random());
+    }
 
     @Override
     public void preBattlePrep() {
         super.preBattlePrep();
-        EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.set(AbstractDungeon.overlayMenu.energyPanel,true);
+        EnergyPanelRenderPatches.PatchEnergyPanelField.canUseDiamond.set(AbstractDungeon.overlayMenu.energyPanel, true);
+
+        if(!RingOfDestiny.neverSeeDiamondTutorial){
+            AbstractDungeon.ftue = new DiamondTutorial();
+            RingOfDestiny.neverSeeDiamondTutorial = true;
+            RingOfDestiny.neverSeeDiamondTutorialSwitch.toggle.enabled = true;
+            RingOfDestiny.saveSettings();
+        }
+
     }
 
     public String getPortraitImageName() {
@@ -268,7 +291,7 @@ public class Purchemist extends CustomPlayer {
 
     @Override
     public void playDeathAnimation() {
-        if(AbstractDungeon.player != null)
+        if (AbstractDungeon.player != null)
             AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
 }
