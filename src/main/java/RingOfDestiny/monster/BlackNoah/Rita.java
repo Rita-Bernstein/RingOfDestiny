@@ -1,12 +1,12 @@
-package RingOfDestiny.monster.Ending;
+package RingOfDestiny.monster.BlackNoah;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.unique.ChangeStageAction;
 import RingOfDestiny.actions.unique.CustomWaitAction;
 import RingOfDestiny.cards.Colorless.*;
-import RingOfDestiny.powers.Monster.Ending.ProbePower;
-import RingOfDestiny.powers.Monster.Ending.ReflectionPower;
-import RingOfDestiny.powers.Monster.Ending.SelfDetonatePower;
+import RingOfDestiny.powers.Monster.BlackNoah.ProbePower;
+import RingOfDestiny.powers.Monster.BlackNoah.ReflectionPower;
+import RingOfDestiny.powers.Monster.BlackNoah.SelfDetonatePower;
 import RingOfDestiny.vfx.combat.*;
 import basemod.abstracts.CustomMonster;
 
@@ -146,13 +146,10 @@ public class Rita extends CustomMonster {
         this.dialogY = 50.0F * Settings.scale;
 
 
-        loadAnimation("RingOfDestiny/monsters/Rita/Rita.atlas", "RingOfDestiny/monsters/Rita/Rita.json", 1.0F);
+        loadAnimation("RingOfDestiny/monsters/BlackNoah/Rita/Rita.atlas", "RingOfDestiny/monsters/BlackNoah/Rita/Rita.json", 1.0F);
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         e.setTime(e.getEndTime() * MathUtils.random());
-        this.stateData.setMix("Hit", "Idle", 0.1F);
-        this.stateData.setMix("Intimidate", "Idle", 0.1F);
-        this.stateData.setMix("Idle", "Idle_3", 0.1F);
         this.flipHorizontal = true;
 
         this.eye = this.skeleton.findBone("Eye");

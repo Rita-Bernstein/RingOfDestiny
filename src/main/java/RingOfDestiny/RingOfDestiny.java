@@ -10,11 +10,9 @@ import RingOfDestiny.dungeons.BlackNoah;
 import RingOfDestiny.dungeons.IdeologyCorridor;
 import RingOfDestiny.dungeons.KnowledgeHall;
 import RingOfDestiny.dungeons.WisdomThrone;
-import RingOfDestiny.events.FruitStall;
 import RingOfDestiny.helpers.*;
-import RingOfDestiny.monster.Ending.Rita;
-import RingOfDestiny.monster.Ending.Fyra;
-import RingOfDestiny.soulStone.SoulStone;
+import RingOfDestiny.monster.BlackNoah.*;
+import RingOfDestiny.monster.IdeologyCorridor.*;
 import actlikeit.dungeons.CustomDungeon;
 import basemod.BaseMod;
 
@@ -27,21 +25,16 @@ import basemod.interfaces.*;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
-import com.evacipated.cardcrawl.modthespire.Loader;
 import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.dungeons.TheCity;
 import com.megacrit.cardcrawl.dungeons.TheEnding;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
-import javafx.scene.effect.Shadow;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -269,6 +262,18 @@ public class RingOfDestiny
 //        BaseMod.addEvent(FruitStall.ID, FruitStall.class, "");
 //        BaseMod.addEvent(FruitStall.ID, FruitStall.class, TheCity.ID);
 
+
+
+//一层小怪
+
+        BaseMod.addMonster(EvilEye.ID, () -> new EvilEye());
+
+// 一层精英
+
+        BaseMod.addMonster(ExtinctionMoon.ID, () -> new ExtinctionMoon());
+        BaseMod.addMonster(TalkingChest.ID, () -> new TalkingChest());
+
+//终局
         BaseMod.addMonster(Rita.ID, () -> new Rita());
 
         BaseMod.addMonster(Fyra.ID, () -> new Fyra());
@@ -276,12 +281,13 @@ public class RingOfDestiny
 
         logger.info("========================= 你小子的角色加进去了 =========================");
 
+
         BaseMod.addBoss(TheEnding.ID, Rita.ID,
                 assetPath("img/ui/map/boss/Rita.png"),
                 assetPath("img/ui/map/bossOutline/Rita.png"));
-
-
     }
+
+
 
     @Override
     public void receiveAddAudio() {

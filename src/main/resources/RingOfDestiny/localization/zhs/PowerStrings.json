@@ -633,5 +633,12 @@
       " 个回合后主动进入下一阶段。",
       "敌人将会主动进入下一阶段。"
     ]
+  },
+  "RingOfDestiny:EyeForEyePower": {
+    "NAME": "以眼还眼",
+    "DESCRIPTIONS": [
+      "每当对手打出一张牌。获得 #b",
+      " 点 #y力量 。"
+    ]
   }
 }

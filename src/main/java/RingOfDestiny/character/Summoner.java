@@ -89,12 +89,12 @@ public class Summoner extends CustomPlayer {
     @Override
     public void preBattlePrep() {
         super.preBattlePrep();
-        if (!RingOfDestiny.neverSeeSoulStoneTutorial) {
-            AbstractDungeon.ftue = new SoulStoneTutorial();
-            RingOfDestiny.neverSeeSoulStoneTutorial = true;
-            RingOfDestiny.neverSeeSoulStoneTutorialSwitch.toggle.enabled = true;
-            RingOfDestiny.saveSettings();
-        }
+//        if (!RingOfDestiny.neverSeeSoulStoneTutorial) {
+//            AbstractDungeon.ftue = new SoulStoneTutorial();
+//            RingOfDestiny.neverSeeSoulStoneTutorial = true;
+//            RingOfDestiny.neverSeeSoulStoneTutorialSwitch.toggle.enabled = true;
+//            RingOfDestiny.saveSettings();
+//        }
     }
 
     public String getPortraitImageName() {

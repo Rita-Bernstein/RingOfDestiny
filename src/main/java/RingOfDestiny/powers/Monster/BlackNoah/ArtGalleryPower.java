@@ -1,8 +1,8 @@
-package RingOfDestiny.powers.Monster.Ending;
+package RingOfDestiny.powers.Monster.BlackNoah;
 
 import RingOfDestiny.RingOfDestiny;
 
-import RingOfDestiny.monster.Ending.Bronze_Statue;
+import RingOfDestiny.monster.BlackNoah.Bronze_Statue;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.*;
 import com.megacrit.cardcrawl.localization.*;

@@ -90,6 +90,10 @@ public class SoulStone implements CustomSavable<Integer> {
         soulStoneAmount = soulStoneCustomSavable.soulStoneSaved;
     }
 
+    public void reset() {
+
+    }
+
 }
 
 

@@ -1,0 +1,335 @@
+
+ExtinctionMoon.png
+size: 859,859
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10010/bq_1
+  rotate: true
+  xy: 823, 236
+  size: 45, 36
+  orig: 45, 36
+  offset: 0, 0
+  index: -1
+monster_10010/bq_2
+  rotate: true
+  xy: 739, 115
+  size: 45, 32
+  orig: 45, 32
+  offset: 0, 0
+  index: -1
+monster_10010/bq_3
+  rotate: true
+  xy: 822, 147
+  size: 44, 33
+  orig: 44, 33
+  offset: 0, 0
+  index: -1
+monster_10010/bz
+  rotate: false
+  xy: 744, 16
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+monster_10010/lian
+  rotate: false
+  xy: 720, 47
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+monster_10010/qun_hou
+  rotate: false
+  xy: 270, 245
+  size: 237, 159
+  orig: 237, 159
+  offset: 0, 0
+  index: -1
+monster_10010/qun_hou2
+  rotate: true
+  xy: 632, 614
+  size: 245, 193
+  orig: 245, 193
+  offset: 0, 0
+  index: -1
+monster_10010/qun_qian
+  rotate: false
+  xy: 301, 69
+  size: 119, 90
+  orig: 119, 90
+  offset: 0, 0
+  index: -1
+monster_10010/qun_qian2
+  rotate: false
+  xy: 0, 5
+  size: 210, 149
+  orig: 210, 149
+  offset: 0, 0
+  index: -1
+monster_10010/shadow
+  rotate: false
+  xy: 663, 209
+  size: 160, 47
+  orig: 172, 53
+  offset: 6, 3
+  index: -1
+monster_10010/tf_1
+  rotate: true
+  xy: 663, 256
+  size: 157, 155
+  orig: 157, 155
+  offset: 0, 0
+  index: -1
+monster_10010/tf_2
+  rotate: true
+  xy: 588, 7
+  size: 14, 41
+  orig: 14, 41
+  offset: 0, 0
+  index: -1
+monster_10010/tf_3
+  rotate: false
+  xy: 210, 28
+  size: 91, 126
+  orig: 91, 126
+  offset: 0, 0
+  index: -1
+monster_10010/tf_4
+  rotate: true
+  xy: 507, 236
+  size: 168, 156
+  orig: 168, 156
+  offset: 0, 0
+  index: -1
+monster_10010/tf_5
+  rotate: false
+  xy: 632, 413
+  size: 169, 201
+  orig: 169, 201
+  offset: 0, 0
+  index: -1
+monster_10010/tf_6
+  rotate: false
+  xy: 0, 154
+  size: 270, 250
+  orig: 270, 250
+  offset: 0, 0
+  index: -1
+monster_10010/tf_q
+  rotate: false
+  xy: 823, 191
+  size: 36, 45
+  orig: 36, 45
+  offset: 0, 0
+  index: -1
+monster_10010/tf_y
+  rotate: false
+  xy: 823, 318
+  size: 36, 102
+  orig: 36, 102
+  offset: 0, 0
+  index: -1
+monster_10010/tf_z
+  rotate: true
+  xy: 655, 27
+  size: 20, 53
+  orig: 20, 53
+  offset: 0, 0
+  index: -1
+monster_10010/tsh
+  rotate: false
+  xy: 420, 83
+  size: 95, 68
+  orig: 95, 68
+  offset: 0, 0
+  index: -1
+monster_10010/tsq
+  rotate: true
+  xy: 481, 9
+  size: 74, 39
+  orig: 74, 39
+  offset: 0, 0
+  index: -1
+monster_10010/wuqi
+  rotate: false
+  xy: 0, 404
+  size: 632, 455
+  orig: 632, 455
+  offset: 0, 0
+  index: -1
+monster_10010/wuqi_lian
+  rotate: true
+  xy: 210, 16
+  size: 12, 62
+  orig: 12, 62
+  offset: 0, 0
+  index: -1
+monster_10010/xiong
+  rotate: false
+  xy: 520, 23
+  size: 67, 65
+  orig: 67, 65
+  offset: 0, 0
+  index: -1
+monster_10010/yiling
+  rotate: true
+  xy: 600, 80
+  size: 71, 54
+  orig: 71, 54
+  offset: 0, 0
+  index: -1
+monster_10010/youer
+  rotate: false
+  xy: 820, 51
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+monster_10010/youers
+  rotate: false
+  xy: 820, 123
+  size: 39, 24
+  orig: 39, 24
+  offset: 0, 0
+  index: -1
+monster_10010/youjiao
+  rotate: true
+  xy: 818, 281
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+monster_10010/youjiao2
+  rotate: false
+  xy: 825, 632
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+monster_10010/youshou
+  rotate: false
+  xy: 520, 0
+  size: 33, 23
+  orig: 33, 23
+  offset: 0, 0
+  index: -1
+monster_10010/youtui
+  rotate: true
+  xy: 777, 157
+  size: 52, 45
+  orig: 52, 56
+  offset: 0, 11
+  index: -1
+monster_10010/youtui2
+  rotate: true
+  xy: 301, 27
+  size: 42, 133
+  orig: 42, 133
+  offset: 0, 0
+  index: -1
+monster_10010/youxiaobi
+  rotate: false
+  xy: 655, 47
+  size: 65, 62
+  orig: 71, 66
+  offset: 0, 4
+  index: -1
+monster_10010/youxiaotui
+  rotate: false
+  xy: 801, 420
+  size: 35, 194
+  orig: 35, 194
+  offset: 0, 0
+  index: -1
+monster_10010/youxiaotui2
+  rotate: false
+  xy: 825, 674
+  size: 29, 185
+  orig: 29, 185
+  offset: 0, 0
+  index: -1
+monster_10010/zuobi
+  rotate: true
+  xy: 515, 88
+  size: 63, 85
+  orig: 63, 85
+  offset: 0, 0
+  index: -1
+monster_10010/zuobi_0
+  rotate: false
+  xy: 434, 0
+  size: 47, 83
+  orig: 47, 83
+  offset: 0, 0
+  index: -1
+monster_10010/zuoer
+  rotate: true
+  xy: 820, 81
+  size: 42, 32
+  orig: 42, 32
+  offset: 0, 0
+  index: -1
+monster_10010/zuoers
+  rotate: false
+  xy: 708, 22
+  size: 36, 25
+  orig: 36, 25
+  offset: 0, 0
+  index: -1
+monster_10010/zuojiao
+  rotate: false
+  xy: 771, 107
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+monster_10010/zuojiao2
+  rotate: false
+  xy: 771, 57
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+monster_10010/zuoshou
+  rotate: false
+  xy: 553, 0
+  size: 35, 21
+  orig: 35, 21
+  offset: 0, 0
+  index: -1
+monster_10010/zuotui
+  rotate: false
+  xy: 654, 109
+  size: 85, 51
+  orig: 85, 51
+  offset: 0, 0
+  index: -1
+monster_10010/zuotui2
+  rotate: true
+  xy: 645, 160
+  size: 49, 132
+  orig: 49, 132
+  offset: 0, 0
+  index: -1
+monster_10010/zuoxiaobi
+  rotate: false
+  xy: 587, 21
+  size: 68, 59
+  orig: 69, 60
+  offset: 1, 1
+  index: -1
+monster_10010/zuoxiaotui
+  rotate: true
+  xy: 465, 151
+  size: 85, 180
+  orig: 85, 180
+  offset: 0, 0
+  index: -1
+monster_10010/zuoxiaotui2
+  rotate: true
+  xy: 270, 159
+  size: 86, 195
+  orig: 86, 205
+  offset: 0, 10
+  index: -1

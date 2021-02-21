@@ -1,7 +1,6 @@
 package RingOfDestiny.dungeons;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.monster.Ending.Rita;
 import RingOfDestiny.scenes.KnowledgeHallScene;
 import actlikeit.dungeons.CustomDungeon;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -10,10 +9,8 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.EventStrings;
 import com.megacrit.cardcrawl.localization.UIStrings;
-import com.megacrit.cardcrawl.map.MapRoomNode;
 import com.megacrit.cardcrawl.monsters.MonsterInfo;
 import com.megacrit.cardcrawl.neow.NeowEvent;
-import com.megacrit.cardcrawl.rooms.*;
 import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
 
 import java.util.ArrayList;
@@ -21,9 +18,6 @@ import java.util.Collections;
 import java.util.Random;
 
 import com.megacrit.cardcrawl.scenes.AbstractScene;
-import com.megacrit.cardcrawl.scenes.TheBottomScene;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 
 public class KnowledgeHall extends CustomDungeon {

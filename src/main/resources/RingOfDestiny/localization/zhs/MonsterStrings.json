@@ -76,5 +76,33 @@
     "DIALOG": [
       ""
     ]
+  },
+  "RingOfDestiny:ExtinctionMoon": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "寂灭之月",
+    "DIALOG": [
+      "来！吃一颗苹果吧",
+      "哼！我讨厌魔法"
+    ]
+  },
+  "RingOfDestiny:EvilEye": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "恶魔之眼",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:TalkingChest": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "会说话的宝箱",
+    "DIALOG": [
+      "下回合我就跑咯"
+    ]
   }
 }

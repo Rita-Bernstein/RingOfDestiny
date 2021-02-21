@@ -1,4 +1,4 @@
-package RingOfDestiny.monster.Ending;
+package RingOfDestiny.monster.BlackNoah;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.unique.ChangeStageAction;
@@ -8,12 +8,8 @@ import RingOfDestiny.vfx.combat.*;
 import basemod.abstracts.CustomMonster;
 
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
-import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.utility.SFXAction;
 import com.megacrit.cardcrawl.actions.ClearCardQueueAction;
-import com.megacrit.cardcrawl.actions.animations.ShoutAction;
-import com.megacrit.cardcrawl.actions.animations.AnimateJumpAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.status.*;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -22,7 +18,6 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.MonsterStrings;
 import com.megacrit.cardcrawl.powers.*;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.WeakPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import com.megacrit.cardcrawl.powers.ArtifactPower;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
@@ -132,12 +127,11 @@ public class Fyra extends CustomMonster {
         this.dialogY = 50.0F * Settings.scale;
 
 
-        loadAnimation("RingOfDestiny/monsters/Fyra/Fyra.atlas", "RingOfDestiny/monsters/Fyra/Fyra.json", 3.4F);
+        loadAnimation("RingOfDestiny/monsters/BlackNoah/Fyra/Fyra.atlas", "RingOfDestiny/monsters/BlackNoah/Fyra/Fyra.json", 3.4F);
 
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         e.setTime(e.getEndTime() * MathUtils.random());
-        this.stateData.setMix("Hit", "Idle", 0.1F);
         this.flipHorizontal = false;
 
 

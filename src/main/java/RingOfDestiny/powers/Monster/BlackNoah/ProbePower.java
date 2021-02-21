@@ -1,12 +1,8 @@
-package RingOfDestiny.powers.Monster.Ending;
+package RingOfDestiny.powers.Monster.BlackNoah;
 
 import RingOfDestiny.RingOfDestiny;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.*;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import basemod.interfaces.CloneablePowerInterface;

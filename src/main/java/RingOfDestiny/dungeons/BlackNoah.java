@@ -1,13 +1,11 @@
 package RingOfDestiny.dungeons;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.monster.Ending.Rita;
-import RingOfDestiny.monster.Ending.Fyra;
+import RingOfDestiny.monster.BlackNoah.Rita;
+import RingOfDestiny.monster.BlackNoah.Fyra;
 import RingOfDestiny.rooms.FixedMonsterRoom;
-import RingOfDestiny.rooms.RitaVictoryRoom;
 import RingOfDestiny.scenes.BlackNoahScene;
 import actlikeit.dungeons.CustomDungeon;
-import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
@@ -18,15 +16,12 @@ import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.map.MapEdge;
 import com.megacrit.cardcrawl.map.MapGenerator;
 import com.megacrit.cardcrawl.map.MapRoomNode;
-import com.megacrit.cardcrawl.random.Random;
 import com.megacrit.cardcrawl.rooms.*;
 import com.megacrit.cardcrawl.saveAndContinue.SaveFile;
 
 import java.util.ArrayList;
 
 import com.megacrit.cardcrawl.scenes.AbstractScene;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 
 public class BlackNoah extends CustomDungeon {

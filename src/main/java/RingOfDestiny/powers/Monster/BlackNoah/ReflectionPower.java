@@ -1,4 +1,4 @@
-package RingOfDestiny.powers.Monster.Ending;
+package RingOfDestiny.powers.Monster.BlackNoah;
 
 import RingOfDestiny.RingOfDestiny;
 import com.badlogic.gdx.graphics.Texture;

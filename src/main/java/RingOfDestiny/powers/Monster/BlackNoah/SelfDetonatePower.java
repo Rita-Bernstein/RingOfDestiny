@@ -1,7 +1,6 @@
-package RingOfDestiny.powers.Monster.Ending;
+package RingOfDestiny.powers.Monster.BlackNoah;
 
 import RingOfDestiny.RingOfDestiny;
-import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;

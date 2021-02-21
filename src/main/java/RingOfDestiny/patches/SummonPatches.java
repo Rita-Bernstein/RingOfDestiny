@@ -1,9 +1,11 @@
 package RingOfDestiny.patches;
 
 
+import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.screens.SummonSelectScreen;
 import RingOfDestiny.summon.*;
 
+import RingOfDestiny.ui.SoulStoneTutorial;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
@@ -118,7 +120,7 @@ public class SummonPatches {
 
     @SpirePatch(
             clz = AbstractPlayer.class,
-            method = "preBattlePrep"
+            method = "applyStartOfCombatLogic"
     )
     public static class applyStartOfCombatLogicPatch {
         @SpireInsertPatch(rloc = 0)
@@ -127,8 +129,18 @@ public class SummonPatches {
             if (_instance.chosenClass == AbstractPlayerEnum.Summoner
                     || ModHelper.isModEnabled("Diverse")
                     || ModHelper.isModEnabled("Summoner" + "Modded Character Cards")
-                    || _instance.hasRelic(PrismaticShard.ID))
+                    || _instance.hasRelic(PrismaticShard.ID)){
+
                 SummonSelectScreenField.summonSelectScreen.get(CardCrawlGame.dungeon).open();
+
+                if (!RingOfDestiny.neverSeeSoulStoneTutorial) {
+                    AbstractDungeon.ftue = new SoulStoneTutorial();
+                    RingOfDestiny.neverSeeSoulStoneTutorial = true;
+                    RingOfDestiny.neverSeeSoulStoneTutorialSwitch.toggle.enabled = true;
+                    RingOfDestiny.saveSettings();
+                }
+            }
+
 
             return SpireReturn.Continue();
         }
@@ -203,6 +215,7 @@ public class SummonPatches {
     )
     public static class UpdateSettingsButtonLogicPatch {
         @SpireInsertPatch(locator = SummonScreenLocator.class)
+//        @SpireInsertPatch(rloc = 128)
         public static SpireReturn<Void> Insert(TopPanel _instance) {
             if (AbstractDungeon.screen == CustomCurrentScreenEnum.SummonSelect) {
                 AbstractDungeon.previousScreen = CustomCurrentScreenEnum.SummonSelect;

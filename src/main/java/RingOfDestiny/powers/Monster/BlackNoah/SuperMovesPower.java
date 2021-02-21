@@ -1,7 +1,7 @@
-package RingOfDestiny.powers.Monster.Ending;
+package RingOfDestiny.powers.Monster.BlackNoah;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.monster.Ending.Rita;
+import RingOfDestiny.monster.BlackNoah.Rita;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.*;
 import com.megacrit.cardcrawl.localization.*;

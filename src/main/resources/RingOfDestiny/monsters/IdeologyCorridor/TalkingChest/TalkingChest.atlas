@@ -1,0 +1,153 @@
+
+TalkingChest.png
+size: 589,589
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10012/baoxiang
+  rotate: true
+  xy: 192, 218
+  size: 87, 101
+  orig: 87, 101
+  offset: 0, 0
+  index: -1
+monster_10012/bq
+  rotate: true
+  xy: 546, 476
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+monster_10012/er
+  rotate: true
+  xy: 546, 415
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+monster_10012/fa0
+  rotate: false
+  xy: 372, 42
+  size: 84, 85
+  orig: 84, 85
+  offset: 0, 0
+  index: -1
+monster_10012/fa1
+  rotate: false
+  xy: 546, 265
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+monster_10012/gaizi
+  rotate: true
+  xy: 0, 11
+  size: 294, 192
+  orig: 294, 192
+  offset: 0, 0
+  index: -1
+monster_10012/gaizi_2
+  rotate: false
+  xy: 0, 434
+  size: 322, 155
+  orig: 322, 157
+  offset: 0, 0
+  index: -1
+monster_10012/hf
+  rotate: false
+  xy: 192, 7
+  size: 180, 201
+  orig: 180, 201
+  offset: 0, 0
+  index: -1
+monster_10012/jinbi
+  rotate: true
+  xy: 293, 208
+  size: 97, 20
+  orig: 97, 20
+  offset: 0, 0
+  index: -1
+monster_10012/st
+  rotate: true
+  xy: 421, 127
+  size: 90, 153
+  orig: 90, 153
+  offset: 0, 0
+  index: -1
+monster_10012/tou
+  rotate: false
+  xy: 313, 208
+  size: 57, 62
+  orig: 57, 62
+  offset: 0, 0
+  index: -1
+monster_10012/touyi
+  rotate: false
+  xy: 421, 217
+  size: 161, 48
+  orig: 172, 53
+  offset: 5, 2
+  index: -1
+monster_10012/xiangzi
+  rotate: true
+  xy: 322, 270
+  size: 319, 224
+  orig: 319, 224
+  offset: 0, 0
+  index: -1
+monster_10012/youshangb
+  rotate: false
+  xy: 546, 525
+  size: 43, 64
+  orig: 43, 64
+  offset: 0, 0
+  index: -1
+monster_10012/youshangbi_2
+  rotate: true
+  xy: 546, 350
+  size: 65, 33
+  orig: 66, 33
+  offset: 1, 0
+  index: -1
+monster_10012/youshou
+  rotate: false
+  xy: 370, 208
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+monster_10012/youshou2
+  rotate: false
+  xy: 546, 445
+  size: 35, 31
+  orig: 35, 31
+  offset: 0, 0
+  index: -1
+monster_10012/youxiabi
+  rotate: true
+  xy: 392, 152
+  size: 56, 19
+  orig: 58, 19
+  offset: 1, 0
+  index: -1
+monster_10012/yy
+  rotate: false
+  xy: 0, 305
+  size: 312, 129
+  orig: 316, 141
+  offset: 1, 12
+  index: -1
+monster_10012/zuobi
+  rotate: false
+  xy: 372, 138
+  size: 20, 70
+  orig: 20, 70
+  offset: 0, 0
+  index: -1
+monster_10012/zuoshou
+  rotate: true
+  xy: 546, 289
+  size: 61, 31
+  orig: 61, 31
+  offset: 0, 0
+  index: -1
