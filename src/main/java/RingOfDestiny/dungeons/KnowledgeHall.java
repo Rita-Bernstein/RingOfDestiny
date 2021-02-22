@@ -32,11 +32,13 @@ public class KnowledgeHall extends CustomDungeon {
 
     public KnowledgeHall() {
         super(NAME, ID);
-        this.onEnterEvent(NeowEvent.class);
+//        this.onEnterEvent(NeowEvent.class);
         this.setMainMusic("RingOfDestiny/audio/music/mainbg.ogg");
         this.addTempMusic("fight", "RingOfDestiny/audio/music/fight.ogg");
         this.addTempMusic("fight_elite", "RingOfDestiny/audio/music/fight_elite.ogg");
         this.addTempMusic("fight_boss", "RingOfDestiny/audio/music/fight_boss.ogg");
+
+
     }
 
     public KnowledgeHall(CustomDungeon cd, AbstractPlayer p, ArrayList<String> emptyList) {

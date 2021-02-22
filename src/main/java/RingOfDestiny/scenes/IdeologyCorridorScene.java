@@ -31,6 +31,7 @@ public class IdeologyCorridorScene extends AbstractScene {
 
     public IdeologyCorridorScene() {
         super("RingOfDestiny/img/scene/scene.atlas");
+        this.bg = this.atlas.findRegion("bg_1_0");
         this.campBg = this.atlas.findRegion("bg_camp");
 
         this.ambianceName = "AMBIANCE_CITY";

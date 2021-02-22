@@ -104,5 +104,14 @@
     "DIALOG": [
       "下回合我就跑咯"
     ]
+  },
+  "RingOfDestiny:TheMonitor": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "监测者",
+    "DIALOG": [
+      "#r@入侵警报@ NL #r@入侵警报@"
+    ]
   }
 }

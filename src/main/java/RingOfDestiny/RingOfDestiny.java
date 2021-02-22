@@ -272,6 +272,7 @@ public class RingOfDestiny
 
         BaseMod.addMonster(ExtinctionMoon.ID, () -> new ExtinctionMoon());
         BaseMod.addMonster(TalkingChest.ID, () -> new TalkingChest());
+        BaseMod.addMonster(TheMonitor.ID, () -> new TheMonitor());
 
 //终局
         BaseMod.addMonster(Rita.ID, () -> new Rita());
@@ -351,7 +352,9 @@ public class RingOfDestiny
     @Override
     public void receivePreStartGame() {
 //        System.out.println("重开游戏");
-//        EnergyPanelRenderPatches.PatchEnergyPanelField.soulStone.get(AbstractDungeon.overlayMenu.energyPanel).soulStoneAmount = 0;
+//        if (AbstractDungeon.floorNum == 0) {
+//            EnergyPanelRenderPatches.PatchEnergyPanelField.soulStone.get(AbstractDungeon.overlayMenu.energyPanel).soulStoneAmount = 0;
+//        }
     }
 
 

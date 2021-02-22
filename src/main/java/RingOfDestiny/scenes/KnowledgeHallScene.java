@@ -31,6 +31,7 @@ public class KnowledgeHallScene extends AbstractScene {
 
     public KnowledgeHallScene() {
         super("RingOfDestiny/img/scene/scene.atlas");
+        this.bg = this.atlas.findRegion("bg_2_0");
         this.campBg = this.atlas.findRegion("bg_camp");
 
         this.ambianceName = "AMBIANCE_CITY";

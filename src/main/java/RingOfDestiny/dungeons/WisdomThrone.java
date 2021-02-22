@@ -32,7 +32,7 @@ public class WisdomThrone extends CustomDungeon {
 
     public WisdomThrone() {
         super(NAME, ID);
-        this.onEnterEvent(NeowEvent.class);
+//        this.onEnterEvent(NeowEvent.class);
         this.setMainMusic("RingOfDestiny/audio/music/mainbg.ogg");
         this.addTempMusic("fight", "RingOfDestiny/audio/music/fight.ogg");
         this.addTempMusic("fight_elite", "RingOfDestiny/audio/music/fight_elite.ogg");

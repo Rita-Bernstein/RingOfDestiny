@@ -1,9 +1,7 @@
 package RingOfDestiny.dungeons;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.monster.IdeologyCorridor.EvilEye;
-import RingOfDestiny.monster.IdeologyCorridor.ExtinctionMoon;
-import RingOfDestiny.monster.IdeologyCorridor.TalkingChest;
+import RingOfDestiny.monster.IdeologyCorridor.*;
 import RingOfDestiny.scenes.IdeologyCorridorScene;
 import actlikeit.dungeons.CustomDungeon;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -136,7 +134,8 @@ public class IdeologyCorridor extends CustomDungeon {
         ArrayList<MonsterInfo> monsters = new ArrayList<MonsterInfo>();
         monsters.add(new MonsterInfo(ExtinctionMoon.ID, 1.0F));
         monsters.add(new MonsterInfo(TalkingChest.ID, 1.0F));
-        monsters.add(new MonsterInfo("3 Sentries", 1.0F));
+        monsters.add(new MonsterInfo(TheMonitor.ID, 1.0F));
+
         MonsterInfo.normalizeWeights(monsters);
         populateMonsterList(monsters, count, true);
     }

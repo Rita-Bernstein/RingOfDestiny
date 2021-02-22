@@ -31,6 +31,7 @@ public class WisdomThroneScene extends AbstractScene {
 
     public WisdomThroneScene() {
         super("RingOfDestiny/img/scene/scene.atlas");
+        this.bg = this.atlas.findRegion("bg_3_0");
         this.campBg = this.atlas.findRegion("bg_camp");
 
         this.ambianceName = "AMBIANCE_CITY";
