@@ -37,7 +37,7 @@ public class Misstep extends CustomCard {
 
 
     public void triggerWhenDrawn() {
-        AbstractDungeon.actionManager.addToBottom(new DiscardAction(AbstractDungeon.player, AbstractDungeon.player, 1, true));
+        addToBot(new DiscardAction(AbstractDungeon.player, AbstractDungeon.player, 1, true));
     }
 
     public AbstractCard makeCopy() {

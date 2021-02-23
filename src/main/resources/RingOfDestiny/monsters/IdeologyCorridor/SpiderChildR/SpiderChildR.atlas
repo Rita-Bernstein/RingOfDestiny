@@ -1,0 +1,90 @@
+
+SpiderChildR.png
+size: 153,327
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_90012/q_1
+  rotate: true
+  xy: 128, 217
+  size: 28, 24
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+monster_90012/q_2
+  rotate: true
+  xy: 128, 185
+  size: 32, 15
+  orig: 32, 15
+  offset: 0, 0
+  index: -1
+monster_90012/s_1
+  rotate: false
+  xy: 111, 121
+  size: 42, 54
+  orig: 42, 54
+  offset: 0, 0
+  index: -1
+monster_90012/s_2
+  rotate: true
+  xy: 46, 0
+  size: 43, 49
+  orig: 43, 49
+  offset: 0, 0
+  index: -1
+monster_90012/s_3
+  rotate: false
+  xy: 97, 22
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+monster_90012/s_4
+  rotate: true
+  xy: 111, 74
+  size: 47, 42
+  orig: 47, 42
+  offset: 0, 0
+  index: -1
+monster_90012/shadow
+  rotate: true
+  xy: 0, 85
+  size: 160, 47
+  orig: 172, 53
+  offset: 6, 3
+  index: -1
+monster_90012/st
+  rotate: false
+  xy: 0, 245
+  size: 152, 82
+  orig: 174, 123
+  offset: 22, 41
+  index: -1
+monster_90012/x_1
+  rotate: false
+  xy: 0, 28
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+monster_90012/x_2
+  rotate: false
+  xy: 47, 43
+  size: 50, 74
+  orig: 50, 74
+  offset: 0, 0
+  index: -1
+monster_90012/x_3
+  rotate: false
+  xy: 47, 117
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
+monster_90012/x_4
+  rotate: false
+  xy: 47, 175
+  size: 81, 70
+  orig: 81, 70
+  offset: 0, 0
+  index: -1

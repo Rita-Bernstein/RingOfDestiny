@@ -416,16 +416,13 @@ public class Fyra extends CustomMonster {
             info.output = 1;
         }
 
-
-        int prevhp = this.currentHealth;
-
         super.damage(info);
 
-        if (prevhp > this.currentHealth) {
+        if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output > 0){
             this.state.setAnimation(0, "Hit", false);
             this.state.addAnimation(0, "Idle", true, 0.0F);
 
-            this.powerMeter += Math.ceil(2500 * ((prevhp - this.currentHealth) / (float) this.maxHealth));
+            this.powerMeter += Math.ceil(2500 * (info.output / (float) this.maxHealth));
 
             if (this.powerMeter > 1000) {
                 this.powerMeter = 1000;
@@ -434,7 +431,7 @@ public class Fyra extends CustomMonster {
                 this.powerMeter = 0;
             }
 
-            if (this.powerMeter >= this.maxPowerMeter && this.superMoves == false && this.halfDead == false) {
+            if (this.powerMeter >= this.maxPowerMeter && !this.superMoves&& !this.halfDead) {
                 this.superMoves = true;
             }
 

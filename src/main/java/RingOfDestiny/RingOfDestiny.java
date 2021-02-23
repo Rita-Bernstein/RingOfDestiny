@@ -274,6 +274,10 @@ public class RingOfDestiny
         BaseMod.addMonster(TalkingChest.ID, () -> new TalkingChest());
         BaseMod.addMonster(TheMonitor.ID, () -> new TheMonitor());
 
+
+// 一层Boss
+        BaseMod.addMonster(SpiderQueen.ID, () -> new SpiderQueen());
+
 //终局
         BaseMod.addMonster(Rita.ID, () -> new Rita());
 
@@ -282,8 +286,11 @@ public class RingOfDestiny
 
         logger.info("========================= 你小子的角色加进去了 =========================");
 
+        BaseMod.addBoss(IdeologyCorridor.ID, SpiderQueen.ID,
+                assetPath("img/ui/map/boss/SpiderQueen.png"),
+                assetPath("img/ui/map/bossOutline/SpiderQueen.png"));
 
-        BaseMod.addBoss(TheEnding.ID, Rita.ID,
+        BaseMod.addBoss(BlackNoah.ID, Rita.ID,
                 assetPath("img/ui/map/boss/Rita.png"),
                 assetPath("img/ui/map/bossOutline/Rita.png"));
     }
@@ -740,6 +747,7 @@ public class RingOfDestiny
         cards.add(new Blockade());
         cards.add(new Slip());
         cards.add(new Misstep());
+        cards.add(new Venom());
 
 //        cards.add(new NotRegret());
 

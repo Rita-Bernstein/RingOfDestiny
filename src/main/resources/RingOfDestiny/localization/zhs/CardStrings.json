@@ -1574,7 +1574,7 @@
   },
   "RingOfDestiny:Venom": {
     "NAME": "毒液",
-    "DESCRIPTION": "回合结束时，受到 !M! 点伤害。打出时，受到 !RODSecondM! 点伤害。 NL 消耗 。"
+    "DESCRIPTION": "回合结束时， NL 受到 !M! 点伤害。 NL 打出时，受到 !RODSecondM! 点伤害并 消耗 。"
   },
   "RingOfDestiny:Misstep": {
     "NAME": "踩空",

@@ -73,7 +73,7 @@ public class TalkingChest extends CustomMonster {
         }
 
 
-        if (AbstractDungeon.ascensionLevel >= 4) {
+        if (AbstractDungeon.ascensionLevel >= 3) {
             this.damage.add(new DamageInfo(this, 21));
         } else {
             this.damage.add(new DamageInfo(this, 20));
@@ -179,11 +179,11 @@ public class TalkingChest extends CustomMonster {
     }
 
     public void damage(DamageInfo info) {
-        int prevhp = this.currentHealth;
+
 
         super.damage(info);
 
-        if (prevhp > this.currentHealth) {
+        if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output > 0 )  {
             if (changed) {
                 this.state.setAnimation(0, "Hit1", false);
                 this.state.addAnimation(0, "Idle1", true, 0.0F);

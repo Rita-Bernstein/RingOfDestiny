@@ -801,12 +801,11 @@ public class Rita extends CustomMonster {
             info.output = 1;
         }
 
-//计算气槽
-        int prevhp = this.currentHealth;
+
 //结算伤害
         super.damage(info);
 
-        if (prevhp > this.currentHealth) {
+        if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output > 0) {
             this.state.setAnimation(0, "Hit", false);
 
             if (this.formAmount >= 1 && nextMove != 99) {
@@ -816,7 +815,7 @@ public class Rita extends CustomMonster {
             }
 
 
-            this.powerMeter += Math.ceil(2500 * ((prevhp - this.currentHealth) / (float) this.maxHealth));
+            this.powerMeter += Math.ceil(2500 * (info.output / (float) this.maxHealth));
 
             if (this.powerMeter > 1000) {
                 this.powerMeter = 1000;

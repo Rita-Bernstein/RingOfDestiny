@@ -1,0 +1,69 @@
+
+ThePien.png
+size: 928,358
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10000/biaoqing
+  rotate: false
+  xy: 361, 171
+  size: 359, 187
+  orig: 364, 197
+  offset: 5, 10
+  index: -1
+monster_10000/cb_1
+  rotate: false
+  xy: 513, 16
+  size: 94, 155
+  orig: 95, 155
+  offset: 1, 0
+  index: -1
+monster_10000/cb_2
+  rotate: true
+  xy: 687, 18
+  size: 81, 129
+  orig: 81, 130
+  offset: 0, 1
+  index: -1
+monster_10000/jian
+  rotate: false
+  xy: 720, 99
+  size: 161, 259
+  orig: 161, 259
+  offset: 0, 0
+  index: -1
+monster_10000/pf_1
+  rotate: false
+  xy: 607, 25
+  size: 80, 146
+  orig: 80, 146
+  offset: 0, 0
+  index: -1
+monster_10000/pf_2
+  rotate: false
+  xy: 361, 4
+  size: 152, 167
+  orig: 152, 167
+  offset: 0, 0
+  index: -1
+monster_10000/pf_3
+  rotate: false
+  xy: 816, 2
+  size: 100, 97
+  orig: 100, 97
+  offset: 0, 0
+  index: -1
+monster_10000/st
+  rotate: true
+  xy: 0, 0
+  size: 358, 361
+  orig: 423, 361
+  offset: 20, 0
+  index: -1
+monster_10000/touyi
+  rotate: true
+  xy: 881, 198
+  size: 160, 47
+  orig: 172, 53
+  offset: 6, 3
+  index: -1

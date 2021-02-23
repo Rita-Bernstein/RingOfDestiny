@@ -73,7 +73,7 @@ public class ExtinctionMoon extends CustomMonster {
         }
 
 
-        if (AbstractDungeon.ascensionLevel >= 4) {
+        if (AbstractDungeon.ascensionLevel >= 3) {
             this.damage.add(new DamageInfo(this, 2));
         } else {
             this.damage.add(new DamageInfo(this, 3));
@@ -182,11 +182,9 @@ public class ExtinctionMoon extends CustomMonster {
     }
 
     public void damage(DamageInfo info) {
-        int prevhp = this.currentHealth;
-
         super.damage(info);
 
-        if (prevhp > this.currentHealth && this.currentHealth > 0) {
+        if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output > 0 && currentHealth > 0)  {
             this.state.setAnimation(0, "Hit", false);
             this.state.addAnimation(0, "Idle", true, 0.0F);
         }

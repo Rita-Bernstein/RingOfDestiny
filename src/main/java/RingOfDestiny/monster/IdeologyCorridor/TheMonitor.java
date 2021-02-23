@@ -54,6 +54,7 @@ public class TheMonitor extends CustomMonster {
 
 
     private boolean isFirstMove = true;
+    private boolean talky = true;
     private boolean spawned = false;
 
     private int vulAmount = 99;
@@ -69,7 +70,7 @@ public class TheMonitor extends CustomMonster {
         }
 
 
-        if (AbstractDungeon.ascensionLevel >= 4) {
+        if (AbstractDungeon.ascensionLevel >= 3) {
             this.damage.add(new DamageInfo(this, 9));
         } else {
             this.damage.add(new DamageInfo(this, 8));
@@ -113,6 +114,7 @@ public class TheMonitor extends CustomMonster {
         this.flipHorizontal = false;
 
         this.isFirstMove = false;
+        this.talky = false;
     }
 
     public void usePreBattleAction() {
@@ -171,11 +173,9 @@ public class TheMonitor extends CustomMonster {
     }
 
     public void damage(DamageInfo info) {
-        int prevhp = this.currentHealth;
-
         super.damage(info);
 
-        if (prevhp > this.currentHealth && this.currentHealth > 0) {
+        if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output > 0 && currentHealth > 0)  {
 
             this.state.setAnimation(0, "Hit", false);
             this.state.addAnimation(0, "Idle", true, 0.0F);
@@ -183,8 +183,11 @@ public class TheMonitor extends CustomMonster {
         }
 
         if (this.currentHealth <= 20 && !this.spawned) {
-            if(this.isFirstMove)
-            addToBot(new TalkAction(this, DIALOG[0], 1.0F, 2.0F));
+            if(this.talky){
+                this.talky = false;
+                addToBot(new TalkAction(this, DIALOG[0], 1.0F, 2.0F));
+            }
+
             setMove((byte) 2, AbstractMonster.Intent.UNKNOWN);
             createIntent();
             this.spawned = true;

@@ -113,5 +113,50 @@
     "DIALOG": [
       "#r@入侵警报@ NL #r@入侵警报@"
     ]
+  },
+  "RingOfDestiny:SpiderQueen": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "蜘蛛女皇",
+    "DIALOG": [
+      "来人！"
+    ]
+  },
+  "RingOfDestiny:SpiderChildG": {
+  "MOVES": [
+    ""
+  ],
+  "NAME": "小蜘蛛",
+  "DIALOG": [
+    ""
+  ]
+},
+  "RingOfDestiny:SpiderChildR": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "爆裂蜘蛛",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:ThePien": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "嘤嘤怪",
+    "DIALOG": [
+      "秘籍·八重嘤"
+    ]
+  },
+  "RingOfDestiny:ValhallaChronicles": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "圣殿守护者",
+    "DIALOG": [
+      "摩擦吧，冒险者 (¬◡¬)✧~"
+    ]
   }
 }

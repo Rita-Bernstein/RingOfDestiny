@@ -1,5 +1,6 @@
 package RingOfDestiny.scenes;
 
+import RingOfDestiny.monster.IdeologyCorridor.SpiderQueen;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
@@ -88,18 +89,19 @@ public class IdeologyCorridorScene extends AbstractScene {
                 if (mo.type == AbstractMonster.EnemyType.BOSS) {
                     isBoss = true;
                 }
+
+                if (mo instanceof SpiderQueen) {
+                    this.bg = this.atlas.findRegion("bg_1_boss_0");
+                }
             }
         }
 
         if (isBoss) {
-            this.bg = this.atlas.findRegion("bg_1_boss_1");
         }else if(room instanceof TreasureRoomBoss){
             this.bg = this.atlas.findRegion("bg_gift");
         }else if(room instanceof ShopRoom){
             this.bg = this.atlas.findRegion("bg_shop");
-        }
-
-        else {
+        }else {
             this.bg = this.atlas.findRegion("bg_1_" + MathUtils.random(2));
         }
 

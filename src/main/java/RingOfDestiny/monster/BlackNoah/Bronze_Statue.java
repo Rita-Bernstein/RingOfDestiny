@@ -85,19 +85,19 @@ public class Bronze_Statue extends AbstractMonster {
     public void takeTurn() {
         switch (this.nextMove) {
             case 1:
-                AbstractDungeon.actionManager.addToBottom(new SFXAction("ATTACK_MAGIC_BEAM_SHORT", 0.5F));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new BorderFlashEffect(Color.SKY)));
-                AbstractDungeon.actionManager.addToBottom(new VFXAction(new SmallLaserEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.cX, this.hb.cY + 85), 0.3F));
+                addToBot(new SFXAction("ATTACK_MAGIC_BEAM_SHORT", 0.5F));
+                addToBot(new VFXAction(new BorderFlashEffect(Color.SKY)));
+                addToBot(new VFXAction(new SmallLaserEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.hb.cX, this.hb.cY + 85), 0.3F));
 
 
-                AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage
+                addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage
                         .get(0), AbstractGameAction.AttackEffect.NONE));
                 break;
             case 0:
                 playerBlock = AbstractDungeon.player.currentBlock;
-                AbstractDungeon.actionManager.addToBottom(new GainBlockAction(AbstractDungeon.player, this, -(int) Math.floor(AbstractDungeon.player.currentBlock * stealBlock)));
-                AbstractDungeon.actionManager.addToBottom(new GainBlockAction(this, this, (int) Math.floor(AbstractDungeon.player.currentBlock * stealBlock * 0.5)));
-                AbstractDungeon.actionManager.addToBottom(new GainBlockAction(AbstractDungeon.getMonsters().getMonster(RingOfDestiny.makeID("Rita")), this, (int) Math.floor(AbstractDungeon.player.currentBlock * stealBlock * 0.5)));
+                addToBot(new GainBlockAction(AbstractDungeon.player, this, -(int) Math.floor(AbstractDungeon.player.currentBlock * stealBlock)));
+                addToBot(new GainBlockAction(this, this, (int) Math.floor(AbstractDungeon.player.currentBlock * stealBlock * 0.5)));
+                addToBot(new GainBlockAction(AbstractDungeon.getMonsters().getMonster(RingOfDestiny.makeID("Rita")), this, (int) Math.floor(AbstractDungeon.player.currentBlock * stealBlock * 0.5)));
                 break;
 
             case 2:
@@ -105,12 +105,12 @@ public class Bronze_Statue extends AbstractMonster {
                 break;
 
             case 3:
-                AbstractDungeon.actionManager.addToBottom(new HealAction(this, this, this.maxHealth));
+                addToBot(new HealAction(this, this, this.maxHealth));
                 this.halfDead = false;
                 this.revive = false;
                 break;
         }
-        AbstractDungeon.actionManager.addToBottom(new RollMoveAction(this));
+        addToBot(new RollMoveAction(this));
     }
 
 

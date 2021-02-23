@@ -640,5 +640,17 @@
       "每当对手打出一张牌。获得 #b",
       " 点 #y力量 。"
     ]
+  },
+  "RingOfDestiny:VenomPower": {
+    "NAME": "毒液",
+    "DESCRIPTIONS": [
+      "死亡时，将一张 #y毒液 加入你的抽牌堆。"
+    ]
+  },
+  "RingOfDestiny:KnitmeshPower": {
+    "NAME": "织网",
+    "DESCRIPTIONS": [
+      "每打出一张牌，所有手牌本回合耗能提高 #b1 点。"
+    ]
   }
 }

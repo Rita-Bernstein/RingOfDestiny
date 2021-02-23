@@ -52,14 +52,14 @@ public class Overcautious extends AbstractRingCard {
 
     public void triggerOnExhaust() {
         AbstractDungeon.actionManager.cardQueue.add(new CardQueueItem(this, false));
-        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Overcautious(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-        AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, new DamageInfo(AbstractDungeon.player, this.actualDamage, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE));
+        addToBot(new MakeTempCardInDrawPileAction(new Overcautious(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+        addToBot(new DamageAction(AbstractDungeon.player, new DamageInfo(AbstractDungeon.player, this.actualDamage, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE));
     }
 
     public void triggerOnManualDiscard() {
         AbstractDungeon.actionManager.cardQueue.add(new CardQueueItem(this, false));
-        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Overcautious(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
-        AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, new DamageInfo(AbstractDungeon.player, this.actualDamage, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE));
+        addToBot(new MakeTempCardInDrawPileAction(new Overcautious(), 1, true, true, false, Settings.WIDTH * 0.2F, Settings.HEIGHT / 2.0F));
+        addToBot(new DamageAction(AbstractDungeon.player, new DamageInfo(AbstractDungeon.player, this.actualDamage, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE));
     }
 
 

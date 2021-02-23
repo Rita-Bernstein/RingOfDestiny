@@ -1,0 +1,76 @@
+
+SpiderChildG.png
+size: 104,403
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_90011/s_1
+  rotate: true
+  xy: 47, 79
+  size: 47, 54
+  orig: 47, 54
+  offset: 0, 0
+  index: -1
+monster_90011/s_2
+  rotate: false
+  xy: 58, 280
+  size: 43, 49
+  orig: 43, 49
+  offset: 0, 0
+  index: -1
+monster_90011/s_3
+  rotate: false
+  xy: 47, 126
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+monster_90011/s_4
+  rotate: false
+  xy: 58, 238
+  size: 46, 42
+  orig: 46, 42
+  offset: 0, 0
+  index: -1
+monster_90011/shadow
+  rotate: true
+  xy: 0, 108
+  size: 160, 47
+  orig: 172, 53
+  offset: 6, 3
+  index: -1
+monster_90011/st
+  rotate: true
+  xy: 0, 268
+  size: 135, 58
+  orig: 156, 104
+  offset: 21, 46
+  index: -1
+monster_90011/x_1
+  rotate: true
+  xy: 0, 60
+  size: 48, 31
+  orig: 48, 31
+  offset: 0, 0
+  index: -1
+monster_90011/x_2
+  rotate: false
+  xy: 58, 329
+  size: 46, 74
+  orig: 46, 74
+  offset: 0, 0
+  index: -1
+monster_90011/x_3
+  rotate: true
+  xy: 47, 178
+  size: 60, 55
+  orig: 60, 55
+  offset: 0, 0
+  index: -1
+monster_90011/x_4
+  rotate: true
+  xy: 31, 0
+  size: 79, 65
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
