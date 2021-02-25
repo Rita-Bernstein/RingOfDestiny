@@ -1,6 +1,7 @@
 package RingOfDestiny.scenes;
 
 import RingOfDestiny.monster.IdeologyCorridor.SpiderQueen;
+import RingOfDestiny.monster.IdeologyCorridor.ValhallaChronicles;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
@@ -92,6 +93,9 @@ public class IdeologyCorridorScene extends AbstractScene {
 
                 if (mo instanceof SpiderQueen) {
                     this.bg = this.atlas.findRegion("bg_1_boss_0");
+                }
+                if (mo instanceof ValhallaChronicles) {
+                    this.bg = this.atlas.findRegion("bg_1_boss_1");
                 }
             }
         }

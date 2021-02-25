@@ -277,6 +277,8 @@ public class RingOfDestiny
 
 // 一层Boss
         BaseMod.addMonster(SpiderQueen.ID, () -> new SpiderQueen());
+        BaseMod.addMonster(ValhallaChronicles.ID, () -> new ValhallaChronicles());
+        BaseMod.addMonster(ThePien.ID, () -> new ThePien());
 
 //终局
         BaseMod.addMonster(Rita.ID, () -> new Rita());
@@ -289,6 +291,14 @@ public class RingOfDestiny
         BaseMod.addBoss(IdeologyCorridor.ID, SpiderQueen.ID,
                 assetPath("img/ui/map/boss/SpiderQueen.png"),
                 assetPath("img/ui/map/bossOutline/SpiderQueen.png"));
+
+        BaseMod.addBoss(ValhallaChronicles.ID, ValhallaChronicles.ID,
+                assetPath("img/ui/map/boss/ValhallaChronicles.png"),
+                assetPath("img/ui/map/bossOutline/ValhallaChronicles.png"));
+
+        BaseMod.addBoss(ThePien.ID, ThePien.ID,
+                assetPath("img/ui/map/boss/ThePien.png"),
+                assetPath("img/ui/map/bossOutline/ThePien.png"));
 
         BaseMod.addBoss(BlackNoah.ID, Rita.ID,
                 assetPath("img/ui/map/boss/Rita.png"),

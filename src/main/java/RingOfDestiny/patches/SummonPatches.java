@@ -2,6 +2,7 @@ package RingOfDestiny.patches;
 
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.monster.AbstractRingMonster;
 import RingOfDestiny.screens.SummonSelectScreen;
 import RingOfDestiny.summon.*;
 
@@ -17,6 +18,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.daily.mods.AbstractDailyMod;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ModHelper;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.relics.PrismaticShard;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.screens.options.SettingsScreen;
@@ -89,6 +91,13 @@ public class SummonPatches {
         public static SpireReturn<Void> Insert(UseCardAction _instance, AbstractCard card, AbstractCreature target) {
             AbstractPlayerSummonField.summon.get(AbstractDungeon.player).onUseCard(card, _instance);
 
+            if (!getMonsters().areMonstersBasicallyDead()) {
+                for (AbstractMonster monster : getMonsters().monsters) {
+                    if (!monster.isDead && !monster.isDying && monster instanceof AbstractRingMonster) {
+                        ((AbstractRingMonster)monster).onUseCard(card,_instance);
+                    }
+                }
+            }
             return SpireReturn.Continue();
         }
     }

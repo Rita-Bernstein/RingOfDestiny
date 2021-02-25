@@ -169,10 +169,8 @@ public class IdeologyCorridor extends CustomDungeon {
         bossList.clear();
 
         bossList.add(SpiderQueen.ID);
-        bossList.add(SpiderQueen.ID);
-        bossList.add(SpiderQueen.ID);
-//        bossList.add("Hexaghost");
-//        bossList.add("Slime Boss");
+        bossList.add(ValhallaChronicles.ID);
+        bossList.add(ThePien.ID);
         Collections.shuffle(bossList, new Random(monsterRng.randomLong()));
 
     }

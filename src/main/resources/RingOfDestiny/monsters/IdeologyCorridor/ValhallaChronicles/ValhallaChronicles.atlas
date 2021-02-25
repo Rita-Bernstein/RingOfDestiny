@@ -1,152 +1,110 @@
 
 ValhallaChronicles.png
-size: 535,397
+size: 569,349
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10002/g_1
   rotate: false
-  xy: 472, 8
+  xy: 482, 25
   size: 40, 40
   orig: 41, 41
   offset: 0, 1
   index: -1
 monster_10002/g_2
   rotate: false
-  xy: 472, 8
+  xy: 482, 25
   size: 40, 40
   orig: 41, 41
   offset: 0, 1
   index: -1
 monster_10002/j_1
   rotate: false
-  xy: 499, 48
+  xy: 522, 57
   size: 35, 17
   orig: 35, 17
   offset: 0, 0
   index: -1
 monster_10002/j_2
   rotate: true
-  xy: 482, 207
+  xy: 482, 118
   size: 61, 27
   orig: 61, 27
   offset: 0, 0
   index: -1
 monster_10002/j_3
   rotate: true
-  xy: 141, 1
+  xy: 482, 179
   size: 47, 38
   orig: 47, 38
   offset: 0, 0
   index: -1
 monster_10002/j_4
-  rotate: false
-  xy: 482, 64
+  rotate: true
+  xy: 482, 8
   size: 17, 37
   orig: 17, 37
   offset: 0, 0
   index: -1
 monster_10002/j_5
-  rotate: false
-  xy: 499, 65
+  rotate: true
+  xy: 519, 8
   size: 17, 36
   orig: 17, 36
   offset: 0, 0
   index: -1
 monster_10002/j_6
   rotate: true
-  xy: 436, 6
+  xy: 508, 74
   size: 42, 36
   orig: 43, 36
   offset: 0, 0
   index: -1
 monster_10002/j_7
   rotate: true
-  xy: 509, 215
+  xy: 482, 65
   size: 53, 26
   orig: 54, 26
   offset: 0, 0
   index: -1
 monster_10002/j_8
   rotate: true
-  xy: 516, 69
+  xy: 544, 84
   size: 32, 17
   orig: 32, 19
   offset: 0, 0
   index: -1
-monster_10002/orb_1
-  rotate: false
-  xy: 302, 3
-  size: 45, 45
-  orig: 45, 45
-  offset: 0, 0
-  index: -1
-monster_10002/orb_2
-  rotate: false
-  xy: 392, 3
-  size: 44, 45
-  orig: 44, 45
-  offset: 0, 0
-  index: -1
-monster_10002/orb_3
-  rotate: false
-  xy: 347, 3
-  size: 45, 45
-  orig: 45, 45
-  offset: 0, 0
-  index: -1
-monster_10002/orb_4
-  rotate: false
-  xy: 94, 1
-  size: 47, 47
-  orig: 47, 47
-  offset: 0, 0
-  index: -1
-monster_10002/orb_5
-  rotate: true
-  xy: 0, 0
-  size: 48, 47
-  orig: 48, 47
-  offset: 0, 0
-  index: -1
-monster_10002/orb_6
-  rotate: true
-  xy: 47, 0
-  size: 48, 47
-  orig: 48, 47
-  offset: 0, 0
-  index: -1
 monster_10002/tianping
   rotate: true
-  xy: 482, 268
+  xy: 528, 220
   size: 129, 37
   orig: 139, 54
   offset: 9, 11
   index: -1
 monster_10002/wuqi
-  rotate: true
-  xy: 179, 2
+  rotate: false
+  xy: 482, 226
   size: 46, 123
   orig: 162, 124
   offset: 55, 1
   index: -1
 monster_10002/xiabai_1
   rotate: true
-  xy: 482, 152
+  xy: 520, 165
   size: 55, 49
   orig: 65, 50
   offset: 5, 1
   index: -1
 monster_10002/xiabai_2
-  rotate: true
-  xy: 482, 101
+  rotate: false
+  xy: 509, 116
   size: 51, 49
   orig: 55, 50
   offset: 2, 1
   index: -1
 monster_10002/zt
   rotate: true
-  xy: 0, 48
+  xy: 0, 0
   size: 349, 482
   orig: 349, 483
   offset: 0, 1

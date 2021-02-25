@@ -74,9 +74,9 @@ public class ExtinctionMoon extends CustomMonster {
 
 
         if (AbstractDungeon.ascensionLevel >= 3) {
-            this.damage.add(new DamageInfo(this, 2));
-        } else {
             this.damage.add(new DamageInfo(this, 3));
+        } else {
+            this.damage.add(new DamageInfo(this, 2));
         }
 
 
