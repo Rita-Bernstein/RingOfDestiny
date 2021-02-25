@@ -26,6 +26,7 @@ public class ValhallaOrb {
     private boolean evokeDone = true;
     private float evokeDelayTimer = 0.0f;
 
+    private boolean hide = false;
 
     public ValhallaOrb(int index) {
         this.index = index;
@@ -47,12 +48,16 @@ public class ValhallaOrb {
 
     }
 
+    public void hide() {
+        this.hide = true;
+    }
+
 
     public void update() {
         this.timer += Gdx.graphics.getDeltaTime() * 15.0f;
 
-        if(evokeDelayTimer > 0)
-        this.evokeDelayTimer -= Gdx.graphics.getDeltaTime();
+        if (evokeDelayTimer > 0)
+            this.evokeDelayTimer -= Gdx.graphics.getDeltaTime();
 
         if (!evokeDone && evokeDelayTimer < 0) {
             if (this.delayTimer < this.delay) {
@@ -75,9 +80,8 @@ public class ValhallaOrb {
         int frame = (int) (this.timer % 12);
 
 
-
         sb.setColor(Color.WHITE);
-        if (this.vfxBg.length != 0 && this.active)
+        if (this.vfxBg.length != 0 && this.active && !this.hide)
             sb.draw(this.vfxBg[frame],
                     this.x - 100.0f,
                     this.y - 100.0f,
@@ -93,14 +97,14 @@ public class ValhallaOrb {
                     false, false);
 
 
-        if (this.main != null)
+        if (this.main != null && !this.hide)
             sb.draw(this.main,
                     this.x - this.main.getWidth() / 2.0f,
                     this.y - this.main.getHeight() / 2.0f,
                     this.main.getWidth() / 2.0f, this.main.getHeight() / 2.0f, this.main.getWidth(), this.main.getHeight(), Settings.scale / this.scale, Settings.scale / this.scale, 0.0f, 0, 0, this.main.getWidth(), this.main.getHeight(), false, false);
 
 
-        if (this.vfxFg.length != 0 && this.active)
+        if (this.vfxFg.length != 0 && this.active && !this.hide)
             sb.draw(this.vfxFg[frame],
                     this.x - 100.0f,
                     this.y - 100.0f,
@@ -116,7 +120,7 @@ public class ValhallaOrb {
                     false, false);
 
 
-        if (!evokeDone && evokeDelayTimer < 0)
+        if (!evokeDone && evokeDelayTimer < 0 && !this.hide)
             sb.draw(this.evokeEffect[frameNum],
                     this.x - 150.0f,
                     this.y - 150.0f,
