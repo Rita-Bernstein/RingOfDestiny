@@ -1,208 +1,208 @@
 {
   "RingOfDestiny:Defend_SF": {
     "NAME": "Defend",
-    "DESCRIPTION": "获得 !B! 点 格挡 。"
+    "DESCRIPTION": "Gain !B! Block."
   },
   "RingOfDestiny:Strike_SF": {
     "NAME": "Strike",
-    "DESCRIPTION": "造成 !D! 点伤害。"
+    "DESCRIPTION": "Deal !D! damage."
   },
   "RingOfDestiny:ShadowCard": {
     "NAME": "Shadow Separation",
-    "DESCRIPTION": "本回合制造一个 ring_of_destiny:影分身 。",
-    "UPGRADE_DESCRIPTION": "固有 。本回合制造一个 ring_of_destiny:影分身 。"
+    "DESCRIPTION": "Create a ring_of_destiny:Shadow for this turn.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Create a ring_of_destiny:Shadow for this turn."
   },
   "RingOfDestiny:PoisonedShiv": {
     "NAME": "Poisoned Shiv",
-    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 中毒 。"
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Poison."
   },
   "RingOfDestiny:ShadowStab": {
     "NAME": "Shadow Stab",
-    "DESCRIPTION": "造成 !D! 点伤害。"
+    "DESCRIPTION": "Deal !D! damage."
   },
   "RingOfDestiny:Corrosion": {
     "NAME": "Corrosion",
-    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 虚弱 。"
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak."
   },
   "RingOfDestiny:FlashOfSlash": {
     "NAME": "Flash Of Slash",
-    "DESCRIPTION": "造成 !D! 点伤害。如果敌人的意图是攻击，在给予 !M! 层 中毒 。"
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack,apply it !M! Poison."
   },
   "RingOfDestiny:HexaMudra": {
     "NAME": "HexaMudra",
-    "DESCRIPTION": "造成 !D! 点伤害。手牌中每有一张攻击牌，额外再造成 !M! 点伤害。",
+    "DESCRIPTION": "Deal !D! damage. NL Deal extra !M! damage for each Attack in your hand.",
     "EXTENDED_DESCRIPTION": [
-      " NL （你有",
-      " 张攻击牌。）",
-      " 张攻击牌。）"
+      " NL (You have ",
+      " Attack).",
+      " Attacks)."
     ]
   },
   "RingOfDestiny:ShadowBlossom": {
     "NAME": "Shadow Blossom",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。如果杀死了敌人，将2张 *影之花 加入手牌。",
-    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。如果杀死了敌人，将2张 *影之花+ 加入手牌。"
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL if this kill enemy,add 2 *Shadow *Flower to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL if this kill enemy,add 2 *Shadow *Flower+ to your hand."
   },
   "RingOfDestiny:Spur": {
     "NAME": "Spur",
-    "DESCRIPTION": "造成 !D! 点伤害并给予 1 层 中毒 ， !M! 次。"
+    "DESCRIPTION": "Deal !D! damage and Apply 1 Poison , !M! times."
   },
   "RingOfDestiny:Agile": {
     "NAME": "Agile",
-    "DESCRIPTION": "获得 !B! 点 格挡 。"
+    "DESCRIPTION": "Gain !B! Block."
   },
   "RingOfDestiny:FrozenDark": {
     "NAME": "Frozen Dark",
-    "DESCRIPTION": "给予 !M! 层 易伤 和 !RODSecondM! 层 中毒。"
+    "DESCRIPTION": "Apply !M! Vulnerable and !RODSecondM! Poison."
   },
   "RingOfDestiny:DarkLight": {
     "NAME": "Dark Light",
-    "DESCRIPTION": "给予 !M! 层 虚弱 和 !RODSecondM! 层 中毒。"
+    "DESCRIPTION": "Apply !M! Weak and !RODSecondM! Poison."
   },
   "RingOfDestiny:ButaMudra": {
     "NAME": "ButaMudra",
-    "DESCRIPTION": "回复 !M! 点生命。获得 1 层 人工制品 。 NL 消耗 。"
+    "DESCRIPTION": "Heal !M! HP. Gain 1 Artifact. NL Exhaust."
   },
   "RingOfDestiny:HeptMudra": {
     "NAME": "HeptMudra",
-    "DESCRIPTION": "抽 !M! 张牌。 NL 消耗 。"
+    "DESCRIPTION": "Draw !M! cards. NL Exhaust."
   },
   "RingOfDestiny:ShadowRose": {
     "NAME": "Shadow Rose",
-    "DESCRIPTION": "给予 !M! 层 中毒。 NL 消耗 。"
+    "DESCRIPTION": "Apply !M! Poison. NL Exhaust."
   },
   "RingOfDestiny:Ridicule": {
     "NAME": "Ridicule",
-    "DESCRIPTION": "获得 !B! 点 格挡 。敌人的意图变为攻击。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。敌人的意图变为攻击。"
+    "DESCRIPTION": "Gain !B! Block. Change enemy's intent to Attack. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. Change enemy's intent to Attack. "
   },
   "RingOfDestiny:MetalRelease": {
     "NAME": "Metal Release",
-    "DESCRIPTION": "获得 !B! 点 格挡 。弃一张牌。"
+    "DESCRIPTION": "Gain !B! Block. NL Discard a card."
   },
   "RingOfDestiny:WoodRelease": {
     "NAME": "Wood Release",
-    "DESCRIPTION": "丢弃所有手牌，每丢弃一张牌获得 !B! 点 格挡 。"
+    "DESCRIPTION": "Discard your hand. Gain !B! block for each card you discard."
   },
   "RingOfDestiny:EarthRelease": {
     "NAME": "Earth Release",
-    "DESCRIPTION": "丢弃所有攻击牌，将抽牌堆中的 !M! 张技能牌加入手牌。"
+    "DESCRIPTION": "Discard all Attack cards in your hand. NL Add !M! Skills in your draw pile to your hand."
   },
   "RingOfDestiny:WristBlade": {
     "NAME": "Wrist Blade",
-    "DESCRIPTION": "固有 。造成 !D! 点伤害。 NL 消耗 。"
+    "DESCRIPTION": "Innate. NL Deal !D! damage. NL Exhaust."
   },
   "RingOfDestiny:Onikiri": {
     "NAME": "Onikiri",
-    "DESCRIPTION": "造成 !D! 点伤害。如果被 格挡 ，则给予 !M! 层 中毒 。"
+    "DESCRIPTION": "Deal !D! damage. NL If it is blocked,apply !M! Poison."
   },
   "RingOfDestiny:SneakAttack": {
     "NAME": "Sneak Attack",
-    "DESCRIPTION": "造成 !D! 点伤害。抽 !M! 张牌。"
+    "DESCRIPTION": "Deal !D! damage.Draw !M! Card."
   },
   "RingOfDestiny:ShurikenFlip": {
     "NAME": "Shuriken Flip",
-    "DESCRIPTION": "造成 !D! 点伤害。丢弃 !M! 张牌，抽 !M! 张牌。"
+    "DESCRIPTION": "Deal !D! damage. NL Discard !M! card. NL Draw !M! cards"
   },
   "RingOfDestiny:ShadowCutter": {
     "NAME": "Shadow Cutter",
-    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，抽 !M! 张牌。"
+    "DESCRIPTION": "Deal !D! damage. NL If this kill enemy,draw !M! cards."
   },
   "RingOfDestiny:EthMudra": {
     "NAME": "EthMudra",
-    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 中毒 ，则再造成 中毒 层数的伤害。"
+    "DESCRIPTION": "Deal !D! damage. NL If enemy has Poison,deal damage equals to stack of its Poison."
   },
   "RingOfDestiny:OctMudra": {
     "NAME": "OctMudra",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 你在这个回合打出的下一张牌将会被放置到抽牌堆的顶部。 （只限会移入弃牌堆的牌）"
+    "DESCRIPTION": "Deal !D! damage. NL Put the next Attack you play this turn on top of your draw pile."
   },
   "RingOfDestiny:DecaMudra": {
     "NAME": "DecaMudra",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害 !M! 次。"
+    "DESCRIPTION": "Deal !D! damage to ALL enemies !M! times."
   },
   "RingOfDestiny:UndecMudra": {
     "NAME": "UndecMudra",
-    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 中毒 。"
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Poison."
   },
   "RingOfDestiny:KunaiSpray": {
     "NAME": "Kunai Spray",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害X次。",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies X times.",
     "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害X+ !M! 次。"
   },
   "RingOfDestiny:FinalAttack": {
     "NAME": "Final Attack",
-    "DESCRIPTION": "造成 !D! 点伤害。本回合每打出过一张牌，增加 !M! 点伤害。",
+    "DESCRIPTION": "Deal !D! damage. NL Increase !M! damage for each card played this turn.",
     "EXTENDED_DESCRIPTION": [
-      " NL （你本回合打出过",
-      " 张牌。）",
-      " 张牌。）"
+      " NL (",
+      " card played.)",
+      " cards played.)"
     ]
   },
   "RingOfDestiny:Stealth": {
     "NAME": "Stealth",
-    "DESCRIPTION": "造成 !D! 点伤害。如果敌人有 虚弱 ，获得 [E] 并抽一张牌。"
+    "DESCRIPTION": "Deal !D! damage. NL If enemy is Weaken , gain [E] and draw a card."
   },
   "RingOfDestiny:Premeditate": {
     "NAME": "Premeditate",
-    "DESCRIPTION": "获得 !M! 点 荆棘 ，下回合开始时获得 [E] 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 点 荆棘 ，下回合开始时获得 [E] [E] 。"
+    "DESCRIPTION": "Gain !M! Thorns. NL Gain [E] at the start of your next turn.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Thorns.  NL Gain [E] [E] at the start of your next turn."
   },
   "RingOfDestiny:Servicing": {
     "NAME": "Servicing",
-    "DESCRIPTION": "下回合开始时，抽 !M! 张牌。"
+    "DESCRIPTION": "At the start of your next turn,draw !M! cards."
   },
   "RingOfDestiny:Conspiracy": {
     "NAME": "Conspiracy",
-    "DESCRIPTION": "本回合 保留 你的手牌。"
+    "DESCRIPTION": "Retain your hand this turn."
   },
   "RingOfDestiny:FallenFlower": {
     "NAME": "Fallen Flower",
-    "DESCRIPTION": "将 !M! 张 *影之花 加入你的手牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "将 !M! 张 *影之花+ 加入你的手牌。 NL 消耗 。"
+    "DESCRIPTION": "Add !M! *Shadow *Flower to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add !M! *Shadow *Flower+ to your hand. NL Exhaust."
   },
   "RingOfDestiny:BeeZone": {
     "NAME": "Bee Zone",
-    "DESCRIPTION": "翻倍你的 荆棘 。"
+    "DESCRIPTION": "Double your Thorns."
   },
   "RingOfDestiny:PentMudra": {
     "NAME": "PentMudra",
-    "DESCRIPTION": "移除敌人的 格挡 。给予 !M! 层 中毒 。"
+    "DESCRIPTION": "Remove all Block from the enemy. NL Apply !M! Poison."
   },
   "RingOfDestiny:NonMudra": {
     "NAME": "NonMudra",
-    "DESCRIPTION": "抽 !M! 张牌，它的耗能在本回合为0。 NL 消耗 。"
+    "DESCRIPTION": "Draw !M! card,reduce its cost to 0 in this turn. NL Exhaust."
   },
   "RingOfDestiny:WaterRelease": {
     "NAME": "Water Release",
-    "DESCRIPTION": "最多丢弃 !M! 张牌。获得丢弃牌数的 [E] 。"
+    "DESCRIPTION": "Discard up to !M! cards. NL Gain [E] for each card you discarded."
   },
   "RingOfDestiny:FireRelease": {
     "NAME": "Fire Release",
-    "DESCRIPTION": "丢弃一张牌，抽 !M! 张牌。"
+    "DESCRIPTION": "Discard a card. NL Draw !M! cards."
   },
   "RingOfDestiny:ShadowShackles": {
     "NAME": "Shadow Shackles",
-    "DESCRIPTION": "本回合敌人失去 !M! 点 力量 并给予 !RODSecondM! 层 虚弱 。"
+    "DESCRIPTION": "Enemy lost !M! Strength this turn and apply !RODSecondM! Weak."
   },
   "RingOfDestiny:Belt": {
     "NAME": "Belt",
-    "DESCRIPTION": "每回合开始时，将 !M! 张 *影之花 加入你的手牌。",
-    "UPGRADE_DESCRIPTION": "每回合开始时，将 !M! 张 *影之花+ 加入你的手牌。"
+    "DESCRIPTION": "At the start of turn,add !M! *Shadow *Flower to your hand.",
+    "UPGRADE_DESCRIPTION": "At the start of turn,add !M! *Shadow *Flower+ to your hand."
   },
   "RingOfDestiny:GasBomb": {
     "NAME": "Gas Bomb",
-    "DESCRIPTION": "每当你给予敌人 中毒 时，额外给予 !M! 层。"
+    "DESCRIPTION": "When ever you apply Poison,apply extra !M! stacks."
   },
   "RingOfDestiny:RattanBeetle": {
     "NAME": "Rattan Beetle",
-    "DESCRIPTION": "获得 !M! 层 荆棘 。"
+    "DESCRIPTION": "Gain !M! Thorns."
   },
   "RingOfDestiny:StaminaBook": {
     "NAME": "Stamina Book",
-    "DESCRIPTION": "每打出三张技能牌，获得 !M! 点 荆棘 。"
+    "DESCRIPTION": "For each 3 Skills you played,gain !M! Thorns."
   },
   "RingOfDestiny:DeadlyShadow": {
     "NAME": "Deadly Shadow",
-    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，则制造一个 ring_of_destiny:影分身 。"
+    "DESCRIPTION": "Deal !D! damage. NL if this kill enemy,create a ring_of_destiny:Shadow."
   },
   "RingOfDestiny:DeadlyArts": {
     "NAME": "Deadly Arts",

@@ -3,7 +3,7 @@
     "MOVES": [
       ""
     ],
-    "NAME": "魔王阿鲁多",
+    "NAME": "Demon Arudo",
     "DIALOG": [
       ""
     ]
@@ -12,7 +12,7 @@
     "MOVES": [
       ""
     ],
-    "NAME": "魅魔莉莉丝",
+    "NAME": "Succubus Lilith",
     "DIALOG": [
       ""
     ]
@@ -21,68 +21,59 @@
     "MOVES": [
       ""
     ],
-    "NAME": "伯爵拉夏尔",
+    "NAME": "Earl Rachael",
     "DIALOG": [
       ""
     ]
   },
   "RingOfDestiny:Rita": {
     "MOVES": [
-      "烈风拳",
-      "毒蝎刺冲",
-      "威吓",
-      "灭族天国",
-      "黑暗屏障",
-      "凯撒波",
-      "丽塔处刑",
-      "凯撒凤凰",
-      "灭族切割",
-      "地狱压杀",
-      "终极覆灭",
-      "最终裁决"
+      "Wind Slice",
+      "Scorpion Blow",
+      "Intimidate",
+      "Genocide Heaven",
+      "Dark Barrier",
+      "Kaiser Wave",
+      "Rita Execution",
+      "Kaiser Phoenix",
+      "Genocide Cutter",
+      "Hell Press",
+      "Destruction - Omega",
+      "Last Judgement"
     ],
-    "NAME": "丽塔・伯恩斯坦",
+    "NAME": "Rita Bernstein",
     "DIALOG": [
-      "哼哼哼……",
-      "事情突然变得有趣了起来……",
-      "@那么，现在我要认真起来战斗了！@",
-      "呵呵呵！",
-      "到现在还想与我为敌 NL 值得称赞！",
-      "但是，在使用了这种力量之后的我会被打倒吗！",
-      "@呜哇哇哇哇哇！！！@",
-      "呵呵呵……算了",
-      "只要这个世界需要我，我肯定会再次复活的！",
-      "……再会了……"
+      "HA HA...",
+      "You've entertained me quite well...",
+      " @Now@ @I@ @shall@ @fight@ @you@ @with@ @FULL@ @STRENGTH!@  ",
+      "Hen, Hen.",
+      "You did well for a product.",
+      "But now,I'm going to use my new power!",
+      "@WOOOOOO.....@",
+      "Even with this power,i lost.",
+      "As long as the world needs me, I will certainly resurrect!",
+      "……YOU JERKS……"
     ]
   },
   "RingOfDestiny:Bronze_Statue": {
     "MOVES": [
       ""
     ],
-    "NAME": "铜像",
+    "NAME": "Bronze Statue",
     "DIALOG": [
       ""
     ]
   },
   "RingOfDestiny:fyra": {
     "MOVES": [
-      "援护 狮子",
-      "斩风燕破 判镜",
-      "疾火煌阵",
-      "白罗灭精"
+      "Stirker Glugan",
+      "Cutting Swallow Mirror Slam",
+      "Flashing Flame Fortress",
+      "White Destroyer Spirit"
     ],
-    "NAME": "菲拉・诺尔",
+    "NAME": "Fyra Noll",
     "DIALOG": [
-      "哼哼哼……",
-      "事情突然变得有趣了起来……",
-      "@那么，现在我要认真起来战斗了！@",
-      "呵呵呵！",
-      "到现在还想与我为敌 NL 值得称赞！",
-      "但是，在使用了这种力量之后的我会被打倒吗！",
-      "@呜哇哇哇哇哇！！！@",
-      "呵呵呵……算了",
-      "只要这个世界需要我，我肯定会再次复活的！",
-      "……再会了……"
+      ""
     ]
   }
 }
