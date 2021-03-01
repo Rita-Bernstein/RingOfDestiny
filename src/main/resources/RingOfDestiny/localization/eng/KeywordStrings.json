@@ -1,10 +1,10 @@
 [
   {
-    "PROPER_NAME": "影分身",
+    "PROPER_NAME": "Shadow",
     "NAMES": [
-      "影分身"
+      "shadow"
     ],
-    "DESCRIPTION": "攻击牌将被打出 #y影分身 数量次数。最多能同时拥有 #b2 个影分身。回合结束时失去所有 #y影分身 。"
+    "DESCRIPTION": "#yAttack card will be played extra times equals to your #pShadows. NL You can have up to #b2 #pShadows. NL Lose all your #pShadow at the end of turn."
   },
   {
     "PROPER_NAME": "死亡刻印",

@@ -133,7 +133,7 @@
   },
   "RingOfDestiny:StatusCardPatch": {
     "TEXT": [
-      "通用"
+      "Colorless"
     ]
   },
   "RingOfDestiny:DarkFormLibraryPatches": {
@@ -142,15 +142,41 @@
       "光明形态"
     ]
   },
+  "RingOfDestiny:IdeologyCorridor": {
+    "TEXT": [
+      "Act 1",
+      "Ideology Corridor"
+    ]
+  },
+  "RingOfDestiny:KnowledgeHall": {
+    "TEXT": [
+      "Act 2",
+      "Knowledge Hall"
+    ]
+  },
+  "RingOfDestiny:WisdomThrone": {
+    "TEXT": [
+      "Act 3",
+      "Wisdom Throne"
+    ]
+  },
   "RingOfDestiny:BlackNoah": {
     "TEXT": [
-      "黑色诺亚"
+      "Final Act",
+      "Black Noah"
     ]
   },
   "RingOfDestiny:RitaPowermeter": {
     "TEXT": [
       "气槽",
       "当它被充满时，下一回合将使用 #y超必杀 ！"
+    ]
+  },
+  "RingOfDestiny:ModSettings": {
+    "TEXT": [
+      "Add wip character:Inherit (require restart)",
+      "Enable Diamond tutorial.",
+      "Enable Soul Stone tutorial."
     ]
   }
 }

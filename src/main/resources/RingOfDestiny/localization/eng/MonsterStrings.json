@@ -75,5 +75,87 @@
     "DIALOG": [
       ""
     ]
+  },
+  "RingOfDestiny:ExtinctionMoon": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Extinction Moon",
+    "DIALOG": [
+      "来！吃一颗苹果吧",
+      "哼！我讨厌魔法"
+    ]
+  },
+  "RingOfDestiny:EvilEye": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Evil Eye",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:TalkingChest": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Talking Chest",
+    "DIALOG": [
+      "下回合我就跑咯"
+    ]
+  },
+  "RingOfDestiny:TheMonitor": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "The Monitor",
+    "DIALOG": [
+      "#r@入侵警报@ NL #r@入侵警报@"
+    ]
+  },
+  "RingOfDestiny:SpiderQueen": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Spider Queen",
+    "DIALOG": [
+      "来人！"
+    ]
+  },
+  "RingOfDestiny:SpiderChildG": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Spider Child",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:SpiderChildR": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Popcorn Spider",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:ThePien": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "The Pien",
+    "DIALOG": [
+      "秘籍·八重嘤"
+    ]
+  },
+  "RingOfDestiny:ValhallaChronicles": {
+    "MOVES": [
+      "Doomsday Feast"
+    ],
+    "NAME": "Valhalla Chronicles",
+    "DIALOG": [
+      "摩擦吧，冒险者 (¬◡¬)✧~"
+    ]
   }
 }
