@@ -1,9 +1,9 @@
 {
   "RingOfDestiny:DiamondTutorial": {
     "TEXT": [
-      " #y氪金术士 可以通过 #y氪金石 来获得不同的被动与主动效果。",
-      "当前的 #y氪金石 数量显示在能量界面的上方。 NL NL #y氪金石 最多能拥有 #b10 颗。 NL NL #y氪金石 的上方显示着一些被动和主动数值。",
-      "光标悬停在 #y氪金石 上能看到具体信息。"
+      " #yPurchemist gain different effect by using #yDiamonds .",
+      "The current amount of Diamond is shown above the energy interface. NL NL You have up to #b10 #yDiamonds. NL NL At the top of the diamond shows some passive and active amount.",
+      "Hover the cursor over the #yDiamond to see the specific information."
     ],
     "LABEL": [
       "Next",
@@ -15,10 +15,10 @@
   },
   "RingOfDestiny:SoulStoneTutorial": {
     "TEXT": [
-      " #y恶魔召唤师 战斗前可以选择召唤一个 #p恶魔 。 NL NL #p恶魔 会以不同的方式协助 #y恶魔召唤师 攻击。",
-      "此处显示 #p恶魔 的攻击力。 NL NL #p恶魔 的攻击力可以通过 #y原罪 牌提升。",
-      "长按可以 #y献祭 #p恶魔 NL NL #y恶魔召唤师 将获得不同的 #y恶魔之力 。",
-      " #p灵魂石 是 #y恶魔召唤师 独有资源。 NL NL 可用来打出 #y灵魂石牌。 NL NL #y灵魂石 最多储存 #b3 颗，每场战斗开始时获得 #b1 颗。"
+      " #ySummoner can summon a  #pDemon at the start of battle. NL NL #pDemon will Attack with #ySummoner by different ways.",
+      "Demon's attack damage is shown here. NL NL #yOriginal #ySin will Increase this damage.",
+      "Hold Left Mouse will #ySacrifice #pDemon. NL NL And #ySummoner will gain different power from #pDemon.",
+      " #pSoul #pStone is a kind of unique resource of #ySummoner. NL NL It can be use for play #ySoul #yStone cards. NL NL You have up to #b3 #pSoul #pStones. Obtain #b1 at the start of each combat,"
     ],
     "LABEL": [
       "Next",

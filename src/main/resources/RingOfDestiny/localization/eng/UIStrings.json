@@ -54,34 +54,34 @@
   "RingOfDestiny:Demon": {
     "TEXT": [
       "Demon Arudo",
-      "The strongest soldier with the battle sickle of hell",
-      "Lava Lord"
+      "The strongest soldier with\nthe battle sickle of hell",
+      "\nLava Lord"
     ],
     "EXTRA_TEXT": [
       " #yTyranny ： NL Arudo will deal damage to random enemy when player played #yAttack. NL NL ",
-      " #yHegemony ： (hold nto sacrifice) NL At the start of each turn,reduce a #yAttack card cost to 0 this turn."
+      " #yHegemony NL (hold to sacrifice) NL At the start of each turn,reduce a #yAttack card cost to 0 this turn."
     ]
   },
   "RingOfDestiny:Succubus": {
     "TEXT": [
       "Succubus Lilith",
-      "Good at charm and manipulating magic",
-      "Queen of Succubus"
+      "Good at charm and\nmanipulating magic",
+      "\nQueen of Succubus"
     ],
     "EXTRA_TEXT": [
-      "  #yCharm ： NL Lilith will deal damage to random enemy when player played #ySkill. NL NL ",
-      "  #yMagic Control ：(hold nto sacrifice) NL Reduce All Skills cost by 1 this combat.(not less than 1) NL Gain #b20 #yBlock and Gain a #ySoul #yStone.。"
+      " #yCharm ： NL Lilith will deal damage to random enemy when player played #ySkill. NL NL ",
+      " #yMagic #yControl NL (hold to sacrifice) NL Reduce All Skills cost by 1 this combat.(not less than 1) NL Gain #b20 #yBlock and Gain a #ySoul #yStone.。"
     ]
   },
   "RingOfDestiny:Vampire": {
     "TEXT": [
       "Vampire La Chateau",
-      "Curse weakens the enemy and draws energy",
-      "Bloodline Count"
+      "Curse weakens the enemy\nand draws energy",
+      "\nBloodline Count"
     ],
     "EXTRA_TEXT": [
-      "  #yTorment ： NL La Chateau will deal damage to random enemy when player is Attacked. NL NL ",
-      "  #yAncient #ylineage ： (hold nto sacrifice) NL Apply #b1 Extract to Random enemy when you lost HP."
+      " #yTorment ： NL La Chateau will deal damage to random enemy when player is Attacked. NL NL ",
+      " #yAncient #ylineage NL (hold to sacrifice) NL Apply #b1 Extract to Random enemy when you lost HP."
     ]
   },
   "RingOfDestiny:NullSummon": {
@@ -174,9 +174,9 @@
   },
   "RingOfDestiny:ModSettings": {
     "TEXT": [
-      "Add wip character:Inherit (require restart)",
-      "Enable Diamond tutorial.",
-      "Enable Soul Stone tutorial."
+      "Add WIP character:Inherit.(require restart)",
+      "Disable Diamond tutorial.",
+      "Disable Soul Stone tutorial."
     ]
   }
 }
