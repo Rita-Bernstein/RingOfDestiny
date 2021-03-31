@@ -1,80 +1,80 @@
 {
   "RingOfDestiny:BeltPower": {
-    "NAME": "忍具袋",
+    "NAME": "Belt",
     "DESCRIPTIONS": [
-      "你的回合开始时，将 #b",
-      " 张 #y影之花 加入你的手牌。",
-      " 张 #y影之花 加入你的手牌。"
+      "At the Start of your turn,Add #b",
+      " #yShadow #yRose to your hand.",
+      " #yShadow #yRose to your hand."
     ]
   },
   "RingOfDestiny:UpgradedBeltPower": {
-    "NAME": "忍具袋+",
+    "NAME": "Belt+",
     "DESCRIPTIONS": [
-      "你的回合开始时，将 #b",
-      " 张 #y影之花+ 加入你的手牌。",
-      " 张 #y影之花+ 加入你的手牌。"
+      "At the Start of your turn,Add #b",
+      " #yShadow #yRose+ to your hand.",
+      " #yShadow #yRose+ to your hand."
     ]
   },
   "RingOfDestiny:GasBombPower": {
-    "NAME": "毒之弹",
+    "NAME": "Gas Bomb",
     "DESCRIPTIONS": [
-      "每当你给予 #y中毒 时，额外给予 #b",
-      " 层 #y中毒 。"
+      "Whenever you apply #yPoison,extra apply #b",
+      " stacks."
     ]
   },
   "RingOfDestiny:StaminaBookPower": {
-    "NAME": "体术秘籍",
+    "NAME": "Stamina Book",
     "DESCRIPTIONS": [
-      "每打出三张 #y技能牌 ，获得 #b",
-      " 层 #y荆棘 。（已打出 #b",
-      " 出张 #y技能牌 。"
+      "For each 3 Skills you played,gain #b",
+      " #yThorns.( #b",
+      " #ySkills played)"
     ]
   },
   "RingOfDestiny:MakibisiPower": {
-    "NAME": "撒菱",
+    "NAME": "Makibisi",
     "DESCRIPTIONS": [
-      "每丢弃一张牌，获得 #b",
-      " 层 #y荆棘 。"
+      "Whenever you discard a card, NL gain #b",
+      " #yThorns."
     ]
   },
   "RingOfDestiny:NinjutsuScrollPower": {
-    "NAME": "忍术卷轴",
+    "NAME": "Ninjutsu Scroll",
     "DESCRIPTIONS": [
-      "每当有一张牌被 #y消耗 时，获得 [E] 。",
-      "每当有一张牌被 #y消耗 时，获得 #b",
-      " [E] 。"
+      "Whenever you Exhaust a card,gain [E] .",
+      "Whenever you Exhaust a card,gain #b",
+      " [E] ."
     ]
   },
   "RingOfDestiny:DeadlyArtsPower": {
-    "NAME": "杀阵",
+    "NAME": "Deadly Arts",
     "DESCRIPTIONS": [
-      "下个回合开始时，制造一个 #y影分身 。",
-      "下 #b",
-      " 个回合开始时，制造一个 #y影分身 。"
+      "At the start of next turn,create a #yShadow.",
+      "At the start of #b",
+      " turns,create a #yShadow."
     ]
   },
   "RingOfDestiny:ShadowMarkPower": {
-    "NAME": "暗影印记",
+    "NAME": "Shadow Mark",
     "DESCRIPTIONS": [
-      "本回合结束时，这名敌人受到你与影分身造成伤害总和 #b150% 伤害。（造成 #b",
-      "接下来的 #b",
-      " 个回合结束时，这名敌人受到你与影分身造成伤害总和 #b150% 伤害。（造成 #b",
-      " 点伤害）。"
+      "At the end of this turn,this enemy will take damage equals to 150% of damage you and your ring_of_destiny:shadow dealt.(Deal #b",
+      "At the end of #b",
+      " turns,this enemy will take damage equals to 150% of damage you and your ring_of_destiny:shadow dealt.(Deal #b",
+      " Damage.)"
     ]
   },
   "RingOfDestiny:InfectMarkPower": {
-    "NAME": "感染印记",
+    "NAME": "Infect Mark",
     "DESCRIPTIONS": [
-      "本回合内，每当你给予 #y中毒 时，将额外给予这名敌人等量的 #y中毒 。",
-      "接下来的 #b",
-      " 个回合内，每当你给予 #y中毒 时，将额外给予这名敌人等量的 #y中毒 。"
+      "In this turn,when you apply Poison also apply to this target.",
+      "In next #b",
+      " turns,when you apply Poison also apply to this target."
     ]
   },
   "RingOfDestiny:BottlePoisonPower": {
-    "NAME": "毒之瓶",
+    "NAME": "Bottle Poison",
     "DESCRIPTIONS": [
-      "每次使用卡牌攻击时同时给予 #b",
-      " 层 #y中毒 。"
+      "Each Attack from a card will apply #b",
+      " #yPoison."
     ]
   },
   "RingOfDestiny:EtchPower": {

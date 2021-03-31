@@ -1582,7 +1582,7 @@
   },
   "RingOfDestiny:Blockade": {
     "NAME": "封锁",
-    "DESCRIPTION": "抽到这张牌时，你在这个回合内不能再抽任何牌。 NL 消耗 。"
+    "DESCRIPTION": "这张牌在你的手牌中时，你不能再抽任何牌。 NL 消耗 。"
   },
   "RingOfDestiny:Slip": {
     "NAME": "失足",

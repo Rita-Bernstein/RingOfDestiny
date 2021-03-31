@@ -20,13 +20,13 @@
     "NAME": "Shadow Stab",
     "DESCRIPTION": "Deal !D! damage."
   },
-  "RingOfDestiny:Corrosion": {
+  "RingOfDestiny:ShadowCorrosion": {
     "NAME": "Corrosion",
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak."
   },
   "RingOfDestiny:FlashOfSlash": {
     "NAME": "Flash Of Slash",
-    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack,apply it !M! Poison."
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack,apply !M! Poison."
   },
   "RingOfDestiny:HexaMudra": {
     "NAME": "HexaMudra",
@@ -39,12 +39,12 @@
   },
   "RingOfDestiny:ShadowBlossom": {
     "NAME": "Shadow Blossom",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL if this kill enemy,add 2 *Shadow *Flower to your hand.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL if this kill enemy,add 2 *Shadow *Flower+ to your hand."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL if this kill enemy,add 2 *Shadow *Rose to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL if this kill enemy,add 2 *Shadow *Rose+ to your hand."
   },
   "RingOfDestiny:Spur": {
     "NAME": "Spur",
-    "DESCRIPTION": "Deal !D! damage and Apply 1 Poison , !M! times."
+    "DESCRIPTION": "Deal !D! damage and Apply 1 Poison , NL !M! times."
   },
   "RingOfDestiny:Agile": {
     "NAME": "Agile",
@@ -60,7 +60,7 @@
   },
   "RingOfDestiny:ButaMudra": {
     "NAME": "ButaMudra",
-    "DESCRIPTION": "Heal !M! HP. Gain 1 Artifact. NL Exhaust."
+    "DESCRIPTION": "Heal !M! HP. NL Gain 1 Artifact. NL Exhaust."
   },
   "RingOfDestiny:HeptMudra": {
     "NAME": "HeptMudra",
@@ -72,8 +72,8 @@
   },
   "RingOfDestiny:Ridicule": {
     "NAME": "Ridicule",
-    "DESCRIPTION": "Gain !B! Block. Change enemy's intent to Attack. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. Change enemy's intent to Attack. "
+    "DESCRIPTION": "Gain !B! Block. NL Change enemy's intent to Attack. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Change enemy's intent to Attack. "
   },
   "RingOfDestiny:MetalRelease": {
     "NAME": "Metal Release",
@@ -97,7 +97,7 @@
   },
   "RingOfDestiny:SneakAttack": {
     "NAME": "Sneak Attack",
-    "DESCRIPTION": "Deal !D! damage.Draw !M! Card."
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! card."
   },
   "RingOfDestiny:ShurikenFlip": {
     "NAME": "Shuriken Flip",
@@ -126,7 +126,7 @@
   "RingOfDestiny:KunaiSpray": {
     "NAME": "Kunai Spray",
     "DESCRIPTION": "Deal !D! damage to ALL enemies X times.",
-    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害X+ !M! 次。"
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies X+ !M! times."
   },
   "RingOfDestiny:FinalAttack": {
     "NAME": "Final Attack",
@@ -206,92 +206,92 @@
   },
   "RingOfDestiny:DeadlyArts": {
     "NAME": "Deadly Arts",
-    "DESCRIPTION": "下 !M! 个回合制造一个 ring_of_destiny:影分身 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "下 !M! 个回合制造一个 ring_of_destiny:影分身 。"
+    "DESCRIPTION": "Next !M! turn create a ring_of_destiny:Shadow . NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Next !M! turn create a ring_of_destiny:Shadow ."
   },
   "RingOfDestiny:Makibisi": {
     "NAME": "Makibisi",
-    "DESCRIPTION": "每丢弃一张牌，获得 !M! 层 荆棘 。"
+    "DESCRIPTION": "Whenever you discard a card, NL gain !M! Thorns."
   },
   "RingOfDestiny:MethMudra": {
     "NAME": "MethMudra",
-    "DESCRIPTION": "造成 !D! 点伤害X次，给予X层 中毒 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害X+ !M! 次，给予X+ !M! 层 中毒 。"
+    "DESCRIPTION": "Deal !D! damage X times. NL Apply X Poison.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage X+ !M! times. NL Apply X+ !M! Poison."
   },
   "RingOfDestiny:PropMudra": {
     "NAME": "PropMudra",
-    "DESCRIPTION": "造成 !D! 点伤害。"
+    "DESCRIPTION": "Deal !D! damage."
   },
   "RingOfDestiny:PerfectExecution": {
     "NAME": "Perfect Execution",
-    "DESCRIPTION": "造成 !D! 点伤害。如果杀死了敌人，将这张牌返回手牌并获得 [E] [E] [E] 。"
+    "DESCRIPTION": "Deal !D! damage. NL If this kill enemy,return this to your hand and gain [E] [E] [E] ."
   },
   "RingOfDestiny:DodeMudra": {
     "NAME": "DodeMudra",
-    "DESCRIPTION": "获得 !B! 点 格挡 X次。所有敌人本回合失去X点 力量 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 X+ !M! 次。所有敌人本回合失去X+ !M! 点 力量 。 NL 消耗 。"
+    "DESCRIPTION": "Gain !B! Block X times. NL All Enemy lose X Strength this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block X+ !M! times. NL All Enemy lose X+ !M! Strength this turn. NL Exhaust."
   },
   "RingOfDestiny:WorldOfFloweringTree": {
     "NAME": "World Of Flowering Tree",
-    "DESCRIPTION": "给予所有敌人 !M! 层 中毒 。"
+    "DESCRIPTION": "Apply !M! Poison."
   },
   "RingOfDestiny:ShadowMark": {
     "NAME": "Shadow Mark",
-    "DESCRIPTION": "标记一个目标。你的回合结束时，对其造成标记后你和 ring_of_destiny:影分身 伤害总和150%的伤害。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 标记一个目标。你的回合结束时，对其造成标记后你和 ring_of_destiny:影分身 伤害总和150%的伤害。 NL 消耗 。"
+    "DESCRIPTION": "Mark a target.At the end of your turn,deal damage equals to 150% of damage you and your ring_of_destiny:shadow dealt to this target. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Mark a target.At the end of your turn,deal damage equals to 150% of damage you and your ring_of_destiny:shadow dealt to this target. Exhaust."
   },
   "RingOfDestiny:InfectMark": {
     "NAME": "Infect Mark",
-    "DESCRIPTION": "标记一个目标。本回合内给予 中毒 时，给予本目标等量 中毒 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 标记一个目标。本回合内给予 中毒 时，给予本目标等量 中毒 。 NL 消耗 。"
+    "DESCRIPTION": "Mark a target.When you apply Poison also apply to this target in this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Mark a target.When you apply Poison also apply to this target in this turn. NL Exhaust."
   },
   "RingOfDestiny:ForbiddenArts": {
     "NAME": "Forbidden Arts",
-    "DESCRIPTION": "失去 !M! 点生命。获得 [E] [E] [E] ,抽 !RODSecondM! 张牌。 NL 消耗 。"
+    "DESCRIPTION": "Lose !M! HP. NL Gain [E] [E] [E] ,Draw !RODSecondM! cards. NL Exhaust."
   },
   "RingOfDestiny:Recollection": {
     "NAME": "Recollection",
-    "DESCRIPTION": "失去 !M! 点生命。选择一张已 消耗 的牌加入手牌。 NL 消耗 。"
+    "DESCRIPTION": "Lose !M! HP. NL Add a card from exhaust pile to your hand. NL Exhaust."
   },
   "RingOfDestiny:ShadowPortal": {
     "NAME": "Shadow Portal",
-    "DESCRIPTION": "失去 !M! 点生命。将抽牌堆中的 !RODSecondM! 张牌加入手牌。 NL 消耗 。"
+    "DESCRIPTION": "Lose !M! HP. NL Add !RODSecondM! cards from your draw pile to your hand. NL Exhaust."
   },
   "RingOfDestiny:DarkProjection": {
     "NAME": "Dark Projection",
-    "DESCRIPTION": "失去 !M! 点生命。复制手牌中的 !RODSecondM! 张技能牌。 NL 消耗 。"
+    "DESCRIPTION": "Lose !M! HP. NL Copy !RODSecondM! card in your hand. NL Exhaust."
   },
   "RingOfDestiny:RepeatOffender": {
     "NAME": "Repeat Offender",
-    "DESCRIPTION": "失去 !M! 点生命。将弃牌堆中的一张牌放到抽牌堆顶部。"
+    "DESCRIPTION": "Lose !M! HP. NL Move a card from your discard pile to the top of your draw pile."
   },
   "RingOfDestiny:NinjutsuMudra": {
     "NAME": "Ninjutsu Mudra",
-    "DESCRIPTION": "消耗 所有手牌。每 消耗一张牌，将一张“结印”牌加入你的手牌。",
-    "UPGRADE_DESCRIPTION": "消耗 所有手牌。每 消耗一张牌，将一张已 升级 的“结印”牌加入你的手牌。"
+    "DESCRIPTION": "Exhaust all cards in your hand. NL Add a \"Mudra\" card to your hand for each card you exhaust.",
+    "UPGRADE_DESCRIPTION": "Exhaust all cards in your hand. NL Add a Upgraded \"Mudra\" card to your hand for each card you exhaust."
   },
   "RingOfDestiny:NinjutsuScroll": {
     "NAME": "Ninjutsu Scroll",
-    "DESCRIPTION": "每 消耗 一张牌。获得 [E] 。"
+    "DESCRIPTION": "Whenever you Exhaust a card,gain [E]."
   },
   "RingOfDestiny:BottlePoison": {
     "NAME": "Bottle Poison",
-    "DESCRIPTION": "每次使用卡牌攻击时同时给予 !M! 层 中毒。"
+    "DESCRIPTION": "Each Attack from a card will apply !M! Poison."
   },
   "RingOfDestiny:Defend_MB": {
     "NAME": "Defend",
-    "DESCRIPTION": "获得 !B! 点 格挡 。"
+    "DESCRIPTION": "Gain !B! Block."
   },
   "RingOfDestiny:Strike_MB": {
-    "NAME": "魔弹",
-    "DESCRIPTION": "造成 !D! 点伤害。"
+    "NAME": "Bullet",
+    "DESCRIPTION": "Deal !D! damage."
   },
   "RingOfDestiny:DeadlyShoot": {
-    "NAME": "必杀一击",
+    "NAME": "Deadly Shoot",
     "DESCRIPTION": "造成 !D! 点伤害。 ring_of_destiny:击杀 时，再随机攻击一次。"
   },
   "RingOfDestiny:EtchSpirit": {
-    "NAME": "刻印之灵",
+    "NAME": "Etch Spirit",
     "DESCRIPTION": " ring_of_destiny:唯一 。增加 ring_of_destiny:死亡刻印 NL 伤害 !RODSecondM! 点。每打出一次，本局游戏中这张牌的效果增加 !M! 。"
   },
   "RingOfDestiny:Potential": {
@@ -749,9 +749,9 @@
     "DESCRIPTION": "本回合结束时， NL 不结算 ring_of_destiny:流血 。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "本回合结束时， NL 不结算 ring_of_destiny:流血 。"
   },
-  "RingOfDestiny:ShadowCorrosion": {
-    "NAME": "腐蚀",
-    "DESCRIPTION": "消耗 手牌中所有非攻击牌。每 消耗 一张牌，给予敌人 !M! 层 ring_of_destiny:流血 。"
+  "RingOfDestiny:Corrosion": {
+    "NAME": "Corrosion",
+    "DESCRIPTION": "Exhaust All non-Attack cards in your hand.每 消耗 一张牌，给予敌人 !M! 层 ring_of_destiny:流血 。"
   },
   "RingOfDestiny:CrushDiamond": {
     "NAME": "碎石",
@@ -1578,7 +1578,7 @@
   },
   "RingOfDestiny:Blockade": {
     "NAME": "Blockade",
-    "DESCRIPTION": "You cannot draw additional cards this turn when drawn. NL Exhaust."
+    "DESCRIPTION": "You cannot draw additional cards this turn when this in your hand. NL Exhaust."
   },
   "RingOfDestiny:Slip": {
     "NAME": "Slip",
