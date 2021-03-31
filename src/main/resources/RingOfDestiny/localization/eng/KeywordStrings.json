@@ -11,132 +11,132 @@
     "NAMES": [
       "etch"
     ],
-    "DESCRIPTION": "每叠满 #b4 层之后引爆，造成 #b30 点伤害。"
+    "DESCRIPTION": "Explode and deal #b30 damage for each #b4 stack."
   },
   {
     "PROPER_NAME": "Uniqe",
     "NAMES": [
       "uniqe"
     ],
-    "DESCRIPTION": "只能从卡牌奖励或商店中获得。 NL 获得本牌后，本局游戏将不会出现这张牌。 NL （同一奖励界面不影响）"
+    "DESCRIPTION": "Only can be obtain in card reward or shop. NL You wont see this unique card this run after you obtain it. NL (wont effect in same reward screen)"
   },
   {
     "PROPER_NAME": "Sentencing",
     "NAMES": [
       "sentencing"
     ],
-    "DESCRIPTION": "消除敌人一定层数的 #y定罪 来提高攻击次数。"
+    "DESCRIPTION": "Increase the number of attacks by using #yConviction."
   },
   {
     "PROPER_NAME": "Kill",
     "NAMES": [
       "kill"
     ],
-    "DESCRIPTION": "如果杀死了敌人，触发效果。"
+    "DESCRIPTION": "Trigger effect after you kill creature."
   },
   {
     "PROPER_NAME": "Diamond",
     "NAMES": [
       "diamond"
     ],
-    "DESCRIPTION": "最多拥有 #b10 颗。每颗超过上限部分的 #y氪金石 将对生命最少的敌人造成 #b6 点伤害。"
+    "DESCRIPTION": "Up to #b10 .Diamond will deal #b6 damage to the enemy with lowest HP each diamond over #b10."
   },
   {
     "PROPER_NAME": "Bleeding",
     "NAMES": [
       "bleeding"
     ],
-    "DESCRIPTION": "受到攻击伤害时额外受到 #y流血 层数的伤害，并减少一层。 NL 回合结束时失去 #y流血 层数的生命并移除该效果。"
+    "DESCRIPTION": "Lose HP equals stack of Bleeding when be attacked and reduced by #b1 . NL Lose HP at the start of their turn and remove this effect."
   },
   {
     "PROPER_NAME": "Warth of Fortune Cat",
     "NAMES": [
       "fortune_cat"
     ],
-    "DESCRIPTION": "每颗超过上限部分的 #y氪金石 将对生命最少的敌人造成 #6 点伤害。"
+    "DESCRIPTION": "Diamond will deal #b6 more damage to the enemy with lowest HP each diamond over #b10."
   },
   {
     "PROPER_NAME": "Diamond Halo",
     "NAMES": [
       "diamond_halo"
     ],
-    "DESCRIPTION": " #y氪金石 达到一定数量时将触发一些 #g额外效果 。"
+    "DESCRIPTION": " #yDiamond will trigger extra effect when you have more than a certain amount."
   },
   {
     "PROPER_NAME": "Original Sin",
     "NAMES": [
       "original_sin"
     ],
-    "DESCRIPTION": " #y原罪 将提高 #p恶魔 造成的伤害。"
+    "DESCRIPTION": " Increase damage #pDemon's dealt."
   },
   {
     "PROPER_NAME": "Extract",
     "NAMES": [
       "extract"
     ],
-    "DESCRIPTION": "每有 #b2 层时，失去 #b2 层。同时你将回复 #b1 点生命。"
+    "DESCRIPTION": "Gain #b1 HP for each #b2 stack."
   },
   {
     "PROPER_NAME": "Doomsday Etch",
     "NAMES": [
       "doomsday_etch"
     ],
-    "DESCRIPTION": " #y末日陨石 对带有 #y末日印记 的目标伤害提高。最多 #b10 层。"
+    "DESCRIPTION": " #yDoomsday #yMeteorite deal more damage to creature has #yDoomsday #yEtch."
   },
   {
     "PROPER_NAME": "Soul Stone",
     "NAMES": [
       "soul_stone"
     ],
-    "DESCRIPTION": "使用 #y灵魂石 牌需要消耗 #y灵魂石 。这些牌的效果通常比较强大。"
+    "DESCRIPTION": "Play #ySoul #yStone #yCard needs #pSoul Stone. NL These cards are usually more powerful."
   },
   {
     "PROPER_NAME": "Metallicize",
     "NAMES": [
       "metallicize"
     ],
-    "DESCRIPTION": "在你的回合结束时，获得 #y格挡 。"
+    "DESCRIPTION": "Gain #yBlock at the end of your turn."
   },
   {
     "PROPER_NAME": "Ruin",
     "NAMES": [
       "ruin"
     ],
-    "DESCRIPTION": "战斗结束前从牌堆中暂时移除，并 #r不会 放入消耗堆"
+    "DESCRIPTION": "Remove in this battle and wont move to exhaust pile."
   },
   {
     "PROPER_NAME": "Conviction",
     "NAMES": [
       "conviction"
     ],
-    "DESCRIPTION": " #y定罪 降低生命回复效果。"
+    "DESCRIPTION": " Decrease Healing effect."
   },
   {
     "PROPER_NAME": "Dark Energy",
     "NAMES": [
       "dark_energy"
     ],
-    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y暗能量 。"
+    "DESCRIPTION": "it spends #yDark #yEnenrgy when in #yDarkness."
   },
   {
     "PROPER_NAME": "Darkness",
     "NAMES": [
       "darkness"
     ],
-    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y暗能量 。"
+    "DESCRIPTION": "it spends #yDark #yEnenrgy when in #yDarkness"
   },
   {
     "PROPER_NAME": "Brightness",
     "NAMES": [
       "brightness"
     ],
-    "DESCRIPTION": "在 #y光明形态 中，出牌消耗 #y能量 。"
+    "DESCRIPTION": "it spends #yEnenrgy when in #yDBrightness"
   },
   {
     "PROPER_NAME": "Fair",
     "NAMES": [
       "fair"
     ],
-    "DESCRIPTION": "对你和所有敌人 #y同时使用效果 。"
+    "DESCRIPTION": "Apply to you and Enemies."
   }
 ]
