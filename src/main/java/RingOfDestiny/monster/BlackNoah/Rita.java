@@ -246,8 +246,8 @@ public class Rita extends CustomMonster {
             case 0://烈风拳
                 CardCrawlGame.sound.play(RingOfDestiny.makeID("VO_Rita_Repuuken"));
 
-                addToBot(new VFXAction(new Repuuken0Effect(this.hb.x, this.hb.y), 0.0F));
-                addToBot(new VFXAction(new Repuuken1Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.y, this.hb.x, this.hb.y), 0.0F));
+//                addToBot(new VFXAction(new Repuuken0Effect(this.hb.x, this.hb.y), 0.0F));
+//                addToBot(new VFXAction(new Repuuken1Effect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.y, this.hb.x, this.hb.y), 0.0F));
                 addToBot((new CustomWaitAction(0.16f)));
 
                 for (temp = 0; temp < this.repuukenHitCount; temp++) {

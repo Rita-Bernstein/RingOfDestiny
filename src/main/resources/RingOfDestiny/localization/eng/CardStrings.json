@@ -290,7 +290,7 @@
     "DESCRIPTION": "Deal !D! damage."
   },
   "RingOfDestiny:DeadlyShoot": {
-    "NAME": "Deadly Shoot",
+    "NAME": "Deadly Shot",
     "DESCRIPTION": "Deal !D! damage. NL When ring_of_destiny:Kill ,deal to an random enemy."
   },
   "RingOfDestiny:EtchSpirit": {
@@ -447,48 +447,48 @@
   },
   "RingOfDestiny:Apoptosis": {
     "NAME": "Apoptosis",
-    "DESCRIPTION": "将一名敌人的 ring_of_destiny:死亡刻印 层数翻 !M! 倍。如果引爆 ring_of_destiny:死亡刻印 ，回复 !RODSecondM! 点生命。 NL 消耗 。"
+    "DESCRIPTION": "Increase the stack of ring_of_destiny:Etch of an enemy by !M! times. NL if this explode ring_of_destiny:Etch ,heal !RODSecondM! HP. NL Exhaust."
   },
   "RingOfDestiny:OathOfBlood": {
     "NAME": "Oath Of Blood",
-    "DESCRIPTION": "每当你从卡牌中失去生命时，随机给予敌人 !M! 层 ring_of_destiny:死亡刻印 。"
+    "DESCRIPTION": "Whenever you lose HP from a card,apply !M! ring_of_destiny:Etch to a random enemy."
   },
   "RingOfDestiny:FlowerOfDespair": {
     "NAME": "Flower Of Despair",
-    "DESCRIPTION": "每回合开始时 NL 失去 !RODSecondM! 点生命。给予所有敌人 !M! 层 ring_of_destiny:死亡刻印 。"
+    "DESCRIPTION": "Lose !RODSecondM! HP and apply !M! ring_of_destiny:Etch to All enemies at the start of each turn."
   },
   "RingOfDestiny:RapidFire": {
     "NAME": "Rapid Fire",
-    "DESCRIPTION": "Deal !D! damage.如果敌人有 ring_of_destiny:死亡刻印 ，获得 [E] 并抽 !M! 张牌。"
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has NL gain [E] and NL draw !M! card."
   },
   "RingOfDestiny:SleepingBullet": {
     "NAME": "Sleeping Bullet",
-    "DESCRIPTION": "Deal !D! damage.这张牌被 消耗 时，抽 !M! 张牌。"
+    "DESCRIPTION": "Deal !D! damage. NL If this card is Exhausted, NL draw !M! cards."
   },
   "RingOfDestiny:TrackingBullet": {
     "NAME": "Tracking Bullet",
-    "DESCRIPTION": "Deal !D! damage.如果敌人有 ring_of_destiny:死亡刻印 ，获得 !M! 点 敏捷 。"
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has ring_of_destiny:Etch ,gain !M! Dexterity."
   },
   "RingOfDestiny:Prelude": {
     "NAME": "Prelude",
-    "DESCRIPTION": "每打出一张攻击牌， NL 获得 !M! 点 格挡 。"
+    "DESCRIPTION": "Whenever you play an Attack, gain !M! Block."
   },
   "RingOfDestiny:Epilogue": {
     "NAME": "Epilogue",
-    "DESCRIPTION": "每打出一张技能牌。对所有敌人造成 !M! 伤害。"
+    "DESCRIPTION": "Whenever you play a Skill,deal !M! damage to All enemies."
   },
   "RingOfDestiny:Underhand": {
     "NAME": "Underhand",
-    "DESCRIPTION": "Deal !D! damage.如果敌人有 虚弱 ，再给予 !M! 层 ring_of_destiny:死亡刻印 。"
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Weak,apply !M! ring_of_destiny:Etch ."
   },
   "RingOfDestiny:DoomsdayMark": {
     "NAME": "Doomsday Mark",
-    "DESCRIPTION": "下 !M! 个回合， ring_of_destiny:死亡刻印 将造成双倍伤害。 消耗 。",
-    "UPGRADE_DESCRIPTION": "下 !M! 个回合， ring_of_destiny:死亡刻印 将造成双倍伤害。"
+    "DESCRIPTION": "In next !M! turns, ring_of_destiny:Etch will deal double daname. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "In next !M! turns, ring_of_destiny:Etch will deal double daname."
   },
   "RingOfDestiny:SecretAmmunition": {
     "NAME": "Secret Ammunition",
-    "DESCRIPTION": "对所有敌人Deal !D! damage.下回合获得 [E] 。"
+    "DESCRIPTION": "Deal !D! damage to All enemies. NL Gain [E] at the start of next turn."
   },
   "RingOfDestiny:LethalTwins": {
     "NAME": "Lethal Twins",
@@ -1569,7 +1569,7 @@
   },
   "RingOfDestiny:BloodSacrifice": {
     "NAME": "Blood Sacrifice",
-    "DESCRIPTION": "Unplayable. If this card is discarded from your hand,gain !M! ring_of_destiny:Dark_Energy."
+    "DESCRIPTION": "Unplayable. NL If this card is discarded from your hand,gain !M! ring_of_destiny:Dark_Energy."
   },
   "RingOfDestiny:Venom": {
     "NAME": "Venom",
