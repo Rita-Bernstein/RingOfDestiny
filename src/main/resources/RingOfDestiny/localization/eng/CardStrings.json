@@ -492,12 +492,12 @@
   },
   "RingOfDestiny:LethalTwins": {
     "NAME": "Lethal Twins",
-    "DESCRIPTION": "本回合打出的下 !M! 张 NL 攻击牌将会打出两次。",
-    "UPGRADE_DESCRIPTION": "本回合打出的下 !M! 张 NL 攻击牌和技能牌将会打出两次。"
+    "DESCRIPTION": "The next !M! Attack you played will be played twice in this turn.",
+    "UPGRADE_DESCRIPTION": "The next !M! Attack and Skill you played will be played twice in this turn."
   },
   "RingOfDestiny:LoomingDeath": {
     "NAME": "Looming Death",
-    "DESCRIPTION": "每回合开始时， NL 获得 !RODSecondM! 点 力量 NL 和 !M! 点 敏捷 。"
+    "DESCRIPTION": "At the start of each turn, NL gain !RODSecondM! Stength and !M! Dexterity."
   },
   "RingOfDestiny:TimingBreath": {
     "NAME": "Timing Breath",
@@ -506,7 +506,7 @@
   },
   "RingOfDestiny:VolleyBullet": {
     "NAME": "Volley Bullet",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。每有 !RODSecondM! 点 敏捷 额外攻击一次。"
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Deal an extra time for each !RODSecondM! Dexterity you have."
   },
   "RingOfDestiny:PressuredBullet": {
     "NAME": "Pressured Bullet",
@@ -514,8 +514,8 @@
   },
   "RingOfDestiny:MagicAbsorb": {
     "NAME": "Magic Absorb",
-    "DESCRIPTION": "窃取敌人X点 力量 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "窃取敌人X+ !M! 点 力量 。 NL 消耗 。"
+    "DESCRIPTION": "Steal X Strength form an enemy. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Steal X+ !M! Strength form an enemy. NL Exhaust."
   },
   "RingOfDestiny:Demise": {
     "NAME": "Demise",
