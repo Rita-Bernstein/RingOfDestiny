@@ -2,7 +2,7 @@
   "RingOfDestiny:BeltPower": {
     "NAME": "Belt",
     "DESCRIPTIONS": [
-      "At the Start of your turn,Add #b",
+      "At the Start of your turn, add #b",
       " #yShadow #yRose to your hand.",
       " #yShadow #yRose to your hand."
     ]
@@ -10,7 +10,7 @@
   "RingOfDestiny:UpgradedBeltPower": {
     "NAME": "Belt+",
     "DESCRIPTIONS": [
-      "At the Start of your turn,Add #b",
+      "At the Start of your turn, add #b",
       " #yShadow #yRose+ to your hand.",
       " #yShadow #yRose+ to your hand."
     ]
@@ -18,14 +18,14 @@
   "RingOfDestiny:GasBombPower": {
     "NAME": "Gas Bomb",
     "DESCRIPTIONS": [
-      "Whenever you apply #yPoison,extra apply #b",
-      " stacks."
+      "Whenever you apply #yPoison, apply #b",
+      " additional stacks."
     ]
   },
   "RingOfDestiny:StaminaBookPower": {
     "NAME": "Stamina Book",
     "DESCRIPTIONS": [
-      "For each 3 Skills you played,gain #b",
+      "For every 3 Skills you play, gain #b",
       " #yThorns.( #b",
       " #ySkills played)"
     ]
@@ -40,72 +40,72 @@
   "RingOfDestiny:NinjutsuScrollPower": {
     "NAME": "Ninjutsu Scroll",
     "DESCRIPTIONS": [
-      "Whenever you Exhaust a card,gain [E] .",
-      "Whenever you Exhaust a card,gain #b",
+      "Whenever you Exhaust a card, gain [E] .",
+      "Whenever you Exhaust a card, gain #b",
       " [E] ."
     ]
   },
   "RingOfDestiny:DeadlyArtsPower": {
     "NAME": "Deadly Arts",
     "DESCRIPTIONS": [
-      "At the start of next turn,create a #yShadow.",
-      "At the start of #b",
-      " turns,create a #yShadow."
+      "At the start of your next turn, create a #yShadow.",
+      "At the start of your next #b",
+      " turns, create a #yShadow."
     ]
   },
   "RingOfDestiny:ShadowMarkPower": {
     "NAME": "Shadow Mark",
     "DESCRIPTIONS": [
-      "At the end of this turn,this enemy will take damage equals to 150% of damage you and your ring_of_destiny:shadow dealt.(Deal #b",
+      "At the end of this turn, this enemy will take damage equal to 150% of damage you and your ring_of_destiny:shadow dealt. (Deal #b",
       "At the end of #b",
-      " turns,this enemy will take damage equals to 150% of damage you and your ring_of_destiny:shadow dealt.(Deal #b",
-      " Damage.)"
+      " turns, this enemy will take damage equal to 150% of damage you and your ring_of_destiny:shadow dealt. (Deal #b",
+      " damage.)"
     ]
   },
   "RingOfDestiny:InfectMarkPower": {
     "NAME": "Infect Mark",
     "DESCRIPTIONS": [
-      "In this turn,when you apply Poison also apply to this target.",
-      "In next #b",
-      " turns,when you apply Poison also apply to this target."
+      "During this turn, whenever you apply Poison also apply it to this target.",
+      "During the next #b",
+      " turns, whenever you apply Poison also apply it to this target."
     ]
   },
   "RingOfDestiny:BottlePoisonPower": {
     "NAME": "Bottle Poison",
     "DESCRIPTIONS": [
-      "Each Attack from a card will apply #b",
+      "Each attack from a card will apply #b",
       " #yPoison."
     ]
   },
   "RingOfDestiny:EtchPower": {
     "NAME": "Etch",
     "DESCRIPTIONS": [
-      "For each #b4 stacks, lose #b4 stack and #y",
+      "For each #b4 stacks, lose #b4 stacks and #y",
       " HP. NL This creature has #b",
-      " stack."
+      " stacks."
     ]
   },
   "RingOfDestiny:LoomingDeathPower": {
     "NAME": "Looming Death",
     "DESCRIPTIONS": [
-      "At the start of each turn,gain #b",
+      "At the start of each turn, gain #b",
       " #yDexterity."
     ]
   },
   "RingOfDestiny:NightPendantPower": {
     "NAME": "Night Pendant",
     "DESCRIPTIONS": [
-      "Whenever you Exhaust a card,gain #b1 #yDexterity.",
-      "Whenever you Exhaust a card,gain #b",
+      "Whenever you Exhaust a card, gain #b1 #yDexterity.",
+      "Whenever you Exhaust a card, gain #b",
       " yDexterity."
     ]
   },
   "RingOfDestiny:ElegancePower": {
     "NAME": "Elegance",
     "DESCRIPTIONS": [
-      "At the start of your turn,add #b1 random #ySkill to your hand.",
-      "At the start of your turn,add #b1 random #b",
-      " #ySkills to your hand."
+      "At the start of your turn, add #b1 random #ySkill to your hand.",
+      "At the start of your turn, add #b",
+      " random #ySkills to your hand."
     ]
   },
   "RingOfDestiny:EtchSpiritPower": {
@@ -118,42 +118,42 @@
   "RingOfDestiny:EnchantmentPower": {
     "NAME": "Enchantment",
     "DESCRIPTIONS": [
-      "In this turn, #yEtch will be extra applied #b",
-      " stack."
+      "During this turn, applying #yEtch will apply #b",
+      " additional stack(s)."
     ]
   },
   "RingOfDestiny:BulletZeroPower": {
     "NAME": "Bullet Zero",
     "DESCRIPTIONS": [
-      "At the end of turn,heal #b",
-      " HP. NL HP lost for cards will increase this effect."
+      "At the end of your turn, heal #b",
+      " HP. NL HP lost from cards will increase this effect."
     ]
   },
   "RingOfDestiny:EtchReflectionPower": {
     "NAME": "Etch-Reflection",
     "DESCRIPTIONS": [
-      "Whenever you be #yAttacked in this turn,apply #b",
-      " #yEtch to Attacker."
+      "Whenever you are attacked in this turn, apply #b",
+      " #yEtch to the attacker."
     ]
   },
   "RingOfDestiny:OathOfBloodPower": {
     "NAME": "Oath Of Blood",
     "DESCRIPTIONS": [
-      "Whenever you lose HP form cards,apply #b",
+      "Whenever you lose HP form cards, apply #b",
       " #yEtch to a random enemy."
     ]
   },
   "RingOfDestiny:FlowerOfDespairPower": {
     "NAME": "Flower Of Despair",
     "DESCRIPTIONS": [
-      "At the start of each turn,Apply #b",
-      " #yEtch to All enemies."
+      "At the start of each turn, apply #b",
+      " #yEtch to all enemies."
     ]
   },
   "RingOfDestiny:PreludePower": {
     "NAME": "Prelude",
     "DESCRIPTIONS": [
-      "Whenever you play a #yAttack, gain #b",
+      "Whenever you play an #yAttack, gain #b",
       " #yBlock."
     ]
   },
@@ -167,32 +167,32 @@
   "RingOfDestiny:DoomsdayMarkPower": {
     "NAME": "Doomsday Mark",
     "DESCRIPTIONS": [
-      "Next turn, #yEtch deal double damage.",
-      "Next #b",
-      " turns, #yEtch deal double damage."
+      "Next turn, #yEtch deals double damage.",
+      "For the next #b",
+      " turns, #yEtch deals double damage."
     ]
   },
   "RingOfDestiny:DoubleEtchDamagePower": {
     "NAME": "Double Etch Damage",
     "DESCRIPTIONS": [
-      "This turn, #yEtch deal double damage.",
-      "In next #b",
-      " turns, #yEtch deal double damage."
+      "This turn, #yEtch deals double damage.",
+      "During the next #b",
+      " turns, #yEtch deals double damage."
     ]
   },
   "RingOfDestiny:PressuredBulletPower": {
     "NAME": "Pressured Bullet",
     "DESCRIPTIONS": [
       "The first #b",
-      " Attacks you play deal double damage.( #b",
-      " #yAttack played.)"
+      " Attacks you play deal double damage. ( #b",
+      " #yAttack(s) played.)"
     ]
   },
   "RingOfDestiny:ResidualPower": {
     "NAME": "Residual",
     "DESCRIPTIONS": [
       "Residual #b",
-      " stack after #yEtch exploded.(Up to #b",
+      " stack after #yEtch exploded. (Up to #b",
       " stack.)"
     ]
   },
