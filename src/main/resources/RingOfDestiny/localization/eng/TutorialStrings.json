@@ -1,9 +1,9 @@
 {
   "RingOfDestiny:DiamondTutorial": {
     "TEXT": [
-      " #yPurchemist gain different effect by using #yDiamonds .",
-      "The current amount of Diamond is shown above the energy interface. NL NL You have up to #b10 #yDiamonds. NL NL At the top of the diamond shows some passive and active amount.",
-      "Hover the cursor over the #yDiamond to see the specific information."
+      " #yPurchemist gains different effects by using #yDiamonds .",
+      "The current amount of Diamonds is shown above the energy interface. NL NL You can have up to #b10 #yDiamonds. NL NL The passive and active amounts are displayed at the top of the diamond.",
+      "Hover the cursor over the #yDiamond to see more information."
     ],
     "LABEL": [
       "Next",
@@ -15,10 +15,10 @@
   },
   "RingOfDestiny:SoulStoneTutorial": {
     "TEXT": [
-      " #ySummoner can summon a  #pDemon at the start of battle. NL NL #pDemon will Attack with #ySummoner by different ways.",
+      " #ySummoner can summon a #pDemon at the start of battle. NL NL The #pDemon will attack with the #ySummoner in different ways.",
       "Demon's attack damage is shown here. NL NL #yOriginal #ySin will Increase this damage.",
-      "Hold Left Mouse will #ySacrifice #pDemon. NL NL And #ySummoner will gain different power from #pDemon.",
-      " #pSoul #pStone is a kind of unique resource of #ySummoner. NL NL It can be use for play #ySoul #yStone cards. NL NL You have up to #b3 #pSoul #pStones. Obtain #b1 at the start of each combat,"
+      "Holding the Left Mouse button will #ySacrifice the #pDemon. NL NL And #ySummoner will gain a different power from the #pDemon.",
+      " #pSoul #pStone is a kind of unique resource of the #ySummoner. NL NL It can be used to play #ySoul #yStone cards. NL NL You can have up to #b3 #pSoul #pStones. Obtain #b1 at the start of each combat,"
     ],
     "LABEL": [
       "Next",
