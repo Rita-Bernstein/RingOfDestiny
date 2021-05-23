@@ -403,7 +403,7 @@
   },
   "RingOfDestiny:Residual": {
     "NAME": "Residual",
-    "DESCRIPTION": "When ring_of_destiny:Etch explode, NL retain !M! stack."
+    "DESCRIPTION": "When ring_of_destiny:Etch explode, NL residual !M! stack."
   },
   "RingOfDestiny:RestraintRing": {
     "NAME": "Restraint Ring",
@@ -459,7 +459,7 @@
   },
   "RingOfDestiny:RapidFire": {
     "NAME": "Rapid Fire",
-    "DESCRIPTION": "Deal !D! damage. NL If the enemy has NL gain [E] and NL draw !M! card."
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has ring_of_destiny:Etch, NL gain [E] and NL draw !M! card."
   },
   "RingOfDestiny:SleepingBullet": {
     "NAME": "Sleeping Bullet",
@@ -479,7 +479,7 @@
   },
   "RingOfDestiny:Underhand": {
     "NAME": "Underhand",
-    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Weak,apply !M! ring_of_destiny:Etch ."
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Weak,apply !M! ring_of_destiny:Etch."
   },
   "RingOfDestiny:DoomsdayMark": {
     "NAME": "Doomsday Mark",
@@ -501,8 +501,8 @@
   },
   "RingOfDestiny:TimingBreath": {
     "NAME": "Timing Breath",
-    "DESCRIPTION": "获得 [E] 并抽 !M! 张牌。 NL 每有 !RODSecondM! 点 敏捷 额外抽一张牌。 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得 [E] [E] 并抽 !M! 张牌。 NL 每有 !RODSecondM! 点 敏捷 额外抽一张牌。 消耗 。"
+    "DESCRIPTION": "Gain [E] and draw !M! cards. NL Draw an extra card for each !RODSecondM! Dexterity you have. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E] and draw !M! cards. NL Draw an extra card for each !RODSecondM! Dexterity you have. NL Exhaust."
   },
   "RingOfDestiny:VolleyBullet": {
     "NAME": "Volley Bullet",
@@ -510,7 +510,7 @@
   },
   "RingOfDestiny:PressuredBullet": {
     "NAME": "Pressured Bullet",
-    "DESCRIPTION": "下回合开始，每回合打出的前 !M! 张攻击牌伤害翻倍。"
+    "DESCRIPTION": "The first !M! Attack you play each turn deal double damage."
   },
   "RingOfDestiny:MagicAbsorb": {
     "NAME": "Magic Absorb",
@@ -519,28 +519,28 @@
   },
   "RingOfDestiny:Demise": {
     "NAME": "Demise",
-    "DESCRIPTION": "对所有敌人Deal !D! damage.获得 !M! 层 虚弱 。 NL 消耗 。"
+    "DESCRIPTION": "Deal !D! damage to All enemies. NL Gain !M! Weak. NL Exhaust."
   },
   "RingOfDestiny:BlackFuneral": {
     "NAME": "Black Funeral",
-    "DESCRIPTION": "消耗 所有手牌。 NL 每 消耗 一张牌， NL 获得 [E] 并抽 !M! 张牌。 消耗 。"
+    "DESCRIPTION": "Exhaust your hand. NL Gain [E] and draw !M! card for each card exhausted. NL Exhaust."
   },
   "RingOfDestiny:MoonCurtain": {
     "NAME": "Moon Curtain",
-    "DESCRIPTION": "获得 !B! 点 格挡 NL 和 !M! 层 人工制品 。 NL 消耗 。"
+    "DESCRIPTION": "Gain !B! block. NL Gain !M! Artifact. NL Exhaust."
   },
   "RingOfDestiny:NightPendant": {
     "NAME": "Night Pendant",
-    "DESCRIPTION": "每当一张牌被 消耗 时，获得 !M! 点 敏捷 。"
+    "DESCRIPTION": "Whenever a card is Exhausted, NL gain !M! Dexterity."
   },
   "RingOfDestiny:RiteOfOrigin": {
     "NAME": "Rite Of Origin",
-    "DESCRIPTION": "消耗 抽牌堆和手牌中的“魔弹”牌，每 消耗 一张将一张 *起源弹 加入手牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "消耗 抽牌堆和手牌中的“魔弹”牌，每 消耗 一张将一张 *起源弹+ 加入手牌。 NL 消耗 。"
+    "DESCRIPTION": "Exhaust all \"Bullet\" cards in your draw pile and your hand. Add a *Origin *Bullet for each card exhausted. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Exhaust all \"Bullet\" cards in your draw pile and your hand. Add a *Origin *Bullet+ for each card exhausted. NL Exhaust."
   },
   "RingOfDestiny:Elegance": {
     "NAME": "Elegance",
-    "DESCRIPTION": "每回合开始时，将 !M! 张随机技能牌加入手牌。"
+    "DESCRIPTION": "At the start of each turn,add !M! random Skill to your hand."
   },
   "RingOfDestiny:Defend_PU": {
     "NAME": "Defend",

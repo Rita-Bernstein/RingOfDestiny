@@ -510,7 +510,7 @@
   },
   "RingOfDestiny:PressuredBullet": {
     "NAME": "高压魔弹",
-    "DESCRIPTION": "下回合开始，每回合打出的前 !M! 张攻击牌伤害翻倍。"
+    "DESCRIPTION": "每回合打出的前 !M! 张攻击牌伤害翻倍。"
   },
   "RingOfDestiny:MagicAbsorb": {
     "NAME": "魔力吸收",
@@ -527,7 +527,7 @@
   },
   "RingOfDestiny:MoonCurtain": {
     "NAME": "月色帷幕",
-    "DESCRIPTION": "获得 !B! 点 格挡 NL 和 !M! 层 人工制品 。 NL 消耗 。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 人工制品 。 NL 消耗 。"
   },
   "RingOfDestiny:NightPendant": {
     "NAME": "幻夜坠饰",
