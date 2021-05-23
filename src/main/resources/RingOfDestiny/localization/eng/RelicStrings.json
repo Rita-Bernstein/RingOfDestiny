@@ -10,16 +10,16 @@
     "NAME": "Ninja Suit",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      "Add #b2 #yWrist #yBlade to your hand when you create a #yShadow."
+      "Add #b2 #yWrist #yBlade to your hand whenever you create a #yShadow."
     ]
   },
   "RingOfDestiny:Flintlock": {
     "NAME": "Flintlock",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      "At the start of each combat,deal #b",
+      "At the start of each combat, deal #b",
       " damage and #b",
-      " damage to random enemy."
+      " damage to random enemies."
     ]
   },
   "RingOfDestiny:Bow": {
@@ -40,14 +40,14 @@
     "NAME": "Gothic Dress",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      "At the start of each combat,apply #b1 #yEtch to All enemy."
+      "At the start of each combat, apply #b1 #yEtch to all enemies."
     ]
   },
   "RingOfDestiny:DogEyes": {
     "NAME": "Dog Eyes",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      "At the start of each combat,gain #b",
+      "At the start of each combat, gain #b",
       " #yDiamonds."
     ]
   },
@@ -56,43 +56,43 @@
     "FLAVOR": "",
     "DESCRIPTIONS": [
       "Heal #b",
-      " HP when you gain #yDiamond for a card."
+      " HP when you gain #yDiamonds from a card."
     ]
   },
   "RingOfDestiny:DemonicContract": {
     "NAME": "Demonic Contract",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      " #ySacrifice will gain different effect ： NL Succubus：Gain #b1 #ySoul #yStone. NL Demon：Gain #b4 #yMetallicize . NL Vampire:Apply #b3 #yWeaken to All Enemy."
+      " #ySacrifice will gain a different effect ： NL Succubus： Gain #b1 #ySoul #yStone. NL Demon： Gain #b4 #yMetallicize . NL Vampire: Apply #b3 #yWeaken to all enemies."
     ]
   },
   "RingOfDestiny:RingOfSoul": {
     "NAME": "Ring Of Soul",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      "Draw #b2 card when you #ySacrifice ."
+      "Draw #b2 cards whenever you #ySacrifice ."
     ]
   },
   "RingOfDestiny:TwinWings": {
     "NAME": "Twin Wings",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      "At the end of combat,if you are in #pDarkness,gain #b1 Max HP,otherwise Heal #b3 HP."
+      "At the end of combat, if you are in #pDarkness, gain #b1 max HP, otherwise Heal #b3 HP."
     ]
   },
   "RingOfDestiny:HolyStarSeal": {
     "NAME": "Holy StarSeal",
     "FLAVOR": "",
     "DESCRIPTIONS": [
-      "#yStrength won't convert to #yMetallicize when enter #pDarkenss."
+      "#yStrength won't convert to #yMetallicize whenever you enter #pDarkenss."
     ]
   },
   "RingOfDestiny:TearsOfMaid": {
     "NAME": "Tears Of Maid",
     "FLAVOR": "Who is happy and who is tearful",
     "DESCRIPTIONS": [
-      "Increase Boss enemy max HP by #b",
-      "% 。"
+      "Increase the max HP of bosses by #b",
+      "% ."
     ]
   }
 }
