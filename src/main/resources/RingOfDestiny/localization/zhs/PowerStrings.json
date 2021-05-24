@@ -657,7 +657,7 @@
   "RingOfDestiny:DoomsdayFeastPower": {
     "NAME": "末日盛宴",
     "DESCRIPTIONS": [
-      "每当你打出攻击一张牌， #y圣殿守护者 激活一颗符文球 。"
+      "每当你打出一张攻击牌， #y圣殿守护者 激活一颗符文球 。"
     ]
   },
   "RingOfDestiny:ResurrectionPower": {

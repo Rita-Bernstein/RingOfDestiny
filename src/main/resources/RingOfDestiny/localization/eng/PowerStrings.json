@@ -640,5 +640,37 @@
       " ",
       "敌人将会在本回合自杀并进入下一状态."
     ]
+  },
+
+  "RingOfDestiny:EyeForEyePower": {
+    "NAME": "Eye For Eye",
+    "DESCRIPTIONS": [
+      "Whenever you play a card,gain #b",
+      " #yStrength ."
+    ]
+  },
+  "RingOfDestiny:VenomPower": {
+    "NAME": "Venom",
+    "DESCRIPTIONS": [
+      "On death,add a #yVenom to your draw pile."
+    ]
+  },
+  "RingOfDestiny:KnitmeshPower": {
+    "NAME": "Knitmesh",
+    "DESCRIPTIONS": [
+      "Whenever you play a card,cost of all cards in your hand increase by #b1 ."
+    ]
+  },
+  "RingOfDestiny:DoomsdayFeastPower": {
+    "NAME": "Doomsday Feast",
+    "DESCRIPTIONS": [
+      "Whenever you play a #yAttack , #yValhalla #yChronicles channel a ruin orb."
+    ]
+  },
+  "RingOfDestiny:ResurrectionPower": {
+    "NAME": "Resurrection",
+    "DESCRIPTIONS": [
+      "Revive with #b50% of max HP when die."
+    ]
   }
 }
