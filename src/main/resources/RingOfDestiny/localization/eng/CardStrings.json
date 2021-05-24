@@ -560,8 +560,8 @@
     "DESCRIPTION": "Deal !D! damage. NL Discard !M! cards."
   },
   "RingOfDestiny:DrawAgain": {
-    "NAME": "Draw Again",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ring_of_destiny:Bleeding. NL Put a *Draw *Again to your hand."
+    "NAME": "Rolling Again",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ring_of_destiny:Bleeding. NL Put a *Rolling *Again to your hand."
   },
   "RingOfDestiny:MultipleInvest": {
     "NAME": "Multiple Invest",
@@ -581,8 +581,8 @@
   },
   "RingOfDestiny:RaiseMoney": {
     "NAME": "Raise Money",
-    "DESCRIPTION": "Add !M! *Draw *Again to you hand. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Add !M! *Draw *Again+ to you hand. NL Exhaust."
+    "DESCRIPTION": "Add !M! *Rolling *Again to you hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add !M! *Rolling *Again+ to you hand. NL Exhaust."
   },
   "RingOfDestiny:NoviceReward": {
     "NAME": "Novice Reward",
