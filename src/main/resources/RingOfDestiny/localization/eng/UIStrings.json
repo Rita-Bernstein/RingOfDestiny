@@ -11,8 +11,8 @@
   },
   "RingOfDestiny:EtchPhantomAction": {
     "TEXT": [
-      "Copy a card to your hand.",
-      "Copy ",
+      "Add a copy of a card to your hand.",
+      "Add copies of ",
       " cards to your hand."
     ]
   },
@@ -24,10 +24,10 @@
   "RingOfDestiny:DiamondManager": {
     "TEXT": [
       " #yWarth #yof #yFortune #yCat ： NL Diamond will deal #b",
-      " more damage to the enemy with lowest HP each diamond over #b10. NL NL #yDiamond #yHalo ： NL Level #b1 ：(3 to trigger) NL Deal #b",
-      " damage to All enemy at the end of turn. NL Level #p2 :（6 to trigger ） NL Draw #b",
-      " card(s) at the start of turn. NL Level #y3 ：（10 to trigger） NL Gain #b",
-      " #yBlock at the start of turn."
+      " more damage to the enemy with the lowest HP for each diamond over #b10. NL NL #yDiamond #yHalo ： NL Level #b1 ：(3 to trigger) NL Deal #b",
+      " damage to All enemy at the end of your turn. NL Level #p2 :（6 to trigger ） NL Draw #b",
+      " card(s) at the start of your turn. NL Level #y3 ：（10 to trigger） NL Gain #b",
+      " #yBlock at the start of your turn."
     ],
     "EXTRA_TEXT": [
       "Diamond"
@@ -42,13 +42,13 @@
   },
   "RingOfDestiny:AttackIntent": {
     "TEXT": [
-      "This enemy not intents to Attack!",
-      "This enemy intents to Attack!"
+      "This enemy does not intend to Attack!",
+      "This enemy intends to Attack!"
     ]
   },
   "RingOfDestiny:TempIncreaseMaxHPAction": {
     "TEXT": [
-      "Temporary max HP+"
+      "Temporarily increase max HP"
     ]
   },
   "RingOfDestiny:Demon": {
@@ -58,8 +58,8 @@
       "\nLava Lord"
     ],
     "EXTRA_TEXT": [
-      " #yTyranny ： NL Arudo will deal damage to random enemy when player played #yAttack. NL NL ",
-      " #yHegemony NL (hold to sacrifice) NL At the start of each turn,reduce a #yAttack card cost to 0 this turn."
+      " #yTyranny ： NL Arudo will deal damage to a random enemy whenever the player plays an #yAttack. NL NL ",
+      " #yHegemony NL (hold to sacrifice) NL At the start of each turn, reduce an #yAttack card's cost to 0 for this turn."
     ]
   },
   "RingOfDestiny:Succubus": {
@@ -69,8 +69,8 @@
       "\nQueen of Succubus"
     ],
     "EXTRA_TEXT": [
-      " #yCharm ： NL Lilith will deal damage to random enemy when player played #ySkill. NL NL ",
-      " #yMagic #yControl NL (hold to sacrifice) NL Reduce All Skills cost by 1 this combat.(not less than 1) NL Gain #b20 #yBlock and Gain a #ySoul #yStone.。"
+      " #yCharm ： NL Lilith will deal damage to a random enemy whenever the player plays a #ySkill. NL NL ",
+      " #yMagic #yControl NL (hold to sacrifice) NL Reduce the cost of all Skills by 1 this combat. (Cannot be reduced below 1) NL Gain #b20 #yBlock and Gain a #ySoul #yStone.。"
     ]
   },
   "RingOfDestiny:Vampire": {
@@ -80,8 +80,8 @@
       "\nBloodline Count"
     ],
     "EXTRA_TEXT": [
-      " #yTorment ： NL La Chateau will deal damage to random enemy when player is Attacked. NL NL ",
-      " #yAncient #ylineage NL (hold to sacrifice) NL Apply #b1 Extract to Random enemy when you lost HP."
+      " #yTorment ： NL La Chateau will deal damage to a random enemy when the player is Attacked. NL NL ",
+      " #yAncient #ylineage NL (hold to sacrifice) NL Apply #b1 Extract to a random enemy whenever you lose HP."
     ]
   },
   "RingOfDestiny:NullSummon": {
@@ -102,7 +102,7 @@
   },
   "RingOfDestiny:SoulStoneCantUseMessage": {
     "TEXT": [
-      "I don't have enough Soul Stone."
+      "I don't have enough Soul Stones."
     ]
   },
   "RingOfDestiny:ScepterOfGluttonyAction": {
@@ -115,14 +115,14 @@
       "Dark Energy"
     ],
     "EXTRA_TEXT": [
-      "Dark Energy you have. Play darkness card requires Dark Energy.",
+      "Dark Energy you have. Playing darkness cards requires Dark Energy.",
       " NL Click to use [E] to enter #pDarkness and convert your #yStrength to #yMetallicize,",
       "I don't have enough Dark energy"
     ]
   },
   "RingOfDestiny:DevilGripAction": {
     "TEXT": [
-      "Copy a Attack card"
+      "Copy an Attack card"
     ]
   },
   "RingOfDestiny:CantPlayCardPowerPatch": {
