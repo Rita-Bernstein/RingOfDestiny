@@ -758,8 +758,8 @@
   },
   "RingOfDestiny:CrushDiamond": {
     "NAME": "Break Diamond",
-    "DESCRIPTION": "Conver each !M! ring_of_destiny:Diamond NL into [E] . NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Conver each !M! ring_of_destiny:Diamond NL into [E] ."
+    "DESCRIPTION": "Convert each !M! ring_of_destiny:Diamond NL into [E] . NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Convert each !M! ring_of_destiny:Diamond NL into [E] ."
   },
   "RingOfDestiny:Metaphysics": {
     "NAME": "Metaphysics",
@@ -1533,8 +1533,8 @@
   },
   "RingOfDestiny:HegemonyOfDevil": {
     "NAME": "Hegemony Of Devil",
-    "DESCRIPTION": "ring_of_destiny:Unique. NL Conver ring_of_destiny:Metallicize into Strength. NL Conver Strength into ring_of_destiny:Metallicize at the end of turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. NL Gain !M! Strength. NL Conver ring_of_destiny:Metallicize into Strength. NL Conver Strength into ring_of_destiny:Metallicize at the end of turn. NL Exhaust."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL Convert ring_of_destiny:Metallicize into Strength. NL Convert Strength into ring_of_destiny:Metallicize at the end of turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. NL Gain !M! Strength. NL Convert ring_of_destiny:Metallicize into Strength. NL Convert Strength into ring_of_destiny:Metallicize at the end of turn. NL Exhaust."
   },
   "RingOfDestiny:ConqueringBlade": {
     "NAME": "Conquering Blade",
