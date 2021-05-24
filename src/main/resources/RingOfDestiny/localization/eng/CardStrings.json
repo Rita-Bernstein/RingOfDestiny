@@ -295,7 +295,7 @@
   },
   "RingOfDestiny:EtchSpirit": {
     "NAME": "Etch Spirit",
-    "DESCRIPTION": " ring_of_destiny:Uniqe. Increase the damage of ring_of_destiny:Etch by !RODSecondM!. NL Increase this effect by !M! permanently."
+    "DESCRIPTION": " ring_of_destiny:Unique. Increase the damage of ring_of_destiny:Etch by !RODSecondM!. NL Increase this effect by !M! permanently."
   },
   "RingOfDestiny:Potential": {
     "NAME": "Potential",
@@ -930,8 +930,8 @@
   },
   "RingOfDestiny:AngelTalisman2": {
     "NAME": "罪恶王冠",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL 每 ring_of_destiny:Ruin 一张牌， NL 获得 !M! 点 ring_of_destiny:暗能量 .",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. NL 每 ring_of_destiny:Ruin 一张牌， NL 获得 !M! 点 ring_of_destiny:暗能量 ."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL 每 ring_of_destiny:Ruin 一张牌， NL 获得 !M! 点 ring_of_destiny:暗能量 .",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. NL 每 ring_of_destiny:Ruin 一张牌， NL 获得 !M! 点 ring_of_destiny:暗能量 ."
   },
   "RingOfDestiny:HolyAssault2": {
     "NAME": "虚空鞭挞",
@@ -1159,8 +1159,8 @@
   },
   "RingOfDestiny:AngelTalisman": {
     "NAME": "天使护符",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL 每 ring_of_destiny:Ruin 一张牌. NL 获得 [E] .",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. NL 每 ring_of_destiny:Ruin 一张牌. NL 获得 [E] [E] ."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL 每 ring_of_destiny:Ruin 一张牌. NL 获得 [E] .",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. NL 每 ring_of_destiny:Ruin 一张牌. NL 获得 [E] [E] ."
   },
   "RingOfDestiny:HolyAssault": {
     "NAME": "神圣连击",
@@ -1406,8 +1406,8 @@
   },
   "RingOfDestiny:Demonic": {
     "NAME": "Demonic",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL Exhaust all non-Skill cards in your hand. NL Gain !M! ring_of_destiny:Metallicize for each card Exhausted. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. NL Exhaust all non-Attack cards in your hand. NL Gain !M! ring_of_destiny:Metallicize for each card Exhausted. NL Exhaust."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL Exhaust all non-Skill cards in your hand. NL Gain !M! ring_of_destiny:Metallicize for each card Exhausted. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. NL Exhaust all non-Attack cards in your hand. NL Gain !M! ring_of_destiny:Metallicize for each card Exhausted. NL Exhaust."
   },
   "RingOfDestiny:MaliciousSuppress": {
     "NAME": "Malicious Suppress",
@@ -1440,7 +1440,7 @@
   },
   "RingOfDestiny:MaskOfSuffering": {
     "NAME": "Mask Of Suffering",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL Gain !B! Block. NL Permanently increase this card's Block by !M!. NL Exhaust."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL Gain !B! Block. NL Permanently increase this card's Block by !M!. NL Exhaust."
   },
   "RingOfDestiny:MaliciousLeakage": {
     "NAME": "Malicious Leakage",
@@ -1457,12 +1457,12 @@
   },
   "RingOfDestiny:RingOfGreed": {
     "NAME": "Ring Of Greed",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL Gain !M! ring_of_destiny:Metallicize . NL Lose !RODSecondM! HP at the start of each turn."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL Gain !M! ring_of_destiny:Metallicize . NL Lose !RODSecondM! HP at the start of each turn."
   },
   "RingOfDestiny:EnvyNecklace": {
     "NAME": "Envy Necklace",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL At the start of turn,add !M! *Power *Of *Envy to hand.",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. NL At the start of turn,add !M! *Power *Of *Envy+ to hand."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL At the start of turn,add !M! *Power *Of *Envy to hand.",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. NL At the start of turn,add !M! *Power *Of *Envy+ to hand."
   },
   "RingOfDestiny:AngerSword": {
     "NAME": "Anger Sword",
@@ -1476,7 +1476,7 @@
   },
   "RingOfDestiny:PowerOfDesire": {
     "NAME": "Power Of Desire",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. ring_of_destiny:Sin. NL Heal !M! HP. NL Deal !D! damage to a random enemy !M! times."
+    "DESCRIPTION": "ring_of_destiny:Unique. ring_of_destiny:Sin. NL Heal !M! HP. NL Deal !D! damage to a random enemy !M! times."
   },
   "RingOfDestiny:Doomsday": {
     "NAME": "Doomsday",
@@ -1515,26 +1515,26 @@
   },
   "RingOfDestiny:PowerOfWrath": {
     "NAME": "Power Of Wrath",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. ring_of_destiny:Sin. NL Deal !D! damage !M! times. NL Increase cost and times by 1(Up to 4)."
+    "DESCRIPTION": "ring_of_destiny:Unique. ring_of_destiny:Sin. NL Deal !D! damage !M! times. NL Increase cost and times by 1(Up to 4)."
   },
   "RingOfDestiny:ScepterOfGluttony": {
     "NAME": "Scepter Of Gluttony",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL Reduce cost of !M! non- ring_of_destiny:Soul\u00a0Stone card in hand to 0 this turn at the start of each turn."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL Reduce cost of !M! non- ring_of_destiny:Soul\u00a0Stone card in hand to 0 this turn at the start of each turn."
   },
   "RingOfDestiny:PowerOfLaziness": {
     "NAME": "Power Of Laziness",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. ring_of_destiny:Sin. NL Gain !B! Block. Increase this Block by !M! . NL (up to !RODSecondM! )",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. 3 ring_of_destiny:Sin. NL Gain !B! Block. Increase this Block by !M! . NL (up to !RODSecondM! )"
+    "DESCRIPTION": "ring_of_destiny:Unique. ring_of_destiny:Sin. NL Gain !B! Block. Increase this Block by !M! . NL (up to !RODSecondM! )",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. 3 ring_of_destiny:Sin. NL Gain !B! Block. Increase this Block by !M! . NL (up to !RODSecondM! )"
   },
   "RingOfDestiny:VoodooDoll": {
     "NAME": "Voodoo Doll",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL All damage you receive in this turn is borne by an enemy. Apply this effect to random enemy when it die. NL ring_of_destiny:Ruin.",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. NL All damage you receive in this turn is borne by an enemy. Apply this effect to random enemy when it die. NL  Exhaust."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL All damage you receive in this turn is borne by an enemy. Apply this effect to random enemy when it die. NL ring_of_destiny:Ruin.",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. NL All damage you receive in this turn is borne by an enemy. Apply this effect to random enemy when it die. NL  Exhaust."
   },
   "RingOfDestiny:HegemonyOfDevil": {
     "NAME": "Hegemony Of Devil",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL Conver ring_of_destiny:Metallicize into Strength. NL Conver Strength into ring_of_destiny:Metallicize at the end of turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. NL Gain !M! Strength. NL Conver ring_of_destiny:Metallicize into Strength. NL Conver Strength into ring_of_destiny:Metallicize at the end of turn. NL Exhaust."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL Conver ring_of_destiny:Metallicize into Strength. NL Conver Strength into ring_of_destiny:Metallicize at the end of turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. NL Gain !M! Strength. NL Conver ring_of_destiny:Metallicize into Strength. NL Conver Strength into ring_of_destiny:Metallicize at the end of turn. NL Exhaust."
   },
   "RingOfDestiny:ConqueringBlade": {
     "NAME": "Conquering Blade",
@@ -1547,7 +1547,7 @@
   },
   "RingOfDestiny:GripOfMaster": {
     "NAME": "Grip Of Master",
-    "DESCRIPTION": " ring_of_destiny:Uniqe. NL Deal !D! damage. NL Gain [E] equals to unblocked damage.(up to 5) NL Exhaust."
+    "DESCRIPTION": " ring_of_destiny:Unique. NL Deal !D! damage. NL Gain [E] equals to unblocked damage.(up to 5) NL Exhaust."
   },
   "RingOfDestiny:SummonOfDoomsday": {
     "NAME": "Summon Of Doomsday",
@@ -1560,8 +1560,8 @@
   },
   "RingOfDestiny:CrownOfPride": {
     "NAME": "Crown Of Pride",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL Whenever you spend ring_of_destiny:Soul\u00a0Stone ,gain [E]. NL ring_of_destiny:Ruin .",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. NL Whenever you spend ring_of_destiny:Soul\u00a0Stone ,gain [E]."
+    "DESCRIPTION": "ring_of_destiny:Unique. NL Whenever you spend ring_of_destiny:Soul\u00a0Stone ,gain [E]. NL ring_of_destiny:Ruin .",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Unique. NL Whenever you spend ring_of_destiny:Soul\u00a0Stone ,gain [E]."
   },
   "RingOfDestiny:ChainBlade": {
     "NAME": "Chain Blade",
