@@ -4,21 +4,21 @@
     "NAMES": [
       "shadow"
     ],
-    "DESCRIPTION": "#yAttack card will be played extra times equals to your #pShadows. NL You can have up to #b2 #pShadows. NL Lose all your #pShadow at the end of turn."
+    "DESCRIPTION": "#yAttack cards will be played additional times equal to your #pShadows. NL You can have up to #b2 #pShadows. NL Lose all your #pShadows at the end of your turn."
   },
   {
     "PROPER_NAME": "Etch",
     "NAMES": [
       "etch"
     ],
-    "DESCRIPTION": "Explode and deal #b30 damage for each #b4 stack."
+    "DESCRIPTION": "Explode and deal #b30 damage for each #b4 stacks."
   },
   {
     "PROPER_NAME": "Uniqe",
     "NAMES": [
       "uniqe"
     ],
-    "DESCRIPTION": "Only can be obtain in card reward or shop. NL You wont see this unique card this run after you obtain it. NL (wont effect in same reward screen)"
+    "DESCRIPTION": "Can only be obtained in card rewards or shops. NL This card won't show up again this run. NL (Won't affect this reward screen)"
   },
   {
     "PROPER_NAME": "Sentencing",
@@ -39,56 +39,56 @@
     "NAMES": [
       "diamond"
     ],
-    "DESCRIPTION": "Up to #b10 .Diamond will deal #b6 damage to the enemy with lowest HP each diamond over #b10."
+    "DESCRIPTION": "Can have up to #b10 . #yDiamond will deal #b6 damage to the enemy with the lowest HP for each #ydiamond over #b10."
   },
   {
     "PROPER_NAME": "Bleeding",
     "NAMES": [
       "bleeding"
     ],
-    "DESCRIPTION": "Lose HP equals stack of Bleeding when be attacked and reduced by #b1 . NL Lose HP at the start of their turn and remove this effect."
+    "DESCRIPTION": "Lose HP equal stacks when attacked and reduce them by #b1 . NL Lose HP equal to stacks at the start of their turn and remove this effect."
   },
   {
     "PROPER_NAME": "Warth of Fortune Cat",
     "NAMES": [
       "fortune_cat"
     ],
-    "DESCRIPTION": "Diamond will deal #b6 more damage to the enemy with lowest HP each diamond over #b10."
+    "DESCRIPTION": "#yDiamond will deal #b6 more damage to the enemy with the lowest HP for each #ydiamond over #b10."
   },
   {
     "PROPER_NAME": "Diamond Halo",
     "NAMES": [
       "diamond_halo"
     ],
-    "DESCRIPTION": " #yDiamond will trigger extra effect when you have more than a certain amount."
+    "DESCRIPTION": "#yDiamond will trigger extra effect when you have more than a certain amount."
   },
   {
     "PROPER_NAME": "Original Sin",
     "NAMES": [
       "original_sin"
     ],
-    "DESCRIPTION": " Increase damage #pDemon's dealt."
+    "DESCRIPTION": "Increase the damage #pDemons deal."
   },
   {
     "PROPER_NAME": "Extract",
     "NAMES": [
       "extract"
     ],
-    "DESCRIPTION": "Gain #b1 HP for each #b2 stack."
+    "DESCRIPTION": "Gain #b1 HP for every #b2 stacks."
   },
   {
     "PROPER_NAME": "Doomsday Etch",
     "NAMES": [
       "doomsday_etch"
     ],
-    "DESCRIPTION": " #yDoomsday #yMeteorite deal more damage to creature has #yDoomsday #yEtch."
+    "DESCRIPTION": "#yDoomsday #yMeteorite deal more damage to creatures that have #yDoomsday #yEtch."
   },
   {
     "PROPER_NAME": "Soul Stone",
     "NAMES": [
       "soul_stone"
     ],
-    "DESCRIPTION": "Play #ySoul #yStone #yCard needs #pSoul Stone. NL These cards are usually more powerful."
+    "DESCRIPTION": "To play #ySoul #yStone #yCard you need #pSoul #yStones. NL These cards are usually more powerful."
   },
   {
     "PROPER_NAME": "Metallicize",
@@ -102,35 +102,35 @@
     "NAMES": [
       "ruin"
     ],
-    "DESCRIPTION": "Remove in this battle and wont move to exhaust pile."
+    "DESCRIPTION": "Removed for this battle and wont move to exhaust pile."
   },
   {
     "PROPER_NAME": "Conviction",
     "NAMES": [
       "conviction"
     ],
-    "DESCRIPTION": " Decrease Healing effect."
+    "DESCRIPTION": " Decrease the effect of healing."
   },
   {
     "PROPER_NAME": "Dark Energy",
     "NAMES": [
       "dark_energy"
     ],
-    "DESCRIPTION": "it spends #yDark #yEnenrgy when in #yDarkness."
+    "DESCRIPTION": "Spends #yDark #yEnenrgy when in #yDarkness."
   },
   {
     "PROPER_NAME": "Darkness",
     "NAMES": [
       "darkness"
     ],
-    "DESCRIPTION": "it spends #yDark #yEnenrgy when in #yDarkness"
+    "DESCRIPTION": "Spends #yDark #yEnenrgy when in #yDarkness"
   },
   {
     "PROPER_NAME": "Brightness",
     "NAMES": [
       "brightness"
     ],
-    "DESCRIPTION": "it spends #yEnenrgy when in #yDBrightness"
+    "DESCRIPTION": "Spends #yEnenrgy when in #yDBrightness"
   },
   {
     "PROPER_NAME": "Fair",

@@ -26,11 +26,11 @@
   },
   "RingOfDestiny:FlashOfSlash": {
     "NAME": "Flash Of Slash",
-    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack,apply !M! Poison."
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack, apply !M! Poison."
   },
   "RingOfDestiny:HexaMudra": {
     "NAME": "HexaMudra",
-    "DESCRIPTION": "Deal !D! damage. NL Deal extra !M! damage for each Attack in your hand.",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! additional damage for each Attack in your hand.",
     "EXTENDED_DESCRIPTION": [
       " NL (You have ",
       " Attack).",
@@ -39,12 +39,12 @@
   },
   "RingOfDestiny:ShadowBlossom": {
     "NAME": "Shadow Blossom",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL When ring_of_destiny:Kill ,add 2 *Shadow *Rose to your hand.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL When ring_of_destiny:Kill ,add 2 *Shadow *Rose+ to your hand."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL If Fatal, add 2 *Shadow *Rose to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL If Fatal, add 2 *Shadow *Rose+ to your hand."
   },
   "RingOfDestiny:Spur": {
     "NAME": "Spur",
-    "DESCRIPTION": "Deal !D! damage and Apply 1 Poison , NL !M! times."
+    "DESCRIPTION": "Deal !D! damage. NL Apply 1 Poison !M! times."
   },
   "RingOfDestiny:Agile": {
     "NAME": "Agile",
@@ -72,8 +72,8 @@
   },
   "RingOfDestiny:Ridicule": {
     "NAME": "Ridicule",
-    "DESCRIPTION": "Gain !B! Block. NL Change enemy's intent to Attack. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Change enemy's intent to Attack. "
+    "DESCRIPTION": "Gain !B! Block. NL Change the enemy's intent to attack. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Change the enemy's intent to Attack. "
   },
   "RingOfDestiny:MetalRelease": {
     "NAME": "Metal Release",
@@ -81,11 +81,11 @@
   },
   "RingOfDestiny:WoodRelease": {
     "NAME": "Wood Release",
-    "DESCRIPTION": "Discard your hand. Gain !B! block for each card you discard."
+    "DESCRIPTION": "Discard your hand. Gain !B! Block for each card you discard."
   },
   "RingOfDestiny:EarthRelease": {
     "NAME": "Earth Release",
-    "DESCRIPTION": "Discard all Attack cards in your hand. NL Add !M! Skills in your draw pile to your hand."
+    "DESCRIPTION": "Discard all Attack cards in your hand. NL Add !M! Skill cards from your draw pile to your hand."
   },
   "RingOfDestiny:WristBlade": {
     "NAME": "Wrist Blade",
@@ -93,7 +93,7 @@
   },
   "RingOfDestiny:Onikiri": {
     "NAME": "Onikiri",
-    "DESCRIPTION": "Deal !D! damage. NL If it is blocked,apply !M! Poison."
+    "DESCRIPTION": "Deal !D! damage. NL If it is blocked, apply !M! Poison."
   },
   "RingOfDestiny:SneakAttack": {
     "NAME": "Sneak Attack",
@@ -101,15 +101,15 @@
   },
   "RingOfDestiny:ShurikenFlip": {
     "NAME": "Shuriken Flip",
-    "DESCRIPTION": "Deal !D! damage. NL Discard !M! card. NL Draw !M! cards"
+    "DESCRIPTION": "Deal !D! damage. NL Discard !M! cards. NL Draw !M! cards"
   },
   "RingOfDestiny:ShadowCutter": {
     "NAME": "Shadow Cutter",
-    "DESCRIPTION": "Deal !D! damage. NL If this kill enemy,draw !M! cards."
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, draw !M! cards."
   },
   "RingOfDestiny:EthMudra": {
     "NAME": "EthMudra",
-    "DESCRIPTION": "Deal !D! damage. NL If enemy has Poison,deal damage equals to stack of its Poison.",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Poison, deal damage equals to its Poison.",
     "EXTENDED_DESCRIPTION": [
       "( !RODSecondM! )"
     ]
@@ -129,11 +129,11 @@
   "RingOfDestiny:KunaiSpray": {
     "NAME": "Kunai Spray",
     "DESCRIPTION": "Deal !D! damage to ALL enemies X times.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies X+ !M! times."
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies X + !M! times."
   },
   "RingOfDestiny:FinalAttack": {
     "NAME": "Final Attack",
-    "DESCRIPTION": "Deal !D! damage. NL Increase !M! damage for each card played this turn.",
+    "DESCRIPTION": "Deal !D! damage. NL Increase the damage by !M! for each card played this turn.",
     "EXTENDED_DESCRIPTION": [
       " NL (",
       " card played.)",
@@ -142,16 +142,16 @@
   },
   "RingOfDestiny:Stealth": {
     "NAME": "Stealth",
-    "DESCRIPTION": "Deal !D! damage. NL If enemy is Weaken , gain [E] and draw a card."
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Weak, gain [E] and draw a card."
   },
   "RingOfDestiny:Premeditate": {
     "NAME": "Premeditate",
     "DESCRIPTION": "Gain !M! Thorns. NL Gain [E] at the start of your next turn.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Thorns.  NL Gain [E] [E] at the start of your next turn."
+    "UPGRADE_DESCRIPTION": "Gain !M! Thorns. NL Gain [E] [E] at the start of your next turn."
   },
   "RingOfDestiny:Servicing": {
     "NAME": "Servicing",
-    "DESCRIPTION": "At the start of your next turn,draw !M! cards."
+    "DESCRIPTION": "At the start of your next turn, draw !M! cards."
   },
   "RingOfDestiny:Conspiracy": {
     "NAME": "Conspiracy",
@@ -172,7 +172,7 @@
   },
   "RingOfDestiny:NonMudra": {
     "NAME": "NonMudra",
-    "DESCRIPTION": "Draw !M! card,reduce its cost to 0 in this turn. NL Exhaust."
+    "DESCRIPTION": "Draw !M! card, reduce its cost to 0 in this turn. NL Exhaust."
   },
   "RingOfDestiny:WaterRelease": {
     "NAME": "Water Release",
@@ -184,16 +184,16 @@
   },
   "RingOfDestiny:ShadowShackles": {
     "NAME": "Shadow Shackles",
-    "DESCRIPTION": "Enemy lost !M! Strength this turn and apply !RODSecondM! Weak."
+    "DESCRIPTION": "Enemy loses !M! Strength this turn. NL Apply !RODSecondM! Weak."
   },
   "RingOfDestiny:Belt": {
     "NAME": "Belt",
-    "DESCRIPTION": "At the start of turn,add !M! *Shadow *Flower to your hand.",
-    "UPGRADE_DESCRIPTION": "At the start of turn,add !M! *Shadow *Flower+ to your hand."
+    "DESCRIPTION": "At the start of your turn, add !M! *Shadow *Flower to your hand.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, add !M! *Shadow *Flower+ to your hand."
   },
   "RingOfDestiny:GasBomb": {
     "NAME": "Gas Bomb",
-    "DESCRIPTION": "When ever you apply Poison,apply extra !M! stacks."
+    "DESCRIPTION": "Whenever you apply Poison, apply !M! additional stacks."
   },
   "RingOfDestiny:RattanBeetle": {
     "NAME": "Rattan Beetle",
@@ -201,25 +201,25 @@
   },
   "RingOfDestiny:StaminaBook": {
     "NAME": "Stamina Book",
-    "DESCRIPTION": "For each 3 Skills you played,gain !M! Thorns."
+    "DESCRIPTION": "For each 3 Skill cards you played, gain !M! Thorns."
   },
   "RingOfDestiny:DeadlyShadow": {
     "NAME": "Deadly Shadow",
-    "DESCRIPTION": "Deal !D! damage. NL When ring_of_destiny:Kill ,create a ring_of_destiny:Shadow."
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, create a ring_of_destiny:Shadow."
   },
   "RingOfDestiny:DeadlyArts": {
     "NAME": "Deadly Arts",
-    "DESCRIPTION": "Next !M! turn create a ring_of_destiny:Shadow . NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Next !M! turn create a ring_of_destiny:Shadow ."
+    "DESCRIPTION": "Next !M! turn create a ring_of_destiny:Shadow. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Next !M! turn create a ring_of_destiny:Shadow."
   },
   "RingOfDestiny:Makibisi": {
     "NAME": "Makibisi",
-    "DESCRIPTION": "Whenever you discard a card, NL gain !M! Thorns."
+    "DESCRIPTION": "Whenever you discard a card, gain !M! Thorns."
   },
   "RingOfDestiny:MethMudra": {
     "NAME": "MethMudra",
     "DESCRIPTION": "Deal !D! damage X times. NL Apply X Poison.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage X+ !M! times. NL Apply X+ !M! Poison."
+    "UPGRADE_DESCRIPTION": "Deal !D! damage X + !M! times. NL Apply X + !M! Poison."
   },
   "RingOfDestiny:PropMudra": {
     "NAME": "PropMudra",
@@ -227,12 +227,12 @@
   },
   "RingOfDestiny:PerfectExecution": {
     "NAME": "Perfect Execution",
-    "DESCRIPTION": "Deal !D! damage. NL If this kill enemy,return this to your hand and gain [E] [E] [E] ."
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, return this to your hand and gain [E] [E] [E] ."
   },
   "RingOfDestiny:DodeMudra": {
     "NAME": "DodeMudra",
     "DESCRIPTION": "Gain !B! Block X times. NL ALL enemies lose X Strength this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block X+ !M! times. NL ALL enemies lose X+ !M! Strength this turn. NL Exhaust."
+    "UPGRADE_DESCRIPTION": "Gain !B! Block X + !M! times. NL ALL enemies lose X + !M! Strength this turn. NL Exhaust."
   },
   "RingOfDestiny:WorldOfFloweringTree": {
     "NAME": "World Of Flowering Tree",
@@ -240,33 +240,33 @@
   },
   "RingOfDestiny:ShadowMark": {
     "NAME": "Shadow Mark",
-    "DESCRIPTION": "Mark a target.At the end of your turn,deal damage equals to 150% of damage you and your ring_of_destiny:shadow dealt to this target. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Mark a target.At the end of your turn,deal damage equals to 150% of damage you and your ring_of_destiny:shadow dealt to this target. Exhaust."
+    "DESCRIPTION": "Mark a target. At the end of your turn, deal damage equal to 150% of the damage you and your ring_of_destiny:shadow dealt to this target. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Mark a target. At the end of your turn, deal damage equal to 150% of the damage you and your ring_of_destiny:shadow dealt to this target. Exhaust."
   },
   "RingOfDestiny:InfectMark": {
     "NAME": "Infect Mark",
-    "DESCRIPTION": "Mark a target.When you apply Poison also apply to this target in this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Mark a target.When you apply Poison also apply to this target in this turn. NL Exhaust."
+    "DESCRIPTION": "Mark a target. This turn, whenever you apply Poison also apply it to this target. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Mark a target. This turn, whenever you apply Poison also apply it to this target. NL Exhaust."
   },
   "RingOfDestiny:ForbiddenArts": {
     "NAME": "Forbidden Arts",
-    "DESCRIPTION": "Lose !M! HP. NL Gain [E] [E] [E] ,Draw !RODSecondM! cards. NL Exhaust."
+    "DESCRIPTION": "Lose !M! HP. NL Gain [E] [E] [E] , draw !RODSecondM! cards. NL Exhaust."
   },
   "RingOfDestiny:Recollection": {
     "NAME": "Recollection",
-    "DESCRIPTION": "Lose !M! HP. NL Add a card from exhaust pile to your hand. NL Exhaust."
+    "DESCRIPTION": "Lose !M! HP. NL Put a card from your exhaust pile into your hand. NL Exhaust."
   },
   "RingOfDestiny:ShadowPortal": {
     "NAME": "Shadow Portal",
-    "DESCRIPTION": "Lose !M! HP. NL Add !RODSecondM! cards from your draw pile to your hand. NL Exhaust."
+    "DESCRIPTION": "Lose !M! HP. NL Put !RODSecondM! cards from your draw pile into your hand. NL Exhaust."
   },
   "RingOfDestiny:DarkProjection": {
     "NAME": "Dark Projection",
-    "DESCRIPTION": "Lose !M! HP. NL Copy !RODSecondM! card in your hand. NL Exhaust."
+    "DESCRIPTION": "Lose !M! HP. NL Add a copy of !RODSecondM! card to your hand. NL Exhaust."
   },
   "RingOfDestiny:RepeatOffender": {
     "NAME": "Repeat Offender",
-    "DESCRIPTION": "Lose !M! HP. NL Move a card from your discard pile to the top of your draw pile."
+    "DESCRIPTION": "Lose !M! HP. NL Put a card from your discard pile ontop of your draw pile."
   },
   "RingOfDestiny:NinjutsuMudra": {
     "NAME": "Ninjutsu Mudra",
@@ -275,11 +275,11 @@
   },
   "RingOfDestiny:NinjutsuScroll": {
     "NAME": "Ninjutsu Scroll",
-    "DESCRIPTION": "Whenever you Exhaust a card,gain [E]."
+    "DESCRIPTION": "Whenever you Exhaust a card, gain [E]."
   },
   "RingOfDestiny:BottlePoison": {
     "NAME": "Bottle Poison",
-    "DESCRIPTION": "Each Attack from a card will apply !M! Poison."
+    "DESCRIPTION": "Each attack from a card will apply !M! Poison."
   },
   "RingOfDestiny:Defend_MB": {
     "NAME": "Defend",
@@ -291,15 +291,15 @@
   },
   "RingOfDestiny:DeadlyShoot": {
     "NAME": "Deadly Shot",
-    "DESCRIPTION": "Deal !D! damage. NL When ring_of_destiny:Kill ,deal to an random enemy."
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, deal damage again to a random enemy."
   },
   "RingOfDestiny:EtchSpirit": {
     "NAME": "Etch Spirit",
-    "DESCRIPTION": " ring_of_destiny:Uniqe .Increase damage ring_of_destiny:Etch by !RODSecondM! . NL Increase this effect by !M! permanently."
+    "DESCRIPTION": " ring_of_destiny:Uniqe. Increase the damage of ring_of_destiny:Etch by !RODSecondM!. NL Increase this effect by !M! permanently."
   },
   "RingOfDestiny:Potential": {
     "NAME": "Potential",
-    "DESCRIPTION": "Lose !RODSecondM! HP. NL Gain !M! Strength and Dexterity. NL At the end of this turn, lose these Strength and Dexterity."
+    "DESCRIPTION": "Lose !RODSecondM! HP. NL Gain !M! Strength and Dexterity. NL At the end of this turn, lose that Strength and Dexterity."
   },
   "RingOfDestiny:BreakBullet": {
     "NAME": "Break Bullet",
@@ -307,11 +307,11 @@
   },
   "RingOfDestiny:DeathLeakage": {
     "NAME": "Death Leakage",
-    "DESCRIPTION": "Can only be played if every card in your hand is an Skill. NL Apply !M! ring_of_destiny:Etch to ALL enemies."
+    "DESCRIPTION": "Can only be played if every card in your hand is a Skill. NL Apply !M! ring_of_destiny:Etch to ALL enemies."
   },
   "RingOfDestiny:BlastBullet": {
     "NAME": "Blast Bullet",
-    "DESCRIPTION": "Deal !D! damage. NL Deal double damage if enemy has ring_of_destiny:Etch ."
+    "DESCRIPTION": "Deal !D! damage. NL Deal double damage if enemy has ring_of_destiny:Etch."
   },
   "RingOfDestiny:DarkShield": {
     "NAME": "Dark Shield",
@@ -319,20 +319,20 @@
   },
   "RingOfDestiny:QuickDraw": {
     "NAME": "Quick Draw",
-    "DESCRIPTION": "Apply !RODSecondM! ring_of_destiny:Etch . NL Draw !M! cards."
+    "DESCRIPTION": "Apply !RODSecondM! ring_of_destiny:Etch. NL Draw !M! cards."
   },
   "RingOfDestiny:Enchantment": {
     "NAME": "Enchantment",
-    "DESCRIPTION": "Apply extra !M! stack when you apply ring_of_destiny:Etch in this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Apply extra !M! stack when you apply ring_of_destiny:Etch in this turn."
+    "DESCRIPTION": "Apply !M! additional stack when you apply ring_of_destiny:Etch this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply !M! additional stack when you apply ring_of_destiny:Etch this turn."
   },
   "RingOfDestiny:BlackLight": {
     "NAME": "Black Light",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL If emeny has ring_of_destiny:Etch ,apply !RODSecondM! Weak."
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL If the emeny has ring_of_destiny:Etch, apply !RODSecondM! Weak."
   },
   "RingOfDestiny:Crimson": {
     "NAME": "Crimson",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL If emeny has ring_of_destiny:Etch ,apply !RODSecondM! Vulnerable."
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL If emeny has ring_of_destiny:Etch, apply !RODSecondM! Vulnerable."
   },
   "RingOfDestiny:Flash": {
     "NAME": "Flash",
@@ -348,11 +348,11 @@
   },
   "RingOfDestiny:TestBullet": {
     "NAME": "Test Bullet",
-    "DESCRIPTION": "Deal !D! damage. NL Costs 1 additional [E] in this combat."
+    "DESCRIPTION": "Deal !D! damage. NL Increase this card's cost by 1 this combat."
   },
   "RingOfDestiny:AmmoRain": {
     "NAME": "Ammo Rain",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal additional time for each !M! Dexterity you have."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal damage an additional time for each !M! Dexterity you have."
   },
   "RingOfDestiny:OriginBullet": {
     "NAME": "Origin Bullet",
@@ -369,11 +369,11 @@
   },
   "RingOfDestiny:GrowBullet": {
     "NAME": "Grow Bullet",
-    "DESCRIPTION": "Deal danage equal amount of your discard pile. NL (Deal !D! damage). NL Increase this card's damage by !M! permanently. NL Exhaust."
+    "DESCRIPTION": "Deal damage equal to the number of cards in your discard pile. NL (Deal !D! damage). NL Increase this card's damage by !M! permanently. NL Exhaust."
   },
   "RingOfDestiny:DeathTrack": {
     "NAME": "Death Track",
-    "DESCRIPTION": "Deal !D! damage and apply ring_of_destiny:Etch to random enemy, !M! times."
+    "DESCRIPTION": "Deal !D! damage. NL Apply ring_of_destiny:Etch to a random enemy, !M! times."
   },
   "RingOfDestiny:PhantasmalAssailants": {
     "NAME": "Phantasmal Assailants",
@@ -398,12 +398,12 @@
   },
   "RingOfDestiny:BulletZero": {
     "NAME": "Bullet Zero",
-    "DESCRIPTION": "After playing this card,HP lost in this turn will be returned at the end of the turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "After playing this card,HP lost in this turn will be returned at the end of the turn and heal additional !M! HP. NL Exhaust."
+    "DESCRIPTION": "After playing this card, HP lost during this turn will be returned at the end of the turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "After playing this card, HP lost during this turn will be returned at the end of the turn and heal an additional !M! HP. NL Exhaust."
   },
   "RingOfDestiny:Residual": {
     "NAME": "Residual",
-    "DESCRIPTION": "When ring_of_destiny:Etch explode, NL residual !M! stack."
+    "DESCRIPTION": "When ring_of_destiny:Etch explodes, keep !M! stack."
   },
   "RingOfDestiny:RestraintRing": {
     "NAME": "Restraint Ring",
@@ -411,11 +411,11 @@
   },
   "RingOfDestiny:EtchReflection": {
     "NAME": "Etch-Reflection",
-    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply !M! ring_of_destiny:Etch to attacker."
+    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply !M! ring_of_destiny:Etch to the attacker."
   },
   "RingOfDestiny:Reload": {
     "NAME": "Reload",
-    "DESCRIPTION": "Exhaust a card. NL Deal !D! damage to All enemies."
+    "DESCRIPTION": "Exhaust a card. NL Deal !D! damage to ALL enemies."
   },
   "RingOfDestiny:NimbleShield": {
     "NAME": "Nimble Shield",
@@ -423,7 +423,7 @@
   },
   "RingOfDestiny:InnerFocus": {
     "NAME": "Inner Focus",
-    "DESCRIPTION": "Exhaust All non-Skill cards in your hand. NL Gain !B! Block."
+    "DESCRIPTION": "Exhaust all non-Skill cards in your hand. NL Gain !B! Block."
   },
   "RingOfDestiny:DanceOfDeath": {
     "NAME": "Dance Of Death",
@@ -431,7 +431,7 @@
   },
   "RingOfDestiny:Nightmare": {
     "NAME": "Nightmare",
-    "DESCRIPTION": "Innate. NL Apply !M! ring_of_destiny:Etch to All enemies. NL Exhaust."
+    "DESCRIPTION": "Innate. NL Apply !M! ring_of_destiny:Etch to ALL enemies. NL Exhaust."
   },
   "RingOfDestiny:Illusion": {
     "NAME": "Illusion",
@@ -443,19 +443,19 @@
   },
   "RingOfDestiny:CurtainOfNight": {
     "NAME": "Curtain Of Night",
-    "DESCRIPTION": "Apply !M! ring_of_destiny:Etch and Weak to All enemies. NL Exhaust."
+    "DESCRIPTION": "Apply !M! ring_of_destiny:Etch and Weak to ALL enemies. NL Exhaust."
   },
   "RingOfDestiny:Apoptosis": {
     "NAME": "Apoptosis",
-    "DESCRIPTION": "Increase the stack of ring_of_destiny:Etch of an enemy by !M! times. NL if this explode ring_of_destiny:Etch ,heal !RODSecondM! HP. NL Exhaust."
+    "DESCRIPTION": "Increase the stack of ring_of_destiny:Etch of an enemy by !M! . NL If ring_of_destiny:Etch explodes, heal !RODSecondM! HP. NL Exhaust."
   },
   "RingOfDestiny:OathOfBlood": {
     "NAME": "Oath Of Blood",
-    "DESCRIPTION": "Whenever you lose HP from a card,apply !M! ring_of_destiny:Etch to a random enemy."
+    "DESCRIPTION": "Whenever you lose HP from a card, apply !M! ring_of_destiny:Etch to a random enemy."
   },
   "RingOfDestiny:FlowerOfDespair": {
     "NAME": "Flower Of Despair",
-    "DESCRIPTION": "Lose !RODSecondM! HP and apply !M! ring_of_destiny:Etch to All enemies at the start of each turn."
+    "DESCRIPTION": "Lose !RODSecondM! HP and apply !M! ring_of_destiny:Etch to ALL enemies at the start of each turn."
   },
   "RingOfDestiny:RapidFire": {
     "NAME": "Rapid Fire",
@@ -467,7 +467,7 @@
   },
   "RingOfDestiny:TrackingBullet": {
     "NAME": "Tracking Bullet",
-    "DESCRIPTION": "Deal !D! damage. NL If the enemy has ring_of_destiny:Etch ,gain !M! Dexterity."
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has ring_of_destiny:Etch, gain !M! Dexterity."
   },
   "RingOfDestiny:Prelude": {
     "NAME": "Prelude",
@@ -475,29 +475,29 @@
   },
   "RingOfDestiny:Epilogue": {
     "NAME": "Epilogue",
-    "DESCRIPTION": "Whenever you play a Skill,deal !M! damage to All enemies."
+    "DESCRIPTION": "Whenever you play a Skill, deal !M! damage to ALL enemies."
   },
   "RingOfDestiny:Underhand": {
     "NAME": "Underhand",
-    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Weak,apply !M! ring_of_destiny:Etch."
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has Weak, apply !M! ring_of_destiny:Etch."
   },
   "RingOfDestiny:DoomsdayMark": {
     "NAME": "Doomsday Mark",
-    "DESCRIPTION": "In next !M! turns, ring_of_destiny:Etch will deal double daname. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "In next !M! turns, ring_of_destiny:Etch will deal double daname."
+    "DESCRIPTION": "During the next !M! turns, ring_of_destiny:Etch will deal double damage. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "During the next !M! turns, ring_of_destiny:Etch will deal double damage."
   },
   "RingOfDestiny:SecretAmmunition": {
     "NAME": "Secret Ammunition",
-    "DESCRIPTION": "Deal !D! damage to All enemies. NL Gain [E] at the start of next turn."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain [E] at the start of your next turn."
   },
   "RingOfDestiny:LethalTwins": {
     "NAME": "Lethal Twins",
-    "DESCRIPTION": "The next !M! Attack you played will be played twice in this turn.",
-    "UPGRADE_DESCRIPTION": "The next !M! Attack and Skill you played will be played twice in this turn."
+    "DESCRIPTION": "The next !M! Attack you play this turn will be played twice.",
+    "UPGRADE_DESCRIPTION": "The next !M! Attack and Skill you play this turn will be played twice."
   },
   "RingOfDestiny:LoomingDeath": {
     "NAME": "Looming Death",
-    "DESCRIPTION": "At the start of each turn, NL gain !RODSecondM! Stength and !M! Dexterity."
+    "DESCRIPTION": "At the start of each turn, gain !RODSecondM! Stength and !M! Dexterity."
   },
   "RingOfDestiny:TimingBreath": {
     "NAME": "Timing Breath",
@@ -506,20 +506,20 @@
   },
   "RingOfDestiny:VolleyBullet": {
     "NAME": "Volley Bullet",
-    "DESCRIPTION": "Deal !D! damage !M! times. NL Deal an extra time for each !RODSecondM! Dexterity you have."
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Deal an additional time for each !RODSecondM! Dexterity you have."
   },
   "RingOfDestiny:PressuredBullet": {
     "NAME": "Pressured Bullet",
-    "DESCRIPTION": "The first !M! Attack you play each turn deal double damage."
+    "DESCRIPTION": "The first !M! Attacks you play each turn deals double damage."
   },
   "RingOfDestiny:MagicAbsorb": {
     "NAME": "Magic Absorb",
     "DESCRIPTION": "Steal X Strength form an enemy. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Steal X+ !M! Strength form an enemy. NL Exhaust."
+    "UPGRADE_DESCRIPTION": "Steal X + !M! Strength form an enemy. NL Exhaust."
   },
   "RingOfDestiny:Demise": {
     "NAME": "Demise",
-    "DESCRIPTION": "Deal !D! damage to All enemies. NL Gain !M! Weak. NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! Weak. NL Exhaust."
   },
   "RingOfDestiny:BlackFuneral": {
     "NAME": "Black Funeral",
@@ -531,16 +531,16 @@
   },
   "RingOfDestiny:NightPendant": {
     "NAME": "Night Pendant",
-    "DESCRIPTION": "Whenever a card is Exhausted, NL gain !M! Dexterity."
+    "DESCRIPTION": "Whenever a card is Exhausted, gain !M! Dexterity."
   },
   "RingOfDestiny:RiteOfOrigin": {
     "NAME": "Rite Of Origin",
-    "DESCRIPTION": "Exhaust all \"Bullet\" cards in your draw pile and your hand. Add a *Origin *Bullet for each card exhausted. NL Exhaust.",
+    "DESCRIPTION": "Exhaust all \"Bullet\" cards in your draw pile and hand. Add a *Origin *Bullet for each card exhausted. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Exhaust all \"Bullet\" cards in your draw pile and your hand. Add a *Origin *Bullet+ for each card exhausted. NL Exhaust."
   },
   "RingOfDestiny:Elegance": {
     "NAME": "Elegance",
-    "DESCRIPTION": "At the start of each turn,add !M! random Skill to your hand."
+    "DESCRIPTION": "At the start of each turn, add !M! random Skill to your hand."
   },
   "RingOfDestiny:Defend_PU": {
     "NAME": "Defend",
