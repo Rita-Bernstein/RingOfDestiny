@@ -39,8 +39,8 @@
   },
   "RingOfDestiny:ShadowBlossom": {
     "NAME": "Shadow Blossom",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL If Fatal, add 2 *Shadow *Rose to your hand.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL If Fatal, add 2 *Shadow *Rose+ to your hand."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL On ring_of_destiny:Kill, add 2 *Shadow *Rose to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL On ring_of_destiny:Kill, add 2 *Shadow *Rose+ to your hand."
   },
   "RingOfDestiny:Spur": {
     "NAME": "Spur",
@@ -105,7 +105,7 @@
   },
   "RingOfDestiny:ShadowCutter": {
     "NAME": "Shadow Cutter",
-    "DESCRIPTION": "Deal !D! damage. NL If Fatal, draw !M! cards."
+    "DESCRIPTION": "Deal !D! damage. NL On ring_of_destiny:Kill, draw !M! cards."
   },
   "RingOfDestiny:EthMudra": {
     "NAME": "EthMudra",
@@ -205,7 +205,7 @@
   },
   "RingOfDestiny:DeadlyShadow": {
     "NAME": "Deadly Shadow",
-    "DESCRIPTION": "Deal !D! damage. NL If Fatal, create a ring_of_destiny:Shadow."
+    "DESCRIPTION": "Deal !D! damage. NL On ring_of_destiny:Kill, create a ring_of_destiny:Shadow."
   },
   "RingOfDestiny:DeadlyArts": {
     "NAME": "Deadly Arts",
@@ -227,7 +227,7 @@
   },
   "RingOfDestiny:PerfectExecution": {
     "NAME": "Perfect Execution",
-    "DESCRIPTION": "Deal !D! damage. NL If Fatal, return this to your hand and gain [E] [E] [E] ."
+    "DESCRIPTION": "Deal !D! damage. NL On ring_of_destiny:Kill, return this to your hand and gain [E] [E] [E] ."
   },
   "RingOfDestiny:DodeMudra": {
     "NAME": "DodeMudra",
@@ -291,7 +291,7 @@
   },
   "RingOfDestiny:DeadlyShoot": {
     "NAME": "Deadly Shot",
-    "DESCRIPTION": "Deal !D! damage. NL If Fatal, deal damage again to a random enemy."
+    "DESCRIPTION": "Deal !D! damage. NL On ring_of_destiny:Kill, deal damage again to a random enemy."
   },
   "RingOfDestiny:EtchSpirit": {
     "NAME": "Etch Spirit",

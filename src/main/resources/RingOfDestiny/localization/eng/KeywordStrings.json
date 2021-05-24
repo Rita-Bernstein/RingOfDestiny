@@ -32,7 +32,7 @@
     "NAMES": [
       "kill"
     ],
-    "DESCRIPTION": "Trigger effect after you kill creature."
+    "DESCRIPTION": "Trigger effect whenever yoou kill a creature."
   },
   {
     "PROPER_NAME": "Diamond",
