@@ -340,14 +340,14 @@
     "NAME": "恶意屏障",
     "DESCRIPTIONS": [
       "本回合每受到一次 #y攻击 ,给予 #b",
-      " 层 #y榨取 和 #y虚弱 。"
+      " 层 #y榨取 。"
     ]
   },
   "RingOfDestiny:UpgradedMaliciousBarrierPower": {
     "NAME": "恶意屏障+",
     "DESCRIPTIONS": [
       "本回合每受到一次 #y攻击 ,给予 #b",
-      " 层 #y榨取 。"
+      " 层 #y榨取 和 #y虚弱 。"
     ]
   },
   "RingOfDestiny:DoomsdayImprintPower": {

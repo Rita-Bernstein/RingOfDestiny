@@ -1515,7 +1515,7 @@
   },
   "RingOfDestiny:PowerOfWrath": {
     "NAME": "愤怒之力",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。造成 !D! 点伤害 !M! 次。本场战斗耗能和次数提高1（最多为4）。耗能改变将保持到战斗结束。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。造成 !D! 点伤害 !M! 次。本场战斗耗能和次数提高1（最多为4）。"
   },
   "RingOfDestiny:ScepterOfGluttony": {
     "NAME": "暴食权杖",
@@ -1523,8 +1523,8 @@
   },
   "RingOfDestiny:PowerOfLaziness": {
     "NAME": "懒惰之力",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。 NL 获得 !B! 点 格挡 。每打出一次，本场战斗本牌的 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 +2。 NL 获得 !B! 点 格挡 。每打出一次，本场战斗本牌的 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。 NL 获得 !B! 点 格挡 。 NL 本场战斗本牌的 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 3 ring_of_destiny:原罪 。 NL 获得 !B! 点 格挡 。 NL 本场战斗本牌的 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）"
   },
   "RingOfDestiny:VoodooDoll": {
     "NAME": "诅咒人偶",

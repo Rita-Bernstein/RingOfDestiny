@@ -63,9 +63,9 @@
     "DESCRIPTION": "#yDiamond will trigger extra effect when you have more than a certain amount."
   },
   {
-    "PROPER_NAME": "Original Sin",
+    "PROPER_NAME": "Sin",
     "NAMES": [
-      "original_sin"
+      "sin"
     ],
     "DESCRIPTION": "Increase the damage #pDemons deal."
   },
@@ -88,7 +88,7 @@
     "NAMES": [
       "soul\u00a0stone"
     ],
-    "DESCRIPTION": "To play #ySoul #yStone #yCard you need #pSoul #yStones. NL These cards are usually more powerful."
+    "DESCRIPTION": "To play #ySoul #yStone #yCard you need #pSoul #pStones. NL These cards are usually more powerful."
   },
   {
     "PROPER_NAME": "Metallicize",

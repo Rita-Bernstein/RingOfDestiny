@@ -273,8 +273,8 @@
   "RingOfDestiny:BloodmournePower": {
     "NAME": "Bloodmourne",
     "DESCRIPTIONS": [
-      "每当你给予 #y流血 时，额外给予 #b",
-      " 层 #y流血 。"
+      "Whenever you apply #yBleeding ,additional apply #b",
+      " #yBleeding ."
     ]
   },
   "RingOfDestiny:GoldProtectPower": {
@@ -310,273 +310,273 @@
   "RingOfDestiny:HegemonyPower": {
     "NAME": "Hegemony",
     "DESCRIPTIONS": [
-      "每回合开始时手牌中的随机 #b",
-      " 张 #y攻击牌 本回合耗能为零。"
+      "Reduce cost of #b",
+      " #yAttack cards in hand to 0 at the start of turn."
     ]
   },
   "RingOfDestiny:ManaControlPower": {
     "NAME": "Mana Control",
     "DESCRIPTIONS": [
-      "本角色技能牌耗能减 #b1 （不低于1）。每获得 #b20 点 #y格挡 ，获得1颗 #y灵魂石 。（已获得",
-      " 点 #y格挡 ）"
+      "Decrease cost of all Summoner Skill cards by #b1 (At least 1). Whenever gain #b20 #yBlock , gain a #pSoul #pStone .(Gain #b",
+      " #yBlock ）"
     ]
   },
   "RingOfDestiny:AncientBloodPower": {
     "NAME": "Ancient Blood",
     "DESCRIPTIONS": [
-      "每次失去生命时，给予随机敌人 #b",
-      " 层 #y榨取 。"
+      "Whenever lose HP,apply #b",
+      " #yExtract to a random enemy."
     ]
   },
   "RingOfDestiny:ExtractPower": {
     "NAME": "Extract",
     "DESCRIPTIONS": [
-      "每有 #b2 层时失去 #b2 层。同时你将回复 #g",
-      "每有 #b2 层时失去 #b2 层。同时这名敌人将回复 #g",
-      " 点生命。"
+      "Lose #b2 stack for each #b2 stack,and Heal you #g",
+      "Lose #b2 stack for each #b2 stack,and Heal this enemy #g",
+      " HP."
     ]
   },
   "RingOfDestiny:MaliciousBarrierPower": {
     "NAME": "Malicious Barrier",
     "DESCRIPTIONS": [
-      "本回合每受到一次 #y攻击 ,给予 #b",
-      " 层 #y榨取 和 #y虚弱 。"
+      " Whenever you are attacked this turn,apply #b",
+      " #yExtract back."
     ]
   },
   "RingOfDestiny:UpgradedMaliciousBarrierPower": {
     "NAME": "Malicious Barrier+",
     "DESCRIPTIONS": [
-      "本回合每受到一次 #y攻击 ,给予 #b",
-      " 层 #y榨取 。"
+      " Whenever you are attacked this turn,apply #b",
+      " #yExtract and #yWeak back."
     ]
   },
   "RingOfDestiny:DoomsdayImprintPower": {
     "NAME": "Doomsday Imprint",
     "DESCRIPTIONS": [
-      "这名敌人受到 #y末日陨石 的伤害提高 #b",
-      " 点。最多 #b10 层。"
+      "Take additional #b",
+      " damage from #yDoomsday #yMeteorite . NL Up to #b10 ."
     ]
   },
   "RingOfDestiny:LazyCloakPower": {
     "NAME": "Lazy Cloak",
     "DESCRIPTIONS": [
-      " #y恶魔 每次攻击时，给予你 #b",
-      " 点 #y格挡 。"
+      "Whenever #yDemon attack,you gain #b",
+      " #yBlock ."
     ]
   },
   "RingOfDestiny:CupOfDesirePower": {
     "NAME": "Cup Of DesireP",
     "DESCRIPTIONS": [
-      "每次回复生命时，对所有敌人造成 #b",
-      " 点伤害。"
+      "Whenever you Heal,deal #b",
+      " damage to ALL enemies."
     ]
   },
   "RingOfDestiny:DemonSkinPower": {
     "NAME": "Demon Skin",
     "DESCRIPTIONS": [
-      "本回合，每当你受到攻击时，获得 #b",
-      " 点 #y格挡 。"
+      "Whenever you are attacked this turn,gain #b",
+      " #yBlock."
     ]
   },
   "RingOfDestiny:ManaEnhancePower": {
     "NAME": "Mana Enhance",
     "DESCRIPTIONS": [
-      "本回合你打出下一张的 #y攻击牌 无视耗能。",
-      "本回合你打出下 #b",
-      " 张 #y攻击牌 无视耗能。"
+      "Next #yAttack card you played ignore its cost.",
+      "Next #b",
+      " cards you played ignore its cost."
     ]
   },
   "RingOfDestiny:EnvyNecklacePower": {
     "NAME": "Envy Necklace",
     "DESCRIPTIONS": [
-      "每回合开始时，将 #b",
-      " 张 #y嫉妒之力 加入手牌。"
+      "At the start of turn,add #b",
+      " #yPower #yOf #yEnvy to your hand."
     ]
   },
   "RingOfDestiny:UpgradeEnvyNecklacePower": {
     "NAME": "Envy Necklace+",
     "DESCRIPTIONS": [
-      "每回合开始时，将 #b",
-      " 张 #y嫉妒之力+ 加入手牌。"
+      "At the start of turn,add #b",
+      " #yPower #yOf #yEnvy+ to your hand."
     ]
   },
   "RingOfDestiny:AngerSwordPower": {
     "NAME": "Anger Sword",
     "DESCRIPTIONS": [
-      "每打出一张 #y技能牌 ，对随机敌人造成 #b",
-      " 点伤害并给予 #b",
-      " 层 #y榨取 。"
+      "Whenever you play a #ySkill ,deal #b",
+      " damage and apply #b",
+      " #yExtract to a random enemy."
     ]
   },
   "RingOfDestiny:UpgradedAngerSwordPower": {
     "NAME": "Anger Sword+",
     "DESCRIPTIONS": [
-      "每打出一张 #y技能牌 或 #y攻击牌 ，对随机敌人造成 #b",
-      " 点伤害并给予 #b",
-      " 层 #y榨取 。"
+      "Whenever you play a #ySkill or #yAttack ,deal #b",
+      " damage and apply #b",
+      " #yExtract to a random enemy."
     ]
   },
   "RingOfDestiny:ScepterOfGluttonyPower": {
     "NAME": "Scepter Of Gluttony",
     "DESCRIPTIONS": [
-      "每回合开始时，将手牌中的 #b",
-      " 张牌在本回合的耗能变为 #b0"
+      "At the start of turn,reduce cost of #b",
+      " cards in hand to #b0 in this turn."
     ]
   },
   "RingOfDestiny:VoodooDollSelfPower": {
-    "NAME": "VoodooDoll-Self",
+    "NAME": "Voodoo Doll-Self",
     "DESCRIPTIONS": [
-      "本回合内，你受到的伤害将由敌人承受"
+      "All damage you receive in this turn is borne by an enemy."
     ]
   },
   "RingOfDestiny:VoodooDollMonsterPower": {
-    "NAME": "VoodooDoll-Monster",
+    "NAME": "Voodoo Doll-Monster",
     "DESCRIPTIONS": [
-      "本回合内，这名敌人将代你承受所受的伤害的 #b",
-      " 倍伤害。如果死亡，则给予随机其他一名敌人同等效果。"
+      " #b",
+      " times of all damage you receive in this turn is borne by this enemy. NL Apply this effect to random enemy when it die."
     ]
   },
   "RingOfDestiny:HegemonyOfDevilPower": {
     "NAME": "Hegemony Of Devil",
     "DESCRIPTIONS": [
-      "回合结束时，将你的 #y力量 转换为 #y金属化 。"
+      "At the end of turn,conver your #yStrength into #yMetallicize ."
     ]
   },
   "RingOfDestiny:SummonOfDoomsdayPower": {
     "NAME": "Summon Of Doomsday",
     "DESCRIPTIONS": [
-      "本回合内， #y消耗 所有打出的牌。每打出 #b1 张攻击牌，抽 #b",
-      " 张攻击牌。"
+      "#yExhaust all card you play in this turn. NL Whenever you play #b1 #yAttack card, draw #b",
+      " #yAttack card."
     ]
   },
   "RingOfDestiny:CrownOfPridePower": {
     "NAME": "Crown Of Pride",
     "DESCRIPTIONS": [
-      "每 #y使用 一颗 #y灵魂石 ，获得 #b",
-      " [E] 。"
+      "Whenever spend a #pSoul #pStone ,gain #b",
+      " [E] ."
     ]
   },
   "RingOfDestiny:ConvictionPower": {
     "NAME": "Conviction",
     "DESCRIPTIONS": [
-      "降低生命回复效果 #b",
-      " 点。"
+      "Decrease Healing by #b",
+      " ."
     ]
   },
   "RingOfDestiny:LoseMetallicizePower": {
     "NAME": "Lose Metallicize",
     "DESCRIPTIONS": [
-      "在你的回合结束时，失去 #b",
-      " 点 #y金属化 。"
+      "At the end of your turn,lose #b",
+      " #yMetallicize ."
     ]
   },
   "RingOfDestiny:ChainOfLightPower": {
     "NAME": "Chain Of Light",
     "DESCRIPTIONS": [
-      "当你从一张牌中失去生命时，对随机敌人造成 #b",
-      " 点伤害。"
+      "Whenever you lose HP from cards,deal #b",
+      " damage to a random enemy."
     ]
   },
   "RingOfDestiny:UpgradedChainOfLightPower": {
     "NAME": "Chain Of Light+",
     "DESCRIPTIONS": [
-      "当你从一张牌中失去生命时，对所有敌人造成 #b",
-      " 点伤害。"
+      "Whenever you lose HP from cards,deal #b",
+      " damage to ALL enemies."
     ]
   },
   "RingOfDestiny:BladeOfShadowPower": {
     "NAME": "BladeOfShadow",
     "DESCRIPTIONS": [
       "本回合每当杀死一名敌人时，获得 #b",
-      " 点最大生命。"
+      " 点最大生命."
     ]
   },
   "RingOfDestiny:AngelTalismanPower": {
     "NAME": "Angel Talisman",
     "DESCRIPTIONS": [
       "每当你 #y损毁 一张牌，获得 #b",
-      " 点能量。"
+      " 点能量."
     ]
   },
   "RingOfDestiny:GuiltyCrownPower": {
     "NAME": "Guilty Crown",
     "DESCRIPTIONS": [
       "每当你 #y损毁 一张牌，获得 #b",
-      " 点 #y暗能量 。"
+      " 点 #y暗能量 ."
     ]
   },
   "RingOfDestiny:EmbersPower": {
     "NAME": "Embers",
     "DESCRIPTIONS": [
       "每当你 #y消耗 一张牌，对随机敌人造成 #b",
-      " 点伤害。"
+      " 点伤害."
     ]
   },
   "RingOfDestiny:PureHeartPower": {
     "NAME": "Pure Heart",
     "DESCRIPTIONS": [
       "每回合开始时，将 #b",
-      " 张 #y神圣裁决 加入手牌。"
+      " 张 #y神圣裁决 加入手牌."
     ]
   },
   "RingOfDestiny:UpgradedPureHeartPower": {
     "NAME": "Pure Heart+",
     "DESCRIPTIONS": [
       "每回合开始时，将 #b",
-      " 张 #y神圣裁决+ 加入手牌。"
+      " 张 #y神圣裁决+ 加入手牌."
     ]
   },
   "RingOfDestiny:BlackCloakPower": {
     "NAME": "Black Cloak",
     "DESCRIPTIONS": [
       "每回合开始时，将 #b",
-      " 张 #y异端审判 加入手牌。"
+      " 张 #y异端审判 加入手牌."
     ]
   },
   "RingOfDestiny:UpgradedBlackCloakPower": {
     "NAME": "Black Cloak+",
     "DESCRIPTIONS": [
       "每回合开始时，将 #b",
-      " 张 #y异端审判+ 加入手牌。"
+      " 张 #y异端审判+ 加入手牌."
     ]
   },
   "RingOfDestiny:CantPlayNonAttackPower": {
     "NAME": "Can't Play Non-Attack",
     "DESCRIPTIONS": [
-      "本回合你不能打出 #y非攻击牌 。",
+      "本回合你不能打出 #y非攻击牌 .",
       "在 #b",
-      " 回合内，你不能打出 #y非攻击牌 。 "
+      " 回合内，你不能打出 #y非攻击牌 . "
     ]
   },
   "RingOfDestiny:CantPlayNonSkillPower": {
     "NAME": "Can't Play Non-Skill",
     "DESCRIPTIONS": [
-      "本回合你不能打出 #y非技能牌 。",
+      "本回合你不能打出 #y非技能牌 .",
       "在 #b",
-      " 回合内，你不能打出 #y非技能牌 。 "
+      " 回合内，你不能打出 #y非技能牌 . "
     ]
   },
   "RingOfDestiny:HymnOfAngelsPower": {
     "NAME": "Hymn Of Angels",
     "DESCRIPTIONS": [
-      "本回合你的 #y技能牌 耗能变为 #b0 。",
+      "本回合你的 #y技能牌 耗能变为 #b0 .",
       "在 #b",
-      " 回合内，你的 #y技能牌 耗能变为 #b0 。 "
+      " 回合内，你的 #y技能牌 耗能变为 #b0 . "
     ]
   },
   "RingOfDestiny:DevilWhispersPower": {
     "NAME": "Devil Whispers",
     "DESCRIPTIONS": [
-      "本回合你的 #y攻击牌 耗能变为 #b0 。",
+      "本回合你的 #y攻击牌 耗能变为 #b0 .",
       "在 #b",
-      " 回合内，你的 #y攻击牌 耗能变为 #b0 。 "
+      " 回合内，你的 #y攻击牌 耗能变为 #b0 . "
     ]
   },
   "RingOfDestiny:ExpiateSinPower": {
     "NAME": "Expiate Sin",
     "DESCRIPTIONS": [
       "本回合 #y定罪 的层数消耗减少 #b",
-      " 。"
+      " ."
     ]
   },
   "RingOfDestiny:PowerPendantPower": {
@@ -584,40 +584,40 @@
     "DESCRIPTIONS": [
       "每回合开始时，失去 #b",
       " 点生命并获得 #b",
-      " 点 #y力量 。"
+      " 点 #y力量 ."
     ]
   },
   "RingOfDestiny:LoseHpPower": {
     "NAME": "Lose Hp",
     "DESCRIPTIONS": [
       "每回合开始时，失去 #b",
-      " 点生命。"
+      " 点生命."
     ]
   },
   "RingOfDestiny:MetalRingPower": {
     "NAME": "Metal Ring",
     "DESCRIPTIONS": [
       "每回合开始时，获得 #b",
-      " 点 #y金属化 。"
+      " 点 #y金属化 ."
     ]
   },
   "RingOfDestiny:ResurrectionGemPower": {
     "NAME": "Resurrection Gem",
     "DESCRIPTIONS": [
       "当你将要死亡时，免死并回复 #b",
-      "% 生命。"
+      "% 生命."
     ]
   },
   "RingOfDestiny:Reflection": {
     "NAME": "Reflection",
     "DESCRIPTIONS": [
-      "当攻击未击穿格挡时， 对攻击者造成 #y等量 伤害。"
+      "当攻击未击穿格挡时， 对攻击者造成 #y等量 伤害."
     ]
   },
   "RingOfDestiny:SelfDetonate": {
     "NAME": "Self Detonate",
     "DESCRIPTIONS": [
-      "反射死亡前受到的最后一次生命损失量的伤害。"
+      "反射死亡前受到的最后一次生命损失量的伤害."
     ]
   },
   "RingOfDestiny:SuperMoves": {
@@ -629,16 +629,16 @@
   "RingOfDestiny:ArtGallery": {
     "NAME": "Art Gallery",
     "DESCRIPTIONS": [
-      "敌人将会在 #y2 个回合后召唤铜像，场内最多两只。",
+      "敌人将会在 #b2 个回合后召唤铜像，场内最多两只.",
       " "
     ]
   },
   "RingOfDestiny:Probe": {
     "NAME": "Probe",
     "DESCRIPTIONS": [
-      "敌人将会在 #y5 个回合后自杀并进入下一状态。",
+      "敌人将会在 #y5 个回合后自杀并进入下一状态.",
       " ",
-      "敌人将会在本回合自杀并进入下一状态。"
+      "敌人将会在本回合自杀并进入下一状态."
     ]
   }
 }
