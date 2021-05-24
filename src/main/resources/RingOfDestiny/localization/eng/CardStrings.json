@@ -303,7 +303,7 @@
   },
   "RingOfDestiny:BreakBullet": {
     "NAME": "Break Bullet",
-    "DESCRIPTION": "Deal !D! damage。 NL Apply !M! Vulnerable."
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable."
   },
   "RingOfDestiny:DeathLeakage": {
     "NAME": "Death Leakage",
@@ -552,165 +552,165 @@
   },
   "RingOfDestiny:FirstInvest": {
     "NAME": "First Invest",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL Gain !B! Block. NL 变化为 “98” 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL Gain !B! Block. NL 变化为 “98+” 。"
+    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond 。 NL Gain !B! Block. NL Transform into *Fifteen *Dollar.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ring_of_destiny:Diamond 。 NL Gain !B! Block. NL Transform into  *Fifteen *Dollar+."
   },
   "RingOfDestiny:Disdain": {
     "NAME": "Disdain",
-    "DESCRIPTION": "Deal !D! damage. NL 丢弃 !M! 张牌。"
+    "DESCRIPTION": "Deal !D! damage. NL Discard !M! cards."
   },
   "RingOfDestiny:DrawAgain": {
     "NAME": "Draw Again",
-    "DESCRIPTION": "Deal !D! damage. NL 给予 !M! 层 ring_of_destiny:流血 。 NL 将抽牌堆的一张 *再来一发 加入手牌。"
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ring_of_destiny:Bleeding. NL Put a *Draw *Again to your hand."
   },
   "RingOfDestiny:MultipleInvest": {
     "NAME": "Multiple Invest",
-    "DESCRIPTION": "Deal !D! damage. NL 抽 !M! 张牌。 NL 每有 !RODSecondM! 颗 ring_of_destiny:氪金石 多抽一张牌。"
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards. NL Draw an extra card for each !RODSecondM! ring_of_destiny:Diamond you have."
   },
   "RingOfDestiny:StayUpLate": {
     "NAME": "Stay Up Late",
-    "DESCRIPTION": "Deal !D! damage. NL 给予 !M! 层 虚弱 。"
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak."
   },
   "RingOfDestiny:Windfall": {
     "NAME": "Windfall",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL 如果被丢弃， NL 获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond 。 NL If this card is discarded from your hand, NL gain !RODSecondM! ring_of_destiny:Diamond 。"
   },
   "RingOfDestiny:Wilful": {
     "NAME": "Wilful",
-    "DESCRIPTION": "Gain !B! Block. NL 将弃牌堆中的 !M! 张牌加入手牌。"
+    "DESCRIPTION": "Gain !B! Block. NL Add !M! card from discard pile to your hand."
   },
   "RingOfDestiny:RaiseMoney": {
     "NAME": "Raise Money",
-    "DESCRIPTION": "获得 !M! 张 *再来一发 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 张 *再来一发+ 。 NL 消耗 。"
+    "DESCRIPTION": "Add !M! *Draw *Again to you hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add !M! *Draw *Again+ to you hand. NL Exhaust."
   },
   "RingOfDestiny:NoviceReward": {
     "NAME": "Novice Reward",
-    "DESCRIPTION": "抽 !M! 张牌。 NL 丢弃一张牌。"
+    "DESCRIPTION": "Draw !M! cards。 NL Discard a card."
   },
   "RingOfDestiny:BloodBorne": {
     "NAME": "Blood Borne",
-    "DESCRIPTION": "给予所有敌人 !M! 层 ring_of_destiny:流血 。"
+    "DESCRIPTION": "Apply !M! ring_of_destiny:Bleeding to All enemies."
   },
   "RingOfDestiny:Purification": {
     "NAME": "Purification",
-    "DESCRIPTION": "抽 !M! 张牌。 NL 将一张 *伤口 加入弃牌堆。"
+    "DESCRIPTION": "Draw !M! card. NL Add a *Wound to discard pile."
   },
   "RingOfDestiny:Refine": {
     "NAME": "Refine",
-    "DESCRIPTION": "获得 [E] 。 NL 将 !M! 张 *伤口 加入弃牌堆。"
+    "DESCRIPTION": "Gain [E] . NL Add !M! *Wound to discard pile."
   },
   "RingOfDestiny:Laugh": {
     "NAME": "LMAO",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害 !M! 次。"
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times."
   },
   "RingOfDestiny:CatGash": {
     "NAME": "Cat Gash",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 给予 !RODSecondM! 层 易伤 。"
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Apply !RODSecondM! Vulnerable."
   },
   "RingOfDestiny:Filter": {
     "NAME": "Filter",
-    "DESCRIPTION": "消耗 !M! 张牌。 NL 抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": "最多 消耗 !M! 张牌。 NL 抽 !M! 张牌。"
+    "DESCRIPTION": "Exhaust !M! cards. NL Draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "Up to exhaust !M! cards. NL Draw !M! cards."
   },
   "RingOfDestiny:Concentrate": {
     "NAME": "Concentrate",
-    "DESCRIPTION": "丢弃 !RODSecondM! 张牌。 NL 获得 !M! 颗 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "Discard !RODSecondM! cards. NL Gain !M! ring_of_destiny:Diamond."
   },
   "RingOfDestiny:Rebate": {
     "NAME": "Rebate",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 获得 !M! 颗 ring_of_destiny:氪金石 。 NL 消耗 。"
+    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Gain !M! ring_of_destiny:Diamond. NL Exhaust."
   },
   "RingOfDestiny:ThreeRaffles": {
     "NAME": "Three Raffles",
-    "DESCRIPTION": "对所有敌人造成 !D! 点伤害 !M! 次。"
+    "DESCRIPTION": "Deal !D! damage to All enemies !M! times."
   },
   "RingOfDestiny:NoLoss": {
-    "NAME": "NoLoss",
-    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL Deal !D! damage. NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命。"
+    "NAME": "No Loss",
+    "DESCRIPTION": "Spend !M! ring_of_destiny:Diamond. NL Deal !D! damage. NL If you don't have enough ring_of_destiny:Diamond. NL Lose !RODSecondM! HP."
   },
   "RingOfDestiny:CheckOut": {
     "NAME": "Check Out",
-    "DESCRIPTION": "Deal !D! damage. NL 本回合内，每打出过一张攻击牌，增加 !M! 点伤害。",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !M! more damage for each Attack you played this turn.",
     "EXTENDED_DESCRIPTION": [
-      " NL （你本回合打出过",
-      " 张攻击牌。）",
-      " 张攻击牌。）"
+      " NL (",
+      " Attack played)",
+      " Attacks played)"
     ]
   },
   "RingOfDestiny:FreePlay": {
     "NAME": "Free to Play",
-    "DESCRIPTION": "Deal !D! damage. NL 消耗 。"
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust."
   },
   "RingOfDestiny:GoldFinger": {
     "NAME": "Gold Finger",
-    "DESCRIPTION": "Deal !D! damage. NL  ring_of_destiny:击杀 时，获得 !M! 颗 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "Deal !D! damage. NL If ring_of_destiny:Kill ,gain !M! ring_of_destiny:Diamond."
   },
   "RingOfDestiny:Wild": {
     "NAME": "Wild",
-    "DESCRIPTION": "造成你最大生命四分之一（ !D! ）的伤害。",
-    "UPGRADE_DESCRIPTION": "造成你最大生命三分之一（ !D! ）的伤害。"
+    "DESCRIPTION": "Deal damage equals to a quarter of your max HP. NL ( !D! )",
+    "UPGRADE_DESCRIPTION": "Deal damage equals to a third of your max HP. NL ( !D! )"
   },
   "RingOfDestiny:Superior": {
     "NAME": "Superior",
-    "DESCRIPTION": "对所有敌人Deal !D! damage. NL 抽 !M! 张牌。"
+    "DESCRIPTION": "Deal !D! damage to All enemies. NL Draw !M! card."
   },
   "RingOfDestiny:Shuffle": {
     "NAME": "Shuffle",
-    "DESCRIPTION": "将弃牌堆的牌洗入抽牌堆。抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": "将弃牌堆的牌洗入抽牌堆。抽 !M! 张牌。"
+    "DESCRIPTION": "Shuffle your discard pile into your draw pile. NL Draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Shuffle your discard pile into your draw pile. NL Draw !M! cards."
   },
   "RingOfDestiny:FiveDollar": {
     "NAME": "Five Dollar",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 NL 和 !B! 点 格挡 。 NL 丢弃一张牌。 NL 变化为 “98” 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 NL 和 !B! 点 格挡 。 NL 丢弃一张牌。 NL 变化为 “98+” 。"
+    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond。 NL Gain !B! Block. NL Discard a card. NL Transform into *Fifteen *Dollar.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ring_of_destiny:Diamond。 NL Gain !B! Block. NL Discard a card. NL Transform into *Fifteen *Dollar+." 
   },
   "RingOfDestiny:FifteenDollar": {
     "NAME": "Fifteen Dollar",
-    "DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。 NL 抽 !M! 张牌。 NL 变化为 “198” 。",
-    "UPGRADE_DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。 NL 抽 !M! 张牌。 NL 变化为 “198+” 。"
+    "DESCRIPTION": "Gain !RODSecondM! ring_of_destiny:Diamond. NL Draw !M! cards. NL Transform into *Thirty *Dollar.",
+    "UPGRADE_DESCRIPTION": "Gain !RODSecondM! ring_of_destiny:Diamond. NL Draw !M! cards. NL Transform into *Thirty *Dollar+."
   },
   "RingOfDestiny:ThirtyDollar": {
     "NAME": "Thirty Dollar",
-    "DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。 NL 获得当前 ring_of_destiny:氪金石 两倍的 格挡 （ !B! ）。 NL 变化为 “648” 。 NL 虚无 。",
-    "UPGRADE_DESCRIPTION": "获得 !RODSecondM! 颗 ring_of_destiny:氪金石 。 NL 获得当前 ring_of_destiny:氪金石 两倍的 格挡 （ !B! ）。 NL 变化为 “648+” 。 NL 虚无 。"
+    "DESCRIPTION": "Gain !RODSecondM! ring_of_destiny:Diamond. NL Gain Block equals to twice ring_of_destiny:Diamond you have.( !B! ). NL Transform into *Hundred *Dollar. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "Gain !RODSecondM! ring_of_destiny:Diamond. NL Gain Block equals to twice ring_of_destiny:Diamond you have.( !B! ). NL Transform into *Hundred *Dollar+. NL Ethereal."
   },
   "RingOfDestiny:Overdraft": {
     "NAME": "Overdraft",
-    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 [E] [E] 。 NL 下回合失去 [E] [E] 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命。",
-    "UPGRADE_DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 [E] [E] [E] 。 NL 下回合失去 [E] [E] 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命。"
+    "DESCRIPTION": "Spend !M! ring_of_destiny:Diamond. NL Gain [E] [E]. NL Lose [E] [E] next turn. NL If you don't have enough ring_of_destiny:Diamond, NL lose !RODSecondM! HP.",
+    "UPGRADE_DESCRIPTION": "Spend !M! ring_of_destiny:Diamond. NL Gain [E] [E] [E]. NL Lose [E] [E] next turn. NL If you don't have enough ring_of_destiny:Diamond, NL lose !RODSecondM! HP."
   },
   "RingOfDestiny:Happy": {
     "NAME": "Happy",
-    "DESCRIPTION": "如果敌人的意图不是攻击，获得 !M! 颗 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "If the enemy not intends to attack,gain !M! ring_of_destiny:Diamond."
   },
   "RingOfDestiny:MassInvest": {
     "NAME": "Mass Invest",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL 抽 !RODSecondM! 张牌。 NL 消耗 。"
+    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond. NL Draw !RODSecondM! cards. NL Exhaust."
   },
   "RingOfDestiny:HoldOn": {
     "NAME": "Hold On",
-    "DESCRIPTION": "获得 !B! 点 格挡 X次。"
+    "DESCRIPTION": "Gain !B! Blcok X times."
   },
   "RingOfDestiny:Recommend": {
     "NAME": "Recommend",
-    "DESCRIPTION": "使用2颗 ring_of_destiny:氪金石 。 NL 给予 !M! 层 ring_of_destiny:流血 ， NL !RODSecondM! 层 虚弱 。 NL 如果 ring_of_destiny:氪金石 不足， NL 则失去3点生命。"
+    "DESCRIPTION": "Spend 2 ring_of_destiny:Diamond. NL Apply !M! ring_of_destiny:Bleeding and NL !RODSecondM! Weak. NL If you don't have enouth ring_of_destiny:Diamond, NL lose 3 HP."
   },
   "RingOfDestiny:AristocraticPedigree": {
     "NAME": "Aristocratic Pedigree",
-    "DESCRIPTION": "本场战斗中，临时提高生命上限 !M! 点。"
+    "DESCRIPTION": "Gain !M! max HP in this combat."
   },
   "RingOfDestiny:NoInvest": {
     "NAME": "No Invest",
-    "DESCRIPTION": "本场战斗中无法获得 ring_of_destiny:氪金石 。每当从卡牌失去生命时，随机给予 !M! 层 ring_of_destiny:流血 。 ",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 本场战斗中无法获得 ring_of_destiny:氪金石 。每当从卡牌失去生命时，随机给予 !M! 层 ring_of_destiny:流血 。 "
+    "DESCRIPTION": "you can't gain ring_of_destiny:Diamond in this combat. NL Whenever you lose HP from cards,apply !M! ring_of_destiny:Bleeding to a random enemy.",
+    "UPGRADE_DESCRIPTION": "Innate. NL you can't gain ring_of_destiny:Diamond in this combat. NL Whenever you lose HP from cards,apply !M! ring_of_destiny:Bleeding to a random enemy."
   },
   "RingOfDestiny:MonthCard": {
     "NAME": "Month Card",
-    "DESCRIPTION": "每回合开始时， NL 获得 !M! 颗 ring_of_destiny:氪金石 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 每回合开始时， NL 获得 !M! 颗 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "At the start of each turn, NL gain !M! ring_of_destiny:Diamond.",
+    "UPGRADE_DESCRIPTION": "Innate.  NL At the start of each turn, NL gain !M! ring_of_destiny:Diamond."
   },
   "RingOfDestiny:Shiny": {
     "NAME": "Shiny",
@@ -718,8 +718,8 @@
   },
   "RingOfDestiny:Reinforcement": {
     "NAME": "Reinforcement",
-    "DESCRIPTION": "虚无 。 NL 提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:氪金石 数量的 格挡 获得。",
-    "UPGRADE_DESCRIPTION": "提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:氪金石 数量的 格挡 获得。"
+    "DESCRIPTION": "虚无 。 NL 提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:Diamond 数量的 格挡 获得。",
+    "UPGRADE_DESCRIPTION": "提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:Diamond 数量的 格挡 获得。"
   },
   "RingOfDestiny:BuyBuyBuy": {
     "NAME": "Buy Buy Buy",
@@ -728,28 +728,28 @@
   },
   "RingOfDestiny:Conversion": {
     "NAME": "Conversion",
-    "DESCRIPTION": "Deal !D! damage. NL 本场战斗中，临时提高生命上限 !M! 点。 NL 消耗 。"
+    "DESCRIPTION": "Deal !D! damage. NL 本场战斗中，临时提高生命上限 !M! 点。 NL Exhaust."
   },
   "RingOfDestiny:Joyride": {
     "NAME": "Joyride",
-    "DESCRIPTION": "使用所有 ring_of_destiny:氪金石 。 NL 每使用一颗，临时提高生命上限 !M! 点。"
+    "DESCRIPTION": "使用所有 ring_of_destiny:Diamond 。 NL 每使用一颗，临时提高生命上限 !M! 点。"
   },
   "RingOfDestiny:SwornRevenge": {
     "NAME": "SwornRevenge",
-    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL 翻倍敌人的 ring_of_destiny:流血 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "使用 !M! 颗 ring_of_destiny:氪金石 。 NL 翻倍敌人的 ring_of_destiny:流血 。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去 !RODSecondM! 点生命 。"
+    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:Diamond 。 NL 翻倍敌人的 ring_of_destiny:流血 。 NL 如果 ring_of_destiny:Diamond 不足， NL 失去 !RODSecondM! 点生命 。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "使用 !M! 颗 ring_of_destiny:Diamond 。 NL 翻倍敌人的 ring_of_destiny:流血 。 NL 如果 ring_of_destiny:Diamond 不足， NL 失去 !RODSecondM! 点生命 。"
   },
   "RingOfDestiny:DoubleInvest": {
     "NAME": "Double Invest",
-    "DESCRIPTION": "本回合内，翻倍从卡牌获得的 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "本回合内，翻倍从卡牌获得的 ring_of_destiny:Diamond 。"
   },
   "RingOfDestiny:DiamondOfDeath": {
     "NAME": "Diamond Of Death",
-    "DESCRIPTION": "Deal !D! damage.每颗 ring_of_destiny:氪金石 ，提高1点伤害。"
+    "DESCRIPTION": "Deal !D! damage.每颗 ring_of_destiny:Diamond ，提高1点伤害。"
   },
   "RingOfDestiny:BloodAvalanche": {
     "NAME": "Blood Avalanche",
-    "DESCRIPTION": "本回合结束时， NL 不结算 ring_of_destiny:流血 。 NL 消耗 。",
+    "DESCRIPTION": "本回合结束时， NL 不结算 ring_of_destiny:流血 。 NL Exhaust.",
     "UPGRADE_DESCRIPTION": "本回合结束时， NL 不结算 ring_of_destiny:流血 。"
   },
   "RingOfDestiny:Corrosion": {
@@ -758,33 +758,33 @@
   },
   "RingOfDestiny:CrushDiamond": {
     "NAME": "Crush Diamond",
-    "DESCRIPTION": "将每 !M! 颗 ring_of_destiny:氪金石 NL 转化为 [E] 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "将每 !M! 颗 ring_of_destiny:氪金石 NL 转化为 [E] 。"
+    "DESCRIPTION": "将每 !M! 颗 ring_of_destiny:Diamond NL 转化为 [E] 。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "将每 !M! 颗 ring_of_destiny:Diamond NL 转化为 [E] 。"
   },
   "RingOfDestiny:Metaphysics": {
     "NAME": "Metaphysics",
-    "DESCRIPTION": "随机获得1到 !M! 颗 ring_of_destiny:氪金石 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 随机获得1到 !M! 颗 ring_of_destiny:氪金石 。"
+    "DESCRIPTION": "随机获得1到 !M! 颗 ring_of_destiny:Diamond 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 随机获得1到 !M! 颗 ring_of_destiny:Diamond 。"
   },
   "RingOfDestiny:InvestMagic": {
     "NAME": "Invest Magic",
-    "DESCRIPTION": "每有一颗 ring_of_destiny:氪金石 ，对所有敌人Deal !D! damage."
+    "DESCRIPTION": "每有一颗 ring_of_destiny:Diamond ，对所有敌人Deal !D! damage."
   },
   "RingOfDestiny:LargeGains": {
     "NAME": "Large Gains",
-    "DESCRIPTION": "Deal !D! damage. NL 回复等于敌人 ring_of_destiny:流血 层数的生命。 NL 消耗 。"
+    "DESCRIPTION": "Deal !D! damage. NL 回复等于敌人 ring_of_destiny:流血 层数的生命。 NL Exhaust."
   },
   "RingOfDestiny:Rich": {
     "NAME": "Rich",
-    "DESCRIPTION": "使用所有 ring_of_destiny:氪金石 。 NL 每使用一颗，对敌人造成 !D! 点伤害 。"
+    "DESCRIPTION": "使用所有 ring_of_destiny:Diamond 。 NL 每使用一颗，对敌人造成 !D! 点伤害 。"
   },
   "RingOfDestiny:Repeat": {
     "NAME": "Repeat",
-    "DESCRIPTION": "打出你本场战斗中的上一张牌。 NL 消耗 。"
+    "DESCRIPTION": "打出你本场战斗中的上一张牌。 NL Exhaust."
   },
   "RingOfDestiny:ScrewRules": {
     "NAME": "Screw Rules",
-    "DESCRIPTION": "保留 !M! 张手牌。 NL 在本回合结束后，额外获得一回合。 NL 结束你的回合。 NL 消耗 。"
+    "DESCRIPTION": "保留 !M! 张手牌。 NL 在本回合结束后，额外获得一回合。 NL 结束你的回合。 NL Exhaust."
   },
   "RingOfDestiny:Cheat": {
     "NAME": "Cheat",
@@ -792,12 +792,12 @@
   },
   "RingOfDestiny:HundredDollar": {
     "NAME": "Hundred Dollar",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 [E] 。 NL 抽 !RODSecondM! 张牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL 获得 [E] [E] 。 NL 抽 !RODSecondM! 张牌。 NL 消耗 。"
+    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond 。 NL 获得 [E] 。 NL 抽 !RODSecondM! 张牌。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ring_of_destiny:Diamond 。 NL 获得 [E] [E] 。 NL 抽 !RODSecondM! 张牌。 NL Exhaust."
   },
   "RingOfDestiny:CatCannon": {
     "NAME": "Cat Cannon",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:氪金石 。 NL ring_of_destiny:招财喵之怒 变为攻击全部敌人。"
+    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond 。 NL ring_of_destiny:招财喵之怒 变为攻击全部敌人。"
   },
   "RingOfDestiny:Bloodmourne": {
     "NAME": "Bloodmourne",
@@ -805,16 +805,16 @@
   },
   "RingOfDestiny:Extraction": {
     "NAME": "Extraction",
-    "DESCRIPTION": "消耗 手牌中所有状态和诅咒牌。 NL 每 消耗 一张，临时提高生命上限 !M! 点。 NL 消耗 。"
+    "DESCRIPTION": "消耗 手牌中所有状态和诅咒牌。 NL 每 消耗 一张，临时提高生命上限 !M! 点。 NL Exhaust."
   },
   "RingOfDestiny:GoldProtect": {
     "NAME": "Gold Protect",
-    "DESCRIPTION": "下 !M! 次失去生命时，回复损失生命的120%的生命。 消耗 。"
+    "DESCRIPTION": "下 !M! 次失去生命时，回复损失生命的120%的生命。 Exhaust."
   },
   "RingOfDestiny:Privilege": {
     "NAME": "Privilege",
-    "DESCRIPTION": "使用2颗 ring_of_destiny:氪金石 。 NL 下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去3点生命。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 使用2颗 ring_of_destiny:氪金石 。 NL 下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。 NL 如果 ring_of_destiny:氪金石 不足， NL 失去3点生命。"
+    "DESCRIPTION": "使用2颗 ring_of_destiny:Diamond 。 NL 下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。 NL 如果 ring_of_destiny:Diamond 不足， NL 失去3点生命。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 使用2颗 ring_of_destiny:Diamond 。 NL 下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。 NL 如果 ring_of_destiny:Diamond 不足， NL 失去3点生命。"
   },
   "RingOfDestiny:DanceOfBlood": {
     "NAME": "Dance Of Blood",
@@ -822,11 +822,11 @@
   },
   "RingOfDestiny:Show": {
     "NAME": "Show",
-    "DESCRIPTION": "每次获得 ring_of_destiny:氪金石 。给予所有敌人 !M! 层 ring_of_destiny:流血 。"
+    "DESCRIPTION": "每次获得 ring_of_destiny:Diamond 。给予所有敌人 !M! 层 ring_of_destiny:流血 。"
   },
   "RingOfDestiny:Act": {
     "NAME": "Act",
-    "DESCRIPTION": "每次使用 ring_of_destiny:氪金石 。 NL 获得 !M! 点 格挡 。"
+    "DESCRIPTION": "每次使用 ring_of_destiny:Diamond 。 NL 获得 !M! 点 格挡 。"
   },
   "RingOfDestiny:Defend_IH2": {
     "NAME": "暗之盾",
@@ -838,11 +838,11 @@
   },
   "RingOfDestiny:FairJudgement2": {
     "NAME": "扭曲浩劫",
-    "DESCRIPTION": "Deal !D! damage. NL ring_of_destiny:宣判 !M! 。 消耗 。"
+    "DESCRIPTION": "Deal !D! damage. NL ring_of_destiny:宣判 !M! 。 Exhaust."
   },
   "RingOfDestiny:HonourJudgement2": {
     "NAME": "恐惧浩劫",
-    "DESCRIPTION": "Deal !D! damage. NL ring_of_destiny:宣判 !M! 。 消耗 。"
+    "DESCRIPTION": "Deal !D! damage. NL ring_of_destiny:宣判 !M! 。 Exhaust."
   },
   "RingOfDestiny:ForbiddenStrike2": {
     "NAME": "堕落打击",
@@ -871,7 +871,7 @@
   },
   "RingOfDestiny:BathingInGrace2": {
     "NAME": "深渊预言",
-    "DESCRIPTION": "抽 !M! 张牌。 NL 获得 !RODSecondM! 张 *血祭 。 NL 消耗 。"
+    "DESCRIPTION": "抽 !M! 张牌。 NL 获得 !RODSecondM! 张 *血祭 。 NL Exhaust."
   },
   "RingOfDestiny:Aerostigmata2": {
     "NAME": "毁灭冲击",
@@ -879,7 +879,7 @@
   },
   "RingOfDestiny:ShimmerBarrier2": {
     "NAME": "短暂加护",
-    "DESCRIPTION": "本回合获得 !M! 点 ring_of_destiny:金属化 。回合结束时失去。 NL 消耗 。"
+    "DESCRIPTION": "本回合获得 !M! 点 ring_of_destiny:金属化 。回合结束时失去。 NL Exhaust."
   },
   "RingOfDestiny:DevoutPray2": {
     "NAME": "幽暗咒语",
@@ -903,8 +903,8 @@
   },
   "RingOfDestiny:HolyGift2": {
     "NAME": "黑暗汲取",
-    "DESCRIPTION": "移除敌人的 力量 。你获得被移除的 力量 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "移除所有敌人的 力量 。你获得等量的 ring_of_destiny:金属化 。 NL 消耗 。"
+    "DESCRIPTION": "移除敌人的 力量 。你获得被移除的 力量 。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "移除所有敌人的 力量 。你获得等量的 ring_of_destiny:金属化 。 NL Exhaust."
   },
   "RingOfDestiny:PowerOfLight2": {
     "NAME": "源力咆哮",
@@ -962,7 +962,7 @@
   },
   "RingOfDestiny:HolyPressure2": {
     "NAME": "寂灭",
-    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 获得2张 *血祭 。 NL 消耗 。"
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 获得2张 *血祭 。 NL Exhaust."
   },
   "RingOfDestiny:SwordShield2": {
     "NAME": "攻守兼备",
@@ -995,8 +995,8 @@
   },
   "RingOfDestiny:ShieldOfHeaven2": {
     "NAME": "地狱之光",
-    "DESCRIPTION": "给予敌人 !M! 层 NL 虚弱 和 易伤 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 虚弱 和 易伤 。 NL 消耗 。"
+    "DESCRIPTION": "给予敌人 !M! 层 NL 虚弱 和 易伤 。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 虚弱 和 易伤 。 NL Exhaust."
   },
   "RingOfDestiny:ExpiateSin2": {
     "NAME": "崩坏",
@@ -1021,7 +1021,7 @@
   },
   "RingOfDestiny:SheathOfLight2": {
     "NAME": "无尽吞噬",
-    "DESCRIPTION": "Deal !D! damage. ring_of_destiny:击杀 时，获得 !M! 点最大生命。 NL 消耗 。"
+    "DESCRIPTION": "Deal !D! damage. ring_of_destiny:击杀 时，获得 !M! 点最大生命。 NL Exhaust."
   },
   "RingOfDestiny:HolyPouring2": {
     "NAME": "邪恶燃烧",
@@ -1071,7 +1071,7 @@
   },
   "RingOfDestiny:HonourJudgement": {
     "NAME": "荣耀审判",
-    "DESCRIPTION": "Deal !D! damage. NL 给予 !M! 层 ring_of_destiny:定罪 。 NL 消耗 。"
+    "DESCRIPTION": "Deal !D! damage. NL 给予 !M! 层 ring_of_destiny:定罪 。 NL Exhaust."
   },
   "RingOfDestiny:ForbiddenStrike": {
     "NAME": "禁断打击",
@@ -1191,7 +1191,7 @@
   },
   "RingOfDestiny:HolyPressure": {
     "NAME": "天谴",
-    "DESCRIPTION": "对所有敌人Deal !D! damage.获得2张 *血祭 。 NL 消耗 。"
+    "DESCRIPTION": "对所有敌人Deal !D! damage.获得2张 *血祭 。 NL Exhaust."
   },
   "RingOfDestiny:SwordShield": {
     "NAME": "剑盾猛攻",
@@ -1224,8 +1224,8 @@
   },
   "RingOfDestiny:ShieldOfHeaven": {
     "NAME": "天堂之盾",
-    "DESCRIPTION": "Gain !B! Block. NL 获得 !M! 层 脆弱 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL 获得 !M! 层 脆弱 。 NL 消耗 。"
+    "DESCRIPTION": "Gain !B! Block. NL 获得 !M! 层 脆弱 。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL 获得 !M! 层 脆弱 。 NL Exhaust."
   },
   "RingOfDestiny:ExpiateSin": {
     "NAME": "赎罪",
@@ -1296,8 +1296,8 @@
   },
   "RingOfDestiny:GreedySummon": {
     "NAME": "Greedy Summon",
-    "DESCRIPTION": "将 !M! 张 *贪婪之力 加入手牌。 消耗 。",
-    "UPGRADE_DESCRIPTION": "将 !M! 张 *贪婪之力+ 加入手牌。 消耗 。"
+    "DESCRIPTION": "将 !M! 张 *贪婪之力 加入手牌。 Exhaust.",
+    "UPGRADE_DESCRIPTION": "将 !M! 张 *贪婪之力+ 加入手牌。 Exhaust."
   },
   "RingOfDestiny:SarcasticSword": {
     "NAME": "Sarcastic Sword",
@@ -1309,7 +1309,7 @@
   },
   "RingOfDestiny:MaliciousRelease": {
     "NAME": "Malicious Release",
-    "DESCRIPTION": "给予所有敌人1层 ring_of_destiny:榨取 。抽 !M! 张牌。 NL 消耗 。",
+    "DESCRIPTION": "给予所有敌人1层 ring_of_destiny:榨取 。抽 !M! 张牌。 NL Exhaust.",
     "UPGRADE_DESCRIPTION": "给予所有敌人1层 ring_of_destiny:榨取 。抽 !M! 张牌。"
   },
   "RingOfDestiny:MaliciousConversion": {
@@ -1345,7 +1345,7 @@
   },
   "RingOfDestiny:FeastOfDoomsday": {
     "NAME": "FeastOf Doomsday",
-    "DESCRIPTION": "给予所有敌人 !M! 层 ring_of_destiny:末日印记 。将 ring_of_destiny:末日印记 变为 ring_of_destiny:榨取 。 NL 消耗 。",
+    "DESCRIPTION": "给予所有敌人 !M! 层 ring_of_destiny:末日印记 。将 ring_of_destiny:末日印记 变为 ring_of_destiny:榨取 。 NL Exhaust.",
     "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 ring_of_destiny:末日印记 。将 ring_of_destiny:末日印记 变为 ring_of_destiny:榨取 。"
   },
   "RingOfDestiny:DoomsdayStrike": {
@@ -1381,7 +1381,7 @@
   },
   "RingOfDestiny:SoulDiversion": {
     "NAME": "Soul Diversion",
-    "DESCRIPTION": "获得 !M! 颗 ring_of_destiny:灵魂石 。 NL 消耗 。"
+    "DESCRIPTION": "Gain !M! ring_of_destiny:灵魂石 。 NL Exhaust."
   },
   "RingOfDestiny:SoulAccumulation": {
     "NAME": "Soul Accumulation",
@@ -1393,8 +1393,8 @@
   },
   "RingOfDestiny:DesireMastery": {
     "NAME": "Desire Mastery",
-    "DESCRIPTION": "回复 !M! 点生命。 NL 抽2张牌。 NL 所有敌人的意图变为攻击。 消耗 。",
-    "UPGRADE_DESCRIPTION": "回复 !M! 点生命。 NL 抽3张牌。 NL 所有敌人的意图变为攻击。 消耗 。"
+    "DESCRIPTION": "回复 !M! 点生命。 NL 抽2张牌。 NL 所有敌人的意图变为攻击。 Exhaust.",
+    "UPGRADE_DESCRIPTION": "回复 !M! 点生命。 NL 抽3张牌。 NL 所有敌人的意图变为攻击。 Exhaust."
   },
   "RingOfDestiny:MaliciousBlade": {
     "NAME": "Malicious Blade",
@@ -1406,8 +1406,8 @@
   },
   "RingOfDestiny:Demonic": {
     "NAME": "Demonic",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非技能牌。 NL 每 消耗 一张牌， NL 获得 !M! 点 ring_of_destiny:金属化 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非攻击牌。 NL 每 消耗 一张牌， NL 获得 !M! 点 ring_of_destiny:金属化 。 NL 消耗 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非技能牌。 NL 每 消耗 一张牌， NL 获得 !M! 点 ring_of_destiny:金属化 。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 消耗 手牌中的所有非攻击牌。 NL 每 消耗 一张牌， NL 获得 !M! 点 ring_of_destiny:金属化 。 NL Exhaust."
   },
   "RingOfDestiny:MaliciousSuppress": {
     "NAME": "Malicious Suppress",
@@ -1416,23 +1416,23 @@
   },
   "RingOfDestiny:MemoryBlade": {
     "NAME": "Memory Blade",
-    "DESCRIPTION": "Deal !D! damage.造成伤害为上一张攻击牌的攻击值。至少为1。 NL 消耗 。",
+    "DESCRIPTION": "Deal !D! damage.造成伤害为上一张攻击牌的攻击值。至少为1。 NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage.造成伤害为上一张攻击牌的攻击值。至少为1。"
   },
   "RingOfDestiny:DoomsdayMeteorite": {
     "NAME": "Doomsday Meteorite",
-    "DESCRIPTION": "Deal !D! damage.给予 !M! 层 ring_of_destiny:末日印记 。 NL 消耗 。",
+    "DESCRIPTION": "Deal !D! damage.给予 !M! 层 ring_of_destiny:末日印记 。 NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage.给予 !M! 层 ring_of_destiny:末日印记 。"
   },
   "RingOfDestiny:DoomsdayMadness": {
     "NAME": "Doomsday Madness",
-    "DESCRIPTION": "失去3点生命。 NL 抽 !M! 张牌，如果是0耗能牌，继续抽1张牌直到抽到非0耗能牌(最多3次)。 消耗 。",
+    "DESCRIPTION": "失去3点生命。 NL 抽 !M! 张牌，如果是0耗能牌，继续抽1张牌直到抽到非0耗能牌(最多3次)。 Exhaust.",
     "UPGRADE_DESCRIPTION": "失去3点生命。 NL 抽 !M! 张牌，如果都是0耗能牌，继续抽1张牌直到抽到非0耗能牌(最多3次)。"
   },
   "RingOfDestiny:DoomsdayEcho": {
     "NAME": "Doomsday Echo",
-    "DESCRIPTION": "将 !M! 张 *末日陨石 加入手牌，如果抽牌堆中有 *末日陨石 ，抽一张牌。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "将 !M! 张 *末日陨石+ 加入手牌，如果抽牌堆中有 *末日陨石 ，抽一张牌。 NL 消耗 。"
+    "DESCRIPTION": "将 !M! 张 *末日陨石 加入手牌，如果抽牌堆中有 *末日陨石 ，抽一张牌。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "将 !M! 张 *末日陨石+ 加入手牌，如果抽牌堆中有 *末日陨石 ，抽一张牌。 NL Exhaust."
   },
   "RingOfDestiny:FairDealing": {
     "NAME": "Fair Dealing",
@@ -1440,7 +1440,7 @@
   },
   "RingOfDestiny:MaskOfSuffering": {
     "NAME": "Mask Of Suffering",
-    "DESCRIPTION": " ring_of_destiny:唯一 。Gain !B! Block. NL 每打出一次，这张牌在本局游戏中的 格挡 值永久性增加 !M! 。 NL 消耗 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。Gain !B! Block. NL 每打出一次，这张牌在本局游戏中的 格挡 值永久性增加 !M! 。 NL Exhaust."
   },
   "RingOfDestiny:MaliciousLeakage": {
     "NAME": "Malicious Leakage",
@@ -1448,12 +1448,12 @@
   },
   "RingOfDestiny:DemonGovernor": {
     "NAME": "Demon Governor",
-    "DESCRIPTION": "丢弃所有手牌。 NL 每丢弃一张牌， NL 指挥恶魔攻击 !M! 次。 NL 消耗 。",
+    "DESCRIPTION": "丢弃所有手牌。 NL 每丢弃一张牌， NL 指挥恶魔攻击 !M! 次。 NL Exhaust.",
     "UPGRADE_DESCRIPTION": "丢弃所有手牌。 NL 每丢弃一张牌， NL 指挥恶魔攻击 !M! 次。"
   },
   "RingOfDestiny:PowerOfGluttony": {
     "NAME": "Power Of Gluttony",
-    "DESCRIPTION": " ring_of_destiny:原罪 。Deal !D! damage. ring_of_destiny:击杀 时，这张牌的伤害永久提高 !M! 点并返回手牌。 消耗 。"
+    "DESCRIPTION": " ring_of_destiny:原罪 。Deal !D! damage. ring_of_destiny:击杀 时，这张牌的伤害永久提高 !M! 点并返回手牌。 Exhaust."
   },
   "RingOfDestiny:RingOfGreed": {
     "NAME": "Ring Of Greed",
@@ -1529,34 +1529,34 @@
   "RingOfDestiny:VoodooDoll": {
     "NAME": "VoodooDoll",
     "DESCRIPTION": " ring_of_destiny:唯一 。本回合内你受到的所有伤害被一名敌人承受。目标死亡时，将本效果给予随机敌人。 ring_of_destiny:损毁 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。本回合内你受到的所有伤害被一名敌人承受。目标死亡时，将本效果给予随机敌人。 消耗 。"
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。本回合内你受到的所有伤害被一名敌人承受。目标死亡时，将本效果给予随机敌人。 Exhaust."
   },
   "RingOfDestiny:HegemonyOfDevil": {
     "NAME": "Hegemony Of Devil",
-    "DESCRIPTION": " ring_of_destiny:唯一 。将 ring_of_destiny:金属化 变为 力量 。回合结束时，所有 力量 变为 ring_of_destiny:金属化 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。获得 !M! 点 力量 。将 ring_of_destiny:金属化 变为 力量 。回合结束时，所有 力量 变为 ring_of_destiny:金属化 。 NL 消耗 。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。将 ring_of_destiny:金属化 变为 力量 。回合结束时，所有 力量 变为 ring_of_destiny:金属化 。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。获得 !M! 点 力量 。将 ring_of_destiny:金属化 变为 力量 。回合结束时，所有 力量 变为 ring_of_destiny:金属化 。 NL Exhaust."
   },
   "RingOfDestiny:ConqueringBlade": {
     "NAME": "Conquering Blade",
-    "DESCRIPTION": "Deal !D! damage.如果 恶魔 的伤害大于 !M! ,获得1颗 ring_of_destiny:灵魂石 。 NL 消耗 。"
+    "DESCRIPTION": "Deal !D! damage.如果 恶魔 的伤害大于 !M! ,获得1颗 ring_of_destiny:灵魂石 。 NL Exhaust."
   },
   "RingOfDestiny:DoomsdayProphecy": {
     "NAME": "Doomsday Prophecy",
-    "DESCRIPTION": "将5到 !M! 张 *末日陨石 加入你的抽牌堆。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "将5到 !M! 张 *末日陨石+ 加入你的抽牌堆。 NL 消耗 。"
+    "DESCRIPTION": "将5到 !M! 张 *末日陨石 加入你的抽牌堆。 NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "将5到 !M! 张 *末日陨石+ 加入你的抽牌堆。 NL Exhaust."
   },
   "RingOfDestiny:GripOfMaster": {
     "NAME": "Grip Of Master",
-    "DESCRIPTION": "  ring_of_destiny:唯一 。造成 !D! 点伤害，获得等于造成未被 格挡 伤害的 [E] NL （最多为5）。 消耗 。"
+    "DESCRIPTION": "  ring_of_destiny:唯一 。造成 !D! 点伤害，获得等于造成未被 格挡 伤害的 [E] NL （最多为5）。 Exhaust."
   },
   "RingOfDestiny:SummonOfDoomsday": {
     "NAME": "Summon Of Doomsday",
-    "DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 ring_of_destiny:损毁 。",
-    "UPGRADE_DESCRIPTION": "本回合内，所有打出的牌将被 消耗 。每打出一张攻击牌，抽 !M! 张攻击牌。 消耗 。"
+    "DESCRIPTION": "本回合内，所有打出的牌将被 Exhaust.每打出一张攻击牌，抽 !M! 张攻击牌。 ring_of_destiny:损毁 。",
+    "UPGRADE_DESCRIPTION": "本回合内，所有打出的牌将被 Exhaust.每打出一张攻击牌，抽 !M! 张攻击牌。 Exhaust."
   },
   "RingOfDestiny:DevilKing": {
     "NAME": "Devil King",
-    "DESCRIPTION": "指挥恶魔对所有敌人攻击 !M! 次。 消耗 。"
+    "DESCRIPTION": "指挥恶魔对所有敌人攻击 !M! 次。 Exhaust."
   },
   "RingOfDestiny:CrownOfPride": {
     "NAME": "Crown OfPride",
