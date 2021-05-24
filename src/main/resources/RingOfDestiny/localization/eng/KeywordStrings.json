@@ -51,14 +51,14 @@
   {
     "PROPER_NAME": "Warth of Fortune Cat",
     "NAMES": [
-      "fortune_cat"
+      "fortune\u00a0cat"
     ],
     "DESCRIPTION": "#yDiamond will deal #b6 more damage to the enemy with the lowest HP for each #ydiamond over #b10."
   },
   {
     "PROPER_NAME": "Diamond Halo",
     "NAMES": [
-      "diamond_halo"
+      "diamond\u00a0halo"
     ],
     "DESCRIPTION": "#yDiamond will trigger extra effect when you have more than a certain amount."
   },
@@ -79,14 +79,14 @@
   {
     "PROPER_NAME": "Doomsday Etch",
     "NAMES": [
-      "doomsday_etch"
+      "doomsday\u00a0etch"
     ],
     "DESCRIPTION": "#yDoomsday #yMeteorite deal more damage to creatures that have #yDoomsday #yEtch."
   },
   {
     "PROPER_NAME": "Soul Stone",
     "NAMES": [
-      "soul_stone"
+      "soul\u00a0stone"
     ],
     "DESCRIPTION": "To play #ySoul #yStone #yCard you need #pSoul #yStones. NL These cards are usually more powerful."
   },
@@ -114,7 +114,7 @@
   {
     "PROPER_NAME": "Dark Energy",
     "NAMES": [
-      "dark_energy"
+      "dark\u00a0energy"
     ],
     "DESCRIPTION": "Spends #yDark #yEnenrgy when in #yDarkness."
   },

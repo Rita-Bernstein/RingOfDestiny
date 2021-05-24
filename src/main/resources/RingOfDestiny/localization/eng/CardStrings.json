@@ -523,7 +523,7 @@
   },
   "RingOfDestiny:BlackFuneral": {
     "NAME": "Black Funeral",
-    "DESCRIPTION": "Exhaust your hand. NL Gain [E] and draw !M! card for each card exhausted. NL Exhaust."
+    "DESCRIPTION": "Exhaust your hand. NL Gain [E] and draw !M! card for each card Exhausted. NL Exhaust."
   },
   "RingOfDestiny:MoonCurtain": {
     "NAME": "Moon Curtain",
@@ -535,8 +535,8 @@
   },
   "RingOfDestiny:RiteOfOrigin": {
     "NAME": "Rite Of Origin",
-    "DESCRIPTION": "Exhaust all \"Bullet\" cards in your draw pile and hand. Add a *Origin *Bullet for each card exhausted. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Exhaust all \"Bullet\" cards in your draw pile and your hand. Add a *Origin *Bullet+ for each card exhausted. NL Exhaust."
+    "DESCRIPTION": "Exhaust all \"Bullet\" cards in your draw pile and hand. Add a *Origin *Bullet for each card Exhausted. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Exhaust all \"Bullet\" cards in your draw pile and your hand. Add a *Origin *Bullet+ for each card Exhausted. NL Exhaust."
   },
   "RingOfDestiny:Elegance": {
     "NAME": "Elegance",
@@ -590,7 +590,7 @@
   },
   "RingOfDestiny:BloodBorne": {
     "NAME": "Blood Borne",
-    "DESCRIPTION": "Apply !M! ring_of_destiny:Bleeding to All enemies."
+    "DESCRIPTION": "Apply !M! ring_of_destiny:Bleeding to ALL enemies."
   },
   "RingOfDestiny:Purification": {
     "NAME": "Purification",
@@ -625,7 +625,7 @@
   },
   "RingOfDestiny:ThreeRaffles": {
     "NAME": "Three Raffles",
-    "DESCRIPTION": "Deal !D! damage to All enemies !M! times."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies !M! times."
   },
   "RingOfDestiny:NoLoss": {
     "NAME": "No Loss",
@@ -655,7 +655,7 @@
   },
   "RingOfDestiny:Superior": {
     "NAME": "Superior",
-    "DESCRIPTION": "Deal !D! damage to All enemies. NL Draw !M! card."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Draw !M! card."
   },
   "RingOfDestiny:Shuffle": {
     "NAME": "Shuffle",
@@ -714,119 +714,119 @@
   },
   "RingOfDestiny:Shiny": {
     "NAME": "Shiny",
-    "DESCRIPTION": "提升 ring_of_destiny:氪金光环 和 ring_of_destiny:招财喵之怒 造成的伤害 !M! 点。"
+    "DESCRIPTION": "Increase ring_of_destiny:Diamond\u00a0Halo and ring_of_destiny:Fortune\u00a0Cat damage by !M! ."
   },
   "RingOfDestiny:Reinforcement": {
     "NAME": "Reinforcement",
-    "DESCRIPTION": "虚无 。 NL 提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:Diamond 数量的 格挡 获得。",
-    "UPGRADE_DESCRIPTION": "提升 ring_of_destiny:氪金光环 当前 ring_of_destiny:Diamond 数量的 格挡 获得。"
+    "DESCRIPTION": "Ethereal. NL Increase ring_of_destiny:Diamond\u00a0Halo Block equals to current ring_of_destiny:Diamond you have.",
+    "UPGRADE_DESCRIPTION": "Increase ring_of_destiny:Diamond\u00a0Halo Block equals to current ring_of_destiny:Diamond you have."
   },
   "RingOfDestiny:BuyBuyBuy": {
     "NAME": "Buy Buy Buy",
-    "DESCRIPTION": "Deal !D! damage.每失去 !M! 点生命 ，额外增加1点伤害。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL Deal !D! damage.每失去 !M! 点生命 ，额外增加1点伤害。"
+    "DESCRIPTION": "Deal !D! damage. NL Increase damage for each !M! HP lost.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Deal !D! damage. NL Increase damage for each !M! HP lost."
   },
   "RingOfDestiny:Conversion": {
     "NAME": "Conversion",
-    "DESCRIPTION": "Deal !D! damage. NL 本场战斗中，临时提高生命上限 !M! 点。 NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage. NL Increase !M! max HP in this combat. NL Exhaust."
   },
   "RingOfDestiny:Joyride": {
     "NAME": "Joyride",
-    "DESCRIPTION": "使用所有 ring_of_destiny:Diamond 。 NL 每使用一颗，临时提高生命上限 !M! 点。"
+    "DESCRIPTION": "Spend ALL ring_of_destiny:Diamond. NL Increase !M! max HP in this combat for each ring_of_destiny:Diamond spned."
   },
   "RingOfDestiny:SwornRevenge": {
     "NAME": "SwornRevenge",
-    "DESCRIPTION": "使用 !M! 颗 ring_of_destiny:Diamond 。 NL 翻倍敌人的 ring_of_destiny:流血 。 NL 如果 ring_of_destiny:Diamond 不足， NL 失去 !RODSecondM! 点生命 。 NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "使用 !M! 颗 ring_of_destiny:Diamond 。 NL 翻倍敌人的 ring_of_destiny:流血 。 NL 如果 ring_of_destiny:Diamond 不足， NL 失去 !RODSecondM! 点生命 。"
+    "DESCRIPTION": "Spned !M! ring_of_destiny:Diamond. NL Double the enemy's ring_of_destiny:Bleeding. NL If you don't have enough ring_of_destiny:Diamond, NL lose !RODSecondM! HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Spned !M! ring_of_destiny:Diamond. NL Double the enemy's ring_of_destiny:Bleeding. NL If you don't have enough ring_of_destiny:Diamond, NL lose !RODSecondM! HP. "
   },
   "RingOfDestiny:DoubleInvest": {
     "NAME": "Double Invest",
-    "DESCRIPTION": "本回合内，翻倍从卡牌获得的 ring_of_destiny:Diamond 。"
+    "DESCRIPTION": "In this turn,double ring_of_destiny:Diamond gain from cards."
   },
   "RingOfDestiny:DiamondOfDeath": {
     "NAME": "Diamond Of Death",
-    "DESCRIPTION": "Deal !D! damage.每颗 ring_of_destiny:Diamond ，提高1点伤害。"
+    "DESCRIPTION": "Deal !D! damage. NL Increase damage for each ring_of_destiny:Diamond you have."
   },
   "RingOfDestiny:BloodAvalanche": {
     "NAME": "Blood Avalanche",
-    "DESCRIPTION": "本回合结束时， NL 不结算 ring_of_destiny:流血 。 NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "本回合结束时， NL 不结算 ring_of_destiny:流血 。"
+    "DESCRIPTION": "Don't trigger ring_of_destiny:Bleeding at the end of this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Don't trigger ring_of_destiny:Bleeding at the end of this turn."
   },
   "RingOfDestiny:Corrosion": {
     "NAME": "Corrosion",
-    "DESCRIPTION": "Exhaust All non-Attack cards in your hand.每 消耗 一张牌，给予敌人 !M! 层 ring_of_destiny:流血 。"
+    "DESCRIPTION": "Exhaust ALL non-Attack cards in your hand. Apply !M! ring_of_destiny:Bleeding to enemy for each Exhausted card."
   },
   "RingOfDestiny:CrushDiamond": {
-    "NAME": "Crush Diamond",
-    "DESCRIPTION": "将每 !M! 颗 ring_of_destiny:Diamond NL 转化为 [E] 。 NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "将每 !M! 颗 ring_of_destiny:Diamond NL 转化为 [E] 。"
+    "NAME": "Break Diamond",
+    "DESCRIPTION": "Conver each !M! ring_of_destiny:Diamond NL into [E] . NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Conver each !M! ring_of_destiny:Diamond NL into [E] ."
   },
   "RingOfDestiny:Metaphysics": {
     "NAME": "Metaphysics",
-    "DESCRIPTION": "随机获得1到 !M! 颗 ring_of_destiny:Diamond 。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 随机获得1到 !M! 颗 ring_of_destiny:Diamond 。"
+    "DESCRIPTION": "Gain 1- !M! ring_of_destiny:Diamond.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Gain 1- !M! ring_of_destiny:Diamond."
   },
   "RingOfDestiny:InvestMagic": {
     "NAME": "Invest Magic",
-    "DESCRIPTION": "每有一颗 ring_of_destiny:Diamond ，对所有敌人Deal !D! damage."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies for each ring_of_destiny:Diamond you have."
   },
   "RingOfDestiny:LargeGains": {
     "NAME": "Large Gains",
-    "DESCRIPTION": "Deal !D! damage. NL 回复等于敌人 ring_of_destiny:流血 层数的生命。 NL Exhaust."
+    "DESCRIPTION": "Deal !D! damage. NL Heal HP equals to enemy's ring_of_destiny:Bleeding. NL Exhaust."
   },
   "RingOfDestiny:Rich": {
     "NAME": "Rich",
-    "DESCRIPTION": "使用所有 ring_of_destiny:Diamond 。 NL 每使用一颗，对敌人造成 !D! 点伤害 。"
+    "DESCRIPTION": "Spend ALl ring_of_destiny:Diamond. NL Deal !D! damage for each ring_of_destiny:Diamond spend."
   },
   "RingOfDestiny:Repeat": {
     "NAME": "Repeat",
-    "DESCRIPTION": "打出你本场战斗中的上一张牌。 NL Exhaust."
+    "DESCRIPTION": "Play last card you played in this combat. NL Exhaust."
   },
   "RingOfDestiny:ScrewRules": {
     "NAME": "Screw Rules",
-    "DESCRIPTION": "保留 !M! 张手牌。 NL 在本回合结束后，额外获得一回合。 NL 结束你的回合。 NL Exhaust."
+    "DESCRIPTION": "Retain !M! cards. NL Take an extra turn after this one. NL End your turn. NL Exhaust."
   },
   "RingOfDestiny:Cheat": {
     "NAME": "Cheat",
-    "DESCRIPTION": "本回合你打出的下 !M! 张攻击牌变为全体攻击。"
+    "DESCRIPTION": "Next !M! Attack will target to ALL enemy."
   },
   "RingOfDestiny:HundredDollar": {
     "NAME": "Hundred Dollar",
-    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond 。 NL 获得 [E] 。 NL 抽 !RODSecondM! 张牌。 NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !M! ring_of_destiny:Diamond 。 NL 获得 [E] [E] 。 NL 抽 !RODSecondM! 张牌。 NL Exhaust."
+    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond. NL Gain [E]. NL Draw !RODSecondM! cards. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ring_of_destiny:Diamond. NL Gain [E] [E]. NL Draw !RODSecondM! cards. NL Exhaust."
   },
   "RingOfDestiny:CatCannon": {
     "NAME": "Cat Cannon",
-    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond 。 NL ring_of_destiny:招财喵之怒 变为攻击全部敌人。"
+    "DESCRIPTION": "Gain !M! ring_of_destiny:Diamond. NL ring_of_destiny:Fortune\u00a0Cat now hits ALL enemies."
   },
   "RingOfDestiny:Bloodmourne": {
     "NAME": "Bloodmourne",
-    "DESCRIPTION": "每当你给予敌人 ring_of_destiny:流血 时，额外给予 !M! 层。"
+    "DESCRIPTION": "Whenever you apply ring_of_destiny:Bleeding ,extra apply !M! stack."
   },
   "RingOfDestiny:Extraction": {
     "NAME": "Extraction",
-    "DESCRIPTION": "消耗 手牌中所有状态和诅咒牌。 NL 每 消耗 一张，临时提高生命上限 !M! 点。 NL Exhaust."
+    "DESCRIPTION": "Exhaust Status and Curse card in hand. NL Gain !M! max HP in this combat for each Exhausted card. NL Exhaust."
   },
   "RingOfDestiny:GoldProtect": {
     "NAME": "Gold Protect",
-    "DESCRIPTION": "下 !M! 次失去生命时，回复损失生命的120%的生命。 Exhaust."
+    "DESCRIPTION": "Heal 120% HP lost in next !M! HP lost. Exhaust."
   },
   "RingOfDestiny:Privilege": {
     "NAME": "Privilege",
-    "DESCRIPTION": "使用2颗 ring_of_destiny:Diamond 。 NL 下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。 NL 如果 ring_of_destiny:Diamond 不足， NL 失去3点生命。",
-    "UPGRADE_DESCRIPTION": "固有 。 NL 使用2颗 ring_of_destiny:Diamond 。 NL 下回合起，每回合的前 !M! 张稀有攻击牌伤害翻倍。 NL 如果 ring_of_destiny:Diamond 不足， NL 失去3点生命。"
+    "DESCRIPTION": "Spned 2 ring_of_destiny:Diamond. NL After this turn,the first !M! Rare Attack deal double damage. NL If you don't have enough ring_of_destiny:Diamond, NL lose 3 HP.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Spned 2 ring_of_destiny:Diamond. NL After this turn,the first !M! Rare Attack deal double damage. NL If you don't have enough ring_of_destiny:Diamond, NL lose 3 HP."
   },
   "RingOfDestiny:DanceOfBlood": {
     "NAME": "Dance Of Blood",
-    "DESCRIPTION": "给予 !M! 层 ring_of_destiny:流血 。将弃牌堆中所有0耗能攻击牌放入你的手牌。"
+    "DESCRIPTION": "Apply !M! ring_of_destiny:Bleeding. NL Add ALL 0 cost Attack from discard pile to your hand."
   },
   "RingOfDestiny:Show": {
     "NAME": "Show",
-    "DESCRIPTION": "每次获得 ring_of_destiny:Diamond 。给予所有敌人 !M! 层 ring_of_destiny:流血 。"
+    "DESCRIPTION": "Whenever you gain ring_of_destiny:Diamond, apply !M! ring_of_destiny:Bleeding to ALL enemies."
   },
   "RingOfDestiny:Act": {
     "NAME": "Act",
-    "DESCRIPTION": "每次使用 ring_of_destiny:Diamond 。 NL 获得 !M! 点 格挡 。"
+    "DESCRIPTION": "Whenever you spned ring_of_destiny:Diamond. NL Gain !M! Block."
   },
   "RingOfDestiny:Defend_IH2": {
     "NAME": "暗之盾",
@@ -1589,6 +1589,6 @@
   },
   "RingOfDestiny:Overcautious": {
     "NAME": "Overcautious",
-    "DESCRIPTION": "Unplayable. Ethereal. NL  If this card is discarded or exhausted , take 4 damage and and make a copy to your draw pile."
+    "DESCRIPTION": "Unplayable. Ethereal. NL  If this card is discarded or Exhausted , take 4 damage and and make a copy to your draw pile."
   }
 }

@@ -24,9 +24,9 @@
   "RingOfDestiny:DiamondManager": {
     "TEXT": [
       " #yWarth #yof #yFortune #yCat ： NL Diamond will deal #b",
-      " more damage to the enemy with the lowest HP for each diamond over #b10. NL NL #yDiamond #yHalo ： NL Level #b1 ：(3 to trigger) NL Deal #b",
-      " damage to All enemy at the end of your turn. NL Level #p2 :（6 to trigger ） NL Draw #b",
-      " card(s) at the start of your turn. NL Level #y3 ：（10 to trigger） NL Gain #b",
+      " more damage to the enemy with the lowest HP for each diamond over #b10. NL NL #yDiamond #yHalo ： NL #bLevel #b1 ：(3 to trigger) NL Deal #b",
+      " damage to All enemy at the end of your turn. NL NL #pLevel #p2 :(6 to trigger) NL Draw #b",
+      " card(s) at the start of your turn. NL NL #yLevel #y3 :(10 to trigger) NL Gain #b",
       " #yBlock at the start of your turn."
     ],
     "EXTRA_TEXT": [

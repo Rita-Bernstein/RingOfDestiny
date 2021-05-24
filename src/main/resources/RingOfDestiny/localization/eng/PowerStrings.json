@@ -199,74 +199,75 @@
   "RingOfDestiny:BleedingPower": {
     "NAME": "Bleeding",
     "DESCRIPTIONS": [
-      "受到攻击伤害时额外受到 #y流血 层数的伤害，并减少 #b1 层。在其回合开始时，减少 #b",
-      "受到攻击伤害时额外受到 #y流血 层数的伤害，并减少 #b1 层。在你的回合开始时，减少 #b",
-      " 点生命然后移除该效果。"
+      "Lose #b",
+      " HP then reduce #b1 stack when recive Attack damage. At the start of its turn,lose #b",
+      " HP then reduce #b1 stack when recive Attack damage. At the start of your turn,lose #b",
+      " HP and remove this effect."
     ]
   },
   "RingOfDestiny:DenergizePower": {
     "NAME": "Denergize",
     "DESCRIPTIONS": [
-      "下一回合开始时失去 #b",
-      " [E] 。",
-      " [E] 。"
+      "At the start of next turn,lose #b",
+      " [E].",
+      " [E]."
     ]
   },
   "RingOfDestiny:LoseMaxHpPower": {
     "NAME": "Lose Max Hp",
     "DESCRIPTIONS": [
-      "在战斗结束时，失去 #b",
-      " 最大生命。"
+      "At the end of combat,lose #b",
+      " max HP."
     ]
   },
   "RingOfDestiny:NoInvestPower": {
     "NAME": "No Invest",
     "DESCRIPTIONS": [
-      "本场战斗无法获得 #y氪金石 。当你从一张牌中失去生命时，随机给予 #b",
-      " 层 #y流血 。"
+      "You can't gain #yDiamond in this combat. NL Whenever you lose HP from cards,apply #b",
+      " #yBleeding to a random enemy."
     ]
   },
   "RingOfDestiny:MonthCardPower": {
     "NAME": "Month Card",
     "DESCRIPTIONS": [
-      "每回合开始时，获得 #b",
-      " 颗 #y氪金石 。"
+      "At the start of turn,gain #b",
+      " #yDiamond."
     ]
   },
   "RingOfDestiny:ShinyPower": {
     "NAME": "Shiny",
     "DESCRIPTIONS": [
-      "提升 #y氪金光环 和 #y招财喵之怒 的伤害 #b",
-      " 点。"
+      "Increase #yDiamond #yHalo and #yFortune #yCat damage by #b",
+      " ."
     ]
   },
   "RingOfDestiny:ReinforcementPower": {
     "NAME": "Reinforcement",
     "DESCRIPTIONS": [
-      "提升 #y氪金光环 的 #y格挡 获得 #b",
-      " 点。"
+      "Increase #yDiamond #yHalo #yBlock by #b",
+      " ."
     ]
   },
   "RingOfDestiny:DoubleInvestPower": {
     "NAME": "Double Invest",
     "DESCRIPTIONS": [
-      "本回合，翻倍从卡牌获得的  #y氪金石 。",
-      "在 #b",
-      " 个回合内，翻倍从卡牌获得的  #y氪金石 。"
+      "In this turn,double #yDiamond gain from cards.",
+      "In next #b",
+      " turns,double #yDiamond gain from cards."
     ]
   },
   "RingOfDestiny:BloodAvalanchePower": {
     "NAME": "Blood Avalanche",
     "DESCRIPTIONS": [
-      "本回合，不结算 #y流血 。",
-      "在 #b",
-      " 个回合内，不结算 #y流血 。"
+      "At the end of this turn,don't trigger #yBleeding.",
+      "At the end of next #b",
+      " turns,don't trigger #yBleeding."
     ]
   },
   "RingOfDestiny:CatCannonPower": {
     "NAME": "Cat Cannon",
     "DESCRIPTIONS": [
-      " #y招财喵之怒 将攻击全体敌人 。"
+      " #Fortune #yCat now hits ALL enemies."
     ]
   },
   "RingOfDestiny:BloodmournePower": {
@@ -279,31 +280,31 @@
   "RingOfDestiny:GoldProtectPower": {
     "NAME": "Gold Protect",
     "DESCRIPTIONS": [
-      "下 #b",
-      " 次失去生命时，回复损失生命的 #g120% 的生命。",
-      " 次失去生命时，回复损失生命的 #g120% 的生命。"
+      "Heal 120% HP lost in next #b",
+      " HP lost.",
+      " HP lost."
     ]
   },
   "RingOfDestiny:PrivilegePower": {
     "NAME": "Privilege",
     "DESCRIPTIONS": [
-      "每回合的前 #b",
-      " 张 #y稀有 攻击牌伤害翻倍。",
-      " 张 #y稀有 攻击牌伤害翻倍。"
+      "The first #b",
+      " Rare Attack deal double damage.",
+      " Rare Attack deal double damage."
     ]
   },
   "RingOfDestiny:ShowPower": {
     "NAME": "Show",
     "DESCRIPTIONS": [
-      "每次获得 #y氪金石 。给予所有敌人 #b",
-      " 层 #y流血 。"
+      "Apply #b",
+      " #yBleeding whenever you gain #yDiamond ."
     ]
   },
   "RingOfDestiny:ActPower": {
     "NAME": "Act",
     "DESCRIPTIONS": [
-      "每次使用 #y氪金石 。获得 #b",
-      " 点 #y格挡 。"
+      "Whenever you spned #yDiamond ,gain #b",
+      " #yBlock ."
     ]
   },
   "RingOfDestiny:HegemonyPower": {
