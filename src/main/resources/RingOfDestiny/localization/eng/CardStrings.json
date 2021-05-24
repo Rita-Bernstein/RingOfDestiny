@@ -1406,8 +1406,8 @@
   },
   "RingOfDestiny:Demonic": {
     "NAME": "Demonic",
-    "DESCRIPTION": "ring_of_destiny:Uniqe. NL Exhaust all non-Skill cards in your hand. NL Gain !!M! ring_of_destiny:Metallicize for each card Exhausted. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. NL Exhaust all non-Attack cards in your hand. NL Gain !!M! ring_of_destiny:Metallicize for each card Exhausted. NL Exhaust."
+    "DESCRIPTION": "ring_of_destiny:Uniqe. NL Exhaust all non-Skill cards in your hand. NL Gain !M! ring_of_destiny:Metallicize for each card Exhausted. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "ring_of_destiny:Uniqe. NL Exhaust all non-Attack cards in your hand. NL Gain !M! ring_of_destiny:Metallicize for each card Exhausted. NL Exhaust."
   },
   "RingOfDestiny:MaliciousSuppress": {
     "NAME": "Malicious Suppress",
