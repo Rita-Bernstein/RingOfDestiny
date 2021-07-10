@@ -1,5 +1,6 @@
 package RingOfDestiny;
 
+import MusicTipLib.MusicTipLib;
 import RingOfDestiny.cards.Inherit.*;
 import RingOfDestiny.cards.MagicBullet.*;
 import RingOfDestiny.cards.Purchemist.*;
@@ -25,6 +26,7 @@ import basemod.interfaces.*;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
+import com.evacipated.cardcrawl.modthespire.Loader;
 import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
@@ -253,6 +255,12 @@ public class RingOfDestiny
         settingsPanel.addUIElement(addInheritSwitch);
         settingsPanel.addUIElement(neverSeeDiamondTutorialSwitch);
         settingsPanel.addUIElement(neverSeeSoulStoneTutorialSwitch);
+
+        if(Loader.isModLoaded("MusicTipLib")){
+            MusicTipLib.addMusicName("RingOfDestiny/audio/music/fight_boss.ogg","boss战斗",false);
+            MusicTipLib.addMusicName("RingOfDestiny/audio/music/fight_elite.ogg","精英",false);
+            MusicTipLib.addMusicName("RingOfDestiny/audio/music/mainbg.ogg","主界面",true);
+        };
 
         CustomDungeon.addAct(CustomDungeon.EXORDIUM, new IdeologyCorridor());
         CustomDungeon.addAct(CustomDungeon.THECITY, new KnowledgeHall());

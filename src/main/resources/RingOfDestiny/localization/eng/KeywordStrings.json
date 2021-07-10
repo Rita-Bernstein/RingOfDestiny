@@ -4,139 +4,139 @@
     "NAMES": [
       "shadow"
     ],
-    "DESCRIPTION": "#yAttack card will be played extra times equals to your #pShadows. NL You can have up to #b2 #pShadows. NL Lose all your #pShadow at the end of turn."
+    "DESCRIPTION": "#yAttack cards will be played additional times equal to your #pShadows. NL You can have up to #b2 #pShadows. NL Lose all your #pShadows at the end of your turn."
   },
   {
-    "PROPER_NAME": "死亡刻印",
+    "PROPER_NAME": "Etch",
     "NAMES": [
-      "死亡刻印"
+      "etch"
     ],
-    "DESCRIPTION": "每叠满 #b4 层之后引爆，造成 #b30 点伤害。"
+    "DESCRIPTION": "Explode and deal #b30 damage for each #b4 stacks."
   },
   {
-    "PROPER_NAME": "唯一",
+    "PROPER_NAME": "Unique",
     "NAMES": [
-      "唯一"
+      "Unique"
     ],
-    "DESCRIPTION": "只能从卡牌奖励或商店中获得。 NL 获得本牌后，本局游戏将不会出现这张牌。 NL （同一奖励界面不影响）"
+    "DESCRIPTION": "Can only be obtained in card rewards or shops. NL This card won't show up again this run. NL (Won't affect this reward screen)"
   },
   {
-    "PROPER_NAME": "宣判",
+    "PROPER_NAME": "Sentencing",
     "NAMES": [
-      "宣判"
+      "sentencing"
     ],
-    "DESCRIPTION": "消除敌人一定层数的 #y定罪 来提高攻击次数。"
+    "DESCRIPTION": "Increase the number of attacks by using #yConviction."
   },
   {
-    "PROPER_NAME": "击杀",
+    "PROPER_NAME": "Kill",
     "NAMES": [
-      "击杀"
+      "kill"
     ],
-    "DESCRIPTION": "如果杀死了敌人，触发效果。"
+    "DESCRIPTION": "Trigger effect whenever yoou kill a creature."
   },
   {
-    "PROPER_NAME": "氪金石",
+    "PROPER_NAME": "Diamond",
     "NAMES": [
-      "氪金石"
+      "diamond"
     ],
-    "DESCRIPTION": "最多拥有 #b10 颗。每颗超过上限部分的 #y氪金石 将对生命最少的敌人造成 #b6 点伤害。"
+    "DESCRIPTION": "Can have up to #b10 . #yDiamond will deal #b6 damage to the enemy with the lowest HP for each #ydiamond over #b10."
   },
   {
-    "PROPER_NAME": "流血",
+    "PROPER_NAME": "Bleeding",
     "NAMES": [
-      "流血"
+      "bleeding"
     ],
-    "DESCRIPTION": "受到攻击伤害时额外受到 #y流血 层数的伤害，并减少一层。 NL 回合结束时失去 #y流血 层数的生命并移除该效果。"
+    "DESCRIPTION": "Lose HP equal stacks when attacked and reduce them by #b1 . NL Lose HP equal to stacks at the start of their turn and remove this effect."
   },
   {
-    "PROPER_NAME": "招财喵之怒",
+    "PROPER_NAME": "Warth of Fortune Cat",
     "NAMES": [
-      "招财喵之怒"
+      "fortune\u00a0cat"
     ],
-    "DESCRIPTION": "每颗超过上限部分的 #y氪金石 将对生命最少的敌人造成 #6 点伤害。"
+    "DESCRIPTION": "#yDiamond will deal #b6 more damage to the enemy with the lowest HP for each #ydiamond over #b10."
   },
   {
-    "PROPER_NAME": "氪金光环",
+    "PROPER_NAME": "Diamond Halo",
     "NAMES": [
-      "氪金光环"
+      "diamond\u00a0halo"
     ],
-    "DESCRIPTION": " #y氪金石 达到一定数量时将触发一些 #g额外效果 。"
+    "DESCRIPTION": "#yDiamond will trigger extra effect when you have more than a certain amount."
   },
   {
-    "PROPER_NAME": "原罪",
+    "PROPER_NAME": "Sin",
     "NAMES": [
-      "原罪"
+      "sin"
     ],
-    "DESCRIPTION": " #y原罪 将提高 #p恶魔 造成的伤害。"
+    "DESCRIPTION": "Increase the damage #pDemons deal."
   },
   {
-    "PROPER_NAME": "榨取",
+    "PROPER_NAME": "Extract",
     "NAMES": [
-      "榨取"
+      "extract"
     ],
-    "DESCRIPTION": "每有 #b2 层时，失去 #b2 层。同时你将回复 #b1 点生命。"
+    "DESCRIPTION": "Gain #b1 HP for every #b2 stacks."
   },
   {
-    "PROPER_NAME": "末日印记",
+    "PROPER_NAME": "Doomsday Etch",
     "NAMES": [
-      "末日印记"
+      "doomsday\u00a0etch"
     ],
-    "DESCRIPTION": " #y末日陨石 对带有 #y末日印记 的目标伤害提高。最多 #b10 层。"
+    "DESCRIPTION": "#yDoomsday #yMeteorite deal more damage to creatures that have #yDoomsday #yEtch."
   },
   {
-    "PROPER_NAME": "灵魂石",
+    "PROPER_NAME": "Soul Stone",
     "NAMES": [
-      "灵魂石"
+      "soul\u00a0stone"
     ],
-    "DESCRIPTION": "使用 #y灵魂石 牌需要消耗 #y灵魂石 。这些牌的效果通常比较强大。"
+    "DESCRIPTION": "To play #ySoul #yStone #yCard you need #pSoul #pStones. NL These cards are usually more powerful."
   },
   {
-    "PROPER_NAME": "金属化",
+    "PROPER_NAME": "Metallicize",
     "NAMES": [
-      "金属化"
+      "metallicize"
     ],
-    "DESCRIPTION": "在你的回合结束时，获得 #y格挡 。"
+    "DESCRIPTION": "Gain #yBlock at the end of your turn."
   },
   {
-    "PROPER_NAME": "损毁",
+    "PROPER_NAME": "Ruin",
     "NAMES": [
-      "损毁"
+      "ruin"
     ],
-    "DESCRIPTION": "战斗结束前从牌堆中暂时移除，并 #r不会 放入消耗堆"
+    "DESCRIPTION": "Removed for this battle and wont move to exhaust pile."
   },
   {
-    "PROPER_NAME": "定罪",
+    "PROPER_NAME": "Conviction",
     "NAMES": [
-      "定罪"
+      "conviction"
     ],
-    "DESCRIPTION": " #y定罪 降低生命回复效果。"
+    "DESCRIPTION": " Decrease the effect of healing."
   },
   {
-    "PROPER_NAME": "暗能量",
+    "PROPER_NAME": "Dark Energy",
     "NAMES": [
-      "暗能量"
+      "dark\u00a0energy"
     ],
-    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y暗能量 。"
+    "DESCRIPTION": "Spends #yDark #yEnenrgy when in #yDarkness."
   },
   {
-    "PROPER_NAME": "黑暗形态",
+    "PROPER_NAME": "Darkness",
     "NAMES": [
-      "黑暗形态"
+      "darkness"
     ],
-    "DESCRIPTION": "在 #y黑暗形态 中，出牌消耗 #y暗能量 。"
+    "DESCRIPTION": "Spends #yDark #yEnenrgy when in #yDarkness"
   },
   {
-    "PROPER_NAME": "光明形态",
+    "PROPER_NAME": "Brightness",
     "NAMES": [
-      "光明形态"
+      "brightness"
     ],
-    "DESCRIPTION": "在 #y光明形态 中，出牌消耗 #y能量 。"
+    "DESCRIPTION": "Spends #yEnenrgy when in #yDBrightness"
   },
   {
-    "PROPER_NAME": "公平",
+    "PROPER_NAME": "Fair",
     "NAMES": [
-      "公平"
+      "fair"
     ],
-    "DESCRIPTION": "对你和所有敌人 #y同时使用效果 。"
+    "DESCRIPTION": "Apply to you and Enemies."
   }
 ]

@@ -113,7 +113,6 @@
     "EXTENDED_DESCRIPTION": [
       "( !RODSecondM! )"
     ]
-
   },
   "RingOfDestiny:OctMudra": {
     "NAME": "结印-未",
@@ -511,7 +510,7 @@
   },
   "RingOfDestiny:PressuredBullet": {
     "NAME": "高压魔弹",
-    "DESCRIPTION": "下回合开始，每回合打出的前 !M! 张攻击牌伤害翻倍。"
+    "DESCRIPTION": "每回合打出的前 !M! 张攻击牌伤害翻倍。"
   },
   "RingOfDestiny:MagicAbsorb": {
     "NAME": "魔力吸收",
@@ -528,7 +527,7 @@
   },
   "RingOfDestiny:MoonCurtain": {
     "NAME": "月色帷幕",
-    "DESCRIPTION": "获得 !B! 点 格挡 NL 和 !M! 层 人工制品 。 NL 消耗 。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 人工制品 。 NL 消耗 。"
   },
   "RingOfDestiny:NightPendant": {
     "NAME": "幻夜坠饰",
@@ -1516,7 +1515,7 @@
   },
   "RingOfDestiny:PowerOfWrath": {
     "NAME": "愤怒之力",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。造成 !D! 点伤害 !M! 次。本场战斗耗能和次数提高1（最多为4）。耗能改变将保持到战斗结束。"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。造成 !D! 点伤害 !M! 次。本场战斗耗能和次数提高1（最多为4）。"
   },
   "RingOfDestiny:ScepterOfGluttony": {
     "NAME": "暴食权杖",
@@ -1524,8 +1523,8 @@
   },
   "RingOfDestiny:PowerOfLaziness": {
     "NAME": "懒惰之力",
-    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。 NL 获得 !B! 点 格挡 。每打出一次，本场战斗本牌的 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）",
-    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 +2。 NL 获得 !B! 点 格挡 。每打出一次，本场战斗本牌的 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）"
+    "DESCRIPTION": " ring_of_destiny:唯一 。 ring_of_destiny:原罪 。 NL 获得 !B! 点 格挡 。 NL 本场战斗本牌的 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）",
+    "UPGRADE_DESCRIPTION": " ring_of_destiny:唯一 。 3 ring_of_destiny:原罪 。 NL 获得 !B! 点 格挡 。 NL 本场战斗本牌的 格挡 获得提高 !M! 。 NL （至多 !RODSecondM! ）"
   },
   "RingOfDestiny:VoodooDoll": {
     "NAME": "诅咒人偶",
@@ -1582,7 +1581,7 @@
   },
   "RingOfDestiny:Blockade": {
     "NAME": "封锁",
-    "DESCRIPTION": "抽到这张牌时，你在这个回合内不能再抽任何牌。 NL 消耗 。"
+    "DESCRIPTION": "这张牌在你的手牌中时，你不能再抽任何牌。 NL 消耗 。"
   },
   "RingOfDestiny:Slip": {
     "NAME": "失足",

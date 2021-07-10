@@ -1,87 +1,87 @@
 {
   "RingOfDestiny:WaterReleaseAction": {
     "TEXT": [
-      "丢弃手牌并获得弃牌数的能量"
+      "Discard and gain energy"
     ]
   },
   "RingOfDestiny:SkillCardOnly": {
     "TEXT": [
-      "我的手牌中还有非技能牌。"
+      "I have non-Skill cards in my hand."
     ]
   },
   "RingOfDestiny:EtchPhantomAction": {
     "TEXT": [
-      "将一张牌复制到手牌",
-      "将",
-      " 张牌复制到手牌"
+      "Add a copy of a card to your hand.",
+      "Add copies of ",
+      " cards to your hand."
     ]
   },
   "RingOfDestiny:DarkProjectionAction": {
     "TEXT": [
-      "复制技能牌"
+      "Copy a Skill card"
     ]
   },
   "RingOfDestiny:DiamondManager": {
     "TEXT": [
-      " #y招财喵之怒 ： NL 每颗超过上限部分的 #y氪金石 将对生命最少的敌人造成 #b",
-      " 点伤害。 NL NL #y氪金光环 ： NL #b1 层：（3颗激活） NL 回合结束时 NL 对所有敌人造成 #b",
-      " 点伤害。 NL #p2 层：（6颗激活） NL 每回合开始时额外抽 #b",
-      " 张牌。 NL #y3 层：（10颗激活） NL 每回合开始时获得 #b",
-      " 点 #y格挡 。"
+      " #yWarth #yof #yFortune #yCat ： NL Diamond will deal #b",
+      " more damage to the enemy with the lowest HP for each diamond over #b10. NL NL #yDiamond #yHalo ： NL #bLevel #b1 ：(3 to trigger) NL Deal #b",
+      " damage to All enemy at the end of your turn. NL NL #pLevel #p2 :(6 to trigger) NL Draw #b",
+      " card(s) at the start of your turn. NL NL #yLevel #y3 :(10 to trigger) NL Gain #b",
+      " #yBlock at the start of your turn."
     ],
     "EXTRA_TEXT": [
-      "氪金石"
+      "Diamond"
     ]
   },
   "RingOfDestiny:DrawAgainAction": {
     "TEXT": [
-      "将一张 再来一发 加入手牌",
-      "将",
-      " 再来一发 加入手牌"
+      "Add a Draw again to your hand.",
+      "Add ",
+      " Draw again to your hand."
     ]
   },
   "RingOfDestiny:AttackIntent": {
     "TEXT": [
-      "这个敌人的意图不是攻击！",
-      "这个敌人的意图是攻击！"
+      "This enemy does not intend to Attack!",
+      "This enemy intends to Attack!"
     ]
   },
   "RingOfDestiny:TempIncreaseMaxHPAction": {
     "TEXT": [
-      "临时最大生命+"
+      "Temporarily increase max HP"
     ]
   },
   "RingOfDestiny:Demon": {
     "TEXT": [
-      "魔王阿鲁多",
-      "手持地狱战镰的最强战士",
-      "熔岩魔王"
+      "Demon Arudo",
+      "The strongest soldier with\nthe battle sickle of hell",
+      "\nLava Lord"
     ],
     "EXTRA_TEXT": [
-      " #y暴虐 ： NL 魔王存在时，玩家每打出一张 #y攻击牌 ，魔王将对随机敌人造成伤害。 NL NL ",
-      " #y魔界霸权 ：（长按献祭） NL 魔王献祭后，每回合开始时手牌中的随机一张 #y攻击牌 本回合耗能为零。"
+      " #yTyranny ： NL Arudo will deal damage to a random enemy whenever the player plays an #yAttack. NL NL ",
+      " #yHegemony NL (hold to sacrifice) NL At the start of each turn, reduce an #yAttack card's cost to 0 for this turn."
     ]
   },
   "RingOfDestiny:Succubus": {
     "TEXT": [
-      "魅魔莉莉丝",
-      "擅长魅惑和操纵魔法的",
-      "魅魔女王"
+      "Succubus Lilith",
+      "Good at charm and\nmanipulating magic",
+      "\nQueen of Succubus"
     ],
     "EXTRA_TEXT": [
-      "  #y魅惑 ： NL 魅魔存在时，玩家每打出一张 #y技能牌 ，魅魔将对随机敌人造成伤害。 NL NL ",
-      "  #y魔力掌控 ：（长按献祭） NL 魅魔献祭后，所有本角色 #y技能牌 耗能减1（不低于1）。 NL 每获得 #b20 点 #y格挡 获得1颗 #y灵魂石 。"
+      " #yCharm ： NL Lilith will deal damage to a random enemy whenever the player plays a #ySkill. NL NL ",
+      " #yMagic #yControl NL (hold to sacrifice) NL Reduce the cost of all Skills by 1 this combat. (Cannot be reduced below 1) NL Gain #b20 #yBlock and Gain a #ySoul #yStone.。"
     ]
   },
   "RingOfDestiny:Vampire": {
     "TEXT": [
-      "伯爵拉夏尔",
-      "诅咒削弱敌人并吸取能量的",
-      "血族伯爵"
+      "Vampire La Chateau",
+      "Curse weakens the enemy\nand draws energy",
+      "\nBloodline Count"
     ],
     "EXTRA_TEXT": [
-      "  #y折磨 ： NL 伯爵存在时，玩家受到一次攻击，伯爵将对攻击的敌人造成伤害。 NL NL ",
-      "  #y远古血统 ：（长按献祭） NL 伯爵献祭后，每次失去生命时，给予随机敌人 #b1 层 #y榨取 。"
+      " #yTorment ： NL La Chateau will deal damage to a random enemy when the player is Attacked. NL NL ",
+      " #yAncient #ylineage NL (hold to sacrifice) NL Apply #b1 Extract to a random enemy whenever you lose HP."
     ]
   },
   "RingOfDestiny:NullSummon": {
@@ -97,38 +97,38 @@
   },
   "RingOfDestiny:SummonSelectScreen": {
     "TEXT": [
-      "请选择契约的恶魔"
+      "Select a Demon of the contract"
     ]
   },
   "RingOfDestiny:SoulStoneCantUseMessage": {
     "TEXT": [
-      "灵魂石不足"
+      "I don't have enough Soul Stones."
     ]
   },
   "RingOfDestiny:ScepterOfGluttonyAction": {
     "TEXT": [
-      "将牌的耗能本回合变为0"
+      "Reduce cost to 0 this turn."
     ]
   },
   "RingOfDestiny:SubEnergy": {
     "TEXT": [
-      "暗能量"
+      "Dark Energy"
     ],
     "EXTRA_TEXT": [
-      "你当前的暗能量。打出黑暗卡牌需要暗能量。",
-      " NL 点击使用 [E] 进入 #p黑暗形态 并将所有的 #y力量 变成 #y金属化 。",
-      "暗能量不足"
+      "Dark Energy you have. Playing darkness cards requires Dark Energy.",
+      " NL Click to use [E] to enter #pDarkness and convert your #yStrength to #yMetallicize,",
+      "I don't have enough Dark energy"
     ]
   },
   "RingOfDestiny:DevilGripAction": {
     "TEXT": [
-      "复制攻击牌"
+      "Copy an Attack card"
     ]
   },
   "RingOfDestiny:CantPlayCardPowerPatch": {
     "TEXT": [
-      "我不能打出非攻击牌",
-      "我不能打出非技能牌"
+      "I can't play non-Attack cards.",
+      "I can't play non-Skill cards."
     ]
   },
   "RingOfDestiny:StatusCardPatch": {
@@ -138,8 +138,8 @@
   },
   "RingOfDestiny:DarkFormLibraryPatches": {
     "TEXT": [
-      "黑暗形态",
-      "光明形态"
+      "Darkness",
+      "Brightness"
     ]
   },
   "RingOfDestiny:IdeologyCorridor": {
@@ -168,15 +168,15 @@
   },
   "RingOfDestiny:RitaPowermeter": {
     "TEXT": [
-      "气槽",
-      "当它被充满时，下一回合将使用 #y超必杀 ！"
+      "Power meter",
+      "This creature will do a #ySuper #yMove next turn will it's full!"
     ]
   },
   "RingOfDestiny:ModSettings": {
     "TEXT": [
-      "Add wip character:Inherit (require restart)",
-      "Enable Diamond tutorial.",
-      "Enable Soul Stone tutorial."
+      "Add WIP character:Inherit.(require restart)",
+      "Disable Diamond tutorial.",
+      "Disable Soul Stone tutorial."
     ]
   }
 }

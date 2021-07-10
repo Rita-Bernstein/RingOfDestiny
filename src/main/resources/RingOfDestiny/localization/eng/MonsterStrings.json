@@ -82,8 +82,8 @@
     ],
     "NAME": "Extinction Moon",
     "DIALOG": [
-      "来！吃一颗苹果吧",
-      "哼！我讨厌魔法"
+      "Come on! Have an apple",
+      "Hum! I hate magic"
     ]
   },
   "RingOfDestiny:EvilEye": {
@@ -101,7 +101,7 @@
     ],
     "NAME": "Talking Chest",
     "DIALOG": [
-      "下回合我就跑咯"
+      "I'll run next turn"
     ]
   },
   "RingOfDestiny:TheMonitor": {
@@ -110,7 +110,7 @@
     ],
     "NAME": "The Monitor",
     "DIALOG": [
-      "#r@入侵警报@ NL #r@入侵警报@"
+      "#r@Warning@ NL #r@Warning@"
     ]
   },
   "RingOfDestiny:SpiderQueen": {
@@ -119,7 +119,7 @@
     ],
     "NAME": "Spider Queen",
     "DIALOG": [
-      "来人！"
+      "Somebody!"
     ]
   },
   "RingOfDestiny:SpiderChildG": {
@@ -146,7 +146,7 @@
     ],
     "NAME": "The Pien",
     "DIALOG": [
-      "秘籍·八重嘤"
+      "Useless! NL Useless! NLUseless!  "
     ]
   },
   "RingOfDestiny:ValhallaChronicles": {
@@ -155,7 +155,7 @@
     ],
     "NAME": "Valhalla Chronicles",
     "DIALOG": [
-      "摩擦吧，冒险者 (¬◡¬)✧~"
+      "Friction！ Adventurer (¬◡¬)✧~"
     ]
   }
 }

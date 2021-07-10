@@ -54,6 +54,13 @@
             <scope>system</scope>
             <systemPath>${Steam.path}/workshop/content/646570/1934902042/actlikeit.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>com.evacipated.cardcrawl.mod</groupId>
+            <artifactId>MusicTipLib</artifactId>
+            <version>1.2.2</version>
+            <scope>system</scope>
+            <systemPath>${Steam.path}/common/SlayTheSpire/mods/MusicTipLib.jar</systemPath>
+        </dependency>
     </dependencies>
 
 

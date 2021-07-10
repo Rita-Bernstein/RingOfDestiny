@@ -64,9 +64,9 @@ public class BleedingPower extends AbstractRingPower implements HealthBarRenderP
 
     public void updateDescription() {
         if (this.owner == null || this.owner.isPlayer) {
-            this.description = DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2];
+            this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[3];
         }else {
-            this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[2];
+            this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[3];
         }
 
     }
