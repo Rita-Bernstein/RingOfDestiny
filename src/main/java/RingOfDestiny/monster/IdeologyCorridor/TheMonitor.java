@@ -62,7 +62,7 @@ public class TheMonitor extends CustomMonster {
 
     public TheMonitor() {
         super(NAME, ID, 88, 0.0F, -35.0F, 360.0F, 360.0F, null, 0.0F, -10.0F);
-
+        this.spawned = false;
         if (AbstractDungeon.ascensionLevel >= 8) {
             setHp(80);
         } else {
@@ -91,9 +91,9 @@ public class TheMonitor extends CustomMonster {
 
     }
 
-    public TheMonitor(float x, float y) {
+    public TheMonitor(float x, float y,boolean spawned) {
         super(NAME, ID, 88, 0.0F, -15.0F, 300.0F, 300.0F, null, x, y);
-
+        this.spawned = spawned;
         setHp(20);
 
         if (AbstractDungeon.ascensionLevel >= 4) {
@@ -139,8 +139,8 @@ public class TheMonitor extends CustomMonster {
 
             case 2:
 
-                addToBot(new SpawnMonsterAction(new TheMonitor(-300.0F, 0.0F), false,0));
-                addToBot(new SpawnMonsterAction(new TheMonitor(300.0F, 0.0F), false,2));
+                addToBot(new SpawnMonsterAction(new TheMonitor(-300.0F, 0.0F,true), false,0));
+                addToBot(new SpawnMonsterAction(new TheMonitor(300.0F, 0.0F,true), false,2));
 
                 break;
         }
@@ -190,7 +190,6 @@ public class TheMonitor extends CustomMonster {
 
             setMove((byte) 2, AbstractMonster.Intent.UNKNOWN);
             createIntent();
-            this.spawned = true;
         }
 
     }

@@ -120,6 +120,7 @@ public class TalkingChest extends CustomMonster {
                 addToBot(new ChangeStateAction(this, "Attack"));
                 addToBot(new CustomWaitAction(0.3f));
                 addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(0), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL, true));
+                this.changed = true;
                 break;
 
             case 3:
