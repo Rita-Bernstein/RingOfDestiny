@@ -1,0 +1,114 @@
+{
+"skeleton": {
+	"hash": "KSgfZXaVUiI9gs8FmMXb8oCPABg",
+	"spine": "3.8.75",
+	"x": -171.84,
+	"y": 56.8,
+	"width": 358.08,
+	"height": 124.95,
+	"fps": 12,
+	"images": "",
+	"audio": "F:/STS/ring/proj/monster/workplace/BraveWarrior"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "jian", "parent": "root", "length": 19, "rotation": 166.1, "x": 102.74, "y": 95.68 },
+	{ "name": "yanqiu", "parent": "jian", "rotation": -163.76, "x": 37.34, "y": -8.4 },
+	{ "name": "yanzu", "parent": "yanqiu", "x": -1.87, "y": -7.32 },
+	{ "name": "yp_1", "parent": "yanqiu", "x": -11.18, "y": -0.95 }
+],
+"slots": [
+	{ "name": "monster_10003/monster_10003", "bone": "jian", "attachment": "monster_10003/monster_10003" },
+	{ "name": "yanqiu", "bone": "yanqiu", "attachment": "yanqiu" },
+	{ "name": "yanzu", "bone": "yanzu", "attachment": "yanzu" },
+	{ "name": "yp_1", "bone": "yp_1", "attachment": "yp_1" }
+],
+"animations": {
+	"Idle1": {
+		"slots": {
+			"yp_1": {
+				"attachment": [
+					{ "name": "yp_1", "time": 0.0 },
+					{ "time": 0.4167, "name": "yp_2" },
+					{ "time": 0.5, "name": "yp_3" },
+					{ "time": 0.6667, "name": "yp_2" },
+					{ "time": 0.75, "name": "yp_1" },
+					{ "time": 1.6667, "name": "yp_2" },
+					{ "time": 1.75, "name": "yp_3" },
+					{ "time": 1.9167, "name": "yp_2" },
+					{ "time": 2, "name": "yp_1" },
+					{ "time": 2.5, "name": "yp_1" },
+					{ "time": 2.9167, "name": "yp_2" },
+					{ "time": 3, "name": "yp_3" },
+					{ "time": 3.1667, "name": "yp_2" },
+					{ "time": 3.25, "name": "yp_1" },
+					{ "time": 4.1667, "name": "yp_2" },
+					{ "time": 4.25, "name": "yp_3" },
+					{ "time": 4.4167, "name": "yp_2" },
+					{ "time": 4.5, "name": "yp_1" }
+				]
+			}
+		},
+		"bones": {
+			"yanzu": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 0.3333, "x": -2.83, "y": 0.62, "curve": "stepped" },
+					{ "time": 0.5833, "x": -2.83, "y": 0.62 },
+					{ "time": 0.9167, "curve": "stepped" },
+					{ "time": 1.1667 },
+					{ "time": 1.5833, "x": 4.65, "y": -1.5, "curve": "stepped" },
+					{ "time": 2, "x": 4.65, "y": -1.5 },
+					{ "time": 2.3333, "curve": "stepped" },
+					{ "time": 2.5 },
+					{ "time": 2.8333, "x": -2.83, "y": 0.62, "curve": "stepped" },
+					{ "time": 3.0833, "x": -2.83, "y": 0.62 },
+					{ "time": 3.4167, "curve": "stepped" },
+					{ "time": 3.6667 },
+					{ "time": 4.0833, "x": 4.65, "y": -1.5, "curve": "stepped" },
+					{ "time": 4.5, "x": 4.65, "y": -1.5 },
+					{ "time": 4.8333 }
+				]
+			},
+			"jian": {
+				"translate": [
+					{ "time": 0.0 },
+					{ "time": 2.5, "x": -3.52, "y": 9.84 },
+					{ "time": 5 }
+				]
+			}
+		}
+	},
+	"Idle2": {
+		"slots": {
+			"yp_1": {
+				"attachment": [
+					{ "name": "yp_1", "time": 0.0 },
+					{ "time": 0.0833, "name": "yp_2" },
+					{ "time": 0.1667, "name": "yp_3" },
+					{ "time": 0.3333, "name": "yp_2" },
+					{ "time": 0.4167, "name": "yp_1" }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"yp_1": {
+			"yp_1": { "path": "monster_10003/yp_1", "x": 9.18, "y": -6.44, "width": 37, "height": 25 },
+			"yp_2": { "path": "monster_10003/yp_2", "x": 8.84, "y": -6, "width": 37, "height": 25 },
+			"yp_3": { "path": "monster_10003/yp_3", "x": 9.17, "y": -6.12, "width": 37, "height": 25 }
+		},
+		"monster_10003/monster_10003": {
+			"monster_10003/monster_10003": { "x": 98.41, "y": 0.04, "scaleX": 0.55, "scaleY": 0.55, "rotation": -166.12, "width": 651, "height": 227 }
+		},
+		"yanzu": {
+			"yanzu": { "path": "monster_10003/yanzu", "x": -0.38, "y": 0.57, "width": 7, "height": 15 }
+		},
+		"yanqiu": {
+			"yanqiu": { "path": "monster_10003/yanqiu", "x": -2.25, "y": -7.28, "width": 37, "height": 25 }
+		}
+	}
+}
+}

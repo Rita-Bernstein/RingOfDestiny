@@ -665,5 +665,17 @@
     "DESCRIPTIONS": [
       "死亡时重新复活，复活后只拥有 #b50% 的生命"
     ]
+  },
+  "RingOfDestiny:SoulEaterPower": {
+    "NAME": "噬魂",
+    "DESCRIPTIONS": [
+      "每第三个回合， #y魔剑 将回复其造成伤害等量的生命。"
+    ]
+  },
+  "RingOfDestiny:FulPower": {
+    "NAME": "邪能",
+    "DESCRIPTIONS": [
+      "免疫 #y虚弱 、 #y易伤 且 获得 #b%d 点 #y力量 。"
+    ]
   }
 }

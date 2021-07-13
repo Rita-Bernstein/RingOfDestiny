@@ -1,18 +1,23 @@
 package RingOfDestiny.patches;
 
 import RingOfDestiny.powers.*;
+import RingOfDestiny.powers.Monster.KnowledgeHall.FulPower;
+import com.badlogic.gdx.Gdx;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.PoisonPower;
+import com.megacrit.cardcrawl.powers.*;
+
 
 
 public class ChangeApplyPowerPatch {
     public static boolean extraPoisonApplyed = false;
+
     @SpirePatch(
             clz = ApplyPowerAction.class,
             method = SpirePatch.CONSTRUCTOR,
@@ -20,14 +25,14 @@ public class ChangeApplyPowerPatch {
 
     )
     public static class GasBombExtraPoison {
-        @SpireInsertPatch(rloc = 24, localvars = {"amount"})
+        @SpireInsertPatch(rloc = 24, localvars = {"amount","duration"})
         public static SpireReturn<Void> Insert(ApplyPowerAction _instance,
                                                AbstractCreature target,
                                                AbstractCreature source,
-                                                   AbstractPower powerToApply,
+                                               AbstractPower powerToApply,
                                                int stackAmount,
                                                boolean isFast,
-                                               AbstractGameAction.AttackEffect effect, @ByRef int[] amount) {
+                                               AbstractGameAction.AttackEffect effect, @ByRef int[] amount,@ByRef float[] duration) {
 //            中毒相关
             if (AbstractDungeon.player.hasPower(GasBombPower.POWER_ID) && source != null && source.isPlayer && target != source && powerToApply.ID.equals(PoisonPower.POWER_ID)) {
                 AbstractDungeon.player.getPower(GasBombPower.POWER_ID).flash();
@@ -41,10 +46,10 @@ public class ChangeApplyPowerPatch {
                     if (!monster.isDead && !monster.isDying) {
                         if (monster.hasPower(InfectMarkPower.POWER_ID) && powerToApply.ID.equals(PoisonPower.POWER_ID)) {
                             monster.getPower(InfectMarkPower.POWER_ID).flash();
-                            if(!extraPoisonApplyed){
+                            if (!extraPoisonApplyed) {
                                 extraPoisonApplyed = true;
                                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(monster, null, new PoisonPower(monster, null, amount[0]), amount[0]));
-                            }else {
+                            } else {
                                 extraPoisonApplyed = false;
                             }
                         }
@@ -68,6 +73,14 @@ public class ChangeApplyPowerPatch {
                 amount[0] = amount[0] + AbstractDungeon.player.getPower(BloodmournePower.POWER_ID).amount;
             }
 //            流血相关
+
+            //            邪能：免疫易伤虚弱并获得力量
+            if (target.hasPower(FulPower.POWER_ID) && (powerToApply.ID.equals(VulnerablePower.POWER_ID) || powerToApply.ID.equals(WeakPower.POWER_ID))) {
+                AbstractDungeon.actionManager.addToTop(new TextAboveCreatureAction(target, CardCrawlGame.languagePack.getUIString("ApplyPowerAction").TEXT[1]));
+                duration[0] -= Gdx.graphics.getDeltaTime();
+                AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(target, target, new StrengthPower(target, target.getPower(FulPower.POWER_ID).amount), target.getPower(FulPower.POWER_ID).amount));
+            }
+            //            邪能：免疫易伤虚弱并获得力量
 
 
             return SpireReturn.Continue();

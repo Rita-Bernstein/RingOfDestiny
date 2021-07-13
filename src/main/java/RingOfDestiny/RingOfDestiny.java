@@ -14,6 +14,7 @@ import RingOfDestiny.dungeons.WisdomThrone;
 import RingOfDestiny.helpers.*;
 import RingOfDestiny.monster.BlackNoah.*;
 import RingOfDestiny.monster.IdeologyCorridor.*;
+import RingOfDestiny.monster.KnowledgeHall.*;
 import actlikeit.dungeons.CustomDungeon;
 import basemod.BaseMod;
 
@@ -33,7 +34,6 @@ import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.dungeons.TheEnding;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
@@ -288,6 +288,10 @@ public class RingOfDestiny
         BaseMod.addMonster(ValhallaChronicles.ID, () -> new ValhallaChronicles());
         BaseMod.addMonster(ThePien.ID, () -> new ThePien());
 
+
+// 二层Boss
+        BaseMod.addMonster(BraveWarrior.ID, () -> new BraveWarrior());
+
 //终局
         BaseMod.addMonster(Rita.ID, () -> new Rita());
 
@@ -307,6 +311,10 @@ public class RingOfDestiny
         BaseMod.addBoss(ThePien.ID, ThePien.ID,
                 assetPath("img/ui/map/boss/ThePien.png"),
                 assetPath("img/ui/map/bossOutline/ThePien.png"));
+
+        BaseMod.addBoss(BraveWarrior.ID, BraveWarrior.ID,
+                assetPath("img/ui/map/boss/BraveWarrior.png"),
+                assetPath("img/ui/map/bossOutline/BraveWarrior.png"));
 
         BaseMod.addBoss(BlackNoah.ID, Rita.ID,
                 assetPath("img/ui/map/boss/Rita.png"),

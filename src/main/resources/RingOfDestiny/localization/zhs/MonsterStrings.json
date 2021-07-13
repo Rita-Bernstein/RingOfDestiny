@@ -158,5 +158,41 @@
     "DIALOG": [
       "摩擦吧，冒险者 (¬◡¬)✧~"
     ]
+  },
+  "RingOfDestiny:BraveWarrior": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "魔剑",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Sledgehammer": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "大锤王",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:DanceOfSakura": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "樱之舞",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Orator": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "演说家",
+    "DIALOG": [
+      ""
+    ]
   }
 }

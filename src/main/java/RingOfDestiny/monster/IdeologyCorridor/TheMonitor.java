@@ -187,7 +187,7 @@ public class TheMonitor extends CustomMonster {
                 this.talky = false;
                 addToBot(new TalkAction(this, DIALOG[0], 1.0F, 2.0F));
             }
-
+            this.spawned = true;
             setMove((byte) 2, AbstractMonster.Intent.UNKNOWN);
             createIntent();
         }

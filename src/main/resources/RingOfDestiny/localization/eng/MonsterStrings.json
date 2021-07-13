@@ -157,5 +157,41 @@
     "DIALOG": [
       "Friction！ Adventurer (¬◡¬)✧~"
     ]
+  },
+  "RingOfDestiny:BraveWarrior": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Brave Warrior",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Sledgehammer": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Sledgehammer",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:DanceOfSakura": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Dance Of Sakura",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Orator": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Orator",
+    "DIALOG": [
+      ""
+    ]
   }
 }

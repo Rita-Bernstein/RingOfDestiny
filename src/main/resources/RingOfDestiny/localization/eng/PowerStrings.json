@@ -672,5 +672,17 @@
     "DESCRIPTIONS": [
       "Revive with #b50% of max HP when die."
     ]
+  },
+  "RingOfDestiny:SoulEaterPower": {
+    "NAME": "Soul Eater",
+    "DESCRIPTIONS": [
+      "Every #b3rd turn, #yBrave #yWarrior heals HP equal to damage dealt during the turn."
+    ]
+  },
+  "RingOfDestiny:FulPower": {
+    "NAME": "Ful",
+    "DESCRIPTIONS": [
+      "When receiving #yWeak or #yVulnerable ,gains #b%d #yStrength instead."
+    ]
   }
 }

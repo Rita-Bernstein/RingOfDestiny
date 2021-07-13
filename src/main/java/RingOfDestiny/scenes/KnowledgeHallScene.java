@@ -1,5 +1,6 @@
 package RingOfDestiny.scenes;
 
+import RingOfDestiny.monster.KnowledgeHall.BraveWarrior;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
@@ -91,8 +92,20 @@ public class KnowledgeHallScene extends AbstractScene {
             }
         }
 
+        if (room.monsters != null) {
+            for (AbstractMonster mo : room.monsters.monsters) {
+                if (mo.type == AbstractMonster.EnemyType.BOSS) {
+                    isBoss = true;
+                }
+
+                if (mo instanceof BraveWarrior) {
+                    this.bg = this.atlas.findRegion("bg_2_boss_2");
+                }else
+                    this.bg = this.atlas.findRegion("bg_2_boss");
+            }
+        }
+
         if (isBoss) {
-            this.bg = this.atlas.findRegion("bg_2_boss_1");
         }else if(room instanceof TreasureRoomBoss){
             this.bg = this.atlas.findRegion("bg_gift");
         }else if(room instanceof ShopRoom){

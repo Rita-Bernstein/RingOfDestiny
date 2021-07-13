@@ -1,6 +1,7 @@
 package RingOfDestiny.dungeons;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.monster.KnowledgeHall.BraveWarrior;
 import RingOfDestiny.scenes.KnowledgeHallScene;
 import actlikeit.dungeons.CustomDungeon;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -172,9 +173,10 @@ public class KnowledgeHall extends CustomDungeon {
     protected void initializeBoss() {
         bossList.clear();
 
-        bossList.add("Automaton");
-        bossList.add("Collector");
-        bossList.add("Champ");
+
+        bossList.add(BraveWarrior.ID);
+        bossList.add(BraveWarrior.ID);
+        bossList.add(BraveWarrior.ID);
 
         Collections.shuffle(bossList, new Random(monsterRng.randomLong()));
 

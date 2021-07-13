@@ -2,6 +2,7 @@ package RingOfDestiny.cards.Purchemist;
 
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Purchemist.TempIncreaseMaxHPAction;
+import RingOfDestiny.actions.Purchemist.UseDiamondAction;
 import RingOfDestiny.cards.AbstractPurchemistCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
@@ -25,6 +26,7 @@ public class Joyride extends AbstractPurchemistCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new TempIncreaseMaxHPAction(getDiamond() * this.magicNumber, p));
+        addToBot(new UseDiamondAction(getDiamond()));
     }
 
     public AbstractCard makeCopy() {
