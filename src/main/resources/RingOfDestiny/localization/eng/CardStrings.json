@@ -696,7 +696,7 @@
   },
   "RingOfDestiny:Recommend": {
     "NAME": "Recommend",
-    "DESCRIPTION": "Spend 2 ring_of_destiny:Diamond. NL Apply !M! ring_of_destiny:Bleeding and NL !RODSecondM! Weak. NL If you don't have enouth ring_of_destiny:Diamond, NL lose 3 HP."
+    "DESCRIPTION": "Spend 2 ring_of_destiny:Diamonds. NL Apply !M! ring_of_destiny:Bleeding and NL !RODSecondM! Weak. NL If you don't have enouth ring_of_destiny:Diamond, NL lose 3 HP."
   },
   "RingOfDestiny:AristocraticPedigree": {
     "NAME": "Aristocratic Pedigree",

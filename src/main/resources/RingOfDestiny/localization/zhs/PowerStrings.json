@@ -677,5 +677,23 @@
     "DESCRIPTIONS": [
       "免疫 #y虚弱 、 #y易伤 且 获得 #b%d 点 #y力量 。"
     ]
+  },
+  "RingOfDestiny:TurnToEarthPower": {
+    "NAME": "化泥",
+    "DESCRIPTIONS": [
+      "每三个回合回复 #b%d 生命。"
+    ]
+  },
+  "RingOfDestiny:RecommendPower": {
+    "NAME": "安利",
+    "DESCRIPTIONS": [
+      "每回合结束时，将 #b%d 张 #y安利 加入你的抽牌堆。"
+    ]
+  },
+  "RingOfDestiny:ExhilaratingPower": {
+    "NAME": "振奋",
+    "DESCRIPTIONS": [
+      "受到来自 #y流血 的伤害 #y翻倍，受到其他伤害 #r减半 。"
+    ]
   }
 }

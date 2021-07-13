@@ -1,47 +1,54 @@
 
 BraveWarrior.png
-size: 676,227
+size: 698,228
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10003/monster_10003
   rotate: false
-  xy: 0, 0
+  xy: 0, 1
   size: 651, 227
   orig: 651, 227
   offset: 0, 0
   index: -1
+monster_10003/shadow
+  rotate: true
+  xy: 651, 68
+  size: 160, 47
+  orig: 172, 53
+  offset: 6, 3
+  index: -1
 monster_10003/yanqiu
   rotate: true
-  xy: 651, 190
+  xy: 651, 31
   size: 37, 25
   orig: 37, 25
   offset: 0, 0
   index: -1
 monster_10003/yanzu
   rotate: false
-  xy: 651, 82
+  xy: 689, 22
   size: 7, 15
   orig: 7, 15
   offset: 0, 0
   index: -1
 monster_10003/yp_1
   rotate: true
-  xy: 651, 159
+  xy: 651, 0
   size: 31, 19
   orig: 37, 25
   offset: 3, 3
   index: -1
 monster_10003/yp_2
   rotate: true
-  xy: 651, 128
+  xy: 670, 0
   size: 31, 19
   orig: 37, 25
   offset: 3, 3
   index: -1
 monster_10003/yp_3
   rotate: true
-  xy: 651, 97
+  xy: 676, 37
   size: 31, 19
   orig: 37, 25
   offset: 3, 3

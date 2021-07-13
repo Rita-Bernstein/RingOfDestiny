@@ -3,6 +3,7 @@ package RingOfDestiny.powers;
 import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.Purchemist.BleedingLoseHpAction;
 import RingOfDestiny.cards.ShadowFlower.ShadowRose;
+import RingOfDestiny.powers.Monster.KnowledgeHall.ExhilaratingPower;
 import com.badlogic.gdx.graphics.Color;
 import com.evacipated.cardcrawl.mod.stslib.powers.interfaces.HealthBarRenderPower;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -40,9 +41,12 @@ public class BleedingPower extends AbstractRingPower implements HealthBarRenderP
 
     @Override
     public int onAttacked(DamageInfo info, int damageAmount) {
-        if(info.owner != null && info.type == DamageInfo.DamageType.NORMAL){
+        if (info.owner != null && info.type == DamageInfo.DamageType.NORMAL) {
             addToTop(new ReducePowerAction(this.owner, this.owner, this.ID, 1));
-            addToTop(new LoseHPAction(this.owner,null,this.amount));
+            if (this.owner.hasPower(ExhilaratingPower.POWER_ID))
+                addToTop(new LoseHPAction(this.owner, null, this.amount * 4));
+            else
+                addToTop(new LoseHPAction(this.owner, null, this.amount));
         }
         return super.onAttacked(info, damageAmount);
     }
@@ -51,7 +55,10 @@ public class BleedingPower extends AbstractRingPower implements HealthBarRenderP
         if ((AbstractDungeon.getCurrRoom()).phase == AbstractRoom.RoomPhase.COMBAT &&
                 !AbstractDungeon.getMonsters().areMonstersBasicallyDead() && !AbstractDungeon.player.hasPower(BloodAvalanchePower.POWER_ID)) {
             flashWithoutSound();
-            addToBot(new BleedingLoseHpAction(this.owner, this.source, this.amount, AbstractGameAction.AttackEffect.POISON));
+            if (this.owner.hasPower(ExhilaratingPower.POWER_ID))
+                addToBot(new BleedingLoseHpAction(this.owner, this.source, this.amount * 4, AbstractGameAction.AttackEffect.POISON));
+            else
+                addToBot(new BleedingLoseHpAction(this.owner, this.source, this.amount, AbstractGameAction.AttackEffect.POISON));
         }
     }
 
@@ -65,7 +72,7 @@ public class BleedingPower extends AbstractRingPower implements HealthBarRenderP
     public void updateDescription() {
         if (this.owner == null || this.owner.isPlayer) {
             this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[3];
-        }else {
+        } else {
             this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[3];
         }
 
@@ -78,7 +85,7 @@ public class BleedingPower extends AbstractRingPower implements HealthBarRenderP
 
     @Override
     public Color getColor() {
-        return new Color(127.0f/256.0f,12.0f/256.0f,0.0f,1.0f);
+        return new Color(127.0f / 256.0f, 12.0f / 256.0f, 0.0f, 1.0f);
     }
 }
 

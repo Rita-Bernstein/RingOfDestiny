@@ -684,5 +684,23 @@
     "DESCRIPTIONS": [
       "When receiving #yWeak or #yVulnerable ,gains #b%d #yStrength instead."
     ]
+  },
+  "RingOfDestiny:TurnToEarthPower": {
+    "NAME": "Turn To Earth",
+    "DESCRIPTIONS": [
+      "Heals #b%d HP at the end of every #b3rd turn."
+    ]
+  },
+  "RingOfDestiny:RecommendPower": {
+    "NAME": "Recommend",
+    "DESCRIPTIONS": [
+      "At the end of its turn,add #b%d #yRecommends to you draw pile."
+    ]
+  },
+  "RingOfDestiny:ExhilaratingPower": {
+    "NAME": "Exhilarating",
+    "DESCRIPTIONS": [
+      "Receive #yDouble damage from #yBleeding but #rHalf from others."
+    ]
   }
 }

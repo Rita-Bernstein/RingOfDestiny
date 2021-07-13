@@ -1,0 +1,181 @@
+
+Sledgehammer.png
+size: 923,220
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10062/bianzi
+  rotate: false
+  xy: 769, 15
+  size: 73, 82
+  orig: 73, 82
+  offset: 0, 0
+  index: -1
+monster_10062/bozi
+  rotate: true
+  xy: 569, 7
+  size: 54, 68
+  orig: 54, 68
+  offset: 0, 0
+  index: -1
+monster_10062/daizi
+  rotate: false
+  xy: 603, 70
+  size: 34, 150
+  orig: 34, 150
+  offset: 0, 0
+  index: -1
+monster_10062/lian
+  rotate: true
+  xy: 281, 4
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+monster_10062/liuhai
+  rotate: true
+  xy: 160, 0
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+monster_10062/liuhai(2)
+  rotate: false
+  xy: 324, 1
+  size: 54, 60
+  orig: 54, 60
+  offset: 0, 0
+  index: -1
+monster_10062/shadow
+  rotate: false
+  xy: 0, 0
+  size: 160, 47
+  orig: 172, 53
+  offset: 6, 3
+  index: -1
+monster_10062/shenti
+  rotate: false
+  xy: 496, 6
+  size: 73, 55
+  orig: 73, 55
+  offset: 0, 0
+  index: -1
+monster_10062/shenti(2)
+  rotate: true
+  xy: 704, 97
+  size: 123, 104
+  orig: 123, 104
+  offset: 0, 0
+  index: -1
+monster_10062/tou
+  rotate: true
+  xy: 842, 40
+  size: 63, 80
+  orig: 63, 80
+  offset: 0, 0
+  index: -1
+monster_10062/wuqi
+  rotate: true
+  xy: 316, 61
+  size: 159, 287
+  orig: 159, 287
+  offset: 0, 0
+  index: -1
+monster_10062/wuqi_2
+  rotate: true
+  xy: 316, 61
+  size: 159, 287
+  orig: 159, 287
+  offset: 0, 0
+  index: -1
+monster_10062/wuqi(2)
+  rotate: false
+  xy: 109, 52
+  size: 116, 168
+  orig: 116, 168
+  offset: 0, 0
+  index: -1
+monster_10062/youbi
+  rotate: false
+  xy: 637, 4
+  size: 88, 90
+  orig: 88, 90
+  offset: 0, 0
+  index: -1
+monster_10062/youbi(2)
+  rotate: false
+  xy: 192, 4
+  size: 89, 48
+  orig: 89, 48
+  offset: 0, 0
+  index: -1
+monster_10062/youjio
+  rotate: false
+  xy: 441, 4
+  size: 55, 57
+  orig: 55, 57
+  offset: 0, 0
+  index: -1
+monster_10062/youshou
+  rotate: false
+  xy: 842, 7
+  size: 62, 33
+  orig: 62, 33
+  offset: 0, 0
+  index: -1
+monster_10062/youtui
+  rotate: true
+  xy: 808, 103
+  size: 72, 107
+  orig: 72, 107
+  offset: 0, 0
+  index: -1
+monster_10062/youtui(2)
+  rotate: false
+  xy: 225, 52
+  size: 91, 168
+  orig: 91, 168
+  offset: 0, 0
+  index: -1
+monster_10062/zuobi
+  rotate: false
+  xy: 725, 9
+  size: 44, 88
+  orig: 44, 88
+  offset: 0, 0
+  index: -1
+monster_10062/zuobi(2)
+  rotate: false
+  xy: 842, 185
+  size: 81, 35
+  orig: 81, 35
+  offset: 0, 0
+  index: -1
+monster_10062/zuojio
+  rotate: false
+  xy: 378, 4
+  size: 63, 57
+  orig: 63, 57
+  offset: 0, 0
+  index: -1
+monster_10062/zuoshou
+  rotate: true
+  xy: 808, 175
+  size: 45, 34
+  orig: 45, 34
+  offset: 0, 0
+  index: -1
+monster_10062/zuotui
+  rotate: false
+  xy: 637, 94
+  size: 67, 126
+  orig: 67, 126
+  offset: 0, 0
+  index: -1
+monster_10062/zuotui(2)
+  rotate: true
+  xy: 0, 47
+  size: 173, 109
+  orig: 173, 109
+  offset: 0, 0
+  index: -1

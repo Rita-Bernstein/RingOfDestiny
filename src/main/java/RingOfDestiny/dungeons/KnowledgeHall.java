@@ -1,7 +1,7 @@
 package RingOfDestiny.dungeons;
 
 import RingOfDestiny.RingOfDestiny;
-import RingOfDestiny.monster.KnowledgeHall.BraveWarrior;
+import RingOfDestiny.monster.KnowledgeHall.*;
 import RingOfDestiny.scenes.KnowledgeHallScene;
 import actlikeit.dungeons.CustomDungeon;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -120,6 +120,7 @@ public class KnowledgeHall extends CustomDungeon {
         monsters.add(new MonsterInfo("Shell Parasite", 2.0F));
         monsters.add(new MonsterInfo("3 Byrds", 2.0F));
         monsters.add(new MonsterInfo("2 Thieves", 2.0F));
+        monsters.add(new MonsterInfo(Orator.ID, 2.0F));
         MonsterInfo.normalizeWeights(monsters);
         populateMonsterList(monsters, count, false);
     }
@@ -143,9 +144,9 @@ public class KnowledgeHall extends CustomDungeon {
     @Override
     protected void generateElites(int count) {
         ArrayList<MonsterInfo> monsters = new ArrayList<MonsterInfo>();
-        monsters.add(new MonsterInfo("Gremlin Leader", 1.0F));
+        monsters.add(new MonsterInfo(Sledgehammer.ID, 1.0F));
         monsters.add(new MonsterInfo("Slavers", 1.0F));
-        monsters.add(new MonsterInfo("Book of Stabbing", 1.0F));
+        monsters.add(new MonsterInfo(DanceOfSakura.ID, 1.0F));
         MonsterInfo.normalizeWeights(monsters);
         populateMonsterList(monsters, count, true);
     }

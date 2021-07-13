@@ -289,8 +289,18 @@ public class RingOfDestiny
         BaseMod.addMonster(ThePien.ID, () -> new ThePien());
 
 
+// 二层小怪
+        BaseMod.addMonster(Orator.ID, () -> new Orator());
+
+
+// 二层精英
+        BaseMod.addMonster(Sledgehammer.ID, () -> new Sledgehammer());
+        BaseMod.addMonster(DanceOfSakura.ID, () -> new DanceOfSakura());
+
+
 // 二层Boss
         BaseMod.addMonster(BraveWarrior.ID, () -> new BraveWarrior());
+
 
 //终局
         BaseMod.addMonster(Rita.ID, () -> new Rita());

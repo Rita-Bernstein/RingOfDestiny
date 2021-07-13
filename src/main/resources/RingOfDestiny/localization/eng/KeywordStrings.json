@@ -37,7 +37,8 @@
   {
     "PROPER_NAME": "Diamond",
     "NAMES": [
-      "diamond"
+      "diamond",
+      "diamonds"
     ],
     "DESCRIPTION": "Can have up to #b10 . #yDiamond will deal #b6 damage to the enemy with the lowest HP for each #ydiamond over #b10."
   },

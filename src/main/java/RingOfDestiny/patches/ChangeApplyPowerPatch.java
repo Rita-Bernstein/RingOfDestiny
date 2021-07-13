@@ -76,9 +76,9 @@ public class ChangeApplyPowerPatch {
 
             //            邪能：免疫易伤虚弱并获得力量
             if (target.hasPower(FulPower.POWER_ID) && (powerToApply.ID.equals(VulnerablePower.POWER_ID) || powerToApply.ID.equals(WeakPower.POWER_ID))) {
+                AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(target, target, new StrengthPower(target, target.getPower(FulPower.POWER_ID).amount), target.getPower(FulPower.POWER_ID).amount));
                 AbstractDungeon.actionManager.addToTop(new TextAboveCreatureAction(target, CardCrawlGame.languagePack.getUIString("ApplyPowerAction").TEXT[1]));
                 duration[0] -= Gdx.graphics.getDeltaTime();
-                AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(target, target, new StrengthPower(target, target.getPower(FulPower.POWER_ID).amount), target.getPower(FulPower.POWER_ID).amount));
             }
             //            邪能：免疫易伤虚弱并获得力量
 

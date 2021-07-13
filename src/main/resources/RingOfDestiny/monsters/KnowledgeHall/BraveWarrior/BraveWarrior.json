@@ -1,11 +1,11 @@
 {
 "skeleton": {
-	"hash": "KSgfZXaVUiI9gs8FmMXb8oCPABg",
+	"hash": "KlyBOWdHvaBbzWgKROqOj0zRa00",
 	"spine": "3.8.75",
 	"x": -171.84,
-	"y": 56.8,
+	"y": -27.76,
 	"width": 358.08,
-	"height": 124.95,
+	"height": 209.51,
 	"fps": 12,
 	"images": "",
 	"audio": "F:/STS/ring/proj/monster/workplace/BraveWarrior"
@@ -21,7 +21,8 @@
 	{ "name": "monster_10003/monster_10003", "bone": "jian", "attachment": "monster_10003/monster_10003" },
 	{ "name": "yanqiu", "bone": "yanqiu", "attachment": "yanqiu" },
 	{ "name": "yanzu", "bone": "yanzu", "attachment": "yanzu" },
-	{ "name": "yp_1", "bone": "yp_1", "attachment": "yp_1" }
+	{ "name": "yp_1", "bone": "yp_1", "attachment": "yp_1" },
+	{ "name": "monster_10003/shadow", "bone": "root", "attachment": "monster_10003/shadow" }
 ],
 "animations": {
 	"Idle1": {
@@ -102,6 +103,9 @@
 		},
 		"monster_10003/monster_10003": {
 			"monster_10003/monster_10003": { "x": 98.41, "y": 0.04, "scaleX": 0.55, "scaleY": 0.55, "rotation": -166.12, "width": 651, "height": 227 }
+		},
+		"monster_10003/shadow": {
+			"monster_10003/shadow": { "x": 1.45, "y": -1.26, "scaleX": 1.9835, "width": 172, "height": 53 }
 		},
 		"yanzu": {
 			"yanzu": { "path": "monster_10003/yanzu", "x": -0.38, "y": 0.57, "width": 7, "height": 15 }

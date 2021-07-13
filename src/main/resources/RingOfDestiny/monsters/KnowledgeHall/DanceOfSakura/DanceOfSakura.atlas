@@ -1,0 +1,139 @@
+
+DanceOfSakura.png
+size: 1985,967
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10077/daizi
+  rotate: true
+  xy: 1250, 6
+  size: 115, 312
+  orig: 115, 312
+  offset: 0, 0
+  index: -1
+monster_10077/hb
+  rotate: false
+  xy: 0, 100
+  size: 693, 867
+  orig: 693, 867
+  offset: 0, 0
+  index: -1
+monster_10077/lian
+  rotate: true
+  xy: 1927, 884
+  size: 83, 58
+  orig: 83, 59
+  offset: 0, 1
+  index: -1
+monster_10077/liuhai
+  rotate: false
+  xy: 1714, 61
+  size: 47, 74
+  orig: 47, 74
+  offset: 0, 0
+  index: -1
+monster_10077/shangshen
+  rotate: false
+  xy: 1767, 69
+  size: 165, 193
+  orig: 165, 193
+  offset: 0, 0
+  index: -1
+monster_10077/tou
+  rotate: true
+  xy: 1562, 20
+  size: 115, 152
+  orig: 115, 152
+  offset: 0, 0
+  index: -1
+monster_10077/toufa
+  rotate: true
+  xy: 277, 9
+  size: 91, 270
+  orig: 91, 270
+  offset: 0, 0
+  index: -1
+monster_10077/toufa_2
+  rotate: true
+  xy: 0, 5
+  size: 95, 277
+  orig: 95, 277
+  offset: 0, 0
+  index: -1
+monster_10077/toufahou
+  rotate: false
+  xy: 1247, 299
+  size: 346, 668
+  orig: 756, 668
+  offset: 410, 0
+  index: -1
+monster_10077/toushi
+  rotate: true
+  xy: 1761, 0
+  size: 69, 96
+  orig: 69, 96
+  offset: 0, 0
+  index: -1
+monster_10077/wq_1
+  rotate: false
+  xy: 547, 7
+  size: 141, 93
+  orig: 141, 93
+  offset: 0, 0
+  index: -1
+monster_10077/wq_2
+  rotate: true
+  xy: 1555, 135
+  size: 127, 212
+  orig: 127, 212
+  offset: 0, 0
+  index: -1
+monster_10077/xiashen
+  rotate: false
+  xy: 693, 217
+  size: 554, 750
+  orig: 554, 750
+  offset: 0, 0
+  index: -1
+monster_10077/youbi
+  rotate: true
+  xy: 693, 12
+  size: 205, 557
+  orig: 205, 557
+  offset: 0, 0
+  index: -1
+monster_10077/youbi_2
+  rotate: true
+  xy: 1250, 121
+  size: 178, 305
+  orig: 178, 305
+  offset: 0, 0
+  index: -1
+monster_10077/youshou
+  rotate: true
+  xy: 1927, 760
+  size: 60, 41
+  orig: 60, 41
+  offset: 0, 0
+  index: -1
+monster_10077/zuobi
+  rotate: false
+  xy: 1593, 401
+  size: 334, 566
+  orig: 334, 566
+  offset: 0, 0
+  index: -1
+monster_10077/zuobi_2
+  rotate: true
+  xy: 1593, 262
+  size: 139, 330
+  orig: 139, 330
+  offset: 0, 0
+  index: -1
+monster_10077/zuoshou
+  rotate: true
+  xy: 1927, 820
+  size: 64, 50
+  orig: 65, 50
+  offset: 1, 0
+  index: -1
