@@ -1,0 +1,62 @@
+
+MagicHarp.png
+size: 377,216
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10083/q
+  rotate: true
+  xy: 0, 4
+  size: 212, 326
+  orig: 213, 328
+  offset: 0, 2
+  index: -1
+monster_10083/shadow
+  rotate: true
+  xy: 326, 56
+  size: 160, 47
+  orig: 172, 53
+  offset: 6, 3
+  index: -1
+monster_10083/x_1
+  rotate: false
+  xy: 373, 78
+  size: 4, 138
+  orig: 4, 139
+  offset: 0, 1
+  index: -1
+monster_10083/x_2
+  rotate: true
+  xy: 0, 0
+  size: 4, 104
+  orig: 4, 104
+  offset: 0, 0
+  index: -1
+monster_10083/x_3
+  rotate: true
+  xy: 104, 0
+  size: 4, 82
+  orig: 4, 82
+  offset: 0, 0
+  index: -1
+monster_10083/x_4
+  rotate: true
+  xy: 244, 1
+  size: 3, 71
+  orig: 3, 71
+  offset: 0, 0
+  index: -1
+monster_10083/x_5
+  rotate: false
+  xy: 373, 14
+  size: 4, 64
+  orig: 4, 64
+  offset: 0, 0
+  index: -1
+monster_10083/x_6
+  rotate: true
+  xy: 186, 0
+  size: 4, 58
+  orig: 4, 58
+  offset: 0, 0
+  index: -1

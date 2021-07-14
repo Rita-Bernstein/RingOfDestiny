@@ -1,0 +1,83 @@
+
+UmbrellaSpirit.png
+size: 1296,364
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10016/bianzi
+  rotate: false
+  xy: 1238, 250
+  size: 52, 114
+  orig: 52, 114
+  offset: 0, 0
+  index: -1
+monster_10016/hong
+  rotate: true
+  xy: 466, 7
+  size: 357, 186
+  orig: 357, 186
+  offset: 0, 0
+  index: -1
+monster_10016/lt
+  rotate: true
+  xy: 0, 7
+  size: 357, 466
+  orig: 357, 545
+  offset: 0, 0
+  index: -1
+monster_10016/san
+  rotate: false
+  xy: 981, 105
+  size: 257, 259
+  orig: 257, 259
+  offset: 0, 0
+  index: -1
+monster_10016/shangshen
+  rotate: true
+  xy: 1129, 7
+  size: 98, 167
+  orig: 98, 167
+  offset: 0, 0
+  index: -1
+monster_10016/touyi
+  rotate: false
+  xy: 652, 9
+  size: 80, 24
+  orig: 86, 27
+  offset: 3, 2
+  index: -1
+monster_10016/xiashen_
+  rotate: true
+  xy: 900, 0
+  size: 98, 229
+  orig: 263, 426
+  offset: 0, 3
+  index: -1
+monster_10016/yao
+  rotate: true
+  xy: 809, 1
+  size: 74, 91
+  orig: 74, 91
+  offset: 0, 0
+  index: -1
+monster_10016/yibai
+  rotate: true
+  xy: 652, 33
+  size: 331, 157
+  orig: 331, 157
+  offset: 0, 0
+  index: -1
+monster_10016/youbi
+  rotate: false
+  xy: 890, 98
+  size: 91, 266
+  orig: 91, 266
+  offset: 0, 0
+  index: -1
+monster_10016/zuobi
+  rotate: false
+  xy: 809, 75
+  size: 81, 289
+  orig: 81, 289
+  offset: 0, 0
+  index: -1

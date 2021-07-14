@@ -1,0 +1,55 @@
+
+Gargoyle_Stone.png
+size: 481,180
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10082_stone/shadow
+  rotate: true
+  xy: 368, 20
+  size: 160, 47
+  orig: 172, 53
+  offset: 6, 3
+  index: -1
+monster_10082_stone/st
+  rotate: false
+  xy: 415, 87
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+monster_10082_stone/st2
+  rotate: true
+  xy: 354, 75
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+monster_10082_stone/sx
+  rotate: true
+  xy: 0, 0
+  size: 180, 203
+  orig: 180, 203
+  offset: 0, 0
+  index: -1
+monster_10082_stone/sz
+  rotate: false
+  xy: 203, 87
+  size: 165, 93
+  orig: 165, 93
+  offset: 0, 0
+  index: -1
+monster_10082_stone/tl_1
+  rotate: true
+  xy: 203, 8
+  size: 79, 151
+  orig: 79, 151
+  offset: 0, 0
+  index: -1
+monster_10082_stone/tl_2
+  rotate: false
+  xy: 415, 105
+  size: 66, 75
+  orig: 66, 75
+  offset: 0, 0
+  index: -1
