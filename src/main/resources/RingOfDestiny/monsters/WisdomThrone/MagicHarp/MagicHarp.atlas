@@ -1,62 +1,62 @@
 
 MagicHarp.png
-size: 377,216
+size: 709,424
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10083/q
   rotate: true
-  xy: 0, 4
-  size: 212, 326
-  orig: 213, 328
-  offset: 0, 2
+  xy: 0, 0
+  size: 424, 652
+  orig: 425, 656
+  offset: 0, 4
   index: -1
-monster_10083/shadow
+monster_10083/touyi
   rotate: true
-  xy: 326, 56
-  size: 160, 47
+  xy: 659, 258
+  size: 166, 50
   orig: 172, 53
-  offset: 6, 3
+  offset: 3, 1
   index: -1
 monster_10083/x_1
   rotate: false
-  xy: 373, 78
-  size: 4, 138
-  orig: 4, 139
-  offset: 0, 1
+  xy: 652, 149
+  size: 7, 275
+  orig: 7, 277
+  offset: 0, 2
   index: -1
 monster_10083/x_2
-  rotate: true
-  xy: 0, 0
-  size: 4, 104
-  orig: 4, 104
+  rotate: false
+  xy: 665, 51
+  size: 7, 207
+  orig: 7, 207
   offset: 0, 0
   index: -1
 monster_10083/x_3
-  rotate: true
-  xy: 104, 0
-  size: 4, 82
-  orig: 4, 82
+  rotate: false
+  xy: 672, 94
+  size: 7, 164
+  orig: 7, 164
   offset: 0, 0
   index: -1
 monster_10083/x_4
-  rotate: true
-  xy: 244, 1
-  size: 3, 71
-  orig: 3, 71
+  rotate: false
+  xy: 652, 8
+  size: 6, 141
+  orig: 6, 141
   offset: 0, 0
   index: -1
 monster_10083/x_5
   rotate: false
-  xy: 373, 14
-  size: 4, 64
-  orig: 4, 64
+  xy: 658, 21
+  size: 7, 128
+  orig: 7, 128
   offset: 0, 0
   index: -1
 monster_10083/x_6
-  rotate: true
-  xy: 186, 0
-  size: 4, 58
-  orig: 4, 58
+  rotate: false
+  xy: 679, 143
+  size: 7, 115
+  orig: 7, 115
   offset: 0, 0
   index: -1

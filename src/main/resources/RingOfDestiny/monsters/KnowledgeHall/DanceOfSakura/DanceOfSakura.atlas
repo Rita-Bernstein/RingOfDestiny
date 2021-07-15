@@ -20,7 +20,7 @@ monster_10077/hb
   index: -1
 monster_10077/lian
   rotate: true
-  xy: 1927, 884
+  xy: 1927, 718
   size: 83, 58
   orig: 83, 59
   offset: 0, 1
@@ -74,6 +74,13 @@ monster_10077/toushi
   orig: 69, 96
   offset: 0, 0
   index: -1
+monster_10077/touyi
+  rotate: true
+  xy: 1927, 801
+  size: 166, 50
+  orig: 172, 53
+  offset: 3, 1
+  index: -1
 monster_10077/wq_1
   rotate: false
   xy: 547, 7
@@ -111,7 +118,7 @@ monster_10077/youbi_2
   index: -1
 monster_10077/youshou
   rotate: true
-  xy: 1927, 760
+  xy: 1927, 594
   size: 60, 41
   orig: 60, 41
   offset: 0, 0
@@ -132,7 +139,7 @@ monster_10077/zuobi_2
   index: -1
 monster_10077/zuoshou
   rotate: true
-  xy: 1927, 820
+  xy: 1927, 654
   size: 64, 50
   orig: 65, 50
   offset: 1, 0

@@ -1,27 +1,27 @@
 
 MagicViolin.png
-size: 336,483
+size: 932,669
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10084/gong
   rotate: true
-  xy: 0, 177
-  size: 306, 289
-  orig: 306, 289
+  xy: 0, 57
+  size: 612, 578
+  orig: 612, 578
   offset: 0, 0
   index: -1
 monster_10084/qing
-  rotate: false
-  xy: 0, 0
-  size: 335, 177
-  orig: 335, 177
+  rotate: true
+  xy: 578, 0
+  size: 669, 354
+  orig: 669, 354
   offset: 0, 0
   index: -1
-monster_10084/shadow
-  rotate: true
-  xy: 289, 323
-  size: 160, 47
+monster_10084/touyi
+  rotate: false
+  xy: 0, 7
+  size: 166, 50
   orig: 172, 53
-  offset: 6, 3
+  offset: 3, 1
   index: -1

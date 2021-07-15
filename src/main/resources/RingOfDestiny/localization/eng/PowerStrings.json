@@ -744,5 +744,11 @@
     "DESCRIPTIONS": [
       "Whenever you play #b%d more Attack(s),she gain #b1 #yIntangible ."
     ]
+  },
+  "RingOfDestiny:AcetabulumPower": {
+    "NAME": "Acetabulum",
+    "DESCRIPTIONS": [
+      "At the start of your turn,discard a random card."
+    ]
   }
 }

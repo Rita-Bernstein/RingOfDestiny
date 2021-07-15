@@ -1,195 +1,195 @@
 
 EvilEye.png
-size: 591,591
+size: 1296,1047
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10064/bianzihou
   rotate: true
-  xy: 0, 44
-  size: 113, 289
-  orig: 113, 289
+  xy: 349, 139
+  size: 226, 577
+  orig: 226, 577
   offset: 0, 0
   index: -1
 monster_10064/bozi
   rotate: true
-  xy: 556, 0
-  size: 22, 28
-  orig: 22, 28
+  xy: 520, 9
+  size: 44, 55
+  orig: 44, 55
   offset: 0, 0
   index: -1
 monster_10064/jia
   rotate: false
-  xy: 327, 26
-  size: 98, 87
-  orig: 98, 87
+  xy: 926, 191
+  size: 195, 174
+  orig: 195, 174
   offset: 0, 0
   index: -1
 monster_10064/lian
-  rotate: false
-  xy: 320, 3
-  size: 33, 23
-  orig: 34, 23
+  rotate: true
+  xy: 1162, 624
+  size: 67, 46
+  orig: 67, 46
   offset: 0, 0
   index: -1
 monster_10064/maozi
-  rotate: true
-  xy: 495, 0
-  size: 36, 27
-  orig: 36, 27
+  rotate: false
+  xy: 1223, 365
+  size: 72, 54
+  orig: 72, 54
   offset: 0, 0
   index: -1
 monster_10064/pifhou
   rotate: false
-  xy: 0, 281
-  size: 272, 310
-  orig: 272, 310
+  xy: 0, 428
+  size: 543, 619
+  orig: 543, 619
   offset: 0, 0
   index: -1
 monster_10064/pifqian
   rotate: false
-  xy: 287, 0
-  size: 33, 26
-  orig: 33, 26
+  xy: 820, 0
+  size: 65, 52
+  orig: 65, 52
   offset: 0, 0
   index: -1
 monster_10064/pifqian(2)
   rotate: true
-  xy: 0, 157
-  size: 124, 340
-  orig: 124, 340
+  xy: 543, 365
+  size: 247, 680
+  orig: 247, 680
   offset: 0, 0
   index: -1
-monster_10064/shadow
-  rotate: false
-  xy: 340, 113
-  size: 160, 47
-  orig: 172, 53
-  offset: 6, 3
-  index: -1
 monster_10064/shenti
-  rotate: true
-  xy: 425, 36
-  size: 77, 72
-  orig: 77, 72
+  rotate: false
+  xy: 926, 48
+  size: 153, 143
+  orig: 153, 143
   offset: 0, 0
   index: -1
 monster_10064/shenti(2)(2)
   rotate: false
-  xy: 515, 284
-  size: 76, 89
-  orig: 76, 89
+  xy: 1121, 187
+  size: 151, 178
+  orig: 151, 178
   offset: 0, 0
   index: -1
 monster_10064/tou
   rotate: false
-  xy: 527, 74
-  size: 50, 57
-  orig: 50, 58
+  xy: 1079, 73
+  size: 99, 114
+  orig: 99, 115
   offset: 0, 1
   index: -1
 monster_10064/toufa
   rotate: false
-  xy: 272, 311
-  size: 56, 62
-  orig: 56, 62
+  xy: 1162, 691
+  size: 111, 124
+  orig: 111, 124
   offset: 0, 0
+  index: -1
+monster_10064/touyi
+  rotate: false
+  xy: 349, 378
+  size: 166, 50
+  orig: 172, 53
+  offset: 3, 1
   index: -1
 monster_10064/wq_1
   rotate: false
-  xy: 272, 373
-  size: 310, 218
-  orig: 310, 218
+  xy: 543, 612
+  size: 619, 435
+  orig: 619, 435
   offset: 0, 0
   index: -1
 monster_10064/wq_2
   rotate: false
-  xy: 340, 160
-  size: 175, 213
-  orig: 175, 213
+  xy: 0, 2
+  size: 349, 426
+  orig: 349, 426
   offset: 0, 0
   index: -1
 monster_10064/youbi
-  rotate: true
-  xy: 515, 131
-  size: 37, 66
-  orig: 37, 66
+  rotate: false
+  xy: 1223, 559
+  size: 73, 132
+  orig: 73, 132
   offset: 0, 0
   index: -1
 monster_10064/youbi(2)
   rotate: false
-  xy: 527, 22
-  size: 50, 52
-  orig: 50, 52
+  xy: 1178, 83
+  size: 100, 104
+  orig: 100, 104
   offset: 0, 0
   index: -1
 monster_10064/youjio
   rotate: true
-  xy: 242, 0
-  size: 44, 45
-  orig: 44, 45
+  xy: 833, 52
+  size: 87, 90
+  orig: 87, 90
   offset: 0, 0
   index: -1
 monster_10064/youshou
-  rotate: true
-  xy: 353, 1
-  size: 25, 27
-  orig: 25, 27
+  rotate: false
+  xy: 1219, 29
+  size: 49, 54
+  orig: 49, 54
   offset: 0, 0
   index: -1
 monster_10064/youtui
   rotate: true
-  xy: 119, 12
-  size: 32, 123
-  orig: 32, 123
+  xy: 587, 76
+  size: 63, 246
+  orig: 63, 246
   offset: 0, 0
   index: -1
 monster_10064/youtui(2)
-  rotate: false
-  xy: 289, 40
-  size: 38, 117
-  orig: 38, 117
+  rotate: true
+  xy: 587, 1
+  size: 75, 233
+  orig: 75, 233
   offset: 0, 0
   index: -1
 monster_10064/zuobi
-  rotate: true
-  xy: 425, 1
-  size: 35, 70
-  orig: 35, 70
+  rotate: false
+  xy: 1223, 419
+  size: 70, 140
+  orig: 70, 140
   offset: 0, 0
   index: -1
 monster_10064/zuobi(2)
-  rotate: false
-  xy: 497, 43
-  size: 30, 70
-  orig: 30, 70
+  rotate: true
+  xy: 1079, 13
+  size: 60, 140
+  orig: 60, 140
   offset: 0, 0
   index: -1
 monster_10064/zuojio
   rotate: true
-  xy: 272, 286
-  size: 25, 52
-  orig: 25, 52
+  xy: 349, 4
+  size: 49, 103
+  orig: 49, 103
   offset: 0, 0
   index: -1
 monster_10064/zuoshou
   rotate: true
-  xy: 522, 0
-  size: 22, 34
-  orig: 22, 34
+  xy: 452, 10
+  size: 43, 68
+  orig: 43, 68
   offset: 0, 0
   index: -1
 monster_10064/zuotui
   rotate: true
-  xy: 0, 1
-  size: 43, 119
-  orig: 43, 119
+  xy: 349, 53
+  size: 86, 238
+  orig: 86, 238
   offset: 0, 0
   index: -1
 monster_10064/zuotui(2)
   rotate: false
-  xy: 515, 168
-  size: 58, 116
-  orig: 58, 116
+  xy: 1162, 815
+  size: 115, 232
+  orig: 115, 232
   offset: 0, 0
   index: -1

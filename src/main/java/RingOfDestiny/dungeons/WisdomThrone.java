@@ -142,7 +142,7 @@ public class WisdomThrone extends CustomDungeon {
         ArrayList<MonsterInfo> monsters = new ArrayList<MonsterInfo>();
         monsters.add(new MonsterInfo(ShadowDance.ID, 2.0F));
         monsters.add(new MonsterInfo(UmbrellaSpirit.ID, 2.0F));
-        monsters.add(new MonsterInfo("Reptomancer", 2.0F));
+        monsters.add(new MonsterInfo(Tentacle.ID, 2.0F));
         MonsterInfo.normalizeWeights(monsters);
         populateMonsterList(monsters, count, true);
     }

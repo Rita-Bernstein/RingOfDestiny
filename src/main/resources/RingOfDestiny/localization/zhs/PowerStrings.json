@@ -737,5 +737,11 @@
     "DESCRIPTIONS": [
       "你再打出 #b%d 张攻击牌， #y伞灵 立刻获得 #b1 层 #y无实体 。"
     ]
+  },
+  "RingOfDestiny:AcetabulumPower": {
+    "NAME": "吸盘",
+    "DESCRIPTIONS": [
+      "你的回合开始时，随机丢弃一张牌。"
+    ]
   }
 }

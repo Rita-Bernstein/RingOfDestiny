@@ -78,7 +78,7 @@ public class Gargoyle extends CustomMonster {
         this.dialogY = 50.0F * Settings.scale;
 
 
-        loadAnimation("RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle.atlas", "RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle.json", 1.3F);
+        loadAnimation("RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle.atlas", "RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle.json", 2.6F);
 
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
@@ -171,7 +171,7 @@ public class Gargoyle extends CustomMonster {
                 break;
 
             case "Stone":
-                loadAnimation("RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle_Stone.atlas", "RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle_Stone.json", 1.3F);
+                loadAnimation("RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle_Stone.atlas", "RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle_Stone.json", 2.6F);
                 e = this.state.setAnimation(0, "Idle", true);
                 e.setTime(e.getEndTime() * MathUtils.random());
 
@@ -179,7 +179,7 @@ public class Gargoyle extends CustomMonster {
                 break;
 
             case "Back":
-                loadAnimation("RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle.atlas", "RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle.json", 1.3F);
+                loadAnimation("RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle.atlas", "RingOfDestiny/monsters/WisdomThrone/Gargoyle/Gargoyle.json", 2.6F);
                 e = this.state.setAnimation(0, "Idle", true);
                 e.setTime(e.getEndTime() * MathUtils.random());
                 updateHitbox(0.0F, -15.0F, 320.0F, 380.0F);

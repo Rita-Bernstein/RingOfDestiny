@@ -80,7 +80,7 @@ public class ShadowDance extends CustomMonster {
         this.dialogY = 50.0F * Settings.scale;
 
 
-        loadAnimation("RingOfDestiny/monsters/WisdomThrone/ShadowDance/ShadowDance.atlas", "RingOfDestiny/monsters/WisdomThrone/ShadowDance/ShadowDance.json", 1.3F);
+        loadAnimation("RingOfDestiny/monsters/WisdomThrone/ShadowDance/ShadowDance.atlas", "RingOfDestiny/monsters/WisdomThrone/ShadowDance/ShadowDance.json", 2.6F);
 
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);

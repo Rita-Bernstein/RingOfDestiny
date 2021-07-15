@@ -311,6 +311,7 @@ public class RingOfDestiny
 // 三层精英
         BaseMod.addMonster(ShadowDance.ID, () -> new ShadowDance());
         BaseMod.addMonster(UmbrellaSpirit.ID, () -> new UmbrellaSpirit());
+        BaseMod.addMonster(Tentacle.ID, () -> new Tentacle());
 
 
 // 三层Boss

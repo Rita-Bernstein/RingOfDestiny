@@ -1,181 +1,181 @@
 
 Sledgehammer.png
-size: 923,220
+size: 1465,549
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10062/bianzi
   rotate: false
-  xy: 769, 15
-  size: 73, 82
-  orig: 73, 82
+  xy: 1320, 385
+  size: 145, 164
+  orig: 145, 164
   offset: 0, 0
   index: -1
 monster_10062/bozi
-  rotate: true
-  xy: 569, 7
-  size: 54, 68
-  orig: 54, 68
+  rotate: false
+  xy: 1225, 250
+  size: 107, 135
+  orig: 107, 135
   offset: 0, 0
   index: -1
 monster_10062/daizi
-  rotate: false
-  xy: 603, 70
-  size: 34, 150
-  orig: 34, 150
+  rotate: true
+  xy: 573, 250
+  size: 67, 300
+  orig: 67, 300
   offset: 0, 0
   index: -1
 monster_10062/lian
   rotate: true
-  xy: 281, 4
-  size: 48, 43
-  orig: 48, 43
+  xy: 1087, 321
+  size: 95, 85
+  orig: 95, 85
   offset: 0, 0
   index: -1
 monster_10062/liuhai
-  rotate: true
-  xy: 160, 0
-  size: 52, 32
-  orig: 52, 32
+  rotate: false
+  xy: 965, 8
+  size: 103, 63
+  orig: 103, 63
   offset: 0, 0
   index: -1
 monster_10062/liuhai(2)
   rotate: false
-  xy: 324, 1
-  size: 54, 60
-  orig: 54, 60
+  xy: 1225, 131
+  size: 107, 119
+  orig: 107, 119
   offset: 0, 0
   index: -1
-monster_10062/shadow
-  rotate: false
-  xy: 0, 0
-  size: 160, 47
-  orig: 172, 53
-  offset: 6, 3
-  index: -1
 monster_10062/shenti
-  rotate: false
-  xy: 496, 6
-  size: 73, 55
-  orig: 73, 55
+  rotate: true
+  xy: 1333, 239
+  size: 146, 110
+  orig: 146, 110
   offset: 0, 0
   index: -1
 monster_10062/shenti(2)
   rotate: true
-  xy: 704, 97
-  size: 123, 104
-  orig: 123, 104
+  xy: 873, 71
+  size: 246, 208
+  orig: 246, 208
   offset: 0, 0
   index: -1
 monster_10062/tou
   rotate: true
-  xy: 842, 40
-  size: 63, 80
-  orig: 63, 80
+  xy: 1161, 424
+  size: 125, 159
+  orig: 125, 159
   offset: 0, 0
+  index: -1
+monster_10062/touyi
+  rotate: false
+  xy: 345, 0
+  size: 166, 50
+  orig: 172, 53
+  offset: 3, 1
   index: -1
 monster_10062/wuqi
   rotate: true
-  xy: 316, 61
-  size: 159, 287
-  orig: 159, 287
+  xy: 0, 231
+  size: 318, 573
+  orig: 318, 573
   offset: 0, 0
   index: -1
 monster_10062/wuqi_2
   rotate: true
-  xy: 316, 61
-  size: 159, 287
-  orig: 159, 287
+  xy: 0, 231
+  size: 318, 573
+  orig: 318, 573
   offset: 0, 0
   index: -1
 monster_10062/wuqi(2)
-  rotate: false
-  xy: 109, 52
-  size: 116, 168
-  orig: 116, 168
+  rotate: true
+  xy: 573, 317
+  size: 232, 336
+  orig: 232, 336
   offset: 0, 0
   index: -1
 monster_10062/youbi
-  rotate: false
-  xy: 637, 4
-  size: 88, 90
-  orig: 88, 90
+  rotate: true
+  xy: 680, 75
+  size: 175, 179
+  orig: 175, 179
   offset: 0, 0
   index: -1
 monster_10062/youbi(2)
   rotate: false
-  xy: 192, 4
-  size: 89, 48
-  orig: 89, 48
+  xy: 909, 321
+  size: 178, 95
+  orig: 178, 95
   offset: 0, 0
   index: -1
 monster_10062/youjio
   rotate: false
-  xy: 441, 4
-  size: 55, 57
-  orig: 55, 57
+  xy: 1333, 0
+  size: 110, 114
+  orig: 110, 114
   offset: 0, 0
   index: -1
 monster_10062/youshou
   rotate: false
-  xy: 842, 7
-  size: 62, 33
-  orig: 62, 33
+  xy: 841, 6
+  size: 124, 65
+  orig: 124, 65
   offset: 0, 0
   index: -1
 monster_10062/youtui
-  rotate: true
-  xy: 808, 103
-  size: 72, 107
-  orig: 72, 107
+  rotate: false
+  xy: 1081, 108
+  size: 144, 213
+  orig: 144, 213
   offset: 0, 0
   index: -1
 monster_10062/youtui(2)
-  rotate: false
-  xy: 225, 52
-  size: 91, 168
-  orig: 91, 168
+  rotate: true
+  xy: 345, 50
+  size: 181, 335
+  orig: 181, 335
   offset: 0, 0
   index: -1
 monster_10062/zuobi
-  rotate: false
-  xy: 725, 9
-  size: 44, 88
-  orig: 44, 88
+  rotate: true
+  xy: 1157, 20
+  size: 88, 176
+  orig: 88, 176
   offset: 0, 0
   index: -1
 monster_10062/zuobi(2)
   rotate: false
-  xy: 842, 185
-  size: 81, 35
-  orig: 81, 35
+  xy: 680, 5
+  size: 161, 70
+  orig: 161, 70
   offset: 0, 0
   index: -1
 monster_10062/zuojio
-  rotate: false
-  xy: 378, 4
-  size: 63, 57
-  orig: 63, 57
+  rotate: true
+  xy: 1332, 114
+  size: 125, 113
+  orig: 125, 113
   offset: 0, 0
   index: -1
 monster_10062/zuoshou
-  rotate: true
-  xy: 808, 175
-  size: 45, 34
-  orig: 45, 34
+  rotate: false
+  xy: 1068, 4
+  size: 89, 67
+  orig: 89, 67
   offset: 0, 0
   index: -1
 monster_10062/zuotui
-  rotate: false
-  xy: 637, 94
-  size: 67, 126
-  orig: 67, 126
+  rotate: true
+  xy: 909, 416
+  size: 133, 252
+  orig: 133, 252
   offset: 0, 0
   index: -1
 monster_10062/zuotui(2)
-  rotate: true
-  xy: 0, 47
-  size: 173, 109
-  orig: 173, 109
+  rotate: false
+  xy: 0, 13
+  size: 345, 218
+  orig: 345, 218
   offset: 0, 0
   index: -1

@@ -64,7 +64,7 @@ public class Orator extends AbstractRingMonster {
 
 
     public Orator() {
-        super(NAME, ID, 88, 0.0F, -25.0F, 360.0F, 320.0F, null, 0.0F, -10.0F);
+        super(NAME, ID, 88, 0.0F, -25.0F, 360.0F, 360.0F, null, 0.0F, -10.0F);
 
         if (AbstractDungeon.ascensionLevel >= 9) {
             setHp(80);
@@ -84,7 +84,7 @@ public class Orator extends AbstractRingMonster {
         this.dialogX = -50.0F * Settings.scale;
         this.dialogY = 50.0F * Settings.scale;
 
-        loadAnimation("RingOfDestiny/monsters/KnowledgeHall/Orator/Orator.atlas", "RingOfDestiny/monsters/KnowledgeHall/Orator/Orator.json", 1.6f);
+        loadAnimation("RingOfDestiny/monsters/KnowledgeHall/Orator/Orator.atlas", "RingOfDestiny/monsters/KnowledgeHall/Orator/Orator.json", 3.0f);
 
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
