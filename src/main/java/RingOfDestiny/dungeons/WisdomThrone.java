@@ -1,6 +1,7 @@
 package RingOfDestiny.dungeons;
 
 import RingOfDestiny.RingOfDestiny;
+import RingOfDestiny.monster.WisdomThrone.*;
 import RingOfDestiny.scenes.WisdomThroneScene;
 import actlikeit.dungeons.CustomDungeon;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -115,6 +116,7 @@ public class WisdomThrone extends CustomDungeon {
         monsters.add(new MonsterInfo("3 Darklings", 2.0F));
         monsters.add(new MonsterInfo("Orb Walker", 2.0F));
         monsters.add(new MonsterInfo("3 Shapes", 2.0F));
+        monsters.add(new MonsterInfo(Gargoyle.ID, 2.0F));
         MonsterInfo.normalizeWeights(monsters);
         populateMonsterList(monsters, count, false);
     }
@@ -138,8 +140,8 @@ public class WisdomThrone extends CustomDungeon {
     @Override
     protected void generateElites(int count) {
         ArrayList<MonsterInfo> monsters = new ArrayList<MonsterInfo>();
-        monsters.add(new MonsterInfo("Giant Head", 2.0F));
-        monsters.add(new MonsterInfo("Nemesis", 2.0F));
+        monsters.add(new MonsterInfo(ShadowDance.ID, 2.0F));
+        monsters.add(new MonsterInfo(UmbrellaSpirit.ID, 2.0F));
         monsters.add(new MonsterInfo("Reptomancer", 2.0F));
         MonsterInfo.normalizeWeights(monsters);
         populateMonsterList(monsters, count, true);

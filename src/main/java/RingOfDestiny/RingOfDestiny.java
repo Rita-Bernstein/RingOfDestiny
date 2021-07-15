@@ -15,6 +15,7 @@ import RingOfDestiny.helpers.*;
 import RingOfDestiny.monster.BlackNoah.*;
 import RingOfDestiny.monster.IdeologyCorridor.*;
 import RingOfDestiny.monster.KnowledgeHall.*;
+import RingOfDestiny.monster.WisdomThrone.*;
 import actlikeit.dungeons.CustomDungeon;
 import basemod.BaseMod;
 
@@ -300,6 +301,19 @@ public class RingOfDestiny
 
 // 二层Boss
         BaseMod.addMonster(BraveWarrior.ID, () -> new BraveWarrior());
+
+
+// 三层小怪
+        BaseMod.addMonster(Gargoyle.ID, () -> new Gargoyle());
+
+
+
+// 三层精英
+        BaseMod.addMonster(ShadowDance.ID, () -> new ShadowDance());
+        BaseMod.addMonster(UmbrellaSpirit.ID, () -> new UmbrellaSpirit());
+
+
+// 三层Boss
 
 
 //终局

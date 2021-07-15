@@ -194,5 +194,59 @@
     "DIALOG": [
       ""
     ]
+  },
+  "RingOfDestiny:Gargoyle": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "石像鬼",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MagicHarp": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "魔法竖琴",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MagicViolin": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "魔法提琴",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Tentacle": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "欲望触手",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:UmbrellaSpirit": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "伞灵",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:ShadowDance": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "影之舞",
+    "DIALOG": [
+      ""
+    ]
   }
 }

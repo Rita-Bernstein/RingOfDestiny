@@ -695,5 +695,47 @@
     "DESCRIPTIONS": [
       "受到来自 #y流血 的伤害 #y翻倍，受到其他伤害 #r减半 。"
     ]
+  },
+  "RingOfDestiny:StoneSkinPower": {
+    "NAME": "石肌",
+    "DESCRIPTIONS": [
+      "免疫流血和易伤"
+    ]
+  },
+  "RingOfDestiny:Petrifaction": {
+    "NAME": "石化",
+    "DESCRIPTIONS": [
+      "死亡时，转化为只有 #b4 点生命值的石像。 NL 如果石像状态下没有死亡，下一回合 #y石像鬼 将满血复活"
+    ]
+  },
+  "RingOfDestiny:ThousandBladePower": {
+    "NAME": "千刃",
+    "DESCRIPTIONS": [
+      "从第二回合起，每两回合攻击次数+1"
+    ]
+  },
+  "RingOfDestiny:AgilePower": {
+    "NAME": "灵动",
+    "DESCRIPTIONS": [
+      "每回合首次受到的伤害为 #b1 。"
+    ]
+  },
+  "RingOfDestiny:CryingBloodPower": {
+    "NAME": "啼血",
+    "DESCRIPTIONS": [
+      "每当受到伤害时获得 #b1 层 #y啼血。 NL 在其回合开始时，清空 #y啼血 并给予你同等层数的 #y流血 。"
+    ]
+  },
+  "RingOfDestiny:AgainstWindPower": {
+    "NAME": "遮风",
+    "DESCRIPTIONS": [
+      "你每打出 #b1 张 #y非攻击牌 ,她回复 #b3 点生命。"
+    ]
+  },
+  "RingOfDestiny:KeepOffRainPower": {
+    "NAME": "挡雨",
+    "DESCRIPTIONS": [
+      "你再打出 #b%d 张攻击牌， #y伞灵 立刻获得 #b1 层 #y无实体 。"
+    ]
   }
 }

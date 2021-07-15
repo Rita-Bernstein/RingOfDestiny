@@ -180,7 +180,7 @@
     "MOVES": [
       ""
     ],
-    "NAME": "Dance Of Sakura",
+    "NAME": "Sakura Dance",
     "DIALOG": [
       ""
     ]
@@ -190,6 +190,61 @@
       ""
     ],
     "NAME": "Orator",
+    "DIALOG": [
+      ""
+    ]
+  },
+
+  "RingOfDestiny:Gargoyle": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Gargoyle",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MagicHarp": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Magic Harp",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MagicViolin": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Magic Violin",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Tentacle": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Tentacle",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:UmbrellaSpirit": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Umbrella Spirit",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:ShadowDance": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Shadow Dance",
     "DIALOG": [
       ""
     ]

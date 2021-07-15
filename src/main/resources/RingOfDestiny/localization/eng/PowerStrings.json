@@ -702,5 +702,47 @@
     "DESCRIPTIONS": [
       "Receive #yDouble damage from #yBleeding but #rHalf from others."
     ]
+  },
+  "RingOfDestiny:StoneSkinPower": {
+    "NAME": "Stone Skin",
+    "DESCRIPTIONS": [
+      "This creature is immune to #yBleeding and #yVulnerable ."
+    ]
+  },
+  "RingOfDestiny:Petrifaction": {
+    "NAME": "Petrifaction",
+    "DESCRIPTIONS": [
+      "Change to a statue with #b4 HP when HP below 0. NL Revive to full HP when didn't be kill in that turn."
+    ]
+  },
+  "RingOfDestiny:ThousandBladePower": {
+    "NAME": "Thousand Blade",
+    "DESCRIPTIONS": [
+      "After 2nd turn, #yShadow #yDance increase times of attacks in even turn."
+    ]
+  },
+  "RingOfDestiny:AgilePower": {
+    "NAME": "Agile",
+    "DESCRIPTIONS": [
+      "Reduce first damage she receive each turn to #b1 ."
+    ]
+  },
+  "RingOfDestiny:CryingBloodPower": {
+    "NAME": "Crying Blood",
+    "DESCRIPTIONS": [
+      "Gain #b1 #yCrying #yBlood when take damage. NL At the start of her turn,apply you #yBleeding equals to this stacks and lose this effect."
+    ]
+  },
+  "RingOfDestiny:AgainstWindPower": {
+    "NAME": "Against Wind",
+    "DESCRIPTIONS": [
+      "Whenever you play an #ynon-Attack , she heals #b%d HP."
+    ]
+  },
+  "RingOfDestiny:KeepOffRainPower": {
+    "NAME": "Keep Off Rain",
+    "DESCRIPTIONS": [
+      "Whenever you play #b%d more Attack(s),she gain #b1 #yIntangible ."
+    ]
   }
 }

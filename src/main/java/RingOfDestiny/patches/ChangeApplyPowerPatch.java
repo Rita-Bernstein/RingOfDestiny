@@ -2,6 +2,7 @@ package RingOfDestiny.patches;
 
 import RingOfDestiny.powers.*;
 import RingOfDestiny.powers.Monster.KnowledgeHall.FulPower;
+import RingOfDestiny.powers.Monster.WisdomThrone.StoneSkinPower;
 import com.badlogic.gdx.Gdx;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -81,7 +82,10 @@ public class ChangeApplyPowerPatch {
                 duration[0] -= Gdx.graphics.getDeltaTime();
             }
             //            邪能：免疫易伤虚弱并获得力量
-
+            if (target.hasPower(StoneSkinPower.POWER_ID) && (powerToApply.ID.equals(VulnerablePower.POWER_ID) || powerToApply.ID.equals(BleedingPower.POWER_ID))) {
+                AbstractDungeon.actionManager.addToTop(new TextAboveCreatureAction(target, CardCrawlGame.languagePack.getUIString("ApplyPowerAction").TEXT[1]));
+                duration[0] -= Gdx.graphics.getDeltaTime();
+            }
 
             return SpireReturn.Continue();
         }
