@@ -178,5 +178,10 @@
       "关闭氪金石教程",
       "关闭灵魂石教程"
     ]
+  },
+  "RingOfDestiny:RunHistoryMonsterNames": {
+    "TEXT": [
+      "魔法竖琴+魔法提琴"
+    ]
   }
 }

@@ -128,8 +128,10 @@ public class ShadowDance extends CustomMonster {
 
     public void die() {
         super.die();
-        AbstractDungeon.scene.fadeInAmbiance();
-        CardCrawlGame.music.fadeOutTempBGM();
+        if(AbstractDungeon.getMonsters().areMonstersBasicallyDead()){
+            AbstractDungeon.scene.fadeInAmbiance();
+            CardCrawlGame.music.fadeOutTempBGM();
+        }
     }
 
     public void damage(DamageInfo info) {

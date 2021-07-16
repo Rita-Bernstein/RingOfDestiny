@@ -161,10 +161,13 @@ public class SpiderQueen extends CustomMonster {
 
         super.die();
 
-        AbstractDungeon.scene.fadeInAmbiance();
-        CardCrawlGame.music.fadeOutTempBGM();
-        onBossVictoryLogic();
-
+        if(AbstractDungeon.getMonsters().areMonstersBasicallyDead()){
+            AbstractDungeon.scene.fadeInAmbiance();
+            CardCrawlGame.music.fadeOutTempBGM();
+            this.useFastShakeAnimation(5.0F);
+            CardCrawlGame.screenShake.rumble(4.0F);
+            onBossVictoryLogic();
+        }
 
         this.deathTimer += 1.5f;
         this.state.setAnimation(0, "Corpse", false);

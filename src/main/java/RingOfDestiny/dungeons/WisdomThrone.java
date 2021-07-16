@@ -132,6 +132,8 @@ public class WisdomThrone extends CustomDungeon {
         monsters.add(new MonsterInfo("Jaw Worm Horde", 1.0F));
         monsters.add(new MonsterInfo("3 Darklings", 1.0F));
         monsters.add(new MonsterInfo("Writhing Mass", 1.0F));
+
+        monsters.add(new MonsterInfo("RingOfDestiny:Harp and Violin", 1.0F));
         MonsterInfo.normalizeWeights(monsters);
         populateFirstStrongEnemy(monsters, generateExclusions());
         populateMonsterList(monsters, count, false);

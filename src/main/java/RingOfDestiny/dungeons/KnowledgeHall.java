@@ -120,6 +120,7 @@ public class KnowledgeHall extends CustomDungeon {
         monsters.add(new MonsterInfo("Shell Parasite", 2.0F));
         monsters.add(new MonsterInfo("3 Byrds", 2.0F));
         monsters.add(new MonsterInfo("2 Thieves", 2.0F));
+
         monsters.add(new MonsterInfo(Orator.ID, 2.0F));
         MonsterInfo.normalizeWeights(monsters);
         populateMonsterList(monsters, count, false);

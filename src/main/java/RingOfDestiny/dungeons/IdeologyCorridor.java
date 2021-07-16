@@ -123,6 +123,7 @@ public class IdeologyCorridor extends CustomDungeon {
         monsters.add(new MonsterInfo("Red Slaver", 1.0F));
         monsters.add(new MonsterInfo("3 Louse", 2.0F));
         monsters.add(new MonsterInfo("2 Fungi Beasts", 2.0F));
+
         monsters.add(new MonsterInfo(EvilEye.ID, 1.0F));
         MonsterInfo.normalizeWeights(monsters);
         populateFirstStrongEnemy(monsters, generateExclusions());

@@ -16,6 +16,7 @@ import RingOfDestiny.monster.BlackNoah.*;
 import RingOfDestiny.monster.IdeologyCorridor.*;
 import RingOfDestiny.monster.KnowledgeHall.*;
 import RingOfDestiny.monster.WisdomThrone.*;
+import RingOfDestiny.util.LocalizeHelper;
 import actlikeit.dungeons.CustomDungeon;
 import basemod.BaseMod;
 
@@ -37,6 +38,8 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.monsters.MonsterGroup;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -305,7 +308,11 @@ public class RingOfDestiny
 
 // 三层小怪
         BaseMod.addMonster(Gargoyle.ID, () -> new Gargoyle());
-
+        BaseMod.addMonster("RingOfDestiny:Harp and Violin", LocalizeHelper.RunHistoryMonsterNames.TEXT[0], () -> new MonsterGroup(
+                new AbstractMonster[]{
+                        new MagicViolin(-230.0f,-20.0f),
+                        new MagicHarp(120.0f,-20.0f)
+                }));
 
 
 // 三层精英

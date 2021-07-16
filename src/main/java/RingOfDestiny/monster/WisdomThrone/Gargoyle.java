@@ -129,8 +129,10 @@ public class Gargoyle extends CustomMonster {
     public void die() {
         if (!(AbstractDungeon.getCurrRoom()).cannotLose && isStone) {
             super.die();
-            AbstractDungeon.scene.fadeInAmbiance();
-            CardCrawlGame.music.fadeOutTempBGM();
+            if(AbstractDungeon.getMonsters().areMonstersBasicallyDead()){
+                AbstractDungeon.scene.fadeInAmbiance();
+                CardCrawlGame.music.fadeOutTempBGM();
+            }
         }
     }
 

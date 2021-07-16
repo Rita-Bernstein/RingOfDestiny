@@ -750,5 +750,29 @@
     "DESCRIPTIONS": [
       "At the start of your turn,discard a random card."
     ]
+  },
+  "RingOfDestiny:RhapsodyPower": {
+    "NAME": "Rhapsody",
+    "DESCRIPTIONS": [
+      "You discard all your hand when #yMagic #yHarp die."
+    ]
+  },
+  "RingOfDestiny:ConcertoPower": {
+    "NAME": "Concerto",
+    "DESCRIPTIONS": [
+      "Whenever you play a #ySkill ,all enemies gain #b1 #yPlated #yArmor."
+    ]
+  },
+  "RingOfDestiny:RequiemPower": {
+    "NAME": "Requiem",
+    "DESCRIPTIONS": [
+      "Exhaust all your discard pile when #yMagic #yViolin die."
+    ]
+  },
+  "RingOfDestiny:WaltzPower": {
+    "NAME": "Waltz",
+    "DESCRIPTIONS": [
+      "Whenever you play a #yAttack ,you gain #b1 #yVulnerable."
+    ]
   }
 }

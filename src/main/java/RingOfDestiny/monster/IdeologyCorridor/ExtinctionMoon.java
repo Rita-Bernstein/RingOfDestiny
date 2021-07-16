@@ -173,8 +173,10 @@ public class ExtinctionMoon extends CustomMonster {
 
     public void die() {
         super.die();
-        AbstractDungeon.scene.fadeInAmbiance();
-        CardCrawlGame.music.fadeOutTempBGM();
+        if(AbstractDungeon.getMonsters().areMonstersBasicallyDead()){
+            AbstractDungeon.scene.fadeInAmbiance();
+            CardCrawlGame.music.fadeOutTempBGM();
+        }
 
         this.deathTimer += 1.5f;
         this.state.setAnimation(0, "Corpse", false);
