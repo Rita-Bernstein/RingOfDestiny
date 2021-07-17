@@ -33,11 +33,9 @@ public class BladeOfShadowPower extends AbstractRingPower {
 
 
     @Override
-    public void onEnemyDeath(AbstractMonster m) {
-        if ((m.isDying || m.currentHealth <= 0) && !m.halfDead) {
+    public void onDeath() {
             flash();
             AbstractDungeon.player.increaseMaxHp(this.amount, true);
-        }
     }
 
     @Override

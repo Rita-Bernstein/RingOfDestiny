@@ -31,15 +31,15 @@ public class ValhallaOrb {
     public ValhallaOrb(int index) {
         this.index = index;
 
-        this.main = ImageMaster.loadImage("RingOfDestiny/monsters/IdeologyCorridor/ValhallaChronicles/orbs/orb_" + this.index + ".png");
-
-        for (int i = 0; i < 12; i++) {
-            vfxFg[i] = ImageMaster.loadImage(String.format("RingOfDestiny/img/vfx/monster_10002_skill_1_unpack/monster_10002_skill_1-%05d.png", i));
-            vfxBg[i] = ImageMaster.loadImage(String.format("RingOfDestiny/img/vfx/monster_10002_skill_2_unpack/monster_10002_skill_2-%05d.png", i));
-        }
-        for (int i = 0; i < 5; i++) {
-            evokeEffect[i] = ImageMaster.loadImage(String.format("RingOfDestiny/img/vfx/monster_10002_atk_unpack/monster_10002_atk-%05d.png", i));
-        }
+//        this.main = ImageMaster.loadImage("RingOfDestiny/monsters/IdeologyCorridor/ValhallaChronicles/orbs/orb_" + this.index + ".png");
+//
+//        for (int i = 0; i < 12; i++) {
+//            vfxFg[i] = ImageMaster.loadImage(String.format("RingOfDestiny/img/vfx/monster_10002_skill_1_unpack/monster_10002_skill_1-%05d.png", i));
+//            vfxBg[i] = ImageMaster.loadImage(String.format("RingOfDestiny/img/vfx/monster_10002_skill_2_unpack/monster_10002_skill_2-%05d.png", i));
+//        }
+//        for (int i = 0; i < 5; i++) {
+//            evokeEffect[i] = ImageMaster.loadImage(String.format("RingOfDestiny/img/vfx/monster_10002_atk_unpack/monster_10002_atk-%05d.png", i));
+//        }
     }
 
     public void evoke() {
@@ -77,63 +77,63 @@ public class ValhallaOrb {
     }
 
     public void render(SpriteBatch sb) {
-        int frame = (int) (this.timer % 12);
-
-
-        sb.setColor(Color.WHITE);
-        if (this.vfxBg.length != 0 && this.active && !this.hide)
-            sb.draw(this.vfxBg[frame],
-                    this.x - 100.0f,
-                    this.y - 100.0f,
-                    100.0f,
-                    100.0f,
-                    200.0f,
-                    200.0f,
-                    Settings.scale / this.scale,
-                    Settings.scale / this.scale,
-                    0.0f, 0, 0,
-                    200,
-                    200,
-                    false, false);
-
-
-        if (this.main != null && !this.hide)
-            sb.draw(this.main,
-                    this.x - this.main.getWidth() / 2.0f,
-                    this.y - this.main.getHeight() / 2.0f,
-                    this.main.getWidth() / 2.0f, this.main.getHeight() / 2.0f, this.main.getWidth(), this.main.getHeight(), Settings.scale / this.scale, Settings.scale / this.scale, 0.0f, 0, 0, this.main.getWidth(), this.main.getHeight(), false, false);
-
-
-        if (this.vfxFg.length != 0 && this.active && !this.hide)
-            sb.draw(this.vfxFg[frame],
-                    this.x - 100.0f,
-                    this.y - 100.0f,
-                    100.0f,
-                    100.0f,
-                    200.0f,
-                    200.0f,
-                    Settings.scale / this.scale,
-                    Settings.scale / this.scale,
-                    0.0f, 0, 0,
-                    200,
-                    200,
-                    false, false);
-
-
-        if (!evokeDone && evokeDelayTimer < 0 && !this.hide)
-            sb.draw(this.evokeEffect[frameNum],
-                    this.x - 150.0f,
-                    this.y - 150.0f,
-                    150.0f,
-                    150.0f,
-                    300.0f,
-                    300.0f,
-                    Settings.scale / this.scale,
-                    Settings.scale / this.scale,
-                    0.0f, 0, 0,
-                    300,
-                    300,
-                    false, false);
+//        int frame = (int) (this.timer % 12);
+//
+//
+//        sb.setColor(Color.WHITE);
+//        if (this.vfxBg.length != 0 && this.active && !this.hide)
+//            sb.draw(this.vfxBg[frame],
+//                    this.x - 100.0f,
+//                    this.y - 100.0f,
+//                    100.0f,
+//                    100.0f,
+//                    200.0f,
+//                    200.0f,
+//                    Settings.scale / this.scale,
+//                    Settings.scale / this.scale,
+//                    0.0f, 0, 0,
+//                    200,
+//                    200,
+//                    false, false);
+//
+//
+//        if (this.main != null && !this.hide)
+//            sb.draw(this.main,
+//                    this.x - this.main.getWidth() / 2.0f,
+//                    this.y - this.main.getHeight() / 2.0f,
+//                    this.main.getWidth() / 2.0f, this.main.getHeight() / 2.0f, this.main.getWidth(), this.main.getHeight(), Settings.scale / this.scale, Settings.scale / this.scale, 0.0f, 0, 0, this.main.getWidth(), this.main.getHeight(), false, false);
+//
+//
+//        if (this.vfxFg.length != 0 && this.active && !this.hide)
+//            sb.draw(this.vfxFg[frame],
+//                    this.x - 100.0f,
+//                    this.y - 100.0f,
+//                    100.0f,
+//                    100.0f,
+//                    200.0f,
+//                    200.0f,
+//                    Settings.scale / this.scale,
+//                    Settings.scale / this.scale,
+//                    0.0f, 0, 0,
+//                    200,
+//                    200,
+//                    false, false);
+//
+//
+//        if (!evokeDone && evokeDelayTimer < 0 && !this.hide)
+//            sb.draw(this.evokeEffect[frameNum],
+//                    this.x - 150.0f,
+//                    this.y - 150.0f,
+//                    150.0f,
+//                    150.0f,
+//                    300.0f,
+//                    300.0f,
+//                    Settings.scale / this.scale,
+//                    Settings.scale / this.scale,
+//                    0.0f, 0, 0,
+//                    300,
+//                    300,
+//                    false, false);
 
     }
 }

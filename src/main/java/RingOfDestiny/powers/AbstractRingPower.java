@@ -33,8 +33,6 @@ public abstract class AbstractRingPower extends AbstractPower {
         addToTop(new LoseHPAction(this.owner, null, amount * this.amount));
     }
 
-    public void onEnemyDeath(AbstractMonster m) {
-    }
 
     public void onDestructive() {
     }
