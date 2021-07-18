@@ -248,5 +248,32 @@
     "DIALOG": [
       ""
     ]
+  },
+  "RingOfDestiny:MeowLeader": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "大喵",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MeowMeow": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "二喵",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MeowSister": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "三喵",
+    "DIALOG": [
+      ""
+    ]
   }
 }

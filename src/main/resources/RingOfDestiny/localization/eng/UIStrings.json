@@ -178,5 +178,11 @@
       "Disable Diamond tutorial.",
       "Disable Soul Stone tutorial."
     ]
+  },
+  "RingOfDestiny:RunHistoryMonsterNames": {
+    "TEXT": [
+      "Magic Harp and Violin",
+      "Three Meows"
+    ]
   }
 }

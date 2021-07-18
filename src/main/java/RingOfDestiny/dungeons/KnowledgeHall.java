@@ -146,7 +146,7 @@ public class KnowledgeHall extends CustomDungeon {
     protected void generateElites(int count) {
         ArrayList<MonsterInfo> monsters = new ArrayList<MonsterInfo>();
         monsters.add(new MonsterInfo(Sledgehammer.ID, 1.0F));
-        monsters.add(new MonsterInfo("Slavers", 1.0F));
+        monsters.add(new MonsterInfo("RingOfDestiny:3Meows", 1.0F));
         monsters.add(new MonsterInfo(DanceOfSakura.ID, 1.0F));
         MonsterInfo.normalizeWeights(monsters);
         populateMonsterList(monsters, count, true);

@@ -248,5 +248,32 @@
     "DIALOG": [
       ""
     ]
+  },
+  "RingOfDestiny:MeowLeader": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Meow",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MeowMeow": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Meow Meow",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MeowSister": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Meow Meow Meow",
+    "DIALOG": [
+      ""
+    ]
   }
 }

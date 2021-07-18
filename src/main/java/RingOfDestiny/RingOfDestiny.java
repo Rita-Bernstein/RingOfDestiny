@@ -301,6 +301,12 @@ public class RingOfDestiny
         BaseMod.addMonster(Sledgehammer.ID, () -> new Sledgehammer());
         BaseMod.addMonster(DanceOfSakura.ID, () -> new DanceOfSakura());
 
+        BaseMod.addMonster("RingOfDestiny:3Meows", LocalizeHelper.RunHistoryMonsterNames.TEXT[1], () -> new MonsterGroup(
+                new AbstractMonster[]{
+                        new MeowMeow(-385.0F, -15.0F),
+                        new MeowLeader(-133.0F, 0.0F),
+                        new MeowSister(125.0F, -30.0F)
+                }));
 
 // 二层Boss
         BaseMod.addMonster(BraveWarrior.ID, () -> new BraveWarrior());
