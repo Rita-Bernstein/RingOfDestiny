@@ -1,0 +1,62 @@
+
+Pawn.png
+size: 491,162
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10036/shenti
+  rotate: true
+  xy: 170, 0
+  size: 95, 105
+  orig: 95, 105
+  offset: 0, 0
+  index: -1
+monster_10036/tou
+  rotate: false
+  xy: 0, 4
+  size: 170, 158
+  orig: 170, 158
+  offset: 0, 0
+  index: -1
+monster_10036/touyi
+  rotate: false
+  xy: 326, 44
+  size: 164, 51
+  orig: 172, 53
+  offset: 4, 0
+  index: -1
+monster_10036/wuqi
+  rotate: true
+  xy: 170, 95
+  size: 67, 304
+  orig: 67, 304
+  offset: 0, 0
+  index: -1
+monster_10036/yj
+  rotate: true
+  xy: 381, 9
+  size: 35, 56
+  orig: 38, 56
+  offset: 2, 0
+  index: -1
+monster_10036/youbi
+  rotate: false
+  xy: 275, 20
+  size: 51, 75
+  orig: 51, 75
+  offset: 0, 0
+  index: -1
+monster_10036/zj
+  rotate: true
+  xy: 437, 9
+  size: 35, 54
+  orig: 35, 55
+  offset: 0, 0
+  index: -1
+monster_10036/zuobi
+  rotate: false
+  xy: 326, 5
+  size: 55, 39
+  orig: 55, 39
+  offset: 0, 0
+  index: -1

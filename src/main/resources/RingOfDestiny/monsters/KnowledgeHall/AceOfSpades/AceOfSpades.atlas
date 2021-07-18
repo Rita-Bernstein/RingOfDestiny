@@ -1,0 +1,55 @@
+
+AceOfSpades.png
+size: 615,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_90009/pai
+  rotate: true
+  xy: 0, 0
+  size: 231, 287
+  orig: 231, 287
+  offset: 0, 0
+  index: -1
+monster_90009/shou_1
+  rotate: true
+  xy: 372, 164
+  size: 67, 155
+  orig: 67, 155
+  offset: 0, 0
+  index: -1
+monster_90009/shou_2
+  rotate: false
+  xy: 287, 97
+  size: 85, 134
+  orig: 85, 134
+  offset: 0, 0
+  index: -1
+monster_90009/shoujiao_1
+  rotate: true
+  xy: 372, 101
+  size: 63, 87
+  orig: 63, 87
+  offset: 0, 0
+  index: -1
+monster_90009/shoujiao_2
+  rotate: false
+  xy: 452, 19
+  size: 39, 82
+  orig: 39, 82
+  offset: 0, 0
+  index: -1
+monster_90009/touyi
+  rotate: false
+  xy: 287, 46
+  size: 165, 51
+  orig: 172, 53
+  offset: 4, 0
+  index: -1
+monster_90009/wuqi
+  rotate: true
+  xy: 0, 231
+  size: 97, 615
+  orig: 97, 615
+  offset: 0, 0
+  index: -1

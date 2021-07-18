@@ -275,5 +275,115 @@
     "DIALOG": [
       ""
     ]
+  },
+
+  "RingOfDestiny:Knight": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Knight",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Bishop": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Bishop",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Rook": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Rook",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Queen": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Queen",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Pawn": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Pawn",
+    "DIALOG": [
+      ""
+    ]
+  },
+
+  "RingOfDestiny:King": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "King",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:DarkEmissary": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Dark Emissary",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:LightEmissary": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Light Emissary",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:KitchenMaid": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Kitchen Maid",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:TheController": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "The Controller",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:AceOfHearts": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Ace Of Hearts",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:AceOfSpades": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Ace Of Spades",
+    "DIALOG": [
+      ""
+    ]
   }
 }

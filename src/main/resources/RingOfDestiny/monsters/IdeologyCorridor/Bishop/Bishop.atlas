@@ -1,0 +1,48 @@
+
+Bishop.png
+size: 258,253
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10037/shenti
+  rotate: false
+  xy: 0, 121
+  size: 156, 132
+  orig: 156, 132
+  offset: 0, 0
+  index: -1
+monster_10037/tou
+  rotate: true
+  xy: 0, 8
+  size: 113, 139
+  orig: 113, 139
+  offset: 0, 0
+  index: -1
+monster_10037/touyi
+  rotate: true
+  xy: 156, 89
+  size: 164, 51
+  orig: 172, 53
+  offset: 4, 0
+  index: -1
+monster_10037/wuqi
+  rotate: false
+  xy: 207, 94
+  size: 41, 159
+  orig: 41, 159
+  offset: 0, 0
+  index: -1
+monster_10037/youbi
+  rotate: false
+  xy: 207, 0
+  size: 51, 94
+  orig: 51, 94
+  offset: 0, 0
+  index: -1
+monster_10037/zuobi
+  rotate: false
+  xy: 139, 9
+  size: 56, 80
+  orig: 56, 80
+  offset: 0, 0
+  index: -1

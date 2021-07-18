@@ -1,0 +1,55 @@
+
+AceOfHearts.png
+size: 333,429
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_90003/pai
+  rotate: false
+  xy: 0, 142
+  size: 232, 287
+  orig: 232, 287
+  offset: 0, 0
+  index: -1
+monster_90003/shou_1
+  rotate: true
+  xy: 0, 0
+  size: 66, 155
+  orig: 66, 155
+  offset: 0, 0
+  index: -1
+monster_90003/shou_2
+  rotate: false
+  xy: 232, 295
+  size: 85, 134
+  orig: 85, 134
+  offset: 0, 0
+  index: -1
+monster_90003/shoujiao_1
+  rotate: false
+  xy: 232, 208
+  size: 62, 87
+  orig: 62, 87
+  offset: 0, 0
+  index: -1
+monster_90003/shoujiao_2
+  rotate: true
+  xy: 232, 168
+  size: 40, 82
+  orig: 40, 82
+  offset: 0, 0
+  index: -1
+monster_90003/touyi
+  rotate: false
+  xy: 155, 15
+  size: 164, 51
+  orig: 172, 53
+  offset: 4, 0
+  index: -1
+monster_90003/wuqi
+  rotate: true
+  xy: 0, 66
+  size: 76, 333
+  orig: 76, 333
+  offset: 0, 0
+  index: -1

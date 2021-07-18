@@ -1,0 +1,76 @@
+
+Queen.png
+size: 338,293
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10040/shangshen(2)
+  rotate: false
+  xy: 89, 9
+  size: 78, 79
+  orig: 78, 79
+  offset: 0, 0
+  index: -1
+monster_10040/tou
+  rotate: false
+  xy: 237, 160
+  size: 101, 133
+  orig: 101, 133
+  offset: 0, 0
+  index: -1
+monster_10040/toufahou
+  rotate: false
+  xy: 167, 23
+  size: 124, 65
+  orig: 124, 65
+  offset: 0, 0
+  index: -1
+monster_10040/touyi
+  rotate: true
+  xy: 186, 128
+  size: 165, 51
+  orig: 172, 53
+  offset: 4, 0
+  index: -1
+monster_10040/wuqi
+  rotate: false
+  xy: 0, 0
+  size: 89, 88
+  orig: 92, 91
+  offset: 1, 1
+  index: -1
+monster_10040/xiashen
+  rotate: true
+  xy: 0, 88
+  size: 205, 186
+  orig: 205, 186
+  offset: 0, 0
+  index: -1
+monster_10040/youbi
+  rotate: true
+  xy: 186, 92
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1
+monster_10040/youbi(2)
+  rotate: true
+  xy: 286, 97
+  size: 63, 44
+  orig: 63, 44
+  offset: 0, 0
+  index: -1
+monster_10040/zuobi
+  rotate: false
+  xy: 291, 40
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+monster_10040/zuobi(2)
+  rotate: true
+  xy: 237, 95
+  size: 65, 49
+  orig: 65, 49
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+Rook.png
+size: 289,444
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10038/jian
+  rotate: false
+  xy: 197, 284
+  size: 87, 160
+  orig: 87, 160
+  offset: 0, 0
+  index: -1
+monster_10038/st
+  rotate: false
+  xy: 197, 136
+  size: 78, 148
+  orig: 78, 148
+  offset: 0, 0
+  index: -1
+monster_10038/tou
+  rotate: true
+  xy: 0, 50
+  size: 78, 129
+  orig: 78, 129
+  offset: 0, 0
+  index: -1
+monster_10038/touyi
+  rotate: false
+  xy: 0, 128
+  size: 164, 49
+  orig: 172, 53
+  offset: 3, 2
+  index: -1
+monster_10038/wuqi_gong
+  rotate: false
+  xy: 0, 282
+  size: 197, 162
+  orig: 197, 162
+  offset: 0, 0
+  index: -1
+monster_10038/wuqi_jian
+  rotate: true
+  xy: 0, 177
+  size: 105, 173
+  orig: 105, 173
+  offset: 0, 0
+  index: -1
+monster_10038/yifuhou
+  rotate: false
+  xy: 164, 0
+  size: 125, 136
+  orig: 125, 136
+  offset: 0, 0
+  index: -1
+monster_10038/youbi
+  rotate: true
+  xy: 76, 0
+  size: 50, 73
+  orig: 50, 73
+  offset: 0, 0
+  index: -1
+monster_10038/zuobi
+  rotate: true
+  xy: 0, 7
+  size: 43, 76
+  orig: 43, 76
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,237 @@
+
+TheController.png
+size: 1386,546
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10004/bianzi
+  rotate: false
+  xy: 1096, 115
+  size: 144, 173
+  orig: 144, 173
+  offset: 0, 0
+  index: -1
+monster_10004/bozi
+  rotate: true
+  xy: 1264, 476
+  size: 70, 120
+  orig: 70, 120
+  offset: 0, 0
+  index: -1
+monster_10004/jingpian
+  rotate: false
+  xy: 643, 10
+  size: 40, 83
+  orig: 40, 83
+  offset: 0, 0
+  index: -1
+monster_10004/jio
+  rotate: false
+  xy: 683, 1
+  size: 113, 94
+  orig: 113, 94
+  offset: 0, 0
+  index: -1
+monster_10004/jio_2
+  rotate: true
+  xy: 144, 4
+  size: 52, 114
+  orig: 52, 114
+  offset: 0, 0
+  index: -1
+monster_10004/kua
+  rotate: false
+  xy: 796, 0
+  size: 157, 100
+  orig: 157, 100
+  offset: 0, 0
+  index: -1
+monster_10004/lian
+  rotate: false
+  xy: 0, 2
+  size: 72, 54
+  orig: 72, 54
+  offset: 0, 0
+  index: -1
+monster_10004/liuhai
+  rotate: false
+  xy: 545, 7
+  size: 51, 86
+  orig: 51, 86
+  offset: 0, 0
+  index: -1
+monster_10004/liuhai_2
+  rotate: false
+  xy: 304, 0
+  size: 72, 93
+  orig: 72, 93
+  offset: 0, 0
+  index: -1
+monster_10004/pai
+  rotate: false
+  xy: 953, 21
+  size: 77, 79
+  orig: 77, 79
+  offset: 0, 0
+  index: -1
+monster_10004/pai_0
+  rotate: false
+  xy: 72, 2
+  size: 72, 54
+  orig: 72, 54
+  offset: 0, 0
+  index: -1
+monster_10004/shangshen
+  rotate: false
+  xy: 1058, 288
+  size: 206, 258
+  orig: 225, 258
+  offset: 0, 0
+  index: -1
+monster_10004/shou
+  rotate: false
+  xy: 1260, 58
+  size: 78, 78
+  orig: 298, 176
+  offset: 220, 98
+  index: -1
+monster_10004/shou(bu
+  rotate: true
+  xy: 596, 7
+  size: 86, 47
+  orig: 87, 47
+  offset: 0, 0
+  index: -1
+monster_10004/shou_0
+  rotate: true
+  xy: 1208, 10
+  size: 105, 52
+  orig: 105, 52
+  offset: 0, 0
+  index: -1
+monster_10004/tou
+  rotate: true
+  xy: 376, 3
+  size: 90, 101
+  orig: 90, 101
+  offset: 0, 0
+  index: -1
+monster_10004/toufa
+  rotate: false
+  xy: 477, 5
+  size: 68, 88
+  orig: 68, 88
+  offset: 0, 0
+  index: -1
+monster_10004/toufa_2
+  rotate: false
+  xy: 1030, 0
+  size: 107, 104
+  orig: 107, 104
+  offset: 0, 0
+  index: -1
+monster_10004/toufahou
+  rotate: true
+  xy: 1137, 4
+  size: 111, 71
+  orig: 111, 71
+  offset: 0, 0
+  index: -1
+monster_10004/touyi
+  rotate: true
+  xy: 1264, 311
+  size: 165, 51
+  orig: 172, 53
+  offset: 3, 0
+  index: -1
+monster_10004/xz
+  rotate: false
+  xy: 258, 0
+  size: 46, 58
+  orig: 292, 152
+  offset: 246, 94
+  index: -1
+monster_10004/yao
+  rotate: true
+  xy: 1240, 136
+  size: 152, 146
+  orig: 152, 146
+  offset: 0, 0
+  index: -1
+monster_10004/yb
+  rotate: false
+  xy: 1029, 104
+  size: 67, 166
+  orig: 67, 166
+  offset: 0, 0
+  index: -1
+monster_10004/ybai
+  rotate: false
+  xy: 0, 56
+  size: 214, 490
+  orig: 214, 490
+  offset: 0, 0
+  index: -1
+monster_10004/yibai
+  rotate: false
+  xy: 280, 93
+  size: 379, 453
+  orig: 379, 453
+  offset: 0, 0
+  index: -1
+monster_10004/youbi
+  rotate: false
+  xy: 910, 100
+  size: 119, 141
+  orig: 119, 141
+  offset: 0, 0
+  index: -1
+monster_10004/youbi_2
+  rotate: false
+  xy: 763, 100
+  size: 147, 126
+  orig: 147, 126
+  offset: 0, 0
+  index: -1
+monster_10004/youtui
+  rotate: false
+  xy: 999, 270
+  size: 59, 276
+  orig: 59, 276
+  offset: 0, 0
+  index: -1
+monster_10004/youtui_2
+  rotate: false
+  xy: 659, 222
+  size: 94, 324
+  orig: 94, 324
+  offset: 0, 0
+  index: -1
+monster_10004/zbai
+  rotate: false
+  xy: 214, 58
+  size: 66, 488
+  orig: 66, 488
+  offset: 0, 0
+  index: -1
+monster_10004/zuobi
+  rotate: true
+  xy: 659, 95
+  size: 127, 104
+  orig: 373, 152
+  offset: 246, 48
+  index: -1
+monster_10004/zuotui
+  rotate: false
+  xy: 892, 241
+  size: 107, 305
+  orig: 107, 305
+  offset: 0, 0
+  index: -1
+monster_10004/zuotui_2
+  rotate: false
+  xy: 753, 226
+  size: 139, 320
+  orig: 139, 320
+  offset: 0, 0
+  index: -1

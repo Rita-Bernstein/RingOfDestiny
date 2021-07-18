@@ -275,5 +275,113 @@
     "DIALOG": [
       ""
     ]
+  },
+  "RingOfDestiny:Knight": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "骑士",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Bishop": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "主教",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Rook": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "哨塔",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Queen": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "皇后",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Pawn": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "禁卫军",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:King": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "国王",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:DarkEmissary": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "暗之使",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:LightEmissary": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "光之使",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:KitchenMaid": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "厨娘",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:TheController": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "掌控者",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:AceOfHearts": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "红桃A",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:AceOfSpades": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "黑桃A",
+    "DIALOG": [
+      ""
+    ]
   }
 }

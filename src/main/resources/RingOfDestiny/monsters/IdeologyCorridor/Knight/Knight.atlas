@@ -1,0 +1,62 @@
+
+Knight.png
+size: 752,112
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10039/pifeng
+  rotate: true
+  xy: 416, 0
+  size: 112, 102
+  orig: 112, 102
+  offset: 0, 0
+  index: -1
+monster_10039/shenti
+  rotate: true
+  xy: 283, 15
+  size: 97, 133
+  orig: 97, 133
+  offset: 0, 0
+  index: -1
+monster_10039/tou
+  rotate: true
+  xy: 0, 2
+  size: 110, 155
+  orig: 110, 155
+  offset: 0, 0
+  index: -1
+monster_10039/touyi
+  rotate: false
+  xy: 518, 62
+  size: 164, 50
+  orig: 172, 53
+  offset: 5, 1
+  index: -1
+monster_10039/wuqidun
+  rotate: true
+  xy: 155, 0
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+monster_10039/wuqijian
+  rotate: true
+  xy: 682, 25
+  size: 87, 70
+  orig: 87, 70
+  offset: 0, 0
+  index: -1
+monster_10039/youbi
+  rotate: true
+  xy: 607, 5
+  size: 57, 73
+  orig: 57, 73
+  offset: 0, 0
+  index: -1
+monster_10039/zuobi
+  rotate: true
+  xy: 518, 1
+  size: 61, 89
+  orig: 61, 89
+  offset: 0, 0
+  index: -1

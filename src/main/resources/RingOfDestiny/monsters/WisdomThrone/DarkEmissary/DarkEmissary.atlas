@@ -1,0 +1,216 @@
+
+DarkEmissary.png
+size: 1543,290
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10006/bianzi
+  rotate: true
+  xy: 0, 66
+  size: 104, 349
+  orig: 104, 349
+  offset: 0, 0
+  index: -1
+monster_10006/bozi
+  rotate: true
+  xy: 746, 91
+  size: 37, 46
+  orig: 38, 46
+  offset: 1, 0
+  index: -1
+monster_10006/bq
+  rotate: false
+  xy: 1460, 169
+  size: 83, 53
+  orig: 83, 53
+  offset: 0, 0
+  index: -1
+monster_10006/bq_sw
+  rotate: true
+  xy: 1417, 9
+  size: 82, 46
+  orig: 83, 47
+  offset: 1, 1
+  index: -1
+monster_10006/lh
+  rotate: false
+  xy: 1129, 148
+  size: 87, 74
+  orig: 87, 74
+  offset: 0, 0
+  index: -1
+monster_10006/lian
+  rotate: true
+  xy: 998, 184
+  size: 106, 112
+  orig: 106, 112
+  offset: 0, 0
+  index: -1
+monster_10006/qunzihou
+  rotate: false
+  xy: 0, 2
+  size: 207, 64
+  orig: 207, 64
+  offset: 0, 0
+  index: -1
+monster_10006/qz_you
+  rotate: false
+  xy: 1456, 222
+  size: 67, 68
+  orig: 67, 68
+  offset: 0, 0
+  index: -1
+monster_10006/qz_zuo
+  rotate: false
+  xy: 1110, 222
+  size: 109, 68
+  orig: 109, 72
+  offset: 0, 4
+  index: -1
+monster_10006/sl_1
+  rotate: true
+  xy: 0, 170
+  size: 120, 448
+  orig: 120, 448
+  offset: 0, 0
+  index: -1
+monster_10006/sl_2
+  rotate: true
+  xy: 1463, 45
+  size: 46, 79
+  orig: 46, 79
+  offset: 0, 0
+  index: -1
+monster_10006/ss
+  rotate: true
+  xy: 1243, 2
+  size: 137, 174
+  orig: 137, 174
+  offset: 0, 0
+  index: -1
+monster_10006/touface
+  rotate: true
+  xy: 1024, 131
+  size: 53, 105
+  orig: 53, 105
+  offset: 0, 0
+  index: -1
+monster_10006/toufayou
+  rotate: false
+  xy: 875, 179
+  size: 123, 111
+  orig: 123, 111
+  offset: 0, 0
+  index: -1
+monster_10006/toufazuo
+  rotate: true
+  xy: 627, 15
+  size: 76, 127
+  orig: 76, 127
+  offset: 0, 0
+  index: -1
+monster_10006/touyi
+  rotate: false
+  xy: 207, 16
+  size: 164, 50
+  orig: 172, 53
+  offset: 5, 1
+  index: -1
+monster_10006/ts
+  rotate: false
+  xy: 719, 178
+  size: 156, 112
+  orig: 156, 112
+  offset: 0, 0
+  index: -1
+monster_10006/yao
+  rotate: true
+  xy: 1106, 7
+  size: 124, 137
+  orig: 124, 137
+  offset: 0, 0
+  index: -1
+monster_10006/youjio
+  rotate: false
+  xy: 1389, 140
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+monster_10006/youtui
+  rotate: true
+  xy: 448, 175
+  size: 115, 271
+  orig: 253, 440
+  offset: 138, 0
+  index: -1
+monster_10006/youtui_2
+  rotate: true
+  xy: 349, 87
+  size: 83, 263
+  orig: 187, 263
+  offset: 104, 0
+  index: -1
+monster_10006/ysb
+  rotate: true
+  xy: 901, 138
+  size: 41, 123
+  orig: 41, 123
+  offset: 0, 0
+  index: -1
+monster_10006/yxb
+  rotate: true
+  xy: 612, 91
+  size: 84, 134
+  orig: 84, 135
+  offset: 0, 1
+  index: -1
+monster_10006/zsb
+  rotate: true
+  xy: 754, 0
+  size: 91, 97
+  orig: 91, 97
+  offset: 0, 0
+  index: -1
+monster_10006/zuojio
+  rotate: true
+  xy: 1417, 91
+  size: 49, 97
+  orig: 49, 97
+  offset: 0, 0
+  index: -1
+monster_10006/zuojio_2
+  rotate: false
+  xy: 1389, 211
+  size: 67, 79
+  orig: 67, 79
+  offset: 0, 0
+  index: -1
+monster_10006/zuotui
+  rotate: false
+  xy: 1219, 139
+  size: 170, 151
+  orig: 170, 151
+  offset: 0, 0
+  index: -1
+monster_10006/zuotui_2
+  rotate: true
+  xy: 371, 7
+  size: 80, 256
+  orig: 80, 256
+  offset: 0, 0
+  index: -1
+monster_10006/zuotui_3
+  rotate: true
+  xy: 851, 12
+  size: 116, 255
+  orig: 116, 255
+  offset: 0, 0
+  index: -1
+monster_10006/zxb
+  rotate: false
+  xy: 746, 128
+  size: 155, 50
+  orig: 155, 50
+  offset: 0, 0
+  index: -1
