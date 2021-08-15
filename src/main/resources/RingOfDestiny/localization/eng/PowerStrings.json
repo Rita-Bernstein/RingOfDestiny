@@ -774,5 +774,35 @@
     "DESCRIPTIONS": [
       "Whenever you play a #yAttack ,you gain #b1 #yVulnerable."
     ]
+  },
+  "RingOfDestiny:PitchDarkPower": {
+    "NAME": "Pitch Dark",
+    "DESCRIPTIONS": [
+      "You take double damage from #yLight #yEmissary."
+    ]
+  },
+  "RingOfDestiny:SparklingLightPower": {
+    "NAME": "Sparkling Light",
+    "DESCRIPTIONS": [
+      "You take double damage from #yDark #yEmissary."
+    ]
+  },
+  "RingOfDestiny:RegurgitationPower": {
+    "NAME": "Regurgitation",
+    "DESCRIPTIONS": [
+      "Apply you #b2 #ySparkling #yLight when she take damage."
+    ]
+  },
+  "RingOfDestiny:ReflectionPower": {
+    "NAME": "Reflection",
+    "DESCRIPTIONS": [
+      "Apply you #b2 #yPitch #yDark when she take damage."
+    ]
+  },
+  "RingOfDestiny:LightAndDarknessPower": {
+    "NAME": "Light And Darkness",
+    "DESCRIPTIONS": [
+      "If both twins survive,they gain #b%d #yStrength at the end of their turn."
+    ]
   }
 }

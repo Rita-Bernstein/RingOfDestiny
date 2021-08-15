@@ -95,8 +95,5 @@ public abstract class AbstractRingCard extends CustomCard {
     @Override
     public void render(SpriteBatch sb) {
         super.render(sb);
-
     }
-
-
 }

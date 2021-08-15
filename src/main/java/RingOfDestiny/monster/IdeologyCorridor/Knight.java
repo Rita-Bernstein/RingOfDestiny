@@ -30,6 +30,7 @@ import com.megacrit.cardcrawl.helpers.Hitbox;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.TipHelper;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
+import com.megacrit.cardcrawl.vfx.SpeechBubble;
 import com.megacrit.cardcrawl.vfx.combat.*;
 
 import com.esotericsoftware.spine.AnimationState;
@@ -46,8 +47,8 @@ import RingOfDestiny.vfx.HealVerticalLineButHorizontalEffect;
 import RingOfDestiny.helpers.*;
 
 
-public class Cavalier extends CustomMonster {
-    public static final String ID = RingOfDestiny.makeID("Cavalier");
+public class Knight extends CustomMonster {
+    public static final String ID = RingOfDestiny.makeID("Knight");
     private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings(ID);
     public static final String NAME = monsterStrings.NAME;
     public static final String[] MOVES = monsterStrings.MOVES;
@@ -58,7 +59,7 @@ public class Cavalier extends CustomMonster {
     private boolean playBGM;
 
 
-    public Cavalier(float x, float y, boolean playBGM) {
+    public Knight(float x, float y, boolean playBGM) {
         super(NAME, ID, 88, 0.0F, -15.0F, 240.0F, 360.0F, null, x, y);
         this.playBGM = playBGM;
 
@@ -82,7 +83,7 @@ public class Cavalier extends CustomMonster {
         this.dialogY = 50.0F * Settings.scale;
 
 
-        loadAnimation("RingOfDestiny/monsters/IdeologyCorridor/Cavalier/Cavalier.atlas", "RingOfDestiny/monsters/IdeologyCorridor/Cavalier/Cavalier.json", 2.6F);
+        loadAnimation("RingOfDestiny/monsters/IdeologyCorridor/Knight/Knight.atlas", "RingOfDestiny/monsters/IdeologyCorridor/Knight/Knight.json", 2.6F);
 
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
@@ -91,13 +92,13 @@ public class Cavalier extends CustomMonster {
 
     }
 
-    public Cavalier(float x, float y) {
+    public Knight(float x, float y) {
         this(x, y, false);
     }
 
 
     public void usePreBattleAction() {
-        if(playBGM){
+        if (playBGM) {
             CardCrawlGame.music.unsilenceBGM();
             AbstractDungeon.scene.fadeOutAmbiance();
             AbstractDungeon.getCurrRoom().playBgmInstantly("fight");
@@ -106,19 +107,50 @@ public class Cavalier extends CustomMonster {
 
 
     public void takeTurn() {
-
+        int aliveCount;
         switch (this.nextMove) {
-            case 0:
+            case 1:
                 addToBot(new GainBlockRandomMonsterAction(this, 7));
+
+                aliveCount = 0;
+
+                for (AbstractMonster m : (AbstractDungeon.getMonsters()).monsters) {
+                    if (!m.isDying && !m.isEscaping) {
+                        aliveCount++;
+                    }
+                }
+
+                if (this.escapeNext) {
+                    addToBot(new SetMoveAction(this, (byte) 99, AbstractMonster.Intent.ESCAPE));
+                    break;
+                }
+
+                if (aliveCount > 1) {
+                    setMove((byte) 1, AbstractMonster.Intent.DEFEND);
+                    break;
+                }
+
+                setMove((byte) 2, AbstractMonster.Intent.ATTACK, ((DamageInfo) this.damage.get(0)).base);
+
                 break;
 
-            case 1:
+            case 2:
                 addToBot(new ChangeStateAction(this, "Attack"));
                 addToBot(new CustomWaitAction(0.5f));
-                for (int i = 0; i < 3; i++)
-                    addToBot(new DamageAction(AbstractDungeon.player, this.damage.get(0), AbstractGameAction.AttackEffect.BLUNT_HEAVY, true));
+                addToBot(new DamageAction(AbstractDungeon.player, this.damage.get(0), AbstractGameAction.AttackEffect.BLUNT_HEAVY, true));
 
+                if (this.escapeNext) {
+                    addToBot(new SetMoveAction(this, (byte) 99, AbstractMonster.Intent.ESCAPE));
+                    break;
+                }
+
+                addToBot(new SetMoveAction(this, (byte) 2, AbstractMonster.Intent.ATTACK, this.damage.get(0).base));
                 break;
+
+            case 99:
+//                AbstractDungeon.effectList.add(new SpeechBubble(this.hb.cX + this.dialogX, this.hb.cY + this.dialogY, 2.5F, DIALOG[1], false));
+                addToBot(new EscapeAction(this));
+                addToBot(new SetMoveAction(this, (byte) 99, AbstractMonster.Intent.ESCAPE));
         }
 
 
@@ -126,21 +158,17 @@ public class Cavalier extends CustomMonster {
 
     }
 
+    public void escapeNext() {
+        if (!this.cannotEscape &&
+                !this.escapeNext) {
+            this.escapeNext = true;
+//            AbstractDungeon.effectList.add(new SpeechBubble(this.dialogX, this.dialogY, 3.0F, DIALOG[2], false));
+        }
+    }
+
 
     protected void getMove(int num) {
-        switch (moveCount % 3) {
-            case 0:
-                setMove((byte) 0, Intent.DEFEND);
-                break;
-            case 1:
-                setMove((byte) 1, Intent.ATTACK, ((DamageInfo) this.damage.get(0)).base, 3, true);
-                break;
-            case 2:
-                setMove((byte) 2, Intent.BUFF);
-                break;
-        }
-
-        moveCount++;
+        setMove((byte) 1, AbstractMonster.Intent.DEFEND);
     }
 
 

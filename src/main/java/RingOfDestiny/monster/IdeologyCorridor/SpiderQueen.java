@@ -156,9 +156,6 @@ public class SpiderQueen extends CustomMonster {
 
 
     public void die() {
-        useFastShakeAnimation(5.0F);
-        CardCrawlGame.screenShake.rumble(4.0F);
-
         super.die();
 
         if(AbstractDungeon.getMonsters().areMonstersBasicallyDead()){

@@ -12,16 +12,17 @@ public class OnManualDiscardPatch {
             clz = GameActionManager.class,
             method = "incrementDiscard",
             paramtypez = {boolean.class}
-                )
+    )
     public static class incrementDiscardPatch {
         @SpireInsertPatch(rloc = 7)
         public static SpireReturn<Void> Insert(boolean endOfTurn) {
 
             if (!AbstractDungeon.actionManager.turnHasEnded && !endOfTurn) {
-                   for (AbstractPower power : AbstractDungeon.player.powers) {
-                       if(power instanceof AbstractRingPower)
-                           ((AbstractRingPower) power).onManualDiscard();
-                       }}
+                for (AbstractPower power : AbstractDungeon.player.powers) {
+                    if (power instanceof AbstractRingPower)
+                        ((AbstractRingPower) power).onManualDiscard();
+                }
+            }
 
             return SpireReturn.Continue();
         }

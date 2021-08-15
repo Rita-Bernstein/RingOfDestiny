@@ -173,7 +173,7 @@ public class WisdomThrone extends CustomDungeon {
 
         bossList.add("Awakened One");
         bossList.add("Time Eater");
-        bossList.add("Donu and Deca");
+        bossList.add("RingOfDestiny:Dark And Light Emissary");
 
         Collections.shuffle(bossList, new Random(monsterRng.randomLong()));
 

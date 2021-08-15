@@ -219,9 +219,6 @@ public class ThePien extends AbstractRingMonster {
 
 
         if (!(AbstractDungeon.getCurrRoom()).cannotLose) {
-            useFastShakeAnimation(5.0F);
-            CardCrawlGame.screenShake.rumble(4.0F);
-
             super.die();
 
             if(AbstractDungeon.getMonsters().areMonstersBasicallyDead()){

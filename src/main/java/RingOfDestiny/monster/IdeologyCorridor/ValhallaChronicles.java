@@ -209,10 +209,6 @@ public class ValhallaChronicles extends AbstractRingMonster {
 
 
     public void die() {
-
-        useFastShakeAnimation(5.0F);
-        CardCrawlGame.screenShake.rumble(4.0F);
-
         super.die();
 
         if (!orbs.isEmpty()){

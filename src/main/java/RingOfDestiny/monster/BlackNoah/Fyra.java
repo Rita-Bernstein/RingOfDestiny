@@ -279,18 +279,11 @@ public class Fyra extends CustomMonster {
 
     public void die() {
         if (!(AbstractDungeon.getCurrRoom()).cannotLose) {
-
+            super.die();
             playDeathSfx();
             CardCrawlGame.music.silenceTempBgmInstantly();
             CardCrawlGame.music.unsilenceBGM();
-
-            super.die();
-
-            useFastShakeAnimation(5.0F);
-            CardCrawlGame.screenShake.rumble(4.0F);
-
         }
-
     }
 
 
