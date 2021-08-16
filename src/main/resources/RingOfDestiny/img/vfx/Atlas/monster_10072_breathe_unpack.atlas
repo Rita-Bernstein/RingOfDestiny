@@ -1,0 +1,188 @@
+
+monster_10072_breathe_unpack.png
+size: 1951,1125
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10072_breathe-00000
+  rotate: false
+  xy: 0, 490
+  size: 252, 314
+  orig: 363, 475
+  offset: 57, 103
+  index: -1
+monster_10072_breathe-00001
+  rotate: false
+  xy: 1713, 809
+  size: 238, 316
+  orig: 363, 475
+  offset: 57, 103
+  index: -1
+monster_10072_breathe-00002
+  rotate: false
+  xy: 1472, 809
+  size: 241, 316
+  orig: 363, 475
+  offset: 56, 104
+  index: -1
+monster_10072_breathe-00003
+  rotate: false
+  xy: 497, 808
+  size: 245, 317
+  orig: 363, 475
+  offset: 55, 104
+  index: -1
+monster_10072_breathe-00004
+  rotate: false
+  xy: 988, 249
+  size: 243, 317
+  orig: 363, 475
+  offset: 53, 105
+  index: -1
+monster_10072_breathe-00005
+  rotate: true
+  xy: 1204, 568
+  size: 241, 318
+  orig: 363, 475
+  offset: 51, 105
+  index: -1
+monster_10072_breathe-00006
+  rotate: true
+  xy: 885, 566
+  size: 242, 319
+  orig: 363, 475
+  offset: 52, 104
+  index: -1
+monster_10072_breathe-00007
+  rotate: false
+  xy: 1231, 251
+  size: 240, 317
+  orig: 363, 475
+  offset: 55, 104
+  index: -1
+monster_10072_breathe-00008
+  rotate: true
+  xy: 1522, 570
+  size: 239, 315
+  orig: 363, 475
+  offset: 58, 103
+  index: -1
+monster_10072_breathe-00009
+  rotate: false
+  xy: 500, 241
+  size: 245, 317
+  orig: 363, 475
+  offset: 55, 103
+  index: -1
+monster_10072_breathe-00010
+  rotate: false
+  xy: 986, 809
+  size: 244, 316
+  orig: 363, 475
+  offset: 55, 104
+  index: -1
+monster_10072_breathe-00011
+  rotate: true
+  xy: 252, 558
+  size: 246, 316
+  orig: 363, 475
+  offset: 57, 104
+  index: -1
+monster_10072_breathe-00012
+  rotate: false
+  xy: 250, 177
+  size: 250, 313
+  orig: 363, 475
+  offset: 58, 103
+  index: -1
+monster_10072_breathe-00013
+  rotate: false
+  xy: 0, 176
+  size: 250, 314
+  orig: 363, 475
+  offset: 59, 103
+  index: -1
+monster_10072_breathe-00014
+  rotate: false
+  xy: 1710, 254
+  size: 237, 316
+  orig: 363, 475
+  offset: 58, 103
+  index: -1
+monster_10072_breathe-00015
+  rotate: true
+  xy: 1459, 11
+  size: 240, 316
+  orig: 363, 475
+  offset: 57, 104
+  index: -1
+monster_10072_breathe-00016
+  rotate: false
+  xy: 742, 808
+  size: 244, 317
+  orig: 363, 475
+  offset: 56, 104
+  index: -1
+monster_10072_breathe-00017
+  rotate: false
+  xy: 745, 245
+  size: 243, 318
+  orig: 363, 475
+  offset: 54, 104
+  index: -1
+monster_10072_breathe-00018
+  rotate: true
+  xy: 1140, 10
+  size: 239, 319
+  orig: 363, 475
+  offset: 53, 104
+  index: -1
+monster_10072_breathe-00019
+  rotate: true
+  xy: 500, 0
+  size: 241, 320
+  orig: 363, 475
+  offset: 53, 104
+  index: -1
+monster_10072_breathe-00020
+  rotate: true
+  xy: 820, 4
+  size: 241, 320
+  orig: 363, 475
+  offset: 56, 104
+  index: -1
+monster_10072_breathe-00021
+  rotate: false
+  xy: 1471, 251
+  size: 239, 317
+  orig: 363, 475
+  offset: 58, 103
+  index: -1
+monster_10072_breathe-00022
+  rotate: false
+  xy: 1230, 810
+  size: 242, 315
+  orig: 363, 475
+  offset: 58, 105
+  index: -1
+monster_10072_breathe-00023
+  rotate: true
+  xy: 568, 563
+  size: 245, 317
+  orig: 363, 475
+  offset: 55, 104
+  index: -1
+monster_10072_breathe-00024
+  rotate: false
+  xy: 251, 804
+  size: 246, 321
+  orig: 363, 475
+  offset: 57, 102
+  index: -1
+monster_10072_breathe-00025
+  rotate: false
+  xy: 0, 804
+  size: 251, 321
+  orig: 363, 475
+  offset: 57, 102
+  index: -1

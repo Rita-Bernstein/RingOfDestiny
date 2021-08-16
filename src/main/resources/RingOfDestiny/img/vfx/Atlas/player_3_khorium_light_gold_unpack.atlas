@@ -1,0 +1,174 @@
+
+player_3_khorium_light_gold_unpack.png
+size: 1347,227
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+player_3_khorium_light_gold-00000
+  rotate: true
+  xy: 0, 110
+  size: 117, 115
+  orig: 120, 120
+  offset: 2, 0
+  index: -1
+player_3_khorium_light_gold-00001
+  rotate: true
+  xy: 230, 110
+  size: 117, 114
+  orig: 120, 120
+  offset: 2, 1
+  index: -1
+player_3_khorium_light_gold-00002
+  rotate: false
+  xy: 456, 0
+  size: 111, 110
+  orig: 120, 120
+  offset: 5, 2
+  index: -1
+player_3_khorium_light_gold-00003
+  rotate: true
+  xy: 914, 112
+  size: 115, 113
+  orig: 120, 120
+  offset: 4, 1
+  index: -1
+player_3_khorium_light_gold-00004
+  rotate: true
+  xy: 1027, 115
+  size: 112, 108
+  orig: 120, 120
+  offset: 5, 3
+  index: -1
+player_3_khorium_light_gold-00005
+  rotate: true
+  xy: 678, 0
+  size: 111, 110
+  orig: 120, 120
+  offset: 5, 1
+  index: -1
+player_3_khorium_light_gold-00006
+  rotate: false
+  xy: 0, 0
+  size: 116, 110
+  orig: 120, 120
+  offset: 4, 1
+  index: -1
+player_3_khorium_light_gold-00007
+  rotate: true
+  xy: 686, 112
+  size: 115, 114
+  orig: 120, 120
+  offset: 4, 1
+  index: -1
+player_3_khorium_light_gold-00008
+  rotate: true
+  xy: 458, 111
+  size: 116, 114
+  orig: 120, 120
+  offset: 3, 1
+  index: -1
+player_3_khorium_light_gold-00009
+  rotate: false
+  xy: 230, 0
+  size: 113, 110
+  orig: 120, 120
+  offset: 5, 1
+  index: -1
+player_3_khorium_light_gold-00010
+  rotate: true
+  xy: 1135, 118
+  size: 109, 108
+  orig: 120, 120
+  offset: 7, 3
+  index: -1
+player_3_khorium_light_gold-00011
+  rotate: false
+  xy: 567, 0
+  size: 111, 111
+  orig: 120, 120
+  offset: 5, 1
+  index: -1
+player_3_khorium_light_gold-00012
+  rotate: false
+  xy: 343, 0
+  size: 113, 110
+  orig: 120, 120
+  offset: 5, 1
+  index: -1
+player_3_khorium_light_gold-00013
+  rotate: false
+  xy: 902, 0
+  size: 112, 112
+  orig: 120, 120
+  offset: 6, 1
+  index: -1
+player_3_khorium_light_gold-00014
+  rotate: false
+  xy: 1243, 119
+  size: 104, 108
+  orig: 120, 120
+  offset: 9, 3
+  index: -1
+player_3_khorium_light_gold-00015
+  rotate: false
+  xy: 1014, 0
+  size: 112, 112
+  orig: 120, 120
+  offset: 4, 1
+  index: -1
+player_3_khorium_light_gold-00016
+  rotate: false
+  xy: 1234, 11
+  size: 109, 107
+  orig: 120, 120
+  offset: 7, 3
+  index: -1
+player_3_khorium_light_gold-00017
+  rotate: true
+  xy: 1126, 4
+  size: 111, 108
+  orig: 120, 120
+  offset: 5, 3
+  index: -1
+player_3_khorium_light_gold-00018
+  rotate: false
+  xy: 788, 0
+  size: 114, 112
+  orig: 120, 120
+  offset: 5, 1
+  index: -1
+player_3_khorium_light_gold-00019
+  rotate: true
+  xy: 572, 111
+  size: 116, 114
+  orig: 120, 120
+  offset: 3, 1
+  index: -1
+player_3_khorium_light_gold-00020
+  rotate: true
+  xy: 115, 110
+  size: 117, 115
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_gold-00021
+  rotate: true
+  xy: 800, 112
+  size: 115, 114
+  orig: 120, 120
+  offset: 3, 1
+  index: -1
+player_3_khorium_light_gold-00022
+  rotate: false
+  xy: 116, 0
+  size: 114, 110
+  orig: 120, 120
+  offset: 5, 2
+  index: -1
+player_3_khorium_light_gold-00023
+  rotate: true
+  xy: 344, 110
+  size: 117, 114
+  orig: 120, 120
+  offset: 2, 1
+  index: -1

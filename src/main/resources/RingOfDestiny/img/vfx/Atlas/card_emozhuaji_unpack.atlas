@@ -1,0 +1,55 @@
+
+card_emozhuaji_unpack.png
+size: 734,247
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_emozhuaji-00000
+  rotate: true
+  xy: 670, 123
+  size: 124, 64
+  orig: 500, 375
+  offset: 123, 170
+  index: -1
+card_emozhuaji-00001
+  rotate: false
+  xy: 612, 2
+  size: 121, 103
+  orig: 500, 375
+  offset: 110, 181
+  index: -1
+card_emozhuaji-00002
+  rotate: false
+  xy: 575, 105
+  size: 95, 142
+  orig: 500, 375
+  offset: 93, 188
+  index: -1
+card_emozhuaji-00003
+  rotate: true
+  xy: 469, 6
+  size: 98, 143
+  orig: 500, 375
+  offset: 88, 184
+  index: -1
+card_emozhuaji-00004
+  rotate: false
+  xy: 469, 104
+  size: 106, 143
+  orig: 500, 375
+  offset: 83, 181
+  index: -1
+card_emozhuaji-00005
+  rotate: false
+  xy: 0, 17
+  size: 262, 230
+  orig: 500, 375
+  offset: 173, 47
+  index: -1
+card_emozhuaji-00006
+  rotate: true
+  xy: 262, 0
+  size: 247, 207
+  orig: 500, 375
+  offset: 186, 47
+  index: -1

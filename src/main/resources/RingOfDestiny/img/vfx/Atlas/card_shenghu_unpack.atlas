@@ -1,0 +1,104 @@
+
+card_shenghu_unpack.png
+size: 1252,1107
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shenghu-00000
+  rotate: true
+  xy: 1067, 641
+  size: 466, 170
+  orig: 550, 250
+  offset: 71, 42
+  index: -1
+card_shenghu-00001
+  rotate: false
+  xy: 721, 0
+  size: 490, 184
+  orig: 550, 250
+  offset: 57, 28
+  index: -1
+card_shenghu-00002
+  rotate: false
+  xy: 721, 184
+  size: 522, 193
+  orig: 550, 250
+  offset: 27, 19
+  index: -1
+card_shenghu-00003
+  rotate: false
+  xy: 721, 377
+  size: 531, 188
+  orig: 550, 250
+  offset: 13, 24
+  index: -1
+card_shenghu-00004
+  rotate: true
+  xy: 531, 22
+  size: 542, 190
+  orig: 550, 250
+  offset: 7, 22
+  index: -1
+card_shenghu-00005
+  rotate: true
+  xy: 175, 564
+  size: 543, 194
+  orig: 550, 250
+  offset: 7, 18
+  index: -1
+card_shenghu-00006
+  rotate: true
+  xy: 344, 21
+  size: 543, 187
+  orig: 550, 250
+  offset: 7, 25
+  index: -1
+card_shenghu-00007
+  rotate: true
+  xy: 369, 564
+  size: 543, 181
+  orig: 550, 250
+  offset: 7, 31
+  index: -1
+card_shenghu-00008
+  rotate: true
+  xy: 550, 565
+  size: 542, 177
+  orig: 550, 250
+  offset: 7, 35
+  index: -1
+card_shenghu-00009
+  rotate: true
+  xy: 0, 12
+  size: 547, 174
+  orig: 550, 250
+  offset: 2, 38
+  index: -1
+card_shenghu-00010
+  rotate: true
+  xy: 0, 559
+  size: 548, 175
+  orig: 550, 250
+  offset: 1, 37
+  index: -1
+card_shenghu-00011
+  rotate: true
+  xy: 174, 12
+  size: 547, 170
+  orig: 550, 250
+  offset: 1, 42
+  index: -1
+card_shenghu-00012
+  rotate: true
+  xy: 727, 570
+  size: 537, 169
+  orig: 550, 250
+  offset: 7, 43
+  index: -1
+card_shenghu-00013
+  rotate: true
+  xy: 896, 607
+  size: 500, 171
+  orig: 550, 250
+  offset: 28, 41
+  index: -1

@@ -1,0 +1,97 @@
+
+card_jinshu_yuxue_unpack.png
+size: 1381,211
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_jinshu_yuxue-00000
+  rotate: false
+  xy: 0, 12
+  size: 111, 28
+  orig: 359, 283
+  offset: 127, 64
+  index: -1
+card_jinshu_yuxue-00001
+  rotate: false
+  xy: 248, 3
+  size: 198, 54
+  orig: 359, 283
+  offset: 84, 51
+  index: -1
+card_jinshu_yuxue-00002
+  rotate: false
+  xy: 505, 0
+  size: 223, 74
+  orig: 359, 283
+  offset: 69, 47
+  index: -1
+card_jinshu_yuxue-00003
+  rotate: false
+  xy: 858, 2
+  size: 231, 89
+  orig: 359, 283
+  offset: 61, 44
+  index: -1
+card_jinshu_yuxue-00004
+  rotate: false
+  xy: 1002, 107
+  size: 241, 104
+  orig: 359, 283
+  offset: 58, 42
+  index: -1
+card_jinshu_yuxue-00005
+  rotate: false
+  xy: 758, 91
+  size: 244, 120
+  orig: 359, 283
+  offset: 62, 41
+  index: -1
+card_jinshu_yuxue-00006
+  rotate: false
+  xy: 505, 74
+  size: 253, 137
+  orig: 359, 283
+  offset: 59, 42
+  index: -1
+card_jinshu_yuxue-00007
+  rotate: false
+  xy: 248, 57
+  size: 257, 154
+  orig: 359, 283
+  offset: 56, 43
+  index: -1
+card_jinshu_yuxue-00008
+  rotate: false
+  xy: 0, 40
+  size: 248, 171
+  orig: 359, 283
+  offset: 55, 43
+  index: -1
+card_jinshu_yuxue-00009
+  rotate: false
+  xy: 1240, 16
+  size: 139, 91
+  orig: 359, 283
+  offset: 112, 108
+  index: -1
+card_jinshu_yuxue-00010
+  rotate: false
+  xy: 1243, 125
+  size: 138, 86
+  orig: 359, 283
+  offset: 118, 130
+  index: -1
+card_jinshu_yuxue-00011
+  rotate: false
+  xy: 1089, 16
+  size: 151, 91
+  orig: 359, 283
+  offset: 109, 149
+  index: -1
+card_jinshu_yuxue-00012
+  rotate: false
+  xy: 728, 4
+  size: 130, 70
+  orig: 359, 283
+  offset: 133, 194
+  index: -1

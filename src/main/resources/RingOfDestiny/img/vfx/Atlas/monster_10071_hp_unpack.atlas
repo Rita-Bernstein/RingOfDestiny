@@ -1,0 +1,139 @@
+
+monster_10071_hp_unpack.png
+size: 1861,589
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10071_hp-00000
+  rotate: false
+  xy: 302, 3
+  size: 21, 21
+  orig: 500, 403
+  offset: 257, 205
+  index: -1
+monster_10071_hp-00001
+  rotate: false
+  xy: 256, 1
+  size: 23, 23
+  orig: 500, 403
+  offset: 256, 205
+  index: -1
+monster_10071_hp-00002
+  rotate: false
+  xy: 279, 1
+  size: 23, 23
+  orig: 500, 403
+  offset: 256, 206
+  index: -1
+monster_10071_hp-00003
+  rotate: false
+  xy: 210, 0
+  size: 23, 24
+  orig: 500, 403
+  offset: 256, 206
+  index: -1
+monster_10071_hp-00004
+  rotate: false
+  xy: 233, 0
+  size: 23, 24
+  orig: 500, 403
+  offset: 256, 207
+  index: -1
+monster_10071_hp-00005
+  rotate: false
+  xy: 210, 24
+  size: 217, 154
+  orig: 500, 403
+  offset: 140, 89
+  index: -1
+monster_10071_hp-00006
+  rotate: false
+  xy: 1302, 16
+  size: 298, 236
+  orig: 500, 403
+  offset: 96, 88
+  index: -1
+monster_10071_hp-00007
+  rotate: true
+  xy: 1178, 252
+  size: 337, 265
+  orig: 500, 403
+  offset: 79, 79
+  index: -1
+monster_10071_hp-00008
+  rotate: true
+  xy: 620, 219
+  size: 370, 290
+  orig: 500, 403
+  offset: 68, 70
+  index: -1
+monster_10071_hp-00009
+  rotate: true
+  xy: 0, 178
+  size: 411, 320
+  orig: 500, 403
+  offset: 50, 56
+  index: -1
+monster_10071_hp-00010
+  rotate: true
+  xy: 320, 209
+  size: 380, 300
+  orig: 500, 403
+  offset: 61, 67
+  index: -1
+monster_10071_hp-00011
+  rotate: true
+  xy: 910, 223
+  size: 366, 268
+  orig: 500, 403
+  offset: 70, 82
+  index: -1
+monster_10071_hp-00012
+  rotate: false
+  xy: 427, 0
+  size: 328, 209
+  orig: 500, 403
+  offset: 84, 103
+  index: -1
+monster_10071_hp-00013
+  rotate: false
+  xy: 981, 2
+  size: 321, 221
+  orig: 500, 403
+  offset: 92, 104
+  index: -1
+monster_10071_hp-00014
+  rotate: true
+  xy: 1443, 294
+  size: 295, 236
+  orig: 500, 403
+  offset: 103, 105
+  index: -1
+monster_10071_hp-00015
+  rotate: false
+  xy: 1600, 68
+  size: 235, 226
+  orig: 500, 403
+  offset: 129, 115
+  index: -1
+monster_10071_hp-00016
+  rotate: false
+  xy: 755, 2
+  size: 226, 217
+  orig: 500, 403
+  offset: 148, 123
+  index: -1
+monster_10071_hp-00017
+  rotate: true
+  xy: 1679, 378
+  size: 211, 182
+  orig: 500, 403
+  offset: 145, 163
+  index: -1
+monster_10071_hp-00018
+  rotate: false
+  xy: 0, 18
+  size: 210, 160
+  orig: 500, 403
+  offset: 150, 175
+  index: -1

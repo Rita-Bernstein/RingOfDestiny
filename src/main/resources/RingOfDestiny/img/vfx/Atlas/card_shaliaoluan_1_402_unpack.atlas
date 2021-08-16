@@ -1,0 +1,90 @@
+
+card_shaliaoluan_1_402_unpack.png
+size: 1225,556
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shaliaoluan_1_402-00000
+  rotate: true
+  xy: 297, 1
+  size: 257, 305
+  orig: 436, 404
+  offset: 103, 37
+  index: -1
+card_shaliaoluan_1_402-00001
+  rotate: true
+  xy: 837, 300
+  size: 256, 290
+  orig: 436, 404
+  offset: 103, 46
+  index: -1
+card_shaliaoluan_1_402-00002
+  rotate: true
+  xy: 0, 3
+  size: 251, 297
+  orig: 436, 404
+  offset: 116, 43
+  index: -1
+card_shaliaoluan_1_402-00003
+  rotate: true
+  xy: 535, 295
+  size: 261, 302
+  orig: 436, 404
+  offset: 116, 40
+  index: -1
+card_shaliaoluan_1_402-00004
+  rotate: false
+  xy: 0, 254
+  size: 268, 302
+  orig: 436, 404
+  offset: 116, 36
+  index: -1
+card_shaliaoluan_1_402-00005
+  rotate: false
+  xy: 602, 0
+  size: 267, 295
+  orig: 436, 404
+  offset: 116, 43
+  index: -1
+card_shaliaoluan_1_402-00006
+  rotate: false
+  xy: 268, 258
+  size: 267, 298
+  orig: 436, 404
+  offset: 120, 34
+  index: -1
+card_shaliaoluan_1_402-00007
+  rotate: true
+  xy: 869, 30
+  size: 270, 269
+  orig: 436, 404
+  offset: 128, 54
+  index: -1
+card_shaliaoluan_1_402-00008
+  rotate: true
+  xy: 1127, 436
+  size: 120, 98
+  orig: 436, 404
+  offset: 227, 152
+  index: -1
+card_shaliaoluan_1_402-00009
+  rotate: true
+  xy: 1127, 319
+  size: 117, 86
+  orig: 436, 404
+  offset: 231, 164
+  index: -1
+card_shaliaoluan_1_402-00010
+  rotate: true
+  xy: 1138, 203
+  size: 116, 82
+  orig: 436, 404
+  offset: 232, 166
+  index: -1
+card_shaliaoluan_1_402-00011
+  rotate: true
+  xy: 1138, 91
+  size: 112, 60
+  orig: 436, 404
+  offset: 238, 187
+  index: -1

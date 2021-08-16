@@ -1,0 +1,34 @@
+
+monster_10095_atk_unpack.png
+size: 598,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10095_atk-00000
+  rotate: false
+  xy: 308, 5
+  size: 194, 129
+  orig: 500, 477
+  offset: 258, 294
+  index: -1
+monster_10095_atk-00001
+  rotate: true
+  xy: 0, 0
+  size: 264, 308
+  orig: 500, 477
+  offset: 103, 85
+  index: -1
+monster_10095_atk-00002
+  rotate: true
+  xy: 308, 134
+  size: 130, 216
+  orig: 500, 477
+  offset: 116, 64
+  index: -1
+monster_10095_atk-00003
+  rotate: true
+  xy: 502, 26
+  size: 108, 96
+  orig: 500, 477
+  offset: 148, 60
+  index: -1

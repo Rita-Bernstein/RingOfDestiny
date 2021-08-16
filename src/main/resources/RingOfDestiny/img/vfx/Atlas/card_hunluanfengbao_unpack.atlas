@@ -1,0 +1,146 @@
+
+card_hunluanfengbao_unpack.png
+size: 1658,1130
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_hunluanfengbao-00000
+  rotate: true
+  xy: 416, 263
+  size: 415, 218
+  orig: 420, 250
+  offset: 1, 3
+  index: -1
+card_hunluanfengbao-00001
+  rotate: true
+  xy: 1041, 275
+  size: 403, 223
+  orig: 420, 250
+  offset: 13, 0
+  index: -1
+card_hunluanfengbao-00002
+  rotate: false
+  xy: 1202, 4
+  size: 388, 225
+  orig: 420, 250
+  offset: 19, 0
+  index: -1
+card_hunluanfengbao-00003
+  rotate: false
+  xy: 820, 0
+  size: 382, 226
+  orig: 420, 250
+  offset: 35, 0
+  index: -1
+card_hunluanfengbao-00004
+  rotate: false
+  xy: 1264, 455
+  size: 394, 226
+  orig: 420, 250
+  offset: 11, 0
+  index: -1
+card_hunluanfengbao-00005
+  rotate: false
+  xy: 1264, 229
+  size: 390, 226
+  orig: 420, 250
+  offset: 6, 0
+  index: -1
+card_hunluanfengbao-00006
+  rotate: false
+  xy: 634, 226
+  size: 406, 226
+  orig: 420, 250
+  offset: 10, 0
+  index: -1
+card_hunluanfengbao-00007
+  rotate: false
+  xy: 415, 0
+  size: 405, 226
+  orig: 420, 250
+  offset: 5, 0
+  index: -1
+card_hunluanfengbao-00008
+  rotate: false
+  xy: 838, 904
+  size: 410, 226
+  orig: 420, 250
+  offset: 1, 0
+  index: -1
+card_hunluanfengbao-00009
+  rotate: false
+  xy: 1248, 904
+  size: 410, 226
+  orig: 420, 250
+  offset: 0, 0
+  index: -1
+card_hunluanfengbao-00010
+  rotate: false
+  xy: 0, 452
+  size: 416, 226
+  orig: 420, 250
+  offset: 0, 0
+  index: -1
+card_hunluanfengbao-00011
+  rotate: false
+  xy: 419, 905
+  size: 419, 225
+  orig: 420, 250
+  offset: 0, 0
+  index: -1
+card_hunluanfengbao-00012
+  rotate: false
+  xy: 634, 452
+  size: 407, 226
+  orig: 420, 250
+  offset: 8, 0
+  index: -1
+card_hunluanfengbao-00013
+  rotate: false
+  xy: 835, 678
+  size: 410, 226
+  orig: 420, 250
+  offset: 5, 0
+  index: -1
+card_hunluanfengbao-00014
+  rotate: false
+  xy: 1245, 681
+  size: 412, 223
+  orig: 420, 250
+  offset: 0, 3
+  index: -1
+card_hunluanfengbao-00015
+  rotate: false
+  xy: 0, 904
+  size: 419, 226
+  orig: 420, 250
+  offset: 0, 0
+  index: -1
+card_hunluanfengbao-00016
+  rotate: false
+  xy: 0, 0
+  size: 415, 226
+  orig: 420, 250
+  offset: 0, 0
+  index: -1
+card_hunluanfengbao-00017
+  rotate: false
+  xy: 419, 679
+  size: 416, 226
+  orig: 420, 250
+  offset: 0, 0
+  index: -1
+card_hunluanfengbao-00018
+  rotate: false
+  xy: 0, 678
+  size: 419, 226
+  orig: 420, 250
+  offset: 0, 0
+  index: -1
+card_hunluanfengbao-00019
+  rotate: false
+  xy: 0, 226
+  size: 416, 226
+  orig: 420, 250
+  offset: 0, 0
+  index: -1

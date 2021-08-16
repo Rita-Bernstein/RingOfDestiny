@@ -1,0 +1,104 @@
+
+card_xuezhuan_unpack.png
+size: 285,790
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_xuezhuan-00000
+  rotate: false
+  xy: 0, 14
+  size: 105, 83
+  orig: 314, 236
+  offset: 40, 76
+  index: -1
+card_xuezhuan-00001
+  rotate: false
+  xy: 0, 687
+  size: 150, 103
+  orig: 314, 236
+  offset: 36, 60
+  index: -1
+card_xuezhuan-00002
+  rotate: false
+  xy: 144, 568
+  size: 141, 108
+  orig: 314, 236
+  offset: 54, 60
+  index: -1
+card_xuezhuan-00003
+  rotate: false
+  xy: 0, 336
+  size: 143, 111
+  orig: 314, 236
+  offset: 59, 61
+  index: -1
+card_xuezhuan-00004
+  rotate: false
+  xy: 0, 447
+  size: 143, 112
+  orig: 314, 236
+  offset: 64, 62
+  index: -1
+card_xuezhuan-00005
+  rotate: false
+  xy: 143, 331
+  size: 138, 115
+  orig: 314, 236
+  offset: 69, 62
+  index: -1
+card_xuezhuan-00006
+  rotate: false
+  xy: 137, 219
+  size: 137, 112
+  orig: 314, 236
+  offset: 73, 66
+  index: -1
+card_xuezhuan-00007
+  rotate: false
+  xy: 137, 109
+  size: 132, 110
+  orig: 314, 236
+  offset: 78, 66
+  index: -1
+card_xuezhuan-00008
+  rotate: false
+  xy: 131, 0
+  size: 129, 109
+  orig: 314, 236
+  offset: 83, 71
+  index: -1
+card_xuezhuan-00009
+  rotate: false
+  xy: 150, 676
+  size: 133, 114
+  orig: 314, 236
+  offset: 88, 70
+  index: -1
+card_xuezhuan-00010
+  rotate: false
+  xy: 0, 218
+  size: 137, 118
+  orig: 314, 236
+  offset: 93, 69
+  index: -1
+card_xuezhuan-00011
+  rotate: false
+  xy: 144, 446
+  size: 138, 122
+  orig: 314, 236
+  offset: 98, 68
+  index: -1
+card_xuezhuan-00012
+  rotate: false
+  xy: 0, 559
+  size: 144, 128
+  orig: 314, 236
+  offset: 95, 67
+  index: -1
+card_xuezhuan-00013
+  rotate: true
+  xy: 0, 97
+  size: 121, 131
+  orig: 314, 236
+  offset: 112, 67
+  index: -1

@@ -1,0 +1,97 @@
+
+card_qiankunyizhi_unpack.png
+size: 1944,741
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_qiankunyizhi-00000
+  rotate: true
+  xy: 412, 58
+  size: 234, 218
+  orig: 476, 476
+  offset: 110, 214
+  index: -1
+card_qiankunyizhi-00001
+  rotate: false
+  xy: 0, 287
+  size: 321, 454
+  orig: 476, 476
+  offset: 53, 20
+  index: -1
+card_qiankunyizhi-00002
+  rotate: false
+  xy: 321, 292
+  size: 306, 449
+  orig: 476, 476
+  offset: 58, 20
+  index: -1
+card_qiankunyizhi-00003
+  rotate: false
+  xy: 627, 299
+  size: 304, 442
+  orig: 476, 476
+  offset: 70, 16
+  index: -1
+card_qiankunyizhi-00004
+  rotate: false
+  xy: 931, 315
+  size: 333, 426
+  orig: 476, 476
+  offset: 71, 16
+  index: -1
+card_qiankunyizhi-00005
+  rotate: true
+  xy: 1459, 5
+  size: 321, 403
+  orig: 476, 476
+  offset: 71, 23
+  index: -1
+card_qiankunyizhi-00006
+  rotate: false
+  xy: 1264, 326
+  size: 304, 415
+  orig: 476, 476
+  offset: 76, 11
+  index: -1
+card_qiankunyizhi-00007
+  rotate: true
+  xy: 1044, 6
+  size: 309, 415
+  orig: 476, 476
+  offset: 72, 11
+  index: -1
+card_qiankunyizhi-00008
+  rotate: true
+  xy: 630, 4
+  size: 295, 414
+  orig: 476, 476
+  offset: 81, 8
+  index: -1
+card_qiankunyizhi-00009
+  rotate: true
+  xy: 0, 0
+  size: 287, 412
+  orig: 476, 476
+  offset: 83, 6
+  index: -1
+card_qiankunyizhi-00010
+  rotate: false
+  xy: 1568, 343
+  size: 231, 398
+  orig: 476, 476
+  offset: 128, 15
+  index: -1
+card_qiankunyizhi-00011
+  rotate: true
+  xy: 1799, 579
+  size: 162, 145
+  orig: 476, 476
+  offset: 181, 27
+  index: -1
+card_qiankunyizhi-00012
+  rotate: false
+  xy: 1799, 452
+  size: 135, 127
+  orig: 476, 476
+  offset: 190, 36
+  index: -1

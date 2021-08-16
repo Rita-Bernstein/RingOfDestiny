@@ -1,0 +1,62 @@
+
+card_yuanlizhihuan_unpack.png
+size: 238,288
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_yuanlizhihuan-00000
+  rotate: true
+  xy: 197, 114
+  size: 56, 41
+  orig: 228, 172
+  offset: 88, 61
+  index: -1
+card_yuanlizhihuan-00001
+  rotate: false
+  xy: 0, 183
+  size: 132, 105
+  orig: 228, 172
+  offset: 47, 29
+  index: -1
+card_yuanlizhihuan-00002
+  rotate: true
+  xy: 132, 170
+  size: 118, 102
+  orig: 228, 172
+  offset: 55, 31
+  index: -1
+card_yuanlizhihuan-00003
+  rotate: false
+  xy: 0, 91
+  size: 108, 92
+  orig: 228, 172
+  offset: 60, 36
+  index: -1
+card_yuanlizhihuan-00004
+  rotate: false
+  xy: 0, 11
+  size: 95, 80
+  orig: 228, 172
+  offset: 67, 42
+  index: -1
+card_yuanlizhihuan-00005
+  rotate: true
+  xy: 95, 0
+  size: 91, 66
+  orig: 228, 172
+  offset: 70, 53
+  index: -1
+card_yuanlizhihuan-00006
+  rotate: false
+  xy: 108, 104
+  size: 89, 66
+  orig: 228, 172
+  offset: 72, 53
+  index: -1
+card_yuanlizhihuan-00007
+  rotate: true
+  xy: 161, 18
+  size: 86, 64
+  orig: 228, 172
+  offset: 74, 55
+  index: -1

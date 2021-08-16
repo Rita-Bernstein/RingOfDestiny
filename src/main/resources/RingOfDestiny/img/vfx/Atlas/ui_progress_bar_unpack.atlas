@@ -1,0 +1,174 @@
+
+ui_progress_bar_unpack.png
+size: 1835,310
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_progress_bar-00000
+  rotate: false
+  xy: 918, 0
+  size: 228, 104
+  orig: 271, 152
+  offset: 36, 21
+  index: -1
+ui_progress_bar-00001
+  rotate: false
+  xy: 227, 207
+  size: 229, 103
+  orig: 271, 152
+  offset: 35, 21
+  index: -1
+ui_progress_bar-00002
+  rotate: false
+  xy: 456, 207
+  size: 233, 103
+  orig: 271, 152
+  offset: 31, 21
+  index: -1
+ui_progress_bar-00003
+  rotate: false
+  xy: 689, 207
+  size: 230, 103
+  orig: 271, 152
+  offset: 33, 21
+  index: -1
+ui_progress_bar-00004
+  rotate: false
+  xy: 919, 207
+  size: 231, 103
+  orig: 271, 152
+  offset: 33, 21
+  index: -1
+ui_progress_bar-00005
+  rotate: false
+  xy: 1150, 207
+  size: 228, 103
+  orig: 271, 152
+  offset: 35, 21
+  index: -1
+ui_progress_bar-00006
+  rotate: false
+  xy: 1378, 207
+  size: 231, 103
+  orig: 271, 152
+  offset: 33, 21
+  index: -1
+ui_progress_bar-00007
+  rotate: false
+  xy: 227, 104
+  size: 229, 103
+  orig: 271, 152
+  offset: 34, 21
+  index: -1
+ui_progress_bar-00008
+  rotate: false
+  xy: 456, 104
+  size: 228, 103
+  orig: 271, 152
+  offset: 35, 21
+  index: -1
+ui_progress_bar-00009
+  rotate: false
+  xy: 684, 104
+  size: 229, 103
+  orig: 271, 152
+  offset: 34, 21
+  index: -1
+ui_progress_bar-00010
+  rotate: false
+  xy: 1146, 0
+  size: 228, 104
+  orig: 271, 152
+  offset: 36, 21
+  index: -1
+ui_progress_bar-00011
+  rotate: false
+  xy: 1609, 207
+  size: 226, 103
+  orig: 271, 152
+  offset: 37, 21
+  index: -1
+ui_progress_bar-00012
+  rotate: false
+  xy: 0, 105
+  size: 227, 103
+  orig: 271, 152
+  offset: 36, 21
+  index: -1
+ui_progress_bar-00013
+  rotate: false
+  xy: 0, 208
+  size: 227, 102
+  orig: 271, 152
+  offset: 36, 21
+  index: -1
+ui_progress_bar-00014
+  rotate: false
+  xy: 913, 104
+  size: 233, 103
+  orig: 271, 152
+  offset: 31, 21
+  index: -1
+ui_progress_bar-00015
+  rotate: false
+  xy: 1146, 104
+  size: 230, 103
+  orig: 271, 152
+  offset: 33, 21
+  index: -1
+ui_progress_bar-00016
+  rotate: false
+  xy: 1376, 104
+  size: 230, 103
+  orig: 271, 152
+  offset: 33, 21
+  index: -1
+ui_progress_bar-00017
+  rotate: false
+  xy: 1606, 104
+  size: 228, 103
+  orig: 271, 152
+  offset: 35, 21
+  index: -1
+ui_progress_bar-00018
+  rotate: false
+  xy: 0, 1
+  size: 231, 103
+  orig: 271, 152
+  offset: 33, 21
+  index: -1
+ui_progress_bar-00019
+  rotate: false
+  xy: 231, 1
+  size: 229, 103
+  orig: 271, 152
+  offset: 34, 21
+  index: -1
+ui_progress_bar-00020
+  rotate: false
+  xy: 460, 1
+  size: 228, 103
+  orig: 271, 152
+  offset: 36, 21
+  index: -1
+ui_progress_bar-00021
+  rotate: false
+  xy: 688, 1
+  size: 230, 103
+  orig: 271, 152
+  offset: 33, 21
+  index: -1
+ui_progress_bar-00022
+  rotate: false
+  xy: 1374, 0
+  size: 232, 104
+  orig: 271, 152
+  offset: 32, 21
+  index: -1
+ui_progress_bar-00023
+  rotate: false
+  xy: 1606, 0
+  size: 229, 104
+  orig: 271, 152
+  offset: 35, 21
+  index: -1

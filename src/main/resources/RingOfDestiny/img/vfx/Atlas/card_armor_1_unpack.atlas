@@ -1,0 +1,104 @@
+
+card_armor_1_unpack.png
+size: 1204,566
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_armor_1-00000
+  rotate: false
+  xy: 1123, 71
+  size: 62, 83
+  orig: 287, 341
+  offset: 165, 130
+  index: -1
+card_armor_1-00001
+  rotate: false
+  xy: 1123, 154
+  size: 81, 158
+  orig: 287, 341
+  offset: 154, 96
+  index: -1
+card_armor_1-00002
+  rotate: false
+  xy: 977, 312
+  size: 152, 254
+  orig: 287, 341
+  offset: 113, 42
+  index: -1
+card_armor_1-00003
+  rotate: false
+  xy: 964, 13
+  size: 159, 270
+  orig: 287, 341
+  offset: 98, 34
+  index: -1
+card_armor_1-00004
+  rotate: false
+  xy: 793, 5
+  size: 171, 278
+  orig: 287, 341
+  offset: 88, 30
+  index: -1
+card_armor_1-00005
+  rotate: false
+  xy: 793, 283
+  size: 184, 283
+  orig: 287, 341
+  offset: 75, 28
+  index: -1
+card_armor_1-00006
+  rotate: false
+  xy: 601, 0
+  size: 192, 283
+  orig: 287, 341
+  offset: 74, 28
+  index: -1
+card_armor_1-00007
+  rotate: false
+  xy: 404, 283
+  size: 198, 283
+  orig: 287, 341
+  offset: 73, 28
+  index: -1
+card_armor_1-00008
+  rotate: false
+  xy: 201, 0
+  size: 200, 283
+  orig: 287, 341
+  offset: 72, 28
+  index: -1
+card_armor_1-00009
+  rotate: false
+  xy: 204, 283
+  size: 200, 283
+  orig: 287, 341
+  offset: 73, 28
+  index: -1
+card_armor_1-00010
+  rotate: false
+  xy: 0, 0
+  size: 201, 283
+  orig: 287, 341
+  offset: 73, 28
+  index: -1
+card_armor_1-00011
+  rotate: false
+  xy: 0, 283
+  size: 204, 283
+  orig: 287, 341
+  offset: 71, 28
+  index: -1
+card_armor_1-00012
+  rotate: false
+  xy: 401, 1
+  size: 200, 282
+  orig: 287, 341
+  offset: 72, 28
+  index: -1
+card_armor_1-00013
+  rotate: false
+  xy: 602, 285
+  size: 191, 281
+  orig: 287, 341
+  offset: 76, 29
+  index: -1

@@ -1,0 +1,69 @@
+
+card_xinyangzhixin_unpack.png
+size: 478,585
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_xinyangzhixin-00000
+  rotate: false
+  xy: 288, 248
+  size: 188, 159
+  orig: 300, 250
+  offset: 60, 40
+  index: -1
+card_xinyangzhixin-00001
+  rotate: false
+  xy: 0, 118
+  size: 252, 226
+  orig: 300, 250
+  offset: 27, 5
+  index: -1
+card_xinyangzhixin-00002
+  rotate: false
+  xy: 0, 344
+  size: 288, 241
+  orig: 300, 250
+  offset: 6, 4
+  index: -1
+card_xinyangzhixin-00003
+  rotate: true
+  xy: 288, 407
+  size: 178, 182
+  orig: 300, 250
+  offset: 66, 32
+  index: -1
+card_xinyangzhixin-00004
+  rotate: false
+  xy: 0, 12
+  size: 125, 106
+  orig: 300, 250
+  offset: 91, 69
+  index: -1
+card_xinyangzhixin-00005
+  rotate: true
+  xy: 371, 119
+  size: 129, 107
+  orig: 300, 250
+  offset: 88, 65
+  index: -1
+card_xinyangzhixin-00006
+  rotate: false
+  xy: 252, 16
+  size: 118, 113
+  orig: 300, 250
+  offset: 96, 63
+  index: -1
+card_xinyangzhixin-00007
+  rotate: false
+  xy: 252, 129
+  size: 119, 119
+  orig: 300, 250
+  offset: 97, 60
+  index: -1
+card_xinyangzhixin-00008
+  rotate: true
+  xy: 370, 0
+  size: 119, 101
+  orig: 300, 250
+  offset: 99, 57
+  index: -1

@@ -1,0 +1,90 @@
+
+card_zhanren_2_unpack.png
+size: 1421,319
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_zhanren_2-00000
+  rotate: false
+  xy: 1036, 108
+  size: 376, 106
+  orig: 500, 223
+  offset: 61, 48
+  index: -1
+card_zhanren_2-00001
+  rotate: false
+  xy: 0, 19
+  size: 351, 107
+  orig: 500, 223
+  offset: 68, 47
+  index: -1
+card_zhanren_2-00002
+  rotate: false
+  xy: 351, 11
+  size: 357, 108
+  orig: 500, 223
+  offset: 69, 47
+  index: -1
+card_zhanren_2-00003
+  rotate: false
+  xy: 1132, 214
+  size: 289, 105
+  orig: 500, 223
+  offset: 113, 50
+  index: -1
+card_zhanren_2-00004
+  rotate: false
+  xy: 744, 222
+  size: 388, 97
+  orig: 500, 223
+  offset: 55, 54
+  index: -1
+card_zhanren_2-00005
+  rotate: false
+  xy: 0, 126
+  size: 369, 98
+  orig: 500, 223
+  offset: 65, 55
+  index: -1
+card_zhanren_2-00006
+  rotate: false
+  xy: 369, 119
+  size: 373, 105
+  orig: 500, 223
+  offset: 64, 49
+  index: -1
+card_zhanren_2-00007
+  rotate: false
+  xy: 708, 0
+  size: 349, 108
+  orig: 500, 223
+  offset: 75, 46
+  index: -1
+card_zhanren_2-00008
+  rotate: false
+  xy: 1057, 0
+  size: 355, 108
+  orig: 500, 223
+  offset: 71, 47
+  index: -1
+card_zhanren_2-00009
+  rotate: false
+  xy: 742, 117
+  size: 294, 105
+  orig: 500, 223
+  offset: 105, 50
+  index: -1
+card_zhanren_2-00010
+  rotate: false
+  xy: 359, 224
+  size: 385, 95
+  orig: 500, 223
+  offset: 56, 56
+  index: -1
+card_zhanren_2-00011
+  rotate: false
+  xy: 0, 229
+  size: 359, 90
+  orig: 500, 223
+  offset: 69, 59
+  index: -1

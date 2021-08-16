@@ -1,0 +1,90 @@
+
+power_bar_1_over_unpack.png
+size: 1731,1330
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+power_bar_1_over-00000
+  rotate: false
+  xy: 0, 1
+  size: 454, 431
+  orig: 500, 500
+  offset: 22, 21
+  index: -1
+power_bar_1_over-00001
+  rotate: true
+  xy: 0, 881
+  size: 449, 437
+  orig: 500, 500
+  offset: 20, 17
+  index: -1
+power_bar_1_over-00002
+  rotate: false
+  xy: 1291, 465
+  size: 432, 430
+  orig: 500, 500
+  offset: 23, 21
+  index: -1
+power_bar_1_over-00003
+  rotate: false
+  xy: 865, 895
+  size: 428, 435
+  orig: 500, 500
+  offset: 26, 19
+  index: -1
+power_bar_1_over-00004
+  rotate: true
+  xy: 864, 443
+  size: 439, 427
+  orig: 500, 500
+  offset: 25, 25
+  index: -1
+power_bar_1_over-00005
+  rotate: true
+  xy: 1309, 27
+  size: 438, 422
+  orig: 500, 500
+  offset: 16, 27
+  index: -1
+power_bar_1_over-00006
+  rotate: true
+  xy: 437, 882
+  size: 448, 428
+  orig: 500, 500
+  offset: 22, 24
+  index: -1
+power_bar_1_over-00007
+  rotate: true
+  xy: 0, 432
+  size: 449, 437
+  orig: 500, 500
+  offset: 20, 17
+  index: -1
+power_bar_1_over-00008
+  rotate: true
+  xy: 454, 0
+  size: 438, 429
+  orig: 500, 500
+  offset: 20, 24
+  index: -1
+power_bar_1_over-00009
+  rotate: true
+  xy: 1293, 897
+  size: 433, 429
+  orig: 500, 500
+  offset: 21, 26
+  index: -1
+power_bar_1_over-00010
+  rotate: true
+  xy: 437, 438
+  size: 444, 427
+  orig: 500, 500
+  offset: 20, 27
+  index: -1
+power_bar_1_over-00011
+  rotate: true
+  xy: 883, 4
+  size: 439, 426
+  orig: 500, 500
+  offset: 16, 25
+  index: -1

@@ -1,0 +1,167 @@
+
+card_spring_gong_unpack.png
+size: 1466,933
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_spring_gong-00000
+  rotate: true
+  xy: 0, 759
+  size: 174, 186
+  orig: 400, 400
+  offset: 111, 108
+  index: -1
+card_spring_gong-00001
+  rotate: true
+  xy: 186, 714
+  size: 219, 230
+  orig: 400, 400
+  offset: 93, 87
+  index: -1
+card_spring_gong-00002
+  rotate: true
+  xy: 667, 704
+  size: 229, 238
+  orig: 400, 400
+  offset: 88, 81
+  index: -1
+card_spring_gong-00003
+  rotate: true
+  xy: 241, 477
+  size: 231, 240
+  orig: 400, 400
+  offset: 87, 80
+  index: -1
+card_spring_gong-00004
+  rotate: true
+  xy: 241, 240
+  size: 233, 243
+  orig: 400, 400
+  offset: 86, 78
+  index: -1
+card_spring_gong-00005
+  rotate: true
+  xy: 965, 471
+  size: 232, 242
+  orig: 400, 400
+  offset: 86, 78
+  index: -1
+card_spring_gong-00006
+  rotate: true
+  xy: 481, 473
+  size: 231, 241
+  orig: 400, 400
+  offset: 87, 79
+  index: -1
+card_spring_gong-00007
+  rotate: true
+  xy: 905, 704
+  size: 229, 240
+  orig: 400, 400
+  offset: 88, 80
+  index: -1
+card_spring_gong-00008
+  rotate: true
+  xy: 722, 473
+  size: 231, 243
+  orig: 400, 400
+  offset: 87, 79
+  index: -1
+card_spring_gong-00009
+  rotate: true
+  xy: 484, 240
+  size: 233, 245
+  orig: 400, 400
+  offset: 86, 80
+  index: -1
+card_spring_gong-00010
+  rotate: true
+  xy: 729, 238
+  size: 233, 247
+  orig: 400, 400
+  offset: 86, 80
+  index: -1
+card_spring_gong-00011
+  rotate: true
+  xy: 1217, 237
+  size: 234, 249
+  orig: 400, 400
+  offset: 85, 80
+  index: -1
+card_spring_gong-00012
+  rotate: true
+  xy: 734, 2
+  size: 236, 250
+  orig: 400, 400
+  offset: 84, 80
+  index: -1
+card_spring_gong-00013
+  rotate: true
+  xy: 984, 0
+  size: 237, 250
+  orig: 400, 400
+  offset: 82, 81
+  index: -1
+card_spring_gong-00014
+  rotate: true
+  xy: 240, 5
+  size: 235, 248
+  orig: 400, 400
+  offset: 83, 83
+  index: -1
+card_spring_gong-00015
+  rotate: true
+  xy: 488, 3
+  size: 235, 246
+  orig: 400, 400
+  offset: 85, 83
+  index: -1
+card_spring_gong-00016
+  rotate: true
+  xy: 1207, 471
+  size: 232, 245
+  orig: 400, 400
+  offset: 89, 84
+  index: -1
+card_spring_gong-00017
+  rotate: true
+  xy: 1145, 703
+  size: 230, 241
+  orig: 400, 400
+  offset: 89, 90
+  index: -1
+card_spring_gong-00018
+  rotate: true
+  xy: 0, 484
+  size: 230, 241
+  orig: 400, 400
+  offset: 91, 91
+  index: -1
+card_spring_gong-00019
+  rotate: true
+  xy: 0, 252
+  size: 232, 241
+  orig: 400, 400
+  offset: 90, 93
+  index: -1
+card_spring_gong-00020
+  rotate: true
+  xy: 976, 238
+  size: 233, 241
+  orig: 400, 400
+  offset: 90, 96
+  index: -1
+card_spring_gong-00021
+  rotate: false
+  xy: 0, 8
+  size: 240, 244
+  orig: 400, 400
+  offset: 86, 98
+  index: -1
+card_spring_gong-00022
+  rotate: true
+  xy: 416, 708
+  size: 225, 251
+  orig: 400, 400
+  offset: 84, 95
+  index: -1

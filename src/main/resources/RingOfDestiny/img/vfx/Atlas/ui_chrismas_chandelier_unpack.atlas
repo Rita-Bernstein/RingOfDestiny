@@ -1,0 +1,48 @@
+
+ui_chrismas_chandelier_unpack.png
+size: 376,93
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_chrismas_chandelier-00000
+  rotate: false
+  xy: 0, 0
+  size: 376, 46
+  orig: 410, 117
+  offset: 14, 24
+  index: -1
+ui_chrismas_chandelier-00001
+  rotate: false
+  xy: 0, 0
+  size: 376, 46
+  orig: 410, 117
+  offset: 14, 24
+  index: -1
+ui_chrismas_chandelier-00002
+  rotate: false
+  xy: 0, 0
+  size: 376, 46
+  orig: 410, 117
+  offset: 14, 24
+  index: -1
+ui_chrismas_chandelier-00003
+  rotate: false
+  xy: 0, 46
+  size: 376, 47
+  orig: 410, 117
+  offset: 19, 23
+  index: -1
+ui_chrismas_chandelier-00004
+  rotate: false
+  xy: 0, 46
+  size: 376, 47
+  orig: 410, 117
+  offset: 19, 23
+  index: -1
+ui_chrismas_chandelier-00005
+  rotate: false
+  xy: 0, 46
+  size: 376, 47
+  orig: 410, 117
+  offset: 19, 23
+  index: -1

@@ -1,0 +1,118 @@
+
+card_shoulijianyu_402_unpack.png
+size: 1332,566
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shoulijianyu_402-00000
+  rotate: false
+  xy: 883, 249
+  size: 204, 82
+  orig: 435, 238
+  offset: 33, 155
+  index: -1
+card_shoulijianyu_402-00001
+  rotate: true
+  xy: 667, 231
+  size: 335, 216
+  orig: 435, 238
+  offset: 36, 21
+  index: -1
+card_shoulijianyu_402-00002
+  rotate: true
+  xy: 0, 224
+  size: 342, 219
+  orig: 435, 238
+  offset: 34, 18
+  index: -1
+card_shoulijianyu_402-00003
+  rotate: true
+  xy: 219, 227
+  size: 339, 222
+  orig: 435, 238
+  offset: 33, 15
+  index: -1
+card_shoulijianyu_402-00004
+  rotate: true
+  xy: 441, 228
+  size: 338, 226
+  orig: 435, 238
+  offset: 33, 11
+  index: -1
+card_shoulijianyu_402-00005
+  rotate: false
+  xy: 136, 1
+  size: 321, 223
+  orig: 435, 238
+  offset: 55, 14
+  index: -1
+card_shoulijianyu_402-00006
+  rotate: false
+  xy: 457, 0
+  size: 308, 228
+  orig: 435, 238
+  offset: 68, 9
+  index: -1
+card_shoulijianyu_402-00007
+  rotate: false
+  xy: 765, 13
+  size: 289, 218
+  orig: 435, 238
+  offset: 83, 19
+  index: -1
+card_shoulijianyu_402-00008
+  rotate: false
+  xy: 1054, 412
+  size: 236, 154
+  orig: 435, 238
+  offset: 137, 20
+  index: -1
+card_shoulijianyu_402-00009
+  rotate: true
+  xy: 883, 331
+  size: 235, 140
+  orig: 435, 238
+  offset: 141, 27
+  index: -1
+card_shoulijianyu_402-00010
+  rotate: true
+  xy: 1054, 14
+  size: 235, 140
+  orig: 435, 238
+  offset: 141, 31
+  index: -1
+card_shoulijianyu_402-00011
+  rotate: true
+  xy: 0, 0
+  size: 224, 136
+  orig: 435, 238
+  offset: 145, 34
+  index: -1
+card_shoulijianyu_402-00012
+  rotate: true
+  xy: 1210, 222
+  size: 190, 122
+  orig: 435, 238
+  offset: 163, 44
+  index: -1
+card_shoulijianyu_402-00013
+  rotate: true
+  xy: 1194, 36
+  size: 186, 122
+  orig: 435, 238
+  offset: 167, 42
+  index: -1
+card_shoulijianyu_402-00014
+  rotate: false
+  xy: 1087, 262
+  size: 123, 75
+  orig: 435, 238
+  offset: 206, 48
+  index: -1
+card_shoulijianyu_402-00015
+  rotate: false
+  xy: 1023, 337
+  size: 125, 75
+  orig: 435, 238
+  offset: 207, 45
+  index: -1

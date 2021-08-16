@@ -1,0 +1,13 @@
+
+card_xieemiman_unpack.png
+size: 273,250
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_xieemiman-card_xieemiman
+  rotate: false
+  xy: 0, 0
+  size: 273, 250
+  orig: 500, 465
+  offset: 108, 112
+  index: -1

@@ -1,0 +1,90 @@
+
+card_zailaiyifa_unpack.png
+size: 425,297
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_zailaiyifa-00000
+  rotate: true
+  xy: 309, 0
+  size: 52, 53
+  orig: 381, 217
+  offset: 71, 84
+  index: -1
+card_zailaiyifa-00001
+  rotate: true
+  xy: 116, 72
+  size: 59, 52
+  orig: 381, 217
+  offset: 77, 84
+  index: -1
+card_zailaiyifa-00002
+  rotate: false
+  xy: 365, 117
+  size: 60, 48
+  orig: 381, 217
+  offset: 98, 86
+  index: -1
+card_zailaiyifa-00003
+  rotate: false
+  xy: 309, 52
+  size: 56, 53
+  orig: 381, 217
+  offset: 129, 84
+  index: -1
+card_zailaiyifa-00004
+  rotate: false
+  xy: 365, 64
+  size: 56, 53
+  orig: 381, 217
+  offset: 163, 84
+  index: -1
+card_zailaiyifa-00005
+  rotate: true
+  xy: 116, 12
+  size: 60, 49
+  orig: 381, 217
+  offset: 197, 86
+  index: -1
+card_zailaiyifa-00006
+  rotate: false
+  xy: 309, 105
+  size: 56, 60
+  orig: 381, 217
+  offset: 241, 79
+  index: -1
+card_zailaiyifa-00007
+  rotate: false
+  xy: 0, 131
+  size: 171, 166
+  orig: 381, 217
+  offset: 183, 26
+  index: -1
+card_zailaiyifa-00008
+  rotate: true
+  xy: 305, 165
+  size: 132, 118
+  orig: 381, 217
+  offset: 192, 46
+  index: -1
+card_zailaiyifa-00009
+  rotate: false
+  xy: 171, 16
+  size: 138, 138
+  orig: 381, 217
+  offset: 195, 40
+  index: -1
+card_zailaiyifa-00010
+  rotate: false
+  xy: 171, 154
+  size: 134, 143
+  orig: 381, 217
+  offset: 203, 46
+  index: -1
+card_zailaiyifa-00011
+  rotate: true
+  xy: 0, 0
+  size: 131, 116
+  orig: 381, 217
+  offset: 199, 45
+  index: -1

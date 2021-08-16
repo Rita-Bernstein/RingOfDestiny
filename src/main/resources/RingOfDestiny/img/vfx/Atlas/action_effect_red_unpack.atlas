@@ -1,0 +1,83 @@
+
+action_effect_red_unpack.png
+size: 1212,648
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action_effect_red-00000
+  rotate: true
+  xy: 897, 212
+  size: 214, 311
+  orig: 287, 385
+  offset: 43, 32
+  index: -1
+action_effect_red-00001
+  rotate: false
+  xy: 677, 329
+  size: 220, 319
+  orig: 287, 385
+  offset: 40, 26
+  index: -1
+action_effect_red-00002
+  rotate: false
+  xy: 0, 324
+  size: 228, 324
+  orig: 287, 385
+  offset: 34, 23
+  index: -1
+action_effect_red-00003
+  rotate: false
+  xy: 228, 325
+  size: 229, 323
+  orig: 287, 385
+  offset: 33, 23
+  index: -1
+action_effect_red-00004
+  rotate: false
+  xy: 448, 2
+  size: 227, 323
+  orig: 287, 385
+  offset: 34, 23
+  index: -1
+action_effect_red-00005
+  rotate: false
+  xy: 225, 0
+  size: 223, 324
+  orig: 287, 385
+  offset: 37, 22
+  index: -1
+action_effect_red-00006
+  rotate: false
+  xy: 457, 325
+  size: 220, 323
+  orig: 287, 385
+  offset: 39, 23
+  index: -1
+action_effect_red-00007
+  rotate: false
+  xy: 675, 2
+  size: 220, 323
+  orig: 287, 385
+  offset: 38, 23
+  index: -1
+action_effect_red-00008
+  rotate: false
+  xy: 0, 0
+  size: 225, 324
+  orig: 287, 385
+  offset: 34, 23
+  index: -1
+action_effect_red-00009
+  rotate: true
+  xy: 897, 426
+  size: 222, 315
+  orig: 287, 385
+  offset: 35, 26
+  index: -1
+action_effect_red-00010
+  rotate: true
+  xy: 895, 3
+  size: 209, 306
+  orig: 287, 385
+  offset: 43, 32
+  index: -1

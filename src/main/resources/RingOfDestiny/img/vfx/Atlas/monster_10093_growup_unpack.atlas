@@ -1,0 +1,90 @@
+
+monster_10093_growup_unpack.png
+size: 1992,621
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10093_growup-00000
+  rotate: true
+  xy: 1408, 50
+  size: 260, 205
+  orig: 500, 470
+  offset: 124, 68
+  index: -1
+monster_10093_growup-00001
+  rotate: true
+  xy: 1763, 256
+  size: 365, 229
+  orig: 500, 470
+  offset: 73, 50
+  index: -1
+monster_10093_growup-00002
+  rotate: false
+  xy: 1613, 19
+  size: 365, 237
+  orig: 500, 470
+  offset: 73, 47
+  index: -1
+monster_10093_growup-00003
+  rotate: false
+  xy: 681, 48
+  size: 368, 257
+  orig: 500, 470
+  offset: 73, 50
+  index: -1
+monster_10093_growup-00004
+  rotate: false
+  xy: 357, 315
+  size: 361, 306
+  orig: 500, 470
+  offset: 75, 49
+  index: -1
+monster_10093_growup-00005
+  rotate: false
+  xy: 0, 302
+  size: 357, 319
+  orig: 500, 470
+  offset: 78, 49
+  index: -1
+monster_10093_growup-00006
+  rotate: false
+  xy: 718, 305
+  size: 351, 316
+  orig: 500, 470
+  offset: 82, 49
+  index: -1
+monster_10093_growup-00007
+  rotate: false
+  xy: 1069, 310
+  size: 346, 311
+  orig: 500, 470
+  offset: 82, 50
+  index: -1
+monster_10093_growup-00008
+  rotate: false
+  xy: 1069, 0
+  size: 339, 310
+  orig: 500, 470
+  offset: 82, 51
+  index: -1
+monster_10093_growup-00009
+  rotate: false
+  xy: 1415, 316
+  size: 348, 305
+  orig: 500, 470
+  offset: 83, 52
+  index: -1
+monster_10093_growup-00010
+  rotate: false
+  xy: 0, 6
+  size: 334, 296
+  orig: 500, 470
+  offset: 86, 56
+  index: -1
+monster_10093_growup-00011
+  rotate: false
+  xy: 357, 48
+  size: 324, 267
+  orig: 500, 470
+  offset: 90, 64
+  index: -1

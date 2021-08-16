@@ -1,0 +1,69 @@
+
+monster_10097_hongbao_unpack.png
+size: 621,1025
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10097_hongbao-00000
+  rotate: false
+  xy: 226, 0
+  size: 45, 51
+  orig: 436, 413
+  offset: 203, 269
+  index: -1
+monster_10097_hongbao-00001
+  rotate: true
+  xy: 412, 754
+  size: 271, 205
+  orig: 436, 413
+  offset: 84, 159
+  index: -1
+monster_10097_hongbao-00002
+  rotate: false
+  xy: 0, 193
+  size: 373, 275
+  orig: 436, 413
+  offset: 34, 121
+  index: -1
+monster_10097_hongbao-00003
+  rotate: false
+  xy: 0, 747
+  size: 412, 278
+  orig: 436, 413
+  offset: 14, 118
+  index: -1
+monster_10097_hongbao-00004
+  rotate: false
+  xy: 0, 468
+  size: 407, 279
+  orig: 436, 413
+  offset: 17, 117
+  index: -1
+monster_10097_hongbao-00005
+  rotate: false
+  xy: 412, 520
+  size: 209, 234
+  orig: 436, 413
+  offset: 112, 128
+  index: -1
+monster_10097_hongbao-00006
+  rotate: false
+  xy: 373, 51
+  size: 237, 263
+  orig: 436, 413
+  offset: 94, 103
+  index: -1
+monster_10097_hongbao-00007
+  rotate: false
+  xy: 407, 314
+  size: 213, 206
+  orig: 436, 413
+  offset: 82, 161
+  index: -1
+monster_10097_hongbao-00008
+  rotate: false
+  xy: 0, 7
+  size: 226, 186
+  orig: 436, 413
+  offset: 72, 136
+  index: -1

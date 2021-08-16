@@ -1,0 +1,90 @@
+
+ui_map_line_2_unpack.png
+size: 797,734
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_map_line_2-00000
+  rotate: true
+  xy: 0, 498
+  size: 120, 393
+  orig: 183, 431
+  offset: 36, 29
+  index: -1
+ui_map_line_2-00001
+  rotate: true
+  xy: 391, 130
+  size: 126, 405
+  orig: 183, 431
+  offset: 34, 23
+  index: -1
+ui_map_line_2-00002
+  rotate: true
+  xy: 0, 618
+  size: 116, 398
+  orig: 183, 431
+  offset: 38, 32
+  index: -1
+ui_map_line_2-00003
+  rotate: true
+  xy: 0, 377
+  size: 121, 398
+  orig: 183, 431
+  offset: 35, 29
+  index: -1
+ui_map_line_2-00004
+  rotate: true
+  xy: 398, 377
+  size: 121, 387
+  orig: 183, 431
+  offset: 33, 32
+  index: -1
+ui_map_line_2-00005
+  rotate: true
+  xy: 0, 5
+  size: 128, 378
+  orig: 183, 431
+  offset: 30, 27
+  index: -1
+ui_map_line_2-00006
+  rotate: true
+  xy: 393, 498
+  size: 120, 381
+  orig: 183, 431
+  offset: 36, 29
+  index: -1
+ui_map_line_2-00007
+  rotate: true
+  xy: 0, 256
+  size: 121, 399
+  orig: 183, 431
+  offset: 34, 28
+  index: -1
+ui_map_line_2-00008
+  rotate: true
+  xy: 398, 618
+  size: 116, 398
+  orig: 183, 431
+  offset: 38, 32
+  index: -1
+ui_map_line_2-00009
+  rotate: true
+  xy: 399, 256
+  size: 121, 398
+  orig: 183, 431
+  offset: 35, 29
+  index: -1
+ui_map_line_2-00010
+  rotate: true
+  xy: 0, 133
+  size: 123, 391
+  orig: 183, 431
+  offset: 33, 28
+  index: -1
+ui_map_line_2-00011
+  rotate: true
+  xy: 378, 0
+  size: 130, 382
+  orig: 183, 431
+  offset: 29, 26
+  index: -1

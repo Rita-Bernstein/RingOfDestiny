@@ -1,0 +1,83 @@
+
+monster_10072_tianqian_unpack.png
+size: 1016,546
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10072_tianqian-00000
+  rotate: false
+  xy: 918, 354
+  size: 98, 192
+  orig: 500, 500
+  offset: 209, 258
+  index: -1
+monster_10072_tianqian-00001
+  rotate: true
+  xy: 0, 313
+  size: 233, 363
+  orig: 500, 500
+  offset: 135, 85
+  index: -1
+monster_10072_tianqian-00002
+  rotate: false
+  xy: 0, 0
+  size: 215, 178
+  orig: 500, 500
+  offset: 145, 85
+  index: -1
+monster_10072_tianqian-00003
+  rotate: true
+  xy: 363, 341
+  size: 205, 361
+  orig: 500, 500
+  offset: 149, 91
+  index: -1
+monster_10072_tianqian-00004
+  rotate: false
+  xy: 724, 193
+  size: 194, 353
+  orig: 500, 500
+  offset: 152, 97
+  index: -1
+monster_10072_tianqian-00005
+  rotate: false
+  xy: 215, 27
+  size: 190, 134
+  orig: 500, 500
+  offset: 155, 98
+  index: -1
+monster_10072_tianqian-00006
+  rotate: true
+  xy: 363, 161
+  size: 180, 331
+  orig: 500, 500
+  offset: 160, 101
+  index: -1
+monster_10072_tianqian-00007
+  rotate: true
+  xy: 694, 23
+  size: 170, 321
+  orig: 500, 500
+  offset: 165, 104
+  index: -1
+monster_10072_tianqian-00008
+  rotate: true
+  xy: 0, 178
+  size: 135, 307
+  orig: 500, 500
+  offset: 185, 114
+  index: -1
+monster_10072_tianqian-00009
+  rotate: true
+  xy: 405, 29
+  size: 132, 275
+  orig: 500, 500
+  offset: 185, 114
+  index: -1
+monster_10072_tianqian-00010
+  rotate: true
+  xy: 918, 230
+  size: 124, 51
+  orig: 500, 500
+  offset: 185, 115
+  index: -1

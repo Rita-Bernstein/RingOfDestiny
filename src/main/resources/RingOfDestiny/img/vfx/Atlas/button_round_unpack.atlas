@@ -1,0 +1,76 @@
+
+button_round_unpack.png
+size: 1750,698
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button_round-00000
+  rotate: false
+  xy: 350, 2
+  size: 350, 349
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+button_round-00001
+  rotate: false
+  xy: 700, 350
+  size: 350, 348
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+button_round-00002
+  rotate: false
+  xy: 1050, 0
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+button_round-00003
+  rotate: false
+  xy: 1400, 0
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+button_round-00004
+  rotate: false
+  xy: 1050, 350
+  size: 350, 348
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+button_round-00005
+  rotate: false
+  xy: 0, 351
+  size: 350, 347
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+button_round-00006
+  rotate: false
+  xy: 1400, 350
+  size: 350, 348
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+button_round-00007
+  rotate: false
+  xy: 700, 1
+  size: 350, 349
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+button_round-00008
+  rotate: false
+  xy: 0, 3
+  size: 350, 348
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+button_round-00009
+  rotate: false
+  xy: 350, 351
+  size: 350, 347
+  orig: 350, 350
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,167 @@
+
+player_3_magic_light_gold_unpack.png
+size: 712,1056
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+player_3_magic_light_gold-00000
+  rotate: false
+  xy: 231, 243
+  size: 226, 130
+  orig: 250, 176
+  offset: 20, 28
+  index: -1
+player_3_magic_light_gold-00001
+  rotate: true
+  xy: 420, 1
+  size: 218, 130
+  orig: 250, 176
+  offset: 21, 28
+  index: -1
+player_3_magic_light_gold-00002
+  rotate: false
+  xy: 457, 219
+  size: 221, 130
+  orig: 250, 176
+  offset: 19, 27
+  index: -1
+player_3_magic_light_gold-00003
+  rotate: false
+  xy: 238, 922
+  size: 238, 134
+  orig: 250, 176
+  offset: 8, 22
+  index: -1
+player_3_magic_light_gold-00004
+  rotate: false
+  xy: 0, 371
+  size: 231, 135
+  orig: 250, 176
+  offset: 12, 25
+  index: -1
+player_3_magic_light_gold-00005
+  rotate: false
+  xy: 0, 918
+  size: 238, 138
+  orig: 250, 176
+  offset: 10, 25
+  index: -1
+player_3_magic_light_gold-00006
+  rotate: false
+  xy: 476, 914
+  size: 236, 142
+  orig: 250, 176
+  offset: 11, 24
+  index: -1
+player_3_magic_light_gold-00007
+  rotate: false
+  xy: 466, 491
+  size: 231, 142
+  orig: 250, 176
+  offset: 16, 26
+  index: -1
+player_3_magic_light_gold-00008
+  rotate: false
+  xy: 470, 633
+  size: 232, 144
+  orig: 250, 176
+  offset: 15, 26
+  index: -1
+player_3_magic_light_gold-00009
+  rotate: false
+  xy: 0, 506
+  size: 231, 145
+  orig: 250, 176
+  offset: 16, 26
+  index: -1
+player_3_magic_light_gold-00010
+  rotate: false
+  xy: 236, 655
+  size: 234, 133
+  orig: 250, 176
+  offset: 15, 26
+  index: -1
+player_3_magic_light_gold-00011
+  rotate: false
+  xy: 0, 651
+  size: 234, 133
+  orig: 250, 176
+  offset: 16, 26
+  index: -1
+player_3_magic_light_gold-00012
+  rotate: false
+  xy: 238, 788
+  size: 236, 134
+  orig: 250, 176
+  offset: 14, 26
+  index: -1
+player_3_magic_light_gold-00013
+  rotate: false
+  xy: 0, 784
+  size: 236, 134
+  orig: 250, 176
+  offset: 13, 26
+  index: -1
+player_3_magic_light_gold-00014
+  rotate: false
+  xy: 474, 777
+  size: 235, 137
+  orig: 250, 176
+  offset: 14, 26
+  index: -1
+player_3_magic_light_gold-00015
+  rotate: false
+  xy: 234, 515
+  size: 232, 140
+  orig: 250, 176
+  offset: 15, 26
+  index: -1
+player_3_magic_light_gold-00016
+  rotate: false
+  xy: 231, 373
+  size: 231, 142
+  orig: 250, 176
+  offset: 16, 26
+  index: -1
+player_3_magic_light_gold-00017
+  rotate: false
+  xy: 462, 349
+  size: 226, 142
+  orig: 250, 176
+  offset: 18, 27
+  index: -1
+player_3_magic_light_gold-00018
+  rotate: false
+  xy: 0, 229
+  size: 225, 142
+  orig: 250, 176
+  offset: 19, 27
+  index: -1
+player_3_magic_light_gold-00019
+  rotate: true
+  xy: 0, 6
+  size: 223, 141
+  orig: 250, 176
+  offset: 19, 27
+  index: -1
+player_3_magic_light_gold-00020
+  rotate: true
+  xy: 141, 8
+  size: 221, 140
+  orig: 250, 176
+  offset: 19, 27
+  index: -1
+player_3_magic_light_gold-00021
+  rotate: true
+  xy: 281, 0
+  size: 219, 139
+  orig: 250, 176
+  offset: 20, 28
+  index: -1
+player_3_magic_light_gold-00022
+  rotate: true
+  xy: 550, 3
+  size: 216, 141
+  orig: 250, 176
+  offset: 20, 28
+  index: -1

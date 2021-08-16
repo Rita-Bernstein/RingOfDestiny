@@ -1,0 +1,174 @@
+
+power_bar_1_full_unpack.png
+size: 1671,1108
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+power_bar_1_full-00000
+  rotate: true
+  xy: 0, 832
+  size: 276, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00001
+  rotate: true
+  xy: 835, 831
+  size: 277, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00002
+  rotate: true
+  xy: 1114, 831
+  size: 277, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00003
+  rotate: true
+  xy: 1393, 831
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00004
+  rotate: true
+  xy: 0, 555
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00005
+  rotate: true
+  xy: 278, 555
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00006
+  rotate: true
+  xy: 556, 555
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00007
+  rotate: true
+  xy: 834, 554
+  size: 277, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00008
+  rotate: true
+  xy: 1113, 554
+  size: 277, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00009
+  rotate: true
+  xy: 1392, 554
+  size: 277, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00010
+  rotate: true
+  xy: 0, 278
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00011
+  rotate: true
+  xy: 278, 278
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00012
+  rotate: true
+  xy: 556, 278
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00013
+  rotate: true
+  xy: 834, 277
+  size: 277, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00014
+  rotate: true
+  xy: 278, 832
+  size: 276, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00015
+  rotate: true
+  xy: 1113, 277
+  size: 277, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00016
+  rotate: true
+  xy: 1392, 277
+  size: 277, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00017
+  rotate: true
+  xy: 557, 832
+  size: 276, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00018
+  rotate: true
+  xy: 0, 1
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00019
+  rotate: true
+  xy: 278, 1
+  size: 277, 279
+  orig: 290, 290
+  offset: 7, 3
+  index: -1
+power_bar_1_full-00020
+  rotate: true
+  xy: 557, 0
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00021
+  rotate: true
+  xy: 835, 0
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00022
+  rotate: true
+  xy: 1113, 0
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1
+power_bar_1_full-00023
+  rotate: true
+  xy: 1391, 0
+  size: 277, 278
+  orig: 290, 290
+  offset: 7, 4
+  index: -1

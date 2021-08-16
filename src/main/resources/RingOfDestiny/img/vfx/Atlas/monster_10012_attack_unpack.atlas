@@ -1,0 +1,62 @@
+
+monster_10012_attack_unpack.png
+size: 959,222
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10012_attack-00000
+  rotate: false
+  xy: 490, 11
+  size: 216, 211
+  orig: 375, 260
+  offset: 148, 39
+  index: -1
+monster_10012_attack-00001
+  rotate: false
+  xy: 0, 3
+  size: 253, 219
+  orig: 375, 260
+  offset: 27, 15
+  index: -1
+monster_10012_attack-00002
+  rotate: false
+  xy: 253, 0
+  size: 237, 222
+  orig: 375, 260
+  offset: 20, 11
+  index: -1
+monster_10012_attack-00003
+  rotate: false
+  xy: 706, 115
+  size: 177, 107
+  orig: 375, 260
+  offset: 67, 73
+  index: -1
+monster_10012_attack-00004
+  rotate: false
+  xy: 706, 18
+  size: 168, 97
+  orig: 375, 260
+  offset: 72, 78
+  index: -1
+monster_10012_attack-00005
+  rotate: true
+  xy: 874, 23
+  size: 84, 83
+  orig: 375, 260
+  offset: 79, 85
+  index: -1
+monster_10012_attack-00006
+  rotate: false
+  xy: 883, 152
+  size: 76, 70
+  orig: 375, 260
+  offset: 80, 91
+  index: -1
+monster_10012_attack-00007
+  rotate: false
+  xy: 883, 107
+  size: 63, 45
+  orig: 375, 260
+  offset: 85, 101
+  index: -1

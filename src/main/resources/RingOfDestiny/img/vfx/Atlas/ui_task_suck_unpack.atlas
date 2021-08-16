@@ -1,0 +1,62 @@
+
+ui_task_suck_unpack.png
+size: 1602,157
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_task_suck-00000
+  rotate: true
+  xy: 1485, 0
+  size: 157, 117
+  orig: 500, 297
+  offset: 69, 70
+  index: -1
+ui_task_suck-00001
+  rotate: false
+  xy: 0, 1
+  size: 320, 156
+  orig: 500, 297
+  offset: 78, 76
+  index: -1
+ui_task_suck-00002
+  rotate: false
+  xy: 320, 8
+  size: 321, 149
+  orig: 500, 297
+  offset: 87, 83
+  index: -1
+ui_task_suck-00003
+  rotate: false
+  xy: 641, 15
+  size: 309, 142
+  orig: 500, 297
+  offset: 97, 89
+  index: -1
+ui_task_suck-00004
+  rotate: false
+  xy: 950, 26
+  size: 294, 131
+  orig: 500, 297
+  offset: 110, 99
+  index: -1
+ui_task_suck-00005
+  rotate: false
+  xy: 1244, 63
+  size: 241, 94
+  orig: 500, 297
+  offset: 161, 134
+  index: -1
+ui_task_suck-00006
+  rotate: false
+  xy: 1244, 32
+  size: 116, 31
+  orig: 500, 297
+  offset: 284, 192
+  index: -1
+ui_task_suck-00007
+  rotate: false
+  xy: 950, 15
+  size: 14, 11
+  orig: 500, 297
+  offset: 379, 201
+  index: -1

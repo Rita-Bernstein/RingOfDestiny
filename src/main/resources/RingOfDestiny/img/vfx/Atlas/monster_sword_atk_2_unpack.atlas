@@ -1,0 +1,90 @@
+
+monster_sword_atk_2_unpack.png
+size: 1691,848
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_sword_atk_2-00000
+  rotate: false
+  xy: 0, 642
+  size: 561, 206
+  orig: 620, 220
+  offset: 6, 1
+  index: -1
+monster_sword_atk_2-00001
+  rotate: false
+  xy: 544, 428
+  size: 568, 211
+  orig: 620, 220
+  offset: 7, 3
+  index: -1
+monster_sword_atk_2-00002
+  rotate: false
+  xy: 1112, 426
+  size: 579, 213
+  orig: 620, 220
+  offset: 8, 1
+  index: -1
+monster_sword_atk_2-00003
+  rotate: false
+  xy: 0, 217
+  size: 594, 211
+  orig: 620, 220
+  offset: 8, 1
+  index: -1
+monster_sword_atk_2-00004
+  rotate: false
+  xy: 0, 429
+  size: 544, 213
+  orig: 620, 220
+  offset: 10, 1
+  index: -1
+monster_sword_atk_2-00005
+  rotate: false
+  xy: 594, 213
+  size: 553, 213
+  orig: 620, 220
+  offset: 7, 1
+  index: -1
+monster_sword_atk_2-00006
+  rotate: false
+  xy: 1147, 213
+  size: 543, 213
+  orig: 620, 220
+  offset: 7, 1
+  index: -1
+monster_sword_atk_2-00007
+  rotate: false
+  xy: 561, 639
+  size: 546, 209
+  orig: 620, 220
+  offset: 6, 5
+  index: -1
+monster_sword_atk_2-00008
+  rotate: false
+  xy: 0, 4
+  size: 544, 213
+  orig: 620, 220
+  offset: 6, 1
+  index: -1
+monster_sword_atk_2-00009
+  rotate: false
+  xy: 544, 0
+  size: 553, 213
+  orig: 620, 220
+  offset: 6, 1
+  index: -1
+monster_sword_atk_2-00010
+  rotate: false
+  xy: 1097, 0
+  size: 563, 213
+  orig: 620, 220
+  offset: 6, 1
+  index: -1
+monster_sword_atk_2-00011
+  rotate: false
+  xy: 1107, 639
+  size: 572, 209
+  orig: 620, 220
+  offset: 6, 1
+  index: -1

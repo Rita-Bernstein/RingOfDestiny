@@ -1,0 +1,69 @@
+
+monster_phoenix_atk_2_unpack.png
+size: 1817,585
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_phoenix_atk_2-00000
+  rotate: false
+  xy: 0, 15
+  size: 433, 263
+  orig: 471, 390
+  offset: 38, 23
+  index: -1
+monster_phoenix_atk_2-00001
+  rotate: false
+  xy: 911, 268
+  size: 444, 317
+  orig: 471, 390
+  offset: 27, 25
+  index: -1
+monster_phoenix_atk_2-00002
+  rotate: false
+  xy: 464, 272
+  size: 447, 313
+  orig: 471, 390
+  offset: 24, 28
+  index: -1
+monster_phoenix_atk_2-00003
+  rotate: false
+  xy: 0, 278
+  size: 464, 307
+  orig: 471, 390
+  offset: 7, 33
+  index: -1
+monster_phoenix_atk_2-00004
+  rotate: false
+  xy: 1355, 292
+  size: 384, 293
+  orig: 471, 390
+  offset: 1, 48
+  index: -1
+monster_phoenix_atk_2-00005
+  rotate: false
+  xy: 433, 0
+  size: 380, 272
+  orig: 471, 390
+  offset: 1, 77
+  index: -1
+monster_phoenix_atk_2-00006
+  rotate: false
+  xy: 813, 12
+  size: 351, 256
+  orig: 471, 390
+  offset: 30, 83
+  index: -1
+monster_phoenix_atk_2-00007
+  rotate: false
+  xy: 1495, 43
+  size: 322, 249
+  orig: 471, 390
+  offset: 59, 83
+  index: -1
+monster_phoenix_atk_2-00008
+  rotate: false
+  xy: 1164, 14
+  size: 331, 254
+  orig: 471, 390
+  offset: 50, 83
+  index: -1

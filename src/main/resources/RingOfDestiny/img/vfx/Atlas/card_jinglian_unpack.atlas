@@ -1,0 +1,69 @@
+
+card_jinglian_unpack.png
+size: 353,550
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_jinglian-00000
+  rotate: false
+  xy: 0, 357
+  size: 223, 193
+  orig: 331, 308
+  offset: 63, 62
+  index: -1
+card_jinglian-00001
+  rotate: false
+  xy: 0, 171
+  size: 202, 186
+  orig: 331, 308
+  offset: 74, 73
+  index: -1
+card_jinglian-00002
+  rotate: false
+  xy: 0, 0
+  size: 186, 171
+  orig: 331, 308
+  offset: 73, 83
+  index: -1
+card_jinglian-00003
+  rotate: true
+  xy: 202, 144
+  size: 165, 150
+  orig: 331, 308
+  offset: 83, 90
+  index: -1
+card_jinglian-00004
+  rotate: false
+  xy: 223, 413
+  size: 130, 137
+  orig: 331, 308
+  offset: 99, 99
+  index: -1
+card_jinglian-00005
+  rotate: false
+  xy: 223, 309
+  size: 113, 104
+  orig: 331, 308
+  offset: 110, 113
+  index: -1
+card_jinglian-00006
+  rotate: false
+  xy: 186, 53
+  size: 89, 91
+  orig: 331, 308
+  offset: 117, 111
+  index: -1
+card_jinglian-00007
+  rotate: false
+  xy: 275, 67
+  size: 78, 77
+  orig: 331, 308
+  offset: 122, 118
+  index: -1
+card_jinglian-00008
+  rotate: false
+  xy: 275, 3
+  size: 64, 64
+  orig: 331, 308
+  offset: 129, 124
+  index: -1

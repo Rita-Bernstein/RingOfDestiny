@@ -1,0 +1,90 @@
+
+card_qiyuanyishi_unpack.png
+size: 1796,622
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_qiyuanyishi-00000
+  rotate: true
+  xy: 1092, 240
+  size: 382, 378
+  orig: 444, 395
+  offset: 39, 7
+  index: -1
+card_qiyuanyishi-00001
+  rotate: true
+  xy: 388, 210
+  size: 412, 380
+  orig: 444, 395
+  offset: 23, 7
+  index: -1
+card_qiyuanyishi-00002
+  rotate: true
+  xy: 0, 200
+  size: 422, 388
+  orig: 444, 395
+  offset: 14, 2
+  index: -1
+card_qiyuanyishi-00003
+  rotate: true
+  xy: 1470, 0
+  size: 308, 301
+  orig: 444, 395
+  offset: 84, 69
+  index: -1
+card_qiyuanyishi-00004
+  rotate: true
+  xy: 0, 12
+  size: 188, 159
+  orig: 444, 395
+  offset: 94, 80
+  index: -1
+card_qiyuanyishi-00005
+  rotate: false
+  xy: 1470, 308
+  size: 326, 314
+  orig: 444, 395
+  offset: 61, 32
+  index: -1
+card_qiyuanyishi-00006
+  rotate: true
+  xy: 881, 5
+  size: 225, 290
+  orig: 444, 395
+  offset: 118, 43
+  index: -1
+card_qiyuanyishi-00007
+  rotate: false
+  xy: 768, 230
+  size: 324, 392
+  orig: 444, 395
+  offset: 69, 1
+  index: -1
+card_qiyuanyishi-00008
+  rotate: true
+  xy: 1171, 87
+  size: 153, 297
+  orig: 444, 395
+  offset: 143, 37
+  index: -1
+card_qiyuanyishi-00009
+  rotate: true
+  xy: 159, 46
+  size: 154, 337
+  orig: 444, 395
+  offset: 146, 21
+  index: -1
+card_qiyuanyishi-00010
+  rotate: true
+  xy: 496, 4
+  size: 206, 385
+  orig: 444, 395
+  offset: 128, 4
+  index: -1
+card_qiyuanyishi-00011
+  rotate: true
+  xy: 159, 12
+  size: 34, 95
+  orig: 444, 395
+  offset: 212, 151
+  index: -1

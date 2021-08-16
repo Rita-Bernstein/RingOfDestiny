@@ -1,0 +1,132 @@
+
+card_dianjin_unpack.png
+size: 1472,352
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_dianjin-00000
+  rotate: true
+  xy: 0, 1
+  size: 167, 176
+  orig: 250, 250
+  offset: 41, 17
+  index: -1
+card_dianjin-00001
+  rotate: false
+  xy: 170, 170
+  size: 166, 182
+  orig: 250, 250
+  offset: 41, 16
+  index: -1
+card_dianjin-00002
+  rotate: false
+  xy: 336, 171
+  size: 169, 181
+  orig: 250, 250
+  offset: 41, 16
+  index: -1
+card_dianjin-00003
+  rotate: false
+  xy: 0, 168
+  size: 170, 184
+  orig: 250, 250
+  offset: 41, 18
+  index: -1
+card_dianjin-00004
+  rotate: true
+  xy: 176, 0
+  size: 170, 169
+  orig: 250, 250
+  offset: 41, 21
+  index: -1
+card_dianjin-00005
+  rotate: false
+  xy: 993, 180
+  size: 172, 172
+  orig: 250, 250
+  offset: 40, 23
+  index: -1
+card_dianjin-00006
+  rotate: true
+  xy: 826, 179
+  size: 173, 167
+  orig: 250, 250
+  offset: 40, 26
+  index: -1
+card_dianjin-00007
+  rotate: false
+  xy: 345, 0
+  size: 174, 171
+  orig: 250, 250
+  offset: 39, 29
+  index: -1
+card_dianjin-00008
+  rotate: true
+  xy: 681, 2
+  size: 175, 158
+  orig: 250, 250
+  offset: 39, 31
+  index: -1
+card_dianjin-00009
+  rotate: true
+  xy: 505, 176
+  size: 176, 160
+  orig: 250, 250
+  offset: 39, 33
+  index: -1
+card_dianjin-00010
+  rotate: true
+  xy: 665, 177
+  size: 175, 161
+  orig: 250, 250
+  offset: 39, 36
+  index: -1
+card_dianjin-00011
+  rotate: true
+  xy: 519, 1
+  size: 175, 162
+  orig: 250, 250
+  offset: 39, 39
+  index: -1
+card_dianjin-00012
+  rotate: true
+  xy: 839, 6
+  size: 173, 161
+  orig: 250, 250
+  offset: 40, 43
+  index: -1
+card_dianjin-00013
+  rotate: true
+  xy: 1000, 10
+  size: 170, 159
+  orig: 250, 250
+  offset: 42, 47
+  index: -1
+card_dianjin-00014
+  rotate: true
+  xy: 1159, 13
+  size: 167, 161
+  orig: 250, 250
+  offset: 43, 49
+  index: -1
+card_dianjin-00015
+  rotate: true
+  xy: 1165, 187
+  size: 165, 162
+  orig: 250, 250
+  offset: 44, 52
+  index: -1
+card_dianjin-00016
+  rotate: true
+  xy: 1320, 22
+  size: 165, 152
+  orig: 250, 250
+  offset: 44, 67
+  index: -1
+card_dianjin-00017
+  rotate: false
+  xy: 1327, 241
+  size: 105, 111
+  orig: 250, 250
+  offset: 68, 89
+  index: -1

@@ -1,0 +1,69 @@
+
+monster_10098_dina_unpack.png
+size: 353,557
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10098_dina-00000
+  rotate: false
+  xy: 0, 369
+  size: 189, 188
+  orig: 428, 378
+  offset: 184, 118
+  index: -1
+monster_10098_dina-00001
+  rotate: true
+  xy: 0, 186
+  size: 183, 188
+  orig: 428, 378
+  offset: 157, 115
+  index: -1
+monster_10098_dina-00002
+  rotate: false
+  xy: 0, 0
+  size: 170, 186
+  orig: 428, 378
+  offset: 139, 111
+  index: -1
+monster_10098_dina-00003
+  rotate: false
+  xy: 189, 381
+  size: 161, 176
+  orig: 428, 378
+  offset: 123, 107
+  index: -1
+monster_10098_dina-00004
+  rotate: true
+  xy: 189, 250
+  size: 131, 160
+  orig: 428, 378
+  offset: 122, 110
+  index: -1
+monster_10098_dina-00005
+  rotate: true
+  xy: 188, 146
+  size: 104, 143
+  orig: 428, 378
+  offset: 120, 113
+  index: -1
+monster_10098_dina-00006
+  rotate: false
+  xy: 170, 13
+  size: 83, 133
+  orig: 428, 378
+  offset: 118, 110
+  index: -1
+monster_10098_dina-00007
+  rotate: true
+  xy: 253, 78
+  size: 68, 100
+  orig: 428, 378
+  offset: 114, 130
+  index: -1
+monster_10098_dina-00008
+  rotate: false
+  xy: 253, 17
+  size: 41, 61
+  orig: 428, 378
+  offset: 123, 127
+  index: -1

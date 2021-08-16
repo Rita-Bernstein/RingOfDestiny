@@ -1,0 +1,160 @@
+
+card_tengzhijia_unpack.png
+size: 1547,381
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_tengzhijia-00000
+  rotate: true
+  xy: 1294, 145
+  size: 42, 105
+  orig: 435, 288
+  offset: 206, 92
+  index: -1
+card_tengzhijia-00001
+  rotate: false
+  xy: 1411, 275
+  size: 113, 106
+  orig: 435, 288
+  offset: 163, 92
+  index: -1
+card_tengzhijia-00002
+  rotate: false
+  xy: 1218, 27
+  size: 193, 114
+  orig: 435, 288
+  offset: 121, 88
+  index: -1
+card_tengzhijia-00003
+  rotate: true
+  xy: 802, 130
+  size: 251, 110
+  orig: 435, 288
+  offset: 97, 92
+  index: -1
+card_tengzhijia-00004
+  rotate: true
+  xy: 344, 126
+  size: 255, 99
+  orig: 435, 288
+  offset: 100, 94
+  index: -1
+card_tengzhijia-00005
+  rotate: true
+  xy: 236, 126
+  size: 255, 108
+  orig: 435, 288
+  offset: 102, 91
+  index: -1
+card_tengzhijia-00006
+  rotate: false
+  xy: 722, 2
+  size: 250, 128
+  orig: 435, 288
+  offset: 106, 73
+  index: -1
+card_tengzhijia-00007
+  rotate: true
+  xy: 912, 132
+  size: 249, 136
+  orig: 435, 288
+  offset: 107, 66
+  index: -1
+card_tengzhijia-00008
+  rotate: true
+  xy: 670, 130
+  size: 251, 132
+  orig: 435, 288
+  offset: 106, 70
+  index: -1
+card_tengzhijia-00009
+  rotate: true
+  xy: 0, 120
+  size: 261, 123
+  orig: 435, 288
+  offset: 96, 75
+  index: -1
+card_tengzhijia-00010
+  rotate: true
+  xy: 123, 126
+  size: 255, 113
+  orig: 435, 288
+  offset: 101, 82
+  index: -1
+card_tengzhijia-00011
+  rotate: true
+  xy: 443, 129
+  size: 252, 116
+  orig: 435, 288
+  offset: 104, 84
+  index: -1
+card_tengzhijia-00012
+  rotate: false
+  xy: 972, 5
+  size: 246, 127
+  orig: 435, 288
+  offset: 108, 75
+  index: -1
+card_tengzhijia-00013
+  rotate: true
+  xy: 1048, 135
+  size: 246, 137
+  orig: 435, 288
+  offset: 108, 69
+  index: -1
+card_tengzhijia-00014
+  rotate: false
+  xy: 479, 0
+  size: 243, 129
+  orig: 435, 288
+  offset: 106, 74
+  index: -1
+card_tengzhijia-00015
+  rotate: false
+  xy: 0, 1
+  size: 254, 119
+  orig: 435, 288
+  offset: 96, 82
+  index: -1
+card_tengzhijia-00016
+  rotate: true
+  xy: 559, 129
+  size: 252, 111
+  orig: 435, 288
+  offset: 102, 88
+  index: -1
+card_tengzhijia-00017
+  rotate: true
+  xy: 1185, 141
+  size: 240, 109
+  orig: 435, 288
+  offset: 112, 89
+  index: -1
+card_tengzhijia-00018
+  rotate: false
+  xy: 254, 7
+  size: 225, 119
+  orig: 435, 288
+  offset: 118, 80
+  index: -1
+card_tengzhijia-00019
+  rotate: true
+  xy: 1294, 187
+  size: 194, 110
+  orig: 435, 288
+  offset: 139, 86
+  index: -1
+card_tengzhijia-00020
+  rotate: true
+  xy: 1411, 45
+  size: 155, 97
+  orig: 435, 288
+  offset: 142, 85
+  index: -1
+card_tengzhijia-00021
+  rotate: false
+  xy: 1404, 200
+  size: 143, 75
+  orig: 435, 288
+  offset: 155, 105
+  index: -1

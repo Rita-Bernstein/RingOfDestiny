@@ -1,0 +1,97 @@
+
+monster_10096_aojiao_unpack.png
+size: 1355,469
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10096_aojiao-00000
+  rotate: true
+  xy: 1088, 22
+  size: 171, 267
+  orig: 421, 450
+  offset: 113, 89
+  index: -1
+monster_10096_aojiao-00001
+  rotate: true
+  xy: 817, 4
+  size: 166, 271
+  orig: 421, 450
+  offset: 114, 89
+  index: -1
+monster_10096_aojiao-000010
+  rotate: true
+  xy: 263, 1
+  size: 161, 269
+  orig: 421, 450
+  offset: 127, 100
+  index: -1
+monster_10096_aojiao-00002
+  rotate: true
+  xy: 532, 3
+  size: 167, 285
+  orig: 421, 450
+  offset: 115, 79
+  index: -1
+monster_10096_aojiao-00003
+  rotate: false
+  xy: 343, 168
+  size: 175, 301
+  orig: 421, 450
+  offset: 110, 63
+  index: -1
+monster_10096_aojiao-00004
+  rotate: false
+  xy: 0, 162
+  size: 174, 307
+  orig: 421, 450
+  offset: 109, 55
+  index: -1
+monster_10096_aojiao-00005
+  rotate: false
+  xy: 174, 162
+  size: 169, 307
+  orig: 421, 450
+  offset: 113, 58
+  index: -1
+monster_10096_aojiao-00006
+  rotate: false
+  xy: 518, 170
+  size: 165, 299
+  orig: 421, 450
+  offset: 116, 70
+  index: -1
+monster_10096_aojiao-00007
+  rotate: false
+  xy: 683, 170
+  size: 158, 299
+  orig: 421, 450
+  offset: 120, 73
+  index: -1
+monster_10096_aojiao-00008
+  rotate: false
+  xy: 841, 177
+  size: 158, 292
+  orig: 421, 450
+  offset: 123, 84
+  index: -1
+monster_10096_aojiao-00009
+  rotate: false
+  xy: 999, 193
+  size: 160, 276
+  orig: 421, 450
+  offset: 125, 91
+  index: -1
+monster_10096_aojiao-00011
+  rotate: true
+  xy: 0, 0
+  size: 162, 263
+  orig: 421, 450
+  offset: 129, 107
+  index: -1
+monster_10096_aojiao-00012
+  rotate: false
+  xy: 1159, 224
+  size: 119, 245
+  orig: 421, 450
+  offset: 176, 127
+  index: -1

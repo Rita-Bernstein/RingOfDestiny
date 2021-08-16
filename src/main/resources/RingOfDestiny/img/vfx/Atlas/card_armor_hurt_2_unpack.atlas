@@ -1,0 +1,55 @@
+
+card_armor_hurt_2_unpack.png
+size: 1213,284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_armor_hurt_2-00000
+  rotate: false
+  xy: 1070, 30
+  size: 143, 254
+  orig: 287, 341
+  offset: 117, 46
+  index: -1
+card_armor_hurt_2-00001
+  rotate: false
+  xy: 898, 0
+  size: 172, 284
+  orig: 287, 341
+  offset: 70, 31
+  index: -1
+card_armor_hurt_2-00002
+  rotate: false
+  xy: 364, 1
+  size: 180, 283
+  orig: 287, 341
+  offset: 71, 31
+  index: -1
+card_armor_hurt_2-00003
+  rotate: false
+  xy: 544, 1
+  size: 179, 283
+  orig: 287, 341
+  offset: 71, 32
+  index: -1
+card_armor_hurt_2-00004
+  rotate: false
+  xy: 183, 1
+  size: 181, 283
+  orig: 287, 341
+  offset: 73, 31
+  index: -1
+card_armor_hurt_2-00005
+  rotate: false
+  xy: 0, 2
+  size: 183, 282
+  orig: 287, 341
+  offset: 73, 32
+  index: -1
+card_armor_hurt_2-00006
+  rotate: false
+  xy: 723, 3
+  size: 175, 281
+  orig: 287, 341
+  offset: 76, 33
+  index: -1

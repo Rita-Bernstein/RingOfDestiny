@@ -1,0 +1,118 @@
+
+card_yingzhihua_unpack.png
+size: 1429,583
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_yingzhihua-00000
+  rotate: false
+  xy: 354, 20
+  size: 229, 232
+  orig: 500, 368
+  offset: 136, 60
+  index: -1
+card_yingzhihua-00001
+  rotate: true
+  xy: 132, 10
+  size: 235, 222
+  orig: 500, 368
+  offset: 138, 66
+  index: -1
+card_yingzhihua-00002
+  rotate: true
+  xy: 583, 2
+  size: 258, 202
+  orig: 500, 368
+  offset: 127, 76
+  index: -1
+card_yingzhihua-00003
+  rotate: false
+  xy: 1126, 234
+  size: 290, 192
+  orig: 500, 368
+  offset: 111, 78
+  index: -1
+card_yingzhihua-00004
+  rotate: true
+  xy: 754, 261
+  size: 322, 194
+  orig: 500, 368
+  offset: 95, 71
+  index: -1
+card_yingzhihua-00005
+  rotate: true
+  xy: 203, 252
+  size: 331, 189
+  orig: 500, 368
+  offset: 90, 71
+  index: -1
+card_yingzhihua-00006
+  rotate: true
+  xy: 0, 245
+  size: 338, 203
+  orig: 500, 368
+  offset: 86, 64
+  index: -1
+card_yingzhihua-00007
+  rotate: true
+  xy: 392, 260
+  size: 323, 189
+  orig: 500, 368
+  offset: 91, 65
+  index: -1
+card_yingzhihua-00008
+  rotate: true
+  xy: 948, 263
+  size: 320, 178
+  orig: 500, 368
+  offset: 89, 65
+  index: -1
+card_yingzhihua-00009
+  rotate: true
+  xy: 581, 260
+  size: 323, 173
+  orig: 500, 368
+  offset: 86, 63
+  index: -1
+card_yingzhihua-00010
+  rotate: false
+  xy: 1118, 66
+  size: 311, 168
+  orig: 500, 368
+  offset: 87, 63
+  index: -1
+card_yingzhihua-00011
+  rotate: false
+  xy: 1126, 426
+  size: 302, 157
+  orig: 500, 368
+  offset: 89, 65
+  index: -1
+card_yingzhihua-00012
+  rotate: true
+  xy: 1017, 52
+  size: 211, 101
+  orig: 500, 368
+  offset: 151, 117
+  index: -1
+card_yingzhihua-00013
+  rotate: true
+  xy: 905, 38
+  size: 223, 112
+  orig: 500, 368
+  offset: 142, 113
+  index: -1
+card_yingzhihua-00014
+  rotate: true
+  xy: 785, 29
+  size: 232, 120
+  orig: 500, 368
+  offset: 131, 108
+  index: -1
+card_yingzhihua-00015
+  rotate: true
+  xy: 0, 0
+  size: 245, 132
+  orig: 500, 368
+  offset: 123, 104
+  index: -1

@@ -1,0 +1,132 @@
+
+card_xuemei_unpack.png
+size: 553,305
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_xuemei-00000
+  rotate: true
+  xy: 457, 228
+  size: 77, 69
+  orig: 249, 242
+  offset: 105, 102
+  index: -1
+card_xuemei-00001
+  rotate: true
+  xy: 404, 107
+  size: 106, 91
+  orig: 249, 242
+  offset: 80, 83
+  index: -1
+card_xuemei-00002
+  rotate: true
+  xy: 206, 88
+  size: 118, 99
+  orig: 249, 242
+  offset: 71, 75
+  index: -1
+card_xuemei-00003
+  rotate: false
+  xy: 226, 209
+  size: 118, 96
+  orig: 249, 242
+  offset: 73, 76
+  index: -1
+card_xuemei-00004
+  rotate: true
+  xy: 109, 85
+  size: 121, 97
+  orig: 249, 242
+  offset: 70, 72
+  index: -1
+card_xuemei-00005
+  rotate: false
+  xy: 104, 206
+  size: 122, 99
+  orig: 249, 242
+  offset: 70, 70
+  index: -1
+card_xuemei-00006
+  rotate: true
+  xy: 0, 184
+  size: 121, 104
+  orig: 249, 242
+  offset: 71, 67
+  index: -1
+card_xuemei-00007
+  rotate: true
+  xy: 0, 71
+  size: 113, 109
+  orig: 249, 242
+  offset: 82, 65
+  index: -1
+card_xuemei-00008
+  rotate: false
+  xy: 344, 213
+  size: 113, 92
+  orig: 249, 242
+  offset: 85, 84
+  index: -1
+card_xuemei-00009
+  rotate: false
+  xy: 375, 0
+  size: 112, 96
+  orig: 249, 242
+  offset: 89, 83
+  index: -1
+card_xuemei-00010
+  rotate: true
+  xy: 305, 96
+  size: 113, 99
+  orig: 249, 242
+  offset: 92, 82
+  index: -1
+card_xuemei-00011
+  rotate: false
+  xy: 282, 2
+  size: 93, 86
+  orig: 249, 242
+  offset: 98, 96
+  index: -1
+card_xuemei-00012
+  rotate: false
+  xy: 187, 4
+  size: 95, 81
+  orig: 249, 242
+  offset: 100, 100
+  index: -1
+card_xuemei-00013
+  rotate: false
+  xy: 0, 3
+  size: 97, 68
+  orig: 249, 242
+  offset: 102, 104
+  index: -1
+card_xuemei-00014
+  rotate: false
+  xy: 97, 5
+  size: 90, 66
+  orig: 249, 242
+  offset: 104, 108
+  index: -1
+card_xuemei-00015
+  rotate: true
+  xy: 487, 36
+  size: 71, 62
+  orig: 249, 242
+  offset: 106, 113
+  index: -1
+card_xuemei-00016
+  rotate: false
+  xy: 495, 168
+  size: 58, 60
+  orig: 249, 242
+  offset: 120, 117
+  index: -1
+card_xuemei-00017
+  rotate: false
+  xy: 495, 111
+  size: 57, 57
+  orig: 249, 242
+  offset: 123, 122
+  index: -1

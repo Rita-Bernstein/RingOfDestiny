@@ -1,0 +1,258 @@
+
+effect_house_candle_unpack.png
+size: 1515,35
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_house_candle-00000
+  rotate: true
+  xy: 0, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00001
+  rotate: true
+  xy: 43, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00002
+  rotate: true
+  xy: 86, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00003
+  rotate: true
+  xy: 129, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00004
+  rotate: true
+  xy: 172, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00005
+  rotate: true
+  xy: 215, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00006
+  rotate: true
+  xy: 257, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00007
+  rotate: true
+  xy: 299, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00008
+  rotate: true
+  xy: 341, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00009
+  rotate: true
+  xy: 383, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00010
+  rotate: true
+  xy: 425, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00011
+  rotate: true
+  xy: 467, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00012
+  rotate: true
+  xy: 509, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00013
+  rotate: true
+  xy: 551, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00014
+  rotate: true
+  xy: 593, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00015
+  rotate: true
+  xy: 635, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00016
+  rotate: true
+  xy: 677, 0
+  size: 35, 41
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00017
+  rotate: true
+  xy: 718, 0
+  size: 35, 41
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00018
+  rotate: true
+  xy: 759, 0
+  size: 35, 41
+  orig: 35, 44
+  offset: 0, 1
+  index: -1
+effect_house_candle-00019
+  rotate: true
+  xy: 800, 0
+  size: 35, 41
+  orig: 35, 44
+  offset: 0, 1
+  index: -1
+effect_house_candle-00020
+  rotate: true
+  xy: 841, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 1
+  index: -1
+effect_house_candle-00021
+  rotate: true
+  xy: 883, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00022
+  rotate: true
+  xy: 925, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00023
+  rotate: true
+  xy: 967, 0
+  size: 35, 41
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00024
+  rotate: true
+  xy: 1008, 0
+  size: 35, 41
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00025
+  rotate: true
+  xy: 1049, 0
+  size: 35, 41
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00026
+  rotate: true
+  xy: 1090, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00027
+  rotate: true
+  xy: 1132, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00028
+  rotate: true
+  xy: 1174, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00029
+  rotate: true
+  xy: 1216, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00030
+  rotate: true
+  xy: 1258, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00031
+  rotate: true
+  xy: 1301, 0
+  size: 35, 42
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00032
+  rotate: true
+  xy: 1343, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00033
+  rotate: true
+  xy: 1386, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00034
+  rotate: true
+  xy: 1429, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+effect_house_candle-00035
+  rotate: true
+  xy: 1472, 0
+  size: 35, 43
+  orig: 35, 44
+  offset: 0, 0
+  index: -1

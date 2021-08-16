@@ -1,0 +1,104 @@
+
+card_zhuanhua_unpack.png
+size: 330,874
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_zhuanhua-00000
+  rotate: true
+  xy: 0, 393
+  size: 147, 193
+  orig: 342, 297
+  offset: 98, 46
+  index: -1
+card_zhuanhua-00001
+  rotate: true
+  xy: 0, 703
+  size: 171, 217
+  orig: 342, 297
+  offset: 67, 58
+  index: -1
+card_zhuanhua-00002
+  rotate: true
+  xy: 0, 540
+  size: 163, 204
+  orig: 342, 297
+  offset: 73, 60
+  index: -1
+card_zhuanhua-00003
+  rotate: true
+  xy: 0, 246
+  size: 147, 186
+  orig: 342, 297
+  offset: 85, 71
+  index: -1
+card_zhuanhua-00004
+  rotate: false
+  xy: 204, 526
+  size: 121, 149
+  orig: 342, 297
+  offset: 105, 84
+  index: -1
+card_zhuanhua-00005
+  rotate: true
+  xy: 217, 675
+  size: 92, 104
+  orig: 342, 297
+  offset: 122, 100
+  index: -1
+card_zhuanhua-00006
+  rotate: true
+  xy: 0, 0
+  size: 90, 92
+  orig: 342, 297
+  offset: 123, 102
+  index: -1
+card_zhuanhua-00007
+  rotate: false
+  xy: 0, 90
+  size: 156, 156
+  orig: 342, 297
+  offset: 90, 69
+  index: -1
+card_zhuanhua-00008
+  rotate: false
+  xy: 193, 385
+  size: 137, 141
+  orig: 342, 297
+  offset: 100, 79
+  index: -1
+card_zhuanhua-00009
+  rotate: false
+  xy: 186, 248
+  size: 137, 137
+  orig: 342, 297
+  offset: 99, 83
+  index: -1
+card_zhuanhua-00010
+  rotate: false
+  xy: 186, 124
+  size: 127, 124
+  orig: 342, 297
+  offset: 105, 90
+  index: -1
+card_zhuanhua-00011
+  rotate: false
+  xy: 217, 767
+  size: 111, 107
+  orig: 342, 297
+  offset: 109, 97
+  index: -1
+card_zhuanhua-00012
+  rotate: false
+  xy: 156, 34
+  size: 99, 90
+  orig: 342, 297
+  offset: 114, 104
+  index: -1
+card_zhuanhua-00013
+  rotate: true
+  xy: 255, 38
+  size: 86, 57
+  orig: 342, 297
+  offset: 118, 119
+  index: -1

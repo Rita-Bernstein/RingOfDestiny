@@ -1,0 +1,118 @@
+
+card_modanzuocheng_unpack.png
+size: 1931,644
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_modanzuocheng-00000
+  rotate: true
+  xy: 862, 2
+  size: 320, 342
+  orig: 444, 395
+  offset: 59, 19
+  index: -1
+card_modanzuocheng-00001
+  rotate: true
+  xy: 1204, 38
+  size: 336, 326
+  orig: 444, 395
+  offset: 50, 26
+  index: -1
+card_modanzuocheng-00002
+  rotate: false
+  xy: 330, 316
+  size: 337, 328
+  orig: 444, 395
+  offset: 51, 25
+  index: -1
+card_modanzuocheng-00003
+  rotate: true
+  xy: 667, 322
+  size: 322, 342
+  orig: 444, 395
+  offset: 59, 21
+  index: -1
+card_modanzuocheng-00004
+  rotate: true
+  xy: 0, 309
+  size: 335, 330
+  orig: 444, 395
+  offset: 52, 26
+  index: -1
+card_modanzuocheng-00005
+  rotate: true
+  xy: 588, 34
+  size: 282, 274
+  orig: 444, 395
+  offset: 80, 54
+  index: -1
+card_modanzuocheng-00006
+  rotate: true
+  xy: 1777, 284
+  size: 162, 154
+  orig: 444, 395
+  offset: 140, 114
+  index: -1
+card_modanzuocheng-00007
+  rotate: false
+  xy: 1528, 391
+  size: 249, 253
+  orig: 444, 395
+  offset: 97, 66
+  index: -1
+card_modanzuocheng-00008
+  rotate: false
+  xy: 1278, 390
+  size: 250, 254
+  orig: 444, 395
+  offset: 97, 67
+  index: -1
+card_modanzuocheng-00009
+  rotate: true
+  xy: 1009, 374
+  size: 270, 269
+  orig: 444, 395
+  offset: 87, 56
+  index: -1
+card_modanzuocheng-00010
+  rotate: true
+  xy: 0, 8
+  size: 301, 298
+  orig: 444, 395
+  offset: 72, 42
+  index: -1
+card_modanzuocheng-00011
+  rotate: true
+  xy: 298, 0
+  size: 309, 290
+  orig: 444, 395
+  offset: 69, 55
+  index: -1
+card_modanzuocheng-00012
+  rotate: false
+  xy: 1530, 214
+  size: 229, 177
+  orig: 444, 395
+  offset: 111, 112
+  index: -1
+card_modanzuocheng-00013
+  rotate: false
+  xy: 1530, 37
+  size: 228, 177
+  orig: 444, 395
+  offset: 112, 112
+  index: -1
+card_modanzuocheng-00014
+  rotate: true
+  xy: 1759, 65
+  size: 219, 170
+  orig: 444, 395
+  offset: 112, 113
+  index: -1
+card_modanzuocheng-00015
+  rotate: true
+  xy: 1777, 446
+  size: 198, 141
+  orig: 444, 395
+  offset: 123, 128
+  index: -1

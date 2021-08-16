@@ -1,0 +1,48 @@
+
+effect_get_tsundere_unpack.png
+size: 1242,290
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_get_tsundere-00000
+  rotate: false
+  xy: 0, 0
+  size: 290, 290
+  orig: 350, 350
+  offset: 32, 28
+  index: -1
+effect_get_tsundere-00001
+  rotate: false
+  xy: 290, 0
+  size: 290, 290
+  orig: 350, 350
+  offset: 32, 28
+  index: -1
+effect_get_tsundere-00002
+  rotate: false
+  xy: 580, 24
+  size: 266, 266
+  orig: 350, 350
+  offset: 44, 40
+  index: -1
+effect_get_tsundere-00003
+  rotate: false
+  xy: 846, 59
+  size: 230, 231
+  orig: 350, 350
+  offset: 62, 57
+  index: -1
+effect_get_tsundere-00004
+  rotate: true
+  xy: 1076, 121
+  size: 169, 166
+  orig: 350, 350
+  offset: 94, 90
+  index: -1
+effect_get_tsundere-00005
+  rotate: false
+  xy: 1076, 22
+  size: 99, 99
+  orig: 350, 350
+  offset: 129, 123
+  index: -1

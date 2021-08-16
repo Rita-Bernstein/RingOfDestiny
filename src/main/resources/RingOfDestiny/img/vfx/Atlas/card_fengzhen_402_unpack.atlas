@@ -1,0 +1,125 @@
+
+card_fengzhen_402_unpack.png
+size: 1848,912
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_fengzhen_402-00000
+  rotate: true
+  xy: 0, 0
+  size: 210, 238
+  orig: 468, 418
+  offset: 131, 103
+  index: -1
+card_fengzhen_402-00001
+  rotate: true
+  xy: 659, 29
+  size: 217, 285
+  orig: 468, 418
+  offset: 128, 72
+  index: -1
+card_fengzhen_402-00002
+  rotate: true
+  xy: 1537, 8
+  size: 268, 311
+  orig: 468, 418
+  offset: 116, 56
+  index: -1
+card_fengzhen_402-00003
+  rotate: false
+  xy: 964, 259
+  size: 303, 319
+  orig: 468, 418
+  offset: 98, 47
+  index: -1
+card_fengzhen_402-00004
+  rotate: false
+  xy: 339, 243
+  size: 320, 325
+  orig: 468, 418
+  offset: 94, 44
+  index: -1
+card_fengzhen_402-00005
+  rotate: false
+  xy: 1062, 578
+  size: 346, 334
+  orig: 468, 418
+  offset: 80, 40
+  index: -1
+card_fengzhen_402-00006
+  rotate: false
+  xy: 0, 572
+  size: 361, 340
+  orig: 468, 418
+  offset: 71, 38
+  index: -1
+card_fengzhen_402-00007
+  rotate: true
+  xy: 0, 210
+  size: 362, 339
+  orig: 468, 418
+  offset: 61, 38
+  index: -1
+card_fengzhen_402-00008
+  rotate: false
+  xy: 361, 568
+  size: 348, 344
+  orig: 468, 418
+  offset: 53, 35
+  index: -1
+card_fengzhen_402-00009
+  rotate: false
+  xy: 709, 580
+  size: 353, 332
+  orig: 468, 418
+  offset: 47, 49
+  index: -1
+card_fengzhen_402-00010
+  rotate: false
+  xy: 1408, 592
+  size: 340, 320
+  orig: 468, 418
+  offset: 46, 62
+  index: -1
+card_fengzhen_402-00011
+  rotate: false
+  xy: 659, 246
+  size: 305, 322
+  orig: 468, 418
+  offset: 62, 61
+  index: -1
+card_fengzhen_402-00012
+  rotate: false
+  xy: 1267, 259
+  size: 267, 319
+  orig: 468, 418
+  offset: 101, 63
+  index: -1
+card_fengzhen_402-00013
+  rotate: false
+  xy: 1534, 276
+  size: 253, 316
+  orig: 468, 418
+  offset: 110, 61
+  index: -1
+card_fengzhen_402-00014
+  rotate: true
+  xy: 339, 1
+  size: 242, 299
+  orig: 468, 418
+  offset: 118, 77
+  index: -1
+card_fengzhen_402-00015
+  rotate: true
+  xy: 964, 31
+  size: 228, 291
+  orig: 468, 418
+  offset: 123, 79
+  index: -1
+card_fengzhen_402-00016
+  rotate: true
+  xy: 1255, 27
+  size: 232, 282
+  orig: 468, 418
+  offset: 126, 80
+  index: -1

@@ -1,0 +1,174 @@
+
+effect_house_card_unpack.png
+size: 1555,1035
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_house_card-00000
+  rotate: true
+  xy: 1043, 521
+  size: 256, 258
+  orig: 321, 335
+  offset: 31, 43
+  index: -1
+effect_house_card-00001
+  rotate: true
+  xy: 1045, 781
+  size: 254, 256
+  orig: 321, 335
+  offset: 32, 43
+  index: -1
+effect_house_card-00002
+  rotate: false
+  xy: 1298, 265
+  size: 254, 256
+  orig: 321, 335
+  offset: 32, 43
+  index: -1
+effect_house_card-00003
+  rotate: true
+  xy: 0, 0
+  size: 253, 254
+  orig: 321, 335
+  offset: 32, 45
+  index: -1
+effect_house_card-00004
+  rotate: false
+  xy: 254, 0
+  size: 253, 253
+  orig: 321, 335
+  offset: 32, 46
+  index: -1
+effect_house_card-00005
+  rotate: false
+  xy: 1298, 9
+  size: 254, 256
+  orig: 321, 335
+  offset: 32, 43
+  index: -1
+effect_house_card-00006
+  rotate: true
+  xy: 782, 255
+  size: 257, 258
+  orig: 321, 335
+  offset: 31, 43
+  index: -1
+effect_house_card-00007
+  rotate: false
+  xy: 0, 512
+  size: 259, 261
+  orig: 321, 335
+  offset: 30, 40
+  index: -1
+effect_house_card-00008
+  rotate: true
+  xy: 523, 514
+  size: 259, 261
+  orig: 321, 335
+  offset: 30, 40
+  index: -1
+effect_house_card-00009
+  rotate: false
+  xy: 787, 777
+  size: 258, 258
+  orig: 321, 335
+  offset: 30, 43
+  index: -1
+effect_house_card-00010
+  rotate: false
+  xy: 1301, 779
+  size: 254, 256
+  orig: 321, 335
+  offset: 32, 43
+  index: -1
+effect_house_card-00011
+  rotate: false
+  xy: 1301, 523
+  size: 254, 256
+  orig: 321, 335
+  offset: 32, 43
+  index: -1
+effect_house_card-00012
+  rotate: true
+  xy: 1040, 255
+  size: 257, 258
+  orig: 321, 335
+  offset: 31, 43
+  index: -1
+effect_house_card-00013
+  rotate: false
+  xy: 259, 253
+  size: 258, 260
+  orig: 321, 335
+  offset: 30, 41
+  index: -1
+effect_house_card-00014
+  rotate: false
+  xy: 784, 512
+  size: 259, 261
+  orig: 321, 335
+  offset: 30, 40
+  index: -1
+effect_house_card-00015
+  rotate: false
+  xy: 264, 513
+  size: 259, 262
+  orig: 321, 335
+  offset: 30, 40
+  index: -1
+effect_house_card-00016
+  rotate: true
+  xy: 264, 775
+  size: 260, 263
+  orig: 321, 335
+  offset: 29, 40
+  index: -1
+effect_house_card-00017
+  rotate: false
+  xy: 527, 773
+  size: 260, 262
+  orig: 321, 335
+  offset: 29, 40
+  index: -1
+effect_house_card-00018
+  rotate: false
+  xy: 0, 253
+  size: 258, 259
+  orig: 321, 335
+  offset: 30, 42
+  index: -1
+effect_house_card-00019
+  rotate: true
+  xy: 782, 1
+  size: 254, 256
+  orig: 321, 335
+  offset: 32, 43
+  index: -1
+effect_house_card-00020
+  rotate: true
+  xy: 507, 5
+  size: 248, 250
+  orig: 321, 335
+  offset: 35, 46
+  index: -1
+effect_house_card-00021
+  rotate: true
+  xy: 1038, 1
+  size: 254, 256
+  orig: 321, 335
+  offset: 32, 43
+  index: -1
+effect_house_card-00022
+  rotate: false
+  xy: 523, 253
+  size: 259, 261
+  orig: 321, 335
+  offset: 30, 40
+  index: -1
+effect_house_card-00023
+  rotate: true
+  xy: 0, 773
+  size: 262, 264
+  orig: 321, 335
+  offset: 28, 39
+  index: -1

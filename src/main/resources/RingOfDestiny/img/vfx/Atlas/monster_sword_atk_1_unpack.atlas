@@ -1,0 +1,48 @@
+
+monster_sword_atk_1_unpack.png
+size: 1723,387
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_sword_atk_1-00000
+  rotate: false
+  xy: 1442, 2
+  size: 113, 120
+  orig: 400, 400
+  offset: 143, 134
+  index: -1
+monster_sword_atk_1-00001
+  rotate: false
+  xy: 396, 7
+  size: 376, 380
+  orig: 400, 400
+  offset: 10, 4
+  index: -1
+monster_sword_atk_1-00002
+  rotate: false
+  xy: 0, 0
+  size: 396, 387
+  orig: 400, 400
+  offset: 1, 4
+  index: -1
+monster_sword_atk_1-00003
+  rotate: true
+  xy: 772, 23
+  size: 364, 361
+  orig: 400, 400
+  offset: 17, 12
+  index: -1
+monster_sword_atk_1-00004
+  rotate: true
+  xy: 1133, 75
+  size: 312, 309
+  orig: 400, 400
+  offset: 43, 38
+  index: -1
+monster_sword_atk_1-00005
+  rotate: false
+  xy: 1442, 122
+  size: 281, 265
+  orig: 400, 400
+  offset: 47, 62
+  index: -1

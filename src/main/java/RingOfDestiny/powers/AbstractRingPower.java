@@ -55,7 +55,6 @@ public abstract class AbstractRingPower extends AbstractPower {
         this.region48 = AbstractRingPower.ringAtlas.findRegion("48/" + fileName);
         this.region128 = AbstractRingPower.ringAtlas.findRegion("128/" + fileName);
     }
-
 }
 
 

@@ -1,0 +1,69 @@
+
+ui_chrismas_sock_unpack.png
+size: 152,29
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_chrismas_sock-00000
+  rotate: true
+  xy: 0, 0
+  size: 29, 31
+  orig: 91, 95
+  offset: 33, 30
+  index: -1
+ui_chrismas_sock-00008
+  rotate: true
+  xy: 0, 0
+  size: 29, 31
+  orig: 91, 95
+  offset: 33, 30
+  index: -1
+ui_chrismas_sock-00001
+  rotate: true
+  xy: 31, 0
+  size: 29, 31
+  orig: 91, 95
+  offset: 33, 30
+  index: -1
+ui_chrismas_sock-00007
+  rotate: true
+  xy: 31, 0
+  size: 29, 31
+  orig: 91, 95
+  offset: 33, 30
+  index: -1
+ui_chrismas_sock-00002
+  rotate: true
+  xy: 62, 0
+  size: 29, 30
+  orig: 91, 95
+  offset: 33, 31
+  index: -1
+ui_chrismas_sock-00006
+  rotate: true
+  xy: 62, 0
+  size: 29, 30
+  orig: 91, 95
+  offset: 33, 31
+  index: -1
+ui_chrismas_sock-00003
+  rotate: true
+  xy: 92, 0
+  size: 29, 30
+  orig: 91, 95
+  offset: 33, 31
+  index: -1
+ui_chrismas_sock-00005
+  rotate: true
+  xy: 92, 0
+  size: 29, 30
+  orig: 91, 95
+  offset: 33, 31
+  index: -1
+ui_chrismas_sock-00004
+  rotate: true
+  xy: 122, 0
+  size: 29, 30
+  orig: 91, 95
+  offset: 33, 31
+  index: -1

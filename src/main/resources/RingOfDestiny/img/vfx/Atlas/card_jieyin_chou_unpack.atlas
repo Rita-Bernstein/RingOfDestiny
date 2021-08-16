@@ -1,0 +1,41 @@
+
+card_jieyin_chou_unpack.png
+size: 745,239
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_jieyin_chou-00000
+  rotate: true
+  xy: 0, 0
+  size: 239, 241
+  orig: 459, 379
+  offset: 117, 70
+  index: -1
+card_jieyin_chou-00001
+  rotate: true
+  xy: 241, 12
+  size: 227, 230
+  orig: 459, 379
+  offset: 123, 76
+  index: -1
+card_jieyin_chou-00002
+  rotate: true
+  xy: 471, 47
+  size: 192, 193
+  orig: 459, 379
+  offset: 143, 95
+  index: -1
+card_jieyin_chou-00003
+  rotate: false
+  xy: 664, 12
+  size: 77, 111
+  orig: 459, 379
+  offset: 197, 150
+  index: -1
+card_jieyin_chou-00004
+  rotate: false
+  xy: 664, 123
+  size: 81, 116
+  orig: 459, 379
+  offset: 195, 148
+  index: -1

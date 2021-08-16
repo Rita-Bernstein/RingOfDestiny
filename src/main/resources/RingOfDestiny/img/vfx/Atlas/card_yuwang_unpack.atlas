@@ -1,0 +1,76 @@
+
+card_yuwang_unpack.png
+size: 467,1063
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_yuwang-00000
+  rotate: false
+  xy: 0, 586
+  size: 242, 231
+  orig: 500, 470
+  offset: 132, 119
+  index: -1
+card_yuwang-00001
+  rotate: false
+  xy: 0, 817
+  size: 254, 246
+  orig: 500, 470
+  offset: 127, 111
+  index: -1
+card_yuwang-00002
+  rotate: false
+  xy: 0, 15
+  size: 227, 203
+  orig: 500, 470
+  offset: 135, 129
+  index: -1
+card_yuwang-00003
+  rotate: false
+  xy: 0, 405
+  size: 234, 181
+  orig: 500, 470
+  offset: 135, 146
+  index: -1
+card_yuwang-00004
+  rotate: false
+  xy: 0, 218
+  size: 233, 187
+  orig: 500, 470
+  offset: 138, 137
+  index: -1
+card_yuwang-00005
+  rotate: false
+  xy: 234, 221
+  size: 233, 202
+  orig: 500, 470
+  offset: 139, 129
+  index: -1
+card_yuwang-00006
+  rotate: true
+  xy: 254, 834
+  size: 229, 213
+  orig: 500, 470
+  offset: 143, 123
+  index: -1
+card_yuwang-00007
+  rotate: false
+  xy: 233, 0
+  size: 231, 221
+  orig: 500, 470
+  offset: 142, 120
+  index: -1
+card_yuwang-00008
+  rotate: true
+  xy: 242, 423
+  size: 233, 225
+  orig: 500, 470
+  offset: 142, 119
+  index: -1
+card_yuwang-00009
+  rotate: false
+  xy: 254, 656
+  size: 211, 178
+  orig: 500, 470
+  offset: 161, 155
+  index: -1

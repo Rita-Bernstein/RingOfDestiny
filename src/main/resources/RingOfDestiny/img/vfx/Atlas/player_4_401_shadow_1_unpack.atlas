@@ -1,0 +1,62 @@
+
+player_4_401_shadow_1_unpack.png
+size: 509,721
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+player_4_401_shadow_1-00000
+  rotate: true
+  xy: 0, 0
+  size: 152, 244
+  orig: 420, 323
+  offset: 162, 33
+  index: -1
+player_4_401_shadow_1-00001
+  rotate: true
+  xy: 247, 157
+  size: 160, 246
+  orig: 420, 323
+  offset: 154, 33
+  index: -1
+player_4_401_shadow_1-00002
+  rotate: true
+  xy: 0, 324
+  size: 179, 249
+  orig: 420, 323
+  offset: 135, 33
+  index: -1
+player_4_401_shadow_1-00003
+  rotate: true
+  xy: 255, 515
+  size: 206, 254
+  orig: 420, 323
+  offset: 108, 33
+  index: -1
+player_4_401_shadow_1-00004
+  rotate: true
+  xy: 0, 503
+  size: 218, 255
+  orig: 420, 323
+  offset: 84, 36
+  index: -1
+player_4_401_shadow_1-00005
+  rotate: true
+  xy: 255, 317
+  size: 198, 251
+  orig: 420, 323
+  offset: 84, 40
+  index: -1
+player_4_401_shadow_1-00006
+  rotate: true
+  xy: 0, 152
+  size: 172, 247
+  orig: 420, 323
+  offset: 84, 44
+  index: -1
+player_4_401_shadow_1-00007
+  rotate: true
+  xy: 247, 2
+  size: 155, 243
+  orig: 420, 323
+  offset: 84, 48
+  index: -1

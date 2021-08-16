@@ -1,0 +1,48 @@
+
+card_shaliaoluan_2_unpack.png
+size: 1154,472
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shaliaoluan_2-00000
+  rotate: true
+  xy: 0, 0
+  size: 472, 218
+  orig: 472, 218
+  offset: 0, 0
+  index: -1
+card_shaliaoluan_2-00001
+  rotate: true
+  xy: 218, 0
+  size: 472, 218
+  orig: 472, 218
+  offset: 0, 0
+  index: -1
+card_shaliaoluan_2-00002
+  rotate: true
+  xy: 436, 0
+  size: 472, 218
+  orig: 472, 218
+  offset: 0, 0
+  index: -1
+card_shaliaoluan_2-00003
+  rotate: true
+  xy: 654, 4
+  size: 468, 218
+  orig: 472, 218
+  offset: 4, 0
+  index: -1
+card_shaliaoluan_2-00004
+  rotate: true
+  xy: 872, 5
+  size: 467, 218
+  orig: 472, 218
+  offset: 5, 0
+  index: -1
+card_shaliaoluan_2-00005
+  rotate: true
+  xy: 1090, 89
+  size: 383, 64
+  orig: 472, 218
+  offset: 89, 154
+  index: -1

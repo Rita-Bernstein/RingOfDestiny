@@ -1,0 +1,62 @@
+
+ui_shop_delete_unpack.png
+size: 405,440
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_shop_delete-00000
+  rotate: true
+  xy: 265, 220
+  size: 220, 140
+  orig: 288, 243
+  offset: 33, 49
+  index: -1
+ui_shop_delete-00001
+  rotate: false
+  xy: 0, 8
+  size: 243, 121
+  orig: 288, 243
+  offset: 21, 66
+  index: -1
+ui_shop_delete-00002
+  rotate: false
+  xy: 0, 237
+  size: 253, 94
+  orig: 288, 243
+  offset: 16, 80
+  index: -1
+ui_shop_delete-00003
+  rotate: false
+  xy: 0, 423
+  size: 265, 17
+  orig: 288, 243
+  offset: 10, 114
+  index: -1
+ui_shop_delete-00004
+  rotate: false
+  xy: 0, 401
+  size: 264, 22
+  orig: 288, 243
+  offset: 11, 105
+  index: -1
+ui_shop_delete-00005
+  rotate: false
+  xy: 0, 331
+  size: 258, 70
+  orig: 288, 243
+  offset: 14, 77
+  index: -1
+ui_shop_delete-00006
+  rotate: false
+  xy: 0, 129
+  size: 246, 108
+  orig: 288, 243
+  offset: 20, 58
+  index: -1
+ui_shop_delete-00007
+  rotate: true
+  xy: 246, 0
+  size: 220, 140
+  orig: 288, 243
+  offset: 33, 49
+  index: -1

@@ -1,0 +1,69 @@
+
+monster_die_unpack.png
+size: 1705,695
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_die-00000
+  rotate: true
+  xy: 1021, 3
+  size: 361, 423
+  orig: 400, 500
+  offset: 15, 49
+  index: -1
+monster_die-00001
+  rotate: false
+  xy: 0, 240
+  size: 360, 455
+  orig: 400, 500
+  offset: 17, 15
+  index: -1
+monster_die-00002
+  rotate: true
+  xy: 360, 355
+  size: 340, 469
+  orig: 400, 500
+  offset: 38, 14
+  index: -1
+monster_die-00003
+  rotate: true
+  xy: 558, 22
+  size: 333, 463
+  orig: 400, 500
+  offset: 46, 37
+  index: -1
+monster_die-00004
+  rotate: true
+  xy: 829, 364
+  size: 331, 447
+  orig: 400, 500
+  offset: 46, 37
+  index: -1
+monster_die-00005
+  rotate: true
+  xy: 1276, 409
+  size: 286, 411
+  orig: 400, 500
+  offset: 72, 72
+  index: -1
+monster_die-00006
+  rotate: true
+  xy: 1444, 104
+  size: 305, 261
+  orig: 400, 500
+  offset: 36, 197
+  index: -1
+monster_die-00007
+  rotate: true
+  xy: 0, 0
+  size: 240, 294
+  orig: 400, 500
+  offset: 95, 205
+  index: -1
+monster_die-00008
+  rotate: true
+  xy: 294, 49
+  size: 191, 264
+  orig: 400, 500
+  offset: 110, 236
+  index: -1

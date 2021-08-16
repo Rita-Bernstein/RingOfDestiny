@@ -1,0 +1,174 @@
+
+card_hudun_2_unpack.png
+size: 1084,1048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_hudun_2-00000
+  rotate: true
+  xy: 878, 642
+  size: 212, 206
+  orig: 250, 225
+  offset: 20, 9
+  index: -1
+card_hudun_2-00001
+  rotate: false
+  xy: 663, 454
+  size: 214, 205
+  orig: 250, 225
+  offset: 17, 3
+  index: -1
+card_hudun_2-00002
+  rotate: false
+  xy: 0, 924
+  size: 125, 124
+  orig: 250, 225
+  offset: 65, 50
+  index: -1
+card_hudun_2-00003
+  rotate: false
+  xy: 245, 43
+  size: 249, 225
+  orig: 250, 225
+  offset: 1, 0
+  index: -1
+card_hudun_2-00004
+  rotate: false
+  xy: 494, 8
+  size: 249, 225
+  orig: 250, 225
+  offset: 1, 0
+  index: -1
+card_hudun_2-00005
+  rotate: false
+  xy: 743, 0
+  size: 249, 225
+  orig: 250, 225
+  offset: 1, 0
+  index: -1
+card_hudun_2-00006
+  rotate: false
+  xy: 0, 45
+  size: 245, 223
+  orig: 250, 225
+  offset: 3, 0
+  index: -1
+card_hudun_2-00007
+  rotate: true
+  xy: 877, 422
+  size: 220, 199
+  orig: 250, 225
+  offset: 18, 16
+  index: -1
+card_hudun_2-00008
+  rotate: false
+  xy: 221, 268
+  size: 220, 196
+  orig: 250, 225
+  offset: 18, 19
+  index: -1
+card_hudun_2-00009
+  rotate: false
+  xy: 221, 664
+  size: 219, 195
+  orig: 250, 225
+  offset: 18, 20
+  index: -1
+card_hudun_2-00010
+  rotate: false
+  xy: 441, 268
+  size: 220, 196
+  orig: 250, 225
+  offset: 18, 19
+  index: -1
+card_hudun_2-00011
+  rotate: false
+  xy: 440, 659
+  size: 219, 195
+  orig: 250, 225
+  offset: 18, 20
+  index: -1
+card_hudun_2-00012
+  rotate: false
+  xy: 659, 659
+  size: 219, 195
+  orig: 250, 225
+  offset: 18, 20
+  index: -1
+card_hudun_2-00013
+  rotate: true
+  xy: 661, 233
+  size: 221, 197
+  orig: 250, 225
+  offset: 17, 18
+  index: -1
+card_hudun_2-00014
+  rotate: false
+  xy: 858, 225
+  size: 221, 197
+  orig: 250, 225
+  offset: 17, 18
+  index: -1
+card_hudun_2-00015
+  rotate: false
+  xy: 552, 854
+  size: 221, 194
+  orig: 250, 225
+  offset: 17, 21
+  index: -1
+card_hudun_2-00016
+  rotate: false
+  xy: 773, 854
+  size: 221, 194
+  orig: 250, 225
+  offset: 17, 21
+  index: -1
+card_hudun_2-00017
+  rotate: false
+  xy: 0, 475
+  size: 221, 195
+  orig: 250, 225
+  offset: 17, 21
+  index: -1
+card_hudun_2-00018
+  rotate: false
+  xy: 221, 464
+  size: 221, 195
+  orig: 250, 225
+  offset: 17, 21
+  index: -1
+card_hudun_2-00019
+  rotate: false
+  xy: 442, 464
+  size: 221, 195
+  orig: 250, 225
+  offset: 17, 20
+  index: -1
+card_hudun_2-00020
+  rotate: false
+  xy: 0, 670
+  size: 221, 194
+  orig: 250, 225
+  offset: 17, 21
+  index: -1
+card_hudun_2-00021
+  rotate: false
+  xy: 0, 280
+  size: 221, 195
+  orig: 250, 225
+  offset: 17, 21
+  index: -1
+card_hudun_2-00022
+  rotate: false
+  xy: 336, 859
+  size: 216, 189
+  orig: 250, 225
+  offset: 20, 24
+  index: -1
+card_hudun_2-00023
+  rotate: false
+  xy: 125, 864
+  size: 211, 184
+  orig: 250, 225
+  offset: 22, 27
+  index: -1

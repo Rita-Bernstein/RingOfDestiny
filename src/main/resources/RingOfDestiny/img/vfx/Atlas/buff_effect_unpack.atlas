@@ -1,0 +1,62 @@
+
+buff_effect_unpack.png
+size: 242,168
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_effect-00000
+  rotate: false
+  xy: 109, 10
+  size: 73, 75
+  orig: 120, 120
+  offset: 25, 25
+  index: -1
+buff_effect-00001
+  rotate: false
+  xy: 0, 0
+  size: 60, 63
+  orig: 120, 120
+  offset: 32, 30
+  index: -1
+buff_effect-00002
+  rotate: false
+  xy: 105, 85
+  size: 84, 83
+  orig: 120, 120
+  offset: 18, 19
+  index: -1
+buff_effect-00003
+  rotate: false
+  xy: 0, 63
+  size: 105, 105
+  orig: 120, 120
+  offset: 7, 8
+  index: -1
+buff_effect-00004
+  rotate: false
+  xy: 182, 8
+  size: 52, 50
+  orig: 120, 120
+  offset: 37, 35
+  index: -1
+buff_effect-00005
+  rotate: false
+  xy: 189, 58
+  size: 53, 52
+  orig: 120, 120
+  offset: 34, 33
+  index: -1
+buff_effect-00006
+  rotate: false
+  xy: 189, 110
+  size: 53, 58
+  orig: 120, 120
+  offset: 36, 30
+  index: -1
+buff_effect-00007
+  rotate: false
+  xy: 60, 7
+  size: 49, 56
+  orig: 120, 120
+  offset: 32, 33
+  index: -1

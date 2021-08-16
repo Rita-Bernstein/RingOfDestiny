@@ -1,0 +1,209 @@
+
+ui_altar_magic_1_unpack.png
+size: 1417,66
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_altar_magic_1-00000
+  rotate: false
+  xy: 867, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00028
+  rotate: false
+  xy: 867, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00001
+  rotate: false
+  xy: 917, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00002
+  rotate: false
+  xy: 0, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00003
+  rotate: false
+  xy: 51, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00004
+  rotate: false
+  xy: 967, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00005
+  rotate: false
+  xy: 102, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00006
+  rotate: false
+  xy: 153, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00007
+  rotate: false
+  xy: 204, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00008
+  rotate: false
+  xy: 255, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00009
+  rotate: false
+  xy: 306, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00010
+  rotate: false
+  xy: 1017, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00011
+  rotate: false
+  xy: 357, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00012
+  rotate: false
+  xy: 408, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00013
+  rotate: false
+  xy: 1067, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00014
+  rotate: false
+  xy: 1117, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00015
+  rotate: false
+  xy: 459, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00016
+  rotate: false
+  xy: 510, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00017
+  rotate: false
+  xy: 561, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00018
+  rotate: false
+  xy: 612, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00019
+  rotate: false
+  xy: 663, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00020
+  rotate: false
+  xy: 714, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00021
+  rotate: false
+  xy: 765, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00022
+  rotate: false
+  xy: 816, 0
+  size: 51, 66
+  orig: 120, 120
+  offset: 35, 27
+  index: -1
+ui_altar_magic_1-00023
+  rotate: false
+  xy: 1167, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00024
+  rotate: false
+  xy: 1217, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00025
+  rotate: false
+  xy: 1267, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00026
+  rotate: false
+  xy: 1317, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1
+ui_altar_magic_1-00027
+  rotate: false
+  xy: 1367, 0
+  size: 50, 66
+  orig: 120, 120
+  offset: 36, 27
+  index: -1

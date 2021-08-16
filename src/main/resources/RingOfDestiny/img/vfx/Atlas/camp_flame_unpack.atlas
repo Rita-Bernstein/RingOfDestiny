@@ -1,0 +1,90 @@
+
+camp_flame_unpack.png
+size: 1345,1125
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+camp_flame-00000
+  rotate: true
+  xy: 664, 760
+  size: 365, 349
+  orig: 400, 400
+  offset: 19, 0
+  index: -1
+camp_flame-00001
+  rotate: false
+  xy: 991, 406
+  size: 332, 354
+  orig: 400, 400
+  offset: 36, 0
+  index: -1
+camp_flame-00002
+  rotate: false
+  xy: 1010, 64
+  size: 311, 342
+  orig: 400, 400
+  offset: 45, 12
+  index: -1
+camp_flame-00003
+  rotate: false
+  xy: 678, 32
+  size: 332, 359
+  orig: 400, 400
+  offset: 36, 0
+  index: -1
+camp_flame-00004
+  rotate: false
+  xy: 332, 391
+  size: 364, 366
+  orig: 400, 400
+  offset: 20, 0
+  index: -1
+camp_flame-00005
+  rotate: false
+  xy: 0, 374
+  size: 332, 374
+  orig: 400, 400
+  offset: 36, 0
+  index: -1
+camp_flame-00006
+  rotate: false
+  xy: 696, 404
+  size: 295, 356
+  orig: 400, 400
+  offset: 55, 12
+  index: -1
+camp_flame-00007
+  rotate: false
+  xy: 332, 757
+  size: 332, 368
+  orig: 400, 400
+  offset: 36, 0
+  index: -1
+camp_flame-00008
+  rotate: false
+  xy: 314, 6
+  size: 364, 368
+  orig: 400, 400
+  offset: 20, 0
+  index: -1
+camp_flame-00009
+  rotate: false
+  xy: 0, 748
+  size: 332, 377
+  orig: 400, 400
+  offset: 36, 0
+  index: -1
+camp_flame-00010
+  rotate: false
+  xy: 0, 0
+  size: 314, 374
+  orig: 400, 400
+  offset: 44, 12
+  index: -1
+camp_flame-00011
+  rotate: false
+  xy: 1013, 777
+  size: 332, 348
+  orig: 400, 400
+  offset: 36, 0
+  index: -1

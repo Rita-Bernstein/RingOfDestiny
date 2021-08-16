@@ -1,0 +1,48 @@
+
+fight_round_player_unpack.png
+size: 1857,800
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fight_round_player-00000
+  rotate: true
+  xy: 1759, 441
+  size: 359, 98
+  orig: 800, 400
+  offset: 221, 151
+  index: -1
+fight_round_player-00001
+  rotate: false
+  xy: 0, 400
+  size: 800, 400
+  orig: 800, 400
+  offset: 0, 0
+  index: -1
+fight_round_player-00002
+  rotate: false
+  xy: 0, 0
+  size: 800, 400
+  orig: 800, 400
+  offset: 0, 0
+  index: -1
+fight_round_player-00003
+  rotate: false
+  xy: 800, 400
+  size: 800, 400
+  orig: 800, 400
+  offset: 0, 0
+  index: -1
+fight_round_player-00004
+  rotate: false
+  xy: 800, 0
+  size: 800, 400
+  orig: 800, 400
+  offset: 0, 0
+  index: -1
+fight_round_player-00005
+  rotate: true
+  xy: 1600, 161
+  size: 639, 159
+  orig: 800, 400
+  offset: 83, 121
+  index: -1

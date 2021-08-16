@@ -1,0 +1,145 @@
+
+card_upgrade_unpack.png
+size: 1786,1975
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_upgrade-00000
+  rotate: false
+  xy: 962, 1058
+  size: 430, 434
+  orig: 500, 500
+  offset: 16, 32
+  index: -1
+card_upgrade-00001
+  rotate: true
+  xy: 477, 19
+  size: 478, 469
+  orig: 500, 500
+  offset: 8, 13
+  index: -1
+card_upgrade-00002
+  rotate: true
+  xy: 0, 989
+  size: 492, 486
+  orig: 500, 500
+  offset: 3, 4
+  index: -1
+card_upgrade-00003
+  rotate: false
+  xy: 0, 1481
+  size: 487, 494
+  orig: 500, 500
+  offset: 3, 1
+  index: -1
+card_upgrade-00004
+  rotate: true
+  xy: 477, 497
+  size: 492, 477
+  orig: 500, 500
+  offset: 3, 11
+  index: -1
+card_upgrade-00005
+  rotate: true
+  xy: 1391, 558
+  size: 500, 362
+  orig: 500, 500
+  offset: 0, 71
+  index: -1
+card_upgrade-00006
+  rotate: true
+  xy: 1409, 58
+  size: 500, 347
+  orig: 500, 500
+  offset: 0, 80
+  index: -1
+card_upgrade-00007
+  rotate: false
+  xy: 965, 1653
+  size: 500, 322
+  orig: 500, 500
+  offset: 0, 93
+  index: -1
+card_upgrade-00009
+  rotate: false
+  xy: 1392, 1257
+  size: 394, 396
+  orig: 500, 500
+  offset: 56, 49
+  index: -1
+card_upgrade-00010
+  rotate: true
+  xy: 946, 26
+  size: 471, 463
+  orig: 500, 500
+  offset: 29, 37
+  index: -1
+card_upgrade-00011
+  rotate: false
+  xy: 0, 494
+  size: 477, 495
+  orig: 500, 500
+  offset: 16, 0
+  index: -1
+card_upgrade-00012
+  rotate: false
+  xy: 0, 0
+  size: 477, 494
+  orig: 500, 500
+  offset: 16, 1
+  index: -1
+card_upgrade-00013
+  rotate: false
+  xy: 954, 523
+  size: 437, 471
+  orig: 500, 500
+  offset: 35, 9
+  index: -1
+card_upgrade-00014
+  rotate: true
+  xy: 487, 1492
+  size: 483, 478
+  orig: 500, 500
+  offset: 10, 9
+  index: -1
+card_upgrade-00015
+  rotate: false
+  xy: 486, 994
+  size: 476, 487
+  orig: 500, 500
+  offset: 16, 1
+  index: -1
+
+card_upgrade_unpack2.png
+size: 1546,390
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_upgrade-00008
+  rotate: false
+  xy: 1180, 24
+  size: 366, 366
+  orig: 500, 500
+  offset: 70, 64
+  index: -1
+card_upgrade-00016
+  rotate: true
+  xy: 799, 1
+  size: 389, 381
+  orig: 500, 500
+  offset: 50, 53
+  index: -1
+card_upgrade-00017
+  rotate: false
+  xy: 401, 0
+  size: 398, 390
+  orig: 500, 500
+  offset: 53, 54
+  index: -1
+card_upgrade-00018
+  rotate: false
+  xy: 0, 2
+  size: 401, 388
+  orig: 500, 500
+  offset: 53, 60
+  index: -1

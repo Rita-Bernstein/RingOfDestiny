@@ -1,0 +1,62 @@
+
+card_aomanzhili_unpack.png
+size: 330,516
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_aomanzhili-00000
+  rotate: false
+  xy: 275, 87
+  size: 55, 55
+  orig: 500, 500
+  offset: 230, 220
+  index: -1
+card_aomanzhili-00001
+  rotate: false
+  xy: 0, 334
+  size: 208, 182
+  orig: 500, 500
+  offset: 149, 159
+  index: -1
+card_aomanzhili-00002
+  rotate: false
+  xy: 0, 177
+  size: 177, 157
+  orig: 500, 500
+  offset: 163, 171
+  index: -1
+card_aomanzhili-00003
+  rotate: false
+  xy: 177, 142
+  size: 151, 134
+  orig: 500, 500
+  offset: 179, 182
+  index: -1
+card_aomanzhili-00004
+  rotate: false
+  xy: 0, 48
+  size: 147, 129
+  orig: 500, 500
+  offset: 184, 183
+  index: -1
+card_aomanzhili-00005
+  rotate: true
+  xy: 147, 0
+  size: 142, 128
+  orig: 500, 500
+  offset: 185, 182
+  index: -1
+card_aomanzhili-00006
+  rotate: true
+  xy: 208, 387
+  size: 129, 121
+  orig: 500, 500
+  offset: 193, 188
+  index: -1
+card_aomanzhili-00007
+  rotate: true
+  xy: 208, 276
+  size: 111, 113
+  orig: 500, 500
+  offset: 199, 192
+  index: -1

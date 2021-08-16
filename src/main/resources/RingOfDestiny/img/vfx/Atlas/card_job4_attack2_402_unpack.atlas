@@ -1,0 +1,55 @@
+
+card_job4_attack2_402_unpack.png
+size: 871,332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_job4_attack2_402-00000
+  rotate: false
+  xy: 0, 7
+  size: 323, 325
+  orig: 454, 386
+  offset: 62, 29
+  index: -1
+card_job4_attack2_402-00001
+  rotate: false
+  xy: 323, 74
+  size: 255, 258
+  orig: 454, 386
+  offset: 99, 64
+  index: -1
+card_job4_attack2_402-00002
+  rotate: true
+  xy: 722, 175
+  size: 157, 149
+  orig: 454, 386
+  offset: 144, 124
+  index: -1
+card_job4_attack2_402-00003
+  rotate: false
+  xy: 578, 6
+  size: 162, 149
+  orig: 454, 386
+  offset: 146, 118
+  index: -1
+card_job4_attack2_402-00004
+  rotate: true
+  xy: 578, 155
+  size: 177, 144
+  orig: 454, 386
+  offset: 138, 124
+  index: -1
+card_job4_attack2_402-00005
+  rotate: true
+  xy: 740, 3
+  size: 172, 121
+  orig: 454, 386
+  offset: 144, 136
+  index: -1
+card_job4_attack2_402-00006
+  rotate: false
+  xy: 323, 0
+  size: 152, 74
+  orig: 454, 386
+  offset: 152, 167
+  index: -1

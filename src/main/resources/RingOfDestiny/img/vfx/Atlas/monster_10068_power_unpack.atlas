@@ -1,0 +1,90 @@
+
+monster_10068_power_unpack.png
+size: 1366,598
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10068_power-00000
+  rotate: true
+  xy: 951, 114
+  size: 160, 117
+  orig: 335, 458
+  offset: 84, 39
+  index: -1
+monster_10068_power-00001
+  rotate: true
+  xy: 640, 0
+  size: 223, 311
+  orig: 335, 458
+  offset: 57, 55
+  index: -1
+monster_10068_power-00002
+  rotate: true
+  xy: 324, 0
+  size: 220, 316
+  orig: 335, 458
+  offset: 57, 66
+  index: -1
+monster_10068_power-00003
+  rotate: false
+  xy: 230, 220
+  size: 228, 378
+  orig: 335, 458
+  offset: 49, 65
+  index: -1
+monster_10068_power-00004
+  rotate: false
+  xy: 0, 200
+  size: 230, 398
+  orig: 335, 458
+  offset: 48, 46
+  index: -1
+monster_10068_power-00005
+  rotate: false
+  xy: 458, 223
+  size: 227, 375
+  orig: 335, 458
+  offset: 50, 61
+  index: -1
+monster_10068_power-00006
+  rotate: false
+  xy: 685, 265
+  size: 210, 333
+  orig: 335, 458
+  offset: 59, 90
+  index: -1
+monster_10068_power-00007
+  rotate: false
+  xy: 895, 274
+  size: 206, 324
+  orig: 335, 458
+  offset: 64, 104
+  index: -1
+monster_10068_power-00008
+  rotate: true
+  xy: 0, 0
+  size: 200, 324
+  orig: 335, 458
+  offset: 67, 119
+  index: -1
+monster_10068_power-00009
+  rotate: true
+  xy: 1068, 57
+  size: 186, 290
+  orig: 335, 458
+  offset: 74, 136
+  index: -1
+monster_10068_power-00010
+  rotate: true
+  xy: 1101, 418
+  size: 180, 265
+  orig: 335, 458
+  offset: 78, 153
+  index: -1
+monster_10068_power-00011
+  rotate: true
+  xy: 1101, 243
+  size: 175, 262
+  orig: 335, 458
+  offset: 79, 176
+  index: -1

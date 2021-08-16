@@ -1,0 +1,34 @@
+
+monster_10005_appear_unpack.png
+size: 1172,75
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10005_appear-00000
+  rotate: false
+  xy: 918, 6
+  size: 254, 69
+  orig: 412, 182
+  offset: 82, 57
+  index: -1
+monster_10005_appear-00001
+  rotate: false
+  xy: 634, 7
+  size: 284, 68
+  orig: 412, 182
+  offset: 67, 58
+  index: -1
+monster_10005_appear-00002
+  rotate: false
+  xy: 338, 0
+  size: 296, 75
+  orig: 412, 182
+  offset: 61, 60
+  index: -1
+monster_10005_appear-00003
+  rotate: false
+  xy: 0, 1
+  size: 338, 74
+  orig: 412, 182
+  offset: 40, 63
+  index: -1

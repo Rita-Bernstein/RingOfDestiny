@@ -1,0 +1,55 @@
+
+monster_10098_armor_unpack.png
+size: 460,561
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10098_armor-00000
+  rotate: false
+  xy: 328, 100
+  size: 132, 124
+  orig: 428, 378
+  offset: 95, 149
+  index: -1
+monster_10098_armor-00001
+  rotate: false
+  xy: 0, 0
+  size: 195, 221
+  orig: 428, 378
+  offset: 89, 89
+  index: -1
+monster_10098_armor-00002
+  rotate: true
+  xy: 0, 366
+  size: 195, 230
+  orig: 428, 378
+  offset: 93, 84
+  index: -1
+monster_10098_armor-00003
+  rotate: true
+  xy: 230, 374
+  size: 187, 226
+  orig: 428, 378
+  offset: 100, 86
+  index: -1
+monster_10098_armor-00004
+  rotate: true
+  xy: 230, 224
+  size: 150, 223
+  orig: 428, 378
+  offset: 136, 88
+  index: -1
+monster_10098_armor-00005
+  rotate: true
+  xy: 0, 221
+  size: 145, 222
+  orig: 428, 378
+  offset: 139, 88
+  index: -1
+monster_10098_armor-00006
+  rotate: false
+  xy: 195, 5
+  size: 133, 216
+  orig: 428, 378
+  offset: 142, 94
+  index: -1

@@ -1,0 +1,83 @@
+
+card_zhimingshuangqiang_203_unpack.png
+size: 273,539
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_zhimingshuangqiang_203-00000
+  rotate: true
+  xy: 138, 98
+  size: 132, 131
+  orig: 309, 259
+  offset: 89, 64
+  index: -1
+card_zhimingshuangqiang_203-00001
+  rotate: false
+  xy: 0, 384
+  size: 153, 155
+  orig: 309, 259
+  offset: 77, 50
+  index: -1
+card_zhimingshuangqiang_203-00002
+  rotate: true
+  xy: 0, 230
+  size: 154, 152
+  orig: 309, 259
+  offset: 76, 54
+  index: -1
+card_zhimingshuangqiang_203-00003
+  rotate: true
+  xy: 0, 87
+  size: 143, 138
+  orig: 309, 259
+  offset: 80, 58
+  index: -1
+card_zhimingshuangqiang_203-00004
+  rotate: true
+  xy: 152, 262
+  size: 122, 115
+  orig: 309, 259
+  offset: 91, 71
+  index: -1
+card_zhimingshuangqiang_203-00005
+  rotate: false
+  xy: 167, 0
+  size: 106, 98
+  orig: 309, 259
+  offset: 97, 80
+  index: -1
+card_zhimingshuangqiang_203-00006
+  rotate: false
+  xy: 0, 6
+  size: 93, 81
+  orig: 309, 259
+  offset: 102, 89
+  index: -1
+card_zhimingshuangqiang_203-00007
+  rotate: true
+  xy: 93, 2
+  size: 85, 74
+  orig: 309, 259
+  offset: 106, 92
+  index: -1
+card_zhimingshuangqiang_203-00008
+  rotate: true
+  xy: 153, 459
+  size: 80, 70
+  orig: 309, 259
+  offset: 109, 94
+  index: -1
+card_zhimingshuangqiang_203-00009
+  rotate: true
+  xy: 153, 384
+  size: 75, 53
+  orig: 309, 259
+  offset: 112, 107
+  index: -1
+card_zhimingshuangqiang_203-00010
+  rotate: true
+  xy: 206, 388
+  size: 71, 40
+  orig: 309, 259
+  offset: 114, 118
+  index: -1

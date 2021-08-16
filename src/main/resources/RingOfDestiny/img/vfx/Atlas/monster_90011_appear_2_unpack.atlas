@@ -1,0 +1,118 @@
+
+monster_90011_appear_2_unpack.png
+size: 1073,857
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_90011_appear_2-00000
+  rotate: false
+  xy: 0, 680
+  size: 269, 177
+  orig: 496, 397
+  offset: 103, 98
+  index: -1
+monster_90011_appear_2-00001
+  rotate: false
+  xy: 536, 662
+  size: 269, 195
+  orig: 496, 397
+  offset: 104, 85
+  index: -1
+monster_90011_appear_2-00002
+  rotate: false
+  xy: 0, 475
+  size: 267, 205
+  orig: 496, 397
+  offset: 105, 79
+  index: -1
+monster_90011_appear_2-00003
+  rotate: false
+  xy: 799, 447
+  size: 270, 215
+  orig: 496, 397
+  offset: 106, 75
+  index: -1
+monster_90011_appear_2-00004
+  rotate: false
+  xy: 0, 33
+  size: 268, 226
+  orig: 496, 397
+  offset: 107, 70
+  index: -1
+monster_90011_appear_2-00005
+  rotate: false
+  xy: 268, 30
+  size: 265, 228
+  orig: 496, 397
+  offset: 108, 73
+  index: -1
+monster_90011_appear_2-00006
+  rotate: false
+  xy: 534, 230
+  size: 262, 218
+  orig: 496, 397
+  offset: 109, 77
+  index: -1
+monster_90011_appear_2-00007
+  rotate: false
+  xy: 534, 448
+  size: 265, 214
+  orig: 496, 397
+  offset: 106, 82
+  index: -1
+monster_90011_appear_2-00008
+  rotate: false
+  xy: 269, 680
+  size: 267, 177
+  orig: 496, 397
+  offset: 103, 98
+  index: -1
+monster_90011_appear_2-00009
+  rotate: false
+  xy: 805, 662
+  size: 268, 195
+  orig: 496, 397
+  offset: 104, 85
+  index: -1
+monster_90011_appear_2-00010
+  rotate: false
+  xy: 267, 474
+  size: 267, 206
+  orig: 496, 397
+  offset: 105, 79
+  index: -1
+monster_90011_appear_2-00011
+  rotate: false
+  xy: 0, 259
+  size: 270, 215
+  orig: 496, 397
+  offset: 106, 75
+  index: -1
+monster_90011_appear_2-00012
+  rotate: false
+  xy: 533, 2
+  size: 268, 226
+  orig: 496, 397
+  offset: 107, 70
+  index: -1
+monster_90011_appear_2-00013
+  rotate: false
+  xy: 801, 0
+  size: 265, 228
+  orig: 496, 397
+  offset: 108, 73
+  index: -1
+monster_90011_appear_2-00014
+  rotate: false
+  xy: 796, 228
+  size: 262, 219
+  orig: 496, 397
+  offset: 109, 76
+  index: -1
+monster_90011_appear_2-00015
+  rotate: false
+  xy: 270, 258
+  size: 264, 216
+  orig: 496, 397
+  offset: 106, 81
+  index: -1

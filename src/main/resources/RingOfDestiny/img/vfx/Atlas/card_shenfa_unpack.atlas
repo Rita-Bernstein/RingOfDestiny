@@ -1,0 +1,90 @@
+
+card_shenfa_unpack.png
+size: 1008,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shenfa-00000
+  rotate: false
+  xy: 398, 3
+  size: 93, 94
+  orig: 256, 256
+  offset: 4, 157
+  index: -1
+card_shenfa-00001
+  rotate: false
+  xy: 491, 3
+  size: 93, 94
+  orig: 256, 256
+  offset: 47, 113
+  index: -1
+card_shenfa-00002
+  rotate: false
+  xy: 304, 3
+  size: 94, 94
+  orig: 256, 256
+  offset: 88, 68
+  index: -1
+card_shenfa-00003
+  rotate: true
+  xy: 210, 0
+  size: 97, 94
+  orig: 256, 256
+  offset: 128, 23
+  index: -1
+card_shenfa-00004
+  rotate: false
+  xy: 0, 8
+  size: 114, 89
+  orig: 256, 256
+  offset: 142, 3
+  index: -1
+card_shenfa-00005
+  rotate: false
+  xy: 114, 1
+  size: 96, 96
+  orig: 256, 256
+  offset: 153, 0
+  index: -1
+card_shenfa-00006
+  rotate: true
+  xy: 805, 14
+  size: 83, 71
+  orig: 256, 256
+  offset: 160, 2
+  index: -1
+card_shenfa-00007
+  rotate: true
+  xy: 944, 14
+  size: 83, 64
+  orig: 256, 256
+  offset: 160, 3
+  index: -1
+card_shenfa-00008
+  rotate: true
+  xy: 876, 14
+  size: 83, 68
+  orig: 256, 256
+  offset: 160, 3
+  index: -1
+card_shenfa-00009
+  rotate: true
+  xy: 733, 13
+  size: 84, 72
+  orig: 256, 256
+  offset: 159, 3
+  index: -1
+card_shenfa-00010
+  rotate: true
+  xy: 584, 9
+  size: 88, 74
+  orig: 256, 256
+  offset: 155, 3
+  index: -1
+card_shenfa-00011
+  rotate: true
+  xy: 658, 16
+  size: 81, 75
+  orig: 256, 256
+  offset: 161, 4
+  index: -1

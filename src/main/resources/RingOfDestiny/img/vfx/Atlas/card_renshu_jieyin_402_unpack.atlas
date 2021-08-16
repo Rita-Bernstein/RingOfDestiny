@@ -1,0 +1,104 @@
+
+card_renshu_jieyin_402_unpack.png
+size: 332,960
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_renshu_jieyin_402-00000
+  rotate: false
+  xy: 121, 133
+  size: 34, 80
+  orig: 435, 281
+  offset: 201, 104
+  index: -1
+card_renshu_jieyin_402-00001
+  rotate: true
+  xy: 223, 544
+  size: 79, 80
+  orig: 435, 281
+  offset: 179, 101
+  index: -1
+card_renshu_jieyin_402-00002
+  rotate: true
+  xy: 226, 763
+  size: 197, 103
+  orig: 435, 281
+  offset: 114, 84
+  index: -1
+card_renshu_jieyin_402-00003
+  rotate: false
+  xy: 121, 11
+  size: 204, 115
+  orig: 435, 281
+  offset: 112, 79
+  index: -1
+card_renshu_jieyin_402-00004
+  rotate: true
+  xy: 0, 0
+  size: 213, 121
+  orig: 435, 281
+  offset: 108, 77
+  index: -1
+card_renshu_jieyin_402-00005
+  rotate: false
+  xy: 0, 464
+  size: 219, 123
+  orig: 435, 281
+  offset: 105, 76
+  index: -1
+card_renshu_jieyin_402-00006
+  rotate: false
+  xy: 0, 587
+  size: 223, 123
+  orig: 435, 281
+  offset: 103, 76
+  index: -1
+card_renshu_jieyin_402-00007
+  rotate: false
+  xy: 0, 710
+  size: 225, 124
+  orig: 435, 281
+  offset: 102, 75
+  index: -1
+card_renshu_jieyin_402-00008
+  rotate: false
+  xy: 0, 834
+  size: 226, 126
+  orig: 435, 281
+  offset: 102, 74
+  index: -1
+card_renshu_jieyin_402-00009
+  rotate: false
+  xy: 0, 338
+  size: 208, 126
+  orig: 435, 281
+  offset: 120, 74
+  index: -1
+card_renshu_jieyin_402-00010
+  rotate: false
+  xy: 0, 213
+  size: 209, 125
+  orig: 435, 281
+  offset: 119, 74
+  index: -1
+card_renshu_jieyin_402-00011
+  rotate: true
+  xy: 209, 126
+  size: 210, 123
+  orig: 435, 281
+  offset: 118, 74
+  index: -1
+card_renshu_jieyin_402-00012
+  rotate: true
+  xy: 219, 336
+  size: 208, 113
+  orig: 435, 281
+  offset: 119, 74
+  index: -1
+card_renshu_jieyin_402-00013
+  rotate: true
+  xy: 225, 623
+  size: 140, 87
+  orig: 435, 281
+  offset: 125, 98
+  index: -1

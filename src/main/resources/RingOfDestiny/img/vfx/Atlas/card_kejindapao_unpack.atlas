@@ -1,0 +1,125 @@
+
+card_kejindapao_unpack.png
+size: 845,1068
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_kejindapao-00000
+  rotate: false
+  xy: 266, 0
+  size: 232, 139
+  orig: 320, 342
+  offset: 45, 20
+  index: -1
+card_kejindapao-00001
+  rotate: false
+  xy: 0, 6
+  size: 266, 131
+  orig: 320, 342
+  offset: 29, 20
+  index: -1
+card_kejindapao-00002
+  rotate: true
+  xy: 505, 516
+  size: 243, 121
+  orig: 320, 342
+  offset: 44, 20
+  index: -1
+card_kejindapao-00003
+  rotate: true
+  xy: 691, 325
+  size: 203, 125
+  orig: 320, 342
+  offset: 64, 20
+  index: -1
+card_kejindapao-00004
+  rotate: true
+  xy: 704, 140
+  size: 185, 131
+  orig: 320, 342
+  offset: 74, 20
+  index: -1
+card_kejindapao-00005
+  rotate: false
+  xy: 514, 175
+  size: 190, 135
+  orig: 320, 342
+  offset: 68, 20
+  index: -1
+card_kejindapao-00006
+  rotate: false
+  xy: 551, 762
+  size: 276, 306
+  orig: 320, 342
+  offset: 27, 20
+  index: -1
+card_kejindapao-00007
+  rotate: false
+  xy: 275, 759
+  size: 276, 309
+  orig: 320, 342
+  offset: 27, 20
+  index: -1
+card_kejindapao-00008
+  rotate: false
+  xy: 0, 756
+  size: 275, 312
+  orig: 320, 342
+  offset: 27, 20
+  index: -1
+card_kejindapao-00009
+  rotate: false
+  xy: 0, 446
+  size: 269, 310
+  orig: 320, 342
+  offset: 30, 20
+  index: -1
+card_kejindapao-00010
+  rotate: false
+  xy: 0, 137
+  size: 261, 309
+  orig: 320, 342
+  offset: 35, 20
+  index: -1
+card_kejindapao-00011
+  rotate: false
+  xy: 261, 139
+  size: 253, 307
+  orig: 320, 342
+  offset: 39, 22
+  index: -1
+card_kejindapao-00012
+  rotate: false
+  xy: 269, 508
+  size: 236, 248
+  orig: 320, 342
+  offset: 46, 76
+  index: -1
+card_kejindapao-00013
+  rotate: false
+  xy: 626, 528
+  size: 219, 234
+  orig: 320, 342
+  offset: 54, 84
+  index: -1
+card_kejindapao-00014
+  rotate: false
+  xy: 514, 310
+  size: 177, 206
+  orig: 320, 342
+  offset: 75, 96
+  index: -1
+card_kejindapao-00015
+  rotate: true
+  xy: 514, 41
+  size: 134, 174
+  orig: 320, 342
+  offset: 99, 104
+  index: -1
+card_kejindapao-00016
+  rotate: true
+  xy: 688, 16
+  size: 124, 157
+  orig: 320, 342
+  offset: 100, 112
+  index: -1

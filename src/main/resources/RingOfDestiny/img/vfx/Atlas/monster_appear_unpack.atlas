@@ -1,0 +1,111 @@
+
+monster_appear_unpack.png
+size: 1849,923
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_appear-00000
+  rotate: false
+  xy: 0, 767
+  size: 268, 156
+  orig: 316, 370
+  offset: 26, 0
+  index: -1
+monster_appear-00001
+  rotate: true
+  xy: 0, 313
+  size: 306, 366
+  orig: 316, 370
+  offset: 10, 4
+  index: -1
+monster_appear-00002
+  rotate: true
+  xy: 1476, 310
+  size: 308, 369
+  orig: 316, 370
+  offset: 8, 1
+  index: -1
+monster_appear-00003
+  rotate: true
+  xy: 0, 5
+  size: 308, 370
+  orig: 316, 370
+  offset: 4, 0
+  index: -1
+monster_appear-00004
+  rotate: true
+  xy: 1479, 0
+  size: 310, 370
+  orig: 316, 370
+  offset: 4, 0
+  index: -1
+monster_appear-00005
+  rotate: true
+  xy: 268, 619
+  size: 304, 370
+  orig: 316, 370
+  offset: 10, 0
+  index: -1
+monster_appear-00006
+  rotate: true
+  xy: 1008, 618
+  size: 305, 370
+  orig: 316, 370
+  offset: 9, 0
+  index: -1
+monster_appear-00007
+  rotate: true
+  xy: 366, 313
+  size: 306, 370
+  orig: 316, 370
+  offset: 10, 0
+  index: -1
+monster_appear-00008
+  rotate: true
+  xy: 638, 619
+  size: 304, 370
+  orig: 316, 370
+  offset: 12, 0
+  index: -1
+monster_appear-00009
+  rotate: true
+  xy: 1378, 618
+  size: 305, 370
+  orig: 316, 370
+  offset: 11, 0
+  index: -1
+monster_appear-00010
+  rotate: true
+  xy: 736, 312
+  size: 306, 370
+  orig: 316, 370
+  offset: 10, 0
+  index: -1
+monster_appear-00011
+  rotate: true
+  xy: 370, 4
+  size: 308, 370
+  orig: 316, 370
+  offset: 8, 0
+  index: -1
+monster_appear-00012
+  rotate: true
+  xy: 1106, 311
+  size: 307, 370
+  orig: 316, 370
+  offset: 9, 0
+  index: -1
+monster_appear-00013
+  rotate: true
+  xy: 740, 2
+  size: 309, 370
+  orig: 316, 370
+  offset: 7, 0
+  index: -1
+monster_appear-00014
+  rotate: true
+  xy: 1110, 1
+  size: 309, 369
+  orig: 316, 370
+  offset: 7, 1
+  index: -1

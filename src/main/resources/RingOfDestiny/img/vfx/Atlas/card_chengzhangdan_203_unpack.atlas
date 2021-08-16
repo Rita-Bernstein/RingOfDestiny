@@ -1,0 +1,97 @@
+
+card_chengzhangdan_203_unpack.png
+size: 953,320
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_chengzhangdan_203-00000
+  rotate: true
+  xy: 0, 63
+  size: 257, 184
+  orig: 370, 347
+  offset: 50, 75
+  index: -1
+card_chengzhangdan_203-00001
+  rotate: true
+  xy: 184, 107
+  size: 213, 156
+  orig: 370, 347
+  offset: 83, 94
+  index: -1
+card_chengzhangdan_203-00002
+  rotate: true
+  xy: 751, 0
+  size: 142, 127
+  orig: 370, 347
+  offset: 116, 109
+  index: -1
+card_chengzhangdan_203-00003
+  rotate: true
+  xy: 440, 6
+  size: 119, 109
+  orig: 370, 347
+  offset: 125, 116
+  index: -1
+card_chengzhangdan_203-00004
+  rotate: false
+  xy: 304, 28
+  size: 136, 79
+  orig: 370, 347
+  offset: 107, 134
+  index: -1
+card_chengzhangdan_203-00005
+  rotate: true
+  xy: 549, 1
+  size: 136, 74
+  orig: 370, 347
+  offset: 107, 135
+  index: -1
+card_chengzhangdan_203-00006
+  rotate: true
+  xy: 878, 23
+  size: 142, 75
+  orig: 370, 347
+  offset: 103, 135
+  index: -1
+card_chengzhangdan_203-00007
+  rotate: true
+  xy: 869, 165
+  size: 155, 78
+  orig: 370, 347
+  offset: 96, 132
+  index: -1
+card_chengzhangdan_203-00008
+  rotate: true
+  xy: 528, 137
+  size: 183, 174
+  orig: 370, 347
+  offset: 97, 87
+  index: -1
+card_chengzhangdan_203-00009
+  rotate: true
+  xy: 340, 125
+  size: 195, 188
+  orig: 370, 347
+  offset: 91, 82
+  index: -1
+card_chengzhangdan_203-00010
+  rotate: true
+  xy: 702, 142
+  size: 178, 167
+  orig: 370, 347
+  offset: 99, 90
+  index: -1
+card_chengzhangdan_203-00011
+  rotate: true
+  xy: 623, 4
+  size: 133, 128
+  orig: 370, 347
+  offset: 119, 111
+  index: -1
+card_chengzhangdan_203-00012
+  rotate: false
+  xy: 184, 14
+  size: 120, 93
+  orig: 370, 347
+  offset: 120, 112
+  index: -1

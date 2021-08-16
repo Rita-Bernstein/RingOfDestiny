@@ -1,0 +1,97 @@
+
+monster_10072_heianmoni_2_unpack.png
+size: 1989,455
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10072_heianmoni_2-00000
+  rotate: true
+  xy: 253, 17
+  size: 161, 248
+  orig: 500, 500
+  offset: 255, 130
+  index: -1
+monster_10072_heianmoni_2-00001
+  rotate: true
+  xy: 0, 19
+  size: 159, 253
+  orig: 500, 500
+  offset: 250, 127
+  index: -1
+monster_10072_heianmoni_2-00002
+  rotate: true
+  xy: 1733, 288
+  size: 167, 256
+  orig: 500, 500
+  offset: 249, 126
+  index: -1
+monster_10072_heianmoni_2-00003
+  rotate: true
+  xy: 501, 7
+  size: 171, 229
+  orig: 500, 500
+  offset: 236, 132
+  index: -1
+monster_10072_heianmoni_2-00004
+  rotate: false
+  xy: 737, 186
+  size: 350, 269
+  orig: 500, 500
+  offset: 71, 126
+  index: -1
+monster_10072_heianmoni_2-00005
+  rotate: false
+  xy: 0, 178
+  size: 369, 277
+  orig: 500, 500
+  offset: 38, 122
+  index: -1
+monster_10072_heianmoni_2-00006
+  rotate: false
+  xy: 369, 178
+  size: 368, 277
+  orig: 500, 500
+  offset: 40, 121
+  index: -1
+monster_10072_heianmoni_2-00007
+  rotate: false
+  xy: 1087, 183
+  size: 332, 272
+  orig: 500, 500
+  offset: 51, 122
+  index: -1
+monster_10072_heianmoni_2-00008
+  rotate: false
+  xy: 1419, 190
+  size: 314, 265
+  orig: 500, 500
+  offset: 72, 124
+  index: -1
+monster_10072_heianmoni_2-00009
+  rotate: true
+  xy: 1733, 14
+  size: 274, 255
+  orig: 500, 500
+  offset: 113, 128
+  index: -1
+monster_10072_heianmoni_2-00010
+  rotate: true
+  xy: 737, 0
+  size: 186, 243
+  orig: 500, 500
+  offset: 228, 132
+  index: -1
+monster_10072_heianmoni_2-00011
+  rotate: true
+  xy: 980, 15
+  size: 168, 243
+  orig: 500, 500
+  offset: 240, 132
+  index: -1
+monster_10072_heianmoni_2-00012
+  rotate: true
+  xy: 1223, 32
+  size: 151, 243
+  orig: 500, 500
+  offset: 244, 132
+  index: -1

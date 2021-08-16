@@ -1,0 +1,111 @@
+
+card_duanzanjiahu_unpack.png
+size: 1987,1483
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_duanzanjiahu-00000
+  rotate: true
+  xy: 1720, 41
+  size: 251, 207
+  orig: 520, 700
+  offset: 136, 84
+  index: -1
+card_duanzanjiahu-00001
+  rotate: true
+  xy: 1442, 38
+  size: 254, 278
+  orig: 520, 700
+  offset: 134, 81
+  index: -1
+card_duanzanjiahu-00002
+  rotate: false
+  xy: 1615, 665
+  size: 372, 382
+  orig: 520, 700
+  offset: 73, 52
+  index: -1
+card_duanzanjiahu-00003
+  rotate: true
+  xy: 1138, 1047
+  size: 436, 497
+  orig: 520, 700
+  offset: 43, 37
+  index: -1
+card_duanzanjiahu-00004
+  rotate: false
+  xy: 618, 907
+  size: 520, 576
+  orig: 520, 700
+  offset: 0, 0
+  index: -1
+card_duanzanjiahu-00005
+  rotate: false
+  xy: 0, 387
+  size: 520, 576
+  orig: 520, 700
+  offset: 0, 0
+  index: -1
+card_duanzanjiahu-00006
+  rotate: true
+  xy: 520, 387
+  size: 520, 575
+  orig: 520, 700
+  offset: 0, 0
+  index: -1
+card_duanzanjiahu-00007
+  rotate: true
+  xy: 0, 963
+  size: 520, 618
+  orig: 520, 700
+  offset: 0, 0
+  index: -1
+card_duanzanjiahu-00008
+  rotate: false
+  xy: 1095, 332
+  size: 520, 575
+  orig: 520, 700
+  offset: 0, 0
+  index: -1
+card_duanzanjiahu-00009
+  rotate: false
+  xy: 0, 0
+  size: 416, 387
+  orig: 520, 700
+  offset: 48, 146
+  index: -1
+card_duanzanjiahu-00010
+  rotate: false
+  xy: 416, 1
+  size: 393, 386
+  orig: 520, 700
+  offset: 48, 186
+  index: -1
+card_duanzanjiahu-00011
+  rotate: true
+  xy: 1635, 1071
+  size: 412, 348
+  orig: 520, 700
+  offset: 47, 270
+  index: -1
+card_duanzanjiahu-00012
+  rotate: false
+  xy: 1615, 292
+  size: 368, 373
+  orig: 520, 700
+  offset: 61, 298
+  index: -1
+card_duanzanjiahu-00013
+  rotate: true
+  xy: 809, 22
+  size: 365, 276
+  orig: 520, 700
+  offset: 62, 334
+  index: -1
+card_duanzanjiahu-00014
+  rotate: false
+  xy: 1085, 57
+  size: 357, 275
+  orig: 520, 700
+  offset: 65, 380
+  index: -1

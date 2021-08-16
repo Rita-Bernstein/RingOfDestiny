@@ -1,0 +1,132 @@
+
+card_kaigua_unpack.png
+size: 741,537
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_kaigua-00000
+  rotate: true
+  xy: 703, 266
+  size: 109, 37
+  orig: 292, 256
+  offset: 92, 111
+  index: -1
+card_kaigua-00001
+  rotate: false
+  xy: 0, 99
+  size: 181, 199
+  orig: 292, 256
+  offset: 56, 22
+  index: -1
+card_kaigua-00002
+  rotate: true
+  xy: 553, 375
+  size: 162, 180
+  orig: 292, 256
+  offset: 65, 32
+  index: -1
+card_kaigua-00003
+  rotate: true
+  xy: 280, 189
+  size: 154, 158
+  orig: 292, 256
+  offset: 69, 44
+  index: -1
+card_kaigua-00004
+  rotate: true
+  xy: 279, 49
+  size: 140, 144
+  orig: 292, 256
+  offset: 75, 52
+  index: -1
+card_kaigua-00005
+  rotate: false
+  xy: 569, 245
+  size: 134, 130
+  orig: 292, 256
+  offset: 77, 61
+  index: -1
+card_kaigua-00006
+  rotate: false
+  xy: 569, 119
+  size: 131, 126
+  orig: 292, 256
+  offset: 79, 67
+  index: -1
+card_kaigua-00007
+  rotate: true
+  xy: 438, 207
+  size: 136, 131
+  orig: 292, 256
+  offset: 76, 64
+  index: -1
+card_kaigua-00008
+  rotate: false
+  xy: 283, 343
+  size: 242, 90
+  orig: 292, 256
+  offset: 28, 86
+  index: -1
+card_kaigua-00009
+  rotate: false
+  xy: 0, 414
+  size: 283, 123
+  orig: 292, 256
+  offset: 9, 69
+  index: -1
+card_kaigua-00010
+  rotate: false
+  xy: 0, 298
+  size: 280, 116
+  orig: 292, 256
+  offset: 11, 72
+  index: -1
+card_kaigua-00011
+  rotate: false
+  xy: 283, 433
+  size: 270, 104
+  orig: 292, 256
+  offset: 18, 79
+  index: -1
+card_kaigua-00012
+  rotate: true
+  xy: 181, 59
+  size: 239, 98
+  orig: 292, 256
+  offset: 31, 84
+  index: -1
+card_kaigua-00013
+  rotate: false
+  xy: 0, 8
+  size: 149, 91
+  orig: 292, 256
+  offset: 70, 85
+  index: -1
+card_kaigua-00014
+  rotate: true
+  xy: 536, 0
+  size: 104, 94
+  orig: 292, 256
+  offset: 93, 83
+  index: -1
+card_kaigua-00015
+  rotate: false
+  xy: 423, 4
+  size: 113, 100
+  orig: 292, 256
+  offset: 89, 80
+  index: -1
+card_kaigua-00016
+  rotate: false
+  xy: 438, 104
+  size: 122, 103
+  orig: 292, 256
+  offset: 85, 75
+  index: -1
+card_kaigua-00017
+  rotate: false
+  xy: 630, 6
+  size: 111, 113
+  orig: 292, 256
+  offset: 92, 70
+  index: -1

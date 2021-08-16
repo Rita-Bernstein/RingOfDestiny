@@ -1,0 +1,125 @@
+
+card_fengzhen_unpack.png
+size: 1813,799
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_fengzhen-00000
+  rotate: true
+  xy: 290, 275
+  size: 212, 253
+  orig: 394, 418
+  offset: 94, 91
+  index: -1
+card_fengzhen-00001
+  rotate: true
+  xy: 1508, 4
+  size: 223, 278
+  orig: 394, 418
+  offset: 90, 73
+  index: -1
+card_fengzhen-00002
+  rotate: true
+  xy: 591, 19
+  size: 247, 299
+  orig: 394, 418
+  offset: 77, 64
+  index: -1
+card_fengzhen-00003
+  rotate: false
+  xy: 1528, 227
+  size: 280, 306
+  orig: 394, 418
+  offset: 60, 55
+  index: -1
+card_fengzhen-00004
+  rotate: false
+  xy: 290, 487
+  size: 282, 312
+  orig: 394, 418
+  offset: 63, 53
+  index: -1
+card_fengzhen-00005
+  rotate: true
+  xy: 1212, 260
+  size: 270, 316
+  orig: 394, 418
+  offset: 72, 54
+  index: -1
+card_fengzhen-00006
+  rotate: true
+  xy: 1207, 530
+  size: 269, 319
+  orig: 394, 418
+  offset: 74, 53
+  index: -1
+card_fengzhen-00007
+  rotate: true
+  xy: 572, 266
+  size: 259, 318
+  orig: 394, 418
+  offset: 79, 54
+  index: -1
+card_fengzhen-00008
+  rotate: true
+  xy: 890, 4
+  size: 255, 321
+  orig: 394, 418
+  offset: 76, 53
+  index: -1
+card_fengzhen-00009
+  rotate: true
+  xy: 890, 259
+  size: 264, 322
+  orig: 394, 418
+  offset: 69, 54
+  index: -1
+card_fengzhen-00010
+  rotate: true
+  xy: 572, 525
+  size: 274, 320
+  orig: 394, 418
+  offset: 68, 56
+  index: -1
+card_fengzhen-00011
+  rotate: false
+  xy: 0, 158
+  size: 286, 321
+  orig: 394, 418
+  offset: 63, 56
+  index: -1
+card_fengzhen-00012
+  rotate: false
+  xy: 0, 479
+  size: 290, 320
+  orig: 394, 418
+  offset: 61, 59
+  index: -1
+card_fengzhen-00013
+  rotate: true
+  xy: 892, 523
+  size: 276, 315
+  orig: 394, 418
+  offset: 70, 58
+  index: -1
+card_fengzhen-00014
+  rotate: true
+  xy: 286, 0
+  size: 259, 305
+  orig: 394, 418
+  offset: 79, 67
+  index: -1
+card_fengzhen-00015
+  rotate: true
+  xy: 1212, 0
+  size: 260, 296
+  orig: 394, 418
+  offset: 79, 69
+  index: -1
+card_fengzhen-00016
+  rotate: true
+  xy: 1526, 533
+  size: 266, 287
+  orig: 394, 418
+  offset: 76, 73
+  index: -1

@@ -41,7 +41,9 @@ public class EnergyOrbCustomBlue extends CustomEnergyOrb {
 		if (enabled) {
 			sb.setColor(Color.WHITE);
 
-				sb.draw(this.energyLayers[0], current_x - 64.0F, current_y - 64.0F, 64.0F, 64.0F, 128.0F, 128.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0, 128, 128, false, false);
+				sb.draw(this.energyLayers[0], current_x - 64.0F, current_y - 64.0F, 64.0F, 64.0F,
+						128.0F, 128.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, 0.0f, 0, 0,
+						128, 128, false, false);
 				sb.draw(this.energyLayers[1], current_x - 64.0F, current_y - 64.0F, 64.0F, 64.0F, 128.0F, 128.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle2, 0, 0, 128, 128, false, false);
 				sb.draw(this.energyLayers[2], current_x - 64.0F, current_y - 64.0F, 64.0F, 64.0F, 128.0F, 128.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle3, 0, 0, 128, 128, false, false);
 				sb.draw(this.energyLayers[3], current_x - 64.0F, current_y - 64.0F, 64.0F, 64.0F, 128.0F, 128.0F, ORB_IMG_SCALE, ORB_IMG_SCALE, this.angle4, 0, 0, 128, 128, false, false);

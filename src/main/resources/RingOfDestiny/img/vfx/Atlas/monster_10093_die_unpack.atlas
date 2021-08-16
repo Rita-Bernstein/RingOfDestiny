@@ -1,0 +1,125 @@
+
+monster_10093_die_unpack.png
+size: 1981,235
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10093_die-00000
+  rotate: false
+  xy: 0, 162
+  size: 159, 73
+  orig: 452, 328
+  offset: 141, 101
+  index: -1
+monster_10093_die-00001
+  rotate: false
+  xy: 288, 129
+  size: 175, 106
+  orig: 452, 328
+  offset: 133, 88
+  index: -1
+monster_10093_die-00002
+  rotate: false
+  xy: 463, 128
+  size: 205, 107
+  orig: 452, 328
+  offset: 131, 90
+  index: -1
+monster_10093_die-00003
+  rotate: false
+  xy: 1469, 123
+  size: 259, 112
+  orig: 452, 328
+  offset: 103, 87
+  index: -1
+monster_10093_die-00004
+  rotate: false
+  xy: 0, 44
+  size: 274, 115
+  orig: 452, 328
+  offset: 94, 84
+  index: -1
+monster_10093_die-00005
+  rotate: false
+  xy: 274, 10
+  size: 275, 118
+  orig: 452, 328
+  offset: 95, 82
+  index: -1
+monster_10093_die-00006
+  rotate: false
+  xy: 830, 7
+  size: 279, 119
+  orig: 452, 328
+  offset: 93, 82
+  index: -1
+monster_10093_die-00007
+  rotate: false
+  xy: 1384, 3
+  size: 279, 120
+  orig: 452, 328
+  offset: 92, 80
+  index: -1
+monster_10093_die-00008
+  rotate: false
+  xy: 1663, 0
+  size: 279, 121
+  orig: 452, 328
+  offset: 92, 78
+  index: -1
+monster_10093_die-00009
+  rotate: false
+  xy: 1109, 5
+  size: 275, 119
+  orig: 452, 328
+  offset: 95, 78
+  index: -1
+monster_10093_die-00010
+  rotate: false
+  xy: 549, 8
+  size: 281, 118
+  orig: 452, 328
+  offset: 90, 78
+  index: -1
+monster_10093_die-00011
+  rotate: false
+  xy: 1728, 121
+  size: 253, 114
+  orig: 452, 328
+  offset: 89, 78
+  index: -1
+monster_10093_die-00012
+  rotate: false
+  xy: 668, 126
+  size: 253, 109
+  orig: 452, 328
+  offset: 88, 78
+  index: -1
+monster_10093_die-00013
+  rotate: false
+  xy: 921, 126
+  size: 187, 109
+  orig: 452, 328
+  offset: 87, 78
+  index: -1
+monster_10093_die-00014
+  rotate: false
+  xy: 1108, 126
+  size: 184, 109
+  orig: 452, 328
+  offset: 85, 78
+  index: -1
+monster_10093_die-00015
+  rotate: false
+  xy: 1292, 124
+  size: 177, 111
+  orig: 452, 328
+  offset: 85, 76
+  index: -1
+monster_10093_die-00016
+  rotate: false
+  xy: 159, 159
+  size: 129, 76
+  orig: 452, 328
+  offset: 84, 76
+  index: -1

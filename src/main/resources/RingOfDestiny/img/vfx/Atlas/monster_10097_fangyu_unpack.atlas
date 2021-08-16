@@ -1,0 +1,111 @@
+
+monster_10097_fangyu_unpack.png
+size: 1507,375
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10097_fangyu-00000
+  rotate: false
+  xy: 1370, 3
+  size: 77, 240
+  orig: 447, 462
+  offset: 234, 103
+  index: -1
+monster_10097_fangyu-00001
+  rotate: true
+  xy: 635, 16
+  size: 171, 282
+  orig: 447, 462
+  offset: 143, 75
+  index: -1
+monster_10097_fangyu-00002
+  rotate: true
+  xy: 1084, 8
+  size: 182, 286
+  orig: 447, 462
+  offset: 136, 74
+  index: -1
+monster_10097_fangyu-00003
+  rotate: true
+  xy: 1084, 190
+  size: 185, 286
+  orig: 447, 462
+  offset: 136, 74
+  index: -1
+monster_10097_fangyu-00004
+  rotate: true
+  xy: 0, 187
+  size: 188, 281
+  orig: 447, 462
+  offset: 133, 74
+  index: -1
+monster_10097_fangyu-00005
+  rotate: true
+  xy: 281, 187
+  size: 188, 276
+  orig: 447, 462
+  offset: 133, 74
+  index: -1
+monster_10097_fangyu-00006
+  rotate: true
+  xy: 557, 187
+  size: 188, 275
+  orig: 447, 462
+  offset: 133, 75
+  index: -1
+monster_10097_fangyu-00007
+  rotate: true
+  xy: 832, 187
+  size: 188, 252
+  orig: 447, 462
+  offset: 133, 94
+  index: -1
+monster_10097_fangyu-00008
+  rotate: true
+  xy: 0, 0
+  size: 187, 238
+  orig: 447, 462
+  offset: 133, 109
+  index: -1
+monster_10097_fangyu-00009
+  rotate: true
+  xy: 238, 3
+  size: 184, 204
+  orig: 447, 462
+  offset: 133, 146
+  index: -1
+monster_10097_fangyu-00010
+  rotate: true
+  xy: 442, 4
+  size: 183, 193
+  orig: 447, 462
+  offset: 134, 151
+  index: -1
+monster_10097_fangyu-00011
+  rotate: true
+  xy: 917, 25
+  size: 162, 146
+  orig: 447, 462
+  offset: 135, 170
+  index: -1
+monster_10097_fangyu-00012
+  rotate: true
+  xy: 1370, 243
+  size: 132, 122
+  orig: 447, 462
+  offset: 139, 176
+  index: -1
+monster_10097_fangyu-00013
+  rotate: true
+  xy: 1447, 165
+  size: 78, 60
+  orig: 447, 462
+  offset: 139, 221
+  index: -1
+monster_10097_fangyu-00014
+  rotate: false
+  xy: 1492, 366
+  size: 8, 9
+  orig: 447, 462
+  offset: 205, 276
+  index: -1

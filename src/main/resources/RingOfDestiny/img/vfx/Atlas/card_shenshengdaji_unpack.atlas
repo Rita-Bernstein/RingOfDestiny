@@ -1,0 +1,69 @@
+
+card_shenshengdaji_unpack.png
+size: 1958,314
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shenshengdaji-00000
+  rotate: false
+  xy: 1684, 16
+  size: 266, 93
+  orig: 400, 300
+  offset: 65, 173
+  index: -1
+card_shenshengdaji-00001
+  rotate: false
+  xy: 1684, 109
+  size: 274, 205
+  orig: 400, 300
+  offset: 81, 62
+  index: -1
+card_shenshengdaji-00002
+  rotate: true
+  xy: 0, 5
+  size: 309, 266
+  orig: 400, 300
+  offset: 44, 0
+  index: -1
+card_shenshengdaji-00003
+  rotate: true
+  xy: 1224, 0
+  size: 314, 230
+  orig: 400, 300
+  offset: 40, 43
+  index: -1
+card_shenshengdaji-00004
+  rotate: true
+  xy: 752, 1
+  size: 313, 234
+  orig: 400, 300
+  offset: 43, 47
+  index: -1
+card_shenshengdaji-00005
+  rotate: true
+  xy: 508, 6
+  size: 308, 244
+  orig: 400, 300
+  offset: 51, 45
+  index: -1
+card_shenshengdaji-00006
+  rotate: true
+  xy: 986, 7
+  size: 307, 238
+  orig: 400, 300
+  offset: 55, 46
+  index: -1
+card_shenshengdaji-00007
+  rotate: true
+  xy: 266, 3
+  size: 311, 242
+  orig: 400, 300
+  offset: 53, 45
+  index: -1
+card_shenshengdaji-00008
+  rotate: true
+  xy: 1454, 2
+  size: 312, 230
+  orig: 400, 300
+  offset: 53, 57
+  index: -1

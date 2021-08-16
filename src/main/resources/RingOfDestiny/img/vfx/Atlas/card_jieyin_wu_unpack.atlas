@@ -1,0 +1,41 @@
+
+card_jieyin_wu_unpack.png
+size: 239,796
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_jieyin_wu-00000
+  rotate: false
+  xy: 0, 555
+  size: 239, 241
+  orig: 459, 379
+  offset: 117, 70
+  index: -1
+card_jieyin_wu-00001
+  rotate: true
+  xy: 0, 328
+  size: 227, 230
+  orig: 459, 379
+  offset: 123, 76
+  index: -1
+card_jieyin_wu-00002
+  rotate: true
+  xy: 0, 130
+  size: 198, 199
+  orig: 459, 379
+  offset: 140, 92
+  index: -1
+card_jieyin_wu-00003
+  rotate: false
+  xy: 134, 0
+  size: 88, 130
+  orig: 459, 379
+  offset: 191, 138
+  index: -1
+card_jieyin_wu-00004
+  rotate: true
+  xy: 0, 38
+  size: 92, 134
+  orig: 459, 379
+  offset: 189, 136
+  index: -1

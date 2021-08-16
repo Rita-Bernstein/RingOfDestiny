@@ -1,0 +1,48 @@
+
+card_baipiao_unpack.png
+size: 1464,548
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_baipiao-00000
+  rotate: false
+  xy: 0, 48
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+card_baipiao-00001
+  rotate: false
+  xy: 1145, 0
+  size: 294, 285
+  orig: 500, 500
+  offset: 107, 114
+  index: -1
+card_baipiao-00002
+  rotate: false
+  xy: 500, 200
+  size: 326, 348
+  orig: 500, 500
+  offset: 85, 83
+  index: -1
+card_baipiao-00003
+  rotate: false
+  xy: 826, 243
+  size: 319, 305
+  orig: 500, 500
+  offset: 88, 105
+  index: -1
+card_baipiao-00004
+  rotate: false
+  xy: 1145, 285
+  size: 319, 263
+  orig: 500, 500
+  offset: 82, 124
+  index: -1
+card_baipiao-00005
+  rotate: false
+  xy: 826, 4
+  size: 268, 239
+  orig: 500, 500
+  offset: 108, 128
+  index: -1

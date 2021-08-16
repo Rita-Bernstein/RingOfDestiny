@@ -1,0 +1,90 @@
+
+card_zhanfang_203_unpack.png
+size: 1828,836
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_zhanfang_203-00000
+  rotate: true
+  xy: 696, 176
+  size: 190, 164
+  orig: 500, 500
+  offset: 150, 89
+  index: -1
+card_zhanfang_203-00001
+  rotate: false
+  xy: 937, 1
+  size: 389, 376
+  orig: 500, 500
+  offset: 58, 60
+  index: -1
+card_zhanfang_203-00002
+  rotate: true
+  xy: 1392, 384
+  size: 452, 436
+  orig: 500, 500
+  offset: 26, 33
+  index: -1
+card_zhanfang_203-00003
+  rotate: true
+  xy: 471, 366
+  size: 470, 466
+  orig: 500, 500
+  offset: 17, 16
+  index: -1
+card_zhanfang_203-00004
+  rotate: true
+  xy: 0, 362
+  size: 474, 471
+  orig: 500, 500
+  offset: 15, 16
+  index: -1
+card_zhanfang_203-00005
+  rotate: false
+  xy: 937, 377
+  size: 455, 459
+  orig: 500, 500
+  offset: 26, 23
+  index: -1
+card_zhanfang_203-00006
+  rotate: true
+  xy: 1392, 0
+  size: 384, 413
+  orig: 500, 500
+  offset: 65, 56
+  index: -1
+card_zhanfang_203-00007
+  rotate: false
+  xy: 0, 37
+  size: 197, 325
+  orig: 500, 500
+  offset: 154, 107
+  index: -1
+card_zhanfang_203-00008
+  rotate: false
+  xy: 197, 52
+  size: 185, 310
+  orig: 500, 500
+  offset: 159, 111
+  index: -1
+card_zhanfang_203-00009
+  rotate: false
+  xy: 382, 65
+  size: 163, 297
+  orig: 500, 500
+  offset: 165, 115
+  index: -1
+card_zhanfang_203-00010
+  rotate: false
+  xy: 545, 89
+  size: 151, 277
+  orig: 500, 500
+  offset: 171, 120
+  index: -1
+card_zhanfang_203-00011
+  rotate: true
+  xy: 696, 41
+  size: 135, 225
+  orig: 500, 500
+  offset: 179, 126
+  index: -1

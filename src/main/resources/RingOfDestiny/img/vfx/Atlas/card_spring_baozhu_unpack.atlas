@@ -1,0 +1,167 @@
+
+card_spring_baozhu_unpack.png
+size: 2004,966
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_spring_baozhu-00000
+  rotate: false
+  xy: 1780, 13
+  size: 158, 152
+  orig: 500, 450
+  offset: 175, 152
+  index: -1
+card_spring_baozhu-00001
+  rotate: true
+  xy: 1370, 365
+  size: 261, 241
+  orig: 500, 450
+  offset: 123, 112
+  index: -1
+card_spring_baozhu-00002
+  rotate: true
+  xy: 1103, 12
+  size: 309, 290
+  orig: 500, 450
+  offset: 98, 89
+  index: -1
+card_spring_baozhu-00003
+  rotate: false
+  xy: 780, 628
+  size: 359, 338
+  orig: 500, 450
+  offset: 74, 64
+  index: -1
+card_spring_baozhu-00004
+  rotate: false
+  xy: 0, 286
+  size: 395, 340
+  orig: 500, 450
+  offset: 56, 62
+  index: -1
+card_spring_baozhu-00005
+  rotate: false
+  xy: 0, 626
+  size: 397, 340
+  orig: 500, 450
+  offset: 52, 62
+  index: -1
+card_spring_baozhu-00006
+  rotate: false
+  xy: 397, 626
+  size: 383, 340
+  orig: 500, 450
+  offset: 58, 62
+  index: -1
+card_spring_baozhu-00007
+  rotate: false
+  xy: 395, 286
+  size: 363, 340
+  orig: 500, 450
+  offset: 66, 62
+  index: -1
+card_spring_baozhu-00008
+  rotate: false
+  xy: 1139, 626
+  size: 342, 340
+  orig: 500, 450
+  offset: 76, 62
+  index: -1
+card_spring_baozhu-00009
+  rotate: false
+  xy: 1481, 634
+  size: 325, 332
+  orig: 500, 450
+  offset: 84, 68
+  index: -1
+card_spring_baozhu-00010
+  rotate: false
+  xy: 758, 307
+  size: 312, 319
+  orig: 500, 450
+  offset: 90, 75
+  index: -1
+card_spring_baozhu-00011
+  rotate: false
+  xy: 1070, 321
+  size: 300, 305
+  orig: 500, 450
+  offset: 96, 81
+  index: -1
+card_spring_baozhu-00012
+  rotate: false
+  xy: 813, 11
+  size: 290, 296
+  orig: 500, 450
+  offset: 100, 87
+  index: -1
+card_spring_baozhu-00013
+  rotate: false
+  xy: 0, 0
+  size: 282, 286
+  orig: 500, 450
+  offset: 105, 93
+  index: -1
+card_spring_baozhu-00014
+  rotate: false
+  xy: 282, 8
+  size: 269, 278
+  orig: 500, 450
+  offset: 108, 96
+  index: -1
+card_spring_baozhu-00015
+  rotate: false
+  xy: 551, 15
+  size: 262, 271
+  orig: 500, 450
+  offset: 113, 102
+  index: -1
+card_spring_baozhu-00016
+  rotate: true
+  xy: 1611, 401
+  size: 233, 194
+  orig: 500, 450
+  offset: 140, 126
+  index: -1
+card_spring_baozhu-00017
+  rotate: true
+  xy: 1805, 393
+  size: 231, 194
+  orig: 500, 450
+  offset: 141, 125
+  index: -1
+card_spring_baozhu-00018
+  rotate: true
+  xy: 1393, 134
+  size: 231, 194
+  orig: 500, 450
+  offset: 141, 124
+  index: -1
+card_spring_baozhu-00019
+  rotate: true
+  xy: 1587, 135
+  size: 230, 193
+  orig: 500, 450
+  offset: 141, 123
+  index: -1
+card_spring_baozhu-00020
+  rotate: true
+  xy: 1780, 165
+  size: 228, 192
+  orig: 500, 450
+  offset: 141, 123
+  index: -1
+card_spring_baozhu-00021
+  rotate: false
+  xy: 1806, 794
+  size: 198, 172
+  orig: 500, 450
+  offset: 141, 142
+  index: -1
+card_spring_baozhu-00022
+  rotate: false
+  xy: 1806, 624
+  size: 198, 170
+  orig: 500, 450
+  offset: 141, 142
+  index: -1

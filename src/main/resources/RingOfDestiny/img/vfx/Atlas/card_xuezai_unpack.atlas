@@ -1,0 +1,125 @@
+
+card_xuezai_unpack.png
+size: 877,289
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_xuezai-00000
+  rotate: false
+  xy: 784, 63
+  size: 87, 69
+  orig: 342, 297
+  offset: 162, 109
+  index: -1
+card_xuezai-00001
+  rotate: true
+  xy: 531, 5
+  size: 112, 83
+  orig: 342, 297
+  offset: 141, 108
+  index: -1
+card_xuezai-00002
+  rotate: true
+  xy: 784, 132
+  size: 157, 93
+  orig: 342, 297
+  offset: 100, 103
+  index: -1
+card_xuezai-00003
+  rotate: true
+  xy: 690, 124
+  size: 165, 94
+  orig: 342, 297
+  offset: 95, 100
+  index: -1
+card_xuezai-00004
+  rotate: true
+  xy: 589, 121
+  size: 168, 101
+  orig: 342, 297
+  offset: 92, 96
+  index: -1
+card_xuezai-00005
+  rotate: false
+  xy: 359, 1
+  size: 172, 102
+  orig: 342, 297
+  offset: 89, 95
+  index: -1
+card_xuezai-00006
+  rotate: true
+  xy: 490, 117
+  size: 172, 99
+  orig: 342, 297
+  offset: 89, 95
+  index: -1
+card_xuezai-00007
+  rotate: false
+  xy: 614, 26
+  size: 168, 95
+  orig: 342, 297
+  offset: 88, 94
+  index: -1
+card_xuezai-00008
+  rotate: false
+  xy: 184, 0
+  size: 175, 97
+  orig: 342, 297
+  offset: 88, 94
+  index: -1
+card_xuezai-00009
+  rotate: true
+  xy: 396, 112
+  size: 177, 94
+  orig: 342, 297
+  offset: 90, 98
+  index: -1
+card_xuezai-00010
+  rotate: false
+  xy: 0, 2
+  size: 184, 90
+  orig: 342, 297
+  offset: 86, 103
+  index: -1
+card_xuezai-00011
+  rotate: true
+  xy: 88, 96
+  size: 193, 93
+  orig: 342, 297
+  offset: 81, 102
+  index: -1
+card_xuezai-00012
+  rotate: true
+  xy: 0, 92
+  size: 197, 88
+  orig: 342, 297
+  offset: 78, 107
+  index: -1
+card_xuezai-00013
+  rotate: true
+  xy: 315, 103
+  size: 186, 81
+  orig: 342, 297
+  offset: 91, 115
+  index: -1
+card_xuezai-00014
+  rotate: true
+  xy: 181, 97
+  size: 192, 77
+  orig: 342, 297
+  offset: 88, 119
+  index: -1
+card_xuezai-00015
+  rotate: true
+  xy: 258, 100
+  size: 189, 57
+  orig: 342, 297
+  offset: 92, 125
+  index: -1
+card_xuezai-00016
+  rotate: true
+  xy: 782, 0
+  size: 63, 39
+  orig: 342, 297
+  offset: 215, 133
+  index: -1

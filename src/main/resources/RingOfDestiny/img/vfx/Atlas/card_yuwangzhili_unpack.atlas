@@ -1,0 +1,62 @@
+
+card_yuwangzhili_unpack.png
+size: 526,302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_yuwangzhili-00000
+  rotate: false
+  xy: 398, 5
+  size: 57, 57
+  orig: 500, 500
+  offset: 227, 216
+  index: -1
+card_yuwangzhili-00001
+  rotate: false
+  xy: 0, 122
+  size: 205, 180
+  orig: 500, 500
+  offset: 151, 158
+  index: -1
+card_yuwangzhili-00002
+  rotate: false
+  xy: 205, 143
+  size: 172, 159
+  orig: 500, 500
+  offset: 166, 167
+  index: -1
+card_yuwangzhili-00003
+  rotate: false
+  xy: 377, 171
+  size: 149, 131
+  orig: 500, 500
+  offset: 180, 181
+  index: -1
+card_yuwangzhili-00004
+  rotate: false
+  xy: 0, 0
+  size: 146, 122
+  orig: 500, 500
+  offset: 184, 185
+  index: -1
+card_yuwangzhili-00005
+  rotate: false
+  xy: 146, 0
+  size: 136, 122
+  orig: 500, 500
+  offset: 189, 184
+  index: -1
+card_yuwangzhili-00006
+  rotate: true
+  xy: 282, 20
+  size: 123, 116
+  orig: 500, 500
+  offset: 197, 188
+  index: -1
+card_yuwangzhili-00007
+  rotate: false
+  xy: 398, 62
+  size: 110, 109
+  orig: 500, 500
+  offset: 200, 192
+  index: -1

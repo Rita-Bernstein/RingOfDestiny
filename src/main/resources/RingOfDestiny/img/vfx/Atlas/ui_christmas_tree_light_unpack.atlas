@@ -1,0 +1,48 @@
+
+ui_christmas_tree_light_unpack.png
+size: 315,210
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_christmas_tree_light-00000
+  rotate: false
+  xy: 169, 5
+  size: 146, 205
+  orig: 270, 287
+  offset: 69, 50
+  index: -1
+ui_christmas_tree_light-00001
+  rotate: false
+  xy: 169, 5
+  size: 146, 205
+  orig: 270, 287
+  offset: 69, 50
+  index: -1
+ui_christmas_tree_light-00002
+  rotate: false
+  xy: 169, 5
+  size: 146, 205
+  orig: 270, 287
+  offset: 69, 50
+  index: -1
+ui_christmas_tree_light-00003
+  rotate: false
+  xy: 0, 0
+  size: 169, 210
+  orig: 270, 287
+  offset: 54, 38
+  index: -1
+ui_christmas_tree_light-00004
+  rotate: false
+  xy: 0, 0
+  size: 169, 210
+  orig: 270, 287
+  offset: 54, 38
+  index: -1
+ui_christmas_tree_light-00005
+  rotate: false
+  xy: 0, 0
+  size: 169, 210
+  orig: 270, 287
+  offset: 54, 38
+  index: -1

@@ -1,0 +1,125 @@
+
+card_shengguangxili_unpack.png
+size: 1554,1099
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shengguangxili-00000
+  rotate: true
+  xy: 1125, 165
+  size: 222, 156
+  orig: 400, 600
+  offset: 89, 440
+  index: -1
+card_shengguangxili-00001
+  rotate: false
+  xy: 0, 26
+  size: 300, 168
+  orig: 400, 600
+  offset: 47, 412
+  index: -1
+card_shengguangxili-00002
+  rotate: false
+  xy: 790, 2
+  size: 290, 169
+  orig: 400, 600
+  offset: 51, 424
+  index: -1
+card_shengguangxili-00003
+  rotate: false
+  xy: 300, 12
+  size: 263, 182
+  orig: 400, 600
+  offset: 66, 418
+  index: -1
+card_shengguangxili-00004
+  rotate: false
+  xy: 1281, 0
+  size: 250, 189
+  orig: 400, 600
+  offset: 74, 403
+  index: -1
+card_shengguangxili-00005
+  rotate: false
+  xy: 1281, 189
+  size: 259, 199
+  orig: 400, 600
+  offset: 72, 400
+  index: -1
+card_shengguangxili-00006
+  rotate: false
+  xy: 1268, 388
+  size: 286, 208
+  orig: 400, 600
+  offset: 60, 392
+  index: -1
+card_shengguangxili-00007
+  rotate: false
+  xy: 790, 171
+  size: 335, 216
+  orig: 400, 600
+  offset: 36, 384
+  index: -1
+card_shengguangxili-00008
+  rotate: true
+  xy: 0, 194
+  size: 335, 570
+  orig: 400, 600
+  offset: 38, 4
+  index: -1
+card_shengguangxili-00009
+  rotate: false
+  xy: 0, 529
+  size: 399, 570
+  orig: 400, 600
+  offset: 1, 4
+  index: -1
+card_shengguangxili-00010
+  rotate: false
+  xy: 399, 529
+  size: 399, 570
+  orig: 400, 600
+  offset: 1, 4
+  index: -1
+card_shengguangxili-00011
+  rotate: false
+  xy: 798, 595
+  size: 239, 504
+  orig: 400, 600
+  offset: 84, 70
+  index: -1
+card_shengguangxili-00012
+  rotate: false
+  xy: 1037, 595
+  size: 222, 504
+  orig: 400, 600
+  offset: 96, 70
+  index: -1
+card_shengguangxili-00013
+  rotate: false
+  xy: 1259, 596
+  size: 222, 503
+  orig: 400, 600
+  offset: 96, 71
+  index: -1
+card_shengguangxili-00014
+  rotate: false
+  xy: 570, 57
+  size: 220, 472
+  orig: 400, 600
+  offset: 97, 71
+  index: -1
+card_shengguangxili-00015
+  rotate: true
+  xy: 798, 387
+  size: 208, 470
+  orig: 400, 600
+  offset: 101, 72
+  index: -1
+card_shengguangxili-00016
+  rotate: false
+  xy: 1481, 683
+  size: 62, 416
+  orig: 400, 600
+  offset: 166, 123
+  index: -1

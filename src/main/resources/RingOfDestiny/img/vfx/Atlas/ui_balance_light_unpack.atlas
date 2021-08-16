@@ -1,0 +1,69 @@
+
+ui_balance_light_unpack.png
+size: 1548,203
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_balance_light-00000
+  rotate: false
+  xy: 0, 102
+  size: 387, 101
+  orig: 431, 193
+  offset: 30, 43
+  index: -1
+ui_balance_light-00008
+  rotate: false
+  xy: 0, 102
+  size: 387, 101
+  orig: 431, 193
+  offset: 30, 43
+  index: -1
+ui_balance_light-00001
+  rotate: false
+  xy: 0, 0
+  size: 387, 102
+  orig: 431, 193
+  offset: 30, 43
+  index: -1
+ui_balance_light-00002
+  rotate: false
+  xy: 387, 0
+  size: 387, 102
+  orig: 431, 193
+  offset: 30, 43
+  index: -1
+ui_balance_light-00003
+  rotate: false
+  xy: 774, 0
+  size: 387, 102
+  orig: 431, 193
+  offset: 30, 43
+  index: -1
+ui_balance_light-00004
+  rotate: false
+  xy: 1161, 0
+  size: 387, 102
+  orig: 431, 193
+  offset: 30, 43
+  index: -1
+ui_balance_light-00005
+  rotate: false
+  xy: 387, 102
+  size: 387, 101
+  orig: 431, 193
+  offset: 30, 43
+  index: -1
+ui_balance_light-00006
+  rotate: false
+  xy: 774, 102
+  size: 387, 101
+  orig: 431, 193
+  offset: 30, 43
+  index: -1
+ui_balance_light-00007
+  rotate: false
+  xy: 1161, 102
+  size: 387, 101
+  orig: 431, 193
+  offset: 30, 43
+  index: -1

@@ -1,0 +1,48 @@
+
+card_jieyin_chen_402_unpack.png
+size: 668,390
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_jieyin_chen_402-00000
+  rotate: true
+  xy: 0, 157
+  size: 233, 239
+  orig: 459, 379
+  offset: 120, 70
+  index: -1
+card_jieyin_chen_402-00001
+  rotate: true
+  xy: 239, 166
+  size: 224, 226
+  orig: 459, 379
+  offset: 125, 77
+  index: -1
+card_jieyin_chen_402-00002
+  rotate: false
+  xy: 465, 186
+  size: 203, 204
+  orig: 459, 379
+  offset: 136, 88
+  index: -1
+card_jieyin_chen_402-00003
+  rotate: false
+  xy: 465, 10
+  size: 177, 176
+  orig: 459, 379
+  offset: 148, 100
+  index: -1
+card_jieyin_chen_402-00004
+  rotate: false
+  xy: 239, 0
+  size: 166, 166
+  orig: 459, 379
+  offset: 153, 105
+  index: -1
+card_jieyin_chen_402-00005
+  rotate: false
+  xy: 0, 2
+  size: 155, 155
+  orig: 459, 379
+  offset: 158, 110
+  index: -1

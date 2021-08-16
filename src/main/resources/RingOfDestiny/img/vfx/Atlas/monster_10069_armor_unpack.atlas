@@ -1,0 +1,118 @@
+
+monster_10069_armor_unpack.png
+size: 1979,606
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10069_armor-00000
+  rotate: false
+  xy: 474, 4
+  size: 248, 240
+  orig: 500, 450
+  offset: 123, 99
+  index: -1
+monster_10069_armor-00001
+  rotate: false
+  xy: 997, 5
+  size: 261, 255
+  orig: 500, 450
+  offset: 119, 92
+  index: -1
+monster_10069_armor-00002
+  rotate: false
+  xy: 1368, 304
+  size: 298, 302
+  orig: 500, 450
+  offset: 106, 73
+  index: -1
+monster_10069_armor-00003
+  rotate: false
+  xy: 0, 231
+  size: 362, 375
+  orig: 500, 450
+  offset: 79, 37
+  index: -1
+monster_10069_armor-00004
+  rotate: false
+  xy: 362, 244
+  size: 349, 362
+  orig: 500, 450
+  offset: 86, 45
+  index: -1
+monster_10069_armor-00005
+  rotate: false
+  xy: 711, 260
+  size: 335, 346
+  orig: 500, 450
+  offset: 94, 55
+  index: -1
+monster_10069_armor-00006
+  rotate: false
+  xy: 1046, 272
+  size: 322, 334
+  orig: 500, 450
+  offset: 100, 60
+  index: -1
+monster_10069_armor-00007
+  rotate: true
+  xy: 1490, 15
+  size: 289, 306
+  orig: 500, 450
+  offset: 114, 72
+  index: -1
+monster_10069_armor-00008
+  rotate: true
+  xy: 722, 3
+  size: 257, 275
+  orig: 500, 450
+  offset: 125, 82
+  index: -1
+monster_10069_armor-00009
+  rotate: true
+  xy: 0, 1
+  size: 230, 257
+  orig: 500, 450
+  offset: 137, 91
+  index: -1
+monster_10069_armor-00010
+  rotate: false
+  xy: 1258, 22
+  size: 232, 250
+  orig: 500, 450
+  offset: 143, 92
+  index: -1
+monster_10069_armor-00011
+  rotate: false
+  xy: 257, 0
+  size: 217, 231
+  orig: 500, 450
+  offset: 147, 103
+  index: -1
+monster_10069_armor-00012
+  rotate: false
+  xy: 1666, 387
+  size: 209, 219
+  orig: 500, 450
+  offset: 148, 107
+  index: -1
+monster_10069_armor-00013
+  rotate: false
+  xy: 1796, 179
+  size: 183, 208
+  orig: 500, 450
+  offset: 161, 118
+  index: -1
+monster_10069_armor-00014
+  rotate: false
+  xy: 1875, 458
+  size: 99, 148
+  orig: 500, 450
+  offset: 186, 150
+  index: -1
+monster_10069_armor-00015
+  rotate: false
+  xy: 1796, 33
+  size: 99, 146
+  orig: 500, 450
+  offset: 189, 157
+  index: -1

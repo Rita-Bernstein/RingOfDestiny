@@ -1,0 +1,174 @@
+
+effect_house_crystal_2_unpack.png
+size: 1742,281
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_house_crystal_2-00000
+  rotate: false
+  xy: 1602, 150
+  size: 134, 131
+  orig: 210, 166
+  offset: 39, 10
+  index: -1
+effect_house_crystal_2-00001
+  rotate: true
+  xy: 602, 128
+  size: 153, 139
+  orig: 210, 166
+  offset: 19, 9
+  index: -1
+effect_house_crystal_2-00002
+  rotate: false
+  xy: 1341, 8
+  size: 133, 141
+  orig: 210, 166
+  offset: 40, 15
+  index: -1
+effect_house_crystal_2-00003
+  rotate: true
+  xy: 1313, 149
+  size: 132, 147
+  orig: 210, 166
+  offset: 39, 17
+  index: -1
+effect_house_crystal_2-00004
+  rotate: true
+  xy: 879, 135
+  size: 146, 143
+  orig: 210, 166
+  offset: 36, 7
+  index: -1
+effect_house_crystal_2-00005
+  rotate: true
+  xy: 901, 4
+  size: 131, 153
+  orig: 210, 166
+  offset: 41, 5
+  index: -1
+effect_house_crystal_2-00006
+  rotate: false
+  xy: 0, 123
+  size: 152, 158
+  orig: 210, 166
+  offset: 21, 8
+  index: -1
+effect_house_crystal_2-00007
+  rotate: true
+  xy: 1474, 12
+  size: 137, 134
+  orig: 210, 166
+  offset: 31, 7
+  index: -1
+effect_house_crystal_2-00008
+  rotate: true
+  xy: 758, 3
+  size: 126, 143
+  orig: 210, 166
+  offset: 42, 5
+  index: -1
+effect_house_crystal_2-00009
+  rotate: false
+  xy: 1207, 2
+  size: 134, 146
+  orig: 210, 166
+  offset: 39, 10
+  index: -1
+effect_house_crystal_2-00010
+  rotate: false
+  xy: 152, 125
+  size: 150, 156
+  orig: 210, 166
+  offset: 17, 7
+  index: -1
+effect_house_crystal_2-00011
+  rotate: false
+  xy: 159, 25
+  size: 158, 100
+  orig: 210, 166
+  offset: 14, 16
+  index: -1
+effect_house_crystal_2-00012
+  rotate: false
+  xy: 467, 8
+  size: 134, 115
+  orig: 210, 166
+  offset: 38, 8
+  index: -1
+effect_house_crystal_2-00013
+  rotate: true
+  xy: 741, 129
+  size: 152, 138
+  orig: 210, 166
+  offset: 19, 9
+  index: -1
+effect_house_crystal_2-00014
+  rotate: true
+  xy: 1460, 149
+  size: 132, 142
+  orig: 210, 166
+  offset: 40, 13
+  index: -1
+effect_house_crystal_2-00015
+  rotate: true
+  xy: 1164, 148
+  size: 133, 149
+  orig: 210, 166
+  offset: 39, 15
+  index: -1
+effect_house_crystal_2-00016
+  rotate: false
+  xy: 1022, 137
+  size: 142, 144
+  orig: 210, 166
+  offset: 40, 6
+  index: -1
+effect_house_crystal_2-00017
+  rotate: true
+  xy: 1054, 7
+  size: 130, 153
+  orig: 210, 166
+  offset: 40, 5
+  index: -1
+effect_house_crystal_2-00018
+  rotate: false
+  xy: 467, 123
+  size: 135, 158
+  orig: 210, 166
+  offset: 38, 8
+  index: -1
+effect_house_crystal_2-00019
+  rotate: false
+  xy: 302, 146
+  size: 165, 135
+  orig: 210, 166
+  offset: 31, 6
+  index: -1
+effect_house_crystal_2-00020
+  rotate: false
+  xy: 1608, 13
+  size: 134, 137
+  orig: 210, 166
+  offset: 39, 11
+  index: -1
+effect_house_crystal_2-00021
+  rotate: true
+  xy: 317, 0
+  size: 146, 150
+  orig: 210, 166
+  offset: 39, 6
+  index: -1
+effect_house_crystal_2-00022
+  rotate: true
+  xy: 602, 2
+  size: 126, 156
+  orig: 210, 166
+  offset: 41, 7
+  index: -1
+effect_house_crystal_2-00023
+  rotate: false
+  xy: 0, 17
+  size: 159, 106
+  orig: 210, 166
+  offset: 14, 10
+  index: -1

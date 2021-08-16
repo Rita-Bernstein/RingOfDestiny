@@ -1,0 +1,181 @@
+
+card_zuzhou_unpack.png
+size: 2007,1329
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_zuzhou-00000
+  rotate: false
+  xy: 1664, 406
+  size: 200, 130
+  orig: 450, 350
+  offset: 130, 111
+  index: -1
+card_zuzhou-00001
+  rotate: false
+  xy: 1266, 637
+  size: 410, 183
+  orig: 450, 350
+  offset: 27, 61
+  index: -1
+card_zuzhou-00002
+  rotate: false
+  xy: 1288, 1080
+  size: 420, 249
+  orig: 450, 350
+  offset: 22, 55
+  index: -1
+card_zuzhou-00003
+  rotate: true
+  xy: 0, 0
+  size: 429, 252
+  orig: 450, 350
+  offset: 17, 53
+  index: -1
+card_zuzhou-00004
+  rotate: true
+  xy: 1008, 5
+  size: 435, 258
+  orig: 450, 350
+  offset: 11, 52
+  index: -1
+card_zuzhou-00005
+  rotate: true
+  xy: 776, 440
+  size: 441, 258
+  orig: 450, 350
+  offset: 7, 47
+  index: -1
+card_zuzhou-00006
+  rotate: true
+  xy: 272, 880
+  size: 449, 267
+  orig: 450, 350
+  offset: 0, 32
+  index: -1
+card_zuzhou-00007
+  rotate: true
+  xy: 0, 879
+  size: 450, 272
+  orig: 450, 350
+  offset: 0, 21
+  index: -1
+card_zuzhou-00008
+  rotate: true
+  xy: 257, 429
+  size: 450, 256
+  orig: 450, 350
+  offset: 0, 19
+  index: -1
+card_zuzhou-00009
+  rotate: true
+  xy: 0, 429
+  size: 450, 257
+  orig: 450, 350
+  offset: 0, 17
+  index: -1
+card_zuzhou-00010
+  rotate: true
+  xy: 539, 881
+  size: 448, 261
+  orig: 450, 350
+  offset: 0, 16
+  index: -1
+card_zuzhou-00011
+  rotate: true
+  xy: 513, 432
+  size: 448, 263
+  orig: 450, 350
+  offset: 0, 16
+  index: -1
+card_zuzhou-00012
+  rotate: true
+  xy: 1034, 467
+  size: 430, 232
+  orig: 450, 350
+  offset: 16, 47
+  index: -1
+card_zuzhou-00013
+  rotate: true
+  xy: 800, 897
+  size: 432, 241
+  orig: 450, 350
+  offset: 11, 39
+  index: -1
+card_zuzhou-00014
+  rotate: true
+  xy: 759, 0
+  size: 432, 249
+  orig: 450, 350
+  offset: 11, 35
+  index: -1
+card_zuzhou-00015
+  rotate: true
+  xy: 1041, 908
+  size: 421, 247
+  orig: 450, 350
+  offset: 20, 40
+  index: -1
+card_zuzhou-00016
+  rotate: true
+  xy: 252, 1
+  size: 428, 251
+  orig: 450, 350
+  offset: 18, 37
+  index: -1
+card_zuzhou-00017
+  rotate: true
+  xy: 503, 8
+  size: 421, 256
+  orig: 450, 350
+  offset: 27, 33
+  index: -1
+card_zuzhou-00018
+  rotate: false
+  xy: 1288, 820
+  size: 412, 260
+  orig: 450, 350
+  offset: 31, 29
+  index: -1
+card_zuzhou-00019
+  rotate: true
+  xy: 1472, 3
+  size: 393, 265
+  orig: 450, 350
+  offset: 33, 25
+  index: -1
+card_zuzhou-00020
+  rotate: true
+  xy: 1737, 15
+  size: 391, 270
+  orig: 450, 350
+  offset: 30, 20
+  index: -1
+card_zuzhou-00021
+  rotate: true
+  xy: 1708, 929
+  size: 400, 273
+  orig: 450, 350
+  offset: 29, 17
+  index: -1
+card_zuzhou-00022
+  rotate: true
+  xy: 1700, 536
+  size: 393, 271
+  orig: 450, 350
+  offset: 45, 18
+  index: -1
+card_zuzhou-00023
+  rotate: false
+  xy: 1266, 396
+  size: 398, 241
+  orig: 450, 350
+  offset: 47, 43
+  index: -1
+card_zuzhou-00024
+  rotate: true
+  xy: 1266, 2
+  size: 394, 206
+  orig: 450, 350
+  offset: 54, 63
+  index: -1

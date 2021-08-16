@@ -1,0 +1,83 @@
+
+card_shizhisha_unpack.png
+size: 473,569
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shizhisha-00000
+  rotate: true
+  xy: 334, 336
+  size: 116, 121
+  orig: 452, 295
+  offset: 86, 87
+  index: -1
+card_shizhisha-00001
+  rotate: false
+  xy: 326, 183
+  size: 147, 153
+  orig: 452, 295
+  offset: 69, 75
+  index: -1
+card_shizhisha-00002
+  rotate: false
+  xy: 180, 8
+  size: 172, 175
+  orig: 452, 295
+  offset: 58, 62
+  index: -1
+card_shizhisha-00003
+  rotate: false
+  xy: 0, 0
+  size: 180, 183
+  orig: 452, 295
+  offset: 54, 58
+  index: -1
+card_shizhisha-00004
+  rotate: false
+  xy: 0, 434
+  size: 334, 135
+  orig: 452, 295
+  offset: 57, 81
+  index: -1
+card_shizhisha-00005
+  rotate: false
+  xy: 0, 289
+  size: 240, 145
+  orig: 452, 295
+  offset: 146, 73
+  index: -1
+card_shizhisha-00006
+  rotate: false
+  xy: 111, 190
+  size: 197, 99
+  orig: 452, 295
+  offset: 188, 95
+  index: -1
+card_shizhisha-00007
+  rotate: true
+  xy: 352, 13
+  size: 170, 116
+  orig: 452, 295
+  offset: 214, 80
+  index: -1
+card_shizhisha-00008
+  rotate: true
+  xy: 334, 452
+  size: 117, 123
+  orig: 452, 295
+  offset: 241, 85
+  index: -1
+card_shizhisha-00009
+  rotate: false
+  xy: 0, 188
+  size: 111, 101
+  orig: 452, 295
+  offset: 238, 89
+  index: -1
+card_shizhisha-00010
+  rotate: true
+  xy: 240, 319
+  size: 115, 86
+  orig: 452, 295
+  offset: 239, 105
+  index: -1

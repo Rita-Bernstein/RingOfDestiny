@@ -1,0 +1,90 @@
+
+card_moryunshi_unpack.png
+size: 941,500
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_moryunshi-00000
+  rotate: false
+  xy: 625, 15
+  size: 81, 135
+  orig: 500, 425
+  offset: 153, 290
+  index: -1
+card_moryunshi-00001
+  rotate: true
+  xy: 737, 141
+  size: 110, 199
+  orig: 500, 425
+  offset: 156, 204
+  index: -1
+card_moryunshi-00002
+  rotate: true
+  xy: 442, 327
+  size: 173, 330
+  orig: 500, 425
+  offset: 171, 59
+  index: -1
+card_moryunshi-00003
+  rotate: false
+  xy: 0, 178
+  size: 236, 322
+  orig: 500, 425
+  offset: 146, 54
+  index: -1
+card_moryunshi-00004
+  rotate: false
+  xy: 236, 194
+  size: 206, 306
+  orig: 500, 425
+  offset: 161, 59
+  index: -1
+card_moryunshi-00005
+  rotate: true
+  xy: 442, 150
+  size: 177, 295
+  orig: 500, 425
+  offset: 176, 62
+  index: -1
+card_moryunshi-00006
+  rotate: true
+  xy: 0, 4
+  size: 174, 261
+  orig: 500, 425
+  offset: 175, 87
+  index: -1
+card_moryunshi-00007
+  rotate: false
+  xy: 772, 251
+  size: 169, 249
+  orig: 500, 425
+  offset: 180, 86
+  index: -1
+card_moryunshi-00008
+  rotate: false
+  xy: 261, 0
+  size: 177, 194
+  orig: 500, 425
+  offset: 179, 83
+  index: -1
+card_moryunshi-00009
+  rotate: false
+  xy: 438, 13
+  size: 187, 137
+  orig: 500, 425
+  offset: 174, 88
+  index: -1
+card_moryunshi-00010
+  rotate: false
+  xy: 706, 13
+  size: 149, 128
+  orig: 500, 425
+  offset: 195, 95
+  index: -1
+card_moryunshi-00011
+  rotate: true
+  xy: 855, 16
+  size: 125, 63
+  orig: 500, 425
+  offset: 198, 101
+  index: -1

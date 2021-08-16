@@ -1,0 +1,104 @@
+
+card_emodujun_unpack.png
+size: 1901,326
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_emodujun-00000
+  rotate: false
+  xy: 199, 28
+  size: 190, 85
+  orig: 500, 375
+  offset: 125, 141
+  index: -1
+card_emodujun-00001
+  rotate: false
+  xy: 0, 1
+  size: 199, 112
+  orig: 500, 375
+  offset: 117, 133
+  index: -1
+card_emodujun-00002
+  rotate: false
+  xy: 1705, 5
+  size: 196, 152
+  orig: 500, 375
+  offset: 109, 130
+  index: -1
+card_emodujun-00003
+  rotate: false
+  xy: 1705, 157
+  size: 190, 169
+  orig: 500, 375
+  offset: 104, 127
+  index: -1
+card_emodujun-00004
+  rotate: true
+  xy: 1540, 2
+  size: 201, 165
+  orig: 500, 375
+  offset: 99, 122
+  index: -1
+card_emodujun-00005
+  rotate: false
+  xy: 1001, 5
+  size: 237, 181
+  orig: 500, 375
+  offset: 94, 119
+  index: -1
+card_emodujun-00006
+  rotate: false
+  xy: 653, 147
+  size: 295, 179
+  orig: 500, 375
+  offset: 92, 116
+  index: -1
+card_emodujun-00007
+  rotate: false
+  xy: 0, 113
+  size: 332, 213
+  orig: 500, 375
+  offset: 92, 80
+  index: -1
+card_emodujun-00008
+  rotate: false
+  xy: 332, 140
+  size: 321, 186
+  orig: 500, 375
+  offset: 91, 91
+  index: -1
+card_emodujun-00009
+  rotate: false
+  xy: 696, 7
+  size: 305, 140
+  orig: 500, 375
+  offset: 87, 115
+  index: -1
+card_emodujun-00010
+  rotate: false
+  xy: 948, 186
+  size: 305, 140
+  orig: 500, 375
+  offset: 88, 115
+  index: -1
+card_emodujun-00011
+  rotate: false
+  xy: 389, 0
+  size: 307, 140
+  orig: 500, 375
+  offset: 87, 114
+  index: -1
+card_emodujun-00012
+  rotate: false
+  xy: 1238, 59
+  size: 302, 127
+  orig: 500, 375
+  offset: 91, 115
+  index: -1
+card_emodujun-00013
+  rotate: false
+  xy: 1253, 203
+  size: 299, 123
+  orig: 500, 375
+  offset: 94, 119
+  index: -1

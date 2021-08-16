@@ -1,0 +1,90 @@
+
+ui_map_line_1_unpack.png
+size: 882,793
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_map_line_1-00000
+  rotate: false
+  xy: 449, 12
+  size: 147, 381
+  orig: 183, 431
+  offset: 22, 21
+  index: -1
+ui_map_line_1-00001
+  rotate: false
+  xy: 725, 396
+  size: 148, 397
+  orig: 183, 431
+  offset: 23, 22
+  index: -1
+ui_map_line_1-00002
+  rotate: false
+  xy: 147, 392
+  size: 141, 401
+  orig: 183, 431
+  offset: 26, 21
+  index: -1
+ui_map_line_1-00003
+  rotate: false
+  xy: 288, 393
+  size: 147, 400
+  orig: 183, 431
+  offset: 23, 24
+  index: -1
+ui_map_line_1-00004
+  rotate: false
+  xy: 581, 393
+  size: 144, 400
+  orig: 183, 431
+  offset: 23, 21
+  index: -1
+ui_map_line_1-00005
+  rotate: false
+  xy: 297, 2
+  size: 152, 391
+  orig: 183, 431
+  offset: 18, 21
+  index: -1
+ui_map_line_1-00006
+  rotate: false
+  xy: 596, 14
+  size: 145, 379
+  orig: 183, 431
+  offset: 24, 21
+  index: -1
+ui_map_line_1-00007
+  rotate: false
+  xy: 0, 0
+  size: 144, 392
+  orig: 183, 431
+  offset: 23, 22
+  index: -1
+ui_map_line_1-00008
+  rotate: false
+  xy: 741, 0
+  size: 141, 396
+  orig: 183, 431
+  offset: 26, 25
+  index: -1
+ui_map_line_1-00009
+  rotate: false
+  xy: 0, 392
+  size: 147, 401
+  orig: 183, 431
+  offset: 23, 24
+  index: -1
+ui_map_line_1-00010
+  rotate: false
+  xy: 435, 393
+  size: 146, 400
+  orig: 183, 431
+  offset: 22, 21
+  index: -1
+ui_map_line_1-00011
+  rotate: false
+  xy: 144, 1
+  size: 153, 391
+  orig: 183, 431
+  offset: 18, 21
+  index: -1

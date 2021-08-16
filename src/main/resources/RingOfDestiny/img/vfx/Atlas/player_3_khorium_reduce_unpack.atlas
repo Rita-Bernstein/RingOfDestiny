@@ -1,0 +1,55 @@
+
+player_3_khorium_reduce_unpack.png
+size: 330,702
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+player_3_khorium_reduce-00000
+  rotate: false
+  xy: 0, 52
+  size: 249, 100
+  orig: 335, 177
+  offset: 46, 39
+  index: -1
+player_3_khorium_reduce-00001
+  rotate: false
+  xy: 0, 541
+  size: 330, 161
+  orig: 335, 177
+  offset: 3, 8
+  index: -1
+player_3_khorium_reduce-00002
+  rotate: false
+  xy: 0, 384
+  size: 326, 157
+  orig: 335, 177
+  offset: 5, 10
+  index: -1
+player_3_khorium_reduce-00003
+  rotate: false
+  xy: 0, 248
+  size: 307, 136
+  orig: 335, 177
+  offset: 15, 21
+  index: -1
+player_3_khorium_reduce-00004
+  rotate: false
+  xy: 0, 152
+  size: 253, 96
+  orig: 335, 177
+  offset: 43, 41
+  index: -1
+player_3_khorium_reduce-00005
+  rotate: true
+  xy: 249, 0
+  size: 152, 79
+  orig: 335, 177
+  offset: 94, 47
+  index: -1
+player_3_khorium_reduce-00006
+  rotate: true
+  xy: 253, 162
+  size: 86, 65
+  orig: 335, 177
+  offset: 127, 59
+  index: -1

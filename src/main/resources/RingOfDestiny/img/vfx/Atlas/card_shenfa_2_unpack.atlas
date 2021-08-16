@@ -1,0 +1,69 @@
+
+card_shenfa_2_unpack.png
+size: 1185,1166
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shenfa_2-00000
+  rotate: false
+  xy: 0, 765
+  size: 500, 401
+  orig: 500, 450
+  offset: 0, 0
+  index: -1
+card_shenfa_2-00001
+  rotate: false
+  xy: 0, 340
+  size: 450, 425
+  orig: 500, 450
+  offset: 31, 0
+  index: -1
+card_shenfa_2-00002
+  rotate: true
+  xy: 450, 382
+  size: 383, 318
+  orig: 500, 450
+  offset: 66, 0
+  index: -1
+card_shenfa_2-00003
+  rotate: true
+  xy: 450, 0
+  size: 382, 285
+  orig: 500, 450
+  offset: 67, 0
+  index: -1
+card_shenfa_2-00004
+  rotate: false
+  xy: 768, 125
+  size: 383, 309
+  orig: 500, 450
+  offset: 66, 0
+  index: -1
+card_shenfa_2-00005
+  rotate: true
+  xy: 862, 781
+  size: 385, 323
+  orig: 500, 450
+  offset: 64, 0
+  index: -1
+card_shenfa_2-00006
+  rotate: false
+  xy: 0, 8
+  size: 400, 332
+  orig: 500, 450
+  offset: 49, 0
+  index: -1
+card_shenfa_2-00007
+  rotate: false
+  xy: 768, 434
+  size: 375, 347
+  orig: 500, 450
+  offset: 70, 0
+  index: -1
+card_shenfa_2-00008
+  rotate: false
+  xy: 500, 782
+  size: 362, 384
+  orig: 500, 450
+  offset: 76, 5
+  index: -1

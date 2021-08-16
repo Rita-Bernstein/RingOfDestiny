@@ -1,0 +1,90 @@
+
+ui_alter_thunder_unpack.png
+size: 1017,844
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_alter_thunder-00000
+  rotate: false
+  xy: 0, 425
+  size: 339, 210
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00001
+  rotate: false
+  xy: 339, 1
+  size: 339, 213
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00002
+  rotate: false
+  xy: 678, 213
+  size: 339, 212
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00003
+  rotate: false
+  xy: 0, 2
+  size: 339, 212
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00004
+  rotate: false
+  xy: 0, 635
+  size: 338, 209
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00005
+  rotate: false
+  xy: 339, 425
+  size: 339, 210
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00006
+  rotate: false
+  xy: 338, 635
+  size: 338, 209
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00007
+  rotate: false
+  xy: 678, 425
+  size: 339, 210
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00008
+  rotate: false
+  xy: 0, 214
+  size: 339, 211
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00009
+  rotate: false
+  xy: 676, 635
+  size: 338, 209
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00010
+  rotate: false
+  xy: 339, 214
+  size: 339, 211
+  orig: 500, 345
+  offset: 77, 71
+  index: -1
+ui_alter_thunder-00011
+  rotate: false
+  xy: 678, 0
+  size: 339, 213
+  orig: 500, 345
+  offset: 77, 71
+  index: -1

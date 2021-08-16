@@ -1,0 +1,104 @@
+
+card_moribiaoji_unpack.png
+size: 671,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_moribiaoji-00000
+  rotate: false
+  xy: 0, 0
+  size: 92, 97
+  orig: 380, 378
+  offset: 151, 144
+  index: -1
+card_moribiaoji-00001
+  rotate: false
+  xy: 554, 106
+  size: 117, 121
+  orig: 380, 378
+  offset: 138, 132
+  index: -1
+card_moribiaoji-00002
+  rotate: false
+  xy: 370, 10
+  size: 135, 136
+  orig: 380, 378
+  offset: 129, 124
+  index: -1
+card_moribiaoji-00003
+  rotate: false
+  xy: 447, 351
+  size: 206, 203
+  orig: 380, 378
+  offset: 90, 92
+  index: -1
+card_moribiaoji-00004
+  rotate: false
+  xy: 0, 97
+  size: 223, 225
+  orig: 380, 378
+  offset: 82, 80
+  index: -1
+card_moribiaoji-00005
+  rotate: false
+  xy: 0, 322
+  size: 232, 232
+  orig: 380, 378
+  offset: 77, 77
+  index: -1
+card_moribiaoji-00006
+  rotate: false
+  xy: 232, 340
+  size: 215, 214
+  orig: 380, 378
+  offset: 86, 85
+  index: -1
+card_moribiaoji-00007
+  rotate: false
+  xy: 232, 146
+  size: 196, 194
+  orig: 380, 378
+  offset: 94, 98
+  index: -1
+card_moribiaoji-00008
+  rotate: false
+  xy: 223, 0
+  size: 147, 146
+  orig: 380, 378
+  offset: 122, 119
+  index: -1
+card_moribiaoji-00009
+  rotate: true
+  xy: 428, 207
+  size: 133, 126
+  orig: 380, 378
+  offset: 129, 128
+  index: -1
+card_moribiaoji-00010
+  rotate: true
+  xy: 554, 227
+  size: 124, 116
+  orig: 380, 378
+  offset: 134, 133
+  index: -1
+card_moribiaoji-00011
+  rotate: false
+  xy: 505, 2
+  size: 112, 104
+  orig: 380, 378
+  offset: 140, 139
+  index: -1
+card_moribiaoji-00012
+  rotate: false
+  xy: 92, 26
+  size: 65, 71
+  orig: 380, 378
+  offset: 159, 156
+  index: -1
+card_moribiaoji-00013
+  rotate: true
+  xy: 428, 149
+  size: 58, 64
+  orig: 380, 378
+  offset: 163, 160
+  index: -1

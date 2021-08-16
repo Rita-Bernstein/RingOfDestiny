@@ -1,0 +1,48 @@
+
+monster_zhangkongzhe_atk_2_unpack.png
+size: 472,530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_zhangkongzhe_atk_2-00000
+  rotate: true
+  xy: 364, 322
+  size: 208, 64
+  orig: 378, 216
+  offset: 89, 73
+  index: -1
+monster_zhangkongzhe_atk_2-00001
+  rotate: false
+  xy: 0, 366
+  size: 364, 164
+  orig: 378, 216
+  offset: 10, 24
+  index: -1
+monster_zhangkongzhe_atk_2-00002
+  rotate: false
+  xy: 0, 248
+  size: 356, 118
+  orig: 378, 216
+  offset: 15, 45
+  index: -1
+monster_zhangkongzhe_atk_2-00003
+  rotate: false
+  xy: 0, 128
+  size: 342, 120
+  orig: 378, 216
+  offset: 22, 42
+  index: -1
+monster_zhangkongzhe_atk_2-00004
+  rotate: false
+  xy: 0, 0
+  size: 327, 128
+  orig: 378, 216
+  offset: 30, 42
+  index: -1
+monster_zhangkongzhe_atk_2-00005
+  rotate: true
+  xy: 356, 19
+  size: 303, 116
+  orig: 378, 216
+  offset: 42, 42
+  index: -1

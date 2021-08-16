@@ -1,0 +1,139 @@
+
+monster_10069_buff_unpack.png
+size: 1730,823
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10069_buff-00000
+  rotate: true
+  xy: 1634, 639
+  size: 184, 96
+  orig: 500, 450
+  offset: 163, 83
+  index: -1
+monster_10069_buff-00001
+  rotate: false
+  xy: 1444, 295
+  size: 230, 261
+  orig: 500, 450
+  offset: 136, 78
+  index: -1
+monster_10069_buff-00002
+  rotate: true
+  xy: 277, 1
+  size: 229, 269
+  orig: 500, 450
+  offset: 136, 77
+  index: -1
+monster_10069_buff-00003
+  rotate: true
+  xy: 0, 1
+  size: 229, 277
+  orig: 500, 450
+  offset: 136, 75
+  index: -1
+monster_10069_buff-00004
+  rotate: true
+  xy: 546, 0
+  size: 235, 278
+  orig: 500, 450
+  offset: 134, 73
+  index: -1
+monster_10069_buff-00005
+  rotate: true
+  xy: 1104, 11
+  size: 242, 282
+  orig: 500, 450
+  offset: 132, 72
+  index: -1
+monster_10069_buff-00006
+  rotate: true
+  xy: 824, 3
+  size: 247, 280
+  orig: 500, 450
+  offset: 129, 70
+  index: -1
+monster_10069_buff-00007
+  rotate: true
+  xy: 1386, 5
+  size: 259, 297
+  orig: 500, 450
+  offset: 123, 71
+  index: -1
+monster_10069_buff-00008
+  rotate: true
+  xy: 1161, 556
+  size: 267, 305
+  orig: 500, 450
+  offset: 118, 70
+  index: -1
+monster_10069_buff-00009
+  rotate: true
+  xy: 878, 253
+  size: 275, 300
+  orig: 500, 450
+  offset: 116, 69
+  index: -1
+monster_10069_buff-00010
+  rotate: false
+  xy: 878, 528
+  size: 283, 295
+  orig: 500, 450
+  offset: 111, 67
+  index: -1
+monster_10069_buff-00011
+  rotate: true
+  xy: 1178, 264
+  size: 292, 266
+  orig: 500, 450
+  offset: 107, 67
+  index: -1
+monster_10069_buff-00012
+  rotate: false
+  xy: 578, 250
+  size: 300, 280
+  orig: 500, 450
+  offset: 103, 64
+  index: -1
+monster_10069_buff-00013
+  rotate: true
+  xy: 0, 230
+  size: 299, 287
+  orig: 500, 450
+  offset: 103, 63
+  index: -1
+monster_10069_buff-00014
+  rotate: false
+  xy: 0, 529
+  size: 294, 294
+  orig: 500, 450
+  offset: 107, 63
+  index: -1
+monster_10069_buff-00015
+  rotate: false
+  xy: 287, 235
+  size: 291, 294
+  orig: 500, 450
+  offset: 107, 64
+  index: -1
+monster_10069_buff-00016
+  rotate: true
+  xy: 294, 530
+  size: 293, 288
+  orig: 500, 450
+  offset: 105, 65
+  index: -1
+monster_10069_buff-00017
+  rotate: true
+  xy: 582, 540
+  size: 283, 296
+  orig: 500, 450
+  offset: 110, 69
+  index: -1
+monster_10069_buff-00018
+  rotate: true
+  xy: 1466, 560
+  size: 263, 168
+  orig: 500, 450
+  offset: 121, 72
+  index: -1

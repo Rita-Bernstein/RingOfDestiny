@@ -1,0 +1,83 @@
+
+monster_10083_atk_unpack.png
+size: 1180,404
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10083_atk-00000
+  rotate: true
+  xy: 582, 6
+  size: 175, 192
+  orig: 377, 371
+  offset: 143, 100
+  index: -1
+monster_10083_atk-00001
+  rotate: true
+  xy: 0, 0
+  size: 175, 194
+  orig: 377, 371
+  offset: 147, 99
+  index: -1
+monster_10083_atk-00002
+  rotate: true
+  xy: 194, 0
+  size: 175, 194
+  orig: 377, 371
+  offset: 150, 99
+  index: -1
+monster_10083_atk-00003
+  rotate: true
+  xy: 388, 4
+  size: 175, 194
+  orig: 377, 371
+  offset: 153, 99
+  index: -1
+monster_10083_atk-00004
+  rotate: false
+  xy: 0, 175
+  size: 209, 229
+  orig: 377, 371
+  offset: 83, 74
+  index: -1
+monster_10083_atk-00005
+  rotate: false
+  xy: 209, 179
+  size: 210, 225
+  orig: 377, 371
+  offset: 86, 78
+  index: -1
+monster_10083_atk-00006
+  rotate: false
+  xy: 618, 183
+  size: 208, 221
+  orig: 377, 371
+  offset: 86, 80
+  index: -1
+monster_10083_atk-00007
+  rotate: false
+  xy: 419, 181
+  size: 199, 223
+  orig: 377, 371
+  offset: 88, 78
+  index: -1
+monster_10083_atk-00008
+  rotate: true
+  xy: 963, 205
+  size: 199, 217
+  orig: 377, 371
+  offset: 86, 77
+  index: -1
+monster_10083_atk-00009
+  rotate: true
+  xy: 963, 4
+  size: 201, 206
+  orig: 377, 371
+  offset: 87, 85
+  index: -1
+monster_10083_atk-00010
+  rotate: false
+  xy: 774, 13
+  size: 189, 170
+  orig: 377, 371
+  offset: 95, 109
+  index: -1

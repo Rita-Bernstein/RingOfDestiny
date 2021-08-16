@@ -1,0 +1,167 @@
+
+card_five_elements_402_unpack.png
+size: 2029,823
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_five_elements_402-00000
+  rotate: true
+  xy: 0, 10
+  size: 173, 89
+  orig: 469, 418
+  offset: 150, 87
+  index: -1
+card_five_elements_402-00001
+  rotate: true
+  xy: 0, 183
+  size: 344, 227
+  orig: 469, 418
+  offset: 67, 16
+  index: -1
+card_five_elements_402-00002
+  rotate: true
+  xy: 0, 527
+  size: 296, 283
+  orig: 469, 418
+  offset: 90, 45
+  index: -1
+card_five_elements_402-00003
+  rotate: false
+  xy: 283, 534
+  size: 262, 289
+  orig: 469, 418
+  offset: 102, 55
+  index: -1
+card_five_elements_402-00004
+  rotate: false
+  xy: 227, 245
+  size: 275, 282
+  orig: 469, 418
+  offset: 97, 62
+  index: -1
+card_five_elements_402-00005
+  rotate: true
+  xy: 545, 542
+  size: 281, 251
+  orig: 469, 418
+  offset: 96, 93
+  index: -1
+card_five_elements_402-00006
+  rotate: false
+  xy: 794, 9
+  size: 280, 251
+  orig: 469, 418
+  offset: 97, 93
+  index: -1
+card_five_elements_402-00007
+  rotate: true
+  xy: 796, 544
+  size: 279, 251
+  orig: 469, 418
+  offset: 99, 93
+  index: -1
+card_five_elements_402-00008
+  rotate: false
+  xy: 1074, 14
+  size: 278, 251
+  orig: 469, 418
+  offset: 101, 93
+  index: -1
+card_five_elements_402-00009
+  rotate: true
+  xy: 1047, 545
+  size: 278, 251
+  orig: 469, 418
+  offset: 102, 93
+  index: -1
+card_five_elements_402-00010
+  rotate: true
+  xy: 1007, 265
+  size: 279, 251
+  orig: 469, 418
+  offset: 101, 93
+  index: -1
+card_five_elements_402-00011
+  rotate: true
+  xy: 757, 260
+  size: 282, 250
+  orig: 469, 418
+  offset: 97, 94
+  index: -1
+card_five_elements_402-00012
+  rotate: true
+  xy: 1298, 551
+  size: 272, 253
+  orig: 469, 418
+  offset: 107, 91
+  index: -1
+card_five_elements_402-00013
+  rotate: true
+  xy: 1258, 271
+  size: 274, 254
+  orig: 469, 418
+  offset: 106, 89
+  index: -1
+card_five_elements_402-00014
+  rotate: true
+  xy: 502, 247
+  size: 287, 255
+  orig: 469, 418
+  offset: 92, 87
+  index: -1
+card_five_elements_402-00015
+  rotate: false
+  xy: 227, 0
+  size: 285, 245
+  orig: 469, 418
+  offset: 94, 96
+  index: -1
+card_five_elements_402-00016
+  rotate: false
+  xy: 512, 2
+  size: 282, 245
+  orig: 469, 418
+  offset: 97, 96
+  index: -1
+card_five_elements_402-00017
+  rotate: false
+  xy: 1352, 22
+  size: 277, 249
+  orig: 469, 418
+  offset: 100, 95
+  index: -1
+card_five_elements_402-00018
+  rotate: true
+  xy: 1512, 280
+  size: 271, 243
+  orig: 469, 418
+  offset: 102, 96
+  index: -1
+card_five_elements_402-00019
+  rotate: true
+  xy: 1629, 10
+  size: 270, 242
+  orig: 469, 418
+  offset: 106, 96
+  index: -1
+card_five_elements_402-00020
+  rotate: true
+  xy: 1551, 558
+  size: 265, 241
+  orig: 469, 418
+  offset: 109, 95
+  index: -1
+card_five_elements_402-00021
+  rotate: true
+  xy: 1755, 299
+  size: 259, 241
+  orig: 469, 418
+  offset: 112, 94
+  index: -1
+card_five_elements_402-00022
+  rotate: true
+  xy: 1792, 570
+  size: 253, 237
+  orig: 469, 418
+  offset: 113, 96
+  index: -1

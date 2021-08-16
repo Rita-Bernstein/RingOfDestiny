@@ -1,0 +1,111 @@
+
+card_kejindafa_unpack.png
+size: 451,994
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_kejindafa-00000
+  rotate: false
+  xy: 168, 215
+  size: 67, 72
+  orig: 436, 291
+  offset: 237, 110
+  index: -1
+card_kejindafa-00001
+  rotate: false
+  xy: 0, 865
+  size: 302, 129
+  orig: 436, 291
+  offset: 9, 120
+  index: -1
+card_kejindafa-00002
+  rotate: false
+  xy: 0, 664
+  size: 286, 201
+  orig: 436, 291
+  offset: 19, 53
+  index: -1
+card_kejindafa-00003
+  rotate: false
+  xy: 0, 287
+  size: 235, 210
+  orig: 436, 291
+  offset: 42, 39
+  index: -1
+card_kejindafa-00004
+  rotate: true
+  xy: 235, 217
+  size: 229, 214
+  orig: 436, 291
+  offset: 48, 34
+  index: -1
+card_kejindafa-00005
+  rotate: false
+  xy: 281, 446
+  size: 170, 205
+  orig: 436, 291
+  offset: 93, 51
+  index: -1
+card_kejindafa-00006
+  rotate: false
+  xy: 286, 651
+  size: 163, 169
+  orig: 436, 291
+  offset: 93, 66
+  index: -1
+card_kejindafa-00007
+  rotate: true
+  xy: 0, 124
+  size: 163, 168
+  orig: 436, 291
+  offset: 93, 66
+  index: -1
+card_kejindafa-00008
+  rotate: false
+  xy: 0, 497
+  size: 281, 167
+  orig: 436, 291
+  offset: 135, 68
+  index: -1
+card_kejindafa-00009
+  rotate: true
+  xy: 302, 820
+  size: 174, 146
+  orig: 436, 291
+  offset: 230, 76
+  index: -1
+card_kejindafa-00010
+  rotate: true
+  xy: 224, 0
+  size: 115, 100
+  orig: 436, 291
+  offset: 262, 98
+  index: -1
+card_kejindafa-00011
+  rotate: false
+  xy: 116, 9
+  size: 108, 115
+  orig: 436, 291
+  offset: 275, 84
+  index: -1
+card_kejindafa-00012
+  rotate: false
+  xy: 0, 2
+  size: 116, 122
+  orig: 436, 291
+  offset: 271, 89
+  index: -1
+card_kejindafa-00013
+  rotate: false
+  xy: 283, 115
+  size: 115, 102
+  orig: 436, 291
+  offset: 268, 92
+  index: -1
+card_kejindafa-00014
+  rotate: false
+  xy: 168, 129
+  size: 115, 86
+  orig: 436, 291
+  offset: 269, 108
+  index: -1

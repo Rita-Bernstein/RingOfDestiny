@@ -1,0 +1,62 @@
+
+card_anyingyinji_unpack.png
+size: 393,514
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_anyingyinji-00000
+  rotate: true
+  xy: 0, 0
+  size: 89, 78
+  orig: 300, 300
+  offset: 108, 115
+  index: -1
+card_anyingyinji-00001
+  rotate: true
+  xy: 0, 294
+  size: 220, 224
+  orig: 300, 300
+  offset: 42, 40
+  index: -1
+card_anyingyinji-00002
+  rotate: true
+  xy: 0, 89
+  size: 205, 206
+  orig: 300, 300
+  offset: 49, 50
+  index: -1
+card_anyingyinji-00003
+  rotate: false
+  xy: 206, 35
+  size: 187, 186
+  orig: 300, 300
+  offset: 58, 60
+  index: -1
+card_anyingyinji-00004
+  rotate: false
+  xy: 224, 352
+  size: 162, 162
+  orig: 300, 300
+  offset: 71, 72
+  index: -1
+card_anyingyinji-00005
+  rotate: false
+  xy: 224, 221
+  size: 131, 131
+  orig: 300, 300
+  offset: 86, 87
+  index: -1
+card_anyingyinji-00006
+  rotate: true
+  xy: 78, 18
+  size: 71, 63
+  orig: 300, 300
+  offset: 117, 121
+  index: -1
+card_anyingyinji-00007
+  rotate: false
+  xy: 141, 34
+  size: 63, 55
+  orig: 300, 300
+  offset: 121, 125
+  index: -1

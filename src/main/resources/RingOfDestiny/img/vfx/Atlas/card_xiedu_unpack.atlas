@@ -1,0 +1,90 @@
+
+card_xiedu_unpack.png
+size: 1665,498
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_xiedu-00000
+  rotate: false
+  xy: 1390, 279
+  size: 218, 219
+  orig: 500, 500
+  offset: 140, 131
+  index: -1
+card_xiedu-00001
+  rotate: false
+  xy: 0, 85
+  size: 391, 413
+  orig: 500, 500
+  offset: 62, 34
+  index: -1
+card_xiedu-00002
+  rotate: false
+  xy: 391, 188
+  size: 293, 310
+  orig: 500, 500
+  offset: 110, 86
+  index: -1
+card_xiedu-00003
+  rotate: true
+  xy: 684, 241
+  size: 257, 240
+  orig: 500, 500
+  offset: 117, 123
+  index: -1
+card_xiedu-00004
+  rotate: false
+  xy: 1042, 10
+  size: 257, 234
+  orig: 500, 500
+  offset: 117, 125
+  index: -1
+card_xiedu-00005
+  rotate: false
+  xy: 782, 6
+  size: 260, 235
+  orig: 500, 500
+  offset: 114, 126
+  index: -1
+card_xiedu-00006
+  rotate: true
+  xy: 924, 244
+  size: 254, 237
+  orig: 500, 500
+  offset: 117, 125
+  index: -1
+card_xiedu-00007
+  rotate: true
+  xy: 1161, 251
+  size: 247, 229
+  orig: 500, 500
+  offset: 120, 131
+  index: -1
+card_xiedu-00008
+  rotate: true
+  xy: 1299, 17
+  size: 234, 219
+  orig: 500, 500
+  offset: 127, 136
+  index: -1
+card_xiedu-00009
+  rotate: false
+  xy: 391, 0
+  size: 210, 188
+  orig: 500, 500
+  offset: 145, 161
+  index: -1
+card_xiedu-00010
+  rotate: true
+  xy: 601, 2
+  size: 186, 181
+  orig: 500, 500
+  offset: 163, 163
+  index: -1
+card_xiedu-00011
+  rotate: true
+  xy: 1518, 113
+  size: 166, 147
+  orig: 500, 500
+  offset: 177, 176
+  index: -1

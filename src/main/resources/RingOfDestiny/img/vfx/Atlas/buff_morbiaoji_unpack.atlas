@@ -1,0 +1,90 @@
+
+buff_morbiaoji_unpack.png
+size: 1336,487
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_morbiaoji-00000
+  rotate: true
+  xy: 1202, 347
+  size: 140, 134
+  orig: 500, 470
+  offset: 182, 157
+  index: -1
+buff_morbiaoji-00001
+  rotate: false
+  xy: 197, 46
+  size: 142, 145
+  orig: 500, 470
+  offset: 181, 156
+  index: -1
+buff_morbiaoji-00002
+  rotate: false
+  xy: 0, 0
+  size: 197, 191
+  orig: 500, 470
+  offset: 154, 130
+  index: -1
+buff_morbiaoji-00003
+  rotate: true
+  xy: 783, 270
+  size: 217, 214
+  orig: 500, 470
+  offset: 144, 123
+  index: -1
+buff_morbiaoji-00004
+  rotate: false
+  xy: 554, 251
+  size: 229, 236
+  orig: 500, 470
+  offset: 138, 114
+  index: -1
+buff_morbiaoji-00005
+  rotate: true
+  xy: 339, 3
+  size: 236, 253
+  orig: 500, 470
+  offset: 133, 109
+  index: -1
+buff_morbiaoji-00006
+  rotate: false
+  xy: 873, 9
+  size: 250, 261
+  orig: 500, 470
+  offset: 131, 113
+  index: -1
+buff_morbiaoji-00007
+  rotate: true
+  xy: 592, 0
+  size: 251, 281
+  orig: 500, 470
+  offset: 129, 102
+  index: -1
+buff_morbiaoji-00008
+  rotate: false
+  xy: 0, 191
+  size: 253, 296
+  orig: 500, 470
+  offset: 124, 96
+  index: -1
+buff_morbiaoji-00009
+  rotate: true
+  xy: 253, 239
+  size: 248, 301
+  orig: 500, 470
+  offset: 118, 96
+  index: -1
+buff_morbiaoji-00010
+  rotate: true
+  xy: 997, 274
+  size: 213, 205
+  orig: 500, 470
+  offset: 146, 130
+  index: -1
+buff_morbiaoji-00011
+  rotate: true
+  xy: 1123, 61
+  size: 213, 200
+  orig: 500, 470
+  offset: 146, 131
+  index: -1

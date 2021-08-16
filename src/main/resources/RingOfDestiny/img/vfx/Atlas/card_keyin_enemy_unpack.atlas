@@ -1,0 +1,125 @@
+
+card_keyin_enemy_unpack.png
+size: 1853,864
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_keyin_enemy-00000
+  rotate: false
+  xy: 349, 3
+  size: 279, 271
+  orig: 350, 350
+  offset: 37, 41
+  index: -1
+card_keyin_enemy-00001
+  rotate: true
+  xy: 1563, 261
+  size: 301, 281
+  orig: 350, 350
+  offset: 26, 36
+  index: -1
+card_keyin_enemy-00002
+  rotate: false
+  xy: 1259, 0
+  size: 300, 289
+  orig: 350, 350
+  offset: 27, 34
+  index: -1
+card_keyin_enemy-00003
+  rotate: false
+  xy: 656, 574
+  size: 303, 290
+  orig: 350, 350
+  offset: 24, 34
+  index: -1
+card_keyin_enemy-00004
+  rotate: true
+  xy: 958, 0
+  size: 289, 301
+  orig: 350, 350
+  offset: 32, 30
+  index: -1
+card_keyin_enemy-00005
+  rotate: false
+  xy: 959, 576
+  size: 303, 288
+  orig: 350, 350
+  offset: 24, 34
+  index: -1
+card_keyin_enemy-00006
+  rotate: true
+  xy: 1262, 576
+  size: 288, 303
+  orig: 350, 350
+  offset: 32, 29
+  index: -1
+card_keyin_enemy-00007
+  rotate: false
+  xy: 350, 274
+  size: 304, 284
+  orig: 350, 350
+  offset: 23, 38
+  index: -1
+card_keyin_enemy-00008
+  rotate: true
+  xy: 1565, 562
+  size: 302, 288
+  orig: 350, 350
+  offset: 25, 37
+  index: -1
+card_keyin_enemy-00009
+  rotate: false
+  xy: 656, 288
+  size: 302, 286
+  orig: 350, 350
+  offset: 24, 37
+  index: -1
+card_keyin_enemy-00010
+  rotate: false
+  xy: 654, 1
+  size: 302, 287
+  orig: 350, 350
+  offset: 24, 38
+  index: -1
+card_keyin_enemy-00011
+  rotate: false
+  xy: 959, 289
+  size: 302, 287
+  orig: 350, 350
+  offset: 23, 36
+  index: -1
+card_keyin_enemy-00012
+  rotate: true
+  xy: 1261, 290
+  size: 286, 302
+  orig: 350, 350
+  offset: 32, 29
+  index: -1
+card_keyin_enemy-00013
+  rotate: false
+  xy: 350, 558
+  size: 306, 306
+  orig: 350, 350
+  offset: 22, 26
+  index: -1
+card_keyin_enemy-00014
+  rotate: false
+  xy: 0, 170
+  size: 349, 344
+  orig: 350, 350
+  offset: 1, 4
+  index: -1
+card_keyin_enemy-00015
+  rotate: false
+  xy: 0, 514
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+card_keyin_enemy-00016
+  rotate: false
+  xy: 1559, 14
+  size: 260, 247
+  orig: 350, 350
+  offset: 45, 52
+  index: -1

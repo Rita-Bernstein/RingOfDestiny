@@ -1,0 +1,160 @@
+
+card_defacement_unpack.png
+size: 1985,1935
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_defacement-00000
+  rotate: false
+  xy: 1283, 1124
+  size: 417, 404
+  orig: 500, 429
+  offset: 31, 8
+  index: -1
+card_defacement-00001
+  rotate: true
+  xy: 399, 257
+  size: 418, 400
+  orig: 500, 429
+  offset: 32, 9
+  index: -1
+card_defacement-00002
+  rotate: false
+  xy: 865, 1128
+  size: 418, 405
+  orig: 500, 429
+  offset: 32, 3
+  index: -1
+card_defacement-00003
+  rotate: false
+  xy: 435, 1113
+  size: 415, 402
+  orig: 500, 429
+  offset: 34, 4
+  index: -1
+card_defacement-00004
+  rotate: false
+  xy: 865, 1533
+  size: 439, 402
+  orig: 500, 429
+  offset: 31, 3
+  index: -1
+card_defacement-00005
+  rotate: true
+  xy: 0, 238
+  size: 437, 399
+  orig: 500, 429
+  offset: 32, 4
+  index: -1
+card_defacement-00006
+  rotate: false
+  xy: 0, 1511
+  size: 435, 424
+  orig: 500, 429
+  offset: 33, 5
+  index: -1
+card_defacement-00007
+  rotate: false
+  xy: 0, 1089
+  size: 432, 422
+  orig: 500, 429
+  offset: 34, 7
+  index: -1
+card_defacement-00008
+  rotate: false
+  xy: 435, 1515
+  size: 430, 420
+  orig: 500, 429
+  offset: 35, 8
+  index: -1
+card_defacement-00009
+  rotate: false
+  xy: 0, 675
+  size: 428, 414
+  orig: 500, 429
+  offset: 36, 10
+  index: -1
+card_defacement-00010
+  rotate: false
+  xy: 1304, 1528
+  size: 426, 407
+  orig: 500, 429
+  offset: 37, 13
+  index: -1
+card_defacement-00011
+  rotate: false
+  xy: 1199, 337
+  size: 376, 389
+  orig: 500, 429
+  offset: 60, 10
+  index: -1
+card_defacement-00012
+  rotate: false
+  xy: 1256, 731
+  size: 391, 393
+  orig: 500, 429
+  offset: 51, 12
+  index: -1
+card_defacement-00013
+  rotate: true
+  xy: 850, 726
+  size: 402, 406
+  orig: 500, 429
+  offset: 45, 4
+  index: -1
+card_defacement-00014
+  rotate: false
+  xy: 432, 739
+  size: 411, 374
+  orig: 500, 429
+  offset: 40, 39
+  index: -1
+card_defacement-00015
+  rotate: false
+  xy: 799, 346
+  size: 400, 380
+  orig: 500, 429
+  offset: 54, 36
+  index: -1
+card_defacement-00016
+  rotate: false
+  xy: 1575, 338
+  size: 376, 391
+  orig: 500, 429
+  offset: 61, 33
+  index: -1
+card_defacement-00017
+  rotate: false
+  xy: 1197, 0
+  size: 388, 337
+  orig: 500, 429
+  offset: 55, 32
+  index: -1
+card_defacement-00018
+  rotate: false
+  xy: 799, 14
+  size: 398, 332
+  orig: 500, 429
+  offset: 50, 48
+  index: -1
+card_defacement-00019
+  rotate: false
+  xy: 1585, 4
+  size: 389, 334
+  orig: 500, 429
+  offset: 57, 49
+  index: -1
+card_defacement-00020
+  rotate: true
+  xy: 1647, 729
+  size: 395, 337
+  orig: 500, 429
+  offset: 54, 50
+  index: -1
+card_defacement-00021
+  rotate: true
+  xy: 1700, 1130
+  size: 398, 285
+  orig: 500, 429
+  offset: 54, 99
+  index: -1

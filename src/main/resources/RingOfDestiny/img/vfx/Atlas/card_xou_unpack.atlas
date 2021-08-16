@@ -1,0 +1,76 @@
+
+card_xou_unpack.png
+size: 874,325
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_xou-00000
+  rotate: false
+  xy: 260, 154
+  size: 266, 171
+  orig: 417, 314
+  offset: 87, 76
+  index: -1
+card_xou-00001
+  rotate: false
+  xy: 0, 146
+  size: 260, 179
+  orig: 417, 314
+  offset: 88, 83
+  index: -1
+card_xou-00002
+  rotate: false
+  xy: 526, 158
+  size: 254, 167
+  orig: 417, 314
+  offset: 95, 84
+  index: -1
+card_xou-00003
+  rotate: false
+  xy: 260, 0
+  size: 238, 154
+  orig: 417, 314
+  offset: 107, 84
+  index: -1
+card_xou-00004
+  rotate: false
+  xy: 0, 0
+  size: 196, 146
+  orig: 417, 314
+  offset: 121, 83
+  index: -1
+card_xou-00005
+  rotate: true
+  xy: 498, 16
+  size: 138, 126
+  orig: 417, 314
+  offset: 145, 83
+  index: -1
+card_xou-00006
+  rotate: false
+  xy: 624, 44
+  size: 136, 114
+  orig: 417, 314
+  offset: 144, 98
+  index: -1
+card_xou-00007
+  rotate: false
+  xy: 760, 36
+  size: 114, 118
+  orig: 417, 314
+  offset: 142, 96
+  index: -1
+card_xou-00008
+  rotate: false
+  xy: 780, 229
+  size: 84, 96
+  orig: 417, 314
+  offset: 157, 107
+  index: -1
+card_xou-00009
+  rotate: true
+  xy: 780, 154
+  size: 75, 85
+  orig: 417, 314
+  offset: 161, 113
+  index: -1

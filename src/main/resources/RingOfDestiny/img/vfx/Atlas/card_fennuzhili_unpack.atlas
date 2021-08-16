@@ -1,0 +1,62 @@
+
+card_fennuzhili_unpack.png
+size: 568,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_fennuzhili-00000
+  rotate: true
+  xy: 515, 239
+  size: 57, 53
+  orig: 500, 500
+  offset: 229, 219
+  index: -1
+card_fennuzhili-00001
+  rotate: false
+  xy: 0, 116
+  size: 205, 180
+  orig: 500, 500
+  offset: 152, 160
+  index: -1
+card_fennuzhili-00002
+  rotate: false
+  xy: 205, 141
+  size: 171, 155
+  orig: 500, 500
+  offset: 167, 171
+  index: -1
+card_fennuzhili-00003
+  rotate: false
+  xy: 376, 163
+  size: 139, 133
+  orig: 500, 500
+  offset: 184, 183
+  index: -1
+card_fennuzhili-00004
+  rotate: false
+  xy: 232, 19
+  size: 137, 122
+  orig: 500, 500
+  offset: 188, 187
+  index: -1
+card_fennuzhili-00005
+  rotate: false
+  xy: 376, 41
+  size: 136, 122
+  orig: 500, 500
+  offset: 190, 186
+  index: -1
+card_fennuzhili-00006
+  rotate: false
+  xy: 0, 0
+  size: 123, 116
+  orig: 500, 500
+  offset: 198, 190
+  index: -1
+card_fennuzhili-00007
+  rotate: true
+  xy: 123, 6
+  size: 110, 109
+  orig: 500, 500
+  offset: 201, 194
+  index: -1

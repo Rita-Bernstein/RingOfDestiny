@@ -1,0 +1,132 @@
+
+ui_task_mirror_ice_unpack.png
+size: 924,581
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_task_mirror_ice-00000
+  rotate: true
+  xy: 809, 281
+  size: 59, 94
+  orig: 410, 383
+  offset: 206, 106
+  index: -1
+ui_task_mirror_ice-00001
+  rotate: true
+  xy: 803, 489
+  size: 92, 121
+  orig: 410, 383
+  offset: 186, 94
+  index: -1
+ui_task_mirror_ice-00002
+  rotate: false
+  xy: 803, 340
+  size: 114, 149
+  orig: 410, 383
+  offset: 170, 88
+  index: -1
+ui_task_mirror_ice-00003
+  rotate: false
+  xy: 754, 0
+  size: 142, 178
+  orig: 410, 383
+  offset: 144, 86
+  index: -1
+ui_task_mirror_ice-00004
+  rotate: true
+  xy: 212, 2
+  size: 158, 191
+  orig: 410, 383
+  offset: 129, 85
+  index: -1
+ui_task_mirror_ice-00005
+  rotate: true
+  xy: 403, 0
+  size: 168, 197
+  orig: 410, 383
+  offset: 120, 86
+  index: -1
+ui_task_mirror_ice-00006
+  rotate: false
+  xy: 348, 168
+  size: 170, 206
+  orig: 410, 383
+  offset: 118, 83
+  index: -1
+ui_task_mirror_ice-00007
+  rotate: false
+  xy: 144, 369
+  size: 170, 212
+  orig: 410, 383
+  offset: 118, 82
+  index: -1
+ui_task_mirror_ice-00008
+  rotate: false
+  xy: 0, 151
+  size: 175, 212
+  orig: 410, 383
+  offset: 116, 84
+  index: -1
+ui_task_mirror_ice-00009
+  rotate: false
+  xy: 175, 160
+  size: 173, 209
+  orig: 410, 383
+  offset: 118, 87
+  index: -1
+ui_task_mirror_ice-00010
+  rotate: false
+  xy: 314, 374
+  size: 169, 207
+  orig: 410, 383
+  offset: 120, 89
+  index: -1
+ui_task_mirror_ice-00011
+  rotate: false
+  xy: 640, 381
+  size: 163, 200
+  orig: 410, 383
+  offset: 123, 92
+  index: -1
+ui_task_mirror_ice-00012
+  rotate: false
+  xy: 483, 375
+  size: 157, 206
+  orig: 410, 383
+  offset: 127, 89
+  index: -1
+ui_task_mirror_ice-00013
+  rotate: true
+  xy: 0, 2
+  size: 149, 212
+  orig: 410, 383
+  offset: 131, 85
+  index: -1
+ui_task_mirror_ice-00014
+  rotate: false
+  xy: 0, 363
+  size: 144, 218
+  orig: 410, 383
+  offset: 137, 82
+  index: -1
+ui_task_mirror_ice-00015
+  rotate: false
+  xy: 518, 174
+  size: 148, 201
+  orig: 410, 383
+  offset: 134, 79
+  index: -1
+ui_task_mirror_ice-00016
+  rotate: false
+  xy: 600, 2
+  size: 154, 172
+  orig: 410, 383
+  offset: 130, 100
+  index: -1
+ui_task_mirror_ice-00017
+  rotate: false
+  xy: 666, 178
+  size: 143, 162
+  orig: 410, 383
+  offset: 142, 108
+  index: -1

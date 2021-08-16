@@ -1,0 +1,104 @@
+
+buff_zhaquhuifu_unpack.png
+size: 398,1031
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buff_zhaquhuifu-00000
+  rotate: true
+  xy: 0, 170
+  size: 171, 184
+  orig: 500, 470
+  offset: 176, 155
+  index: -1
+buff_zhaquhuifu-00001
+  rotate: true
+  xy: 0, 776
+  size: 255, 274
+  orig: 500, 470
+  offset: 136, 108
+  index: -1
+buff_zhaquhuifu-00002
+  rotate: true
+  xy: 0, 540
+  size: 236, 252
+  orig: 500, 470
+  offset: 147, 118
+  index: -1
+buff_zhaquhuifu-00003
+  rotate: true
+  xy: 0, 341
+  size: 199, 221
+  orig: 500, 470
+  offset: 166, 134
+  index: -1
+buff_zhaquhuifu-00004
+  rotate: false
+  xy: 252, 540
+  size: 146, 178
+  orig: 500, 470
+  offset: 188, 149
+  index: -1
+buff_zhaquhuifu-00005
+  rotate: true
+  xy: 221, 401
+  size: 139, 175
+  orig: 500, 470
+  offset: 188, 151
+  index: -1
+buff_zhaquhuifu-00006
+  rotate: true
+  xy: 221, 262
+  size: 139, 173
+  orig: 500, 470
+  offset: 186, 153
+  index: -1
+buff_zhaquhuifu-00007
+  rotate: false
+  xy: 0, 0
+  size: 139, 170
+  orig: 500, 470
+  offset: 184, 156
+  index: -1
+buff_zhaquhuifu-00008
+  rotate: false
+  xy: 139, 3
+  size: 134, 167
+  orig: 500, 470
+  offset: 183, 159
+  index: -1
+buff_zhaquhuifu-00009
+  rotate: false
+  xy: 274, 872
+  size: 124, 159
+  orig: 500, 470
+  offset: 182, 165
+  index: -1
+buff_zhaquhuifu-00010
+  rotate: false
+  xy: 274, 718
+  size: 119, 154
+  orig: 500, 470
+  offset: 183, 170
+  index: -1
+buff_zhaquhuifu-00011
+  rotate: false
+  xy: 273, 128
+  size: 115, 134
+  orig: 500, 470
+  offset: 183, 178
+  index: -1
+buff_zhaquhuifu-00012
+  rotate: true
+  xy: 273, 25
+  size: 103, 115
+  orig: 500, 470
+  offset: 194, 191
+  index: -1
+buff_zhaquhuifu-00013
+  rotate: false
+  xy: 184, 220
+  size: 43, 42
+  orig: 500, 470
+  offset: 250, 252
+  index: -1

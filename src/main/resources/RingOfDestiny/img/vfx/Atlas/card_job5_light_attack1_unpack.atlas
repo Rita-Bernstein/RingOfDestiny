@@ -1,0 +1,20 @@
+
+card_job5_light_attack1_unpack.png
+size: 454,327
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_job5_light_attack1-00000
+  rotate: true
+  xy: 0, 0
+  size: 327, 233
+  orig: 500, 500
+  offset: 95, 127
+  index: -1
+card_job5_light_attack1-00001
+  rotate: true
+  xy: 233, 10
+  size: 317, 221
+  orig: 500, 500
+  offset: 105, 127
+  index: -1

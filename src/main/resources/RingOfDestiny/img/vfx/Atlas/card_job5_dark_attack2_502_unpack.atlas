@@ -1,0 +1,41 @@
+
+card_job5_dark_attack2_502_unpack.png
+size: 534,359
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_job5_dark_attack2_502-00000
+  rotate: false
+  xy: 0, 162
+  size: 286, 197
+  orig: 500, 448
+  offset: 102, 128
+  index: -1
+card_job5_dark_attack2_502-00001
+  rotate: false
+  xy: 286, 184
+  size: 222, 175
+  orig: 500, 448
+  offset: 165, 130
+  index: -1
+card_job5_dark_attack2_502-00002
+  rotate: false
+  xy: 0, 0
+  size: 212, 162
+  orig: 500, 448
+  offset: 154, 132
+  index: -1
+card_job5_dark_attack2_502-00003
+  rotate: false
+  xy: 212, 15
+  size: 195, 147
+  orig: 500, 448
+  offset: 172, 134
+  index: -1
+card_job5_dark_attack2_502-00004
+  rotate: true
+  xy: 407, 52
+  size: 132, 127
+  orig: 500, 448
+  offset: 235, 142
+  index: -1

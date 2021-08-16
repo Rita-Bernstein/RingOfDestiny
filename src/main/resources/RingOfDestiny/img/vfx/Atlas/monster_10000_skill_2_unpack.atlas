@@ -1,0 +1,97 @@
+
+monster_10000_skill_2_unpack.png
+size: 2000,1500
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10000_skill_2-00000
+  rotate: false
+  xy: 1930, 962
+  size: 44, 46
+  orig: 500, 500
+  offset: 235, 228
+  index: -1
+monster_10000_skill_2-00001
+  rotate: false
+  xy: 1500, 263
+  size: 324, 324
+  orig: 500, 500
+  offset: 83, 86
+  index: -1
+monster_10000_skill_2-00002
+  rotate: false
+  xy: 1500, 587
+  size: 430, 421
+  orig: 500, 500
+  offset: 34, 44
+  index: -1
+monster_10000_skill_2-00003
+  rotate: false
+  xy: 1500, 1008
+  size: 500, 492
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+monster_10000_skill_2-00004
+  rotate: false
+  xy: 0, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+monster_10000_skill_2-00005
+  rotate: false
+  xy: 0, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+monster_10000_skill_2-00006
+  rotate: false
+  xy: 0, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+monster_10000_skill_2-00007
+  rotate: false
+  xy: 500, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+monster_10000_skill_2-00008
+  rotate: false
+  xy: 500, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+monster_10000_skill_2-00009
+  rotate: false
+  xy: 500, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+monster_10000_skill_2-00010
+  rotate: false
+  xy: 1000, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+monster_10000_skill_2-00011
+  rotate: false
+  xy: 1000, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+monster_10000_skill_2-00012
+  rotate: false
+  xy: 1000, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1

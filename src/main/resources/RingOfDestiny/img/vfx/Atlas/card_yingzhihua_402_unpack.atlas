@@ -1,0 +1,160 @@
+
+card_yingzhihua_402_unpack.png
+size: 1573,421
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_yingzhihua_402-00000
+  rotate: false
+  xy: 801, 4
+  size: 37, 48
+  orig: 500, 286
+  offset: 99, 169
+  index: -1
+card_yingzhihua_402-00001
+  rotate: false
+  xy: 897, 132
+  size: 104, 63
+  orig: 500, 286
+  offset: 110, 193
+  index: -1
+card_yingzhihua_402-00002
+  rotate: false
+  xy: 736, 131
+  size: 161, 64
+  orig: 500, 286
+  offset: 109, 192
+  index: -1
+card_yingzhihua_402-00003
+  rotate: false
+  xy: 0, 8
+  size: 210, 86
+  orig: 500, 286
+  offset: 109, 171
+  index: -1
+card_yingzhihua_402-00004
+  rotate: false
+  xy: 553, 4
+  size: 248, 124
+  orig: 500, 286
+  offset: 109, 135
+  index: -1
+card_yingzhihua_402-00005
+  rotate: true
+  xy: 0, 94
+  size: 327, 246
+  orig: 500, 286
+  offset: 111, 14
+  index: -1
+card_yingzhihua_402-00006
+  rotate: true
+  xy: 246, 108
+  size: 313, 249
+  orig: 500, 286
+  offset: 144, 10
+  index: -1
+card_yingzhihua_402-00007
+  rotate: true
+  xy: 495, 128
+  size: 293, 241
+  orig: 500, 286
+  offset: 191, 13
+  index: -1
+card_yingzhihua_402-00008
+  rotate: true
+  xy: 736, 195
+  size: 226, 215
+  orig: 500, 286
+  offset: 260, 14
+  index: -1
+card_yingzhihua_402-00009
+  rotate: true
+  xy: 951, 207
+  size: 214, 177
+  orig: 500, 286
+  offset: 269, 17
+  index: -1
+card_yingzhihua_402-00010
+  rotate: true
+  xy: 1144, 15
+  size: 203, 149
+  orig: 500, 286
+  offset: 272, 18
+  index: -1
+card_yingzhihua_402-00011
+  rotate: true
+  xy: 1128, 218
+  size: 203, 156
+  orig: 500, 286
+  offset: 269, 11
+  index: -1
+card_yingzhihua_402-00012
+  rotate: true
+  xy: 1284, 221
+  size: 200, 146
+  orig: 500, 286
+  offset: 268, 14
+  index: -1
+card_yingzhihua_402-00013
+  rotate: true
+  xy: 1430, 222
+  size: 199, 142
+  orig: 500, 286
+  offset: 267, 14
+  index: -1
+card_yingzhihua_402-00014
+  rotate: true
+  xy: 1293, 20
+  size: 201, 141
+  orig: 500, 286
+  offset: 265, 13
+  index: -1
+card_yingzhihua_402-00015
+  rotate: true
+  xy: 1434, 29
+  size: 193, 139
+  orig: 500, 286
+  offset: 266, 13
+  index: -1
+card_yingzhihua_402-00016
+  rotate: false
+  xy: 362, 7
+  size: 191, 101
+  orig: 500, 286
+  offset: 266, 13
+  index: -1
+card_yingzhihua_402-00017
+  rotate: true
+  xy: 951, 2
+  size: 130, 79
+  orig: 500, 286
+  offset: 306, 31
+  index: -1
+card_yingzhihua_402-00018
+  rotate: true
+  xy: 1030, 0
+  size: 136, 66
+  orig: 500, 286
+  offset: 301, 47
+  index: -1
+card_yingzhihua_402-00019
+  rotate: false
+  xy: 1001, 136
+  size: 143, 71
+  orig: 500, 286
+  offset: 294, 45
+  index: -1
+card_yingzhihua_402-00020
+  rotate: false
+  xy: 801, 52
+  size: 150, 79
+  orig: 500, 286
+  offset: 289, 42
+  index: -1
+card_yingzhihua_402-00021
+  rotate: false
+  xy: 210, 9
+  size: 152, 85
+  orig: 500, 286
+  offset: 286, 40
+  index: -1

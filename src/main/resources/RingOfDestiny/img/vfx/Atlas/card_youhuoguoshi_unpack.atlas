@@ -1,0 +1,146 @@
+
+card_youhuoguoshi_unpack.png
+size: 1192,992
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_youhuoguoshi-00000
+  rotate: false
+  xy: 971, 584
+  size: 188, 181
+  orig: 500, 470
+  offset: 160, 139
+  index: -1
+card_youhuoguoshi-00001
+  rotate: false
+  xy: 0, 632
+  size: 369, 360
+  orig: 500, 470
+  offset: 67, 54
+  index: -1
+card_youhuoguoshi-00002
+  rotate: false
+  xy: 0, 284
+  size: 354, 348
+  orig: 500, 470
+  offset: 75, 59
+  index: -1
+card_youhuoguoshi-00003
+  rotate: false
+  xy: 369, 664
+  size: 335, 328
+  orig: 500, 470
+  offset: 84, 70
+  index: -1
+card_youhuoguoshi-00004
+  rotate: false
+  xy: 0, 0
+  size: 278, 284
+  orig: 500, 470
+  offset: 117, 90
+  index: -1
+card_youhuoguoshi-00005
+  rotate: false
+  xy: 704, 725
+  size: 267, 267
+  orig: 500, 470
+  offset: 121, 99
+  index: -1
+card_youhuoguoshi-00006
+  rotate: true
+  xy: 278, 17
+  size: 267, 264
+  orig: 500, 470
+  offset: 119, 102
+  index: -1
+card_youhuoguoshi-00007
+  rotate: false
+  xy: 704, 473
+  size: 262, 252
+  orig: 500, 470
+  offset: 121, 112
+  index: -1
+card_youhuoguoshi-00008
+  rotate: false
+  xy: 568, 248
+  size: 245, 225
+  orig: 500, 470
+  offset: 132, 135
+  index: -1
+card_youhuoguoshi-00009
+  rotate: false
+  xy: 542, 34
+  size: 226, 214
+  orig: 500, 470
+  offset: 142, 139
+  index: -1
+card_youhuoguoshi-00010
+  rotate: true
+  xy: 971, 765
+  size: 227, 214
+  orig: 500, 470
+  offset: 145, 143
+  index: -1
+card_youhuoguoshi-00011
+  rotate: true
+  xy: 813, 251
+  size: 222, 216
+  orig: 500, 470
+  offset: 139, 148
+  index: -1
+card_youhuoguoshi-00012
+  rotate: false
+  xy: 768, 32
+  size: 204, 216
+  orig: 500, 470
+  offset: 158, 153
+  index: -1
+card_youhuoguoshi-00013
+  rotate: false
+  xy: 972, 35
+  size: 203, 216
+  orig: 500, 470
+  offset: 162, 159
+  index: -1
+card_youhuoguoshi-00014
+  rotate: true
+  xy: 354, 284
+  size: 189, 214
+  orig: 500, 470
+  offset: 155, 167
+  index: -1
+card_youhuoguoshi-00015
+  rotate: true
+  xy: 369, 497
+  size: 167, 171
+  orig: 500, 470
+  offset: 174, 176
+  index: -1
+card_youhuoguoshi-00016
+  rotate: false
+  xy: 540, 498
+  size: 154, 166
+  orig: 500, 470
+  offset: 179, 188
+  index: -1
+card_youhuoguoshi-00017
+  rotate: false
+  xy: 1029, 296
+  size: 142, 152
+  orig: 500, 470
+  offset: 183, 201
+  index: -1
+card_youhuoguoshi-00018
+  rotate: false
+  xy: 1063, 448
+  size: 129, 136
+  orig: 500, 470
+  offset: 191, 220
+  index: -1
+card_youhuoguoshi-00019
+  rotate: false
+  xy: 966, 483
+  size: 97, 101
+  orig: 500, 470
+  offset: 220, 239
+  index: -1

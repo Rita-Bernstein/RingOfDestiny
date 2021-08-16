@@ -1,0 +1,62 @@
+
+card_tanlanzhili_unpack.png
+size: 568,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_tanlanzhili-00000
+  rotate: false
+  xy: 512, 111
+  size: 56, 52
+  orig: 500, 500
+  offset: 228, 224
+  index: -1
+card_tanlanzhili-00001
+  rotate: false
+  xy: 0, 116
+  size: 205, 180
+  orig: 500, 500
+  offset: 152, 162
+  index: -1
+card_tanlanzhili-00002
+  rotate: false
+  xy: 205, 146
+  size: 171, 150
+  orig: 500, 500
+  offset: 167, 177
+  index: -1
+card_tanlanzhili-00003
+  rotate: false
+  xy: 376, 163
+  size: 145, 133
+  orig: 500, 500
+  offset: 181, 185
+  index: -1
+card_tanlanzhili-00004
+  rotate: false
+  xy: 231, 23
+  size: 141, 123
+  orig: 500, 500
+  offset: 185, 188
+  index: -1
+card_tanlanzhili-00005
+  rotate: false
+  xy: 376, 40
+  size: 136, 123
+  orig: 500, 500
+  offset: 190, 187
+  index: -1
+card_tanlanzhili-00006
+  rotate: false
+  xy: 0, 0
+  size: 123, 116
+  orig: 500, 500
+  offset: 198, 192
+  index: -1
+card_tanlanzhili-00007
+  rotate: true
+  xy: 123, 7
+  size: 109, 108
+  orig: 500, 500
+  offset: 201, 196
+  index: -1

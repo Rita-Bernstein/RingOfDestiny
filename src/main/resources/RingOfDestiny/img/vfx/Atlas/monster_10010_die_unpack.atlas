@@ -1,0 +1,125 @@
+
+monster_10010_die_unpack.png
+size: 590,1056
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10010_die-00000
+  rotate: false
+  xy: 482, 30
+  size: 108, 145
+  orig: 300, 350
+  offset: 88, 66
+  index: -1
+monster_10010_die-00001
+  rotate: false
+  xy: 371, 0
+  size: 111, 175
+  orig: 300, 350
+  offset: 85, 63
+  index: -1
+monster_10010_die-00002
+  rotate: false
+  xy: 215, 25
+  size: 156, 185
+  orig: 300, 350
+  offset: 58, 61
+  index: -1
+monster_10010_die-00003
+  rotate: false
+  xy: 219, 210
+  size: 170, 203
+  orig: 300, 350
+  offset: 52, 50
+  index: -1
+monster_10010_die-00004
+  rotate: true
+  xy: 0, 321
+  size: 171, 219
+  orig: 300, 350
+  offset: 58, 43
+  index: -1
+monster_10010_die-00005
+  rotate: true
+  xy: 0, 674
+  size: 186, 227
+  orig: 300, 350
+  offset: 48, 42
+  index: -1
+monster_10010_die-00006
+  rotate: true
+  xy: 0, 860
+  size: 196, 228
+  orig: 300, 350
+  offset: 48, 47
+  index: -1
+monster_10010_die-00007
+  rotate: true
+  xy: 228, 865
+  size: 191, 229
+  orig: 300, 350
+  offset: 49, 52
+  index: -1
+monster_10010_die-00008
+  rotate: false
+  xy: 228, 635
+  size: 187, 230
+  orig: 300, 350
+  offset: 50, 56
+  index: -1
+monster_10010_die-00009
+  rotate: true
+  xy: 0, 492
+  size: 182, 227
+  orig: 300, 350
+  offset: 54, 64
+  index: -1
+monster_10010_die-00010
+  rotate: false
+  xy: 227, 413
+  size: 172, 222
+  orig: 300, 350
+  offset: 60, 70
+  index: -1
+monster_10010_die-00011
+  rotate: false
+  xy: 415, 625
+  size: 171, 227
+  orig: 300, 350
+  offset: 58, 70
+  index: -1
+monster_10010_die-00012
+  rotate: false
+  xy: 399, 388
+  size: 150, 237
+  orig: 300, 350
+  offset: 74, 69
+  index: -1
+monster_10010_die-00013
+  rotate: true
+  xy: 0, 180
+  size: 141, 215
+  orig: 300, 350
+  offset: 74, 69
+  index: -1
+monster_10010_die-00014
+  rotate: false
+  xy: 389, 175
+  size: 142, 213
+  orig: 300, 350
+  offset: 72, 69
+  index: -1
+monster_10010_die-00015
+  rotate: true
+  xy: 0, 41
+  size: 139, 205
+  orig: 300, 350
+  offset: 74, 71
+  index: -1
+monster_10010_die-00016
+  rotate: false
+  xy: 457, 852
+  size: 113, 204
+  orig: 300, 350
+  offset: 99, 74
+  index: -1

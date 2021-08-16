@@ -1,0 +1,90 @@
+
+effect_job_6_soul_stone_reduce_unpack.png
+size: 1158,309
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job_6_soul_stone_reduce-00000
+  rotate: false
+  xy: 905, 27
+  size: 141, 146
+  orig: 390, 390
+  offset: 130, 112
+  index: -1
+effect_job_6_soul_stone_reduce-00001
+  rotate: false
+  xy: 0, 44
+  size: 270, 265
+  orig: 390, 390
+  offset: 61, 55
+  index: -1
+effect_job_6_soul_stone_reduce-00002
+  rotate: false
+  xy: 270, 126
+  size: 194, 183
+  orig: 390, 390
+  offset: 89, 96
+  index: -1
+effect_job_6_soul_stone_reduce-00003
+  rotate: false
+  xy: 464, 157
+  size: 180, 152
+  orig: 390, 390
+  offset: 100, 113
+  index: -1
+effect_job_6_soul_stone_reduce-00004
+  rotate: false
+  xy: 644, 160
+  size: 175, 149
+  orig: 390, 390
+  offset: 105, 113
+  index: -1
+effect_job_6_soul_stone_reduce-00005
+  rotate: false
+  xy: 819, 173
+  size: 169, 136
+  orig: 390, 390
+  offset: 116, 124
+  index: -1
+effect_job_6_soul_stone_reduce-00006
+  rotate: false
+  xy: 988, 174
+  size: 163, 135
+  orig: 390, 390
+  offset: 118, 128
+  index: -1
+effect_job_6_soul_stone_reduce-00007
+  rotate: true
+  xy: 620, 2
+  size: 155, 141
+  orig: 390, 390
+  offset: 125, 130
+  index: -1
+effect_job_6_soul_stone_reduce-00008
+  rotate: true
+  xy: 761, 5
+  size: 155, 144
+  orig: 390, 390
+  offset: 127, 135
+  index: -1
+effect_job_6_soul_stone_reduce-00009
+  rotate: false
+  xy: 464, 6
+  size: 156, 151
+  orig: 390, 390
+  offset: 126, 135
+  index: -1
+effect_job_6_soul_stone_reduce-00010
+  rotate: true
+  xy: 270, 0
+  size: 126, 158
+  orig: 390, 390
+  offset: 128, 136
+  index: -1
+effect_job_6_soul_stone_reduce-00011
+  rotate: false
+  xy: 1046, 33
+  size: 112, 141
+  orig: 390, 390
+  offset: 135, 157
+  index: -1

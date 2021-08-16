@@ -1,0 +1,160 @@
+
+card_zuiewangguan_unpack.png
+size: 1707,610
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_zuiewangguan-00000
+  rotate: false
+  xy: 550, 18
+  size: 275, 291
+  orig: 303, 338
+  offset: 17, 23
+  index: -1
+card_zuiewangguan-00001
+  rotate: false
+  xy: 276, 309
+  size: 274, 301
+  orig: 303, 338
+  offset: 18, 18
+  index: -1
+card_zuiewangguan-00002
+  rotate: false
+  xy: 275, 2
+  size: 275, 304
+  orig: 303, 338
+  offset: 17, 17
+  index: -1
+card_zuiewangguan-00003
+  rotate: false
+  xy: 0, 1
+  size: 275, 305
+  orig: 303, 338
+  offset: 17, 17
+  index: -1
+card_zuiewangguan-00004
+  rotate: false
+  xy: 0, 306
+  size: 276, 304
+  orig: 303, 338
+  offset: 16, 17
+  index: -1
+card_zuiewangguan-00005
+  rotate: false
+  xy: 550, 309
+  size: 269, 301
+  orig: 303, 338
+  offset: 23, 19
+  index: -1
+card_zuiewangguan-00006
+  rotate: false
+  xy: 819, 312
+  size: 234, 298
+  orig: 303, 338
+  offset: 44, 20
+  index: -1
+card_zuiewangguan-00007
+  rotate: false
+  xy: 825, 15
+  size: 196, 297
+  orig: 303, 338
+  offset: 63, 22
+  index: -1
+card_zuiewangguan-00008
+  rotate: false
+  xy: 1021, 20
+  size: 172, 292
+  orig: 303, 338
+  offset: 67, 25
+  index: -1
+card_zuiewangguan-00009
+  rotate: false
+  xy: 1053, 324
+  size: 160, 286
+  orig: 303, 338
+  offset: 73, 29
+  index: -1
+card_zuiewangguan-00010
+  rotate: false
+  xy: 1193, 48
+  size: 146, 276
+  orig: 303, 338
+  offset: 79, 35
+  index: -1
+card_zuiewangguan-00011
+  rotate: false
+  xy: 1213, 349
+  size: 120, 261
+  orig: 303, 338
+  offset: 92, 47
+  index: -1
+card_zuiewangguan-00012
+  rotate: false
+  xy: 1333, 357
+  size: 114, 253
+  orig: 303, 338
+  offset: 92, 50
+  index: -1
+card_zuiewangguan-00013
+  rotate: false
+  xy: 1450, 221
+  size: 113, 191
+  orig: 303, 338
+  offset: 93, 50
+  index: -1
+card_zuiewangguan-00014
+  rotate: false
+  xy: 1447, 412
+  size: 112, 198
+  orig: 303, 338
+  offset: 93, 50
+  index: -1
+card_zuiewangguan-00015
+  rotate: true
+  xy: 1339, 31
+  size: 112, 199
+  orig: 303, 338
+  offset: 93, 51
+  index: -1
+card_zuiewangguan-00016
+  rotate: false
+  xy: 1339, 143
+  size: 111, 214
+  orig: 303, 338
+  offset: 94, 51
+  index: -1
+card_zuiewangguan-00017
+  rotate: true
+  xy: 1559, 499
+  size: 111, 146
+  orig: 303, 338
+  offset: 94, 52
+  index: -1
+card_zuiewangguan-00018
+  rotate: true
+  xy: 1538, 110
+  size: 111, 146
+  orig: 303, 338
+  offset: 94, 52
+  index: -1
+card_zuiewangguan-00019
+  rotate: true
+  xy: 1538, 0
+  size: 110, 145
+  orig: 303, 338
+  offset: 95, 53
+  index: -1
+card_zuiewangguan-00020
+  rotate: true
+  xy: 1563, 390
+  size: 109, 144
+  orig: 303, 338
+  offset: 95, 53
+  index: -1
+card_zuiewangguan-00021
+  rotate: true
+  xy: 1563, 281
+  size: 109, 139
+  orig: 303, 338
+  offset: 95, 58
+  index: -1

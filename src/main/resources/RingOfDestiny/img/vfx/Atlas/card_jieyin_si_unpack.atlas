@@ -1,0 +1,41 @@
+
+card_jieyin_si_unpack.png
+size: 747,239
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_jieyin_si-00000
+  rotate: true
+  xy: 0, 0
+  size: 239, 241
+  orig: 459, 379
+  offset: 117, 70
+  index: -1
+card_jieyin_si-00001
+  rotate: true
+  xy: 241, 12
+  size: 227, 230
+  orig: 459, 379
+  offset: 123, 76
+  index: -1
+card_jieyin_si-00002
+  rotate: true
+  xy: 471, 41
+  size: 198, 199
+  orig: 459, 379
+  offset: 140, 92
+  index: -1
+card_jieyin_si-00003
+  rotate: false
+  xy: 670, 0
+  size: 74, 117
+  orig: 459, 379
+  offset: 198, 146
+  index: -1
+card_jieyin_si-00004
+  rotate: false
+  xy: 670, 117
+  size: 77, 122
+  orig: 459, 379
+  offset: 197, 144
+  index: -1

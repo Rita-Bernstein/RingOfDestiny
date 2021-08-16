@@ -1,0 +1,97 @@
+
+card_jinshu_huihun_402_unpack.png
+size: 1376,210
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_jinshu_huihun_402-00000
+  rotate: false
+  xy: 0, 11
+  size: 111, 28
+  orig: 359, 283
+  offset: 127, 64
+  index: -1
+card_jinshu_huihun_402-00001
+  rotate: false
+  xy: 245, 2
+  size: 198, 54
+  orig: 359, 283
+  offset: 84, 51
+  index: -1
+card_jinshu_huihun_402-00002
+  rotate: false
+  xy: 502, 0
+  size: 222, 74
+  orig: 359, 283
+  offset: 70, 47
+  index: -1
+card_jinshu_huihun_402-00003
+  rotate: false
+  xy: 854, 1
+  size: 230, 89
+  orig: 359, 283
+  offset: 62, 44
+  index: -1
+card_jinshu_huihun_402-00004
+  rotate: false
+  xy: 998, 106
+  size: 240, 104
+  orig: 359, 283
+  offset: 59, 42
+  index: -1
+card_jinshu_huihun_402-00005
+  rotate: false
+  xy: 755, 90
+  size: 243, 120
+  orig: 359, 283
+  offset: 63, 41
+  index: -1
+card_jinshu_huihun_402-00006
+  rotate: false
+  xy: 502, 74
+  size: 253, 136
+  orig: 359, 283
+  offset: 59, 43
+  index: -1
+card_jinshu_huihun_402-00007
+  rotate: false
+  xy: 245, 56
+  size: 257, 154
+  orig: 359, 283
+  offset: 56, 43
+  index: -1
+card_jinshu_huihun_402-00008
+  rotate: false
+  xy: 0, 39
+  size: 245, 171
+  orig: 359, 283
+  offset: 57, 43
+  index: -1
+card_jinshu_huihun_402-00009
+  rotate: false
+  xy: 1234, 15
+  size: 139, 91
+  orig: 359, 283
+  offset: 112, 108
+  index: -1
+card_jinshu_huihun_402-00010
+  rotate: false
+  xy: 1238, 124
+  size: 138, 86
+  orig: 359, 283
+  offset: 118, 130
+  index: -1
+card_jinshu_huihun_402-00011
+  rotate: false
+  xy: 1084, 15
+  size: 150, 91
+  orig: 359, 283
+  offset: 110, 149
+  index: -1
+card_jinshu_huihun_402-00012
+  rotate: false
+  xy: 724, 4
+  size: 130, 70
+  orig: 359, 283
+  offset: 133, 194
+  index: -1

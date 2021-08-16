@@ -1,0 +1,118 @@
+
+card_kaigua_1_unpack.png
+size: 2032,825
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_kaigua_1-00000
+  rotate: false
+  xy: 1743, 461
+  size: 289, 364
+  orig: 430, 430
+  offset: 81, 54
+  index: -1
+card_kaigua_1-00001
+  rotate: false
+  xy: 1177, 86
+  size: 292, 369
+  orig: 430, 430
+  offset: 75, 48
+  index: -1
+card_kaigua_1-00002
+  rotate: false
+  xy: 889, 41
+  size: 288, 371
+  orig: 430, 430
+  offset: 79, 47
+  index: -1
+card_kaigua_1-00003
+  rotate: false
+  xy: 601, 27
+  size: 288, 376
+  orig: 430, 430
+  offset: 79, 42
+  index: -1
+card_kaigua_1-00004
+  rotate: false
+  xy: 920, 455
+  size: 270, 370
+  orig: 430, 430
+  offset: 84, 47
+  index: -1
+card_kaigua_1-00005
+  rotate: false
+  xy: 1190, 456
+  size: 290, 369
+  orig: 430, 430
+  offset: 80, 49
+  index: -1
+card_kaigua_1-00006
+  rotate: false
+  xy: 1469, 89
+  size: 274, 367
+  orig: 430, 430
+  offset: 86, 50
+  index: -1
+card_kaigua_1-00007
+  rotate: false
+  xy: 1480, 505
+  size: 260, 320
+  orig: 430, 430
+  offset: 92, 53
+  index: -1
+card_kaigua_1-00008
+  rotate: true
+  xy: 285, 2
+  size: 399, 316
+  orig: 430, 430
+  offset: 16, 50
+  index: -1
+card_kaigua_1-00009
+  rotate: true
+  xy: 0, 401
+  size: 424, 321
+  orig: 430, 430
+  offset: 6, 50
+  index: -1
+card_kaigua_1-00010
+  rotate: true
+  xy: 321, 403
+  size: 422, 309
+  orig: 430, 430
+  offset: 7, 58
+  index: -1
+card_kaigua_1-00011
+  rotate: true
+  xy: 630, 412
+  size: 413, 290
+  orig: 430, 430
+  offset: 12, 64
+  index: -1
+card_kaigua_1-00012
+  rotate: true
+  xy: 0, 0
+  size: 401, 285
+  orig: 430, 430
+  offset: 16, 69
+  index: -1
+card_kaigua_1-00013
+  rotate: true
+  xy: 1743, 114
+  size: 347, 270
+  orig: 430, 430
+  offset: 39, 76
+  index: -1
+card_kaigua_1-00014
+  rotate: true
+  xy: 1177, 35
+  size: 51, 167
+  orig: 430, 430
+  offset: 212, 156
+  index: -1
+card_kaigua_1-00015
+  rotate: true
+  xy: 601, 4
+  size: 23, 17
+  orig: 430, 430
+  offset: 238, 315
+  index: -1

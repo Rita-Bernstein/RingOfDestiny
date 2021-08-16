@@ -266,10 +266,10 @@ public class RingOfDestiny
             MusicTipLib.addMusicName("RingOfDestiny/audio/music/mainbg.ogg","主界面",true);
         };
 
-        CustomDungeon.addAct(CustomDungeon.EXORDIUM, new IdeologyCorridor());
-        CustomDungeon.addAct(CustomDungeon.THECITY, new KnowledgeHall());
-        CustomDungeon.addAct(CustomDungeon.THEBEYOND, new WisdomThrone());
-        CustomDungeon.addAct(CustomDungeon.THEENDING, new BlackNoah());
+//        CustomDungeon.addAct(CustomDungeon.EXORDIUM, new IdeologyCorridor());
+//        CustomDungeon.addAct(CustomDungeon.THECITY, new KnowledgeHall());
+//        CustomDungeon.addAct(CustomDungeon.THEBEYOND, new WisdomThrone());
+//        CustomDungeon.addAct(CustomDungeon.THEENDING, new BlackNoah());
 
 //        BaseMod.addEvent(FruitStall.ID, FruitStall.class, "");
 //        BaseMod.addEvent(FruitStall.ID, FruitStall.class, TheCity.ID);

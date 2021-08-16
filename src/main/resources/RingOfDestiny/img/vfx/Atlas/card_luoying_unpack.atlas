@@ -1,0 +1,97 @@
+
+card_luoying_unpack.png
+size: 945,292
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_luoying-00000
+  rotate: false
+  xy: 247, 8
+  size: 120, 284
+  orig: 328, 405
+  offset: 106, 67
+  index: -1
+card_luoying-00001
+  rotate: false
+  xy: 0, 0
+  size: 125, 292
+  orig: 328, 405
+  offset: 105, 61
+  index: -1
+card_luoying-00002
+  rotate: false
+  xy: 125, 6
+  size: 122, 286
+  orig: 328, 405
+  offset: 106, 63
+  index: -1
+card_luoying-00003
+  rotate: false
+  xy: 367, 13
+  size: 112, 279
+  orig: 328, 405
+  offset: 110, 69
+  index: -1
+card_luoying-00004
+  rotate: false
+  xy: 581, 18
+  size: 100, 274
+  orig: 328, 405
+  offset: 119, 67
+  index: -1
+card_luoying-00005
+  rotate: false
+  xy: 479, 20
+  size: 102, 272
+  orig: 328, 405
+  offset: 118, 65
+  index: -1
+card_luoying-00006
+  rotate: true
+  xy: 681, 188
+  size: 104, 260
+  orig: 328, 405
+  offset: 117, 71
+  index: -1
+card_luoying-00007
+  rotate: true
+  xy: 759, 111
+  size: 77, 186
+  orig: 328, 405
+  offset: 139, 89
+  index: -1
+card_luoying-00008
+  rotate: false
+  xy: 681, 4
+  size: 78, 184
+  orig: 328, 405
+  offset: 140, 84
+  index: -1
+card_luoying-00009
+  rotate: true
+  xy: 759, 34
+  size: 77, 137
+  orig: 328, 405
+  offset: 141, 121
+  index: -1
+card_luoying-00010
+  rotate: false
+  xy: 896, 54
+  size: 42, 57
+  orig: 328, 405
+  offset: 176, 152
+  index: -1
+card_luoying-00011
+  rotate: false
+  xy: 896, 1
+  size: 37, 53
+  orig: 328, 405
+  offset: 180, 147
+  index: -1
+card_luoying-00012
+  rotate: true
+  xy: 759, 0
+  size: 34, 50
+  orig: 328, 405
+  offset: 182, 141
+  index: -1

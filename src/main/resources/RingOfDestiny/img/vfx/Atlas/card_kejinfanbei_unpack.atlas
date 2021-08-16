@@ -1,0 +1,97 @@
+
+card_kejinfanbei_unpack.png
+size: 431,513
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_kejinfanbei-00000
+  rotate: true
+  xy: 180, 97
+  size: 217, 163
+  orig: 302, 274
+  offset: 53, 64
+  index: -1
+card_kejinfanbei-00001
+  rotate: true
+  xy: 0, 314
+  size: 199, 183
+  orig: 302, 274
+  offset: 59, 52
+  index: -1
+card_kejinfanbei-00002
+  rotate: true
+  xy: 0, 147
+  size: 167, 180
+  orig: 302, 274
+  offset: 75, 49
+  index: -1
+card_kejinfanbei-00003
+  rotate: false
+  xy: 0, 0
+  size: 157, 147
+  orig: 302, 274
+  offset: 75, 56
+  index: -1
+card_kejinfanbei-00004
+  rotate: false
+  xy: 183, 389
+  size: 126, 124
+  orig: 302, 274
+  offset: 87, 68
+  index: -1
+card_kejinfanbei-00005
+  rotate: false
+  xy: 157, 0
+  size: 111, 97
+  orig: 302, 274
+  offset: 96, 82
+  index: -1
+card_kejinfanbei-00006
+  rotate: true
+  xy: 183, 314
+  size: 75, 84
+  orig: 302, 274
+  offset: 110, 86
+  index: -1
+card_kejinfanbei-00007
+  rotate: false
+  xy: 309, 377
+  size: 119, 136
+  orig: 302, 274
+  offset: 88, 58
+  index: -1
+card_kejinfanbei-00008
+  rotate: false
+  xy: 343, 287
+  size: 88, 90
+  orig: 302, 274
+  offset: 103, 85
+  index: -1
+card_kejinfanbei-00009
+  rotate: true
+  xy: 268, 5
+  size: 92, 95
+  orig: 302, 274
+  offset: 101, 82
+  index: -1
+card_kejinfanbei-00010
+  rotate: false
+  xy: 343, 196
+  size: 87, 91
+  orig: 302, 274
+  offset: 103, 84
+  index: -1
+card_kejinfanbei-00011
+  rotate: false
+  xy: 343, 159
+  size: 78, 37
+  orig: 302, 274
+  offset: 109, 111
+  index: -1
+card_kejinfanbei-00012
+  rotate: false
+  xy: 343, 124
+  size: 78, 35
+  orig: 302, 274
+  offset: 108, 112
+  index: -1

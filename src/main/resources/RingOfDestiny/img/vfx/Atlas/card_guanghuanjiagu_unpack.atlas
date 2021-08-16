@@ -1,0 +1,118 @@
+
+card_guanghuanjiagu_unpack.png
+size: 1999,589
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_guanghuanjiagu-00000
+  rotate: true
+  xy: 540, 0
+  size: 272, 154
+  orig: 343, 336
+  offset: 39, 182
+  index: -1
+card_guanghuanjiagu-00001
+  rotate: false
+  xy: 1632, 229
+  size: 332, 155
+  orig: 343, 336
+  offset: 6, 181
+  index: -1
+card_guanghuanjiagu-00002
+  rotate: false
+  xy: 898, 111
+  size: 329, 161
+  orig: 343, 336
+  offset: 10, 175
+  index: -1
+card_guanghuanjiagu-00003
+  rotate: false
+  xy: 1632, 384
+  size: 333, 205
+  orig: 343, 336
+  offset: 5, 131
+  index: -1
+card_guanghuanjiagu-00004
+  rotate: false
+  xy: 0, 272
+  size: 333, 317
+  orig: 343, 336
+  offset: 5, 19
+  index: -1
+card_guanghuanjiagu-00005
+  rotate: false
+  xy: 333, 272
+  size: 333, 317
+  orig: 343, 336
+  offset: 5, 19
+  index: -1
+card_guanghuanjiagu-00006
+  rotate: false
+  xy: 1000, 272
+  size: 329, 317
+  orig: 343, 336
+  offset: 9, 19
+  index: -1
+card_guanghuanjiagu-00007
+  rotate: false
+  xy: 666, 273
+  size: 334, 316
+  orig: 343, 336
+  offset: 9, 20
+  index: -1
+card_guanghuanjiagu-00008
+  rotate: false
+  xy: 1329, 273
+  size: 303, 316
+  orig: 343, 336
+  offset: 22, 20
+  index: -1
+card_guanghuanjiagu-00009
+  rotate: false
+  xy: 0, 2
+  size: 285, 270
+  orig: 343, 336
+  offset: 31, 23
+  index: -1
+card_guanghuanjiagu-00010
+  rotate: false
+  xy: 285, 13
+  size: 255, 259
+  orig: 343, 336
+  offset: 46, 28
+  index: -1
+card_guanghuanjiagu-00011
+  rotate: false
+  xy: 694, 31
+  size: 204, 242
+  orig: 343, 336
+  offset: 73, 37
+  index: -1
+card_guanghuanjiagu-00012
+  rotate: false
+  xy: 1227, 61
+  size: 197, 211
+  orig: 343, 336
+  offset: 77, 57
+  index: -1
+card_guanghuanjiagu-00013
+  rotate: false
+  xy: 1424, 64
+  size: 195, 209
+  orig: 343, 336
+  offset: 77, 54
+  index: -1
+card_guanghuanjiagu-00014
+  rotate: true
+  xy: 1619, 40
+  size: 189, 194
+  orig: 343, 336
+  offset: 80, 64
+  index: -1
+card_guanghuanjiagu-00015
+  rotate: false
+  xy: 1813, 36
+  size: 186, 193
+  orig: 343, 336
+  offset: 81, 60
+  index: -1

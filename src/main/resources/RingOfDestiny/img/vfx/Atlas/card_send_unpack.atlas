@@ -1,0 +1,174 @@
+
+card_send_unpack.png
+size: 1920,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_send-00000
+  rotate: true
+  xy: 0, 780
+  size: 252, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00001
+  rotate: true
+  xy: 318, 780
+  size: 252, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00002
+  rotate: true
+  xy: 954, 527
+  size: 253, 318
+  orig: 300, 400
+  offset: 21, 41
+  index: -1
+card_send-00003
+  rotate: true
+  xy: 636, 780
+  size: 252, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00004
+  rotate: true
+  xy: 954, 780
+  size: 252, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00005
+  rotate: true
+  xy: 1272, 780
+  size: 252, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00006
+  rotate: true
+  xy: 636, 272
+  size: 256, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00007
+  rotate: true
+  xy: 1590, 780
+  size: 252, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00008
+  rotate: true
+  xy: 0, 528
+  size: 252, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00009
+  rotate: true
+  xy: 1272, 527
+  size: 253, 318
+  orig: 300, 400
+  offset: 21, 41
+  index: -1
+card_send-00010
+  rotate: true
+  xy: 318, 528
+  size: 252, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00011
+  rotate: true
+  xy: 636, 528
+  size: 252, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00012
+  rotate: true
+  xy: 1590, 527
+  size: 253, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00013
+  rotate: true
+  xy: 0, 273
+  size: 255, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00014
+  rotate: true
+  xy: 318, 273
+  size: 255, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00015
+  rotate: true
+  xy: 954, 270
+  size: 257, 318
+  orig: 300, 400
+  offset: 21, 41
+  index: -1
+card_send-00016
+  rotate: true
+  xy: 1272, 269
+  size: 258, 321
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00017
+  rotate: true
+  xy: 1593, 268
+  size: 259, 324
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00018
+  rotate: true
+  xy: 0, 13
+  size: 260, 327
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00019
+  rotate: true
+  xy: 327, 11
+  size: 261, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00020
+  rotate: true
+  xy: 645, 7
+  size: 263, 321
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00021
+  rotate: true
+  xy: 966, 4
+  size: 265, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1
+card_send-00022
+  rotate: true
+  xy: 1284, 1
+  size: 267, 318
+  orig: 300, 400
+  offset: 21, 41
+  index: -1
+card_send-00023
+  rotate: true
+  xy: 1602, 0
+  size: 268, 318
+  orig: 300, 400
+  offset: 22, 41
+  index: -1

@@ -1,0 +1,125 @@
+
+effect_summon_clean_unpack.png
+size: 2031,590
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_summon_clean-00000
+  rotate: true
+  xy: 1743, 54
+  size: 111, 106
+  orig: 500, 500
+  offset: 198, 193
+  index: -1
+effect_summon_clean-00001
+  rotate: true
+  xy: 1569, 172
+  size: 132, 143
+  orig: 500, 500
+  offset: 189, 172
+  index: -1
+effect_summon_clean-00002
+  rotate: true
+  xy: 1569, 2
+  size: 163, 174
+  orig: 500, 500
+  offset: 174, 154
+  index: -1
+effect_summon_clean-00003
+  rotate: true
+  xy: 1809, 165
+  size: 195, 206
+  orig: 500, 500
+  offset: 158, 137
+  index: -1
+effect_summon_clean-00004
+  rotate: false
+  xy: 1809, 360
+  size: 222, 230
+  orig: 500, 500
+  offset: 145, 125
+  index: -1
+effect_summon_clean-00005
+  rotate: false
+  xy: 818, 27
+  size: 239, 248
+  orig: 500, 500
+  offset: 140, 116
+  index: -1
+effect_summon_clean-00006
+  rotate: false
+  xy: 288, 8
+  size: 256, 264
+  orig: 500, 500
+  offset: 132, 108
+  index: -1
+effect_summon_clean-00007
+  rotate: false
+  xy: 544, 0
+  size: 274, 274
+  orig: 500, 500
+  offset: 123, 106
+  index: -1
+effect_summon_clean-00008
+  rotate: true
+  xy: 1532, 304
+  size: 286, 277
+  orig: 500, 500
+  offset: 117, 107
+  index: -1
+effect_summon_clean-00009
+  rotate: false
+  xy: 940, 281
+  size: 298, 309
+  orig: 500, 500
+  offset: 110, 104
+  index: -1
+effect_summon_clean-00010
+  rotate: false
+  xy: 630, 275
+  size: 310, 315
+  orig: 500, 500
+  offset: 104, 99
+  index: -1
+effect_summon_clean-00011
+  rotate: false
+  xy: 0, 272
+  size: 318, 318
+  orig: 500, 500
+  offset: 100, 96
+  index: -1
+effect_summon_clean-00012
+  rotate: false
+  xy: 318, 274
+  size: 312, 316
+  orig: 500, 500
+  offset: 106, 96
+  index: -1
+effect_summon_clean-00013
+  rotate: true
+  xy: 1238, 292
+  size: 298, 294
+  orig: 500, 500
+  offset: 117, 97
+  index: -1
+effect_summon_clean-00014
+  rotate: false
+  xy: 1057, 3
+  size: 291, 278
+  orig: 500, 500
+  offset: 116, 110
+  index: -1
+effect_summon_clean-00015
+  rotate: false
+  xy: 0, 7
+  size: 288, 265
+  orig: 500, 500
+  offset: 114, 126
+  index: -1
+effect_summon_clean-00016
+  rotate: true
+  xy: 1348, 1
+  size: 291, 221
+  orig: 500, 500
+  offset: 111, 165
+  index: -1

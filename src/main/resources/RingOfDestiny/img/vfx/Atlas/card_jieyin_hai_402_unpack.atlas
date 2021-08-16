@@ -1,0 +1,48 @@
+
+card_jieyin_hai_402_unpack.png
+size: 630,435
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_jieyin_hai_402-00000
+  rotate: true
+  xy: 0, 196
+  size: 239, 241
+  orig: 459, 379
+  offset: 117, 70
+  index: -1
+card_jieyin_hai_402-00001
+  rotate: true
+  xy: 241, 208
+  size: 227, 230
+  orig: 459, 379
+  offset: 123, 76
+  index: -1
+card_jieyin_hai_402-00002
+  rotate: false
+  xy: 241, 0
+  size: 209, 208
+  orig: 459, 379
+  offset: 131, 84
+  index: -1
+card_jieyin_hai_402-00003
+  rotate: false
+  xy: 0, 11
+  size: 186, 185
+  orig: 459, 379
+  offset: 141, 95
+  index: -1
+card_jieyin_hai_402-00004
+  rotate: false
+  xy: 450, 37
+  size: 171, 171
+  orig: 459, 379
+  offset: 150, 102
+  index: -1
+card_jieyin_hai_402-00005
+  rotate: false
+  xy: 471, 275
+  size: 159, 160
+  orig: 459, 379
+  offset: 156, 107
+  index: -1

@@ -1,0 +1,125 @@
+
+card_xuepin_unpack.png
+size: 2012,502
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_xuepin-00000
+  rotate: true
+  xy: 1790, 3
+  size: 141, 149
+  orig: 400, 400
+  offset: 119, 133
+  index: -1
+card_xuepin-00001
+  rotate: true
+  xy: 1790, 144
+  size: 166, 191
+  orig: 400, 400
+  offset: 111, 98
+  index: -1
+card_xuepin-000010
+  rotate: false
+  xy: 518, 231
+  size: 266, 271
+  orig: 400, 400
+  offset: 45, 76
+  index: -1
+card_xuepin-00002
+  rotate: false
+  xy: 1537, 295
+  size: 179, 207
+  orig: 400, 400
+  offset: 103, 89
+  index: -1
+card_xuepin-00003
+  rotate: true
+  xy: 1790, 310
+  size: 192, 222
+  orig: 400, 400
+  offset: 96, 81
+  index: -1
+card_xuepin-00004
+  rotate: true
+  xy: 256, 10
+  size: 201, 236
+  orig: 400, 400
+  offset: 88, 75
+  index: -1
+card_xuepin-00005
+  rotate: false
+  xy: 1323, 261
+  size: 214, 241
+  orig: 400, 400
+  offset: 81, 75
+  index: -1
+card_xuepin-00006
+  rotate: true
+  xy: 492, 5
+  size: 216, 248
+  orig: 400, 400
+  offset: 73, 73
+  index: -1
+card_xuepin-00007
+  rotate: true
+  xy: 740, 2
+  size: 229, 252
+  orig: 400, 400
+  offset: 66, 73
+  index: -1
+card_xuepin-00008
+  rotate: true
+  xy: 1066, 259
+  size: 243, 257
+  orig: 400, 400
+  offset: 58, 75
+  index: -1
+card_xuepin-00009
+  rotate: true
+  xy: 1522, 6
+  size: 255, 268
+  orig: 400, 400
+  offset: 51, 71
+  index: -1
+card_xuepin-00011
+  rotate: true
+  xy: 784, 251
+  size: 251, 282
+  orig: 400, 400
+  offset: 68, 71
+  index: -1
+card_xuepin-00012
+  rotate: false
+  xy: 0, 211
+  size: 261, 291
+  orig: 400, 400
+  offset: 64, 68
+  index: -1
+card_xuepin-00013
+  rotate: false
+  xy: 261, 221
+  size: 257, 281
+  orig: 400, 400
+  offset: 73, 84
+  index: -1
+card_xuepin-00014
+  rotate: false
+  xy: 1257, 0
+  size: 265, 259
+  orig: 400, 400
+  offset: 70, 77
+  index: -1
+card_xuepin-00015
+  rotate: true
+  xy: 992, 5
+  size: 246, 265
+  orig: 400, 400
+  offset: 96, 72
+  index: -1
+card_xuepin-00016
+  rotate: false
+  xy: 0, 8
+  size: 256, 203
+  orig: 400, 400
+  offset: 93, 92
+  index: -1

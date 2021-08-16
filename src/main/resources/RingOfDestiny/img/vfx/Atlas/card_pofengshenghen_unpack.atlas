@@ -1,0 +1,41 @@
+
+card_pofengshenghen_unpack.png
+size: 1686,480
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_pofengshenghen-00000
+  rotate: true
+  xy: 1011, 25
+  size: 455, 338
+  orig: 480, 350
+  offset: 25, 10
+  index: -1
+card_pofengshenghen-00001
+  rotate: true
+  xy: 1349, 49
+  size: 431, 337
+  orig: 480, 350
+  offset: 49, 10
+  index: -1
+card_pofengshenghen-00002
+  rotate: true
+  xy: 674, 20
+  size: 460, 337
+  orig: 480, 350
+  offset: 20, 9
+  index: -1
+card_pofengshenghen-00003
+  rotate: true
+  xy: 0, 0
+  size: 480, 339
+  orig: 480, 350
+  offset: 0, 9
+  index: -1
+card_pofengshenghen-00004
+  rotate: true
+  xy: 339, 2
+  size: 478, 335
+  orig: 480, 350
+  offset: 2, 10
+  index: -1

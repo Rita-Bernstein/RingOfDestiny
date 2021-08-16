@@ -1,0 +1,125 @@
+
+effect_job_6_energy_ball_unpack.png
+size: 1583,347
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job_6_energy_ball-00000
+  rotate: false
+  xy: 1415, 17
+  size: 168, 174
+  orig: 390, 390
+  offset: 117, 99
+  index: -1
+effect_job_6_energy_ball-00001
+  rotate: false
+  xy: 1251, 10
+  size: 164, 179
+  orig: 390, 390
+  offset: 116, 100
+  index: -1
+effect_job_6_energy_ball-00002
+  rotate: true
+  xy: 1264, 191
+  size: 156, 183
+  orig: 390, 390
+  offset: 117, 100
+  index: -1
+effect_job_6_energy_ball-00003
+  rotate: true
+  xy: 0, 0
+  size: 158, 183
+  orig: 390, 390
+  offset: 115, 101
+  index: -1
+effect_job_6_energy_ball-00004
+  rotate: true
+  xy: 1083, 189
+  size: 158, 181
+  orig: 390, 390
+  offset: 116, 102
+  index: -1
+effect_job_6_energy_ball-00005
+  rotate: true
+  xy: 183, 1
+  size: 160, 182
+  orig: 390, 390
+  offset: 116, 101
+  index: -1
+effect_job_6_energy_ball-00006
+  rotate: true
+  xy: 900, 185
+  size: 162, 183
+  orig: 390, 390
+  offset: 114, 101
+  index: -1
+effect_job_6_energy_ball-00007
+  rotate: true
+  xy: 725, 15
+  size: 164, 183
+  orig: 390, 390
+  offset: 113, 102
+  index: -1
+effect_job_6_energy_ball-00008
+  rotate: true
+  xy: 720, 179
+  size: 168, 180
+  orig: 390, 390
+  offset: 110, 103
+  index: -1
+effect_job_6_energy_ball-00009
+  rotate: true
+  xy: 548, 1
+  size: 172, 177
+  orig: 390, 390
+  offset: 110, 103
+  index: -1
+effect_job_6_energy_ball-00010
+  rotate: false
+  xy: 1081, 12
+  size: 170, 173
+  orig: 390, 390
+  offset: 111, 103
+  index: -1
+effect_job_6_energy_ball-00011
+  rotate: false
+  xy: 908, 12
+  size: 173, 173
+  orig: 390, 390
+  offset: 110, 104
+  index: -1
+effect_job_6_energy_ball-00012
+  rotate: true
+  xy: 541, 173
+  size: 174, 179
+  orig: 390, 390
+  offset: 109, 101
+  index: -1
+effect_job_6_energy_ball-00013
+  rotate: false
+  xy: 176, 161
+  size: 177, 186
+  orig: 390, 390
+  offset: 108, 96
+  index: -1
+effect_job_6_energy_ball-00014
+  rotate: false
+  xy: 0, 158
+  size: 176, 189
+  orig: 390, 390
+  offset: 111, 94
+  index: -1
+effect_job_6_energy_ball-00015
+  rotate: true
+  xy: 353, 172
+  size: 175, 188
+  orig: 390, 390
+  offset: 114, 95
+  index: -1
+effect_job_6_energy_ball-00016
+  rotate: true
+  xy: 365, 0
+  size: 172, 183
+  orig: 390, 390
+  offset: 116, 97
+  index: -1

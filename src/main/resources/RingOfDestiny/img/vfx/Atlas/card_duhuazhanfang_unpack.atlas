@@ -1,0 +1,146 @@
+
+card_duhuazhanfang_unpack.png
+size: 1885,676
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_duhuazhanfang-00000
+  rotate: true
+  xy: 1787, 485
+  size: 191, 98
+  orig: 500, 368
+  offset: 158, 126
+  index: -1
+card_duhuazhanfang-00001
+  rotate: true
+  xy: 365, 5
+  size: 250, 115
+  orig: 500, 368
+  offset: 130, 112
+  index: -1
+card_duhuazhanfang-00002
+  rotate: true
+  xy: 480, 1
+  size: 291, 192
+  orig: 500, 368
+  offset: 107, 82
+  index: -1
+card_duhuazhanfang-00003
+  rotate: true
+  xy: 1415, 342
+  size: 334, 191
+  orig: 500, 368
+  offset: 86, 82
+  index: -1
+card_duhuazhanfang-00004
+  rotate: true
+  xy: 604, 292
+  size: 384, 191
+  orig: 500, 368
+  offset: 60, 82
+  index: -1
+card_duhuazhanfang-00005
+  rotate: true
+  xy: 199, 255
+  size: 421, 194
+  orig: 500, 368
+  offset: 42, 73
+  index: -1
+card_duhuazhanfang-00006
+  rotate: true
+  xy: 0, 229
+  size: 447, 199
+  orig: 500, 368
+  offset: 29, 65
+  index: -1
+card_duhuazhanfang-00007
+  rotate: true
+  xy: 795, 294
+  size: 382, 200
+  orig: 500, 368
+  offset: 57, 65
+  index: -1
+card_duhuazhanfang-00008
+  rotate: true
+  xy: 995, 296
+  size: 380, 205
+  orig: 500, 368
+  offset: 55, 65
+  index: -1
+card_duhuazhanfang-00009
+  rotate: true
+  xy: 393, 292
+  size: 384, 211
+  orig: 500, 368
+  offset: 52, 63
+  index: -1
+card_duhuazhanfang-00010
+  rotate: true
+  xy: 1200, 306
+  size: 370, 215
+  orig: 500, 368
+  offset: 53, 63
+  index: -1
+card_duhuazhanfang-00011
+  rotate: false
+  xy: 0, 11
+  size: 365, 218
+  orig: 500, 368
+  offset: 53, 64
+  index: -1
+card_duhuazhanfang-00012
+  rotate: true
+  xy: 864, 6
+  size: 288, 194
+  orig: 500, 368
+  offset: 99, 91
+  index: -1
+card_duhuazhanfang-00013
+  rotate: true
+  xy: 672, 1
+  size: 291, 192
+  orig: 500, 368
+  offset: 95, 95
+  index: -1
+card_duhuazhanfang-00014
+  rotate: true
+  xy: 1393, 9
+  size: 297, 191
+  orig: 500, 368
+  offset: 96, 96
+  index: -1
+card_duhuazhanfang-00015
+  rotate: true
+  xy: 1211, 0
+  size: 306, 182
+  orig: 500, 368
+  offset: 95, 97
+  index: -1
+card_duhuazhanfang-00016
+  rotate: true
+  xy: 1606, 355
+  size: 321, 181
+  orig: 500, 368
+  offset: 86, 96
+  index: -1
+card_duhuazhanfang-00017
+  rotate: true
+  xy: 1584, 18
+  size: 324, 168
+  orig: 500, 368
+  offset: 83, 91
+  index: -1
+card_duhuazhanfang-00018
+  rotate: true
+  xy: 1058, 47
+  size: 249, 153
+  orig: 500, 368
+  offset: 124, 85
+  index: -1
+card_duhuazhanfang-00019
+  rotate: true
+  xy: 1752, 121
+  size: 234, 104
+  orig: 500, 368
+  offset: 137, 125
+  index: -1

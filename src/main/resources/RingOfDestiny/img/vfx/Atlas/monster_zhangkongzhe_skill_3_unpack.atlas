@@ -1,0 +1,167 @@
+
+monster_zhangkongzhe_skill_3_unpack.png
+size: 329,1058
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_zhangkongzhe_skill_3-00000
+  rotate: true
+  xy: 0, 107
+  size: 92, 107
+  orig: 250, 250
+  offset: 79, 72
+  index: -1
+monster_zhangkongzhe_skill_3-00001
+  rotate: true
+  xy: 0, 856
+  size: 202, 204
+  orig: 250, 250
+  offset: 25, 22
+  index: -1
+monster_zhangkongzhe_skill_3-00002
+  rotate: false
+  xy: 0, 665
+  size: 192, 191
+  orig: 250, 250
+  offset: 30, 29
+  index: -1
+monster_zhangkongzhe_skill_3-00003
+  rotate: false
+  xy: 0, 491
+  size: 174, 174
+  orig: 250, 250
+  offset: 39, 37
+  index: -1
+monster_zhangkongzhe_skill_3-00004
+  rotate: false
+  xy: 174, 473
+  size: 150, 150
+  orig: 250, 250
+  offset: 51, 49
+  index: -1
+monster_zhangkongzhe_skill_3-00005
+  rotate: true
+  xy: 192, 724
+  size: 127, 128
+  orig: 250, 250
+  offset: 61, 58
+  index: -1
+monster_zhangkongzhe_skill_3-00006
+  rotate: false
+  xy: 119, 364
+  size: 112, 109
+  orig: 250, 250
+  offset: 65, 71
+  index: -1
+monster_zhangkongzhe_skill_3-00007
+  rotate: true
+  xy: 221, 265
+  size: 97, 108
+  orig: 250, 250
+  offset: 77, 70
+  index: -1
+monster_zhangkongzhe_skill_3-00008
+  rotate: true
+  xy: 111, 267
+  size: 97, 110
+  orig: 250, 250
+  offset: 77, 69
+  index: -1
+monster_zhangkongzhe_skill_3-00009
+  rotate: false
+  xy: 231, 362
+  size: 98, 111
+  orig: 250, 250
+  offset: 77, 69
+  index: -1
+monster_zhangkongzhe_skill_3-00010
+  rotate: true
+  xy: 0, 296
+  size: 98, 111
+  orig: 250, 250
+  offset: 77, 69
+  index: -1
+monster_zhangkongzhe_skill_3-00011
+  rotate: true
+  xy: 0, 199
+  size: 97, 110
+  orig: 250, 250
+  offset: 78, 69
+  index: -1
+monster_zhangkongzhe_skill_3-00012
+  rotate: true
+  xy: 110, 170
+  size: 97, 110
+  orig: 250, 250
+  offset: 79, 69
+  index: -1
+monster_zhangkongzhe_skill_3-00013
+  rotate: true
+  xy: 220, 170
+  size: 95, 108
+  orig: 250, 250
+  offset: 80, 71
+  index: -1
+monster_zhangkongzhe_skill_3-00014
+  rotate: false
+  xy: 0, 0
+  size: 92, 107
+  orig: 250, 250
+  offset: 81, 71
+  index: -1
+monster_zhangkongzhe_skill_3-00015
+  rotate: true
+  xy: 204, 954
+  size: 104, 122
+  orig: 250, 250
+  offset: 74, 54
+  index: -1
+monster_zhangkongzhe_skill_3-00016
+  rotate: true
+  xy: 204, 851
+  size: 103, 120
+  orig: 250, 250
+  offset: 75, 55
+  index: -1
+monster_zhangkongzhe_skill_3-00017
+  rotate: true
+  xy: 192, 623
+  size: 101, 119
+  orig: 250, 250
+  offset: 76, 58
+  index: -1
+monster_zhangkongzhe_skill_3-00018
+  rotate: true
+  xy: 0, 394
+  size: 97, 119
+  orig: 250, 250
+  offset: 77, 57
+  index: -1
+monster_zhangkongzhe_skill_3-00019
+  rotate: false
+  xy: 92, 0
+  size: 92, 107
+  orig: 250, 250
+  offset: 77, 72
+  index: -1
+monster_zhangkongzhe_skill_3-00020
+  rotate: true
+  xy: 184, 87
+  size: 83, 102
+  orig: 250, 250
+  offset: 78, 76
+  index: -1
+monster_zhangkongzhe_skill_3-00021
+  rotate: false
+  xy: 184, 2
+  size: 75, 85
+  orig: 250, 250
+  offset: 80, 89
+  index: -1
+monster_zhangkongzhe_skill_3-00022
+  rotate: false
+  xy: 259, 16
+  size: 68, 71
+  orig: 250, 250
+  offset: 81, 97
+  index: -1

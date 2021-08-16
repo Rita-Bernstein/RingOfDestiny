@@ -1,0 +1,174 @@
+
+card_spring_fa_unpack.png
+size: 1898,736
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_spring_fa-00000
+  rotate: false
+  xy: 234, 43
+  size: 176, 184
+  orig: 400, 400
+  offset: 113, 116
+  index: -1
+card_spring_fa-00001
+  rotate: true
+  xy: 0, 1
+  size: 226, 234
+  orig: 400, 400
+  offset: 90, 89
+  index: -1
+card_spring_fa-00002
+  rotate: false
+  xy: 1612, 0
+  size: 231, 245
+  orig: 400, 400
+  offset: 86, 83
+  index: -1
+card_spring_fa-00003
+  rotate: false
+  xy: 1191, 489
+  size: 234, 247
+  orig: 400, 400
+  offset: 85, 82
+  index: -1
+card_spring_fa-00004
+  rotate: false
+  xy: 956, 488
+  size: 235, 248
+  orig: 400, 400
+  offset: 84, 81
+  index: -1
+card_spring_fa-00005
+  rotate: false
+  xy: 1200, 242
+  size: 234, 247
+  orig: 400, 400
+  offset: 85, 82
+  index: -1
+card_spring_fa-00006
+  rotate: false
+  xy: 1425, 490
+  size: 232, 246
+  orig: 400, 400
+  offset: 86, 82
+  index: -1
+card_spring_fa-00007
+  rotate: false
+  xy: 1434, 245
+  size: 232, 245
+  orig: 400, 400
+  offset: 86, 83
+  index: -1
+card_spring_fa-00008
+  rotate: true
+  xy: 410, 0
+  size: 233, 247
+  orig: 400, 400
+  offset: 85, 82
+  index: -1
+card_spring_fa-00009
+  rotate: false
+  xy: 721, 487
+  size: 235, 249
+  orig: 400, 400
+  offset: 85, 82
+  index: -1
+card_spring_fa-00010
+  rotate: false
+  xy: 720, 236
+  size: 237, 250
+  orig: 400, 400
+  offset: 85, 82
+  index: -1
+card_spring_fa-00011
+  rotate: false
+  xy: 480, 233
+  size: 240, 251
+  orig: 400, 400
+  offset: 85, 82
+  index: -1
+card_spring_fa-00012
+  rotate: false
+  xy: 481, 486
+  size: 240, 250
+  orig: 400, 400
+  offset: 86, 83
+  index: -1
+card_spring_fa-00013
+  rotate: false
+  xy: 239, 233
+  size: 241, 251
+  orig: 400, 400
+  offset: 85, 82
+  index: -1
+card_spring_fa-00014
+  rotate: false
+  xy: 0, 227
+  size: 239, 254
+  orig: 400, 400
+  offset: 86, 81
+  index: -1
+card_spring_fa-00015
+  rotate: false
+  xy: 0, 481
+  size: 236, 255
+  orig: 400, 400
+  offset: 86, 82
+  index: -1
+card_spring_fa-00016
+  rotate: true
+  xy: 891, 0
+  size: 236, 250
+  orig: 400, 400
+  offset: 86, 85
+  index: -1
+card_spring_fa-00017
+  rotate: false
+  xy: 1378, 0
+  size: 234, 242
+  orig: 400, 400
+  offset: 87, 88
+  index: -1
+card_spring_fa-00018
+  rotate: false
+  xy: 1657, 496
+  size: 235, 240
+  orig: 400, 400
+  offset: 85, 89
+  index: -1
+card_spring_fa-00019
+  rotate: true
+  xy: 657, 0
+  size: 233, 234
+  orig: 400, 400
+  offset: 85, 94
+  index: -1
+card_spring_fa-00020
+  rotate: true
+  xy: 1666, 259
+  size: 237, 232
+  orig: 400, 400
+  offset: 81, 96
+  index: -1
+card_spring_fa-00021
+  rotate: true
+  xy: 1141, 0
+  size: 241, 237
+  orig: 400, 400
+  offset: 78, 95
+  index: -1
+card_spring_fa-00022
+  rotate: true
+  xy: 957, 241
+  size: 247, 243
+  orig: 400, 400
+  offset: 75, 93
+  index: -1
+card_spring_fa-00023
+  rotate: true
+  xy: 236, 484
+  size: 252, 245
+  orig: 400, 400
+  offset: 70, 97
+  index: -1

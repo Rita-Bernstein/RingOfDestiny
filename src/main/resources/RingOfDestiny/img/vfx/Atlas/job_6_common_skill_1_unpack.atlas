@@ -1,0 +1,55 @@
+
+job_6_common_skill_1_unpack.png
+size: 1093,704
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+job_6_common_skill_1-00000
+  rotate: false
+  xy: 433, 322
+  size: 376, 382
+  orig: 500, 500
+  offset: 47, 74
+  index: -1
+job_6_common_skill_1-00001
+  rotate: true
+  xy: 0, 268
+  size: 436, 433
+  orig: 500, 500
+  offset: 23, 37
+  index: -1
+job_6_common_skill_1-00002
+  rotate: true
+  xy: 809, 372
+  size: 332, 284
+  orig: 500, 500
+  offset: 89, 113
+  index: -1
+job_6_common_skill_1-00003
+  rotate: true
+  xy: 515, 0
+  size: 322, 278
+  orig: 500, 500
+  offset: 93, 112
+  index: -1
+job_6_common_skill_1-00004
+  rotate: true
+  xy: 809, 57
+  size: 315, 283
+  orig: 500, 500
+  offset: 94, 112
+  index: -1
+job_6_common_skill_1-00005
+  rotate: false
+  xy: 262, 9
+  size: 253, 259
+  orig: 500, 500
+  offset: 120, 143
+  index: -1
+job_6_common_skill_1-00006
+  rotate: false
+  xy: 0, 2
+  size: 262, 266
+  orig: 500, 500
+  offset: 115, 141
+  index: -1

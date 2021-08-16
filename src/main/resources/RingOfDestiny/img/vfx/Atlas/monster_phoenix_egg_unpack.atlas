@@ -1,0 +1,174 @@
+
+monster_phoenix_egg_unpack.png
+size: 1977,775
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_phoenix_egg-00000
+  rotate: false
+  xy: 759, 261
+  size: 246, 250
+  orig: 300, 300
+  offset: 24, 21
+  index: -1
+monster_phoenix_egg-00001
+  rotate: false
+  xy: 979, 13
+  size: 246, 248
+  orig: 300, 300
+  offset: 24, 21
+  index: -1
+monster_phoenix_egg-00002
+  rotate: false
+  xy: 1246, 528
+  size: 244, 247
+  orig: 300, 300
+  offset: 27, 21
+  index: -1
+monster_phoenix_egg-00003
+  rotate: true
+  xy: 0, 0
+  size: 241, 244
+  orig: 300, 300
+  offset: 28, 21
+  index: -1
+monster_phoenix_egg-00004
+  rotate: true
+  xy: 504, 245
+  size: 264, 255
+  orig: 300, 300
+  offset: 22, 17
+  index: -1
+monster_phoenix_egg-00005
+  rotate: true
+  xy: 253, 509
+  size: 266, 254
+  orig: 300, 300
+  offset: 21, 17
+  index: -1
+monster_phoenix_egg-00006
+  rotate: true
+  xy: 0, 241
+  size: 267, 252
+  orig: 300, 300
+  offset: 20, 17
+  index: -1
+monster_phoenix_egg-00007
+  rotate: false
+  xy: 732, 0
+  size: 247, 245
+  orig: 300, 300
+  offset: 24, 21
+  index: -1
+monster_phoenix_egg-00008
+  rotate: true
+  xy: 1004, 527
+  size: 248, 242
+  orig: 300, 300
+  offset: 24, 19
+  index: -1
+monster_phoenix_egg-00009
+  rotate: false
+  xy: 1726, 285
+  size: 245, 244
+  orig: 300, 300
+  offset: 25, 20
+  index: -1
+monster_phoenix_egg-00010
+  rotate: true
+  xy: 1726, 43
+  size: 242, 245
+  orig: 300, 300
+  offset: 26, 20
+  index: -1
+monster_phoenix_egg-00011
+  rotate: false
+  xy: 1488, 281
+  size: 238, 247
+  orig: 300, 300
+  offset: 27, 21
+  index: -1
+monster_phoenix_egg-00012
+  rotate: false
+  xy: 761, 527
+  size: 243, 248
+  orig: 300, 300
+  offset: 24, 21
+  index: -1
+monster_phoenix_egg-00013
+  rotate: false
+  xy: 1490, 529
+  size: 244, 246
+  orig: 300, 300
+  offset: 24, 21
+  index: -1
+monster_phoenix_egg-00014
+  rotate: false
+  xy: 1734, 529
+  size: 243, 246
+  orig: 300, 300
+  offset: 27, 22
+  index: -1
+monster_phoenix_egg-00015
+  rotate: false
+  xy: 1225, 32
+  size: 246, 247
+  orig: 300, 300
+  offset: 25, 21
+  index: -1
+monster_phoenix_egg-00016
+  rotate: true
+  xy: 1243, 280
+  size: 247, 245
+  orig: 300, 300
+  offset: 23, 21
+  index: -1
+monster_phoenix_egg-00017
+  rotate: true
+  xy: 489, 2
+  size: 239, 243
+  orig: 300, 300
+  offset: 28, 22
+  index: -1
+monster_phoenix_egg-00018
+  rotate: true
+  xy: 252, 241
+  size: 267, 252
+  orig: 300, 300
+  offset: 20, 17
+  index: -1
+monster_phoenix_egg-00019
+  rotate: true
+  xy: 0, 508
+  size: 267, 253
+  orig: 300, 300
+  offset: 19, 17
+  index: -1
+monster_phoenix_egg-00020
+  rotate: true
+  xy: 507, 511
+  size: 264, 254
+  orig: 300, 300
+  offset: 20, 17
+  index: -1
+monster_phoenix_egg-00021
+  rotate: false
+  xy: 244, 1
+  size: 245, 240
+  orig: 300, 300
+  offset: 25, 24
+  index: -1
+monster_phoenix_egg-00022
+  rotate: false
+  xy: 1471, 33
+  size: 242, 247
+  orig: 300, 300
+  offset: 26, 20
+  index: -1
+monster_phoenix_egg-00023
+  rotate: false
+  xy: 1005, 279
+  size: 238, 248
+  orig: 300, 300
+  offset: 27, 21
+  index: -1

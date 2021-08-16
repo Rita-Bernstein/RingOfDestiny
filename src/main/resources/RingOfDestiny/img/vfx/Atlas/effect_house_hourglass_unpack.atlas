@@ -1,0 +1,132 @@
+
+effect_house_hourglass_unpack.png
+size: 1978,1167
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_house_hourglass-00000
+  rotate: true
+  xy: 0, 778
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00001
+  rotate: true
+  xy: 0, 389
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00002
+  rotate: true
+  xy: 0, 0
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00003
+  rotate: true
+  xy: 300, 778
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00004
+  rotate: true
+  xy: 300, 389
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00005
+  rotate: true
+  xy: 300, 0
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00006
+  rotate: true
+  xy: 600, 778
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00007
+  rotate: true
+  xy: 600, 389
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00008
+  rotate: true
+  xy: 600, 0
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00009
+  rotate: false
+  xy: 900, 867
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00010
+  rotate: false
+  xy: 1289, 867
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00011
+  rotate: true
+  xy: 1678, 778
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00012
+  rotate: false
+  xy: 900, 567
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00013
+  rotate: false
+  xy: 1289, 567
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00014
+  rotate: true
+  xy: 1678, 389
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00015
+  rotate: true
+  xy: 900, 0
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00016
+  rotate: false
+  xy: 1200, 267
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1
+effect_house_hourglass-00017
+  rotate: false
+  xy: 1589, 89
+  size: 389, 300
+  orig: 389, 300
+  offset: 0, 0
+  index: -1

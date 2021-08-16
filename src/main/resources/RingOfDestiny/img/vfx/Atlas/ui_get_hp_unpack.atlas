@@ -1,0 +1,76 @@
+
+ui_get_hp_unpack.png
+size: 307,648
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_get_hp-00000
+  rotate: false
+  xy: 0, 483
+  size: 168, 165
+  orig: 302, 302
+  offset: 69, 77
+  index: -1
+ui_get_hp-00001
+  rotate: true
+  xy: 0, 189
+  size: 151, 158
+  orig: 302, 302
+  offset: 79, 84
+  index: -1
+ui_get_hp-00002
+  rotate: false
+  xy: 158, 47
+  size: 142, 157
+  orig: 302, 302
+  offset: 85, 85
+  index: -1
+ui_get_hp-00003
+  rotate: false
+  xy: 160, 204
+  size: 145, 159
+  orig: 302, 302
+  offset: 85, 83
+  index: -1
+ui_get_hp-00004
+  rotate: true
+  xy: 0, 340
+  size: 143, 160
+  orig: 302, 302
+  offset: 87, 82
+  index: -1
+ui_get_hp-00005
+  rotate: false
+  xy: 168, 493
+  size: 139, 155
+  orig: 302, 302
+  offset: 87, 87
+  index: -1
+ui_get_hp-00006
+  rotate: true
+  xy: 168, 363
+  size: 130, 135
+  orig: 302, 302
+  offset: 93, 89
+  index: -1
+ui_get_hp-00007
+  rotate: true
+  xy: 0, 70
+  size: 119, 128
+  orig: 302, 302
+  offset: 96, 92
+  index: -1
+ui_get_hp-00008
+  rotate: false
+  xy: 0, 0
+  size: 80, 70
+  orig: 302, 302
+  offset: 118, 142
+  index: -1
+ui_get_hp-00009
+  rotate: true
+  xy: 80, 8
+  size: 62, 64
+  orig: 302, 302
+  offset: 130, 142
+  index: -1

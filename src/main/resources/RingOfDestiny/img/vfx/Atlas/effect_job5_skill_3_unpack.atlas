@@ -1,0 +1,55 @@
+
+effect_job5_skill_3_unpack.png
+size: 1412,292
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job5_skill_3-00000
+  rotate: false
+  xy: 609, 4
+  size: 204, 288
+  orig: 287, 341
+  offset: 37, 24
+  index: -1
+effect_job5_skill_3-00001
+  rotate: false
+  xy: 203, 2
+  size: 203, 290
+  orig: 287, 341
+  offset: 37, 22
+  index: -1
+effect_job5_skill_3-00002
+  rotate: false
+  xy: 0, 0
+  size: 203, 292
+  orig: 287, 341
+  offset: 37, 20
+  index: -1
+effect_job5_skill_3-00003
+  rotate: false
+  xy: 406, 2
+  size: 203, 290
+  orig: 287, 341
+  offset: 37, 22
+  index: -1
+effect_job5_skill_3-00004
+  rotate: false
+  xy: 813, 3
+  size: 201, 289
+  orig: 287, 341
+  offset: 37, 23
+  index: -1
+effect_job5_skill_3-00005
+  rotate: false
+  xy: 1014, 4
+  size: 200, 288
+  orig: 287, 341
+  offset: 37, 24
+  index: -1
+effect_job5_skill_3-00006
+  rotate: false
+  xy: 1214, 4
+  size: 198, 288
+  orig: 287, 341
+  offset: 38, 24
+  index: -1

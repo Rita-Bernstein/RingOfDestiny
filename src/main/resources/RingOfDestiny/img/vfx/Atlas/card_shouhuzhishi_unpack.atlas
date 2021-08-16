@@ -1,0 +1,139 @@
+
+card_shouhuzhishi_unpack.png
+size: 1943,1750
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shouhuzhishi-00000
+  rotate: false
+  xy: 0, 1400
+  size: 486, 350
+  orig: 500, 350
+  offset: 8, 0
+  index: -1
+card_shouhuzhishi-00001
+  rotate: false
+  xy: 486, 1400
+  size: 494, 350
+  orig: 500, 350
+  offset: 5, 0
+  index: -1
+card_shouhuzhishi-00002
+  rotate: false
+  xy: 980, 1400
+  size: 489, 350
+  orig: 500, 350
+  offset: 7, 0
+  index: -1
+card_shouhuzhishi-00003
+  rotate: false
+  xy: 0, 1050
+  size: 487, 350
+  orig: 500, 350
+  offset: 7, 0
+  index: -1
+card_shouhuzhishi-00004
+  rotate: false
+  xy: 487, 1050
+  size: 485, 350
+  orig: 500, 350
+  offset: 9, 0
+  index: -1
+card_shouhuzhishi-00005
+  rotate: false
+  xy: 972, 1050
+  size: 485, 350
+  orig: 500, 350
+  offset: 9, 0
+  index: -1
+card_shouhuzhishi-00006
+  rotate: true
+  xy: 1469, 1267
+  size: 483, 350
+  orig: 500, 350
+  offset: 11, 0
+  index: -1
+card_shouhuzhishi-00007
+  rotate: false
+  xy: 1457, 917
+  size: 486, 350
+  orig: 500, 350
+  offset: 8, 0
+  index: -1
+card_shouhuzhishi-00008
+  rotate: false
+  xy: 0, 700
+  size: 486, 350
+  orig: 500, 350
+  offset: 8, 0
+  index: -1
+card_shouhuzhishi-00009
+  rotate: false
+  xy: 486, 700
+  size: 486, 350
+  orig: 500, 350
+  offset: 8, 0
+  index: -1
+card_shouhuzhishi-00010
+  rotate: false
+  xy: 972, 700
+  size: 485, 350
+  orig: 500, 350
+  offset: 9, 0
+  index: -1
+card_shouhuzhishi-00011
+  rotate: false
+  xy: 1457, 567
+  size: 485, 350
+  orig: 500, 350
+  offset: 9, 0
+  index: -1
+card_shouhuzhishi-00012
+  rotate: false
+  xy: 0, 350
+  size: 485, 350
+  orig: 500, 350
+  offset: 9, 0
+  index: -1
+card_shouhuzhishi-00013
+  rotate: false
+  xy: 485, 350
+  size: 485, 350
+  orig: 500, 350
+  offset: 9, 0
+  index: -1
+card_shouhuzhishi-00014
+  rotate: false
+  xy: 970, 350
+  size: 486, 350
+  orig: 500, 350
+  offset: 8, 0
+  index: -1
+card_shouhuzhishi-00015
+  rotate: false
+  xy: 1456, 217
+  size: 486, 350
+  orig: 500, 350
+  offset: 8, 0
+  index: -1
+card_shouhuzhishi-00016
+  rotate: false
+  xy: 0, 0
+  size: 486, 350
+  orig: 500, 350
+  offset: 8, 0
+  index: -1
+card_shouhuzhishi-00017
+  rotate: false
+  xy: 486, 0
+  size: 485, 350
+  orig: 500, 350
+  offset: 9, 0
+  index: -1
+card_shouhuzhishi-00018
+  rotate: false
+  xy: 971, 0
+  size: 485, 350
+  orig: 500, 350
+  offset: 9, 0
+  index: -1

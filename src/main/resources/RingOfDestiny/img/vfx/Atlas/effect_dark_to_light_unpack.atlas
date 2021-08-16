@@ -1,0 +1,83 @@
+
+effect_dark_to_light_unpack.png
+size: 1954,876
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_dark_to_light-00000
+  rotate: true
+  xy: 1628, 671
+  size: 205, 326
+  orig: 500, 500
+  offset: 151, 174
+  index: -1
+effect_dark_to_light-00001
+  rotate: false
+  xy: 1283, 36
+  size: 288, 375
+  orig: 500, 500
+  offset: 112, 125
+  index: -1
+effect_dark_to_light-00002
+  rotate: false
+  xy: 459, 26
+  size: 362, 379
+  orig: 500, 500
+  offset: 75, 121
+  index: -1
+effect_dark_to_light-00003
+  rotate: true
+  xy: 0, 2
+  size: 400, 459
+  orig: 500, 500
+  offset: 48, 41
+  index: -1
+effect_dark_to_light-00004
+  rotate: true
+  xy: 821, 0
+  size: 408, 462
+  orig: 500, 500
+  offset: 44, 38
+  index: -1
+effect_dark_to_light-00005
+  rotate: false
+  xy: 1212, 411
+  size: 416, 465
+  orig: 500, 500
+  offset: 40, 35
+  index: -1
+effect_dark_to_light-00006
+  rotate: false
+  xy: 789, 408
+  size: 423, 468
+  orig: 500, 500
+  offset: 36, 32
+  index: -1
+effect_dark_to_light-00007
+  rotate: false
+  xy: 379, 405
+  size: 410, 471
+  orig: 500, 500
+  offset: 44, 29
+  index: -1
+effect_dark_to_light-00008
+  rotate: false
+  xy: 0, 402
+  size: 379, 474
+  orig: 500, 500
+  offset: 59, 26
+  index: -1
+effect_dark_to_light-00009
+  rotate: false
+  xy: 1628, 235
+  size: 303, 436
+  orig: 500, 500
+  offset: 98, 64
+  index: -1
+effect_dark_to_light-00010
+  rotate: true
+  xy: 1571, 17
+  size: 218, 359
+  orig: 500, 500
+  offset: 140, 141
+  index: -1

@@ -1,0 +1,132 @@
+
+player_4_402_disappear_unpack.png
+size: 1890,440
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+player_4_402_disappear-00000
+  rotate: false
+  xy: 616, 14
+  size: 149, 178
+  orig: 300, 350
+  offset: 87, 50
+  index: -1
+player_4_402_disappear-00001
+  rotate: true
+  xy: 765, 17
+  size: 175, 204
+  orig: 300, 350
+  offset: 64, 47
+  index: -1
+player_4_402_disappear-00002
+  rotate: true
+  xy: 0, 1
+  size: 189, 228
+  orig: 300, 350
+  offset: 57, 31
+  index: -1
+player_4_402_disappear-00003
+  rotate: true
+  xy: 1215, 1
+  size: 194, 235
+  orig: 300, 350
+  offset: 53, 30
+  index: -1
+player_4_402_disappear-00004
+  rotate: true
+  xy: 1450, 2
+  size: 200, 235
+  orig: 300, 350
+  offset: 49, 34
+  index: -1
+player_4_402_disappear-00005
+  rotate: false
+  xy: 1390, 202
+  size: 201, 238
+  orig: 300, 350
+  offset: 49, 35
+  index: -1
+player_4_402_disappear-00006
+  rotate: false
+  xy: 1011, 195
+  size: 205, 245
+  orig: 300, 350
+  offset: 49, 32
+  index: -1
+player_4_402_disappear-00007
+  rotate: false
+  xy: 607, 192
+  size: 208, 248
+  orig: 300, 350
+  offset: 48, 33
+  index: -1
+player_4_402_disappear-00008
+  rotate: false
+  xy: 0, 190
+  size: 209, 250
+  orig: 300, 350
+  offset: 48, 36
+  index: -1
+player_4_402_disappear-00009
+  rotate: false
+  xy: 209, 190
+  size: 206, 250
+  orig: 300, 350
+  offset: 50, 41
+  index: -1
+player_4_402_disappear-00010
+  rotate: false
+  xy: 815, 193
+  size: 196, 247
+  orig: 300, 350
+  offset: 57, 49
+  index: -1
+player_4_402_disappear-00011
+  rotate: false
+  xy: 415, 191
+  size: 192, 249
+  orig: 300, 350
+  offset: 58, 51
+  index: -1
+player_4_402_disappear-00012
+  rotate: true
+  xy: 969, 0
+  size: 193, 246
+  orig: 300, 350
+  offset: 56, 56
+  index: -1
+player_4_402_disappear-00013
+  rotate: true
+  xy: 228, 3
+  size: 187, 243
+  orig: 300, 350
+  offset: 52, 59
+  index: -1
+player_4_402_disappear-00014
+  rotate: false
+  xy: 1216, 199
+  size: 174, 241
+  orig: 300, 350
+  offset: 63, 64
+  index: -1
+player_4_402_disappear-00015
+  rotate: false
+  xy: 1591, 203
+  size: 167, 237
+  orig: 300, 350
+  offset: 68, 70
+  index: -1
+player_4_402_disappear-00016
+  rotate: true
+  xy: 1685, 50
+  size: 153, 205
+  orig: 300, 350
+  offset: 83, 74
+  index: -1
+player_4_402_disappear-00017
+  rotate: false
+  xy: 471, 7
+  size: 145, 184
+  orig: 300, 350
+  offset: 85, 101
+  index: -1

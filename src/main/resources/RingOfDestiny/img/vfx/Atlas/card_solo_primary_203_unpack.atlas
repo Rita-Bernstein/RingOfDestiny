@@ -1,0 +1,62 @@
+
+card_solo_primary_203_unpack.png
+size: 1699,209
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_solo_primary_203-00000
+  rotate: false
+  xy: 0, 0
+  size: 239, 209
+  orig: 392, 279
+  offset: 83, 30
+  index: -1
+card_solo_primary_203-00001
+  rotate: false
+  xy: 239, 12
+  size: 239, 197
+  orig: 392, 279
+  offset: 83, 36
+  index: -1
+card_solo_primary_203-00002
+  rotate: true
+  xy: 478, 3
+  size: 206, 213
+  orig: 392, 279
+  offset: 98, 29
+  index: -1
+card_solo_primary_203-00003
+  rotate: true
+  xy: 691, 3
+  size: 206, 213
+  orig: 392, 279
+  offset: 98, 29
+  index: -1
+card_solo_primary_203-00004
+  rotate: true
+  xy: 904, 3
+  size: 206, 213
+  orig: 392, 279
+  offset: 98, 29
+  index: -1
+card_solo_primary_203-00005
+  rotate: true
+  xy: 1117, 3
+  size: 206, 213
+  orig: 392, 279
+  offset: 98, 29
+  index: -1
+card_solo_primary_203-00006
+  rotate: false
+  xy: 1330, 8
+  size: 197, 201
+  orig: 392, 279
+  offset: 103, 35
+  index: -1
+card_solo_primary_203-00007
+  rotate: false
+  xy: 1527, 34
+  size: 172, 175
+  orig: 392, 279
+  offset: 115, 48
+  index: -1

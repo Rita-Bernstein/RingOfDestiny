@@ -1,0 +1,97 @@
+
+ui_login_bubble_unpack.png
+size: 1388,437
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_login_bubble-00000
+  rotate: false
+  xy: 426, 0
+  size: 425, 102
+  orig: 500, 195
+  offset: 43, 40
+  index: -1
+ui_login_bubble-00001
+  rotate: false
+  xy: 0, 1
+  size: 425, 99
+  orig: 500, 195
+  offset: 42, 40
+  index: -1
+ui_login_bubble-00002
+  rotate: true
+  xy: 1284, 12
+  size: 425, 104
+  orig: 500, 195
+  offset: 42, 41
+  index: -1
+ui_login_bubble-00003
+  rotate: false
+  xy: 854, 6
+  size: 425, 104
+  orig: 500, 195
+  offset: 42, 41
+  index: -1
+ui_login_bubble-00004
+  rotate: false
+  xy: 854, 110
+  size: 426, 98
+  orig: 500, 195
+  offset: 42, 42
+  index: -1
+ui_login_bubble-00005
+  rotate: false
+  xy: 0, 100
+  size: 426, 103
+  orig: 500, 195
+  offset: 42, 39
+  index: -1
+ui_login_bubble-00006
+  rotate: false
+  xy: 427, 102
+  size: 427, 106
+  orig: 500, 195
+  offset: 41, 39
+  index: -1
+ui_login_bubble-00007
+  rotate: false
+  xy: 428, 208
+  size: 427, 110
+  orig: 500, 195
+  offset: 41, 39
+  index: -1
+ui_login_bubble-00008
+  rotate: false
+  xy: 0, 203
+  size: 427, 110
+  orig: 500, 195
+  offset: 41, 40
+  index: -1
+ui_login_bubble-00009
+  rotate: false
+  xy: 856, 208
+  size: 427, 113
+  orig: 500, 195
+  offset: 41, 40
+  index: -1
+ui_login_bubble-00010
+  rotate: false
+  xy: 856, 321
+  size: 428, 116
+  orig: 500, 195
+  offset: 41, 41
+  index: -1
+ui_login_bubble-00011
+  rotate: false
+  xy: 428, 318
+  size: 428, 119
+  orig: 500, 195
+  offset: 41, 41
+  index: -1
+ui_login_bubble-00012
+  rotate: false
+  xy: 0, 313
+  size: 428, 124
+  orig: 500, 195
+  offset: 41, 40
+  index: -1

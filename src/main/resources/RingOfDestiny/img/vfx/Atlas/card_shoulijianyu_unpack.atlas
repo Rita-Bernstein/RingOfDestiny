@@ -1,0 +1,97 @@
+
+card_shoulijianyu_unpack.png
+size: 362,1048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_shoulijianyu-00000
+  rotate: true
+  xy: 268, 227
+  size: 178, 89
+  orig: 487, 299
+  offset: 63, 192
+  index: -1
+card_shoulijianyu-00001
+  rotate: false
+  xy: 0, 81
+  size: 258, 106
+  orig: 487, 299
+  offset: 137, 49
+  index: -1
+card_shoulijianyu-00002
+  rotate: false
+  xy: 0, 854
+  size: 302, 194
+  orig: 487, 299
+  offset: 93, 48
+  index: -1
+card_shoulijianyu-00003
+  rotate: false
+  xy: 0, 187
+  size: 268, 228
+  orig: 487, 299
+  offset: 128, 42
+  index: -1
+card_shoulijianyu-00004
+  rotate: false
+  xy: 0, 603
+  size: 277, 161
+  orig: 487, 299
+  offset: 124, 42
+  index: -1
+card_shoulijianyu-00005
+  rotate: false
+  xy: 0, 764
+  size: 280, 90
+  orig: 487, 299
+  offset: 121, 41
+  index: -1
+card_shoulijianyu-00006
+  rotate: false
+  xy: 0, 511
+  size: 271, 92
+  orig: 487, 299
+  offset: 122, 42
+  index: -1
+card_shoulijianyu-00007
+  rotate: false
+  xy: 0, 415
+  size: 270, 96
+  orig: 487, 299
+  offset: 121, 41
+  index: -1
+card_shoulijianyu-00008
+  rotate: true
+  xy: 277, 405
+  size: 227, 81
+  orig: 487, 299
+  offset: 158, 43
+  index: -1
+card_shoulijianyu-00009
+  rotate: true
+  xy: 268, 3
+  size: 224, 81
+  orig: 487, 299
+  offset: 158, 43
+  index: -1
+card_shoulijianyu-00010
+  rotate: true
+  xy: 280, 632
+  size: 222, 82
+  orig: 487, 299
+  offset: 159, 45
+  index: -1
+card_shoulijianyu-00011
+  rotate: false
+  xy: 0, 0
+  size: 199, 81
+  orig: 487, 299
+  offset: 161, 47
+  index: -1
+card_shoulijianyu-00012
+  rotate: true
+  xy: 302, 891
+  size: 157, 55
+  orig: 487, 299
+  offset: 201, 62
+  index: -1

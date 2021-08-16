@@ -1,0 +1,97 @@
+
+card_anyingyinji_402_unpack.png
+size: 550,733
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_anyingyinji_402-00000
+  rotate: true
+  xy: 407, 427
+  size: 135, 140
+  orig: 300, 300
+  offset: 82, 85
+  index: -1
+card_anyingyinji_402-00001
+  rotate: false
+  xy: 398, 123
+  size: 152, 203
+  orig: 300, 300
+  offset: 73, 35
+  index: -1
+card_anyingyinji_402-00002
+  rotate: true
+  xy: 0, 537
+  size: 196, 204
+  orig: 300, 300
+  offset: 51, 33
+  index: -1
+card_anyingyinji_402-00003
+  rotate: true
+  xy: 204, 538
+  size: 195, 203
+  orig: 300, 300
+  offset: 55, 33
+  index: -1
+card_anyingyinji_402-00004
+  rotate: true
+  xy: 0, 166
+  size: 184, 204
+  orig: 300, 300
+  offset: 61, 34
+  index: -1
+card_anyingyinji_402-00005
+  rotate: true
+  xy: 0, 350
+  size: 187, 203
+  orig: 300, 300
+  offset: 57, 36
+  index: -1
+card_anyingyinji_402-00006
+  rotate: true
+  xy: 204, 344
+  size: 194, 202
+  orig: 300, 300
+  offset: 54, 38
+  index: -1
+card_anyingyinji_402-00007
+  rotate: false
+  xy: 204, 164
+  size: 194, 180
+  orig: 300, 300
+  offset: 54, 52
+  index: -1
+card_anyingyinji_402-00008
+  rotate: false
+  xy: 0, 0
+  size: 192, 166
+  orig: 300, 300
+  offset: 54, 62
+  index: -1
+card_anyingyinji_402-00009
+  rotate: false
+  xy: 192, 7
+  size: 186, 157
+  orig: 300, 300
+  offset: 55, 70
+  index: -1
+card_anyingyinji_402-00010
+  rotate: true
+  xy: 407, 562
+  size: 171, 142
+  orig: 300, 300
+  offset: 59, 78
+  index: -1
+card_anyingyinji_402-00011
+  rotate: true
+  xy: 406, 326
+  size: 101, 124
+  orig: 300, 300
+  offset: 106, 88
+  index: -1
+card_anyingyinji_402-00012
+  rotate: true
+  xy: 378, 66
+  size: 57, 100
+  orig: 300, 300
+  offset: 124, 97
+  index: -1

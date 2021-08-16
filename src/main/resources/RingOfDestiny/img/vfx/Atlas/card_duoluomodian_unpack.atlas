@@ -1,0 +1,83 @@
+
+card_duoluomodian_unpack.png
+size: 512,297
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_duoluomodian-00000
+  rotate: true
+  xy: 320, 0
+  size: 73, 61
+  orig: 189, 180
+  offset: 59, 54
+  index: -1
+card_duoluomodian-00001
+  rotate: true
+  xy: 381, 3
+  size: 100, 85
+  orig: 189, 180
+  offset: 45, 42
+  index: -1
+card_duoluomodian-00002
+  rotate: true
+  xy: 0, 149
+  size: 148, 112
+  orig: 189, 180
+  offset: 21, 28
+  index: -1
+card_duoluomodian-00003
+  rotate: true
+  xy: 0, 1
+  size: 148, 112
+  orig: 189, 180
+  offset: 21, 28
+  index: -1
+card_duoluomodian-00004
+  rotate: true
+  xy: 112, 149
+  size: 148, 112
+  orig: 189, 180
+  offset: 21, 28
+  index: -1
+card_duoluomodian-00005
+  rotate: true
+  xy: 112, 1
+  size: 148, 112
+  orig: 189, 180
+  offset: 21, 28
+  index: -1
+card_duoluomodian-00006
+  rotate: false
+  xy: 224, 185
+  size: 148, 112
+  orig: 189, 180
+  offset: 21, 28
+  index: -1
+card_duoluomodian-00007
+  rotate: false
+  xy: 224, 73
+  size: 148, 112
+  orig: 189, 180
+  offset: 21, 28
+  index: -1
+card_duoluomodian-00008
+  rotate: false
+  xy: 372, 193
+  size: 140, 104
+  orig: 189, 180
+  offset: 24, 32
+  index: -1
+card_duoluomodian-00009
+  rotate: false
+  xy: 372, 103
+  size: 120, 90
+  orig: 189, 180
+  offset: 34, 39
+  index: -1
+card_duoluomodian-00010
+  rotate: false
+  xy: 224, 0
+  size: 96, 73
+  orig: 189, 180
+  offset: 47, 49
+  index: -1

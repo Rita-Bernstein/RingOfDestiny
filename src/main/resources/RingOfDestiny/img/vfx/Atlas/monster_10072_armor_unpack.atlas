@@ -1,0 +1,111 @@
+
+monster_10072_armor_unpack.png
+size: 1974,1252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10072_armor-00000
+  rotate: false
+  xy: 1145, 0
+  size: 411, 388
+  orig: 500, 500
+  offset: 61, 70
+  index: -1
+monster_10072_armor-00001
+  rotate: true
+  xy: 442, 802
+  size: 450, 394
+  orig: 500, 500
+  offset: 34, 66
+  index: -1
+monster_10072_armor-00002
+  rotate: true
+  xy: 448, 356
+  size: 446, 392
+  orig: 500, 500
+  offset: 37, 65
+  index: -1
+monster_10072_armor-00003
+  rotate: true
+  xy: 836, 818
+  size: 434, 396
+  orig: 500, 500
+  offset: 40, 64
+  index: -1
+monster_10072_armor-00004
+  rotate: true
+  xy: 0, 782
+  size: 470, 442
+  orig: 500, 500
+  offset: 20, 19
+  index: -1
+monster_10072_armor-00005
+  rotate: true
+  xy: 0, 330
+  size: 452, 448
+  orig: 500, 500
+  offset: 35, 23
+  index: -1
+monster_10072_armor-00006
+  rotate: true
+  xy: 1232, 833
+  size: 419, 371
+  orig: 500, 500
+  offset: 59, 51
+  index: -1
+monster_10072_armor-00007
+  rotate: true
+  xy: 840, 388
+  size: 430, 349
+  orig: 500, 500
+  offset: 42, 53
+  index: -1
+monster_10072_armor-00008
+  rotate: true
+  xy: 1189, 390
+  size: 428, 349
+  orig: 500, 500
+  offset: 43, 55
+  index: -1
+monster_10072_armor-00009
+  rotate: false
+  xy: 1556, 484
+  size: 418, 349
+  orig: 500, 500
+  offset: 44, 58
+  index: -1
+monster_10072_armor-00010
+  rotate: true
+  xy: 1603, 835
+  size: 417, 349
+  orig: 500, 500
+  offset: 45, 60
+  index: -1
+monster_10072_armor-00011
+  rotate: true
+  xy: 448, 5
+  size: 351, 349
+  orig: 500, 500
+  offset: 80, 62
+  index: -1
+monster_10072_armor-00012
+  rotate: true
+  xy: 797, 5
+  size: 351, 348
+  orig: 500, 500
+  offset: 80, 65
+  index: -1
+monster_10072_armor-00013
+  rotate: true
+  xy: 1556, 137
+  size: 347, 348
+  orig: 500, 500
+  offset: 82, 67
+  index: -1
+monster_10072_armor-00014
+  rotate: false
+  xy: 0, 4
+  size: 313, 326
+  orig: 500, 500
+  offset: 99, 71
+  index: -1

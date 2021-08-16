@@ -1,0 +1,104 @@
+
+player_3_khorium_add_unpack.png
+size: 846,556
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+player_3_khorium_add-00000
+  rotate: false
+  xy: 0, 0
+  size: 53, 64
+  orig: 326, 309
+  offset: 239, 124
+  index: -1
+player_3_khorium_add-00001
+  rotate: false
+  xy: 196, 30
+  size: 282, 118
+  orig: 326, 309
+  offset: 14, 132
+  index: -1
+player_3_khorium_add-00002
+  rotate: true
+  xy: 0, 281
+  size: 275, 178
+  orig: 326, 309
+  offset: 20, 73
+  index: -1
+player_3_khorium_add-00003
+  rotate: true
+  xy: 178, 339
+  size: 217, 191
+  orig: 326, 309
+  offset: 47, 58
+  index: -1
+player_3_khorium_add-00004
+  rotate: true
+  xy: 0, 64
+  size: 217, 196
+  orig: 326, 309
+  offset: 51, 57
+  index: -1
+player_3_khorium_add-00005
+  rotate: false
+  xy: 196, 148
+  size: 182, 191
+  orig: 326, 309
+  offset: 74, 64
+  index: -1
+player_3_khorium_add-00006
+  rotate: true
+  xy: 546, 381
+  size: 175, 179
+  orig: 326, 309
+  offset: 74, 72
+  index: -1
+player_3_khorium_add-00007
+  rotate: true
+  xy: 654, 29
+  size: 174, 178
+  orig: 326, 309
+  offset: 74, 74
+  index: -1
+player_3_khorium_add-00008
+  rotate: false
+  xy: 478, 24
+  size: 176, 177
+  orig: 326, 309
+  offset: 74, 76
+  index: -1
+player_3_khorium_add-00009
+  rotate: false
+  xy: 369, 379
+  size: 177, 177
+  orig: 326, 309
+  offset: 75, 77
+  index: -1
+player_3_khorium_add-00010
+  rotate: false
+  xy: 378, 201
+  size: 176, 178
+  orig: 326, 309
+  offset: 77, 77
+  index: -1
+player_3_khorium_add-00011
+  rotate: false
+  xy: 554, 203
+  size: 175, 178
+  orig: 326, 309
+  offset: 78, 77
+  index: -1
+player_3_khorium_add-00012
+  rotate: true
+  xy: 725, 429
+  size: 127, 121
+  orig: 326, 309
+  offset: 108, 105
+  index: -1
+player_3_khorium_add-00013
+  rotate: false
+  xy: 729, 318
+  size: 112, 111
+  orig: 326, 309
+  offset: 113, 110
+  index: -1

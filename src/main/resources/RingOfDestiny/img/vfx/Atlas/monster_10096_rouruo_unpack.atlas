@@ -1,0 +1,83 @@
+
+monster_10096_rouruo_unpack.png
+size: 556,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10096_rouruo-00000
+  rotate: false
+  xy: 490, 119
+  size: 64, 63
+  orig: 433, 322
+  offset: 269, 150
+  index: -1
+monster_10096_rouruo-00001
+  rotate: false
+  xy: 225, 41
+  size: 82, 75
+  orig: 433, 322
+  offset: 193, 128
+  index: -1
+monster_10096_rouruo-00002
+  rotate: false
+  xy: 334, 1
+  size: 145, 125
+  orig: 433, 322
+  offset: 157, 104
+  index: -1
+monster_10096_rouruo-00003
+  rotate: false
+  xy: 168, 116
+  size: 166, 150
+  orig: 433, 322
+  offset: 141, 91
+  index: -1
+monster_10096_rouruo-00004
+  rotate: false
+  xy: 0, 114
+  size: 168, 152
+  orig: 433, 322
+  offset: 126, 92
+  index: -1
+monster_10096_rouruo-00005
+  rotate: false
+  xy: 334, 126
+  size: 156, 140
+  orig: 433, 322
+  offset: 125, 100
+  index: -1
+monster_10096_rouruo-00006
+  rotate: false
+  xy: 0, 0
+  size: 135, 114
+  orig: 433, 322
+  offset: 126, 115
+  index: -1
+monster_10096_rouruo-00007
+  rotate: true
+  xy: 135, 11
+  size: 103, 90
+  orig: 433, 322
+  offset: 135, 128
+  index: -1
+monster_10096_rouruo-00008
+  rotate: true
+  xy: 490, 182
+  size: 84, 66
+  orig: 433, 322
+  offset: 137, 144
+  index: -1
+monster_10096_rouruo-00009
+  rotate: false
+  xy: 225, 1
+  size: 71, 40
+  orig: 433, 322
+  offset: 132, 156
+  index: -1
+monster_10096_rouruo-00010
+  rotate: false
+  xy: 307, 96
+  size: 24, 20
+  orig: 433, 322
+  offset: 160, 167
+  index: -1

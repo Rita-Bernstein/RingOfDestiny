@@ -1,0 +1,62 @@
+
+card_qiangkou_unpack.png
+size: 574,539
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_qiangkou-00000
+  rotate: false
+  xy: 451, 201
+  size: 98, 122
+  orig: 265, 265
+  offset: 81, 74
+  index: -1
+card_qiangkou-00001
+  rotate: false
+  xy: 263, 334
+  size: 201, 205
+  orig: 265, 265
+  offset: 28, 30
+  index: -1
+card_qiangkou-00002
+  rotate: false
+  xy: 0, 274
+  size: 263, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+card_qiangkou-00003
+  rotate: false
+  xy: 0, 84
+  size: 230, 190
+  orig: 265, 265
+  offset: 35, 37
+  index: -1
+card_qiangkou-00004
+  rotate: false
+  xy: 263, 157
+  size: 188, 177
+  orig: 265, 265
+  offset: 52, 44
+  index: -1
+card_qiangkou-00005
+  rotate: false
+  xy: 230, 0
+  size: 213, 157
+  orig: 265, 265
+  offset: 39, 55
+  index: -1
+card_qiangkou-00006
+  rotate: true
+  xy: 464, 323
+  size: 216, 110
+  orig: 265, 265
+  offset: 49, 107
+  index: -1
+card_qiangkou-00007
+  rotate: false
+  xy: 0, 33
+  size: 120, 51
+  orig: 265, 265
+  offset: 139, 105
+  index: -1

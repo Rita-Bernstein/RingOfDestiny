@@ -1,0 +1,90 @@
+
+effect_house_mirror_unpack.png
+size: 1602,752
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_house_mirror-00000
+  rotate: false
+  xy: 0, 376
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00001
+  rotate: false
+  xy: 0, 0
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00002
+  rotate: false
+  xy: 267, 376
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00003
+  rotate: false
+  xy: 267, 0
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00004
+  rotate: false
+  xy: 534, 376
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00005
+  rotate: false
+  xy: 534, 0
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00006
+  rotate: false
+  xy: 801, 376
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00007
+  rotate: false
+  xy: 801, 0
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00008
+  rotate: false
+  xy: 1068, 376
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00009
+  rotate: false
+  xy: 1068, 0
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00010
+  rotate: false
+  xy: 1335, 376
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1
+effect_house_mirror-00011
+  rotate: false
+  xy: 1335, 0
+  size: 267, 376
+  orig: 283, 384
+  offset: 16, 0
+  index: -1

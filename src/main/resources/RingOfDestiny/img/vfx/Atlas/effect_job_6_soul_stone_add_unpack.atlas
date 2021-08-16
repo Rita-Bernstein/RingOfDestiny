@@ -1,0 +1,55 @@
+
+effect_job_6_soul_stone_add_unpack.png
+size: 838,532
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job_6_soul_stone_add-00000
+  rotate: false
+  xy: 390, 310
+  size: 222, 222
+  orig: 500, 500
+  offset: 142, 137
+  index: -1
+effect_job_6_soul_stone_add-00001
+  rotate: false
+  xy: 528, 0
+  size: 310, 310
+  orig: 500, 500
+  offset: 98, 93
+  index: -1
+effect_job_6_soul_stone_add-00002
+  rotate: true
+  xy: 252, 41
+  size: 269, 276
+  orig: 500, 500
+  offset: 117, 108
+  index: -1
+effect_job_6_soul_stone_add-00003
+  rotate: true
+  xy: 0, 87
+  size: 250, 252
+  orig: 500, 500
+  offset: 124, 125
+  index: -1
+effect_job_6_soul_stone_add-00004
+  rotate: false
+  xy: 612, 310
+  size: 222, 222
+  orig: 500, 500
+  offset: 142, 137
+  index: -1
+effect_job_6_soul_stone_add-00005
+  rotate: true
+  xy: 194, 337
+  size: 195, 196
+  orig: 500, 500
+  offset: 155, 152
+  index: -1
+effect_job_6_soul_stone_add-00006
+  rotate: true
+  xy: 0, 352
+  size: 180, 194
+  orig: 500, 500
+  offset: 157, 155
+  index: -1

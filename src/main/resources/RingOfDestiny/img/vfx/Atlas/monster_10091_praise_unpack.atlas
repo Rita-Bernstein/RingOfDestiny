@@ -1,0 +1,90 @@
+
+monster_10091_praise_unpack.png
+size: 1592,167
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10091_praise-00000
+  rotate: false
+  xy: 1187, 13
+  size: 138, 154
+  orig: 236, 208
+  offset: 49, 17
+  index: -1
+monster_10091_praise-00001
+  rotate: false
+  xy: 0, 7
+  size: 160, 160
+  orig: 236, 208
+  offset: 38, 15
+  index: -1
+monster_10091_praise-00002
+  rotate: false
+  xy: 1040, 18
+  size: 147, 149
+  orig: 236, 208
+  offset: 39, 20
+  index: -1
+monster_10091_praise-00003
+  rotate: false
+  xy: 1325, 15
+  size: 136, 152
+  orig: 236, 208
+  offset: 44, 26
+  index: -1
+monster_10091_praise-00004
+  rotate: false
+  xy: 758, 1
+  size: 141, 166
+  orig: 236, 208
+  offset: 42, 23
+  index: -1
+monster_10091_praise-00005
+  rotate: false
+  xy: 612, 0
+  size: 146, 167
+  orig: 236, 208
+  offset: 41, 20
+  index: -1
+monster_10091_praise-00006
+  rotate: false
+  xy: 160, 1
+  size: 152, 166
+  orig: 236, 208
+  offset: 41, 20
+  index: -1
+monster_10091_praise-00007
+  rotate: false
+  xy: 312, 1
+  size: 151, 166
+  orig: 236, 208
+  offset: 41, 20
+  index: -1
+monster_10091_praise-00008
+  rotate: false
+  xy: 463, 1
+  size: 149, 166
+  orig: 236, 208
+  offset: 41, 20
+  index: -1
+monster_10091_praise-00009
+  rotate: false
+  xy: 463, 1
+  size: 149, 166
+  orig: 236, 208
+  offset: 41, 20
+  index: -1
+monster_10091_praise-00010
+  rotate: false
+  xy: 899, 8
+  size: 141, 159
+  orig: 236, 208
+  offset: 46, 24
+  index: -1
+monster_10091_praise-00011
+  rotate: false
+  xy: 1461, 23
+  size: 131, 144
+  orig: 236, 208
+  offset: 51, 33
+  index: -1

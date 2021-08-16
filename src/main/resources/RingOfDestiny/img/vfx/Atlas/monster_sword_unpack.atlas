@@ -1,0 +1,174 @@
+
+monster_sword_unpack.png
+size: 1979,1001
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_sword-00000
+  rotate: true
+  xy: 1231, 203
+  size: 380, 201
+  orig: 384, 261
+  offset: 4, 40
+  index: -1
+monster_sword-00001
+  rotate: false
+  xy: 832, 579
+  size: 379, 206
+  orig: 384, 261
+  offset: 5, 38
+  index: -1
+monster_sword-00002
+  rotate: true
+  xy: 835, 197
+  size: 382, 201
+  orig: 384, 261
+  offset: 2, 39
+  index: -1
+monster_sword-00003
+  rotate: true
+  xy: 220, 395
+  size: 384, 203
+  orig: 384, 261
+  offset: 0, 40
+  index: -1
+monster_sword-00004
+  rotate: true
+  xy: 630, 397
+  size: 384, 202
+  orig: 384, 261
+  offset: 0, 43
+  index: -1
+monster_sword-00005
+  rotate: true
+  xy: 219, 11
+  size: 384, 206
+  orig: 384, 261
+  offset: 0, 43
+  index: -1
+monster_sword-00006
+  rotate: false
+  xy: 1534, 793
+  size: 384, 208
+  orig: 384, 261
+  offset: 0, 43
+  index: -1
+monster_sword-00007
+  rotate: true
+  xy: 423, 397
+  size: 384, 207
+  orig: 384, 261
+  offset: 0, 43
+  index: -1
+monster_sword-00008
+  rotate: false
+  xy: 766, 785
+  size: 384, 216
+  orig: 384, 261
+  offset: 0, 37
+  index: -1
+monster_sword-00009
+  rotate: true
+  xy: 0, 395
+  size: 384, 220
+  orig: 384, 261
+  offset: 0, 38
+  index: -1
+monster_sword-00010
+  rotate: false
+  xy: 383, 781
+  size: 383, 220
+  orig: 384, 261
+  offset: 1, 41
+  index: -1
+monster_sword-00011
+  rotate: true
+  xy: 1432, 202
+  size: 381, 191
+  orig: 384, 261
+  offset: 3, 47
+  index: -1
+monster_sword-00012
+  rotate: false
+  xy: 1219, 0
+  size: 380, 195
+  orig: 384, 261
+  offset: 4, 46
+  index: -1
+monster_sword-00013
+  rotate: false
+  xy: 1211, 583
+  size: 379, 202
+  orig: 384, 261
+  offset: 5, 42
+  index: -1
+monster_sword-00014
+  rotate: false
+  xy: 1599, 7
+  size: 380, 195
+  orig: 384, 261
+  offset: 4, 41
+  index: -1
+monster_sword-00015
+  rotate: true
+  xy: 1036, 195
+  size: 384, 195
+  orig: 384, 261
+  offset: 0, 42
+  index: -1
+monster_sword-00016
+  rotate: false
+  xy: 835, 0
+  size: 384, 195
+  orig: 384, 261
+  offset: 0, 44
+  index: -1
+monster_sword-00017
+  rotate: false
+  xy: 1590, 591
+  size: 383, 202
+  orig: 384, 261
+  offset: 0, 43
+  index: -1
+monster_sword-00018
+  rotate: true
+  xy: 425, 13
+  size: 384, 205
+  orig: 384, 261
+  offset: 0, 43
+  index: -1
+monster_sword-00019
+  rotate: true
+  xy: 630, 13
+  size: 384, 205
+  orig: 384, 261
+  offset: 0, 42
+  index: -1
+monster_sword-00020
+  rotate: false
+  xy: 1150, 785
+  size: 384, 216
+  orig: 384, 261
+  offset: 0, 36
+  index: -1
+monster_sword-00021
+  rotate: true
+  xy: 0, 12
+  size: 383, 219
+  orig: 384, 261
+  offset: 1, 37
+  index: -1
+monster_sword-00022
+  rotate: false
+  xy: 0, 779
+  size: 383, 222
+  orig: 384, 261
+  offset: 1, 39
+  index: -1
+monster_sword-00023
+  rotate: true
+  xy: 1623, 210
+  size: 381, 199
+  orig: 384, 261
+  offset: 3, 41
+  index: -1

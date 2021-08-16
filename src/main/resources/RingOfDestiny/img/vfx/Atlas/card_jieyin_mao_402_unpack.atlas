@@ -1,0 +1,48 @@
+
+card_jieyin_mao_402_unpack.png
+size: 742,419
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_jieyin_mao_402-00000
+  rotate: true
+  xy: 0, 166
+  size: 253, 268
+  orig: 459, 379
+  offset: 112, 55
+  index: -1
+card_jieyin_mao_402-00001
+  rotate: true
+  xy: 268, 178
+  size: 241, 255
+  orig: 459, 379
+  offset: 117, 61
+  index: -1
+card_jieyin_mao_402-00002
+  rotate: false
+  xy: 523, 187
+  size: 219, 232
+  orig: 459, 379
+  offset: 131, 75
+  index: -1
+card_jieyin_mao_402-00003
+  rotate: false
+  xy: 523, 0
+  size: 188, 187
+  orig: 459, 379
+  offset: 140, 93
+  index: -1
+card_jieyin_mao_402-00004
+  rotate: false
+  xy: 268, 1
+  size: 173, 177
+  orig: 459, 379
+  offset: 147, 96
+  index: -1
+card_jieyin_mao_402-00005
+  rotate: false
+  xy: 0, 6
+  size: 158, 160
+  orig: 459, 379
+  offset: 156, 107
+  index: -1

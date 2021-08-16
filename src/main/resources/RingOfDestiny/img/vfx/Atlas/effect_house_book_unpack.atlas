@@ -1,0 +1,174 @@
+
+effect_house_book_unpack.png
+size: 1636,1043
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_house_book-00000
+  rotate: true
+  xy: 270, 551
+  size: 251, 273
+  orig: 311, 294
+  offset: 29, 20
+  index: -1
+effect_house_book-00001
+  rotate: true
+  xy: 1349, 269
+  size: 267, 271
+  orig: 311, 294
+  offset: 15, 21
+  index: -1
+effect_house_book-00002
+  rotate: true
+  xy: 1346, 0
+  size: 269, 271
+  orig: 311, 294
+  offset: 15, 21
+  index: -1
+effect_house_book-00003
+  rotate: true
+  xy: 543, 285
+  size: 262, 271
+  orig: 311, 294
+  offset: 13, 21
+  index: -1
+effect_house_book-00004
+  rotate: false
+  xy: 0, 30
+  size: 268, 268
+  orig: 311, 294
+  offset: 10, 20
+  index: -1
+effect_house_book-00005
+  rotate: true
+  xy: 814, 278
+  size: 262, 268
+  orig: 311, 294
+  offset: 8, 21
+  index: -1
+effect_house_book-00006
+  rotate: false
+  xy: 540, 17
+  size: 268, 268
+  orig: 311, 294
+  offset: 9, 20
+  index: -1
+effect_house_book-00007
+  rotate: true
+  xy: 1359, 536
+  size: 261, 267
+  orig: 311, 294
+  offset: 11, 21
+  index: -1
+effect_house_book-00008
+  rotate: true
+  xy: 1363, 797
+  size: 246, 273
+  orig: 311, 294
+  offset: 17, 19
+  index: -1
+effect_house_book-00009
+  rotate: true
+  xy: 542, 802
+  size: 241, 275
+  orig: 311, 294
+  offset: 25, 15
+  index: -1
+effect_house_book-00010
+  rotate: true
+  xy: 817, 540
+  size: 258, 271
+  orig: 311, 294
+  offset: 29, 19
+  index: -1
+effect_house_book-00011
+  rotate: true
+  xy: 272, 809
+  size: 234, 270
+  orig: 311, 294
+  offset: 35, 20
+  index: -1
+effect_house_book-00012
+  rotate: true
+  xy: 0, 810
+  size: 233, 272
+  orig: 311, 294
+  offset: 33, 20
+  index: -1
+effect_house_book-00013
+  rotate: true
+  xy: 817, 799
+  size: 244, 269
+  orig: 311, 294
+  offset: 26, 21
+  index: -1
+effect_house_book-00014
+  rotate: true
+  xy: 268, 23
+  size: 267, 272
+  orig: 311, 294
+  offset: 17, 20
+  index: -1
+effect_house_book-00015
+  rotate: true
+  xy: 270, 290
+  size: 261, 273
+  orig: 311, 294
+  offset: 13, 19
+  index: -1
+effect_house_book-00016
+  rotate: true
+  xy: 808, 10
+  size: 268, 270
+  orig: 311, 294
+  offset: 10, 19
+  index: -1
+effect_house_book-00017
+  rotate: true
+  xy: 1082, 276
+  size: 262, 267
+  orig: 311, 294
+  offset: 8, 21
+  index: -1
+effect_house_book-00018
+  rotate: false
+  xy: 1078, 8
+  size: 268, 268
+  orig: 311, 294
+  offset: 9, 20
+  index: -1
+effect_house_book-00019
+  rotate: true
+  xy: 0, 298
+  size: 261, 270
+  orig: 311, 294
+  offset: 11, 20
+  index: -1
+effect_house_book-00020
+  rotate: true
+  xy: 0, 559
+  size: 251, 270
+  orig: 311, 294
+  offset: 17, 20
+  index: -1
+effect_house_book-00021
+  rotate: true
+  xy: 1086, 798
+  size: 245, 277
+  orig: 311, 294
+  offset: 25, 15
+  index: -1
+effect_house_book-00022
+  rotate: true
+  xy: 1088, 538
+  size: 260, 271
+  orig: 311, 294
+  offset: 27, 19
+  index: -1
+effect_house_book-00023
+  rotate: true
+  xy: 543, 547
+  size: 255, 274
+  orig: 311, 294
+  offset: 32, 19
+  index: -1

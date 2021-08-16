@@ -1,0 +1,83 @@
+
+card_hunluantouzhi_unpack.png
+size: 1628,583
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_hunluantouzhi-00000
+  rotate: false
+  xy: 1526, 205
+  size: 100, 100
+  orig: 500, 476
+  offset: 207, 199
+  index: -1
+card_hunluantouzhi-00001
+  rotate: true
+  xy: 1300, 69
+  size: 233, 226
+  orig: 500, 476
+  offset: 141, 131
+  index: -1
+card_hunluantouzhi-00002
+  rotate: false
+  xy: 988, 29
+  size: 312, 273
+  orig: 500, 476
+  offset: 111, 91
+  index: -1
+card_hunluantouzhi-00003
+  rotate: false
+  xy: 988, 302
+  size: 330, 281
+  orig: 500, 476
+  offset: 100, 88
+  index: -1
+card_hunluantouzhi-00004
+  rotate: false
+  xy: 333, 3
+  size: 332, 289
+  orig: 500, 476
+  offset: 99, 86
+  index: -1
+card_hunluantouzhi-00005
+  rotate: false
+  xy: 0, 291
+  size: 333, 292
+  orig: 500, 476
+  offset: 99, 85
+  index: -1
+card_hunluantouzhi-00006
+  rotate: false
+  xy: 0, 0
+  size: 333, 291
+  orig: 500, 476
+  offset: 99, 86
+  index: -1
+card_hunluantouzhi-00007
+  rotate: false
+  xy: 333, 292
+  size: 332, 291
+  orig: 500, 476
+  offset: 100, 86
+  index: -1
+card_hunluantouzhi-00008
+  rotate: false
+  xy: 665, 294
+  size: 323, 289
+  orig: 500, 476
+  offset: 109, 87
+  index: -1
+card_hunluantouzhi-00009
+  rotate: false
+  xy: 665, 8
+  size: 319, 286
+  orig: 500, 476
+  offset: 111, 89
+  index: -1
+card_hunluantouzhi-00010
+  rotate: false
+  xy: 1318, 305
+  size: 310, 278
+  orig: 500, 476
+  offset: 115, 93
+  index: -1

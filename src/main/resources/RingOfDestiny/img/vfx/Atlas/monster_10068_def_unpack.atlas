@@ -1,0 +1,55 @@
+
+monster_10068_def_unpack.png
+size: 820,1152
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10068_def-00000
+  rotate: true
+  xy: 452, 0
+  size: 262, 311
+  orig: 476, 492
+  offset: 105, 80
+  index: -1
+monster_10068_def-00001
+  rotate: false
+  xy: 452, 262
+  size: 368, 436
+  orig: 476, 492
+  offset: 19, 27
+  index: -1
+monster_10068_def-00002
+  rotate: true
+  xy: 0, 431
+  size: 360, 452
+  orig: 476, 492
+  offset: 35, 19
+  index: -1
+monster_10068_def-00003
+  rotate: true
+  xy: 0, 791
+  size: 361, 464
+  orig: 476, 492
+  offset: 61, 13
+  index: -1
+monster_10068_def-00004
+  rotate: true
+  xy: 0, 83
+  size: 348, 452
+  orig: 476, 492
+  offset: 73, 19
+  index: -1
+monster_10068_def-00005
+  rotate: true
+  xy: 464, 902
+  size: 250, 355
+  orig: 476, 492
+  offset: 73, 65
+  index: -1
+monster_10068_def-00006
+  rotate: true
+  xy: 464, 698
+  size: 204, 353
+  orig: 476, 492
+  offset: 75, 66
+  index: -1

@@ -1,0 +1,104 @@
+
+effect_job5_skill_1_unpack.png
+size: 311,754
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job5_skill_1-00000
+  rotate: false
+  xy: 0, 426
+  size: 136, 135
+  orig: 300, 300
+  offset: 83, 78
+  index: -1
+effect_job5_skill_1-00001
+  rotate: true
+  xy: 136, 419
+  size: 136, 149
+  orig: 300, 300
+  offset: 82, 79
+  index: -1
+effect_job5_skill_1-00002
+  rotate: true
+  xy: 0, 282
+  size: 137, 152
+  orig: 300, 300
+  offset: 81, 76
+  index: -1
+effect_job5_skill_1-00003
+  rotate: true
+  xy: 145, 144
+  size: 138, 151
+  orig: 300, 300
+  offset: 81, 76
+  index: -1
+effect_job5_skill_1-00004
+  rotate: true
+  xy: 152, 282
+  size: 137, 149
+  orig: 300, 300
+  offset: 82, 76
+  index: -1
+effect_job5_skill_1-00005
+  rotate: true
+  xy: 142, 0
+  size: 144, 147
+  orig: 300, 300
+  offset: 82, 77
+  index: -1
+effect_job5_skill_1-00006
+  rotate: true
+  xy: 0, 145
+  size: 137, 145
+  orig: 300, 300
+  offset: 81, 77
+  index: -1
+effect_job5_skill_1-00007
+  rotate: true
+  xy: 0, 4
+  size: 141, 142
+  orig: 300, 300
+  offset: 84, 78
+  index: -1
+effect_job5_skill_1-00008
+  rotate: true
+  xy: 201, 555
+  size: 103, 104
+  orig: 300, 300
+  offset: 100, 93
+  index: -1
+effect_job5_skill_1-00009
+  rotate: true
+  xy: 109, 659
+  size: 95, 105
+  orig: 300, 300
+  offset: 109, 91
+  index: -1
+effect_job5_skill_1-00010
+  rotate: true
+  xy: 0, 661
+  size: 93, 109
+  orig: 300, 300
+  offset: 106, 90
+  index: -1
+effect_job5_skill_1-00011
+  rotate: false
+  xy: 214, 658
+  size: 97, 96
+  orig: 300, 300
+  offset: 104, 88
+  index: -1
+effect_job5_skill_1-00012
+  rotate: true
+  xy: 102, 561
+  size: 98, 99
+  orig: 300, 300
+  offset: 103, 88
+  index: -1
+effect_job5_skill_1-00013
+  rotate: true
+  xy: 0, 564
+  size: 97, 102
+  orig: 300, 300
+  offset: 105, 87
+  index: -1

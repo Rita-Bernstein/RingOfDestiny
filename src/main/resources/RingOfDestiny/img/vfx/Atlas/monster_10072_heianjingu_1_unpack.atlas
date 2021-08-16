@@ -1,0 +1,83 @@
+
+monster_10072_heianjingu_1_unpack.png
+size: 1095,560
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10072_heianjingu_1-00000
+  rotate: true
+  xy: 1015, 334
+  size: 226, 80
+  orig: 500, 500
+  offset: 140, 302
+  index: -1
+monster_10072_heianjingu_1-00001
+  rotate: true
+  xy: 729, 306
+  size: 254, 114
+  orig: 500, 500
+  offset: 126, 268
+  index: -1
+monster_10072_heianjingu_1-00002
+  rotate: true
+  xy: 843, 308
+  size: 252, 172
+  orig: 500, 500
+  offset: 126, 210
+  index: -1
+monster_10072_heianjingu_1-00003
+  rotate: false
+  xy: 0, 273
+  size: 284, 287
+  orig: 500, 500
+  offset: 106, 95
+  index: -1
+monster_10072_heianjingu_1-00004
+  rotate: false
+  xy: 284, 288
+  size: 235, 272
+  orig: 500, 500
+  offset: 132, 110
+  index: -1
+monster_10072_heianjingu_1-00005
+  rotate: false
+  xy: 237, 1
+  size: 236, 272
+  orig: 500, 500
+  offset: 132, 110
+  index: -1
+monster_10072_heianjingu_1-00006
+  rotate: false
+  xy: 0, 0
+  size: 237, 273
+  orig: 500, 500
+  offset: 131, 109
+  index: -1
+monster_10072_heianjingu_1-00007
+  rotate: false
+  xy: 473, 18
+  size: 234, 270
+  orig: 500, 500
+  offset: 133, 110
+  index: -1
+monster_10072_heianjingu_1-00008
+  rotate: false
+  xy: 519, 293
+  size: 210, 267
+  orig: 500, 500
+  offset: 143, 113
+  index: -1
+monster_10072_heianjingu_1-00009
+  rotate: false
+  xy: 707, 30
+  size: 208, 263
+  orig: 500, 500
+  offset: 145, 114
+  index: -1
+monster_10072_heianjingu_1-00010
+  rotate: false
+  xy: 915, 62
+  size: 174, 246
+  orig: 500, 500
+  offset: 165, 124
+  index: -1

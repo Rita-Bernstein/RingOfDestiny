@@ -1,0 +1,90 @@
+
+card_diaoling_203_unpack.png
+size: 371,1045
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_diaoling_203-00000
+  rotate: true
+  xy: 217, 267
+  size: 100, 101
+  orig: 377, 347
+  offset: 138, 123
+  index: -1
+card_diaoling_203-00001
+  rotate: false
+  xy: 239, 788
+  size: 127, 121
+  orig: 377, 347
+  offset: 124, 114
+  index: -1
+card_diaoling_203-00002
+  rotate: true
+  xy: 187, 18
+  size: 170, 174
+  orig: 377, 347
+  offset: 108, 70
+  index: -1
+card_diaoling_203-00003
+  rotate: false
+  xy: 0, 618
+  size: 227, 189
+  orig: 377, 347
+  offset: 84, 62
+  index: -1
+card_diaoling_203-00004
+  rotate: false
+  xy: 0, 188
+  size: 217, 213
+  orig: 377, 347
+  offset: 80, 67
+  index: -1
+card_diaoling_203-00005
+  rotate: false
+  xy: 0, 807
+  size: 239, 238
+  orig: 377, 347
+  offset: 68, 55
+  index: -1
+card_diaoling_203-00006
+  rotate: false
+  xy: 0, 401
+  size: 217, 217
+  orig: 377, 347
+  offset: 79, 65
+  index: -1
+card_diaoling_203-00007
+  rotate: false
+  xy: 0, 0
+  size: 187, 188
+  orig: 377, 347
+  offset: 94, 80
+  index: -1
+card_diaoling_203-00008
+  rotate: true
+  xy: 217, 367
+  size: 158, 154
+  orig: 377, 347
+  offset: 108, 97
+  index: -1
+card_diaoling_203-00009
+  rotate: true
+  xy: 227, 642
+  size: 146, 138
+  orig: 377, 347
+  offset: 114, 104
+  index: -1
+card_diaoling_203-00010
+  rotate: true
+  xy: 239, 909
+  size: 136, 129
+  orig: 377, 347
+  offset: 119, 109
+  index: -1
+card_diaoling_203-00011
+  rotate: false
+  xy: 227, 525
+  size: 122, 117
+  orig: 377, 347
+  offset: 126, 115
+  index: -1

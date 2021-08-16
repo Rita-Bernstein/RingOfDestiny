@@ -1,0 +1,69 @@
+
+monster_10092_hengtiao_unpack.png
+size: 578,413
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10092_hengtiao-00000
+  rotate: false
+  xy: 152, 12
+  size: 70, 186
+  orig: 463, 339
+  offset: 259, 57
+  index: -1
+monster_10092_hengtiao-00001
+  rotate: false
+  xy: 222, 15
+  size: 101, 186
+  orig: 463, 339
+  offset: 228, 57
+  index: -1
+monster_10092_hengtiao-00002
+  rotate: false
+  xy: 323, 3
+  size: 128, 215
+  orig: 463, 339
+  offset: 201, 57
+  index: -1
+monster_10092_hengtiao-00003
+  rotate: false
+  xy: 0, 198
+  size: 173, 215
+  orig: 463, 339
+  offset: 152, 57
+  index: -1
+monster_10092_hengtiao-00004
+  rotate: false
+  xy: 0, 0
+  size: 152, 198
+  orig: 463, 339
+  offset: 150, 74
+  index: -1
+monster_10092_hengtiao-00005
+  rotate: false
+  xy: 451, 37
+  size: 118, 181
+  orig: 463, 339
+  offset: 139, 74
+  index: -1
+monster_10092_hengtiao-00006
+  rotate: false
+  xy: 470, 230
+  size: 108, 183
+  orig: 463, 339
+  offset: 139, 74
+  index: -1
+monster_10092_hengtiao-00007
+  rotate: false
+  xy: 319, 218
+  size: 151, 195
+  orig: 463, 339
+  offset: 139, 74
+  index: -1
+monster_10092_hengtiao-00008
+  rotate: false
+  xy: 173, 201
+  size: 146, 212
+  orig: 463, 339
+  offset: 155, 57
+  index: -1

@@ -1,0 +1,139 @@
+
+card_renshu_jieyin_unpack.png
+size: 1702,222
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_renshu_jieyin-00000
+  rotate: false
+  xy: 1134, 17
+  size: 29, 35
+  orig: 381, 200
+  offset: 148, 99
+  index: -1
+card_renshu_jieyin-00001
+  rotate: false
+  xy: 1572, 150
+  size: 97, 72
+  orig: 381, 200
+  offset: 147, 61
+  index: -1
+card_renshu_jieyin-00002
+  rotate: false
+  xy: 1402, 141
+  size: 170, 81
+  orig: 381, 200
+  offset: 150, 51
+  index: -1
+card_renshu_jieyin-00003
+  rotate: false
+  xy: 1134, 52
+  size: 186, 81
+  orig: 381, 200
+  offset: 150, 50
+  index: -1
+card_renshu_jieyin-00004
+  rotate: false
+  xy: 0, 2
+  size: 187, 82
+  orig: 381, 200
+  offset: 150, 49
+  index: -1
+card_renshu_jieyin-00005
+  rotate: false
+  xy: 187, 2
+  size: 187, 82
+  orig: 381, 200
+  offset: 149, 49
+  index: -1
+card_renshu_jieyin-00006
+  rotate: false
+  xy: 374, 0
+  size: 186, 86
+  orig: 381, 200
+  offset: 150, 49
+  index: -1
+card_renshu_jieyin-00007
+  rotate: false
+  xy: 1045, 133
+  size: 187, 89
+  orig: 381, 200
+  offset: 150, 50
+  index: -1
+card_renshu_jieyin-00008
+  rotate: false
+  xy: 947, 20
+  size: 187, 93
+  orig: 381, 200
+  offset: 150, 51
+  index: -1
+card_renshu_jieyin-00009
+  rotate: false
+  xy: 560, 0
+  size: 187, 97
+  orig: 381, 200
+  offset: 150, 52
+  index: -1
+card_renshu_jieyin-00010
+  rotate: false
+  xy: 646, 106
+  size: 203, 116
+  orig: 381, 200
+  offset: 134, 39
+  index: -1
+card_renshu_jieyin-00011
+  rotate: false
+  xy: 437, 97
+  size: 209, 125
+  orig: 381, 200
+  offset: 128, 35
+  index: -1
+card_renshu_jieyin-00012
+  rotate: false
+  xy: 223, 86
+  size: 214, 136
+  orig: 381, 200
+  offset: 123, 30
+  index: -1
+card_renshu_jieyin-00013
+  rotate: false
+  xy: 0, 84
+  size: 223, 138
+  orig: 381, 200
+  offset: 113, 35
+  index: -1
+card_renshu_jieyin-00014
+  rotate: false
+  xy: 1320, 0
+  size: 215, 139
+  orig: 381, 200
+  offset: 106, 40
+  index: -1
+card_renshu_jieyin-00015
+  rotate: false
+  xy: 849, 113
+  size: 196, 109
+  orig: 381, 200
+  offset: 102, 43
+  index: -1
+card_renshu_jieyin-00016
+  rotate: false
+  xy: 747, 3
+  size: 200, 103
+  orig: 381, 200
+  offset: 94, 45
+  index: -1
+card_renshu_jieyin-00017
+  rotate: false
+  xy: 1232, 139
+  size: 170, 83
+  orig: 381, 200
+  offset: 120, 46
+  index: -1
+card_renshu_jieyin-00018
+  rotate: false
+  xy: 1535, 60
+  size: 167, 81
+  orig: 381, 200
+  offset: 121, 45
+  index: -1

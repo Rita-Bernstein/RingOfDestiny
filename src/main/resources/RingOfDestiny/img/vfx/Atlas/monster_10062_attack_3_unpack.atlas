@@ -1,0 +1,62 @@
+
+monster_10062_attack_3_unpack.png
+size: 1559,448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10062_attack_3-00000
+  rotate: false
+  xy: 436, 0
+  size: 430, 448
+  orig: 509, 489
+  offset: 44, 15
+  index: -1
+monster_10062_attack_3-00001
+  rotate: true
+  xy: 0, 6
+  size: 442, 436
+  orig: 509, 489
+  offset: 36, 11
+  index: -1
+monster_10062_attack_3-00002
+  rotate: false
+  xy: 866, 49
+  size: 293, 399
+  orig: 509, 489
+  offset: 44, 23
+  index: -1
+monster_10062_attack_3-00003
+  rotate: true
+  xy: 1159, 182
+  size: 266, 214
+  orig: 509, 489
+  offset: 35, 41
+  index: -1
+monster_10062_attack_3-00004
+  rotate: true
+  xy: 1373, 182
+  size: 266, 186
+  orig: 509, 489
+  offset: 35, 55
+  index: -1
+monster_10062_attack_3-00005
+  rotate: false
+  xy: 1159, 67
+  size: 192, 115
+  orig: 509, 489
+  offset: 79, 82
+  index: -1
+monster_10062_attack_3-00006
+  rotate: false
+  xy: 1351, 91
+  size: 192, 91
+  orig: 509, 489
+  offset: 79, 88
+  index: -1
+monster_10062_attack_3-00007
+  rotate: false
+  xy: 1351, 7
+  size: 184, 84
+  orig: 509, 489
+  offset: 84, 88
+  index: -1

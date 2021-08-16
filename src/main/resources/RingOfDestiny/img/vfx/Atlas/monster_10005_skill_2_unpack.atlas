@@ -1,0 +1,55 @@
+
+monster_10005_skill_2_unpack.png
+size: 596,306
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10005_skill_2-00000
+  rotate: false
+  xy: 239, 159
+  size: 245, 147
+  orig: 360, 221
+  offset: 64, 31
+  index: -1
+monster_10005_skill_2-00001
+  rotate: false
+  xy: 0, 135
+  size: 239, 171
+  orig: 360, 221
+  offset: 46, 21
+  index: -1
+monster_10005_skill_2-00002
+  rotate: false
+  xy: 239, 0
+  size: 213, 159
+  orig: 360, 221
+  offset: 46, 29
+  index: -1
+monster_10005_skill_2-00003
+  rotate: true
+  xy: 452, 8
+  size: 151, 144
+  orig: 360, 221
+  offset: 55, 36
+  index: -1
+monster_10005_skill_2-00004
+  rotate: false
+  xy: 0, 11
+  size: 128, 124
+  orig: 360, 221
+  offset: 63, 45
+  index: -1
+monster_10005_skill_2-00005
+  rotate: true
+  xy: 484, 191
+  size: 115, 104
+  orig: 360, 221
+  offset: 68, 53
+  index: -1
+monster_10005_skill_2-00006
+  rotate: true
+  xy: 128, 34
+  size: 101, 67
+  orig: 360, 221
+  offset: 72, 70
+  index: -1

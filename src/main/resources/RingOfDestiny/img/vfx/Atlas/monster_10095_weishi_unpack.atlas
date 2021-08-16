@@ -1,0 +1,62 @@
+
+monster_10095_weishi_unpack.png
+size: 956,569
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10095_weishi-00000
+  rotate: true
+  xy: 704, 258
+  size: 311, 249
+  orig: 500, 433
+  offset: 108, 56
+  index: -1
+monster_10095_weishi-00001
+  rotate: false
+  xy: 0, 0
+  size: 398, 274
+  orig: 500, 433
+  offset: 67, 66
+  index: -1
+monster_10095_weishi-00002
+  rotate: true
+  xy: 417, 161
+  size: 408, 287
+  orig: 500, 433
+  offset: 62, 57
+  index: -1
+monster_10095_weishi-00003
+  rotate: false
+  xy: 0, 274
+  size: 417, 295
+  orig: 500, 433
+  offset: 58, 52
+  index: -1
+monster_10095_weishi-00004
+  rotate: true
+  xy: 704, 67
+  size: 191, 153
+  orig: 500, 433
+  offset: 126, 57
+  index: -1
+monster_10095_weishi-00005
+  rotate: false
+  xy: 398, 46
+  size: 158, 115
+  orig: 500, 433
+  offset: 137, 76
+  index: -1
+monster_10095_weishi-00006
+  rotate: true
+  xy: 857, 122
+  size: 136, 99
+  orig: 500, 433
+  offset: 156, 97
+  index: -1
+monster_10095_weishi-00007
+  rotate: true
+  xy: 857, 0
+  size: 122, 94
+  orig: 500, 433
+  offset: 158, 108
+  index: -1

@@ -1,0 +1,132 @@
+
+effect_house_stove_unpack.png
+size: 1951,1131
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_house_stove-00000
+  rotate: true
+  xy: 631, 755
+  size: 376, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00001
+  rotate: true
+  xy: 0, 377
+  size: 377, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00002
+  rotate: true
+  xy: 630, 1
+  size: 376, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00003
+  rotate: true
+  xy: 0, 0
+  size: 377, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00004
+  rotate: true
+  xy: 315, 377
+  size: 377, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00005
+  rotate: true
+  xy: 0, 754
+  size: 377, 316
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00006
+  rotate: true
+  xy: 1261, 756
+  size: 375, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00007
+  rotate: true
+  xy: 945, 379
+  size: 376, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00008
+  rotate: true
+  xy: 316, 754
+  size: 377, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00009
+  rotate: true
+  xy: 946, 755
+  size: 376, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00010
+  rotate: true
+  xy: 1576, 756
+  size: 375, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00011
+  rotate: true
+  xy: 945, 3
+  size: 376, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00012
+  rotate: false
+  xy: 1260, 440
+  size: 376, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00013
+  rotate: true
+  xy: 315, 0
+  size: 377, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00014
+  rotate: true
+  xy: 1636, 381
+  size: 375, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00015
+  rotate: false
+  xy: 1260, 125
+  size: 375, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00016
+  rotate: true
+  xy: 1635, 6
+  size: 375, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1
+effect_house_stove-00017
+  rotate: true
+  xy: 630, 377
+  size: 377, 315
+  orig: 450, 400
+  offset: 41, 30
+  index: -1

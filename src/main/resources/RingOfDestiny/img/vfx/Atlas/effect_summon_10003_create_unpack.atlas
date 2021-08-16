@@ -1,0 +1,132 @@
+
+effect_summon_10003_create_unpack.png
+size: 769,530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_summon_10003_create-00000
+  rotate: false
+  xy: 653, 64
+  size: 113, 148
+  orig: 250, 250
+  offset: 65, 40
+  index: -1
+effect_summon_10003_create-00001
+  rotate: false
+  xy: 540, 372
+  size: 125, 158
+  orig: 250, 250
+  offset: 63, 35
+  index: -1
+effect_summon_10003_create-00002
+  rotate: false
+  xy: 407, 363
+  size: 133, 167
+  orig: 250, 250
+  offset: 59, 31
+  index: -1
+effect_summon_10003_create-00003
+  rotate: false
+  xy: 271, 8
+  size: 136, 171
+  orig: 250, 250
+  offset: 58, 30
+  index: -1
+effect_summon_10003_create-00004
+  rotate: false
+  xy: 136, 3
+  size: 135, 174
+  orig: 250, 250
+  offset: 58, 29
+  index: -1
+effect_summon_10003_create-00005
+  rotate: false
+  xy: 134, 177
+  size: 135, 176
+  orig: 250, 250
+  offset: 58, 28
+  index: -1
+effect_summon_10003_create-00006
+  rotate: false
+  xy: 135, 354
+  size: 135, 176
+  orig: 250, 250
+  offset: 57, 28
+  index: -1
+effect_summon_10003_create-00007
+  rotate: false
+  xy: 0, 353
+  size: 135, 177
+  orig: 250, 250
+  offset: 56, 28
+  index: -1
+effect_summon_10003_create-00008
+  rotate: false
+  xy: 269, 179
+  size: 134, 175
+  orig: 250, 250
+  offset: 56, 29
+  index: -1
+effect_summon_10003_create-00009
+  rotate: false
+  xy: 0, 0
+  size: 136, 175
+  orig: 250, 250
+  offset: 54, 30
+  index: -1
+effect_summon_10003_create-00010
+  rotate: false
+  xy: 403, 182
+  size: 131, 177
+  orig: 250, 250
+  offset: 57, 31
+  index: -1
+effect_summon_10003_create-00011
+  rotate: false
+  xy: 0, 175
+  size: 134, 178
+  orig: 250, 250
+  offset: 55, 31
+  index: -1
+effect_summon_10003_create-00012
+  rotate: false
+  xy: 270, 359
+  size: 137, 171
+  orig: 250, 250
+  offset: 53, 32
+  index: -1
+effect_summon_10003_create-00013
+  rotate: false
+  xy: 407, 16
+  size: 132, 166
+  orig: 250, 250
+  offset: 58, 33
+  index: -1
+effect_summon_10003_create-00014
+  rotate: false
+  xy: 534, 197
+  size: 119, 166
+  orig: 250, 250
+  offset: 67, 35
+  index: -1
+effect_summon_10003_create-00015
+  rotate: false
+  xy: 653, 212
+  size: 112, 160
+  orig: 250, 250
+  offset: 69, 41
+  index: -1
+effect_summon_10003_create-00016
+  rotate: false
+  xy: 539, 51
+  size: 108, 146
+  orig: 250, 250
+  offset: 68, 52
+  index: -1
+effect_summon_10003_create-00017
+  rotate: false
+  xy: 665, 402
+  size: 104, 128
+  orig: 250, 250
+  offset: 68, 70
+  index: -1

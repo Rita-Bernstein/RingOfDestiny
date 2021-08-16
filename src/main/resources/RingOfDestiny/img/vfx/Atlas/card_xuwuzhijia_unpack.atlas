@@ -1,0 +1,13 @@
+
+card_xuwuzhijia_unpack.png
+size: 425,720
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_xuwuzhijia-00000
+  rotate: false
+  xy: 0, 0
+  size: 425, 720
+  orig: 450, 720
+  offset: 2, 0
+  index: -1

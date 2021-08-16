@@ -1,0 +1,174 @@
+
+player_3_khorium_light_blue_unpack.png
+size: 1404,234
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+player_3_khorium_light_blue-00000
+  rotate: true
+  xy: 0, 115
+  size: 119, 118
+  orig: 120, 120
+  offset: 1, 0
+  index: -1
+player_3_khorium_light_blue-00001
+  rotate: false
+  xy: 236, 116
+  size: 118, 118
+  orig: 120, 120
+  offset: 2, 0
+  index: -1
+player_3_khorium_light_blue-00002
+  rotate: false
+  xy: 590, 116
+  size: 117, 118
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00003
+  rotate: true
+  xy: 468, 0
+  size: 116, 118
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00004
+  rotate: true
+  xy: 349, 0
+  size: 116, 119
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00005
+  rotate: false
+  xy: 354, 116
+  size: 118, 118
+  orig: 120, 120
+  offset: 2, 0
+  index: -1
+player_3_khorium_light_blue-00006
+  rotate: false
+  xy: 707, 116
+  size: 117, 118
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00007
+  rotate: false
+  xy: 117, 0
+  size: 116, 115
+  orig: 120, 120
+  offset: 4, 0
+  index: -1
+player_3_khorium_light_blue-00008
+  rotate: true
+  xy: 586, 0
+  size: 116, 118
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00009
+  rotate: false
+  xy: 824, 116
+  size: 117, 118
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00010
+  rotate: false
+  xy: 1287, 1
+  size: 113, 115
+  orig: 120, 120
+  offset: 6, 2
+  index: -1
+player_3_khorium_light_blue-00011
+  rotate: true
+  xy: 822, 0
+  size: 116, 117
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00012
+  rotate: false
+  xy: 1173, 2
+  size: 114, 114
+  orig: 120, 120
+  offset: 5, 1
+  index: -1
+player_3_khorium_light_blue-00013
+  rotate: true
+  xy: 233, 1
+  size: 114, 116
+  orig: 120, 120
+  offset: 5, 0
+  index: -1
+player_3_khorium_light_blue-00014
+  rotate: false
+  xy: 1292, 120
+  size: 112, 114
+  orig: 120, 120
+  offset: 5, 1
+  index: -1
+player_3_khorium_light_blue-00015
+  rotate: true
+  xy: 939, 0
+  size: 116, 117
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00016
+  rotate: true
+  xy: 704, 0
+  size: 116, 118
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00017
+  rotate: true
+  xy: 0, 0
+  size: 115, 117
+  orig: 120, 120
+  offset: 4, 0
+  index: -1
+player_3_khorium_light_blue-00018
+  rotate: false
+  xy: 1056, 0
+  size: 117, 116
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00019
+  rotate: true
+  xy: 118, 115
+  size: 119, 118
+  orig: 120, 120
+  offset: 1, 0
+  index: -1
+player_3_khorium_light_blue-00020
+  rotate: false
+  xy: 941, 116
+  size: 117, 118
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00021
+  rotate: false
+  xy: 1058, 116
+  size: 117, 118
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00022
+  rotate: false
+  xy: 1175, 116
+  size: 117, 118
+  orig: 120, 120
+  offset: 3, 0
+  index: -1
+player_3_khorium_light_blue-00023
+  rotate: false
+  xy: 472, 116
+  size: 118, 118
+  orig: 120, 120
+  offset: 2, 0
+  index: -1
