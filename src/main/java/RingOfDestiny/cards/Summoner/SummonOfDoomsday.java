@@ -5,10 +5,13 @@ import RingOfDestiny.actions.Summoner.UseSoulStoneAction;
 import RingOfDestiny.cards.AbstractSummonerCard;
 import RingOfDestiny.patches.CustomTagsEnum;
 import RingOfDestiny.powers.Summoner.SummonOfDoomsdayPower;
+import RingOfDestiny.vfx.AbstractAtlasGameEffect;
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -21,7 +24,6 @@ public class SummonOfDoomsday extends AbstractSummonerCard {
     private static final CardTarget TARGET = CardTarget.SELF;
 
 
-
     public SummonOfDoomsday() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.magicNumber = this.baseMagicNumber = 1;
@@ -31,8 +33,9 @@ public class SummonOfDoomsday extends AbstractSummonerCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-       addToBot(new UseSoulStoneAction(1));
-       addToBot(new ApplyPowerAction(p,p,new SummonOfDoomsdayPower(p,this.magicNumber),this.magicNumber));
+        addToBot(new UseSoulStoneAction(1));
+        addToBot(new VFXAction(new AbstractAtlasGameEffect("buff_morbiaoji", p.hb.cX, p.hb.cY, Settings.scale)));
+        addToBot(new ApplyPowerAction(p, p, new SummonOfDoomsdayPower(p, this.magicNumber), this.magicNumber));
     }
 
     public AbstractCard makeCopy() {

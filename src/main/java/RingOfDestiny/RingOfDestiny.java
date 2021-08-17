@@ -421,6 +421,7 @@ public class RingOfDestiny
         BaseMod.addAudio(makeID("ZEROShadow"), assetPath("/audio/sound/combat/ZEROShadow.wav"));
 
         BaseMod.addAudio(makeID("FruitStall"), assetPath("/audio/sound/events/FruitStall.wav"));
+
     }
 
 

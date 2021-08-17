@@ -38,9 +38,12 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
         ArrayList<LayerAnimation> layerAnimationList = new ArrayList<>();
 
         LayerAnimation layerAnimation = new LayerAnimation();
-
         layerAnimation.spriteSheetId = id;
         layerAnimation.loop = loop;
+        layerAnimation.atlas = atlas;
+        layerAnimation.flipX = false;
+        layerAnimation.flipY = false;
+
         System.out.println(atlas.getRegions().size);
         ArrayList<Frame> frames = new ArrayList<>();
         for (int i = 0; i < atlas.getRegions().size; i++) {
@@ -66,7 +69,7 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
 
 
     public AbstractAtlasGameEffect(String id, float x, float y, boolean loop) {
-        this(id, x, y, 1.0f, 3, loop);
+        this(id, x, y, Settings.scale, 3, loop);
     }
 
     public AbstractAtlasGameEffect(String id, float x, float y, float scale) {
@@ -119,133 +122,5 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
     public static class Info {
         int fps;
         String id;
-    }
-
-
-    public class Animation {
-        ArrayList<LayerAnimation> layerAnimations;
-        boolean isDone = false;
-        float xPosition = 0;
-        float yPosition = 0;
-
-        void update() {
-            if (!isDone) {
-                for (LayerAnimation layerAnimation : layerAnimations) {
-                    layerAnimation.update();
-
-                    if (layerAnimation.isDone) {
-                        this.isDone = true;
-                    }
-                }
-            }
-        }
-
-        void render(SpriteBatch sb) {
-            for (LayerAnimation layerAnimation : layerAnimations) {
-                layerAnimation.render(sb);
-            }
-        }
-    }
-
-    private class LayerAnimation {
-        ArrayList<Frame> frames;
-        Frame currFrame;
-        int currFrameIndex = 0;
-        int currDelay = 0;
-        String spriteSheetId;
-        float xPosition = 0;
-        float yPosition = 0;
-        boolean loop = false;
-        boolean isDone = false;
-
-        void update() {
-            if (currFrameIndex >= frames.size() && !loop) {
-                isDone = true;
-                return;
-            }
-
-
-            currFrame = frames.get(currFrameIndex).makeCopy();
-
-            if (currDelay >= currFrame.delay) {
-                currFrameIndex++;
-                currDelay = 0;
-            }
-
-            if (currFrameIndex >= frames.size()) {
-                currFrameIndex = 0;
-            }
-        }
-
-        void render(SpriteBatch sb) {
-            if (currFrameIndex >= frames.size()) {
-                return;
-            }
-            if (currFrame != null) {
-                sb.setColor(currFrame.tint);
-
-                AtlasRegion img = AbstractAtlasGameEffect.this.atlas.findRegion(spriteSheetId + String.format("-%05d", currFrameIndex));
-
-                if (img.rotate) {
-                    sb.draw(img.getTexture(),
-                            AbstractAtlasGameEffect.this.curAnimation.xPosition + AbstractAtlasGameEffect.this.curAnimation.layerAnimations.get(0).xPosition
-                                    + img.offsetX * Settings.scale - currFrame.originalX,
-
-                            AbstractAtlasGameEffect.this.curAnimation.yPosition + AbstractAtlasGameEffect.this.curAnimation.layerAnimations.get(0).yPosition
-                                    + img.offsetY * Settings.scale + img.packedWidth * Settings.scale + currFrame.originalY,
-                            0.0f,
-                            0.0f,
-                            img.packedWidth,
-                            img.packedHeight,
-                            currFrame.xScale, currFrame.yScale,
-                            -90,
-                            img.getRegionX(), img.getRegionY(),
-                            img.getRegionWidth(), img.getRegionHeight(),
-                            AbstractAtlasGameEffect.this.flipX, AbstractAtlasGameEffect.this.flipY
-                    );
-                } else {
-                    sb.draw(img.getTexture(),
-                            AbstractAtlasGameEffect.this.curAnimation.xPosition + AbstractAtlasGameEffect.this.curAnimation.layerAnimations.get(0).xPosition
-                                    + img.offsetX * Settings.scale + currFrame.originalX,
-
-                            AbstractAtlasGameEffect.this.curAnimation.yPosition + AbstractAtlasGameEffect.this.curAnimation.layerAnimations.get(0).yPosition
-                                    + img.offsetY * Settings.scale - currFrame.originalY,
-                            0.0f,
-                            0.0f,
-                            img.packedWidth,
-                            img.packedHeight,
-                            currFrame.xScale, currFrame.yScale,
-                            0,
-                            img.getRegionX(), img.getRegionY(),
-                            img.getRegionWidth(), img.getRegionHeight(),
-                            AbstractAtlasGameEffect.this.flipX, AbstractAtlasGameEffect.this.flipY
-                    );
-                }
-
-
-            }
-        }
-    }
-
-    private static class Frame {
-        float originalX = 0.0f;
-        float originalY = 0.0f;
-        float xScale;
-        float yScale;
-        int delay;
-        boolean visible;
-        Color tint;
-        int rotation;
-
-        Frame makeCopy() {
-            Frame ret = new Frame();
-            ret.xScale = this.xScale;
-            ret.yScale = this.yScale;
-            ret.delay = this.delay;
-            ret.visible = this.visible;
-            ret.tint = this.tint.cpy();
-            ret.rotation = this.rotation;
-            return ret;
-        }
     }
 }
