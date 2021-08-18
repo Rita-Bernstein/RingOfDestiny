@@ -1,145 +1,145 @@
 
 ui_loading_unpack.png
-size: 537,636
+size: 662,531
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_loading-00000
-  rotate: true
-  xy: 0, 514
+  rotate: false
+  xy: 540, 402
   size: 122, 129
   orig: 160, 152
   offset: 24, 15
   index: -1
 ui_loading-00001
   rotate: false
-  xy: 404, 131
+  xy: 0, 153
   size: 128, 128
   orig: 160, 152
   offset: 17, 17
   index: -1
 ui_loading-00002
   rotate: false
-  xy: 404, 385
+  xy: 407, 405
   size: 133, 126
   orig: 160, 152
   offset: 11, 19
   index: -1
 ui_loading-00003
   rotate: false
-  xy: 134, 261
+  xy: 0, 281
   size: 135, 126
   orig: 160, 152
   offset: 10, 20
   index: -1
 ui_loading-00004
   rotate: false
-  xy: 400, 511
+  xy: 137, 406
   size: 135, 125
   orig: 160, 152
   offset: 9, 20
   index: -1
 ui_loading-00005
   rotate: false
-  xy: 0, 262
+  xy: 135, 280
   size: 134, 126
   orig: 160, 152
   offset: 8, 18
   index: -1
 ui_loading-00006
-  rotate: true
-  xy: 399, 0
+  rotate: false
+  xy: 260, 148
   size: 131, 132
   orig: 160, 152
   offset: 10, 11
   index: -1
 ui_loading-00007
-  rotate: true
-  xy: 0, 135
+  rotate: false
+  xy: 0, 19
   size: 127, 134
   orig: 160, 152
   offset: 11, 7
   index: -1
 ui_loading-00008
-  rotate: true
-  xy: 0, 388
+  rotate: false
+  xy: 127, 16
   size: 125, 134
   orig: 160, 152
   offset: 11, 6
   index: -1
 ui_loading-00009
-  rotate: true
-  xy: 269, 260
+  rotate: false
+  xy: 380, 11
   size: 126, 135
   orig: 160, 152
   offset: 11, 5
   index: -1
 ui_loading-00010
-  rotate: true
-  xy: 404, 259
+  rotate: false
+  xy: 391, 146
   size: 126, 132
   orig: 160, 152
   offset: 12, 6
   index: -1
 ui_loading-00011
   rotate: false
-  xy: 134, 5
+  xy: 128, 150
   size: 132, 130
   orig: 160, 152
   offset: 13, 6
   index: -1
 ui_loading-00012
   rotate: false
-  xy: 269, 133
+  xy: 404, 278
   size: 135, 127
   orig: 160, 152
   offset: 14, 7
   index: -1
 ui_loading-00013
   rotate: false
-  xy: 134, 387
+  xy: 272, 406
   size: 135, 125
   orig: 160, 152
   offset: 15, 8
   index: -1
 ui_loading-00014
   rotate: false
-  xy: 263, 512
+  xy: 0, 407
   size: 137, 124
   orig: 160, 152
   offset: 15, 8
   index: -1
 ui_loading-00015
   rotate: false
-  xy: 134, 135
+  xy: 269, 280
   size: 135, 126
   orig: 160, 152
   offset: 17, 9
   index: -1
 ui_loading-00016
-  rotate: true
-  xy: 266, 3
+  rotate: false
+  xy: 517, 135
   size: 130, 133
   orig: 160, 152
   offset: 20, 9
   index: -1
 ui_loading-00017
-  rotate: true
-  xy: 0, 7
+  rotate: false
+  xy: 252, 14
   size: 128, 134
   orig: 160, 152
   offset: 21, 12
   index: -1
 ui_loading-00018
-  rotate: true
-  xy: 269, 386
+  rotate: false
+  xy: 506, 0
   size: 125, 135
   orig: 160, 152
   offset: 24, 12
   index: -1
 ui_loading-00019
-  rotate: true
-  xy: 129, 513
+  rotate: false
+  xy: 539, 268
   size: 123, 134
   orig: 160, 152
   offset: 24, 12

@@ -1,0 +1,195 @@
+
+button_card_draw_unpack.png
+size: 665,551
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button_card_draw-00000
+  rotate: false
+  xy: 572, 197
+  size: 77, 67
+  orig: 382, 382
+  offset: 142, 172
+  index: -1
+button_card_draw-00001
+  rotate: false
+  xy: 441, 2
+  size: 80, 73
+  orig: 382, 382
+  offset: 141, 166
+  index: -1
+button_card_draw-00002
+  rotate: false
+  xy: 547, 28
+  size: 83, 81
+  orig: 382, 382
+  offset: 140, 160
+  index: -1
+button_card_draw-00003
+  rotate: false
+  xy: 547, 109
+  size: 85, 88
+  orig: 382, 382
+  offset: 140, 156
+  index: -1
+button_card_draw-00004
+  rotate: false
+  xy: 549, 264
+  size: 89, 90
+  orig: 382, 382
+  offset: 139, 155
+  index: -1
+button_card_draw-00005
+  rotate: false
+  xy: 350, 13
+  size: 91, 93
+  orig: 382, 382
+  offset: 138, 153
+  index: -1
+button_card_draw-00006
+  rotate: false
+  xy: 121, 1
+  size: 92, 96
+  orig: 382, 382
+  offset: 138, 152
+  index: -1
+button_card_draw-00007
+  rotate: false
+  xy: 454, 75
+  size: 93, 122
+  orig: 382, 382
+  offset: 137, 129
+  index: -1
+button_card_draw-00008
+  rotate: false
+  xy: 560, 418
+  size: 98, 133
+  orig: 382, 382
+  offset: 133, 119
+  index: -1
+button_card_draw-00009
+  rotate: false
+  xy: 462, 415
+  size: 98, 136
+  orig: 382, 382
+  offset: 133, 118
+  index: -1
+button_card_draw-00010
+  rotate: false
+  xy: 447, 263
+  size: 102, 141
+  orig: 382, 382
+  offset: 132, 114
+  index: -1
+button_card_draw-00011
+  rotate: false
+  xy: 351, 106
+  size: 103, 146
+  orig: 382, 382
+  offset: 133, 111
+  index: -1
+button_card_draw-00012
+  rotate: false
+  xy: 357, 404
+  size: 105, 147
+  orig: 382, 382
+  offset: 133, 111
+  index: -1
+button_card_draw-00013
+  rotate: false
+  xy: 342, 252
+  size: 105, 148
+  orig: 382, 382
+  offset: 134, 111
+  index: -1
+button_card_draw-00014
+  rotate: false
+  xy: 122, 97
+  size: 107, 150
+  orig: 382, 382
+  offset: 134, 111
+  index: -1
+button_card_draw-00015
+  rotate: false
+  xy: 123, 247
+  size: 108, 151
+  orig: 382, 382
+  offset: 135, 111
+  index: -1
+button_card_draw-00016
+  rotate: false
+  xy: 233, 248
+  size: 109, 152
+  orig: 382, 382
+  offset: 135, 112
+  index: -1
+button_card_draw-00017
+  rotate: false
+  xy: 124, 398
+  size: 109, 153
+  orig: 382, 382
+  offset: 136, 112
+  index: -1
+button_card_draw-00018
+  rotate: false
+  xy: 0, 398
+  size: 124, 153
+  orig: 382, 382
+  offset: 137, 112
+  index: -1
+button_card_draw-00019
+  rotate: false
+  xy: 233, 400
+  size: 124, 151
+  orig: 382, 382
+  offset: 137, 113
+  index: -1
+button_card_draw-00020
+  rotate: false
+  xy: 0, 248
+  size: 123, 150
+  orig: 382, 382
+  offset: 138, 113
+  index: -1
+button_card_draw-00021
+  rotate: false
+  xy: 0, 98
+  size: 122, 150
+  orig: 382, 382
+  offset: 140, 113
+  index: -1
+button_card_draw-00022
+  rotate: false
+  xy: 229, 50
+  size: 121, 122
+  orig: 382, 382
+  offset: 142, 116
+  index: -1
+button_card_draw-00023
+  rotate: false
+  xy: 0, 0
+  size: 121, 98
+  orig: 382, 382
+  offset: 141, 139
+  index: -1
+button_card_draw-00024
+  rotate: false
+  xy: 231, 172
+  size: 120, 76
+  orig: 382, 382
+  offset: 139, 160
+  index: -1
+button_card_draw-00025
+  rotate: false
+  xy: 454, 197
+  size: 118, 66
+  orig: 382, 382
+  offset: 138, 168
+  index: -1
+button_card_draw-00026
+  rotate: false
+  xy: 549, 354
+  size: 116, 61
+  orig: 382, 382
+  offset: 137, 171
+  index: -1

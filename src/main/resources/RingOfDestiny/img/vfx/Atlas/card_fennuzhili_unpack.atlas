@@ -1,61 +1,61 @@
 
 card_fennuzhili_unpack.png
-size: 568,296
+size: 330,480
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_fennuzhili-00000
-  rotate: true
-  xy: 515, 239
+  rotate: false
+  xy: 273, 69
   size: 57, 53
   orig: 500, 500
   offset: 229, 219
   index: -1
 card_fennuzhili-00001
   rotate: false
-  xy: 0, 116
+  xy: 0, 300
   size: 205, 180
   orig: 500, 500
   offset: 152, 160
   index: -1
 card_fennuzhili-00002
   rotate: false
-  xy: 205, 141
+  xy: 0, 145
   size: 171, 155
   orig: 500, 500
   offset: 167, 171
   index: -1
 card_fennuzhili-00003
   rotate: false
-  xy: 376, 163
+  xy: 171, 122
   size: 139, 133
   orig: 500, 500
   offset: 184, 183
   index: -1
 card_fennuzhili-00004
   rotate: false
-  xy: 232, 19
+  xy: 0, 23
   size: 137, 122
   orig: 500, 500
   offset: 188, 187
   index: -1
 card_fennuzhili-00005
   rotate: false
-  xy: 376, 41
+  xy: 137, 0
   size: 136, 122
   orig: 500, 500
   offset: 190, 186
   index: -1
 card_fennuzhili-00006
   rotate: false
-  xy: 0, 0
+  xy: 205, 364
   size: 123, 116
   orig: 500, 500
   offset: 198, 190
   index: -1
 card_fennuzhili-00007
-  rotate: true
-  xy: 123, 6
+  rotate: false
+  xy: 205, 255
   size: 110, 109
   orig: 500, 500
   offset: 201, 194

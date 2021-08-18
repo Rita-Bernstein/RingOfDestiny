@@ -1,68 +1,68 @@
 
 aoe_2_unpack.png
-size: 1758,1564
+size: 2014,1993
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 aoe_2-00000
-  rotate: true
-  xy: 0, 248
+  rotate: false
+  xy: 0, 1428
   size: 1316, 218
   orig: 1500, 600
   offset: 19, 184
   index: -1
 aoe_2-00001
-  rotate: true
-  xy: 218, 318
+  rotate: false
+  xy: 0, 1646
   size: 1246, 347
   orig: 1500, 600
   offset: 229, 103
   index: -1
 aoe_2-00002
-  rotate: true
-  xy: 1538, 205
+  rotate: false
+  xy: 0, 977
   size: 1128, 220
   orig: 1500, 600
   offset: 254, 159
   index: -1
 aoe_2-00003
   rotate: false
-  xy: 565, 1333
+  xy: 0, 1197
   size: 1154, 231
   orig: 1500, 600
   offset: 254, 157
   index: -1
 aoe_2-00004
-  rotate: true
-  xy: 565, 252
+  rotate: false
+  xy: 0, 733
   size: 1081, 244
   orig: 1500, 600
   offset: 357, 156
   index: -1
 aoe_2-00005
-  rotate: true
-  xy: 809, 276
+  rotate: false
+  xy: 0, 244
   size: 1057, 241
   orig: 1500, 600
   offset: 384, 167
   index: -1
 aoe_2-00006
   rotate: false
-  xy: 0, 0
+  xy: 0, 485
   size: 1053, 248
   orig: 1500, 600
   offset: 388, 167
   index: -1
 aoe_2-00007
-  rotate: true
-  xy: 1050, 303
+  rotate: false
+  xy: 0, 0
   size: 1030, 244
   orig: 1500, 600
   offset: 413, 166
   index: -1
 aoe_2-00008
-  rotate: true
-  xy: 1294, 349
+  rotate: false
+  xy: 1030, 0
   size: 984, 244
   orig: 1500, 600
   offset: 460, 166

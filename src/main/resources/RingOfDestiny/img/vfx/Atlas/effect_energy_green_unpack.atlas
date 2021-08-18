@@ -1,0 +1,111 @@
+
+effect_energy_green_unpack.png
+size: 352,442
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_energy_green-00000
+  rotate: false
+  xy: 236, 9
+  size: 116, 74
+  orig: 500, 500
+  offset: 195, 178
+  index: -1
+effect_energy_green-00001
+  rotate: false
+  xy: 118, 83
+  size: 113, 81
+  orig: 500, 500
+  offset: 195, 178
+  index: -1
+effect_energy_green-00002
+  rotate: false
+  xy: 118, 164
+  size: 113, 87
+  orig: 500, 500
+  offset: 197, 178
+  index: -1
+effect_energy_green-00003
+  rotate: false
+  xy: 235, 250
+  size: 117, 94
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00004
+  rotate: false
+  xy: 118, 341
+  size: 117, 101
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00005
+  rotate: false
+  xy: 0, 333
+  size: 118, 109
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00006
+  rotate: false
+  xy: 231, 83
+  size: 118, 83
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00007
+  rotate: false
+  xy: 0, 0
+  size: 118, 74
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00008
+  rotate: false
+  xy: 118, 5
+  size: 118, 78
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00009
+  rotate: false
+  xy: 0, 74
+  size: 118, 80
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00010
+  rotate: false
+  xy: 0, 154
+  size: 118, 87
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00011
+  rotate: false
+  xy: 0, 241
+  size: 118, 92
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00012
+  rotate: false
+  xy: 235, 344
+  size: 117, 98
+  orig: 500, 500
+  offset: 194, 178
+  index: -1
+effect_energy_green-00013
+  rotate: false
+  xy: 231, 166
+  size: 118, 84
+  orig: 500, 500
+  offset: 193, 178
+  index: -1
+effect_energy_green-00014
+  rotate: false
+  xy: 118, 251
+  size: 116, 90
+  orig: 500, 500
+  offset: 195, 178
+  index: -1

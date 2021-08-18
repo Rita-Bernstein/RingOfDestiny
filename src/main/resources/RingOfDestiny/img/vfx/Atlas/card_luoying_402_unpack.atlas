@@ -1,6 +1,6 @@
 
 card_luoying_402_unpack.png
-size: 883,571
+size: 466,1120
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -13,56 +13,56 @@ card_luoying_402-00000
   index: -1
 card_luoying_402-00001
   rotate: false
-  xy: 379, 188
+  xy: 194, 737
   size: 188, 383
   orig: 390, 434
   offset: 101, 36
   index: -1
 card_luoying_402-00002
-  rotate: true
-  xy: 0, 377
+  rotate: false
+  xy: 0, 741
   size: 194, 379
   orig: 390, 434
   offset: 98, 40
   index: -1
 card_luoying_402-00003
   rotate: false
-  xy: 173, 13
+  xy: 0, 377
   size: 184, 364
   orig: 390, 434
   offset: 103, 51
   index: -1
 card_luoying_402-00004
-  rotate: true
-  xy: 357, 26
+  rotate: false
+  xy: 173, 67
   size: 162, 310
   orig: 390, 434
   offset: 114, 57
   index: -1
 card_luoying_402-00005
   rotate: false
-  xy: 698, 281
+  xy: 184, 447
   size: 156, 290
   orig: 390, 434
   offset: 115, 78
   index: -1
 card_luoying_402-00006
   rotate: false
-  xy: 567, 265
+  xy: 335, 141
   size: 131, 306
   orig: 390, 434
   offset: 117, 60
   index: -1
 card_luoying_402-00007
   rotate: false
-  xy: 762, 41
+  xy: 340, 497
   size: 121, 240
   orig: 390, 434
   offset: 119, 120
   index: -1
 card_luoying_402-00008
-  rotate: true
-  xy: 567, 190
+  rotate: false
+  xy: 382, 925
   size: 75, 195
   orig: 390, 434
   offset: 146, 156

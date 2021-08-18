@@ -1,0 +1,111 @@
+
+effect_monster_hand_book_unpack.png
+size: 1338,735
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_hand_book-00000
+  rotate: false
+  xy: 1053, 2
+  size: 240, 245
+  orig: 500, 500
+  offset: 129, 139
+  index: -1
+effect_monster_hand_book-00001
+  rotate: false
+  xy: 0, 248
+  size: 273, 245
+  orig: 500, 500
+  offset: 126, 139
+  index: -1
+effect_monster_hand_book-00002
+  rotate: false
+  xy: 0, 0
+  size: 270, 248
+  orig: 500, 500
+  offset: 129, 139
+  index: -1
+effect_monster_hand_book-00003
+  rotate: false
+  xy: 277, 256
+  size: 265, 246
+  orig: 500, 500
+  offset: 133, 141
+  index: -1
+effect_monster_hand_book-00004
+  rotate: false
+  xy: 0, 493
+  size: 277, 242
+  orig: 500, 500
+  offset: 128, 144
+  index: -1
+effect_monster_hand_book-00005
+  rotate: false
+  xy: 542, 250
+  size: 263, 249
+  orig: 500, 500
+  offset: 134, 146
+  index: -1
+effect_monster_hand_book-00006
+  rotate: false
+  xy: 538, 11
+  size: 260, 239
+  orig: 500, 500
+  offset: 130, 150
+  index: -1
+effect_monster_hand_book-00007
+  rotate: false
+  xy: 1094, 488
+  size: 244, 247
+  orig: 500, 500
+  offset: 125, 151
+  index: -1
+effect_monster_hand_book-00008
+  rotate: false
+  xy: 1065, 247
+  size: 264, 241
+  orig: 500, 500
+  offset: 133, 157
+  index: -1
+effect_monster_hand_book-00009
+  rotate: false
+  xy: 559, 499
+  size: 268, 236
+  orig: 500, 500
+  offset: 131, 163
+  index: -1
+effect_monster_hand_book-00010
+  rotate: false
+  xy: 827, 496
+  size: 267, 239
+  orig: 500, 500
+  offset: 129, 160
+  index: -1
+effect_monster_hand_book-00011
+  rotate: false
+  xy: 805, 248
+  size: 260, 248
+  orig: 500, 500
+  offset: 128, 152
+  index: -1
+effect_monster_hand_book-00012
+  rotate: false
+  xy: 798, 4
+  size: 255, 244
+  orig: 500, 500
+  offset: 133, 152
+  index: -1
+effect_monster_hand_book-00013
+  rotate: false
+  xy: 277, 502
+  size: 282, 233
+  orig: 500, 500
+  offset: 126, 152
+  index: -1
+effect_monster_hand_book-00014
+  rotate: false
+  xy: 273, 27
+  size: 265, 229
+  orig: 500, 500
+  offset: 132, 154
+  index: -1

@@ -1,89 +1,89 @@
 
 ui_alter_ball_unpack.png
-size: 308,907
+size: 306,922
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_alter_ball-00000
-  rotate: true
-  xy: 0, 613
+  rotate: false
+  xy: 0, 469
   size: 148, 157
   orig: 345, 345
   offset: 93, 94
   index: -1
 ui_alter_ball-00001
-  rotate: true
-  xy: 0, 761
+  rotate: false
+  xy: 156, 0
   size: 146, 158
   orig: 345, 345
   offset: 94, 94
   index: -1
 ui_alter_ball-00002
-  rotate: true
-  xy: 0, 466
+  rotate: false
+  xy: 156, 158
   size: 147, 157
   orig: 345, 345
   offset: 95, 96
   index: -1
 ui_alter_ball-00003
   rotate: false
-  xy: 158, 756
+  xy: 0, 626
   size: 150, 151
   orig: 345, 345
   offset: 94, 99
   index: -1
 ui_alter_ball-00004
   rotate: false
-  xy: 156, 155
+  xy: 0, 777
   size: 152, 145
   orig: 345, 345
   offset: 92, 102
   index: -1
 ui_alter_ball-00005
   rotate: false
-  xy: 157, 454
+  xy: 152, 774
   size: 151, 148
   orig: 345, 345
   offset: 94, 100
   index: -1
 ui_alter_ball-00006
   rotate: false
-  xy: 0, 3
+  xy: 0, 315
   size: 155, 154
   orig: 345, 345
   offset: 93, 96
   index: -1
 ui_alter_ball-00007
-  rotate: true
-  xy: 155, 0
+  rotate: false
+  xy: 148, 469
   size: 155, 153
   orig: 345, 345
   offset: 94, 99
   index: -1
 ui_alter_ball-00008
   rotate: false
-  xy: 0, 157
+  xy: 0, 161
   size: 156, 154
   orig: 345, 345
   offset: 92, 100
   index: -1
 ui_alter_ball-00009
   rotate: false
-  xy: 0, 311
+  xy: 0, 6
   size: 156, 155
   orig: 345, 345
   offset: 92, 101
   index: -1
 ui_alter_ball-00010
-  rotate: true
-  xy: 156, 300
+  rotate: false
+  xy: 150, 622
   size: 154, 152
   orig: 345, 345
   offset: 93, 103
   index: -1
 ui_alter_ball-00011
   rotate: false
-  xy: 157, 602
+  xy: 155, 315
   size: 151, 154
   orig: 345, 345
   offset: 93, 101

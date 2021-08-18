@@ -1,208 +1,208 @@
 
 ui_altar_magic_3_unpack.png
-size: 812,110
+size: 1624,55
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_altar_magic_3-00000
-  rotate: false
-  xy: 0, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00028
-  rotate: false
-  xy: 0, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00001
   rotate: false
   xy: 0, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00002
+ui_altar_magic_3-00028
   rotate: false
-  xy: 58, 55
+  xy: 0, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00003
+ui_altar_magic_3-00001
   rotate: false
   xy: 58, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00004
-  rotate: false
-  xy: 116, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00005
+ui_altar_magic_3-00002
   rotate: false
   xy: 116, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00006
-  rotate: false
-  xy: 174, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00007
+ui_altar_magic_3-00003
   rotate: false
   xy: 174, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00008
-  rotate: false
-  xy: 232, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00009
+ui_altar_magic_3-00004
   rotate: false
   xy: 232, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00010
-  rotate: false
-  xy: 290, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00011
+ui_altar_magic_3-00005
   rotate: false
   xy: 290, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00012
-  rotate: false
-  xy: 348, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00013
+ui_altar_magic_3-00006
   rotate: false
   xy: 348, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00014
-  rotate: false
-  xy: 406, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00015
+ui_altar_magic_3-00007
   rotate: false
   xy: 406, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00016
-  rotate: false
-  xy: 464, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00017
+ui_altar_magic_3-00008
   rotate: false
   xy: 464, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00018
-  rotate: false
-  xy: 522, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00019
+ui_altar_magic_3-00009
   rotate: false
   xy: 522, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00020
-  rotate: false
-  xy: 580, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00021
+ui_altar_magic_3-00010
   rotate: false
   xy: 580, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00022
-  rotate: false
-  xy: 638, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00023
+ui_altar_magic_3-00011
   rotate: false
   xy: 638, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
-ui_altar_magic_3-00024
-  rotate: false
-  xy: 696, 55
-  size: 58, 55
-  orig: 120, 120
-  offset: 31, 33
-  index: -1
-ui_altar_magic_3-00025
+ui_altar_magic_3-00012
   rotate: false
   xy: 696, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
+ui_altar_magic_3-00013
+  rotate: false
+  xy: 754, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00014
+  rotate: false
+  xy: 812, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00015
+  rotate: false
+  xy: 870, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00016
+  rotate: false
+  xy: 928, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00017
+  rotate: false
+  xy: 986, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00018
+  rotate: false
+  xy: 1044, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00019
+  rotate: false
+  xy: 1102, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00020
+  rotate: false
+  xy: 1160, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00021
+  rotate: false
+  xy: 1218, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00022
+  rotate: false
+  xy: 1276, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00023
+  rotate: false
+  xy: 1334, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00024
+  rotate: false
+  xy: 1392, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
+ui_altar_magic_3-00025
+  rotate: false
+  xy: 1450, 0
+  size: 58, 55
+  orig: 120, 120
+  offset: 31, 33
+  index: -1
 ui_altar_magic_3-00026
   rotate: false
-  xy: 754, 55
+  xy: 1508, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33
   index: -1
 ui_altar_magic_3-00027
   rotate: false
-  xy: 754, 0
+  xy: 1566, 0
   size: 58, 55
   orig: 120, 120
   offset: 31, 33

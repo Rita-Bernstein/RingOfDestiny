@@ -1,0 +1,174 @@
+
+ui_balance_stats_light_unpack.png
+size: 1850,81
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_balance_stats_light-00000
+  rotate: false
+  xy: 0, 6
+  size: 81, 75
+  orig: 500, 500
+  offset: 190, 268
+  index: -1
+ui_balance_stats_light-00001
+  rotate: false
+  xy: 81, 6
+  size: 81, 75
+  orig: 500, 500
+  offset: 211, 260
+  index: -1
+ui_balance_stats_light-00002
+  rotate: false
+  xy: 324, 7
+  size: 81, 74
+  orig: 500, 500
+  offset: 232, 253
+  index: -1
+ui_balance_stats_light-00003
+  rotate: false
+  xy: 162, 6
+  size: 81, 75
+  orig: 500, 500
+  offset: 253, 245
+  index: -1
+ui_balance_stats_light-00004
+  rotate: false
+  xy: 243, 6
+  size: 81, 75
+  orig: 500, 500
+  offset: 274, 237
+  index: -1
+ui_balance_stats_light-00005
+  rotate: false
+  xy: 405, 7
+  size: 81, 74
+  orig: 500, 500
+  offset: 295, 230
+  index: -1
+ui_balance_stats_light-00006
+  rotate: false
+  xy: 1113, 4
+  size: 77, 77
+  orig: 500, 500
+  offset: 301, 218
+  index: -1
+ui_balance_stats_light-00007
+  rotate: false
+  xy: 567, 4
+  size: 78, 77
+  orig: 500, 500
+  offset: 286, 204
+  index: -1
+ui_balance_stats_light-00008
+  rotate: false
+  xy: 645, 4
+  size: 78, 77
+  orig: 500, 500
+  offset: 269, 189
+  index: -1
+ui_balance_stats_light-00009
+  rotate: false
+  xy: 723, 4
+  size: 78, 77
+  orig: 500, 500
+  offset: 252, 175
+  index: -1
+ui_balance_stats_light-00010
+  rotate: false
+  xy: 801, 4
+  size: 78, 77
+  orig: 500, 500
+  offset: 235, 161
+  index: -1
+ui_balance_stats_light-00011
+  rotate: false
+  xy: 879, 4
+  size: 78, 77
+  orig: 500, 500
+  offset: 218, 146
+  index: -1
+ui_balance_stats_light-00012
+  rotate: false
+  xy: 957, 4
+  size: 78, 77
+  orig: 500, 500
+  offset: 201, 132
+  index: -1
+ui_balance_stats_light-00013
+  rotate: false
+  xy: 1035, 4
+  size: 78, 77
+  orig: 500, 500
+  offset: 184, 117
+  index: -1
+ui_balance_stats_light-00014
+  rotate: false
+  xy: 1190, 5
+  size: 76, 76
+  orig: 500, 500
+  offset: 171, 112
+  index: -1
+ui_balance_stats_light-00015
+  rotate: false
+  xy: 1341, 0
+  size: 73, 81
+  orig: 500, 500
+  offset: 166, 125
+  index: -1
+ui_balance_stats_light-00016
+  rotate: false
+  xy: 1414, 0
+  size: 73, 81
+  orig: 500, 500
+  offset: 162, 147
+  index: -1
+ui_balance_stats_light-00017
+  rotate: false
+  xy: 1706, 0
+  size: 72, 81
+  orig: 500, 500
+  offset: 159, 169
+  index: -1
+ui_balance_stats_light-00018
+  rotate: false
+  xy: 1778, 0
+  size: 72, 81
+  orig: 500, 500
+  offset: 155, 191
+  index: -1
+ui_balance_stats_light-00019
+  rotate: false
+  xy: 1487, 0
+  size: 73, 81
+  orig: 500, 500
+  offset: 151, 213
+  index: -1
+ui_balance_stats_light-00020
+  rotate: false
+  xy: 1560, 0
+  size: 73, 81
+  orig: 500, 500
+  offset: 147, 235
+  index: -1
+ui_balance_stats_light-00021
+  rotate: false
+  xy: 1633, 0
+  size: 73, 81
+  orig: 500, 500
+  offset: 143, 257
+  index: -1
+ui_balance_stats_light-00022
+  rotate: false
+  xy: 1266, 0
+  size: 75, 81
+  orig: 500, 500
+  offset: 139, 277
+  index: -1
+ui_balance_stats_light-00023
+  rotate: false
+  xy: 486, 7
+  size: 81, 74
+  orig: 500, 500
+  offset: 149, 283
+  index: -1

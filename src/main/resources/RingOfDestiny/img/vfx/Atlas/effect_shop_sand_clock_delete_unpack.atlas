@@ -1,0 +1,90 @@
+
+effect_shop_sand_clock_delete_unpack.png
+size: 1479,588
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_shop_sand_clock_delete-00000
+  rotate: false
+  xy: 795, 23
+  size: 259, 280
+  orig: 500, 500
+  offset: 121, 107
+  index: -1
+effect_shop_sand_clock_delete-00001
+  rotate: false
+  xy: 268, 0
+  size: 263, 291
+  orig: 500, 500
+  offset: 117, 103
+  index: -1
+effect_shop_sand_clock_delete-00002
+  rotate: false
+  xy: 531, 11
+  size: 264, 287
+  orig: 500, 500
+  offset: 115, 105
+  index: -1
+effect_shop_sand_clock_delete-00003
+  rotate: false
+  xy: 0, 0
+  size: 268, 291
+  orig: 500, 500
+  offset: 110, 101
+  index: -1
+effect_shop_sand_clock_delete-00004
+  rotate: false
+  xy: 0, 291
+  size: 269, 297
+  orig: 500, 500
+  offset: 108, 95
+  index: -1
+effect_shop_sand_clock_delete-00005
+  rotate: false
+  xy: 269, 298
+  size: 268, 290
+  orig: 500, 500
+  offset: 106, 100
+  index: -1
+effect_shop_sand_clock_delete-00006
+  rotate: false
+  xy: 1005, 308
+  size: 247, 280
+  orig: 500, 500
+  offset: 119, 107
+  index: -1
+effect_shop_sand_clock_delete-00007
+  rotate: false
+  xy: 537, 302
+  size: 239, 286
+  orig: 500, 500
+  offset: 124, 100
+  index: -1
+effect_shop_sand_clock_delete-00008
+  rotate: false
+  xy: 776, 303
+  size: 229, 285
+  orig: 500, 500
+  offset: 124, 100
+  index: -1
+effect_shop_sand_clock_delete-00009
+  rotate: false
+  xy: 1252, 317
+  size: 227, 271
+  orig: 500, 500
+  offset: 123, 106
+  index: -1
+effect_shop_sand_clock_delete-00010
+  rotate: false
+  xy: 1252, 54
+  size: 223, 263
+  orig: 500, 500
+  offset: 123, 112
+  index: -1
+effect_shop_sand_clock_delete-00011
+  rotate: false
+  xy: 1054, 41
+  size: 198, 267
+  orig: 500, 500
+  offset: 142, 116
+  index: -1

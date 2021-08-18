@@ -1,0 +1,20 @@
+
+effect_attack_dark_2_unpack.png
+size: 469,672
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_attack_dark_2-00000
+  rotate: false
+  xy: 0, 315
+  size: 469, 357
+  orig: 763, 530
+  offset: 161, 45
+  index: -1
+effect_attack_dark_2-00001
+  rotate: false
+  xy: 0, 0
+  size: 416, 315
+  orig: 763, 530
+  offset: 162, 48
+  index: -1

@@ -1,68 +1,68 @@
 
 card_lilianghufu_unpack.png
-size: 443,583
+size: 478,531
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_lilianghufu-00000
-  rotate: true
-  xy: 288, 230
+  rotate: false
+  xy: 288, 379
   size: 190, 152
   orig: 300, 250
   offset: 58, 47
   index: -1
 card_lilianghufu-00001
   rotate: false
-  xy: 0, 40
+  xy: 0, 109
   size: 237, 190
   orig: 300, 250
   offset: 33, 29
   index: -1
 card_lilianghufu-00002
   rotate: false
-  xy: 0, 351
+  xy: 0, 299
   size: 288, 232
   orig: 300, 250
   offset: 6, 9
   index: -1
 card_lilianghufu-00003
-  rotate: true
-  xy: 288, 420
+  rotate: false
+  xy: 288, 225
   size: 163, 154
   orig: 300, 250
   offset: 71, 47
   index: -1
 card_lilianghufu-00004
-  rotate: true
-  xy: 237, 0
+  rotate: false
+  xy: 129, 0
   size: 125, 107
   orig: 300, 250
   offset: 91, 69
   index: -1
 card_lilianghufu-00005
   rotate: false
-  xy: 237, 125
+  xy: 0, 4
   size: 129, 105
   orig: 300, 250
   offset: 88, 67
   index: -1
 card_lilianghufu-00006
-  rotate: true
-  xy: 117, 234
+  rotate: false
+  xy: 354, 113
   size: 117, 112
   orig: 300, 250
   offset: 96, 64
   index: -1
 card_lilianghufu-00007
   rotate: false
-  xy: 0, 233
+  xy: 237, 107
   size: 117, 118
   orig: 300, 250
   offset: 98, 61
   index: -1
 card_lilianghufu-00008
-  rotate: true
-  xy: 344, 8
+  rotate: false
+  xy: 354, 14
   size: 117, 99
   orig: 300, 250
   offset: 100, 59

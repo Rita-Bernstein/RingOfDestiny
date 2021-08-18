@@ -1,0 +1,27 @@
+
+ui_loading_run_unpack.png
+size: 289,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_loading_run-00000
+  rotate: false
+  xy: 0, 0
+  size: 115, 92
+  orig: 500, 500
+  offset: 188, 195
+  index: -1
+ui_loading_run-00001
+  rotate: false
+  xy: 115, 6
+  size: 94, 86
+  orig: 500, 500
+  offset: 191, 199
+  index: -1
+ui_loading_run-00002
+  rotate: false
+  xy: 209, 13
+  size: 80, 79
+  orig: 500, 500
+  offset: 190, 208
+  index: -1

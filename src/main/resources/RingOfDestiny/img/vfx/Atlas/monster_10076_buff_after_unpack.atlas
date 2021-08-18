@@ -1,0 +1,27 @@
+
+monster_10076_buff_after_unpack.png
+size: 229,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10076_buff_after-00000
+  rotate: false
+  xy: 92, 29
+  size: 106, 135
+  orig: 500, 500
+  offset: 296, 182
+  index: -1
+monster_10076_buff_after-00001
+  rotate: false
+  xy: 0, 164
+  size: 229, 88
+  orig: 500, 500
+  offset: 138, 129
+  index: -1
+monster_10076_buff_after-00002
+  rotate: false
+  xy: 0, 0
+  size: 92, 164
+  orig: 500, 500
+  offset: 121, 171
+  index: -1

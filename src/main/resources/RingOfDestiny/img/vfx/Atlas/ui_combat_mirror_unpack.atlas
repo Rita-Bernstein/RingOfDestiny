@@ -1,0 +1,90 @@
+
+ui_combat_mirror_unpack.png
+size: 1154,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_combat_mirror-00000
+  rotate: false
+  xy: 945, 46
+  size: 92, 105
+  orig: 500, 500
+  offset: 205, 191
+  index: -1
+ui_combat_mirror-00001
+  rotate: false
+  xy: 945, 151
+  size: 110, 110
+  orig: 500, 500
+  offset: 194, 189
+  index: -1
+ui_combat_mirror-00002
+  rotate: false
+  xy: 0, 187
+  size: 313, 335
+  orig: 500, 500
+  offset: 94, 70
+  index: -1
+ui_combat_mirror-00003
+  rotate: false
+  xy: 313, 187
+  size: 313, 335
+  orig: 500, 500
+  offset: 94, 70
+  index: -1
+ui_combat_mirror-00004
+  rotate: false
+  xy: 626, 198
+  size: 296, 324
+  orig: 500, 500
+  offset: 103, 73
+  index: -1
+ui_combat_mirror-00005
+  rotate: false
+  xy: 922, 261
+  size: 232, 261
+  orig: 500, 500
+  offset: 132, 115
+  index: -1
+ui_combat_mirror-00006
+  rotate: false
+  xy: 0, 0
+  size: 178, 187
+  orig: 500, 500
+  offset: 157, 150
+  index: -1
+ui_combat_mirror-00007
+  rotate: false
+  xy: 797, 28
+  size: 148, 170
+  orig: 500, 500
+  offset: 177, 157
+  index: -1
+ui_combat_mirror-00008
+  rotate: false
+  xy: 644, 31
+  size: 153, 167
+  orig: 500, 500
+  offset: 175, 158
+  index: -1
+ui_combat_mirror-00009
+  rotate: false
+  xy: 178, 15
+  size: 161, 172
+  orig: 500, 500
+  offset: 167, 156
+  index: -1
+ui_combat_mirror-00010
+  rotate: false
+  xy: 339, 11
+  size: 153, 176
+  orig: 500, 500
+  offset: 168, 156
+  index: -1
+ui_combat_mirror-00011
+  rotate: false
+  xy: 492, 9
+  size: 152, 178
+  orig: 500, 500
+  offset: 171, 155
+  index: -1

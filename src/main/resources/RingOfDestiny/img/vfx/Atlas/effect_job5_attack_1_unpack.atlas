@@ -1,54 +1,54 @@
 
 effect_job5_attack_1_unpack.png
-size: 681,504
+size: 511,662
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_job5_attack_1-00000
   rotate: false
-  xy: 0, 239
+  xy: 237, 0
   size: 272, 265
   orig: 500, 479
   offset: 121, 107
   index: -1
 effect_job5_attack_1-00001
   rotate: false
-  xy: 0, 6
+  xy: 0, 32
   size: 237, 233
   orig: 500, 479
   offset: 130, 113
   index: -1
 effect_job5_attack_1-00002
   rotate: false
-  xy: 272, 44
+  xy: 0, 265
   size: 234, 230
   orig: 500, 479
   offset: 138, 121
   index: -1
 effect_job5_attack_1-00003
   rotate: false
-  xy: 272, 274
+  xy: 234, 265
   size: 235, 230
   orig: 500, 479
   offset: 138, 122
   index: -1
 effect_job5_attack_1-00004
   rotate: false
-  xy: 507, 155
+  xy: 182, 495
   size: 174, 167
   orig: 500, 479
   offset: 187, 158
   index: -1
 effect_job5_attack_1-00005
-  rotate: true
-  xy: 507, 322
+  rotate: false
+  xy: 0, 499
   size: 182, 163
   orig: 500, 479
   offset: 182, 155
   index: -1
 effect_job5_attack_1-00006
-  rotate: true
-  xy: 506, 0
+  rotate: false
+  xy: 356, 495
   size: 155, 167
   orig: 500, 479
   offset: 177, 150

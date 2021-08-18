@@ -1,187 +1,187 @@
 
 monster_10068_kb_huxi_unpack.png
-size: 1748,1234
+size: 1735,1304
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10068_kb_huxi-00000
-  rotate: true
-  xy: 652, 1
+  rotate: false
+  xy: 510, 0
   size: 249, 324
   orig: 440, 434
   offset: 83, 65
   index: -1
 monster_10068_kb_huxi-00001
-  rotate: true
-  xy: 1299, 15
+  rotate: false
+  xy: 769, 668
   size: 252, 315
   orig: 440, 434
   offset: 83, 70
   index: -1
 monster_10068_kb_huxi-00002
   rotate: false
-  xy: 1237, 913
+  xy: 0, 3
   size: 255, 321
   orig: 440, 434
   offset: 83, 67
   index: -1
 monster_10068_kb_huxi-00003
   rotate: false
-  xy: 244, 244
+  xy: 0, 976
   size: 256, 328
   orig: 440, 434
   offset: 82, 61
   index: -1
 monster_10068_kb_huxi-00004
   rotate: false
-  xy: 1492, 916
+  xy: 513, 663
   size: 256, 318
   orig: 440, 434
   offset: 83, 60
   index: -1
 monster_10068_kb_huxi-00005
   rotate: false
-  xy: 745, 256
+  xy: 0, 324
   size: 256, 325
   orig: 440, 434
   offset: 83, 57
   index: -1
 monster_10068_kb_huxi-00006
   rotate: false
-  xy: 489, 907
+  xy: 256, 977
   size: 253, 327
   orig: 440, 434
   offset: 83, 60
   index: -1
 monster_10068_kb_huxi-00007
   rotate: false
-  xy: 247, 576
+  xy: 1498, 976
   size: 236, 328
   orig: 440, 434
   offset: 89, 65
   index: -1
 monster_10068_kb_huxi-00008
   rotate: false
-  xy: 1001, 259
+  xy: 1261, 668
   size: 237, 324
   orig: 440, 434
   offset: 85, 63
   index: -1
 monster_10068_kb_huxi-00009
-  rotate: true
-  xy: 328, 4
+  rotate: false
+  xy: 1021, 668
   size: 240, 324
   orig: 440, 434
   offset: 86, 63
   index: -1
 monster_10068_kb_huxi-00010
-  rotate: true
-  xy: 0, 1
+  rotate: false
+  xy: 1493, 15
   size: 242, 328
   orig: 440, 434
   offset: 84, 60
   index: -1
 monster_10068_kb_huxi-00011
   rotate: false
-  xy: 985, 583
+  xy: 1489, 343
   size: 246, 325
   orig: 440, 434
   offset: 82, 62
   index: -1
 monster_10068_kb_huxi-00012
   rotate: false
-  xy: 0, 572
+  xy: 256, 324
   size: 247, 330
   orig: 440, 434
   offset: 83, 62
   index: -1
 monster_10068_kb_huxi-00013
   rotate: false
-  xy: 988, 910
+  xy: 750, 339
   size: 249, 324
   orig: 440, 434
   offset: 83, 65
   index: -1
 monster_10068_kb_huxi-00014
   rotate: false
-  xy: 1493, 280
+  xy: 1018, 992
   size: 252, 312
   orig: 440, 434
   offset: 83, 70
   index: -1
 monster_10068_kb_huxi-00015
   rotate: false
-  xy: 1238, 267
+  xy: 255, 3
   size: 255, 321
   orig: 440, 434
   offset: 83, 67
   index: -1
 monster_10068_kb_huxi-00016
   rotate: false
-  xy: 483, 577
+  xy: 0, 649
   size: 255, 327
   orig: 440, 434
   offset: 83, 62
   index: -1
 monster_10068_kb_huxi-00017
-  rotate: true
-  xy: 976, 0
+  rotate: false
+  xy: 509, 981
   size: 256, 323
   orig: 440, 434
   offset: 82, 59
   index: -1
 monster_10068_kb_huxi-00018
   rotate: false
-  xy: 1231, 588
+  xy: 255, 654
   size: 258, 322
   orig: 440, 434
   offset: 82, 59
   index: -1
 monster_10068_kb_huxi-00019
   rotate: false
-  xy: 1489, 592
+  xy: 765, 983
   size: 253, 321
   orig: 440, 434
   offset: 84, 62
   index: -1
 monster_10068_kb_huxi-00020
   rotate: false
-  xy: 0, 243
+  xy: 999, 339
   size: 244, 329
   orig: 440, 434
   offset: 88, 65
   index: -1
 monster_10068_kb_huxi-00021
   rotate: false
-  xy: 738, 581
+  xy: 759, 13
   size: 247, 326
   orig: 440, 434
   offset: 82, 65
   index: -1
 monster_10068_kb_huxi-00022
   rotate: false
-  xy: 500, 250
+  xy: 1248, 15
   size: 245, 327
   orig: 440, 434
   offset: 81, 63
   index: -1
 monster_10068_kb_huxi-00023
   rotate: false
-  xy: 0, 902
+  xy: 1006, 7
   size: 242, 332
   orig: 440, 434
   offset: 84, 60
   index: -1
 monster_10068_kb_huxi-00024
   rotate: false
-  xy: 742, 908
+  xy: 1243, 342
   size: 246, 326
   orig: 440, 434
   offset: 82, 62
   index: -1
 monster_10068_kb_huxi-00025
   rotate: false
-  xy: 242, 904
+  xy: 503, 324
   size: 247, 330
   orig: 440, 434
   offset: 83, 62

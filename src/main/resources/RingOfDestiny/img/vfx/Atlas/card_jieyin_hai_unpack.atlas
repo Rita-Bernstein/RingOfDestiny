@@ -1,40 +1,40 @@
 
 card_jieyin_hai_unpack.png
-size: 239,800
+size: 239,811
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jieyin_hai-00000
   rotate: false
-  xy: 0, 559
+  xy: 0, 0
   size: 239, 241
   orig: 459, 379
   offset: 117, 70
   index: -1
 card_jieyin_hai-00001
-  rotate: true
-  xy: 0, 332
+  rotate: false
+  xy: 0, 241
   size: 227, 230
   orig: 459, 379
   offset: 123, 76
   index: -1
 card_jieyin_hai-00002
-  rotate: true
-  xy: 0, 134
+  rotate: false
+  xy: 0, 471
   size: 198, 199
   orig: 459, 379
   offset: 140, 92
   index: -1
 card_jieyin_hai-00003
   rotate: false
-  xy: 141, 0
+  xy: 0, 677
   size: 89, 134
   orig: 459, 379
   offset: 191, 135
   index: -1
 card_jieyin_hai-00004
-  rotate: true
-  xy: 0, 41
+  rotate: false
+  xy: 89, 670
   size: 93, 141
   orig: 459, 379
   offset: 189, 132

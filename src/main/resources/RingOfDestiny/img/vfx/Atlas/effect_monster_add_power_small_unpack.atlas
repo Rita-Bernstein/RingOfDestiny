@@ -1,0 +1,48 @@
+
+effect_monster_add_power_small_unpack.png
+size: 546,421
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_add_power_small-00000
+  rotate: false
+  xy: 328, 11
+  size: 218, 199
+  orig: 426, 434
+  offset: 111, 111
+  index: -1
+effect_monster_add_power_small-00001
+  rotate: false
+  xy: 330, 229
+  size: 212, 192
+  orig: 426, 434
+  offset: 112, 112
+  index: -1
+effect_monster_add_power_small-00002
+  rotate: false
+  xy: 0, 0
+  size: 203, 203
+  orig: 426, 434
+  offset: 114, 109
+  index: -1
+effect_monster_add_power_small-00003
+  rotate: false
+  xy: 152, 210
+  size: 178, 211
+  orig: 426, 434
+  offset: 121, 113
+  index: -1
+effect_monster_add_power_small-00004
+  rotate: false
+  xy: 0, 203
+  size: 152, 218
+  orig: 426, 434
+  offset: 133, 116
+  index: -1
+effect_monster_add_power_small-00005
+  rotate: false
+  xy: 203, 4
+  size: 125, 206
+  orig: 426, 434
+  offset: 153, 129
+  index: -1

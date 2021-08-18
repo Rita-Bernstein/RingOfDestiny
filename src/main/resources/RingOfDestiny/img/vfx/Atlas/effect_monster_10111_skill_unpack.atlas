@@ -1,0 +1,62 @@
+
+effect_monster_10111_skill_unpack.png
+size: 996,1041
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10111_skill-00000
+  rotate: false
+  xy: 0, 429
+  size: 322, 310
+  orig: 500, 500
+  offset: 63, 113
+  index: -1
+effect_monster_10111_skill-00001
+  rotate: false
+  xy: 410, 0
+  size: 420, 410
+  orig: 500, 500
+  offset: 38, 40
+  index: -1
+effect_monster_10111_skill-00002
+  rotate: false
+  xy: 0, 22
+  size: 410, 397
+  orig: 500, 500
+  offset: 43, 47
+  index: -1
+effect_monster_10111_skill-00003
+  rotate: false
+  xy: 656, 410
+  size: 340, 322
+  orig: 500, 500
+  offset: 80, 90
+  index: -1
+effect_monster_10111_skill-00004
+  rotate: false
+  xy: 322, 419
+  size: 334, 313
+  orig: 500, 500
+  offset: 83, 97
+  index: -1
+effect_monster_10111_skill-00005
+  rotate: false
+  xy: 263, 739
+  size: 330, 302
+  orig: 500, 500
+  offset: 85, 106
+  index: -1
+effect_monster_10111_skill-00006
+  rotate: false
+  xy: 593, 732
+  size: 312, 309
+  orig: 500, 500
+  offset: 94, 99
+  index: -1
+effect_monster_10111_skill-00007
+  rotate: false
+  xy: 0, 768
+  size: 263, 273
+  orig: 500, 500
+  offset: 113, 98
+  index: -1

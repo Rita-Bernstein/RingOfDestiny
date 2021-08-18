@@ -1,6 +1,6 @@
 
 player_1_attack_1_unpack.png
-size: 512,333
+size: 511,334
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -13,20 +13,20 @@ player_1_attack_1-00000
   index: -1
 player_1_attack_1-00001
   rotate: false
-  xy: 0, 28
+  xy: 0, 29
   size: 223, 154
   orig: 444, 373
   offset: 127, 43
   index: -1
 player_1_attack_1-00002
   rotate: false
-  xy: 146, 182
+  xy: 146, 183
   size: 213, 151
   orig: 444, 373
   offset: 47, 32
   index: -1
 player_1_attack_1-00003
-  rotate: true
+  rotate: false
   xy: 359, 181
   size: 152, 153
   orig: 444, 373
@@ -34,7 +34,7 @@ player_1_attack_1-00003
   index: -1
 player_1_attack_1-00004
   rotate: false
-  xy: 0, 192
+  xy: 0, 193
   size: 146, 141
   orig: 444, 373
   offset: 27, 48

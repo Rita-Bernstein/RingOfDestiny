@@ -1,0 +1,118 @@
+
+effect_award_particle_unpack.png
+size: 1738,369
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_award_particle-00000
+  rotate: false
+  xy: 845, 75
+  size: 282, 65
+  orig: 480, 270
+  offset: 123, 205
+  index: -1
+effect_award_particle-00001
+  rotate: false
+  xy: 563, 73
+  size: 282, 67
+  orig: 480, 270
+  offset: 123, 203
+  index: -1
+effect_award_particle-00002
+  rotate: false
+  xy: 0, 72
+  size: 282, 68
+  orig: 480, 270
+  offset: 123, 202
+  index: -1
+effect_award_particle-00003
+  rotate: false
+  xy: 1127, 71
+  size: 282, 69
+  orig: 480, 270
+  offset: 123, 201
+  index: -1
+effect_award_particle-00004
+  rotate: false
+  xy: 563, 2
+  size: 283, 70
+  orig: 480, 270
+  offset: 122, 200
+  index: -1
+effect_award_particle-00005
+  rotate: false
+  xy: 281, 1
+  size: 282, 71
+  orig: 480, 270
+  offset: 123, 199
+  index: -1
+effect_award_particle-00006
+  rotate: false
+  xy: 0, 0
+  size: 281, 72
+  orig: 480, 270
+  offset: 124, 198
+  index: -1
+effect_award_particle-00007
+  rotate: false
+  xy: 1458, 72
+  size: 279, 73
+  orig: 480, 270
+  offset: 124, 197
+  index: -1
+effect_award_particle-00008
+  rotate: false
+  xy: 1458, 145
+  size: 279, 74
+  orig: 480, 270
+  offset: 124, 196
+  index: -1
+effect_award_particle-00009
+  rotate: false
+  xy: 1458, 294
+  size: 280, 75
+  orig: 480, 270
+  offset: 124, 195
+  index: -1
+effect_award_particle-00010
+  rotate: false
+  xy: 1458, 219
+  size: 280, 75
+  orig: 480, 270
+  offset: 124, 195
+  index: -1
+effect_award_particle-00011
+  rotate: false
+  xy: 846, 6
+  size: 280, 69
+  orig: 480, 270
+  offset: 124, 200
+  index: -1
+effect_award_particle-00012
+  rotate: false
+  xy: 282, 72
+  size: 281, 68
+  orig: 480, 270
+  offset: 123, 200
+  index: -1
+effect_award_particle-00013
+  rotate: false
+  xy: 1126, 8
+  size: 281, 63
+  orig: 480, 270
+  offset: 123, 207
+  index: -1
+effect_award_particle-00014
+  rotate: false
+  xy: 1409, 8
+  size: 281, 64
+  orig: 480, 270
+  offset: 123, 206
+  index: -1
+effect_award_particle-effect_award_particle
+  rotate: false
+  xy: 0, 140
+  size: 1458, 229
+  orig: 1462, 236
+  offset: 2, 7
+  index: -1

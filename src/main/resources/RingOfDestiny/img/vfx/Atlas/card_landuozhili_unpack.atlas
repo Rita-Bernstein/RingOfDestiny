@@ -1,12 +1,12 @@
 
 card_landuozhili_unpack.png
-size: 488,296
+size: 500,296
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_landuozhili-00000
   rotate: false
-  xy: 374, 7
+  xy: 396, 24
   size: 60, 56
   orig: 500, 500
   offset: 225, 213
@@ -26,8 +26,8 @@ card_landuozhili-00002
   offset: 166, 167
   index: -1
 card_landuozhili-00003
-  rotate: true
-  xy: 244, 10
+  rotate: false
+  xy: 261, 15
   size: 135, 130
   orig: 500, 500
   offset: 185, 178
@@ -40,22 +40,22 @@ card_landuozhili-00004
   offset: 189, 183
   index: -1
 card_landuozhili-00005
-  rotate: true
-  xy: 370, 166
+  rotate: false
+  xy: 131, 1
   size: 130, 118
   orig: 500, 500
   offset: 191, 182
   index: -1
 card_landuozhili-00006
-  rotate: true
-  xy: 131, 4
+  rotate: false
+  xy: 370, 183
   size: 115, 113
   orig: 500, 500
   offset: 199, 186
   index: -1
 card_landuozhili-00007
   rotate: false
-  xy: 374, 63
+  xy: 396, 80
   size: 104, 103
   orig: 500, 500
   offset: 202, 190

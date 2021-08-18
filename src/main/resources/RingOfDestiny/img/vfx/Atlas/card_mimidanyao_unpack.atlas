@@ -1,19 +1,19 @@
 
 card_mimidanyao_unpack.png
-size: 1322,579
+size: 1372,579
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_mimidanyao-00000
-  rotate: true
-  xy: 729, 11
+  rotate: false
+  xy: 1078, 29
   size: 196, 142
   orig: 500, 459
   offset: 122, 286
   index: -1
 card_mimidanyao-00001
   rotate: false
-  xy: 626, 303
+  xy: 692, 303
   size: 253, 276
   orig: 500, 459
   offset: 122, 142
@@ -26,15 +26,15 @@ card_mimidanyao-00002
   offset: 63, 40
   index: -1
 card_mimidanyao-00003
-  rotate: true
-  xy: 319, 206
+  rotate: false
+  xy: 319, 272
   size: 373, 307
   orig: 500, 459
   offset: 66, 30
   index: -1
 card_mimidanyao-00004
   rotate: false
-  xy: 364, 20
+  xy: 945, 393
   size: 365, 186
   orig: 500, 459
   offset: 69, 34
@@ -48,42 +48,42 @@ card_mimidanyao-00005
   index: -1
 card_mimidanyao-00006
   rotate: false
-  xy: 879, 419
+  xy: 364, 16
   size: 369, 160
   orig: 500, 459
   offset: 68, 49
   index: -1
 card_mimidanyao-00007
-  rotate: true
-  xy: 1179, 74
+  rotate: false
+  xy: 733, 35
   size: 345, 143
   orig: 500, 459
   offset: 92, 57
   index: -1
 card_mimidanyao-00008
-  rotate: true
-  xy: 912, 0
+  rotate: false
+  xy: 692, 178
   size: 307, 125
   orig: 500, 459
   offset: 106, 74
   index: -1
 card_mimidanyao-00009
   rotate: false
-  xy: 879, 307
+  xy: 999, 281
   size: 300, 112
   orig: 500, 459
   offset: 108, 91
   index: -1
 card_mimidanyao-00010
-  rotate: true
-  xy: 1037, 13
+  rotate: false
+  xy: 1078, 171
   size: 294, 110
   orig: 500, 459
   offset: 109, 99
   index: -1
 card_mimidanyao-00011
   rotate: false
-  xy: 626, 207
+  xy: 319, 176
   size: 286, 96
   orig: 500, 459
   offset: 111, 119

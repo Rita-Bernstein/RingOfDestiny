@@ -1,173 +1,173 @@
 
 effect_house_crystal_2_unpack.png
-size: 1742,281
+size: 861,582
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_house_crystal_2-00000
   rotate: false
-  xy: 1602, 150
+  xy: 553, 5
   size: 134, 131
   orig: 210, 166
   offset: 39, 10
   index: -1
 effect_house_crystal_2-00001
-  rotate: true
-  xy: 602, 128
+  rotate: false
+  xy: 0, 185
   size: 153, 139
   orig: 210, 166
   offset: 19, 9
   index: -1
 effect_house_crystal_2-00002
   rotate: false
-  xy: 1341, 8
+  xy: 728, 441
   size: 133, 141
   orig: 210, 166
   offset: 40, 15
   index: -1
 effect_house_crystal_2-00003
-  rotate: true
-  xy: 1313, 149
+  rotate: false
+  xy: 421, 8
   size: 132, 147
   orig: 210, 166
   offset: 39, 17
   index: -1
 effect_house_crystal_2-00004
-  rotate: true
-  xy: 879, 135
+  rotate: false
+  xy: 434, 155
   size: 146, 143
   orig: 210, 166
   offset: 36, 7
   index: -1
 effect_house_crystal_2-00005
-  rotate: true
-  xy: 901, 4
+  rotate: false
+  xy: 153, 115
   size: 131, 153
   orig: 210, 166
   offset: 41, 5
   index: -1
 effect_house_crystal_2-00006
   rotate: false
-  xy: 0, 123
+  xy: 0, 424
   size: 152, 158
   orig: 210, 166
   offset: 21, 8
   index: -1
 effect_house_crystal_2-00007
-  rotate: true
-  xy: 1474, 12
+  rotate: false
+  xy: 284, 51
   size: 137, 134
   orig: 210, 166
   offset: 31, 7
   index: -1
 effect_house_crystal_2-00008
-  rotate: true
-  xy: 758, 3
+  rotate: false
+  xy: 731, 298
   size: 126, 143
   orig: 210, 166
   offset: 42, 5
   index: -1
 effect_house_crystal_2-00009
   rotate: false
-  xy: 1207, 2
+  xy: 452, 436
   size: 134, 146
   orig: 210, 166
   offset: 39, 10
   index: -1
 effect_house_crystal_2-00010
   rotate: false
-  xy: 152, 125
+  xy: 284, 185
   size: 150, 156
   orig: 210, 166
   offset: 17, 7
   index: -1
 effect_house_crystal_2-00011
   rotate: false
-  xy: 159, 25
+  xy: 0, 324
   size: 158, 100
   orig: 210, 166
   offset: 14, 16
   index: -1
 effect_house_crystal_2-00012
   rotate: false
-  xy: 467, 8
+  xy: 146, 0
   size: 134, 115
   orig: 210, 166
   offset: 38, 8
   index: -1
 effect_house_crystal_2-00013
-  rotate: true
-  xy: 741, 129
+  rotate: false
+  xy: 446, 298
   size: 152, 138
   orig: 210, 166
   offset: 19, 9
   index: -1
 effect_house_crystal_2-00014
-  rotate: true
-  xy: 1460, 149
+  rotate: false
+  xy: 710, 10
   size: 132, 142
   orig: 210, 166
   offset: 40, 13
   index: -1
 effect_house_crystal_2-00015
-  rotate: true
-  xy: 1164, 148
+  rotate: false
+  xy: 598, 289
   size: 133, 149
   orig: 210, 166
   offset: 39, 15
   index: -1
 effect_house_crystal_2-00016
   rotate: false
-  xy: 1022, 137
+  xy: 586, 438
   size: 142, 144
   orig: 210, 166
   offset: 40, 6
   index: -1
 effect_house_crystal_2-00017
-  rotate: true
-  xy: 1054, 7
+  rotate: false
+  xy: 580, 136
   size: 130, 153
   orig: 210, 166
   offset: 40, 5
   index: -1
 effect_house_crystal_2-00018
   rotate: false
-  xy: 467, 123
+  xy: 152, 424
   size: 135, 158
   orig: 210, 166
   offset: 38, 8
   index: -1
 effect_house_crystal_2-00019
   rotate: false
-  xy: 302, 146
+  xy: 287, 447
   size: 165, 135
   orig: 210, 166
   offset: 31, 6
   index: -1
 effect_house_crystal_2-00020
   rotate: false
-  xy: 1608, 13
+  xy: 710, 152
   size: 134, 137
   orig: 210, 166
   offset: 39, 11
   index: -1
 effect_house_crystal_2-00021
-  rotate: true
-  xy: 317, 0
+  rotate: false
+  xy: 0, 35
   size: 146, 150
   orig: 210, 166
   offset: 39, 6
   index: -1
 effect_house_crystal_2-00022
-  rotate: true
-  xy: 602, 2
+  rotate: false
+  xy: 158, 268
   size: 126, 156
   orig: 210, 166
   offset: 41, 7
   index: -1
 effect_house_crystal_2-00023
   rotate: false
-  xy: 0, 17
+  xy: 287, 341
   size: 159, 106
   orig: 210, 166
   offset: 14, 10

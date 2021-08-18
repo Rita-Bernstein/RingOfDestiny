@@ -1,0 +1,62 @@
+
+job2_201_skill_unpack.png
+size: 871,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+job2_201_skill-00000
+  rotate: false
+  xy: 353, 49
+  size: 82, 86
+  orig: 500, 500
+  offset: 154, 169
+  index: -1
+job2_201_skill-00001
+  rotate: false
+  xy: 238, 9
+  size: 115, 126
+  orig: 500, 500
+  offset: 169, 160
+  index: -1
+job2_201_skill-00002
+  rotate: false
+  xy: 662, 0
+  size: 143, 154
+  orig: 500, 500
+  offset: 174, 151
+  index: -1
+job2_201_skill-00003
+  rotate: false
+  xy: 0, 73
+  size: 238, 255
+  orig: 500, 500
+  offset: 149, 138
+  index: -1
+job2_201_skill-00004
+  rotate: false
+  xy: 238, 135
+  size: 197, 193
+  orig: 500, 500
+  offset: 121, 127
+  index: -1
+job2_201_skill-00005
+  rotate: false
+  xy: 435, 145
+  size: 227, 183
+  orig: 500, 500
+  offset: 83, 125
+  index: -1
+job2_201_skill-00006
+  rotate: false
+  xy: 662, 154
+  size: 209, 174
+  orig: 500, 500
+  offset: 86, 125
+  index: -1
+job2_201_skill-00007
+  rotate: false
+  xy: 435, 3
+  size: 184, 142
+  orig: 500, 500
+  offset: 118, 153
+  index: -1

@@ -1,0 +1,90 @@
+
+effect_shop_blood_bottle_unpack.png
+size: 261,739
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_shop_blood_bottle-00000
+  rotate: false
+  xy: 87, 522
+  size: 87, 217
+  orig: 452, 452
+  offset: 176, 158
+  index: -1
+effect_shop_blood_bottle-00001
+  rotate: false
+  xy: 0, 515
+  size: 87, 224
+  orig: 452, 452
+  offset: 176, 164
+  index: -1
+effect_shop_blood_bottle-00002
+  rotate: false
+  xy: 0, 0
+  size: 87, 146
+  orig: 452, 452
+  offset: 176, 124
+  index: -1
+effect_shop_blood_bottle-00003
+  rotate: false
+  xy: 87, 0
+  size: 87, 153
+  orig: 452, 452
+  offset: 176, 125
+  index: -1
+effect_shop_blood_bottle-00004
+  rotate: false
+  xy: 174, 0
+  size: 87, 160
+  orig: 452, 452
+  offset: 176, 127
+  index: -1
+effect_shop_blood_bottle-00005
+  rotate: false
+  xy: 174, 160
+  size: 87, 167
+  orig: 452, 452
+  offset: 176, 129
+  index: -1
+effect_shop_blood_bottle-00006
+  rotate: false
+  xy: 87, 153
+  size: 87, 174
+  orig: 452, 452
+  offset: 176, 131
+  index: -1
+effect_shop_blood_bottle-00007
+  rotate: false
+  xy: 0, 146
+  size: 87, 181
+  orig: 452, 452
+  offset: 176, 134
+  index: -1
+effect_shop_blood_bottle-00008
+  rotate: false
+  xy: 0, 327
+  size: 87, 188
+  orig: 452, 452
+  offset: 176, 138
+  index: -1
+effect_shop_blood_bottle-00009
+  rotate: false
+  xy: 87, 327
+  size: 87, 195
+  orig: 452, 452
+  offset: 176, 142
+  index: -1
+effect_shop_blood_bottle-00010
+  rotate: false
+  xy: 174, 327
+  size: 87, 202
+  orig: 452, 452
+  offset: 176, 147
+  index: -1
+effect_shop_blood_bottle-00011
+  rotate: false
+  xy: 174, 529
+  size: 87, 210
+  orig: 452, 452
+  offset: 176, 152
+  index: -1

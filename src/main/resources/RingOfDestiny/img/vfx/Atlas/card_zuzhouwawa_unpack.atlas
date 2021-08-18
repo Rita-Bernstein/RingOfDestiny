@@ -1,12 +1,12 @@
 
 card_zuzhouwawa_unpack.png
-size: 1921,170
+size: 1924,170
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_zuzhouwawa-00000
-  rotate: true
-  xy: 1768, 14
+  rotate: false
+  xy: 1768, 17
   size: 156, 153
   orig: 334, 288
   offset: 91, 68
@@ -20,42 +20,42 @@ card_zuzhouwawa-00001
   index: -1
 card_zuzhouwawa-00002
   rotate: false
-  xy: 537, 0
+  xy: 1427, 0
   size: 171, 170
   orig: 334, 288
   offset: 84, 62
   index: -1
 card_zuzhouwawa-00003
   rotate: false
-  xy: 1064, 1
+  xy: 1254, 1
   size: 173, 169
   orig: 334, 288
   offset: 83, 63
   index: -1
 card_zuzhouwawa-00004
   rotate: false
-  xy: 362, 0
+  xy: 1079, 0
   size: 175, 170
   orig: 334, 288
   offset: 82, 62
   index: -1
 card_zuzhouwawa-00005
   rotate: false
-  xy: 887, 1
+  xy: 902, 1
   size: 177, 169
   orig: 334, 288
   offset: 81, 63
   index: -1
 card_zuzhouwawa-00006
   rotate: false
-  xy: 1237, 2
+  xy: 724, 2
   size: 178, 168
   orig: 334, 288
   offset: 80, 64
   index: -1
 card_zuzhouwawa-00007
   rotate: false
-  xy: 708, 1
+  xy: 362, 1
   size: 179, 169
   orig: 334, 288
   offset: 80, 63
@@ -76,7 +76,7 @@ card_zuzhouwawa-00009
   index: -1
 card_zuzhouwawa-00010
   rotate: false
-  xy: 1415, 5
+  xy: 541, 5
   size: 183, 165
   orig: 334, 288
   offset: 78, 65

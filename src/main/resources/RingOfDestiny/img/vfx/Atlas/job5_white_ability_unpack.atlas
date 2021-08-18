@@ -1,0 +1,90 @@
+
+job5_white_ability_unpack.png
+size: 1542,526
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+job5_white_ability-00000
+  rotate: false
+  xy: 1036, 341
+  size: 204, 185
+  orig: 482, 391
+  offset: 129, 89
+  index: -1
+job5_white_ability-00001
+  rotate: false
+  xy: 1240, 341
+  size: 203, 185
+  orig: 482, 391
+  offset: 128, 90
+  index: -1
+job5_white_ability-00002
+  rotate: false
+  xy: 802, 337
+  size: 234, 189
+  orig: 482, 391
+  offset: 129, 89
+  index: -1
+job5_white_ability-00003
+  rotate: false
+  xy: 1030, 49
+  size: 273, 288
+  orig: 482, 391
+  offset: 100, 87
+  index: -1
+job5_white_ability-00004
+  rotate: false
+  xy: 705, 10
+  size: 325, 286
+  orig: 482, 391
+  offset: 76, 88
+  index: -1
+job5_white_ability-00005
+  rotate: false
+  xy: 0, 249
+  size: 341, 277
+  orig: 482, 391
+  offset: 71, 90
+  index: -1
+job5_white_ability-00006
+  rotate: false
+  xy: 466, 0
+  size: 239, 267
+  orig: 482, 391
+  offset: 119, 88
+  index: -1
+job5_white_ability-00007
+  rotate: false
+  xy: 1303, 77
+  size: 239, 264
+  orig: 482, 391
+  offset: 123, 93
+  index: -1
+job5_white_ability-00008
+  rotate: false
+  xy: 341, 267
+  size: 249, 259
+  orig: 482, 391
+  offset: 118, 89
+  index: -1
+job5_white_ability-00009
+  rotate: false
+  xy: 227, 23
+  size: 239, 226
+  orig: 482, 391
+  offset: 124, 99
+  index: -1
+job5_white_ability-00010
+  rotate: false
+  xy: 0, 6
+  size: 227, 243
+  orig: 482, 391
+  offset: 131, 96
+  index: -1
+job5_white_ability-00011
+  rotate: false
+  xy: 590, 296
+  size: 212, 230
+  orig: 482, 391
+  offset: 139, 101
+  index: -1

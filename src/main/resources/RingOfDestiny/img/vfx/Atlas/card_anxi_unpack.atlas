@@ -1,75 +1,75 @@
 
 card_anxi_unpack.png
-size: 2016,1081
+size: 1540,1471
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_anxi-00000
   rotate: false
-  xy: 1422, 37
+  xy: 0, 523
   size: 399, 307
   orig: 400, 650
   offset: 1, 2
   index: -1
 card_anxi-00001
-  rotate: true
-  xy: 1435, 682
+  rotate: false
+  xy: 0, 109
   size: 399, 414
   orig: 400, 650
   offset: 1, 2
   index: -1
 card_anxi-00002
   rotate: false
-  xy: 397, 13
+  xy: 1143, 0
   size: 397, 437
   orig: 400, 650
   offset: 1, 0
   index: -1
 card_anxi-00003
   rotate: false
-  xy: 0, 0
+  xy: 1143, 437
   size: 397, 443
   orig: 400, 650
   offset: 1, 0
   index: -1
 card_anxi-00004
   rotate: false
-  xy: 397, 450
+  xy: 399, 202
   size: 397, 631
   orig: 400, 650
   offset: 1, 0
   index: -1
 card_anxi-00005
   rotate: false
-  xy: 0, 443
+  xy: 377, 833
   size: 397, 638
   orig: 400, 650
   offset: 1, 2
   index: -1
 card_anxi-00006
-  rotate: true
-  xy: 794, 704
+  rotate: false
+  xy: 0, 830
   size: 377, 641
   orig: 400, 650
   offset: 11, 8
   index: -1
 card_anxi-00007
-  rotate: true
-  xy: 794, 355
+  rotate: false
+  xy: 774, 840
   size: 349, 631
   orig: 400, 650
   offset: 25, 14
   index: -1
 card_anxi-00008
-  rotate: true
-  xy: 794, 8
+  rotate: false
+  xy: 796, 212
   size: 347, 628
   orig: 400, 650
   offset: 25, 20
   index: -1
 card_anxi-00009
-  rotate: true
-  xy: 1425, 344
+  rotate: false
+  xy: 1123, 880
   size: 338, 591
   orig: 400, 650
   offset: 30, 45

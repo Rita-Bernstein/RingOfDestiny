@@ -1,110 +1,110 @@
 
 monster_10093_atk_unpack.png
-size: 816,1098
+size: 1420,616
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10093_atk-00000
-  rotate: true
-  xy: 242, 0
+  rotate: false
+  xy: 854, 1
   size: 245, 202
   orig: 500, 452
   offset: 196, 132
   index: -1
 monster_10093_atk-00001
-  rotate: true
-  xy: 0, 214
+  rotate: false
+  xy: 1099, 2
   size: 321, 201
   orig: 500, 452
   offset: 107, 133
   index: -1
 monster_10093_atk-00002
-  rotate: true
-  xy: 590, 519
+  rotate: false
+  xy: 834, 203
   size: 292, 205
   orig: 500, 452
   offset: 108, 134
   index: -1
 monster_10093_atk-00003
-  rotate: true
-  xy: 603, 69
+  rotate: false
+  xy: 1168, 462
   size: 246, 154
   orig: 500, 452
   offset: 110, 176
   index: -1
 monster_10093_atk-00004
   rotate: false
-  xy: 0, 865
+  xy: 0, 383
   size: 305, 233
   orig: 500, 452
   offset: 110, 128
   index: -1
 monster_10093_atk-00005
-  rotate: true
-  xy: 366, 585
+  rotate: false
+  xy: 0, 159
   size: 291, 224
   orig: 500, 452
   offset: 113, 129
   index: -1
 monster_10093_atk-00006
-  rotate: true
-  xy: 0, 535
+  rotate: false
+  xy: 592, 408
   size: 330, 208
   orig: 500, 452
   offset: 106, 131
   index: -1
 monster_10093_atk-00007
-  rotate: true
-  xy: 355, 278
+  rotate: false
+  xy: 1126, 223
   size: 283, 189
   orig: 500, 452
   offset: 114, 140
   index: -1
 monster_10093_atk-00008
   rotate: false
-  xy: 305, 876
+  xy: 291, 161
   size: 301, 222
   orig: 500, 452
   offset: 105, 126
   index: -1
 monster_10093_atk-00009
   rotate: false
-  xy: 0, 7
+  xy: 592, 201
   size: 242, 207
   orig: 500, 452
   offset: 119, 134
   index: -1
 monster_10093_atk-00010
-  rotate: true
-  xy: 444, 18
+  rotate: false
+  xy: 0, 0
   size: 260, 159
   orig: 500, 452
   offset: 113, 194
   index: -1
 monster_10093_atk-00011
-  rotate: true
-  xy: 201, 245
+  rotate: false
+  xy: 564, 7
   size: 290, 154
   orig: 500, 452
   offset: 98, 174
   index: -1
 monster_10093_atk-00012
-  rotate: true
-  xy: 606, 811
+  rotate: false
+  xy: 305, 406
   size: 287, 210
   orig: 500, 452
   offset: 101, 157
   index: -1
 monster_10093_atk-00013
   rotate: false
-  xy: 544, 315
+  xy: 922, 412
   size: 246, 204
   orig: 500, 452
   offset: 123, 157
   index: -1
 monster_10093_atk-00014
-  rotate: true
-  xy: 208, 561
+  rotate: false
+  xy: 260, 1
   size: 304, 158
   orig: 500, 452
   offset: 99, 169

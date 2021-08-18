@@ -1,89 +1,89 @@
 
 card_touzhi_unpack.png
-size: 1579,584
+size: 1405,688
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_touzhi-00000
-  rotate: true
-  xy: 1366, 6
+  rotate: false
+  xy: 1168, 70
   size: 133, 135
   orig: 292, 385
   offset: 77, 209
   index: -1
 card_touzhi-00001
-  rotate: true
-  xy: 1351, 347
+  rotate: false
+  xy: 1168, 460
   size: 237, 228
   orig: 292, 385
   offset: 25, 157
   index: -1
 card_touzhi-00002
   rotate: false
-  xy: 1366, 139
+  xy: 1168, 252
   size: 208, 208
   orig: 292, 385
   offset: 39, 172
   index: -1
 card_touzhi-00003
-  rotate: true
-  xy: 0, 292
+  rotate: false
+  xy: 0, 320
   size: 292, 368
   orig: 292, 385
   offset: 0, 0
   index: -1
 card_touzhi-00004
-  rotate: true
-  xy: 368, 292
+  rotate: false
+  xy: 292, 335
   size: 292, 353
   orig: 292, 385
   offset: 0, 0
   index: -1
 card_touzhi-00005
-  rotate: true
-  xy: 721, 292
+  rotate: false
+  xy: 584, 350
   size: 292, 338
   orig: 292, 385
   offset: 0, 0
   index: -1
 card_touzhi-00006
   rotate: false
-  xy: 1059, 248
+  xy: 876, 352
   size: 292, 336
   orig: 292, 385
   offset: 0, 0
   index: -1
 card_touzhi-00007
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 876, 17
   size: 292, 335
   orig: 292, 385
   offset: 0, 0
   index: -1
 card_touzhi-00008
-  rotate: true
-  xy: 335, 0
+  rotate: false
+  xy: 584, 16
   size: 292, 334
   orig: 292, 385
   offset: 0, 0
   index: -1
 card_touzhi-00009
-  rotate: true
-  xy: 669, 5
+  rotate: false
+  xy: 292, 5
   size: 287, 330
   orig: 292, 385
   offset: 2, 0
   index: -1
 card_touzhi-00010
-  rotate: true
-  xy: 1046, 4
+  rotate: false
+  xy: 0, 0
   size: 244, 320
   orig: 292, 385
   offset: 24, 3
   index: -1
 card_touzhi-00011
-  rotate: true
-  xy: 999, 114
+  rotate: false
+  xy: 1168, 205
   size: 178, 47
   orig: 292, 385
   offset: 58, 40

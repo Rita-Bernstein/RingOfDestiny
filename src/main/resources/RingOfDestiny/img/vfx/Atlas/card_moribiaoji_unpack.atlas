@@ -1,6 +1,6 @@
 
 card_moribiaoji_unpack.png
-size: 671,554
+size: 678,554
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -13,7 +13,7 @@ card_moribiaoji-00000
   index: -1
 card_moribiaoji-00001
   rotate: false
-  xy: 554, 106
+  xy: 561, 230
   size: 117, 121
   orig: 380, 378
   offset: 138, 132
@@ -68,22 +68,22 @@ card_moribiaoji-00008
   offset: 122, 119
   index: -1
 card_moribiaoji-00009
-  rotate: true
-  xy: 428, 207
+  rotate: false
+  xy: 428, 214
   size: 133, 126
   orig: 380, 378
   offset: 129, 128
   index: -1
 card_moribiaoji-00010
-  rotate: true
-  xy: 554, 227
+  rotate: false
+  xy: 505, 10
   size: 124, 116
   orig: 380, 378
   offset: 134, 133
   index: -1
 card_moribiaoji-00011
   rotate: false
-  xy: 505, 2
+  xy: 561, 126
   size: 112, 104
   orig: 380, 378
   offset: 140, 139
@@ -96,8 +96,8 @@ card_moribiaoji-00012
   offset: 159, 156
   index: -1
 card_moribiaoji-00013
-  rotate: true
-  xy: 428, 149
+  rotate: false
+  xy: 157, 33
   size: 58, 64
   orig: 380, 378
   offset: 163, 160

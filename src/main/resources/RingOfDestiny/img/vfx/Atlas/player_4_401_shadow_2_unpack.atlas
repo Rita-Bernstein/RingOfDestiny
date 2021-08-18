@@ -1,61 +1,61 @@
 
 player_4_401_shadow_2_unpack.png
-size: 508,731
+size: 731,508
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 player_4_401_shadow_2-00000
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 578, 263
   size: 153, 245
   orig: 420, 323
   offset: 85, 25
   index: -1
 player_4_401_shadow_2-00001
-  rotate: true
-  xy: 247, 160
+  rotate: false
+  xy: 409, 15
   size: 162, 246
   orig: 420, 323
   offset: 85, 25
   index: -1
 player_4_401_shadow_2-00002
-  rotate: true
-  xy: 0, 325
+  rotate: false
+  xy: 223, 259
   size: 183, 249
   orig: 420, 323
   offset: 85, 25
   index: -1
 player_4_401_shadow_2-00003
-  rotate: true
-  xy: 255, 522
+  rotate: false
+  xy: 0, 0
   size: 209, 253
   orig: 420, 323
   offset: 86, 25
   index: -1
 player_4_401_shadow_2-00004
-  rotate: true
-  xy: 0, 508
+  rotate: false
+  xy: 0, 253
   size: 223, 255
   orig: 420, 323
   offset: 99, 27
   index: -1
 player_4_401_shadow_2-00005
-  rotate: true
-  xy: 255, 322
+  rotate: false
+  xy: 209, 2
   size: 200, 251
   orig: 420, 323
   offset: 122, 31
   index: -1
 player_4_401_shadow_2-00006
-  rotate: true
-  xy: 0, 153
+  rotate: false
+  xy: 406, 261
   size: 172, 247
   orig: 420, 323
   offset: 150, 35
   index: -1
 player_4_401_shadow_2-00007
-  rotate: true
-  xy: 247, 5
+  rotate: false
+  xy: 571, 17
   size: 155, 244
   orig: 420, 323
   offset: 167, 38

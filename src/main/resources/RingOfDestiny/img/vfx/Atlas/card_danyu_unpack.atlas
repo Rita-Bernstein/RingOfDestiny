@@ -1,96 +1,96 @@
 
 card_danyu_unpack.png
-size: 1509,563
+size: 2030,439
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_danyu-00000
   rotate: false
-  xy: 1297, 125
+  xy: 255, 1
   size: 55, 69
   orig: 519, 395
   offset: 41, 326
   index: -1
 card_danyu-00001
-  rotate: true
-  xy: 401, 0
+  rotate: false
+  xy: 974, 236
   size: 176, 203
   orig: 519, 395
   offset: 42, 192
   index: -1
 card_danyu-00002
   rotate: false
-  xy: 938, 185
+  xy: 0, 61
   size: 255, 378
   orig: 519, 395
   offset: 84, 17
   index: -1
 card_danyu-00003
   rotate: false
-  xy: 1193, 194
+  xy: 255, 70
   size: 316, 369
   orig: 519, 395
   offset: 100, 24
   index: -1
 card_danyu-00004
-  rotate: true
-  xy: 0, 160
+  rotate: false
+  xy: 571, 148
   size: 403, 291
   orig: 519, 395
   offset: 116, 15
   index: -1
 card_danyu-00005
   rotate: false
-  xy: 0, 3
+  xy: 1150, 282
   size: 401, 157
   orig: 519, 395
   offset: 116, 21
   index: -1
 card_danyu-00006
-  rotate: true
-  xy: 667, 178
+  rotate: false
+  xy: 1536, 159
   size: 385, 123
   orig: 519, 395
   offset: 116, 20
   index: -1
 card_danyu-00007
-  rotate: true
-  xy: 291, 176
+  rotate: false
+  xy: 1551, 319
   size: 387, 120
   orig: 519, 395
   offset: 114, 25
   index: -1
 card_danyu-00008
-  rotate: true
-  xy: 411, 177
+  rotate: false
+  xy: 1150, 158
   size: 386, 124
   orig: 519, 395
   offset: 115, 25
   index: -1
 card_danyu-00009
-  rotate: true
-  xy: 535, 178
+  rotate: false
+  xy: 952, 16
   size: 385, 132
   orig: 519, 395
   offset: 115, 25
   index: -1
 card_danyu-00010
-  rotate: true
-  xy: 790, 182
+  rotate: false
+  xy: 571, 0
   size: 381, 148
   orig: 519, 395
   offset: 120, 25
   index: -1
 card_danyu-00011
   rotate: false
-  xy: 950, 32
+  xy: 1683, 6
   size: 347, 153
   orig: 519, 395
   offset: 152, 25
   index: -1
 card_danyu-00012
   rotate: false
-  xy: 604, 23
+  xy: 1337, 3
   size: 346, 155
   orig: 519, 395
   offset: 151, 28

@@ -1,75 +1,75 @@
 
 effect_summon_10001_attack_1_unpack.png
-size: 1434,579
+size: 1428,583
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_summon_10001_attack_1-00000
-  rotate: true
-  xy: 274, 1
+  rotate: false
+  xy: 0, 15
   size: 250, 248
   orig: 500, 500
   offset: 124, 111
   index: -1
 effect_summon_10001_attack_1-00001
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 1177, 309
   size: 251, 274
   orig: 500, 500
   offset: 124, 112
   index: -1
 effect_summon_10001_attack_1-00002
   rotate: false
-  xy: 1093, 25
+  xy: 328, 0
   size: 259, 275
   orig: 500, 500
   offset: 125, 110
   index: -1
 effect_summon_10001_attack_1-00003
   rotate: false
-  xy: 903, 300
+  xy: 1130, 13
   size: 268, 279
   orig: 500, 500
   offset: 121, 105
   index: -1
 effect_summon_10001_attack_1-00004
   rotate: false
-  xy: 813, 0
+  xy: 850, 4
   size: 280, 280
   orig: 500, 500
   offset: 112, 102
   index: -1
 effect_summon_10001_attack_1-00005
   rotate: false
-  xy: 1171, 313
+  xy: 587, 9
   size: 263, 266
   orig: 500, 500
   offset: 124, 113
   index: -1
 effect_summon_10001_attack_1-00006
-  rotate: true
-  xy: 0, 251
+  rotate: false
+  xy: 0, 263
   size: 328, 320
   orig: 500, 500
   offset: 88, 80
   index: -1
 effect_summon_10001_attack_1-00007
   rotate: false
-  xy: 615, 280
+  xy: 623, 284
   size: 288, 299
   orig: 500, 500
   offset: 116, 90
   index: -1
 effect_summon_10001_attack_1-00008
-  rotate: true
-  xy: 522, 5
+  rotate: false
+  xy: 911, 292
   size: 266, 291
   orig: 500, 500
   offset: 107, 86
   index: -1
 effect_summon_10001_attack_1-00009
   rotate: false
-  xy: 320, 271
+  xy: 328, 275
   size: 295, 308
   orig: 500, 500
   offset: 90, 89

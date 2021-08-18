@@ -1,47 +1,47 @@
 
 card_morjianglin_unpack.png
-size: 1193,587
+size: 1223,583
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_morjianglin-00000
   rotate: false
-  xy: 1073, 40
+  xy: 998, 76
   size: 99, 102
   orig: 500, 350
   offset: 123, 247
   index: -1
 card_morjianglin-00001
   rotate: false
-  xy: 1073, 142
+  xy: 878, 0
   size: 120, 178
   orig: 500, 350
   offset: 125, 171
   index: -1
 card_morjianglin-00002
   rotate: false
-  xy: 287, 284
+  xy: 0, 280
   size: 163, 303
   orig: 500, 350
   offset: 125, 46
   index: -1
 card_morjianglin-00003
   rotate: false
-  xy: 450, 285
+  xy: 163, 281
   size: 216, 302
   orig: 500, 350
   offset: 115, 45
   index: -1
 card_morjianglin-00004
   rotate: false
-  xy: 666, 294
+  xy: 379, 290
   size: 292, 293
   orig: 500, 350
   offset: 127, 42
   index: -1
 card_morjianglin-00005
-  rotate: true
-  xy: 0, 280
+  rotate: false
+  xy: 571, 3
   size: 307, 287
   orig: 500, 350
   offset: 142, 41
@@ -54,36 +54,36 @@ card_morjianglin-00006
   offset: 141, 44
   index: -1
 card_morjianglin-00007
-  rotate: true
-  xy: 449, 8
+  rotate: false
+  xy: 295, 13
   size: 276, 268
   orig: 500, 350
   offset: 145, 50
   index: -1
 card_morjianglin-00008
-  rotate: true
-  xy: 717, 20
+  rotate: false
+  xy: 671, 346
   size: 274, 237
   orig: 500, 350
   offset: 144, 72
   index: -1
 card_morjianglin-00009
-  rotate: true
-  xy: 295, 6
+  rotate: false
+  xy: 945, 429
   size: 278, 154
   orig: 500, 350
   offset: 140, 71
   index: -1
 card_morjianglin-00010
-  rotate: true
-  xy: 958, 320
+  rotate: false
+  xy: 878, 178
   size: 267, 132
   orig: 500, 350
   offset: 157, 68
   index: -1
 card_morjianglin-00011
-  rotate: true
-  xy: 954, 26
+  rotate: false
+  xy: 945, 310
   size: 268, 119
   orig: 500, 350
   offset: 160, 73

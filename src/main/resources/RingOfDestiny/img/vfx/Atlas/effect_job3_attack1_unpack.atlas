@@ -1,0 +1,55 @@
+
+effect_job3_attack1_unpack.png
+size: 629,153
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job3_attack1-00000
+  rotate: false
+  xy: 0, 66
+  size: 189, 87
+  orig: 458, 281
+  offset: 121, 94
+  index: -1
+effect_job3_attack1-00001
+  rotate: false
+  xy: 189, 67
+  size: 252, 86
+  orig: 458, 281
+  offset: 125, 96
+  index: -1
+effect_job3_attack1-00002
+  rotate: false
+  xy: 411, 1
+  size: 212, 53
+  orig: 458, 281
+  offset: 128, 113
+  index: -1
+effect_job3_attack1-00003
+  rotate: false
+  xy: 194, 0
+  size: 217, 54
+  orig: 458, 281
+  offset: 130, 113
+  index: -1
+effect_job3_attack1-00004
+  rotate: false
+  xy: 0, 10
+  size: 194, 56
+  orig: 458, 281
+  offset: 135, 112
+  index: -1
+effect_job3_attack1-00005
+  rotate: false
+  xy: 441, 100
+  size: 188, 53
+  orig: 458, 281
+  offset: 140, 114
+  index: -1
+effect_job3_attack1-00006
+  rotate: false
+  xy: 441, 54
+  size: 182, 46
+  orig: 458, 281
+  offset: 145, 117
+  index: -1

@@ -1,19 +1,19 @@
 
 card_hunluantouzhi_unpack.png
-size: 1628,583
+size: 1633,583
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_hunluantouzhi-00000
   rotate: false
-  xy: 1526, 205
+  xy: 1533, 205
   size: 100, 100
   orig: 500, 476
   offset: 207, 199
   index: -1
 card_hunluantouzhi-00001
-  rotate: true
-  xy: 1300, 69
+  rotate: false
+  xy: 1300, 76
   size: 233, 226
   orig: 500, 476
   offset: 141, 131

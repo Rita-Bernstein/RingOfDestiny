@@ -1,0 +1,111 @@
+
+ui_balance_title_light_award_unpack.png
+size: 967,731
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_balance_title_light_award-00000
+  rotate: false
+  xy: 648, 585
+  size: 310, 146
+  orig: 500, 282
+  offset: 105, 67
+  index: -1
+ui_balance_title_light_award-00001
+  rotate: false
+  xy: 313, 139
+  size: 311, 144
+  orig: 500, 282
+  offset: 107, 68
+  index: -1
+ui_balance_title_light_award-00002
+  rotate: false
+  xy: 0, 139
+  size: 312, 143
+  orig: 500, 282
+  offset: 109, 69
+  index: -1
+ui_balance_title_light_award-00003
+  rotate: false
+  xy: 0, 282
+  size: 313, 139
+  orig: 500, 282
+  offset: 111, 71
+  index: -1
+ui_balance_title_light_award-00004
+  rotate: false
+  xy: 337, 283
+  size: 321, 143
+  orig: 500, 282
+  offset: 107, 69
+  index: -1
+ui_balance_title_light_award-00005
+  rotate: false
+  xy: 337, 426
+  size: 329, 147
+  orig: 500, 282
+  offset: 102, 68
+  index: -1
+ui_balance_title_light_award-00006
+  rotate: false
+  xy: 0, 421
+  size: 337, 152
+  orig: 500, 282
+  offset: 97, 67
+  index: -1
+ui_balance_title_light_award-00007
+  rotate: false
+  xy: 0, 573
+  size: 345, 158
+  orig: 500, 282
+  offset: 92, 64
+  index: -1
+ui_balance_title_light_award-00008
+  rotate: false
+  xy: 345, 584
+  size: 303, 147
+  orig: 500, 282
+  offset: 97, 67
+  index: -1
+ui_balance_title_light_award-00009
+  rotate: false
+  xy: 624, 141
+  size: 301, 142
+  orig: 500, 282
+  offset: 101, 69
+  index: -1
+ui_balance_title_light_award-00010
+  rotate: false
+  xy: 666, 305
+  size: 294, 139
+  orig: 500, 282
+  offset: 105, 71
+  index: -1
+ui_balance_title_light_award-00011
+  rotate: false
+  xy: 0, 0
+  size: 292, 139
+  orig: 500, 282
+  offset: 110, 71
+  index: -1
+ui_balance_title_light_award-00012
+  rotate: false
+  xy: 292, 3
+  size: 291, 136
+  orig: 500, 282
+  offset: 114, 73
+  index: -1
+ui_balance_title_light_award-00013
+  rotate: false
+  xy: 624, 3
+  size: 295, 138
+  orig: 500, 282
+  offset: 113, 72
+  index: -1
+ui_balance_title_light_award-00014
+  rotate: false
+  xy: 666, 444
+  size: 301, 141
+  orig: 500, 282
+  offset: 110, 71
+  index: -1

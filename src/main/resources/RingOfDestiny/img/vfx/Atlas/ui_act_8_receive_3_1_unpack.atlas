@@ -1,0 +1,139 @@
+
+ui_act_8_receive_3_1_unpack.png
+size: 1835,1104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_act_8_receive_3_1-00000
+  rotate: false
+  xy: 1225, 6
+  size: 304, 365
+  orig: 500, 500
+  offset: 94, 67
+  index: -1
+ui_act_8_receive_3_1-00018
+  rotate: false
+  xy: 1225, 6
+  size: 304, 365
+  orig: 500, 500
+  offset: 94, 67
+  index: -1
+ui_act_8_receive_3_1-00001
+  rotate: false
+  xy: 1531, 738
+  size: 304, 366
+  orig: 500, 500
+  offset: 94, 66
+  index: -1
+ui_act_8_receive_3_1-00002
+  rotate: false
+  xy: 1530, 6
+  size: 304, 366
+  orig: 500, 500
+  offset: 94, 66
+  index: -1
+ui_act_8_receive_3_1-00003
+  rotate: false
+  xy: 920, 370
+  size: 305, 367
+  orig: 500, 500
+  offset: 93, 66
+  index: -1
+ui_act_8_receive_3_1-00004
+  rotate: false
+  xy: 1225, 371
+  size: 305, 366
+  orig: 500, 500
+  offset: 93, 66
+  index: -1
+ui_act_8_receive_3_1-00005
+  rotate: false
+  xy: 921, 737
+  size: 305, 367
+  orig: 500, 500
+  offset: 93, 66
+  index: -1
+ui_act_8_receive_3_1-00006
+  rotate: false
+  xy: 614, 369
+  size: 306, 368
+  orig: 500, 500
+  offset: 92, 65
+  index: -1
+ui_act_8_receive_3_1-00007
+  rotate: false
+  xy: 307, 1
+  size: 307, 367
+  orig: 500, 500
+  offset: 92, 66
+  index: -1
+ui_act_8_receive_3_1-00008
+  rotate: false
+  xy: 0, 736
+  size: 307, 368
+  orig: 500, 500
+  offset: 92, 65
+  index: -1
+ui_act_8_receive_3_1-00009
+  rotate: false
+  xy: 0, 368
+  size: 307, 368
+  orig: 500, 500
+  offset: 92, 65
+  index: -1
+ui_act_8_receive_3_1-00010
+  rotate: false
+  xy: 0, 0
+  size: 307, 368
+  orig: 500, 500
+  offset: 92, 65
+  index: -1
+ui_act_8_receive_3_1-00011
+  rotate: false
+  xy: 307, 736
+  size: 307, 368
+  orig: 500, 500
+  offset: 92, 65
+  index: -1
+ui_act_8_receive_3_1-00012
+  rotate: false
+  xy: 614, 737
+  size: 307, 367
+  orig: 500, 500
+  offset: 92, 66
+  index: -1
+ui_act_8_receive_3_1-00013
+  rotate: false
+  xy: 307, 368
+  size: 307, 368
+  orig: 500, 500
+  offset: 92, 65
+  index: -1
+ui_act_8_receive_3_1-00014
+  rotate: false
+  xy: 920, 3
+  size: 305, 367
+  orig: 500, 500
+  offset: 93, 66
+  index: -1
+ui_act_8_receive_3_1-00015
+  rotate: false
+  xy: 614, 3
+  size: 306, 366
+  orig: 500, 500
+  offset: 93, 66
+  index: -1
+ui_act_8_receive_3_1-00016
+  rotate: false
+  xy: 1226, 738
+  size: 305, 366
+  orig: 500, 500
+  offset: 93, 66
+  index: -1
+ui_act_8_receive_3_1-00017
+  rotate: false
+  xy: 1530, 372
+  size: 305, 366
+  orig: 500, 500
+  offset: 93, 66
+  index: -1

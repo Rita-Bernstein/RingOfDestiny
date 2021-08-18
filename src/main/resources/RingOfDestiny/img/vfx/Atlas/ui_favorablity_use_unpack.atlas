@@ -1,82 +1,82 @@
 
 ui_favorablity_use_unpack.png
-size: 1154,1125
+size: 1642,785
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_favorablity_use-00000
   rotate: false
-  xy: 826, 414
+  xy: 324, 9
   size: 328, 351
   orig: 455, 450
   offset: 60, 48
   index: -1
 ui_favorablity_use-00001
-  rotate: true
-  xy: 422, 322
+  rotate: false
+  xy: 1246, 381
   size: 396, 404
   orig: 455, 450
   offset: 27, 27
   index: -1
 ui_favorablity_use-00002
   rotate: false
-  xy: 0, 280
+  xy: 422, 365
   size: 421, 420
   orig: 455, 450
   offset: 17, 15
   index: -1
 ui_favorablity_use-00003
   rotate: false
-  xy: 0, 700
+  xy: 0, 360
   size: 422, 425
   orig: 455, 450
   offset: 19, 13
   index: -1
 ui_favorablity_use-00004
   rotate: false
-  xy: 422, 718
+  xy: 843, 378
   size: 403, 407
   orig: 455, 450
   offset: 27, 25
   index: -1
 ui_favorablity_use-00005
   rotate: false
-  xy: 825, 765
+  xy: 0, 0
   size: 324, 360
   orig: 455, 450
   offset: 66, 54
   index: -1
 ui_favorablity_use-00006
-  rotate: true
-  xy: 0, 72
+  rotate: false
+  xy: 652, 33
   size: 208, 332
   orig: 455, 450
   offset: 113, 78
   index: -1
 ui_favorablity_use-00007
-  rotate: true
-  xy: 826, 215
+  rotate: false
+  xy: 860, 62
   size: 199, 316
   orig: 455, 450
   offset: 119, 82
   index: -1
 ui_favorablity_use-00008
-  rotate: true
-  xy: 421, 154
+  rotate: false
+  xy: 1059, 81
   size: 168, 297
   orig: 455, 450
   offset: 131, 86
   index: -1
 ui_favorablity_use-00009
-  rotate: true
-  xy: 332, 0
+  rotate: false
+  xy: 1227, 112
   size: 154, 266
   orig: 455, 450
   offset: 138, 91
   index: -1
 ui_favorablity_use-00010
-  rotate: true
-  xy: 598, 22
+  rotate: false
+  xy: 1381, 155
   size: 132, 226
   orig: 455, 450
   offset: 151, 97

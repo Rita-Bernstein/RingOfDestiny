@@ -1,75 +1,75 @@
 
 card_shuangchongdaji_unpack.png
-size: 1898,1526
+size: 1861,1639
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_shuangchongdaji-00000
-  rotate: true
-  xy: 1206, 3
+  rotate: false
+  xy: 1467, 80
   size: 213, 369
   orig: 720, 720
   offset: 159, 351
   index: -1
 card_shuangchongdaji-00001
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 1467, 449
   size: 334, 663
   orig: 720, 720
   offset: 194, 25
   index: -1
 card_shuangchongdaji-00002
-  rotate: true
-  xy: 1239, 216
+  rotate: false
+  xy: 1140, 1
   size: 327, 655
   orig: 720, 720
   offset: 194, 33
   index: -1
 card_shuangchongdaji-00003
-  rotate: true
-  xy: 624, 1009
+  rotate: false
+  xy: 623, 4
   size: 517, 652
   orig: 720, 720
   offset: 194, 36
   index: -1
 card_shuangchongdaji-00004
   rotate: false
-  xy: 0, 911
+  xy: 0, 1024
   size: 624, 615
   orig: 720, 720
   offset: 80, 42
   index: -1
 card_shuangchongdaji-00005
   rotate: false
-  xy: 0, 334
+  xy: 0, 447
   size: 623, 577
   orig: 720, 720
   offset: 80, 59
   index: -1
 card_shuangchongdaji-00006
   rotate: false
-  xy: 1276, 996
+  xy: 624, 1109
   size: 622, 530
   orig: 720, 720
   offset: 81, 105
   index: -1
 card_shuangchongdaji-00007
   rotate: false
-  xy: 624, 482
+  xy: 1246, 1112
   size: 615, 527
   orig: 720, 720
   offset: 86, 106
   index: -1
 card_shuangchongdaji-00008
   rotate: false
-  xy: 1239, 543
+  xy: 624, 656
   size: 601, 453
   orig: 720, 720
   offset: 100, 109
   index: -1
 card_shuangchongdaji-00009
   rotate: false
-  xy: 663, 35
+  xy: 0, 0
   size: 543, 447
   orig: 720, 720
   offset: 116, 109

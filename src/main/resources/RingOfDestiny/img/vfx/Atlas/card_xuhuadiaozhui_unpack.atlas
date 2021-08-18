@@ -1,68 +1,68 @@
 
 card_xuhuadiaozhui_unpack.png
-size: 478,585
+size: 493,568
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_xuhuadiaozhui-00000
-  rotate: true
-  xy: 294, 213
+  rotate: false
+  xy: 294, 402
   size: 199, 166
   orig: 300, 250
   offset: 53, 40
   index: -1
 card_xuhuadiaozhui-00001
   rotate: false
-  xy: 0, 6
+  xy: 0, 118
   size: 249, 207
   orig: 300, 250
   offset: 27, 21
   index: -1
 card_xuhuadiaozhui-00002
   rotate: false
-  xy: 0, 342
+  xy: 0, 325
   size: 294, 243
   orig: 300, 250
   offset: 3, 3
   index: -1
 card_xuhuadiaozhui-00003
   rotate: false
-  xy: 294, 412
+  xy: 294, 229
   size: 184, 173
   orig: 300, 250
   offset: 63, 36
   index: -1
 card_xuhuadiaozhui-00004
-  rotate: true
-  xy: 0, 215
+  rotate: false
+  xy: 0, 1
   size: 127, 117
   orig: 300, 250
   offset: 90, 61
   index: -1
 card_xuhuadiaozhui-00005
-  rotate: true
-  xy: 249, 81
+  rotate: false
+  xy: 249, 122
   size: 132, 107
   orig: 300, 250
   offset: 87, 65
   index: -1
 card_xuhuadiaozhui-00006
   rotate: false
-  xy: 356, 100
+  xy: 249, 9
   size: 118, 113
   orig: 300, 250
   offset: 96, 63
   index: -1
 card_xuhuadiaozhui-00007
   rotate: false
-  xy: 117, 224
+  xy: 127, 0
   size: 118, 118
   orig: 300, 250
   offset: 97, 61
   index: -1
 card_xuhuadiaozhui-00008
   rotate: false
-  xy: 356, 0
+  xy: 367, 22
   size: 117, 100
   orig: 300, 250
   offset: 100, 58

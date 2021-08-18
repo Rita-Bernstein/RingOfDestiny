@@ -1,18 +1,18 @@
 
 card_jieyin_wu_402_unpack.png
-size: 433,624
+size: 430,629
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jieyin_wu_402-00000
-  rotate: true
-  xy: 0, 385
+  rotate: false
+  xy: 0, 388
   size: 239, 241
   orig: 459, 379
   offset: 117, 70
   index: -1
 card_jieyin_wu_402-00001
-  rotate: true
+  rotate: false
   xy: 0, 158
   size: 227, 230
   orig: 459, 379
@@ -20,21 +20,21 @@ card_jieyin_wu_402-00001
   index: -1
 card_jieyin_wu_402-00002
   rotate: false
-  xy: 230, 73
+  xy: 227, 77
   size: 203, 203
   orig: 459, 379
   offset: 136, 88
   index: -1
 card_jieyin_wu_402-00003
   rotate: false
-  xy: 241, 445
+  xy: 239, 450
   size: 184, 179
   orig: 459, 379
   offset: 143, 100
   index: -1
 card_jieyin_wu_402-00004
-  rotate: true
-  xy: 241, 276
+  rotate: false
+  xy: 239, 280
   size: 169, 170
   orig: 459, 379
   offset: 151, 102

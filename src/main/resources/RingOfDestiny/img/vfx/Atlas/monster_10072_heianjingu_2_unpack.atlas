@@ -1,96 +1,96 @@
 
 monster_10072_heianjingu_2_unpack.png
-size: 1004,1154
+size: 1849,630
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10072_heianjingu_2-00000
-  rotate: true
-  xy: 715, 109
+  rotate: false
+  xy: 976, 35
   size: 252, 276
   orig: 502, 433
   offset: 134, 72
   index: -1
 monster_10072_heianjingu_2-00001
   rotate: false
-  xy: 470, 3
+  xy: 262, 3
   size: 245, 299
   orig: 502, 433
   offset: 142, 53
   index: -1
 monster_10072_heianjingu_2-00002
-  rotate: true
-  xy: 697, 361
+  rotate: false
+  xy: 507, 0
   size: 240, 302
   orig: 502, 433
   offset: 141, 53
   index: -1
 monster_10072_heianjingu_2-00003
-  rotate: true
-  xy: 697, 601
+  rotate: false
+  xy: 747, 10
   size: 229, 304
   orig: 502, 433
   offset: 131, 53
   index: -1
 monster_10072_heianjingu_2-00004
   rotate: false
-  xy: 699, 830
+  xy: 1380, 306
   size: 305, 324
   orig: 502, 433
   offset: 88, 59
   index: -1
 monster_10072_heianjingu_2-00005
   rotate: false
-  xy: 0, 827
+  xy: 0, 303
   size: 352, 327
   orig: 502, 433
   offset: 59, 58
   index: -1
 monster_10072_heianjingu_2-00006
   rotate: false
-  xy: 352, 510
+  xy: 352, 302
   size: 345, 328
   orig: 502, 433
   offset: 63, 58
   index: -1
 monster_10072_heianjingu_2-00007
   rotate: false
-  xy: 0, 508
+  xy: 1044, 311
   size: 336, 319
   orig: 502, 433
   offset: 73, 59
   index: -1
 monster_10072_heianjingu_2-00008
   rotate: false
-  xy: 352, 838
+  xy: 697, 314
   size: 347, 316
   orig: 502, 433
   offset: 88, 59
   index: -1
 monster_10072_heianjingu_2-00009
   rotate: false
-  xy: 208, 1
+  xy: 0, 2
   size: 262, 301
   orig: 502, 433
   offset: 135, 68
   index: -1
 monster_10072_heianjingu_2-00010
-  rotate: true
-  xy: 336, 302
+  rotate: false
+  xy: 1228, 4
   size: 208, 302
   orig: 502, 433
   offset: 167, 68
   index: -1
 monster_10072_heianjingu_2-00011
   rotate: false
-  xy: 0, 0
+  xy: 1436, 4
   size: 208, 302
   orig: 502, 433
   offset: 170, 68
   index: -1
 monster_10072_heianjingu_2-00012
-  rotate: true
-  xy: 0, 303
+  rotate: false
+  xy: 1644, 12
   size: 205, 294
   orig: 502, 433
   offset: 175, 76

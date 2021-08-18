@@ -1,47 +1,47 @@
 
 monster_10080_atk_unpack.png
-size: 1199,203
+size: 589,437
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10080_atk-00000
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 178
   size: 203, 259
   orig: 373, 331
   offset: 85, 32
   index: -1
 monster_10080_atk-00001
-  rotate: true
-  xy: 259, 5
+  rotate: false
+  xy: 203, 183
   size: 198, 254
   orig: 373, 331
   offset: 89, 35
   index: -1
 monster_10080_atk-00002
-  rotate: true
-  xy: 513, 15
+  rotate: false
+  xy: 401, 198
   size: 188, 239
   orig: 373, 331
   offset: 93, 42
   index: -1
 monster_10080_atk-00003
   rotate: false
-  xy: 752, 6
+  xy: 401, 1
   size: 166, 197
   orig: 373, 331
   offset: 103, 61
   index: -1
 monster_10080_atk-00004
   rotate: false
-  xy: 918, 20
+  xy: 203, 0
   size: 148, 183
   orig: 373, 331
   offset: 111, 67
   index: -1
 monster_10080_atk-00005
   rotate: false
-  xy: 1066, 50
+  xy: 0, 25
   size: 133, 153
   orig: 373, 331
   offset: 117, 82

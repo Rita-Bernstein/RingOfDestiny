@@ -1,103 +1,103 @@
 
 card_chengzhangdan_unpack.png
-size: 1058,319
+size: 627,532
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_chengzhangdan-00000
   rotate: false
-  xy: 0, 132
+  xy: 0, 345
   size: 258, 187
   orig: 370, 347
   offset: 50, 74
   index: -1
 card_chengzhangdan-00001
-  rotate: true
-  xy: 776, 104
+  rotate: false
+  xy: 0, 187
   size: 215, 158
   orig: 370, 347
   offset: 82, 93
   index: -1
 card_chengzhangdan-00002
   rotate: false
-  xy: 0, 2
+  xy: 353, 76
   size: 145, 130
   orig: 370, 347
   offset: 115, 107
   index: -1
 card_chengzhangdan-00003
-  rotate: true
-  xy: 145, 11
+  rotate: false
+  xy: 501, 254
   size: 121, 111
   orig: 370, 347
   offset: 124, 116
   index: -1
 card_chengzhangdan-00004
   rotate: false
-  xy: 766, 24
+  xy: 501, 174
   size: 124, 80
   orig: 370, 347
   offset: 120, 134
   index: -1
 card_chengzhangdan-00005
   rotate: false
-  xy: 934, 118
+  xy: 323, 0
   size: 124, 76
   orig: 370, 347
   offset: 120, 134
   index: -1
 card_chengzhangdan-00006
-  rotate: true
-  xy: 934, 194
+  rotate: false
+  xy: 498, 22
   size: 125, 76
   orig: 370, 347
   offset: 119, 134
   index: -1
 card_chengzhangdan-00007
   rotate: false
-  xy: 890, 28
+  xy: 498, 98
   size: 129, 76
   orig: 370, 347
   offset: 116, 134
   index: -1
 card_chengzhangdan-00008
   rotate: false
-  xy: 434, 148
+  xy: 0, 16
   size: 172, 171
   orig: 370, 347
   offset: 103, 88
   index: -1
 card_chengzhangdan-00009
-  rotate: true
-  xy: 258, 146
+  rotate: false
+  xy: 258, 356
   size: 173, 176
   orig: 370, 347
   offset: 102, 85
   index: -1
 card_chengzhangdan-00010
   rotate: false
-  xy: 606, 152
+  xy: 431, 365
   size: 170, 167
   orig: 370, 347
   offset: 101, 91
   index: -1
 card_chengzhangdan-00011
-  rotate: true
-  xy: 434, 0
+  rotate: false
+  xy: 353, 206
   size: 148, 150
   orig: 370, 347
   offset: 99, 108
   index: -1
 card_chengzhangdan-00012
-  rotate: true
-  xy: 606, 1
+  rotate: false
+  xy: 172, 27
   size: 151, 160
   orig: 370, 347
   offset: 95, 103
   index: -1
 card_chengzhangdan-00013
-  rotate: true
-  xy: 258, 8
+  rotate: false
+  xy: 215, 189
   size: 138, 156
   orig: 370, 347
   offset: 109, 109

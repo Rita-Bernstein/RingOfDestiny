@@ -1,61 +1,61 @@
 
 card_dujizhili_unpack.png
-size: 529,303
+size: 529,302
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_dujizhili-00000
   rotate: false
-  xy: 380, 6
+  xy: 401, 5
   size: 57, 55
   orig: 500, 500
   offset: 225, 218
   index: -1
 card_dujizhili-00001
   rotate: false
-  xy: 0, 123
+  xy: 0, 122
   size: 205, 180
   orig: 500, 500
   offset: 150, 160
   index: -1
 card_dujizhili-00002
   rotate: false
-  xy: 205, 148
+  xy: 205, 147
   size: 172, 155
   orig: 500, 500
   offset: 165, 171
   index: -1
 card_dujizhili-00003
   rotate: false
-  xy: 377, 170
+  xy: 377, 169
   size: 152, 133
   orig: 500, 500
   offset: 182, 183
   index: -1
 card_dujizhili-00004
   rotate: false
-  xy: 116, 1
+  xy: 0, 0
   size: 142, 122
   orig: 500, 500
   offset: 186, 187
   index: -1
 card_dujizhili-00005
-  rotate: true
-  xy: 258, 12
+  rotate: false
+  xy: 142, 0
   size: 136, 122
   orig: 500, 500
   offset: 188, 186
   index: -1
 card_dujizhili-00006
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 278, 31
   size: 123, 116
   orig: 500, 500
   offset: 196, 190
   index: -1
 card_dujizhili-00007
   rotate: false
-  xy: 380, 61
+  xy: 401, 60
   size: 110, 109
   orig: 500, 500
   offset: 199, 194

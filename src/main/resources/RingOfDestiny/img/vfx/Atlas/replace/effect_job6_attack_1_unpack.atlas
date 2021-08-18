@@ -1,0 +1,27 @@
+
+effect_job6_attack_1_unpack.png
+size: 363,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job6_attack_1-00000
+  rotate: false
+  xy: 0, 121
+  size: 360, 127
+  orig: 500, 372
+  offset: 84, 103
+  index: -1
+effect_job6_attack_1-00001
+  rotate: false
+  xy: 0, 0
+  size: 352, 121
+  orig: 500, 372
+  offset: 77, 104
+  index: -1
+effect_job6_attack_1-effect_job6_attack_1
+  rotate: false
+  xy: 0, 248
+  size: 363, 272
+  orig: 418, 296
+  offset: 28, 13
+  index: -1

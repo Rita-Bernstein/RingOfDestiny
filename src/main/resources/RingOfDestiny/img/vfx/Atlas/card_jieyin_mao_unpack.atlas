@@ -1,40 +1,40 @@
 
 card_jieyin_mao_unpack.png
-size: 799,239
+size: 239,804
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jieyin_mao-00000
-  rotate: true
+  rotate: false
   xy: 0, 0
   size: 239, 241
   orig: 459, 379
   offset: 117, 70
   index: -1
 card_jieyin_mao-00001
-  rotate: true
-  xy: 241, 12
+  rotate: false
+  xy: 0, 241
   size: 227, 230
   orig: 459, 379
   offset: 123, 76
   index: -1
 card_jieyin_mao-00002
-  rotate: true
-  xy: 471, 41
+  rotate: false
+  xy: 0, 471
   size: 198, 199
   orig: 459, 379
   offset: 140, 92
   index: -1
 card_jieyin_mao-00003
-  rotate: true
-  xy: 670, 13
+  rotate: false
+  xy: 0, 675
   size: 92, 129
   orig: 459, 379
   offset: 197, 137
   index: -1
 card_jieyin_mao-00004
   rotate: false
-  xy: 670, 105
+  xy: 92, 670
   size: 96, 134
   orig: 459, 379
   offset: 196, 134

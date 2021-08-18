@@ -1,131 +1,131 @@
 
 ui_task_mirror_ice_unpack.png
-size: 924,581
+size: 1275,432
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_task_mirror_ice-00000
-  rotate: true
-  xy: 809, 281
+  rotate: false
+  xy: 1200, 27
   size: 59, 94
   orig: 410, 383
   offset: 206, 106
   index: -1
 ui_task_mirror_ice-00001
-  rotate: true
-  xy: 803, 489
+  rotate: false
+  xy: 1108, 0
   size: 92, 121
   orig: 410, 383
   offset: 186, 94
   index: -1
 ui_task_mirror_ice-00002
   rotate: false
-  xy: 803, 340
+  xy: 1132, 121
   size: 114, 149
   orig: 410, 383
   offset: 170, 88
   index: -1
 ui_task_mirror_ice-00003
   rotate: false
-  xy: 754, 0
+  xy: 966, 63
   size: 142, 178
   orig: 410, 383
   offset: 144, 86
   index: -1
 ui_task_mirror_ice-00004
-  rotate: true
-  xy: 212, 2
+  rotate: false
+  xy: 820, 241
   size: 158, 191
   orig: 410, 383
   offset: 129, 85
   index: -1
 ui_task_mirror_ice-00005
-  rotate: true
-  xy: 403, 0
+  rotate: false
+  xy: 798, 35
   size: 168, 197
   orig: 410, 383
   offset: 120, 86
   index: -1
 ui_task_mirror_ice-00006
   rotate: false
-  xy: 348, 168
+  xy: 487, 226
   size: 170, 206
   orig: 410, 383
   offset: 118, 83
   index: -1
 ui_task_mirror_ice-00007
   rotate: false
-  xy: 144, 369
+  xy: 144, 220
   size: 170, 212
   orig: 410, 383
   offset: 118, 82
   index: -1
 ui_task_mirror_ice-00008
   rotate: false
-  xy: 0, 151
+  xy: 0, 2
   size: 175, 212
   orig: 410, 383
   offset: 116, 84
   index: -1
 ui_task_mirror_ice-00009
   rotate: false
-  xy: 175, 160
+  xy: 314, 223
   size: 173, 209
   orig: 410, 383
   offset: 118, 87
   index: -1
 ui_task_mirror_ice-00010
   rotate: false
-  xy: 314, 374
+  xy: 324, 16
   size: 169, 207
   orig: 410, 383
   offset: 120, 89
   index: -1
 ui_task_mirror_ice-00011
   rotate: false
-  xy: 640, 381
+  xy: 657, 232
   size: 163, 200
   orig: 410, 383
   offset: 123, 92
   index: -1
 ui_task_mirror_ice-00012
   rotate: false
-  xy: 483, 375
+  xy: 493, 20
   size: 157, 206
   orig: 410, 383
   offset: 127, 89
   index: -1
 ui_task_mirror_ice-00013
-  rotate: true
-  xy: 0, 2
+  rotate: false
+  xy: 175, 8
   size: 149, 212
   orig: 410, 383
   offset: 131, 85
   index: -1
 ui_task_mirror_ice-00014
   rotate: false
-  xy: 0, 363
+  xy: 0, 214
   size: 144, 218
   orig: 410, 383
   offset: 137, 82
   index: -1
 ui_task_mirror_ice-00015
   rotate: false
-  xy: 518, 174
+  xy: 650, 25
   size: 148, 201
   orig: 410, 383
   offset: 134, 79
   index: -1
 ui_task_mirror_ice-00016
   rotate: false
-  xy: 600, 2
+  xy: 978, 260
   size: 154, 172
   orig: 410, 383
   offset: 130, 100
   index: -1
 ui_task_mirror_ice-00017
   rotate: false
-  xy: 666, 178
+  xy: 1132, 270
   size: 143, 162
   orig: 410, 383
   offset: 142, 108

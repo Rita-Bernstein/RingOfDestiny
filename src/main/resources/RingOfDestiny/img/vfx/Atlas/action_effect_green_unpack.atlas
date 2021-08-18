@@ -1,82 +1,82 @@
 
 action_effect_green_unpack.png
-size: 1797,1208
+size: 1563,1370
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 action_effect_green-00000
-  rotate: true
-  xy: 0, 869
+  rotate: false
+  xy: 1222, 957
   size: 339, 413
   orig: 447, 486
   offset: 69, 41
   index: -1
 action_effect_green-00001
-  rotate: true
-  xy: 854, 830
+  rotate: false
+  xy: 815, 26
   size: 378, 437
   orig: 447, 486
   offset: 48, 24
   index: -1
 action_effect_green-00002
-  rotate: true
-  xy: 0, 432
+  rotate: false
+  xy: 816, 920
   size: 406, 450
   orig: 447, 486
   offset: 31, 18
   index: -1
 action_effect_green-00003
-  rotate: true
-  xy: 450, 423
+  rotate: false
+  xy: 408, 20
   size: 407, 449
   orig: 447, 486
   offset: 30, 18
   index: -1
 action_effect_green-00004
-  rotate: true
-  xy: 899, 408
+  rotate: false
+  xy: 0, 0
   size: 408, 449
   orig: 447, 486
   offset: 29, 17
   index: -1
 action_effect_green-00005
-  rotate: true
-  xy: 1348, 408
+  rotate: false
+  xy: 408, 469
   size: 408, 449
   orig: 447, 486
   offset: 29, 16
   index: -1
 action_effect_green-00006
-  rotate: true
-  xy: 0, 15
+  rotate: false
+  xy: 408, 918
   size: 408, 452
   orig: 447, 486
   offset: 29, 15
   index: -1
 action_effect_green-00007
-  rotate: true
-  xy: 452, 0
+  rotate: false
+  xy: 0, 909
   size: 408, 461
   orig: 447, 486
   offset: 29, 15
   index: -1
 action_effect_green-00008
-  rotate: true
-  xy: 913, 0
+  rotate: false
+  xy: 0, 449
   size: 408, 460
   orig: 447, 486
   offset: 29, 16
   index: -1
 action_effect_green-00009
-  rotate: true
-  xy: 1291, 816
+  rotate: false
+  xy: 816, 463
   size: 392, 457
   orig: 447, 486
   offset: 39, 19
   index: -1
 action_effect_green-00010
-  rotate: true
-  xy: 413, 838
+  rotate: false
+  xy: 1193, 22
   size: 370, 441
   orig: 447, 486
   offset: 48, 35

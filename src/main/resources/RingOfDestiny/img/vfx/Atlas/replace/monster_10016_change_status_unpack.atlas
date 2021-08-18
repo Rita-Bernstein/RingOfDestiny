@@ -1,0 +1,167 @@
+
+monster_10016_change_status_unpack.png
+size: 1799,506
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10016_change_status-00000
+  rotate: false
+  xy: 1648, 22
+  size: 110, 116
+  orig: 437, 437
+  offset: 138, 105
+  index: -1
+monster_10016_change_status-00001
+  rotate: false
+  xy: 1670, 354
+  size: 129, 152
+  orig: 437, 437
+  offset: 127, 100
+  index: -1
+monster_10016_change_status-00002
+  rotate: false
+  xy: 1648, 138
+  size: 136, 158
+  orig: 437, 437
+  offset: 121, 100
+  index: -1
+monster_10016_change_status-00003
+  rotate: false
+  xy: 1311, 54
+  size: 150, 198
+  orig: 437, 437
+  offset: 121, 96
+  index: -1
+monster_10016_change_status-00004
+  rotate: false
+  xy: 0, 6
+  size: 167, 237
+  orig: 437, 437
+  offset: 122, 92
+  index: -1
+monster_10016_change_status-00005
+  rotate: false
+  xy: 945, 1
+  size: 184, 251
+  orig: 437, 437
+  offset: 120, 90
+  index: -1
+monster_10016_change_status-00006
+  rotate: false
+  xy: 1461, 31
+  size: 187, 258
+  orig: 437, 437
+  offset: 121, 85
+  index: -1
+monster_10016_change_status-00007
+  rotate: false
+  xy: 189, 245
+  size: 190, 261
+  orig: 437, 437
+  offset: 118, 82
+  index: -1
+monster_10016_change_status-00008
+  rotate: false
+  xy: 0, 243
+  size: 189, 263
+  orig: 437, 437
+  offset: 118, 81
+  index: -1
+monster_10016_change_status-00009
+  rotate: false
+  xy: 379, 245
+  size: 188, 261
+  orig: 437, 437
+  offset: 119, 82
+  index: -1
+monster_10016_change_status-00010
+  rotate: false
+  xy: 567, 246
+  size: 188, 260
+  orig: 437, 437
+  offset: 118, 83
+  index: -1
+monster_10016_change_status-00011
+  rotate: false
+  xy: 755, 249
+  size: 189, 257
+  orig: 437, 437
+  offset: 117, 83
+  index: -1
+monster_10016_change_status-00012
+  rotate: false
+  xy: 944, 252
+  size: 187, 254
+  orig: 437, 437
+  offset: 118, 84
+  index: -1
+monster_10016_change_status-00013
+  rotate: false
+  xy: 1131, 252
+  size: 185, 254
+  orig: 437, 437
+  offset: 120, 85
+  index: -1
+monster_10016_change_status-00014
+  rotate: false
+  xy: 1129, 0
+  size: 182, 252
+  orig: 437, 437
+  offset: 122, 87
+  index: -1
+monster_10016_change_status-00015
+  rotate: false
+  xy: 770, 0
+  size: 175, 249
+  orig: 437, 437
+  offset: 123, 91
+  index: -1
+monster_10016_change_status-00016
+  rotate: false
+  xy: 167, 3
+  size: 163, 240
+  orig: 437, 437
+  offset: 127, 101
+  index: -1
+monster_10016_change_status-00017
+  rotate: false
+  xy: 330, 9
+  size: 151, 236
+  orig: 437, 437
+  offset: 131, 108
+  index: -1
+monster_10016_change_status-00018
+  rotate: false
+  xy: 481, 9
+  size: 147, 236
+  orig: 437, 437
+  offset: 135, 110
+  index: -1
+monster_10016_change_status-00019
+  rotate: false
+  xy: 628, 16
+  size: 142, 230
+  orig: 437, 437
+  offset: 138, 120
+  index: -1
+monster_10016_change_status-00020
+  rotate: false
+  xy: 1316, 287
+  size: 132, 219
+  orig: 437, 437
+  offset: 142, 133
+  index: -1
+monster_10016_change_status-00021
+  rotate: false
+  xy: 1448, 289
+  size: 119, 217
+  orig: 437, 437
+  offset: 146, 138
+  index: -1
+monster_10016_change_status-00022
+  rotate: false
+  xy: 1567, 296
+  size: 103, 210
+  orig: 437, 437
+  offset: 163, 140
+  index: -1

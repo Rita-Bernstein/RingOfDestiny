@@ -1,0 +1,90 @@
+
+card_mimidanyao_unpack.png
+size: 1320,582
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_mimidanyao-00000
+  rotate: false
+  xy: 1063, 132
+  size: 184, 162
+  orig: 500, 459
+  offset: 128, 276
+  index: -1
+card_mimidanyao-00001
+  rotate: false
+  xy: 1063, 294
+  size: 245, 288
+  orig: 500, 459
+  offset: 124, 141
+  index: -1
+card_mimidanyao-00002
+  rotate: false
+  xy: 0, 171
+  size: 321, 411
+  orig: 500, 459
+  offset: 62, 39
+  index: -1
+card_mimidanyao-00003
+  rotate: false
+  xy: 321, 274
+  size: 373, 308
+  orig: 500, 459
+  offset: 66, 29
+  index: -1
+card_mimidanyao-00004
+  rotate: false
+  xy: 694, 396
+  size: 364, 186
+  orig: 500, 459
+  offset: 70, 34
+  index: -1
+card_mimidanyao-00005
+  rotate: false
+  xy: 0, 2
+  size: 365, 169
+  orig: 500, 459
+  offset: 68, 42
+  index: -1
+card_mimidanyao-00006
+  rotate: false
+  xy: 694, 237
+  size: 369, 159
+  orig: 500, 459
+  offset: 68, 50
+  index: -1
+card_mimidanyao-00007
+  rotate: false
+  xy: 365, 35
+  size: 346, 143
+  orig: 500, 459
+  offset: 91, 57
+  index: -1
+card_mimidanyao-00008
+  rotate: false
+  xy: 711, 110
+  size: 309, 127
+  orig: 500, 459
+  offset: 106, 72
+  index: -1
+card_mimidanyao-00009
+  rotate: false
+  xy: 1020, 20
+  size: 300, 112
+  orig: 500, 459
+  offset: 108, 91
+  index: -1
+card_mimidanyao-00010
+  rotate: false
+  xy: 711, 0
+  size: 294, 110
+  orig: 500, 459
+  offset: 109, 99
+  index: -1
+card_mimidanyao-00011
+  rotate: false
+  xy: 321, 178
+  size: 286, 96
+  orig: 500, 459
+  offset: 111, 119
+  index: -1

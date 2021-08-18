@@ -1,0 +1,76 @@
+
+effect_job6_equip_up_unpack.png
+size: 1697,558
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job6_equip_up-00000
+  rotate: false
+  xy: 243, 69
+  size: 175, 148
+  orig: 600, 510
+  offset: 278, 150
+  index: -1
+effect_job6_equip_up-00001
+  rotate: false
+  xy: 0, 16
+  size: 243, 201
+  orig: 600, 510
+  offset: 245, 125
+  index: -1
+effect_job6_equip_up-00002
+  rotate: false
+  xy: 1425, 111
+  size: 272, 223
+  orig: 600, 510
+  offset: 232, 112
+  index: -1
+effect_job6_equip_up-00003
+  rotate: false
+  xy: 1149, 57
+  size: 276, 226
+  orig: 600, 510
+  offset: 232, 109
+  index: -1
+effect_job6_equip_up-00004
+  rotate: false
+  xy: 832, 5
+  size: 317, 243
+  orig: 600, 510
+  offset: 211, 101
+  index: -1
+effect_job6_equip_up-00005
+  rotate: false
+  xy: 0, 217
+  size: 517, 341
+  orig: 600, 510
+  offset: 42, 105
+  index: -1
+effect_job6_equip_up-00006
+  rotate: false
+  xy: 517, 248
+  size: 484, 310
+  orig: 600, 510
+  offset: 59, 118
+  index: -1
+effect_job6_equip_up-00007
+  rotate: false
+  xy: 1001, 283
+  size: 404, 275
+  orig: 600, 510
+  offset: 103, 129
+  index: -1
+effect_job6_equip_up-00008
+  rotate: false
+  xy: 517, 0
+  size: 315, 248
+  orig: 600, 510
+  offset: 151, 143
+  index: -1
+effect_job6_equip_up-00009
+  rotate: false
+  xy: 1405, 334
+  size: 285, 224
+  orig: 600, 510
+  offset: 168, 156
+  index: -1

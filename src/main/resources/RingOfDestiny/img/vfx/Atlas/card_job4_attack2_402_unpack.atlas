@@ -1,6 +1,6 @@
 
 card_job4_attack2_402_unpack.png
-size: 871,332
+size: 912,332
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -19,29 +19,29 @@ card_job4_attack2_402-00001
   offset: 99, 64
   index: -1
 card_job4_attack2_402-00002
-  rotate: true
-  xy: 722, 175
+  rotate: false
+  xy: 755, 183
   size: 157, 149
   orig: 454, 386
   offset: 144, 124
   index: -1
 card_job4_attack2_402-00003
   rotate: false
-  xy: 578, 6
+  xy: 750, 34
   size: 162, 149
   orig: 454, 386
   offset: 146, 118
   index: -1
 card_job4_attack2_402-00004
-  rotate: true
-  xy: 578, 155
+  rotate: false
+  xy: 578, 188
   size: 177, 144
   orig: 454, 386
   offset: 138, 124
   index: -1
 card_job4_attack2_402-00005
-  rotate: true
-  xy: 740, 3
+  rotate: false
+  xy: 578, 67
   size: 172, 121
   orig: 454, 386
   offset: 144, 136

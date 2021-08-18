@@ -1,0 +1,83 @@
+
+ui_combat_role_appear_unpack.png
+size: 1738,370
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_combat_role_appear-00000
+  rotate: false
+  xy: 1656, 195
+  size: 82, 175
+  orig: 456, 497
+  offset: 190, 60
+  index: -1
+ui_combat_role_appear-00001
+  rotate: false
+  xy: 1532, 105
+  size: 124, 265
+  orig: 456, 497
+  offset: 169, 29
+  index: -1
+ui_combat_role_appear-00002
+  rotate: false
+  xy: 1072, 47
+  size: 161, 323
+  orig: 456, 497
+  offset: 150, 26
+  index: -1
+ui_combat_role_appear-00003
+  rotate: false
+  xy: 0, 6
+  size: 190, 364
+  orig: 456, 497
+  offset: 138, 23
+  index: -1
+ui_combat_role_appear-00004
+  rotate: false
+  xy: 190, 8
+  size: 182, 362
+  orig: 456, 497
+  offset: 141, 25
+  index: -1
+ui_combat_role_appear-00005
+  rotate: false
+  xy: 372, 0
+  size: 178, 370
+  orig: 456, 497
+  offset: 144, 17
+  index: -1
+ui_combat_role_appear-00006
+  rotate: false
+  xy: 550, 8
+  size: 178, 362
+  orig: 456, 497
+  offset: 144, 25
+  index: -1
+ui_combat_role_appear-00007
+  rotate: false
+  xy: 728, 10
+  size: 178, 360
+  orig: 456, 497
+  offset: 144, 27
+  index: -1
+ui_combat_role_appear-00008
+  rotate: false
+  xy: 906, 32
+  size: 166, 338
+  orig: 456, 497
+  offset: 150, 36
+  index: -1
+ui_combat_role_appear-00009
+  rotate: false
+  xy: 1233, 52
+  size: 161, 318
+  orig: 456, 497
+  offset: 152, 49
+  index: -1
+ui_combat_role_appear-00010
+  rotate: false
+  xy: 1394, 76
+  size: 138, 294
+  orig: 456, 497
+  offset: 163, 61
+  index: -1

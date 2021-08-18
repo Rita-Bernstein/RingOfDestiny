@@ -47,92 +47,92 @@ card_shouhuzhishi-00005
   offset: 9, 0
   index: -1
 card_shouhuzhishi-00006
-  rotate: true
-  xy: 1469, 1267
+  rotate: false
+  xy: 1457, 1050
   size: 483, 350
   orig: 500, 350
   offset: 11, 0
   index: -1
 card_shouhuzhishi-00007
   rotate: false
-  xy: 1457, 917
+  xy: 0, 700
   size: 486, 350
   orig: 500, 350
   offset: 8, 0
   index: -1
 card_shouhuzhishi-00008
   rotate: false
-  xy: 0, 700
+  xy: 486, 700
   size: 486, 350
   orig: 500, 350
   offset: 8, 0
   index: -1
 card_shouhuzhishi-00009
   rotate: false
-  xy: 486, 700
+  xy: 972, 700
   size: 486, 350
   orig: 500, 350
   offset: 8, 0
   index: -1
 card_shouhuzhishi-00010
   rotate: false
-  xy: 972, 700
+  xy: 1458, 700
   size: 485, 350
   orig: 500, 350
   offset: 9, 0
   index: -1
 card_shouhuzhishi-00011
   rotate: false
-  xy: 1457, 567
+  xy: 0, 350
   size: 485, 350
   orig: 500, 350
   offset: 9, 0
   index: -1
 card_shouhuzhishi-00012
   rotate: false
-  xy: 0, 350
+  xy: 485, 350
   size: 485, 350
   orig: 500, 350
   offset: 9, 0
   index: -1
 card_shouhuzhishi-00013
   rotate: false
-  xy: 485, 350
+  xy: 970, 350
   size: 485, 350
   orig: 500, 350
   offset: 9, 0
   index: -1
 card_shouhuzhishi-00014
   rotate: false
-  xy: 970, 350
+  xy: 1455, 350
   size: 486, 350
   orig: 500, 350
   offset: 8, 0
   index: -1
 card_shouhuzhishi-00015
   rotate: false
-  xy: 1456, 217
+  xy: 0, 0
   size: 486, 350
   orig: 500, 350
   offset: 8, 0
   index: -1
 card_shouhuzhishi-00016
   rotate: false
-  xy: 0, 0
+  xy: 486, 0
   size: 486, 350
   orig: 500, 350
   offset: 8, 0
   index: -1
 card_shouhuzhishi-00017
   rotate: false
-  xy: 486, 0
+  xy: 972, 0
   size: 485, 350
   orig: 500, 350
   offset: 9, 0
   index: -1
 card_shouhuzhishi-00018
   rotate: false
-  xy: 971, 0
+  xy: 1457, 0
   size: 485, 350
   orig: 500, 350
   offset: 9, 0

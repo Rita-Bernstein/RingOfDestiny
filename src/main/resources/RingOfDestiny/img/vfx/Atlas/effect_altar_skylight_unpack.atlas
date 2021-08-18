@@ -1,0 +1,90 @@
+
+effect_altar_skylight_unpack.png
+size: 1964,347
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_altar_skylight-00000
+  rotate: false
+  xy: 491, 116
+  size: 491, 116
+  orig: 491, 228
+  offset: 0, 111
+  index: -1
+effect_altar_skylight-00001
+  rotate: false
+  xy: 982, 116
+  size: 491, 116
+  orig: 491, 228
+  offset: 0, 111
+  index: -1
+effect_altar_skylight-00002
+  rotate: false
+  xy: 1473, 116
+  size: 491, 116
+  orig: 491, 228
+  offset: 0, 111
+  index: -1
+effect_altar_skylight-00003
+  rotate: false
+  xy: 0, 1
+  size: 491, 116
+  orig: 491, 228
+  offset: 0, 111
+  index: -1
+effect_altar_skylight-00004
+  rotate: false
+  xy: 491, 0
+  size: 491, 116
+  orig: 491, 228
+  offset: 0, 111
+  index: -1
+effect_altar_skylight-00005
+  rotate: false
+  xy: 982, 0
+  size: 491, 116
+  orig: 491, 228
+  offset: 0, 111
+  index: -1
+effect_altar_skylight-00006
+  rotate: false
+  xy: 1473, 0
+  size: 491, 116
+  orig: 491, 228
+  offset: 0, 111
+  index: -1
+effect_altar_skylight-00007
+  rotate: false
+  xy: 0, 232
+  size: 491, 115
+  orig: 491, 228
+  offset: 0, 112
+  index: -1
+effect_altar_skylight-00008
+  rotate: false
+  xy: 491, 232
+  size: 491, 115
+  orig: 491, 228
+  offset: 0, 112
+  index: -1
+effect_altar_skylight-00009
+  rotate: false
+  xy: 982, 232
+  size: 491, 115
+  orig: 491, 228
+  offset: 0, 112
+  index: -1
+effect_altar_skylight-00010
+  rotate: false
+  xy: 1473, 232
+  size: 491, 115
+  orig: 491, 228
+  offset: 0, 112
+  index: -1
+effect_altar_skylight-00011
+  rotate: false
+  xy: 0, 117
+  size: 491, 115
+  orig: 491, 228
+  offset: 0, 112
+  index: -1

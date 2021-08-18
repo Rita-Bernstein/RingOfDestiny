@@ -1,0 +1,69 @@
+
+effect_relic_box_finish_unpack.png
+size: 543,484
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_relic_box_finish-00000
+  rotate: false
+  xy: 363, 155
+  size: 172, 160
+  orig: 221, 193
+  offset: 35, 10
+  index: -1
+effect_relic_box_finish-00001
+  rotate: false
+  xy: 0, 163
+  size: 176, 154
+  orig: 221, 193
+  offset: 40, 17
+  index: -1
+effect_relic_box_finish-00002
+  rotate: false
+  xy: 353, 4
+  size: 186, 151
+  orig: 221, 193
+  offset: 32, 26
+  index: -1
+effect_relic_box_finish-00003
+  rotate: false
+  xy: 184, 323
+  size: 190, 161
+  orig: 221, 193
+  offset: 25, 22
+  index: -1
+effect_relic_box_finish-00004
+  rotate: false
+  xy: 162, 3
+  size: 191, 156
+  orig: 221, 193
+  offset: 19, 28
+  index: -1
+effect_relic_box_finish-00005
+  rotate: false
+  xy: 184, 159
+  size: 179, 164
+  orig: 221, 193
+  offset: 23, 24
+  index: -1
+effect_relic_box_finish-00006
+  rotate: false
+  xy: 374, 315
+  size: 169, 169
+  orig: 221, 193
+  offset: 22, 13
+  index: -1
+effect_relic_box_finish-00007
+  rotate: false
+  xy: 0, 0
+  size: 162, 163
+  orig: 221, 193
+  offset: 22, 14
+  index: -1
+effect_relic_box_finish-00008
+  rotate: false
+  xy: 0, 317
+  size: 184, 167
+  orig: 221, 193
+  offset: 28, 7
+  index: -1

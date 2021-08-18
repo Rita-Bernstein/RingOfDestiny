@@ -1,68 +1,68 @@
 
 card_fuhuobaoshi_unpack.png
-size: 981,130
+size: 450,294
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_fuhuobaoshi-00000
-  rotate: true
-  xy: 883, 11
+  rotate: false
+  xy: 380, 148
   size: 49, 48
   orig: 300, 300
   offset: 128, 123
   index: -1
 card_fuhuobaoshi-00001
-  rotate: true
-  xy: 695, 19
+  rotate: false
+  xy: 300, 38
   size: 111, 110
   orig: 300, 300
   offset: 97, 93
   index: -1
 card_fuhuobaoshi-00002
-  rotate: true
-  xy: 0, 1
+  rotate: false
+  xy: 0, 137
   size: 129, 157
   orig: 300, 300
   offset: 88, 57
   index: -1
 card_fuhuobaoshi-00003
-  rotate: true
-  xy: 455, 7
+  rotate: false
+  xy: 177, 0
   size: 123, 141
   orig: 300, 300
   offset: 91, 69
   index: -1
 card_fuhuobaoshi-00004
-  rotate: true
-  xy: 157, 0
+  rotate: false
+  xy: 129, 141
   size: 130, 153
   orig: 300, 300
   offset: 88, 60
   index: -1
 card_fuhuobaoshi-00005
-  rotate: true
-  xy: 310, 9
+  rotate: false
+  xy: 259, 149
   size: 121, 145
   orig: 300, 300
   offset: 92, 63
   index: -1
 card_fuhuobaoshi-00006
   rotate: false
-  xy: 596, 2
+  xy: 0, 9
   size: 99, 128
   orig: 300, 300
   offset: 103, 71
   index: -1
 card_fuhuobaoshi-00007
   rotate: false
-  xy: 805, 18
+  xy: 99, 25
   size: 78, 112
   orig: 300, 300
   offset: 113, 80
   index: -1
 card_fuhuobaoshi-00008
-  rotate: true
-  xy: 883, 60
+  rotate: false
+  xy: 380, 196
   size: 70, 98
   orig: 300, 300
   offset: 117, 84

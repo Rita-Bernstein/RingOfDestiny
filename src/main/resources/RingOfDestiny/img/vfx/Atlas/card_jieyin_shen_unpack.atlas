@@ -1,40 +1,40 @@
 
 card_jieyin_shen_unpack.png
-size: 759,239
+size: 753,241
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jieyin_shen-00000
-  rotate: true
+  rotate: false
   xy: 0, 0
   size: 239, 241
   orig: 459, 379
   offset: 117, 70
   index: -1
 card_jieyin_shen-00001
-  rotate: true
-  xy: 241, 12
+  rotate: false
+  xy: 239, 11
   size: 227, 230
   orig: 459, 379
   offset: 123, 76
   index: -1
 card_jieyin_shen-00002
-  rotate: true
-  xy: 471, 41
+  rotate: false
+  xy: 466, 42
   size: 198, 199
   orig: 459, 379
   offset: 140, 92
   index: -1
 card_jieyin_shen-00003
   rotate: false
-  xy: 670, 4
+  xy: 664, 6
   size: 85, 116
   orig: 459, 379
   offset: 193, 148
   index: -1
 card_jieyin_shen-00004
   rotate: false
-  xy: 670, 120
+  xy: 664, 122
   size: 89, 119
   orig: 459, 379
   offset: 191, 146

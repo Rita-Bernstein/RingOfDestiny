@@ -1,88 +1,88 @@
 
 ui_task_g_unpack.png
-size: 1683,280
+size: 560,841
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_task_g-00000
   rotate: false
-  xy: 140, 140
+  xy: 0, 701
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00001
   rotate: false
-  xy: 280, 140
+  xy: 140, 701
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00002
-  rotate: true
-  xy: 420, 140
+  rotate: false
+  xy: 0, 0
   size: 140, 141
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00003
   rotate: false
-  xy: 561, 140
+  xy: 280, 701
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00004
   rotate: false
-  xy: 701, 140
+  xy: 420, 701
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00005
   rotate: false
-  xy: 841, 140
+  xy: 0, 561
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00006
   rotate: false
-  xy: 981, 140
+  xy: 140, 561
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00007
   rotate: false
-  xy: 1121, 140
+  xy: 280, 561
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00008
   rotate: false
-  xy: 1261, 140
+  xy: 420, 561
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00009
   rotate: false
-  xy: 1401, 140
+  xy: 0, 421
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00010
   rotate: false
-  xy: 1541, 140
+  xy: 140, 421
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00011
-  rotate: true
+  rotate: false
   xy: 140, 0
   size: 140, 141
   orig: 280, 280
@@ -90,84 +90,84 @@ ui_task_g-00011
   index: -1
 ui_task_g-00012
   rotate: false
-  xy: 0, 1
+  xy: 280, 421
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00013
   rotate: false
-  xy: 281, 0
+  xy: 420, 421
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00014
-  rotate: true
-  xy: 421, 0
+  rotate: false
+  xy: 280, 0
   size: 140, 141
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00015
   rotate: false
-  xy: 562, 0
+  xy: 0, 281
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00016
   rotate: false
-  xy: 702, 0
+  xy: 140, 281
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00017
   rotate: false
-  xy: 842, 0
+  xy: 280, 281
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00018
-  rotate: true
-  xy: 0, 141
+  rotate: false
+  xy: 420, 281
   size: 139, 140
   orig: 280, 280
   offset: 69, 63
   index: -1
 ui_task_g-00019
   rotate: false
-  xy: 982, 0
+  xy: 0, 141
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00020
   rotate: false
-  xy: 1122, 0
+  xy: 140, 141
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00021
   rotate: false
-  xy: 1262, 0
+  xy: 280, 141
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00022
   rotate: false
-  xy: 1402, 0
+  xy: 420, 141
   size: 140, 140
   orig: 280, 280
   offset: 68, 63
   index: -1
 ui_task_g-00023
-  rotate: true
-  xy: 1542, 0
+  rotate: false
+  xy: 420, 0
   size: 140, 141
   orig: 280, 280
   offset: 68, 63

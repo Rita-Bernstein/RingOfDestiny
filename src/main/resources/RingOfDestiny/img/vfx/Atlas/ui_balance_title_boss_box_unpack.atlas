@@ -1,0 +1,111 @@
+
+ui_balance_title_boss_box_unpack.png
+size: 279,1000
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_balance_title_boss_box-00000
+  rotate: false
+  xy: 140, 856
+  size: 139, 144
+  orig: 500, 500
+  offset: 194, 167
+  index: -1
+ui_balance_title_boss_box-00001
+  rotate: false
+  xy: 139, 443
+  size: 119, 140
+  orig: 500, 500
+  offset: 200, 170
+  index: -1
+ui_balance_title_boss_box-00002
+  rotate: false
+  xy: 131, 88
+  size: 120, 117
+  orig: 500, 500
+  offset: 201, 174
+  index: -1
+ui_balance_title_boss_box-00003
+  rotate: false
+  xy: 0, 342
+  size: 135, 122
+  orig: 500, 500
+  offset: 180, 176
+  index: -1
+ui_balance_title_boss_box-00004
+  rotate: false
+  xy: 0, 464
+  size: 139, 125
+  orig: 500, 500
+  offset: 181, 182
+  index: -1
+ui_balance_title_boss_box-00005
+  rotate: false
+  xy: 135, 323
+  size: 136, 120
+  orig: 500, 500
+  offset: 187, 189
+  index: -1
+ui_balance_title_boss_box-00006
+  rotate: false
+  xy: 0, 224
+  size: 133, 118
+  orig: 500, 500
+  offset: 188, 196
+  index: -1
+ui_balance_title_boss_box-00007
+  rotate: false
+  xy: 139, 583
+  size: 139, 130
+  orig: 500, 500
+  offset: 184, 187
+  index: -1
+ui_balance_title_boss_box-00008
+  rotate: false
+  xy: 0, 856
+  size: 140, 144
+  orig: 500, 500
+  offset: 185, 172
+  index: -1
+ui_balance_title_boss_box-00009
+  rotate: false
+  xy: 0, 720
+  size: 148, 136
+  orig: 500, 500
+  offset: 182, 176
+  index: -1
+ui_balance_title_boss_box-00010
+  rotate: false
+  xy: 0, 112
+  size: 131, 112
+  orig: 500, 500
+  offset: 183, 191
+  index: -1
+ui_balance_title_boss_box-00011
+  rotate: false
+  xy: 0, 0
+  size: 123, 112
+  orig: 500, 500
+  offset: 193, 188
+  index: -1
+ui_balance_title_boss_box-00012
+  rotate: false
+  xy: 133, 205
+  size: 133, 118
+  orig: 500, 500
+  offset: 186, 189
+  index: -1
+ui_balance_title_boss_box-00013
+  rotate: false
+  xy: 0, 589
+  size: 139, 131
+  orig: 500, 500
+  offset: 182, 179
+  index: -1
+ui_balance_title_boss_box-00014
+  rotate: false
+  xy: 148, 713
+  size: 121, 143
+  orig: 500, 500
+  offset: 188, 165
+  index: -1

@@ -1,0 +1,111 @@
+
+ui_combat_door_leave_unpack.png
+size: 1078,731
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_combat_door_leave-00000
+  rotate: false
+  xy: 218, 489
+  size: 217, 242
+  orig: 500, 500
+  offset: 150, 127
+  index: -1
+ui_combat_door_leave-00001
+  rotate: false
+  xy: 0, 490
+  size: 218, 241
+  orig: 500, 500
+  offset: 149, 127
+  index: -1
+ui_combat_door_leave-00002
+  rotate: false
+  xy: 435, 489
+  size: 218, 242
+  orig: 500, 500
+  offset: 149, 127
+  index: -1
+ui_combat_door_leave-00003
+  rotate: false
+  xy: 427, 0
+  size: 217, 245
+  orig: 500, 500
+  offset: 150, 127
+  index: -1
+ui_combat_door_leave-00004
+  rotate: false
+  xy: 644, 0
+  size: 217, 245
+  orig: 500, 500
+  offset: 150, 127
+  index: -1
+ui_combat_door_leave-00005
+  rotate: false
+  xy: 861, 0
+  size: 217, 245
+  orig: 500, 500
+  offset: 150, 127
+  index: -1
+ui_combat_door_leave-00006
+  rotate: false
+  xy: 643, 245
+  size: 216, 244
+  orig: 500, 500
+  offset: 150, 128
+  index: -1
+ui_combat_door_leave-00007
+  rotate: false
+  xy: 0, 247
+  size: 215, 243
+  orig: 500, 500
+  offset: 151, 129
+  index: -1
+ui_combat_door_leave-00008
+  rotate: false
+  xy: 859, 245
+  size: 210, 244
+  orig: 500, 500
+  offset: 153, 128
+  index: -1
+ui_combat_door_leave-00009
+  rotate: false
+  xy: 0, 2
+  size: 210, 245
+  orig: 500, 500
+  offset: 153, 127
+  index: -1
+ui_combat_door_leave-00010
+  rotate: false
+  xy: 653, 489
+  size: 213, 242
+  orig: 500, 500
+  offset: 153, 127
+  index: -1
+ui_combat_door_leave-00011
+  rotate: false
+  xy: 866, 489
+  size: 212, 242
+  orig: 500, 500
+  offset: 153, 127
+  index: -1
+ui_combat_door_leave-00012
+  rotate: false
+  xy: 215, 246
+  size: 211, 243
+  orig: 500, 500
+  offset: 153, 127
+  index: -1
+ui_combat_door_leave-00013
+  rotate: false
+  xy: 210, 2
+  size: 217, 244
+  orig: 500, 500
+  offset: 150, 127
+  index: -1
+ui_combat_door_leave-00014
+  rotate: false
+  xy: 426, 246
+  size: 217, 243
+  orig: 500, 500
+  offset: 150, 128
+  index: -1

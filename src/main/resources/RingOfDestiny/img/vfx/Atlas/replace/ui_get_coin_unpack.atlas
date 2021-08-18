@@ -1,0 +1,76 @@
+
+ui_get_coin_unpack.png
+size: 649,509
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_get_coin-00000
+  rotate: false
+  xy: 455, 389
+  size: 160, 120
+  orig: 400, 400
+  offset: 122, 141
+  index: -1
+ui_get_coin-00001
+  rotate: false
+  xy: 0, 252
+  size: 290, 257
+  orig: 400, 400
+  offset: 55, 72
+  index: -1
+ui_get_coin-00002
+  rotate: false
+  xy: 0, 0
+  size: 270, 252
+  orig: 400, 400
+  offset: 68, 75
+  index: -1
+ui_get_coin-00003
+  rotate: false
+  xy: 270, 17
+  size: 248, 235
+  orig: 400, 400
+  offset: 80, 84
+  index: -1
+ui_get_coin-00004
+  rotate: false
+  xy: 290, 366
+  size: 165, 143
+  orig: 400, 400
+  offset: 122, 134
+  index: -1
+ui_get_coin-00005
+  rotate: false
+  xy: 518, 124
+  size: 131, 131
+  orig: 400, 400
+  offset: 148, 142
+  index: -1
+ui_get_coin-00006
+  rotate: false
+  xy: 290, 253
+  size: 120, 113
+  orig: 400, 400
+  offset: 157, 142
+  index: -1
+ui_get_coin-00007
+  rotate: false
+  xy: 516, 255
+  size: 133, 134
+  orig: 400, 400
+  offset: 155, 134
+  index: -1
+ui_get_coin-00008
+  rotate: false
+  xy: 518, 4
+  size: 114, 120
+  orig: 400, 400
+  offset: 158, 153
+  index: -1
+ui_get_coin-00009
+  rotate: false
+  xy: 410, 276
+  size: 106, 90
+  orig: 400, 400
+  offset: 156, 151
+  index: -1

@@ -1,68 +1,68 @@
 
 monster_10077_huani_unpack.png
-size: 422,1011
+size: 572,759
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10077_huani-00000
   rotate: false
-  xy: 0, 732
+  xy: 0, 480
   size: 348, 279
   orig: 425, 418
   offset: 50, 69
   index: -1
 monster_10077_huani-00001
   rotate: false
-  xy: 0, 451
+  xy: 0, 199
   size: 313, 281
   orig: 425, 418
   offset: 67, 72
   index: -1
 monster_10077_huani-00002
   rotate: false
-  xy: 0, 218
+  xy: 313, 214
   size: 259, 233
   orig: 425, 418
   offset: 93, 95
   index: -1
 monster_10077_huani-00003
   rotate: false
-  xy: 0, 4
+  xy: 313, 0
   size: 246, 214
   orig: 425, 418
   offset: 92, 111
   index: -1
 monster_10077_huani-00004
-  rotate: true
-  xy: 246, 0
+  rotate: false
+  xy: 348, 583
   size: 188, 176
   orig: 425, 418
   offset: 120, 128
   index: -1
 monster_10077_huani-00005
-  rotate: true
-  xy: 259, 294
+  rotate: false
+  xy: 348, 447
   size: 157, 136
   orig: 425, 418
   offset: 143, 146
   index: -1
 monster_10077_huani-00006
-  rotate: true
-  xy: 259, 188
+  rotate: false
+  xy: 0, 73
   size: 106, 126
   orig: 425, 418
   offset: 152, 151
   index: -1
 monster_10077_huani-00007
   rotate: false
-  xy: 313, 611
+  xy: 106, 78
   size: 103, 121
   orig: 425, 418
   offset: 153, 154
   index: -1
 monster_10077_huani-00008
   rotate: false
-  xy: 313, 495
+  xy: 209, 83
   size: 98, 116
   orig: 425, 418
   offset: 155, 157

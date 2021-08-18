@@ -1,12 +1,12 @@
 
 monster_sword_atk_1_unpack.png
-size: 1723,387
+size: 1729,387
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_sword_atk_1-00000
   rotate: false
-  xy: 1442, 2
+  xy: 1448, 2
   size: 113, 120
   orig: 400, 400
   offset: 143, 134
@@ -26,22 +26,22 @@ monster_sword_atk_1-00002
   offset: 1, 4
   index: -1
 monster_sword_atk_1-00003
-  rotate: true
-  xy: 772, 23
+  rotate: false
+  xy: 772, 26
   size: 364, 361
   orig: 400, 400
   offset: 17, 12
   index: -1
 monster_sword_atk_1-00004
-  rotate: true
-  xy: 1133, 75
+  rotate: false
+  xy: 1136, 78
   size: 312, 309
   orig: 400, 400
   offset: 43, 38
   index: -1
 monster_sword_atk_1-00005
   rotate: false
-  xy: 1442, 122
+  xy: 1448, 122
   size: 281, 265
   orig: 400, 400
   offset: 47, 62

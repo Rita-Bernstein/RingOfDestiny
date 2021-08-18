@@ -1,68 +1,68 @@
 
 monster_10087_atk_unpack.png
-size: 536,1084
+size: 559,1060
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10087_atk-00000
   rotate: false
-  xy: 0, 361
+  xy: 252, 268
   size: 296, 193
   orig: 500, 500
   offset: 104, 225
   index: -1
 monster_10087_atk-00001
-  rotate: true
-  xy: 0, 554
+  rotate: false
+  xy: 0, 461
   size: 265, 299
   orig: 500, 500
   offset: 67, 95
   index: -1
 monster_10087_atk-00002
-  rotate: true
-  xy: 299, 306
+  rotate: false
+  xy: 0, 231
   size: 252, 230
   orig: 500, 500
   offset: 86, 96
   index: -1
 monster_10087_atk-00003
-  rotate: true
-  xy: 294, 1
+  rotate: false
+  xy: 252, 98
   size: 305, 170
   orig: 500, 500
   offset: 72, 172
   index: -1
 monster_10087_atk-00004
-  rotate: true
-  xy: 300, 809
+  rotate: false
+  xy: 265, 630
   size: 275, 236
   orig: 500, 500
   offset: 65, 182
   index: -1
 monster_10087_atk-00005
   rotate: false
-  xy: 0, 0
+  xy: 265, 463
   size: 236, 167
   orig: 500, 500
   offset: 118, 260
   index: -1
 monster_10087_atk-00006
   rotate: false
-  xy: 0, 167
+  xy: 265, 866
   size: 294, 194
   orig: 500, 500
   offset: 104, 224
   index: -1
 monster_10087_atk-00007
-  rotate: true
-  xy: 0, 819
+  rotate: false
+  xy: 0, 760
   size: 265, 300
   orig: 500, 500
   offset: 67, 95
   index: -1
 monster_10087_atk-00008
-  rotate: true
-  xy: 299, 558
+  rotate: false
+  xy: 0, 0
   size: 251, 231
   orig: 500, 500
   offset: 87, 96

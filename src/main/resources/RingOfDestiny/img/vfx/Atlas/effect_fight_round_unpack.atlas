@@ -1,0 +1,90 @@
+
+effect_fight_round_unpack.png
+size: 1399,275
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_fight_round-00000
+  rotate: false
+  xy: 697, 0
+  size: 196, 43
+  orig: 471, 327
+  offset: 272, 139
+  index: -1
+effect_fight_round-00001
+  rotate: false
+  xy: 467, 104
+  size: 467, 171
+  orig: 471, 327
+  offset: 1, 74
+  index: -1
+effect_fight_round-00002
+  rotate: false
+  xy: 0, 88
+  size: 467, 187
+  orig: 471, 327
+  offset: 1, 67
+  index: -1
+effect_fight_round-00003
+  rotate: false
+  xy: 934, 138
+  size: 465, 137
+  orig: 471, 327
+  offset: 2, 92
+  index: -1
+effect_fight_round-00004
+  rotate: false
+  xy: 697, 43
+  size: 347, 61
+  orig: 471, 327
+  offset: 61, 130
+  index: -1
+effect_fight_round-00005
+  rotate: false
+  xy: 1044, 77
+  size: 347, 61
+  orig: 471, 327
+  offset: 61, 130
+  index: -1
+effect_fight_round-00006
+  rotate: false
+  xy: 349, 25
+  size: 348, 63
+  orig: 471, 327
+  offset: 60, 129
+  index: -1
+effect_fight_round-00007
+  rotate: false
+  xy: 0, 25
+  size: 349, 63
+  orig: 471, 327
+  offset: 60, 129
+  index: -1
+effect_fight_round-00008
+  rotate: false
+  xy: 1058, 14
+  size: 330, 63
+  orig: 471, 327
+  offset: 53, 129
+  index: -1
+effect_fight_round-00009
+  rotate: false
+  xy: 893, 4
+  size: 165, 39
+  orig: 471, 327
+  offset: 1, 141
+  index: -1
+effect_fight_round-00010
+  rotate: false
+  xy: 0, 0
+  size: 93, 25
+  orig: 471, 327
+  offset: 1, 151
+  index: -1
+effect_fight_round-00011
+  rotate: false
+  xy: 934, 109
+  size: 93, 29
+  orig: 471, 327
+  offset: 1, 149
+  index: -1

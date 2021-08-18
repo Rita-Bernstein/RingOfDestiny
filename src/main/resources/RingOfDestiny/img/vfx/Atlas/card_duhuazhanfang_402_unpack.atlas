@@ -1,145 +1,145 @@
 
 card_duhuazhanfang_402_unpack.png
-size: 736,1043
+size: 1868,424
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_duhuazhanfang_402-00000
-  rotate: true
-  xy: 193, 447
+  rotate: false
+  xy: 1646, 9
   size: 52, 58
   orig: 500, 341
   offset: 69, 189
   index: -1
 card_duhuazhanfang_402-00001
-  rotate: true
-  xy: 193, 499
+  rotate: false
+  xy: 1551, 1
   size: 95, 66
   orig: 500, 341
   offset: 76, 203
   index: -1
 card_duhuazhanfang_402-00002
   rotate: false
-  xy: 566, 0
+  xy: 1551, 67
   size: 152, 79
   orig: 500, 341
   offset: 75, 201
   index: -1
 card_duhuazhanfang_402-00003
   rotate: false
-  xy: 193, 344
+  xy: 919, 19
   size: 190, 92
   orig: 500, 341
   offset: 78, 192
   index: -1
 card_duhuazhanfang_402-00004
   rotate: false
-  xy: 0, 165
+  xy: 1485, 146
   size: 220, 132
   orig: 500, 341
   offset: 78, 144
   index: -1
 card_duhuazhanfang_402-00005
-  rotate: true
-  xy: 0, 297
+  rotate: false
+  xy: 0, 6
   size: 297, 193
   orig: 500, 341
   offset: 78, 77
   index: -1
 card_duhuazhanfang_402-00006
   rotate: false
-  xy: 302, 833
+  xy: 609, 2
   size: 310, 210
   orig: 500, 341
   offset: 96, 60
   index: -1
 card_duhuazhanfang_402-00007
   rotate: false
-  xy: 0, 818
+  xy: 0, 199
   size: 302, 225
   orig: 500, 341
   offset: 115, 47
   index: -1
 card_duhuazhanfang_402-00008
   rotate: false
-  xy: 0, 594
+  xy: 302, 200
   size: 262, 224
   orig: 500, 341
   offset: 168, 45
   index: -1
 card_duhuazhanfang_402-00009
   rotate: false
-  xy: 302, 621
+  xy: 564, 212
   size: 280, 212
   orig: 500, 341
   offset: 167, 41
   index: -1
 card_duhuazhanfang_402-00010
   rotate: false
-  xy: 262, 436
+  xy: 297, 14
   size: 312, 185
   orig: 500, 341
   offset: 148, 40
   index: -1
 card_duhuazhanfang_402-00011
-  rotate: true
-  xy: 574, 161
+  rotate: false
+  xy: 844, 267
   size: 331, 157
   orig: 500, 341
   offset: 138, 34
   index: -1
 card_duhuazhanfang_402-00012
   rotate: false
-  xy: 0, 5
+  xy: 919, 111
   size: 282, 156
   orig: 500, 341
   offset: 160, 34
   index: -1
 card_duhuazhanfang_402-00013
-  rotate: true
-  xy: 582, 492
+  rotate: false
+  xy: 1175, 273
   size: 281, 151
   orig: 500, 341
   offset: 158, 34
   index: -1
 card_duhuazhanfang_402-00014
   rotate: false
-  xy: 282, 12
+  xy: 1201, 124
   size: 284, 149
   orig: 500, 341
   offset: 156, 33
   index: -1
 card_duhuazhanfang_402-00015
-  rotate: true
-  xy: 383, 162
+  rotate: false
+  xy: 1456, 278
   size: 274, 146
   orig: 500, 341
   offset: 156, 33
   index: -1
 card_duhuazhanfang_402-00016
-  rotate: true
-  xy: 612, 773
+  rotate: false
+  xy: 1281, 0
   size: 270, 124
   orig: 500, 341
   offset: 157, 33
   index: -1
 card_duhuazhanfang_402-00017
-  rotate: true
-  xy: 220, 172
+  rotate: false
+  xy: 1109, 28
   size: 172, 83
   orig: 500, 341
   offset: 221, 72
   index: -1
 card_duhuazhanfang_402-00018
   rotate: false
-  xy: 566, 79
+  xy: 1705, 196
   size: 163, 82
   orig: 500, 341
   offset: 228, 78
   index: -1
 card_duhuazhanfang_402-00019
-  rotate: true
-  xy: 303, 184
+  rotate: false
+  xy: 1705, 122
   size: 160, 74
   orig: 500, 341
   offset: 223, 92

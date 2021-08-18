@@ -1,0 +1,34 @@
+
+ui_balance_title_start_unpack.png
+size: 500,896
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_balance_title_start-00000
+  rotate: false
+  xy: 0, 614
+  size: 500, 282
+  orig: 500, 282
+  offset: 0, 0
+  index: -1
+ui_balance_title_start-00001
+  rotate: false
+  xy: 0, 332
+  size: 500, 282
+  orig: 500, 282
+  offset: 0, 0
+  index: -1
+ui_balance_title_start-00002
+  rotate: false
+  xy: 0, 135
+  size: 500, 197
+  orig: 500, 282
+  offset: 0, 44
+  index: -1
+ui_balance_title_start-00003
+  rotate: false
+  xy: 0, 0
+  size: 231, 135
+  orig: 500, 282
+  offset: 172, 76
+  index: -1

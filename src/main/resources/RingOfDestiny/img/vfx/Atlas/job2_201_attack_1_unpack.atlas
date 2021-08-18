@@ -1,0 +1,27 @@
+
+job2_201_attack_1_unpack.png
+size: 494,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+job2_201_attack_1-00000
+  rotate: false
+  xy: 0, 0
+  size: 218, 140
+  orig: 500, 500
+  offset: 156, 166
+  index: -1
+job2_201_attack_1-00001
+  rotate: false
+  xy: 218, 2
+  size: 172, 138
+  orig: 500, 500
+  offset: 163, 168
+  index: -1
+job2_201_attack_1-00002
+  rotate: false
+  xy: 390, 37
+  size: 104, 103
+  orig: 500, 500
+  offset: 167, 183
+  index: -1

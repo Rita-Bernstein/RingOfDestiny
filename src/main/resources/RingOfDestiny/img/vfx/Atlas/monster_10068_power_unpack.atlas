@@ -1,89 +1,89 @@
 
 monster_10068_power_unpack.png
-size: 1366,598
+size: 827,1066
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10068_power-00000
-  rotate: true
-  xy: 951, 114
+  rotate: false
+  xy: 667, 949
   size: 160, 117
   orig: 335, 458
   offset: 84, 39
   index: -1
 monster_10068_power-00001
-  rotate: true
-  xy: 640, 0
+  rotate: false
+  xy: 586, 56
   size: 223, 311
   orig: 335, 458
   offset: 57, 55
   index: -1
 monster_10068_power-00002
-  rotate: true
-  xy: 324, 0
+  rotate: false
+  xy: 366, 28
   size: 220, 316
   orig: 335, 458
   offset: 57, 66
   index: -1
 monster_10068_power-00003
   rotate: false
-  xy: 230, 220
+  xy: 0, 290
   size: 228, 378
   orig: 335, 458
   offset: 49, 65
   index: -1
 monster_10068_power-00004
   rotate: false
-  xy: 0, 200
+  xy: 0, 668
   size: 230, 398
   orig: 335, 458
   offset: 48, 46
   index: -1
 monster_10068_power-00005
   rotate: false
-  xy: 458, 223
+  xy: 230, 691
   size: 227, 375
   orig: 335, 458
   offset: 50, 61
   index: -1
 monster_10068_power-00006
   rotate: false
-  xy: 685, 265
+  xy: 457, 733
   size: 210, 333
   orig: 335, 458
   offset: 59, 90
   index: -1
 monster_10068_power-00007
   rotate: false
-  xy: 895, 274
+  xy: 228, 344
   size: 206, 324
   orig: 335, 458
   offset: 64, 104
   index: -1
 monster_10068_power-00008
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 434, 367
   size: 200, 324
   orig: 335, 458
   offset: 67, 119
   index: -1
 monster_10068_power-00009
-  rotate: true
-  xy: 1068, 57
+  rotate: false
+  xy: 0, 0
   size: 186, 290
   orig: 335, 458
   offset: 74, 136
   index: -1
 monster_10068_power-00010
-  rotate: true
-  xy: 1101, 418
+  rotate: false
+  xy: 186, 25
   size: 180, 265
   orig: 335, 458
   offset: 78, 153
   index: -1
 monster_10068_power-00011
-  rotate: true
-  xy: 1101, 243
+  rotate: false
+  xy: 634, 471
   size: 175, 262
   orig: 335, 458
   offset: 79, 176

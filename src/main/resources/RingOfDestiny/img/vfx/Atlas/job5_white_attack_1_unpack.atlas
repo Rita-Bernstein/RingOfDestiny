@@ -1,0 +1,20 @@
+
+job5_white_attack_1_unpack.png
+size: 361,500
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+job5_white_attack_1-00000
+  rotate: false
+  xy: 0, 235
+  size: 361, 265
+  orig: 763, 464
+  offset: 210, 86
+  index: -1
+job5_white_attack_1-00001
+  rotate: false
+  xy: 0, 0
+  size: 343, 235
+  orig: 763, 464
+  offset: 203, 100
+  index: -1

@@ -1,0 +1,41 @@
+
+effect_monster_10018_card_unpack.png
+size: 584,514
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10018_card-00000
+  rotate: false
+  xy: 0, 34
+  size: 295, 232
+  orig: 500, 500
+  offset: 111, 124
+  index: -1
+effect_monster_10018_card-00001
+  rotate: false
+  xy: 0, 266
+  size: 312, 248
+  orig: 500, 500
+  offset: 102, 115
+  index: -1
+effect_monster_10018_card-00002
+  rotate: false
+  xy: 295, 0
+  size: 289, 226
+  orig: 500, 500
+  offset: 114, 127
+  index: -1
+effect_monster_10018_card-00003
+  rotate: false
+  xy: 312, 324
+  size: 260, 190
+  orig: 500, 500
+  offset: 128, 145
+  index: -1
+effect_monster_10018_card-00004
+  rotate: false
+  xy: 312, 226
+  size: 112, 98
+  orig: 500, 500
+  offset: 205, 195
+  index: -1

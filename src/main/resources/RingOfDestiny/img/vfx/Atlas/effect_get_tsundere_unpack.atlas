@@ -1,6 +1,6 @@
 
 effect_get_tsundere_unpack.png
-size: 1242,290
+size: 1245,290
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -33,15 +33,15 @@ effect_get_tsundere-00003
   offset: 62, 57
   index: -1
 effect_get_tsundere-00004
-  rotate: true
-  xy: 1076, 121
+  rotate: false
+  xy: 1076, 124
   size: 169, 166
   orig: 350, 350
   offset: 94, 90
   index: -1
 effect_get_tsundere-00005
   rotate: false
-  xy: 1076, 22
+  xy: 1076, 25
   size: 99, 99
   orig: 350, 350
   offset: 129, 123

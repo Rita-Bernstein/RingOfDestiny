@@ -1,96 +1,96 @@
 
 card_ganranyinji_402_unpack.png
-size: 567,553
+size: 385,828
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_ganranyinji_402-00000
   rotate: false
-  xy: 422, 19
+  xy: 0, 0
   size: 135, 104
   orig: 300, 300
   offset: 82, 96
   index: -1
 card_ganranyinji_402-00001
-  rotate: true
-  xy: 422, 123
+  rotate: false
+  xy: 166, 53
   size: 153, 138
   orig: 300, 300
   offset: 72, 76
   index: -1
 card_ganranyinji_402-00002
   rotate: false
-  xy: 0, 370
+  xy: 193, 358
   size: 192, 183
   orig: 300, 300
   offset: 49, 49
   index: -1
 card_ganranyinji_402-00003
   rotate: false
-  xy: 0, 193
+  xy: 0, 239
   size: 182, 177
   orig: 300, 300
   offset: 57, 55
   index: -1
 card_ganranyinji_402-00004
   rotate: false
-  xy: 192, 386
+  xy: 182, 191
   size: 180, 167
   orig: 300, 300
   offset: 60, 64
   index: -1
 card_ganranyinji_402-00005
-  rotate: true
-  xy: 0, 6
+  rotate: false
+  xy: 195, 675
   size: 187, 153
   orig: 300, 300
   offset: 57, 71
   index: -1
 card_ganranyinji_402-00006
   rotate: false
-  xy: 372, 413
+  xy: 0, 688
   size: 195, 140
   orig: 300, 300
   offset: 53, 78
   index: -1
 card_ganranyinji_402-00007
   rotate: false
-  xy: 372, 276
+  xy: 0, 551
   size: 195, 137
   orig: 300, 300
   offset: 53, 80
   index: -1
 card_ganranyinji_402-00008
-  rotate: true
-  xy: 153, 0
+  rotate: false
+  xy: 0, 416
   size: 193, 135
   orig: 300, 300
   offset: 53, 77
   index: -1
 card_ganranyinji_402-00009
-  rotate: true
-  xy: 288, 65
+  rotate: false
+  xy: 195, 541
   size: 186, 134
   orig: 300, 300
   offset: 54, 77
   index: -1
 card_ganranyinji_402-00010
   rotate: false
-  xy: 192, 251
+  xy: 0, 104
   size: 166, 135
   orig: 300, 300
   offset: 58, 75
   index: -1
 card_ganranyinji_402-00011
-  rotate: true
-  xy: 288, 4
+  rotate: false
+  xy: 319, 104
   size: 61, 87
   orig: 300, 300
   offset: 121, 100
   index: -1
 card_ganranyinji_402-00012
-  rotate: true
-  xy: 182, 209
+  rotate: false
+  xy: 319, 25
   size: 42, 79
   orig: 300, 300
   offset: 127, 106

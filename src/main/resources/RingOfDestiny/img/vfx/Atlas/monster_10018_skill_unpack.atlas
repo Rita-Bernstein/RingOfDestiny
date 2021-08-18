@@ -1,68 +1,68 @@
 
 monster_10018_skill_unpack.png
-size: 1423,700
+size: 1423,699
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10018_skill-00000
   rotate: false
-  xy: 723, 330
+  xy: 723, 329
   size: 349, 370
   orig: 396, 396
   offset: 29, 13
   index: -1
 monster_10018_skill-00001
   rotate: false
-  xy: 359, 326
+  xy: 0, 325
   size: 364, 374
   orig: 396, 396
   offset: 15, 13
   index: -1
 monster_10018_skill-00002
   rotate: false
-  xy: 0, 325
+  xy: 364, 324
   size: 359, 375
   orig: 396, 396
   offset: 19, 10
   index: -1
 monster_10018_skill-00003
   rotate: false
-  xy: 1072, 340
+  xy: 1072, 339
   size: 351, 360
   orig: 396, 396
   offset: 22, 16
   index: -1
 monster_10018_skill-00004
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 1072, 1
   size: 325, 338
   orig: 396, 396
   offset: 48, 21
   index: -1
 monster_10018_skill-00005
   rotate: false
-  xy: 338, 0
+  xy: 0, 0
   size: 303, 325
   orig: 396, 396
   offset: 68, 25
   index: -1
 monster_10018_skill-00006
   rotate: false
-  xy: 641, 26
+  xy: 303, 24
   size: 255, 300
   orig: 396, 396
   offset: 103, 30
   index: -1
 monster_10018_skill-00007
   rotate: false
-  xy: 896, 37
+  xy: 558, 31
   size: 234, 293
   orig: 396, 396
   offset: 109, 46
   index: -1
 monster_10018_skill-00008
-  rotate: true
-  xy: 1130, 138
+  rotate: false
+  xy: 792, 73
   size: 202, 256
   orig: 396, 396
   offset: 116, 76

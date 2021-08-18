@@ -1,75 +1,75 @@
 
 card_ranshaozhijia_unpack.png
-size: 805,1050
+size: 1281,690
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_ranshaozhijia-00000
-  rotate: true
-  xy: 724, 79
+  rotate: false
+  xy: 1014, 96
   size: 87, 70
   orig: 700, 250
   offset: 297, 112
   index: -1
 card_ranshaozhijia-00001
   rotate: false
-  xy: 637, 339
+  xy: 902, 88
   size: 112, 78
   orig: 700, 250
   offset: 287, 108
   index: -1
 card_ranshaozhijia-00002
-  rotate: true
-  xy: 0, 27
+  rotate: false
+  xy: 595, 37
   size: 307, 129
   orig: 700, 250
   offset: 188, 75
   index: -1
 card_ranshaozhijia-00003
   rotate: false
-  xy: 129, 0
+  xy: 0, 0
   size: 595, 166
   orig: 700, 250
   offset: 41, 46
   index: -1
 card_ranshaozhijia-00004
   rotate: false
-  xy: 129, 166
+  xy: 637, 166
   size: 631, 168
   orig: 700, 250
   offset: 31, 43
   index: -1
 card_ranshaozhijia-00005
   rotate: false
-  xy: 0, 334
+  xy: 0, 330
   size: 637, 175
   orig: 700, 250
   offset: 29, 37
   index: -1
 card_ranshaozhijia-00006
   rotate: false
-  xy: 0, 875
+  xy: 640, 334
   size: 641, 175
   orig: 700, 250
   offset: 27, 37
   index: -1
 card_ranshaozhijia-00007
   rotate: false
-  xy: 0, 509
+  xy: 640, 509
   size: 638, 181
   orig: 700, 250
   offset: 26, 33
   index: -1
 card_ranshaozhijia-00008
   rotate: false
-  xy: 0, 690
+  xy: 0, 505
   size: 640, 185
   orig: 700, 250
   offset: 25, 29
   index: -1
 card_ranshaozhijia-00009
-  rotate: true
-  xy: 641, 417
+  rotate: false
+  xy: 0, 166
   size: 633, 164
   orig: 700, 250
   offset: 32, 44

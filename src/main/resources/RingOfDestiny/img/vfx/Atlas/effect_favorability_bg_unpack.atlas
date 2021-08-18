@@ -1,0 +1,83 @@
+
+effect_favorability_bg_unpack.png
+size: 1664,609
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_favorability_bg-00000
+  rotate: false
+  xy: 0, 406
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00001
+  rotate: false
+  xy: 0, 203
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00002
+  rotate: false
+  xy: 416, 406
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00003
+  rotate: false
+  xy: 0, 0
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00004
+  rotate: false
+  xy: 416, 203
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00005
+  rotate: false
+  xy: 832, 406
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00006
+  rotate: false
+  xy: 416, 0
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00007
+  rotate: false
+  xy: 832, 203
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00008
+  rotate: false
+  xy: 1248, 406
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00009
+  rotate: false
+  xy: 832, 0
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1
+effect_favorability_bg-00010
+  rotate: false
+  xy: 1248, 203
+  size: 416, 203
+  orig: 422, 258
+  offset: 2, 0
+  index: -1

@@ -1,0 +1,111 @@
+
+effect_job5_change_light_unpack.png
+size: 585,591
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job5_change_light-00000
+  rotate: false
+  xy: 320, 118
+  size: 132, 136
+  orig: 269, 269
+  offset: 70, 61
+  index: -1
+effect_job5_change_light-00001
+  rotate: false
+  xy: 452, 119
+  size: 129, 135
+  orig: 269, 269
+  offset: 73, 62
+  index: -1
+effect_job5_change_light-00002
+  rotate: false
+  xy: 0, 120
+  size: 158, 134
+  orig: 269, 269
+  offset: 44, 63
+  index: -1
+effect_job5_change_light-00003
+  rotate: false
+  xy: 353, 254
+  size: 153, 153
+  orig: 269, 269
+  offset: 49, 58
+  index: -1
+effect_job5_change_light-00004
+  rotate: false
+  xy: 358, 407
+  size: 164, 184
+  orig: 269, 269
+  offset: 38, 38
+  index: -1
+effect_job5_change_light-00005
+  rotate: false
+  xy: 178, 420
+  size: 180, 171
+  orig: 269, 269
+  offset: 39, 47
+  index: -1
+effect_job5_change_light-00006
+  rotate: false
+  xy: 178, 260
+  size: 175, 160
+  orig: 269, 269
+  offset: 44, 55
+  index: -1
+effect_job5_change_light-00007
+  rotate: false
+  xy: 0, 418
+  size: 178, 173
+  orig: 269, 269
+  offset: 41, 45
+  index: -1
+effect_job5_change_light-00008
+  rotate: false
+  xy: 0, 254
+  size: 164, 164
+  orig: 269, 269
+  offset: 47, 60
+  index: -1
+effect_job5_change_light-00009
+  rotate: false
+  xy: 164, 112
+  size: 156, 148
+  orig: 269, 269
+  offset: 46, 72
+  index: -1
+effect_job5_change_light-00010
+  rotate: false
+  xy: 0, 0
+  size: 129, 120
+  orig: 269, 269
+  offset: 64, 74
+  index: -1
+effect_job5_change_light-00011
+  rotate: false
+  xy: 355, 2
+  size: 121, 116
+  orig: 269, 269
+  offset: 67, 75
+  index: -1
+effect_job5_change_light-00012
+  rotate: false
+  xy: 244, 4
+  size: 111, 108
+  orig: 269, 269
+  offset: 76, 76
+  index: -1
+effect_job5_change_light-00013
+  rotate: false
+  xy: 129, 4
+  size: 115, 108
+  orig: 269, 269
+  offset: 71, 76
+  index: -1
+effect_job5_change_light-00014
+  rotate: false
+  xy: 476, 11
+  size: 109, 108
+  orig: 269, 269
+  offset: 77, 76
+  index: -1

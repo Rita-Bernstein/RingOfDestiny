@@ -1,103 +1,103 @@
 
 card_shuguangshenpan_unpack.png
-size: 1655,1000
+size: 2000,924
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_shuguangshenpan-00000
-  rotate: true
-  xy: 0, 500
+  rotate: false
+  xy: 0, 693
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00001
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 462
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00002
-  rotate: true
-  xy: 231, 500
+  rotate: false
+  xy: 500, 693
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00003
-  rotate: true
-  xy: 231, 0
+  rotate: false
+  xy: 0, 231
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00004
-  rotate: true
-  xy: 462, 500
+  rotate: false
+  xy: 500, 462
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00005
-  rotate: true
-  xy: 462, 0
+  rotate: false
+  xy: 1000, 693
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00006
   rotate: false
-  xy: 693, 769
+  xy: 1500, 693
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00007
-  rotate: true
-  xy: 1193, 500
+  rotate: false
+  xy: 0, 0
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00008
-  rotate: true
-  xy: 1424, 500
+  rotate: false
+  xy: 500, 231
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00009
   rotate: false
-  xy: 693, 538
+  xy: 1000, 462
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00010
   rotate: false
-  xy: 693, 307
+  xy: 1500, 462
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00011
-  rotate: true
-  xy: 1193, 0
+  rotate: false
+  xy: 500, 0
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00012
-  rotate: true
-  xy: 1424, 0
+  rotate: false
+  xy: 1000, 231
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_shuguangshenpan-00013
   rotate: false
-  xy: 693, 76
+  xy: 1500, 231
   size: 500, 231
   orig: 500, 231
   offset: 0, 0

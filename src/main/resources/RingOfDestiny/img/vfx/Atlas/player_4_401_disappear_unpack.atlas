@@ -1,60 +1,60 @@
 
 player_4_401_disappear_unpack.png
-size: 1602,445
+size: 1464,497
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 player_4_401_disappear-00000
   rotate: false
-  xy: 1321, 266
+  xy: 1327, 233
   size: 119, 179
   orig: 300, 350
   offset: 84, 49
   index: -1
 player_4_401_disappear-00001
   rotate: false
-  xy: 1443, 226
+  xy: 1152, 14
   size: 159, 219
   orig: 300, 350
   offset: 58, 47
   index: -1
 player_4_401_disappear-00002
   rotate: false
-  xy: 1146, 203
+  xy: 769, 255
   size: 175, 242
   orig: 300, 350
   offset: 52, 31
   index: -1
 player_4_401_disappear-00003
   rotate: false
-  xy: 765, 198
+  xy: 385, 1
   size: 188, 247
   orig: 300, 350
   offset: 45, 30
   index: -1
 player_4_401_disappear-00004
   rotate: false
-  xy: 575, 198
+  xy: 195, 0
   size: 190, 247
   orig: 300, 350
   offset: 48, 34
   index: -1
 player_4_401_disappear-00005
   rotate: false
-  xy: 385, 196
+  xy: 385, 248
   size: 190, 249
   orig: 300, 350
   offset: 50, 35
   index: -1
 player_4_401_disappear-00006
-  rotate: true
-  xy: 493, 1
+  rotate: false
+  xy: 944, 256
   size: 195, 241
   orig: 300, 350
   offset: 48, 32
   index: -1
 player_4_401_disappear-00007
-  rotate: true
+  rotate: false
   xy: 0, 0
   size: 195, 247
   orig: 300, 350
@@ -62,63 +62,63 @@ player_4_401_disappear-00007
   index: -1
 player_4_401_disappear-00008
   rotate: false
-  xy: 0, 195
+  xy: 0, 247
   size: 193, 250
   orig: 300, 350
   offset: 50, 36
   index: -1
 player_4_401_disappear-00009
   rotate: false
-  xy: 193, 195
+  xy: 193, 247
   size: 192, 250
   orig: 300, 350
   offset: 51, 41
   index: -1
 player_4_401_disappear-00010
-  rotate: true
-  xy: 734, 4
+  rotate: false
+  xy: 575, 252
   size: 194, 245
   orig: 300, 350
   offset: 48, 51
   index: -1
 player_4_401_disappear-00011
-  rotate: true
-  xy: 247, 0
+  rotate: false
+  xy: 573, 2
   size: 195, 246
   orig: 300, 350
   offset: 46, 54
   index: -1
 player_4_401_disappear-00012
   rotate: false
-  xy: 953, 202
+  xy: 768, 9
   size: 193, 243
   orig: 300, 350
   offset: 47, 59
   index: -1
 player_4_401_disappear-00013
-  rotate: true
-  xy: 979, 11
+  rotate: false
+  xy: 961, 20
   size: 191, 236
   orig: 300, 350
   offset: 48, 66
   index: -1
 player_4_401_disappear-00014
-  rotate: true
-  xy: 1215, 15
+  rotate: false
+  xy: 1139, 269
   size: 188, 228
   orig: 300, 350
   offset: 49, 76
   index: -1
 player_4_401_disappear-00015
   rotate: false
-  xy: 1443, 111
+  xy: 1311, 118
   size: 152, 115
   orig: 300, 350
   offset: 84, 162
   index: -1
 player_4_401_disappear-00016
   rotate: false
-  xy: 1443, 26
+  xy: 1327, 412
   size: 137, 85
   orig: 300, 350
   offset: 99, 174

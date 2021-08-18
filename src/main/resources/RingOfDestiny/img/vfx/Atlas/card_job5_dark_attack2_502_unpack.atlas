@@ -1,6 +1,6 @@
 
 card_job5_dark_attack2_502_unpack.png
-size: 534,359
+size: 539,359
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -33,8 +33,8 @@ card_job5_dark_attack2_502-00003
   offset: 172, 134
   index: -1
 card_job5_dark_attack2_502-00004
-  rotate: true
-  xy: 407, 52
+  rotate: false
+  xy: 407, 57
   size: 132, 127
   orig: 500, 448
   offset: 235, 142

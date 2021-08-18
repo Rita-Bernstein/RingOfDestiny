@@ -1,159 +1,159 @@
 
 card_zhanfang_unpack.png
-size: 1966,1692
+size: 1849,1800
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_zhanfang-00000
-  rotate: true
-  xy: 1700, 73
+  rotate: false
+  xy: 1579, 187
   size: 269, 263
   orig: 350, 450
   offset: 45, 0
   index: -1
 card_zhanfang-00001
   rotate: false
-  xy: 1685, 342
+  xy: 985, 0
   size: 281, 450
   orig: 350, 450
   offset: 37, 0
   index: -1
 card_zhanfang-00002
   rotate: false
-  xy: 1362, 342
+  xy: 662, 0
   size: 323, 450
   orig: 350, 450
   offset: 13, 0
   index: -1
 card_zhanfang-00003
   rotate: false
-  xy: 0, 1242
+  xy: 0, 1350
   size: 349, 450
   orig: 350, 450
   offset: 1, 0
   index: -1
 card_zhanfang-00004
   rotate: false
-  xy: 1039, 1242
+  xy: 1368, 900
   size: 341, 450
   orig: 350, 450
   offset: 7, 0
   index: -1
 card_zhanfang-00005
   rotate: false
-  xy: 348, 792
+  xy: 1393, 1350
   size: 342, 450
   orig: 350, 450
   offset: 7, 0
   index: -1
 card_zhanfang-00006
   rotate: false
-  xy: 0, 792
+  xy: 349, 1350
   size: 348, 450
   orig: 350, 450
   offset: 1, 0
   index: -1
 card_zhanfang-00007
   rotate: false
-  xy: 697, 1242
+  xy: 0, 900
   size: 342, 450
   orig: 350, 450
   offset: 7, 0
   index: -1
 card_zhanfang-00008
   rotate: false
-  xy: 348, 342
+  xy: 342, 900
   size: 342, 450
   orig: 350, 450
   offset: 7, 0
   index: -1
 card_zhanfang-00009
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 684, 900
   size: 342, 450
   orig: 350, 450
   offset: 7, 0
   index: -1
 card_zhanfang-00010
   rotate: false
-  xy: 349, 1242
+  xy: 697, 1350
   size: 348, 450
   orig: 350, 450
   offset: 1, 0
   index: -1
 card_zhanfang-00011
   rotate: false
-  xy: 0, 342
+  xy: 1045, 1350
   size: 348, 450
   orig: 350, 450
   offset: 1, 0
   index: -1
 card_zhanfang-00012
   rotate: false
-  xy: 690, 792
+  xy: 1026, 900
   size: 342, 450
   orig: 350, 450
   offset: 7, 0
   index: -1
 card_zhanfang-00013
   rotate: false
-  xy: 690, 342
+  xy: 0, 450
   size: 336, 450
   orig: 350, 450
   offset: 13, 0
   index: -1
 card_zhanfang-00014
-  rotate: true
-  xy: 450, 6
+  rotate: false
+  xy: 336, 450
   size: 336, 450
   orig: 350, 450
   offset: 13, 0
   index: -1
 card_zhanfang-00015
   rotate: false
-  xy: 1032, 792
+  xy: 672, 450
   size: 336, 450
   orig: 350, 450
   offset: 13, 0
   index: -1
 card_zhanfang-00016
   rotate: false
-  xy: 1380, 1242
+  xy: 1008, 450
   size: 336, 450
   orig: 350, 450
   offset: 13, 0
   index: -1
 card_zhanfang-00017
   rotate: false
-  xy: 1026, 342
+  xy: 1344, 450
   size: 336, 450
   orig: 350, 450
   offset: 13, 0
   index: -1
 card_zhanfang-00018
-  rotate: true
-  xy: 900, 6
+  rotate: false
+  xy: 0, 0
   size: 336, 450
   orig: 350, 450
   offset: 13, 0
   index: -1
 card_zhanfang-00019
   rotate: false
-  xy: 1368, 792
+  xy: 336, 0
   size: 326, 450
   orig: 350, 450
   offset: 21, 0
   index: -1
 card_zhanfang-00020
-  rotate: true
-  xy: 1350, 29
+  rotate: false
+  xy: 1266, 100
   size: 313, 350
   orig: 350, 450
   offset: 25, 25
   index: -1
 card_zhanfang-00021
   rotate: false
-  xy: 1716, 1509
+  xy: 1709, 1167
   size: 140, 183
   orig: 350, 450
   offset: 90, 209

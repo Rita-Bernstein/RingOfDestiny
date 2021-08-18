@@ -1,68 +1,68 @@
 
 power_bar_5_purple_full_unpack.png
-size: 1593,182
+size: 1638,177
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 power_bar_5_purple_full-00000
-  rotate: true
+  rotate: false
   xy: 0, 0
   size: 182, 177
   orig: 300, 300
   offset: 61, 55
   index: -1
 power_bar_5_purple_full-00001
-  rotate: true
-  xy: 177, 0
+  rotate: false
+  xy: 182, 0
   size: 182, 177
   orig: 300, 300
   offset: 61, 55
   index: -1
 power_bar_5_purple_full-00002
-  rotate: true
-  xy: 354, 0
+  rotate: false
+  xy: 364, 0
   size: 182, 177
   orig: 300, 300
   offset: 61, 55
   index: -1
 power_bar_5_purple_full-00003
-  rotate: true
-  xy: 531, 0
+  rotate: false
+  xy: 546, 0
   size: 182, 177
   orig: 300, 300
   offset: 61, 55
   index: -1
 power_bar_5_purple_full-00004
-  rotate: true
-  xy: 708, 0
+  rotate: false
+  xy: 728, 0
   size: 182, 177
   orig: 300, 300
   offset: 61, 55
   index: -1
 power_bar_5_purple_full-00005
-  rotate: true
-  xy: 885, 0
+  rotate: false
+  xy: 910, 0
   size: 182, 177
   orig: 300, 300
   offset: 61, 55
   index: -1
 power_bar_5_purple_full-00006
-  rotate: true
-  xy: 1062, 0
+  rotate: false
+  xy: 1092, 0
   size: 182, 177
   orig: 300, 300
   offset: 61, 55
   index: -1
 power_bar_5_purple_full-00007
-  rotate: true
-  xy: 1239, 0
+  rotate: false
+  xy: 1274, 0
   size: 182, 177
   orig: 300, 300
   offset: 61, 55
   index: -1
 power_bar_5_purple_full-00008
-  rotate: true
-  xy: 1416, 0
+  rotate: false
+  xy: 1456, 0
   size: 182, 177
   orig: 300, 300
   offset: 61, 55

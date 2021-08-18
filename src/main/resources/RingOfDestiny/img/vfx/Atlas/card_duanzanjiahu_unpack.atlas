@@ -1,110 +1,110 @@
 
 card_duanzanjiahu_unpack.png
-size: 1987,1483
+size: 2034,1494
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_duanzanjiahu-00000
-  rotate: true
-  xy: 1720, 41
+  rotate: false
+  xy: 722, 136
   size: 251, 207
   orig: 520, 700
   offset: 136, 84
   index: -1
 card_duanzanjiahu-00001
-  rotate: true
-  xy: 1442, 38
+  rotate: false
+  xy: 1780, 95
   size: 254, 278
   orig: 520, 700
   offset: 134, 81
   index: -1
 card_duanzanjiahu-00002
   rotate: false
-  xy: 1615, 665
+  xy: 1040, 40
   size: 372, 382
   orig: 520, 700
   offset: 73, 52
   index: -1
 card_duanzanjiahu-00003
-  rotate: true
-  xy: 1138, 1047
+  rotate: false
+  xy: 1040, 422
   size: 436, 497
   orig: 520, 700
   offset: 43, 37
   index: -1
 card_duanzanjiahu-00004
   rotate: false
-  xy: 618, 907
+  xy: 0, 300
   size: 520, 576
   orig: 520, 700
   offset: 0, 0
   index: -1
 card_duanzanjiahu-00005
   rotate: false
-  xy: 0, 387
+  xy: 520, 918
   size: 520, 576
   orig: 520, 700
   offset: 0, 0
   index: -1
 card_duanzanjiahu-00006
-  rotate: true
-  xy: 520, 387
+  rotate: false
+  xy: 520, 343
   size: 520, 575
   orig: 520, 700
   offset: 0, 0
   index: -1
 card_duanzanjiahu-00007
-  rotate: true
-  xy: 0, 963
+  rotate: false
+  xy: 0, 876
   size: 520, 618
   orig: 520, 700
   offset: 0, 0
   index: -1
 card_duanzanjiahu-00008
   rotate: false
-  xy: 1095, 332
+  xy: 1040, 919
   size: 520, 575
   orig: 520, 700
   offset: 0, 0
   index: -1
 card_duanzanjiahu-00009
   rotate: false
-  xy: 0, 0
+  xy: 1560, 1107
   size: 416, 387
   orig: 520, 700
   offset: 48, 146
   index: -1
 card_duanzanjiahu-00010
   rotate: false
-  xy: 416, 1
+  xy: 1476, 373
   size: 393, 386
   orig: 520, 700
   offset: 48, 186
   index: -1
 card_duanzanjiahu-00011
-  rotate: true
-  xy: 1635, 1071
+  rotate: false
+  xy: 1560, 759
   size: 412, 348
   orig: 520, 700
   offset: 47, 270
   index: -1
 card_duanzanjiahu-00012
   rotate: false
-  xy: 1615, 292
+  xy: 1412, 0
   size: 368, 373
   orig: 520, 700
   offset: 61, 298
   index: -1
 card_duanzanjiahu-00013
-  rotate: true
-  xy: 809, 22
+  rotate: false
+  xy: 0, 24
   size: 365, 276
   orig: 520, 700
   offset: 62, 334
   index: -1
 card_duanzanjiahu-00014
   rotate: false
-  xy: 1085, 57
+  xy: 365, 25
   size: 357, 275
   orig: 520, 700
   offset: 65, 380

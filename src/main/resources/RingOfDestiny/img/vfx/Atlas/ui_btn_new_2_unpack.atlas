@@ -1,0 +1,76 @@
+
+ui_btn_new_2_unpack.png
+size: 1683,190
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_btn_new_2-00000
+  rotate: false
+  xy: 182, 0
+  size: 181, 190
+  orig: 500, 500
+  offset: 159, 167
+  index: -1
+ui_btn_new_2-00001
+  rotate: false
+  xy: 536, 4
+  size: 166, 186
+  orig: 500, 500
+  offset: 164, 167
+  index: -1
+ui_btn_new_2-00002
+  rotate: false
+  xy: 1034, 5
+  size: 164, 185
+  orig: 500, 500
+  offset: 165, 167
+  index: -1
+ui_btn_new_2-00003
+  rotate: false
+  xy: 702, 4
+  size: 166, 186
+  orig: 500, 500
+  offset: 164, 167
+  index: -1
+ui_btn_new_2-00004
+  rotate: false
+  xy: 1524, 8
+  size: 159, 182
+  orig: 500, 500
+  offset: 168, 168
+  index: -1
+ui_btn_new_2-00005
+  rotate: false
+  xy: 1198, 5
+  size: 164, 185
+  orig: 500, 500
+  offset: 165, 167
+  index: -1
+ui_btn_new_2-00006
+  rotate: false
+  xy: 363, 1
+  size: 173, 189
+  orig: 500, 500
+  offset: 161, 167
+  index: -1
+ui_btn_new_2-00007
+  rotate: false
+  xy: 1362, 6
+  size: 162, 184
+  orig: 500, 500
+  offset: 166, 167
+  index: -1
+ui_btn_new_2-00008
+  rotate: false
+  xy: 868, 4
+  size: 166, 186
+  orig: 500, 500
+  offset: 164, 167
+  index: -1
+ui_btn_new_2-00009
+  rotate: false
+  xy: 0, 0
+  size: 182, 190
+  orig: 500, 500
+  offset: 159, 167
+  index: -1

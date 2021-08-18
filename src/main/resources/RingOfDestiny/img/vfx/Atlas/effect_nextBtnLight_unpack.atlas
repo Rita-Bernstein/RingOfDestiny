@@ -1,0 +1,104 @@
+
+effect_nextBtnLight_unpack.png
+size: 1286,368
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_nextBtnLight-00000
+  rotate: false
+  xy: 0, 181
+  size: 183, 187
+  orig: 271, 271
+  offset: 47, 42
+  index: -1
+effect_nextBtnLight-00001
+  rotate: false
+  xy: 920, 4
+  size: 184, 184
+  orig: 271, 271
+  offset: 46, 44
+  index: -1
+effect_nextBtnLight-00002
+  rotate: false
+  xy: 920, 188
+  size: 185, 180
+  orig: 271, 271
+  offset: 44, 47
+  index: -1
+effect_nextBtnLight-00003
+  rotate: false
+  xy: 183, 1
+  size: 181, 181
+  orig: 271, 271
+  offset: 47, 46
+  index: -1
+effect_nextBtnLight-00004
+  rotate: false
+  xy: 0, 1
+  size: 180, 180
+  orig: 271, 271
+  offset: 48, 46
+  index: -1
+effect_nextBtnLight-00005
+  rotate: false
+  xy: 550, 3
+  size: 179, 180
+  orig: 271, 271
+  offset: 48, 46
+  index: -1
+effect_nextBtnLight-00006
+  rotate: false
+  xy: 1105, 188
+  size: 181, 180
+  orig: 271, 271
+  offset: 46, 46
+  index: -1
+effect_nextBtnLight-00007
+  rotate: false
+  xy: 553, 183
+  size: 182, 185
+  orig: 271, 271
+  offset: 47, 45
+  index: -1
+effect_nextBtnLight-00008
+  rotate: false
+  xy: 735, 184
+  size: 185, 184
+  orig: 271, 271
+  offset: 45, 44
+  index: -1
+effect_nextBtnLight-00009
+  rotate: false
+  xy: 183, 182
+  size: 185, 186
+  orig: 271, 271
+  offset: 45, 44
+  index: -1
+effect_nextBtnLight-00010
+  rotate: false
+  xy: 735, 0
+  size: 183, 184
+  orig: 271, 271
+  offset: 45, 44
+  index: -1
+effect_nextBtnLight-00011
+  rotate: false
+  xy: 1104, 4
+  size: 182, 184
+  orig: 271, 271
+  offset: 45, 45
+  index: -1
+effect_nextBtnLight-00012
+  rotate: false
+  xy: 368, 0
+  size: 182, 183
+  orig: 271, 271
+  offset: 46, 46
+  index: -1
+effect_nextBtnLight-00013
+  rotate: false
+  xy: 368, 183
+  size: 185, 185
+  orig: 271, 271
+  offset: 45, 44
+  index: -1

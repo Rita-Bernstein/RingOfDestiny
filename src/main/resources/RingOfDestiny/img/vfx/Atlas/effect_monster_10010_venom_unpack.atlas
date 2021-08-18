@@ -1,0 +1,55 @@
+
+effect_monster_10010_venom_unpack.png
+size: 1388,214
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10010_venom-00000
+  rotate: false
+  xy: 1222, 30
+  size: 166, 184
+  orig: 500, 500
+  offset: 174, 157
+  index: -1
+effect_monster_10010_venom-00001
+  rotate: false
+  xy: 214, 1
+  size: 209, 213
+  orig: 500, 500
+  offset: 151, 144
+  index: -1
+effect_monster_10010_venom-00002
+  rotate: false
+  xy: 0, 0
+  size: 214, 214
+  orig: 500, 500
+  offset: 149, 145
+  index: -1
+effect_monster_10010_venom-00003
+  rotate: false
+  xy: 846, 1
+  size: 201, 213
+  orig: 500, 500
+  offset: 152, 148
+  index: -1
+effect_monster_10010_venom-00004
+  rotate: false
+  xy: 423, 7
+  size: 211, 207
+  orig: 500, 500
+  offset: 145, 145
+  index: -1
+effect_monster_10010_venom-00005
+  rotate: false
+  xy: 634, 15
+  size: 212, 199
+  orig: 500, 500
+  offset: 146, 152
+  index: -1
+effect_monster_10010_venom-00006
+  rotate: false
+  xy: 1047, 33
+  size: 175, 181
+  orig: 500, 500
+  offset: 163, 155
+  index: -1

@@ -1,0 +1,104 @@
+
+effect_altar_middle_light_unpack.png
+size: 1829,788
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_altar_middle_light-00000
+  rotate: false
+  xy: 781, 29
+  size: 127, 126
+  orig: 500, 500
+  offset: 189, 203
+  index: -1
+effect_altar_middle_light-00001
+  rotate: false
+  xy: 641, 15
+  size: 140, 140
+  orig: 500, 500
+  offset: 182, 196
+  index: -1
+effect_altar_middle_light-00002
+  rotate: false
+  xy: 1216, 19
+  size: 146, 146
+  orig: 500, 500
+  offset: 179, 193
+  index: -1
+effect_altar_middle_light-00003
+  rotate: false
+  xy: 948, 88
+  size: 268, 268
+  orig: 500, 500
+  offset: 119, 136
+  index: -1
+effect_altar_middle_light-00004
+  rotate: false
+  xy: 948, 356
+  size: 448, 432
+  orig: 500, 500
+  offset: 28, 28
+  index: -1
+effect_altar_middle_light-00005
+  rotate: false
+  xy: 0, 355
+  size: 483, 433
+  orig: 500, 500
+  offset: 11, 27
+  index: -1
+effect_altar_middle_light-00006
+  rotate: false
+  xy: 483, 355
+  size: 465, 433
+  orig: 500, 500
+  offset: 20, 27
+  index: -1
+effect_altar_middle_light-00007
+  rotate: false
+  xy: 1396, 359
+  size: 433, 429
+  orig: 500, 500
+  offset: 35, 31
+  index: -1
+effect_altar_middle_light-00008
+  rotate: false
+  xy: 1396, 0
+  size: 359, 359
+  orig: 500, 500
+  offset: 73, 90
+  index: -1
+effect_altar_middle_light-00009
+  rotate: false
+  xy: 0, 111
+  size: 232, 244
+  orig: 500, 500
+  offset: 137, 159
+  index: -1
+effect_altar_middle_light-00010
+  rotate: false
+  xy: 232, 113
+  size: 217, 242
+  orig: 500, 500
+  offset: 144, 156
+  index: -1
+effect_altar_middle_light-00011
+  rotate: false
+  xy: 449, 131
+  size: 192, 224
+  orig: 500, 500
+  offset: 163, 160
+  index: -1
+effect_altar_middle_light-00012
+  rotate: false
+  xy: 641, 155
+  size: 169, 200
+  orig: 500, 500
+  offset: 172, 171
+  index: -1
+effect_altar_middle_light-00013
+  rotate: false
+  xy: 1216, 165
+  size: 173, 191
+  orig: 500, 500
+  offset: 171, 178
+  index: -1

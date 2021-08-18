@@ -1,96 +1,96 @@
 
 card_jinshu_huihun_unpack.png
-size: 342,877
+size: 1400,219
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jinshu_huihun-00000
-  rotate: true
-  xy: 301, 30
+  rotate: false
+  xy: 0, 15
   size: 112, 33
   orig: 359, 283
   offset: 126, 58
   index: -1
 card_jinshu_huihun-00001
-  rotate: true
-  xy: 156, 257
+  rotate: false
+  xy: 248, 0
   size: 221, 63
   orig: 359, 283
   offset: 72, 45
   index: -1
 card_jinshu_huihun-00002
-  rotate: true
-  xy: 156, 478
+  rotate: false
+  xy: 502, 1
   size: 228, 77
   orig: 359, 283
   offset: 69, 41
   index: -1
 card_jinshu_huihun-00003
-  rotate: true
-  xy: 248, 637
+  rotate: false
+  xy: 861, 5
   size: 240, 91
   orig: 359, 283
   offset: 61, 37
   index: -1
 card_jinshu_huihun-00004
-  rotate: true
-  xy: 233, 392
+  rotate: false
+  xy: 1009, 112
   size: 245, 107
   orig: 359, 283
   offset: 59, 36
   index: -1
 card_jinshu_huihun-00005
-  rotate: true
-  xy: 219, 142
+  rotate: false
+  xy: 759, 96
   size: 250, 123
   orig: 359, 283
   offset: 59, 35
   index: -1
 card_jinshu_huihun-00006
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 502, 78
   size: 257, 141
   orig: 359, 283
   offset: 54, 36
   index: -1
 card_jinshu_huihun-00007
-  rotate: true
-  xy: 0, 452
+  rotate: false
+  xy: 248, 63
   size: 254, 156
   orig: 359, 283
   offset: 55, 37
   index: -1
 card_jinshu_huihun-00008
   rotate: false
-  xy: 0, 706
+  xy: 0, 48
   size: 248, 171
   orig: 359, 283
   offset: 56, 37
   index: -1
 card_jinshu_huihun-00009
   rotate: false
-  xy: 0, 266
+  xy: 1254, 125
   size: 146, 94
   orig: 359, 283
   offset: 106, 101
   index: -1
 card_jinshu_huihun-00010
-  rotate: true
-  xy: 212, 0
+  rotate: false
+  xy: 1254, 36
   size: 142, 89
   orig: 359, 283
   offset: 114, 121
   index: -1
 card_jinshu_huihun-00011
   rotate: false
-  xy: 0, 360
+  xy: 1101, 20
   size: 153, 92
   orig: 359, 283
   offset: 107, 143
   index: -1
 card_jinshu_huihun-00012
-  rotate: true
-  xy: 141, 126
+  rotate: false
+  xy: 730, 7
   size: 131, 71
   orig: 359, 283
   offset: 131, 188

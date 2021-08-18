@@ -1,173 +1,173 @@
 
 card_send_unpack.png
-size: 1920,1032
+size: 1542,1290
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_send-00000
-  rotate: true
-  xy: 0, 780
+  rotate: false
+  xy: 1029, 654
   size: 252, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00001
-  rotate: true
-  xy: 318, 780
+  rotate: false
+  xy: 1030, 972
   size: 252, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00002
-  rotate: true
-  xy: 954, 527
+  rotate: false
+  xy: 777, 972
   size: 253, 318
   orig: 300, 400
   offset: 21, 41
   index: -1
 card_send-00003
-  rotate: true
-  xy: 636, 780
+  rotate: false
+  xy: 1282, 972
   size: 252, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00004
-  rotate: true
-  xy: 954, 780
+  rotate: false
+  xy: 1281, 654
   size: 252, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00005
-  rotate: true
-  xy: 1272, 780
+  rotate: false
+  xy: 786, 18
   size: 252, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00006
-  rotate: true
-  xy: 636, 272
+  rotate: false
+  xy: 521, 972
   size: 256, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00007
-  rotate: true
-  xy: 1590, 780
+  rotate: false
+  xy: 1038, 336
   size: 252, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00008
-  rotate: true
-  xy: 0, 528
+  rotate: false
+  xy: 1290, 336
   size: 252, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00009
-  rotate: true
-  xy: 1272, 527
+  rotate: false
+  xy: 533, 18
   size: 253, 318
   orig: 300, 400
   offset: 21, 41
   index: -1
 card_send-00010
-  rotate: true
-  xy: 318, 528
+  rotate: false
+  xy: 1038, 18
   size: 252, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00011
-  rotate: true
-  xy: 636, 528
+  rotate: false
+  xy: 1290, 18
   size: 252, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00012
-  rotate: true
-  xy: 1590, 527
+  rotate: false
+  xy: 785, 336
   size: 253, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00013
-  rotate: true
-  xy: 0, 273
+  rotate: false
+  xy: 530, 336
   size: 255, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00014
-  rotate: true
-  xy: 318, 273
+  rotate: false
+  xy: 774, 654
   size: 255, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00015
-  rotate: true
-  xy: 954, 270
+  rotate: false
+  xy: 517, 654
   size: 257, 318
   orig: 300, 400
   offset: 21, 41
   index: -1
 card_send-00016
-  rotate: true
-  xy: 1272, 269
+  rotate: false
+  xy: 259, 642
   size: 258, 321
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00017
-  rotate: true
-  xy: 1593, 268
+  rotate: false
+  xy: 0, 639
   size: 259, 324
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00018
-  rotate: true
-  xy: 0, 13
+  rotate: false
+  xy: 0, 963
   size: 260, 327
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00019
-  rotate: true
-  xy: 327, 11
+  rotate: false
+  xy: 260, 972
   size: 261, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00020
-  rotate: true
-  xy: 645, 7
+  rotate: false
+  xy: 0, 318
   size: 263, 321
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00021
-  rotate: true
-  xy: 966, 4
+  rotate: false
+  xy: 268, 6
   size: 265, 318
   orig: 300, 400
   offset: 22, 41
   index: -1
 card_send-00022
-  rotate: true
-  xy: 1284, 1
+  rotate: false
+  xy: 263, 324
   size: 267, 318
   orig: 300, 400
   offset: 21, 41
   index: -1
 card_send-00023
-  rotate: true
-  xy: 1602, 0
+  rotate: false
+  xy: 0, 0
   size: 268, 318
   orig: 300, 400
   offset: 22, 41

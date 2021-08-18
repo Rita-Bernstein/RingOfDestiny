@@ -1,6 +1,6 @@
 
 monster_hurt_4_unpack.png
-size: 218,564
+size: 218,576
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -19,7 +19,7 @@ monster_hurt_4-00001
   offset: 86, 81
   index: -1
 monster_hurt_4-00002
-  rotate: true
+  rotate: false
   xy: 0, 155
   size: 183, 195
   orig: 300, 300
@@ -27,7 +27,7 @@ monster_hurt_4-00002
   index: -1
 monster_hurt_4-00003
   rotate: false
-  xy: 0, 338
+  xy: 0, 350
   size: 218, 226
   orig: 300, 300
   offset: 35, 42

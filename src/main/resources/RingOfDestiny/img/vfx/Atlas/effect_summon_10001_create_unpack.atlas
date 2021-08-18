@@ -1,131 +1,131 @@
 
 effect_summon_10001_create_unpack.png
-size: 1554,1114
+size: 1586,1066
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_summon_10001_create-00000
-  rotate: true
-  xy: 1251, 214
+  rotate: false
+  xy: 1356, 124
   size: 230, 303
   orig: 500, 500
   offset: 141, 76
   index: -1
 effect_summon_10001_create-00001
   rotate: false
-  xy: 1261, 444
+  xy: 1115, 741
   size: 257, 325
   orig: 500, 500
   offset: 134, 66
   index: -1
 effect_summon_10001_create-00002
-  rotate: true
-  xy: 908, 284
+  rotate: false
+  xy: 842, 723
   size: 273, 343
   orig: 500, 500
   offset: 128, 58
   index: -1
 effect_summon_10001_create-00003
-  rotate: true
-  xy: 557, 287
+  rotate: false
+  xy: 832, 14
   size: 278, 351
   orig: 500, 500
   offset: 125, 55
   index: -1
 effect_summon_10001_create-00004
   rotate: false
-  xy: 278, 759
+  xy: 0, 6
   size: 280, 355
   orig: 500, 500
   offset: 123, 54
   index: -1
 effect_summon_10001_create-00005
   rotate: false
-  xy: 278, 403
+  xy: 832, 365
   size: 279, 356
   orig: 500, 500
   offset: 122, 55
   index: -1
 effect_summon_10001_create-00006
   rotate: false
-  xy: 0, 397
+  xy: 278, 708
   size: 278, 358
   orig: 500, 500
   offset: 123, 55
   index: -1
 effect_summon_10001_create-00007
   rotate: false
-  xy: 0, 755
+  xy: 0, 707
   size: 278, 359
   orig: 500, 500
   offset: 122, 55
   index: -1
 effect_summon_10001_create-00008
   rotate: false
-  xy: 0, 41
+  xy: 555, 8
   size: 277, 356
   orig: 500, 500
   offset: 120, 57
   index: -1
 effect_summon_10001_create-00009
-  rotate: true
-  xy: 915, 839
+  rotate: false
+  xy: 280, 0
   size: 275, 353
   orig: 500, 500
   offset: 119, 59
   index: -1
 effect_summon_10001_create-00010
-  rotate: true
-  xy: 558, 565
+  rotate: false
+  xy: 282, 353
   size: 273, 355
   orig: 500, 500
   offset: 118, 61
   index: -1
 effect_summon_10001_create-00011
-  rotate: true
-  xy: 558, 838
+  rotate: false
+  xy: 556, 364
   size: 276, 357
   orig: 500, 500
   offset: 115, 62
   index: -1
 effect_summon_10001_create-00012
-  rotate: true
-  xy: 915, 557
+  rotate: false
+  xy: 0, 361
   size: 282, 346
   orig: 500, 500
   offset: 110, 62
   index: -1
 effect_summon_10001_create-00013
   rotate: false
-  xy: 1268, 769
+  xy: 556, 721
   size: 286, 345
   orig: 500, 500
   offset: 106, 65
   index: -1
 effect_summon_10001_create-00014
   rotate: false
-  xy: 277, 61
+  xy: 1110, 29
   size: 246, 336
   orig: 500, 500
   offset: 143, 69
   index: -1
 effect_summon_10001_create-00015
-  rotate: true
-  xy: 523, 49
+  rotate: false
+  xy: 1111, 394
   size: 238, 329
   orig: 500, 500
   offset: 147, 74
   index: -1
 effect_summon_10001_create-00016
-  rotate: true
-  xy: 852, 50
+  rotate: false
+  xy: 1349, 427
   size: 234, 314
   orig: 500, 500
   offset: 143, 83
   index: -1
 effect_summon_10001_create-00017
-  rotate: true
-  xy: 1166, 0
+  rotate: false
+  xy: 1372, 762
   size: 214, 304
   orig: 500, 500
   offset: 146, 92

@@ -1,110 +1,110 @@
 
 card_heianjiqu_unpack.png
-size: 1355,475
+size: 654,1037
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_heianjiqu-00000
-  rotate: true
-  xy: 1234, 12
+  rotate: false
+  xy: 0, 0
   size: 38, 36
   orig: 371, 272
   offset: 172, 117
   index: -1
 card_heianjiqu-00001
   rotate: false
-  xy: 1290, 412
+  xy: 0, 36
   size: 65, 63
   orig: 371, 272
   offset: 163, 101
   index: -1
 card_heianjiqu-00002
   rotate: false
-  xy: 1077, 257
+  xy: 440, 819
   size: 213, 218
   orig: 371, 272
   offset: 93, 13
   index: -1
 card_heianjiqu-00003
   rotate: false
-  xy: 872, 251
+  xy: 426, 581
   size: 205, 224
   orig: 371, 272
   offset: 89, 11
   index: -1
 card_heianjiqu-00004
   rotate: false
-  xy: 644, 17
+  xy: 215, 99
   size: 212, 229
   orig: 371, 272
   offset: 85, 9
   index: -1
 card_heianjiqu-00005
   rotate: false
-  xy: 427, 9
+  xy: 223, 805
   size: 217, 232
   orig: 371, 272
   offset: 82, 8
   index: -1
 card_heianjiqu-00006
   rotate: false
-  xy: 206, 1
+  xy: 0, 328
   size: 221, 234
   orig: 371, 272
   offset: 80, 7
   index: -1
 card_heianjiqu-00007
   rotate: false
-  xy: 443, 246
+  xy: 0, 99
   size: 215, 229
   orig: 371, 272
   offset: 87, 14
   index: -1
 card_heianjiqu-00008
   rotate: false
-  xy: 0, 0
+  xy: 0, 562
   size: 206, 235
   orig: 371, 272
   offset: 87, 12
   index: -1
 card_heianjiqu-00009
   rotate: false
-  xy: 658, 247
+  xy: 221, 335
   size: 214, 228
   orig: 371, 272
   offset: 82, 10
   index: -1
 card_heianjiqu-00010
   rotate: false
-  xy: 223, 241
+  xy: 206, 563
   size: 220, 234
   orig: 371, 272
   offset: 78, 9
   index: -1
 card_heianjiqu-00011
   rotate: false
-  xy: 0, 235
+  xy: 0, 797
   size: 223, 240
   orig: 371, 272
   offset: 75, 8
   index: -1
 card_heianjiqu-00012
-  rotate: true
-  xy: 856, 20
+  rotate: false
+  xy: 427, 130
   size: 227, 205
   orig: 371, 272
   offset: 72, 46
   index: -1
 card_heianjiqu-00013
-  rotate: true
-  xy: 1061, 32
+  rotate: false
+  xy: 435, 408
   size: 219, 173
   orig: 371, 272
   offset: 76, 74
   index: -1
 card_heianjiqu-00014
-  rotate: true
-  xy: 1234, 50
+  rotate: false
+  xy: 427, 12
   size: 207, 118
   orig: 371, 272
   offset: 86, 79

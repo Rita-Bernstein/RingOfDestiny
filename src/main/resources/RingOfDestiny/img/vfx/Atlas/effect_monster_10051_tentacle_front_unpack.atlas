@@ -1,0 +1,104 @@
+
+effect_monster_10051_tentacle_front_unpack.png
+size: 1024,1056
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10051_tentacle_front-00000
+  rotate: false
+  xy: 591, 0
+  size: 154, 153
+  orig: 500, 500
+  offset: 241, 228
+  index: -1
+effect_monster_10051_tentacle_front-00001
+  rotate: false
+  xy: 198, 25
+  size: 197, 198
+  orig: 500, 500
+  offset: 220, 205
+  index: -1
+effect_monster_10051_tentacle_front-00002
+  rotate: false
+  xy: 0, 470
+  size: 278, 277
+  orig: 500, 500
+  offset: 140, 126
+  index: -1
+effect_monster_10051_tentacle_front-00003
+  rotate: false
+  xy: 682, 450
+  size: 342, 298
+  orig: 500, 500
+  offset: 76, 105
+  index: -1
+effect_monster_10051_tentacle_front-00004
+  rotate: false
+  xy: 683, 748
+  size: 341, 308
+  orig: 500, 500
+  offset: 76, 95
+  index: -1
+effect_monster_10051_tentacle_front-00005
+  rotate: false
+  xy: 341, 748
+  size: 342, 308
+  orig: 500, 500
+  offset: 76, 95
+  index: -1
+effect_monster_10051_tentacle_front-00006
+  rotate: false
+  xy: 0, 747
+  size: 341, 309
+  orig: 500, 500
+  offset: 76, 95
+  index: -1
+effect_monster_10051_tentacle_front-00007
+  rotate: false
+  xy: 341, 440
+  size: 341, 308
+  orig: 500, 500
+  offset: 76, 95
+  index: -1
+effect_monster_10051_tentacle_front-00008
+  rotate: false
+  xy: 682, 153
+  size: 342, 297
+  orig: 500, 500
+  offset: 76, 106
+  index: -1
+effect_monster_10051_tentacle_front-00009
+  rotate: false
+  xy: 0, 223
+  size: 221, 247
+  orig: 500, 500
+  offset: 197, 156
+  index: -1
+effect_monster_10051_tentacle_front-00010
+  rotate: false
+  xy: 0, 23
+  size: 198, 200
+  orig: 500, 500
+  offset: 219, 203
+  index: -1
+effect_monster_10051_tentacle_front-00011
+  rotate: false
+  xy: 221, 244
+  size: 198, 196
+  orig: 500, 500
+  offset: 220, 205
+  index: -1
+effect_monster_10051_tentacle_front-00012
+  rotate: false
+  xy: 395, 51
+  size: 196, 193
+  orig: 500, 500
+  offset: 221, 208
+  index: -1
+effect_monster_10051_tentacle_front-00013
+  rotate: false
+  xy: 419, 253
+  size: 187, 187
+  orig: 500, 500
+  offset: 224, 211
+  index: -1

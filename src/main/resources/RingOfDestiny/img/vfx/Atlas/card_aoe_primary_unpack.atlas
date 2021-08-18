@@ -1,75 +1,75 @@
 
 card_aoe_primary_unpack.png
-size: 688,528
+size: 1550,240
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_aoe_primary-00000
-  rotate: true
-  xy: 423, 231
+  rotate: false
+  xy: 1488, 153
   size: 62, 87
   orig: 483, 163
   offset: 65, 38
   index: -1
 card_aoe_primary-00001
   rotate: false
-  xy: 423, 293
+  xy: 881, 7
   size: 98, 93
   orig: 483, 163
   offset: 45, 32
   index: -1
 card_aoe_primary-00002
-  rotate: true
-  xy: 456, 386
+  rotate: false
+  xy: 423, 96
   size: 142, 144
   orig: 483, 163
   offset: 25, 9
   index: -1
 card_aoe_primary-00003
   rotate: false
-  xy: 0, 225
+  xy: 0, 77
   size: 423, 163
   orig: 483, 163
   offset: 2, 0
   index: -1
 card_aoe_primary-00004
   rotate: false
-  xy: 0, 100
+  xy: 1021, 27
   size: 452, 125
   orig: 483, 163
   offset: 31, 12
   index: -1
 card_aoe_primary-00005
   rotate: false
-  xy: 0, 388
+  xy: 565, 100
   size: 456, 140
   orig: 483, 163
   offset: 27, 4
   index: -1
 card_aoe_primary-00006
-  rotate: true
-  xy: 600, 61
+  rotate: false
+  xy: 1021, 152
   size: 467, 88
   orig: 483, 163
   offset: 16, 59
   index: -1
 card_aoe_primary-00007
   rotate: false
-  xy: 0, 4
+  xy: 423, 0
   size: 458, 96
   orig: 483, 163
   offset: 25, 61
   index: -1
 card_aoe_primary-00008
-  rotate: true
-  xy: 521, 0
+  rotate: false
+  xy: 0, 43
   size: 386, 34
   orig: 483, 163
   offset: 97, 63
   index: -1
 card_aoe_primary-00009
-  rotate: true
-  xy: 555, 16
+  rotate: false
+  xy: 0, 9
   size: 370, 34
   orig: 483, 163
   offset: 113, 63

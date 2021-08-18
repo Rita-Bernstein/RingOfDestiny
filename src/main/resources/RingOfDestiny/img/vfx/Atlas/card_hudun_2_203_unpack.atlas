@@ -1,96 +1,96 @@
 
 card_hudun_2_203_unpack.png
-size: 750,1120
+size: 1335,620
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_hudun_2_203-00000
   rotate: false
-  xy: 0, 810
+  xy: 0, 310
   size: 354, 310
   orig: 500, 500
   offset: 80, 80
   index: -1
 card_hudun_2_203-00001
   rotate: false
-  xy: 354, 853
+  xy: 0, 43
   size: 319, 267
   orig: 500, 500
   offset: 97, 101
   index: -1
 card_hudun_2_203-00002
   rotate: false
-  xy: 354, 626
+  xy: 319, 83
   size: 273, 227
   orig: 500, 500
   offset: 119, 120
   index: -1
 card_hudun_2_203-00003
   rotate: false
-  xy: 251, 418
+  xy: 354, 412
   size: 250, 208
   orig: 500, 500
   offset: 130, 130
   index: -1
 card_hudun_2_203-00004
   rotate: false
-  xy: 501, 419
+  xy: 592, 205
   size: 249, 207
   orig: 500, 500
   offset: 133, 130
   index: -1
 card_hudun_2_203-00005
   rotate: false
-  xy: 250, 212
+  xy: 841, 208
   size: 248, 206
   orig: 500, 500
   offset: 134, 131
   index: -1
 card_hudun_2_203-00006
   rotate: false
-  xy: 0, 399
+  xy: 604, 414
   size: 250, 206
   orig: 500, 500
   offset: 132, 131
   index: -1
 card_hudun_2_203-00007
   rotate: false
-  xy: 0, 605
+  xy: 592, 0
   size: 251, 205
   orig: 500, 500
   offset: 130, 132
   index: -1
 card_hudun_2_203-00008
   rotate: false
-  xy: 501, 216
+  xy: 854, 417
   size: 249, 203
   orig: 500, 500
   offset: 130, 135
   index: -1
 card_hudun_2_203-00009
   rotate: false
-  xy: 0, 196
+  xy: 1089, 214
   size: 246, 203
   orig: 500, 500
   offset: 131, 135
   index: -1
 card_hudun_2_203-00010
   rotate: false
-  xy: 498, 15
+  xy: 1089, 13
   size: 242, 201
   orig: 500, 500
   offset: 134, 137
   index: -1
 card_hudun_2_203-00011
   rotate: false
-  xy: 0, 0
+  xy: 843, 12
   size: 235, 196
   orig: 500, 500
   offset: 137, 141
   index: -1
 card_hudun_2_203-00012
   rotate: false
-  xy: 235, 2
+  xy: 1103, 426
   size: 224, 194
   orig: 500, 500
   offset: 143, 142

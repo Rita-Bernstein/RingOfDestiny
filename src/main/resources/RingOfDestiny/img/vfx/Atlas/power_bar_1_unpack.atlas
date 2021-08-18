@@ -1,89 +1,89 @@
 
 power_bar_1_unpack.png
-size: 533,663
+size: 988,353
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 power_bar_1-00000
-  rotate: true
-  xy: 173, 502
+  rotate: false
+  xy: 0, 186
   size: 161, 167
   orig: 180, 180
   offset: 7, 0
   index: -1
 power_bar_1-00001
-  rotate: true
-  xy: 0, 342
+  rotate: false
+  xy: 667, 180
   size: 163, 173
   orig: 180, 180
   offset: 5, 0
   index: -1
 power_bar_1-00002
-  rotate: true
-  xy: 340, 502
+  rotate: false
+  xy: 166, 4
   size: 161, 180
   orig: 180, 180
   offset: 7, 0
   index: -1
 power_bar_1-00003
-  rotate: true
-  xy: 173, 338
+  rotate: false
+  xy: 493, 1
   size: 164, 180
   orig: 180, 180
   offset: 8, 0
   index: -1
 power_bar_1-00004
-  rotate: true
-  xy: 169, 172
+  rotate: false
+  xy: 657, 0
   size: 166, 180
   orig: 180, 180
   offset: 8, 0
   index: -1
 power_bar_1-00005
-  rotate: true
-  xy: 0, 175
+  rotate: false
+  xy: 161, 184
   size: 167, 169
   orig: 180, 180
   offset: 7, 11
   index: -1
 power_bar_1-00006
-  rotate: true
-  xy: 179, 3
+  rotate: false
+  xy: 499, 181
   size: 168, 172
   orig: 180, 180
   offset: 6, 8
   index: -1
 power_bar_1-00007
-  rotate: true
-  xy: 349, 171
+  rotate: false
+  xy: 0, 7
   size: 166, 177
   orig: 180, 180
   offset: 6, 3
   index: -1
 power_bar_1-00008
-  rotate: true
-  xy: 0, 6
+  rotate: false
+  xy: 327, 3
   size: 166, 179
   orig: 180, 180
   offset: 8, 1
   index: -1
 power_bar_1-00009
-  rotate: true
-  xy: 353, 337
+  rotate: false
+  xy: 823, 0
   size: 165, 180
   orig: 180, 180
   offset: 9, 0
   index: -1
 power_bar_1-00010
-  rotate: true
-  xy: 0, 505
+  rotate: false
+  xy: 830, 180
   size: 158, 173
   orig: 180, 180
   offset: 10, 0
   index: -1
 power_bar_1-00011
   rotate: false
-  xy: 351, 0
+  xy: 328, 182
   size: 171, 171
   orig: 180, 180
   offset: 6, 7

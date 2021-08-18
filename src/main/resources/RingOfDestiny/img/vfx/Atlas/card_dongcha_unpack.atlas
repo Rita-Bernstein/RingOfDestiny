@@ -1,68 +1,68 @@
 
 card_dongcha_unpack.png
-size: 844,576
+size: 859,555
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_dongcha-00000
   rotate: false
-  xy: 691, 435
+  xy: 646, 221
   size: 148, 141
   orig: 500, 350
   offset: 179, 102
   index: -1
 card_dongcha-00001
-  rotate: true
-  xy: 688, 221
+  rotate: false
+  xy: 484, 206
   size: 162, 156
   orig: 500, 350
   offset: 175, 91
   index: -1
 card_dongcha-00002
-  rotate: true
-  xy: 606, 19
+  rotate: false
+  xy: 688, 392
   size: 171, 163
   orig: 500, 350
   offset: 172, 85
   index: -1
 card_dongcha-00003
   rotate: false
-  xy: 414, 0
+  xy: 621, 16
   size: 192, 190
   orig: 500, 350
   offset: 153, 62
   index: -1
 card_dongcha-00004
   rotate: false
-  xy: 484, 190
+  xy: 484, 362
   size: 204, 193
   orig: 500, 350
   offset: 143, 64
   index: -1
 card_dongcha-00005
   rotate: false
-  xy: 0, 21
+  xy: 0, 0
   size: 207, 205
   orig: 500, 350
   offset: 140, 54
   index: -1
 card_dongcha-00006
   rotate: false
-  xy: 207, 34
+  xy: 414, 13
   size: 207, 192
   orig: 500, 350
   offset: 142, 69
   index: -1
 card_dongcha-00007
   rotate: false
-  xy: 484, 383
+  xy: 207, 12
   size: 207, 193
   orig: 500, 350
   offset: 145, 70
   index: -1
 card_dongcha-00008
   rotate: false
-  xy: 0, 226
+  xy: 0, 205
   size: 484, 350
   orig: 500, 350
   offset: 8, 0

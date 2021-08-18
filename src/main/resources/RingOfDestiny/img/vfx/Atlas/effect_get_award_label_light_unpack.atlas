@@ -1,0 +1,111 @@
+
+effect_get_award_label_light_unpack.png
+size: 1782,545
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_get_award_label_light-00000
+  rotate: false
+  xy: 0, 275
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_get_award_label_light-00001
+  rotate: false
+  xy: 0, 5
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_get_award_label_light-00002
+  rotate: false
+  xy: 480, 275
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_get_award_label_light-00003
+  rotate: false
+  xy: 480, 5
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_get_award_label_light-00004
+  rotate: false
+  xy: 960, 275
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_get_award_label_light-00005
+  rotate: false
+  xy: 960, 5
+  size: 437, 270
+  orig: 480, 270
+  offset: 43, 0
+  index: -1
+effect_get_award_label_light-00006
+  rotate: false
+  xy: 1440, 231
+  size: 217, 96
+  orig: 480, 270
+  offset: 137, 174
+  index: -1
+effect_get_award_label_light-00007
+  rotate: false
+  xy: 1397, 131
+  size: 216, 100
+  orig: 480, 270
+  offset: 139, 170
+  index: -1
+effect_get_award_label_light-00008
+  rotate: false
+  xy: 1440, 436
+  size: 215, 109
+  orig: 480, 270
+  offset: 141, 161
+  index: -1
+effect_get_award_label_light-00009
+  rotate: false
+  xy: 1440, 327
+  size: 210, 109
+  orig: 480, 270
+  offset: 145, 161
+  index: -1
+effect_get_award_label_light-00010
+  rotate: false
+  xy: 1397, 17
+  size: 195, 114
+  orig: 480, 270
+  offset: 159, 156
+  index: -1
+effect_get_award_label_light-00011
+  rotate: false
+  xy: 1592, 0
+  size: 188, 119
+  orig: 480, 270
+  offset: 158, 148
+  index: -1
+effect_get_award_label_light-00012
+  rotate: false
+  xy: 1613, 119
+  size: 144, 112
+  orig: 480, 270
+  offset: 201, 154
+  index: -1
+effect_get_award_label_light-00013
+  rotate: false
+  xy: 1650, 337
+  size: 132, 99
+  orig: 480, 270
+  offset: 213, 148
+  index: -1
+effect_get_award_label_light-00014
+  rotate: false
+  xy: 1655, 451
+  size: 65, 94
+  orig: 480, 270
+  offset: 269, 142
+  index: -1

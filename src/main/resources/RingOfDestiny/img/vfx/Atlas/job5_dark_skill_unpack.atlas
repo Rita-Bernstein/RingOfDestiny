@@ -1,0 +1,20 @@
+
+job5_dark_skill_unpack.png
+size: 590,542
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+job5_dark_skill-00000
+  rotate: false
+  xy: 0, 238
+  size: 590, 304
+  orig: 763, 464
+  offset: 120, 119
+  index: -1
+job5_dark_skill-00001
+  rotate: false
+  xy: 0, 0
+  size: 492, 238
+  orig: 763, 464
+  offset: 180, 150
+  index: -1

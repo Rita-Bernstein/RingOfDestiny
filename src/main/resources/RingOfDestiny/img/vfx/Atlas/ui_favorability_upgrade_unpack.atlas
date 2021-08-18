@@ -1,82 +1,82 @@
 
 ui_favorability_upgrade_unpack.png
-size: 393,1028
+size: 394,1025
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_favorability_upgrade-00000
-  rotate: true
-  xy: 122, 0
+  rotate: false
+  xy: 0, 0
   size: 112, 106
   orig: 455, 450
   offset: 165, 168
   index: -1
 ui_favorability_upgrade-00001
   rotate: false
-  xy: 0, 418
+  xy: 0, 415
   size: 252, 239
   orig: 455, 450
   offset: 95, 104
   index: -1
 ui_favorability_upgrade-00002
-  rotate: true
-  xy: 228, 12
+  rotate: false
+  xy: 112, 0
   size: 112, 106
   orig: 455, 450
   offset: 165, 168
   index: -1
 ui_favorability_upgrade-00003
   rotate: false
-  xy: 0, 657
+  xy: 0, 654
   size: 392, 371
   orig: 455, 450
   offset: 25, 41
   index: -1
 ui_favorability_upgrade-00004
-  rotate: true
-  xy: 252, 504
+  rotate: false
+  xy: 224, 100
   size: 153, 141
   orig: 455, 450
   offset: 143, 153
   index: -1
 ui_favorability_upgrade-00005
   rotate: false
-  xy: 0, 112
+  xy: 175, 241
   size: 167, 153
   orig: 455, 450
   offset: 136, 147
   index: -1
 ui_favorability_upgrade-00006
   rotate: false
-  xy: 0, 265
+  xy: 0, 262
   size: 175, 153
   orig: 455, 450
   offset: 133, 143
   index: -1
 ui_favorability_upgrade-00007
   rotate: false
-  xy: 175, 262
+  xy: 0, 106
   size: 162, 156
   orig: 455, 450
   offset: 141, 141
   index: -1
 ui_favorability_upgrade-00008
   rotate: false
-  xy: 167, 124
+  xy: 252, 516
   size: 142, 138
   orig: 455, 450
   offset: 156, 152
   index: -1
 ui_favorability_upgrade-00009
-  rotate: true
-  xy: 0, 1
+  rotate: false
+  xy: 252, 394
   size: 111, 122
   orig: 455, 450
   offset: 181, 161
   index: -1
 ui_favorability_upgrade-00010
   rotate: false
-  xy: 252, 495
+  xy: 363, 507
   size: 10, 9
   orig: 455, 450
   offset: 249, 214

@@ -1,40 +1,40 @@
 
 player_hurt_unpack.png
-size: 687,166
+size: 166,687
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 player_hurt-00000
-  rotate: true
-  xy: 595, 68
+  rotate: false
+  xy: 0, 0
   size: 98, 92
   orig: 200, 200
   offset: 48, 54
   index: -1
 player_hurt-00001
   rotate: false
-  xy: 462, 33
+  xy: 0, 92
   size: 133, 133
   orig: 200, 200
   offset: 27, 30
   index: -1
 player_hurt-00002
-  rotate: true
-  xy: 327, 18
+  rotate: false
+  xy: 0, 225
   size: 148, 135
   orig: 200, 200
   offset: 20, 32
   index: -1
 player_hurt-00003
-  rotate: true
-  xy: 166, 3
+  rotate: false
+  xy: 0, 360
   size: 163, 161
   orig: 200, 200
   offset: 17, 20
   index: -1
 player_hurt-00004
   rotate: false
-  xy: 0, 0
+  xy: 0, 521
   size: 166, 166
   orig: 200, 200
   offset: 17, 17

@@ -1,103 +1,103 @@
 
 card_shiyuezhihuan_unpack.png
-size: 1518,446
+size: 1518,444
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_shiyuezhihuan-00000
-  rotate: true
-  xy: 1100, 231
+  rotate: false
+  xy: 1095, 9
   size: 215, 212
   orig: 251, 235
   offset: 15, 10
   index: -1
 card_shiyuezhihuan-00001
   rotate: false
-  xy: 662, 2
+  xy: 1106, 221
   size: 218, 223
   orig: 251, 235
   offset: 15, 6
   index: -1
 card_shiyuezhihuan-00002
-  rotate: true
-  xy: 221, 1
+  rotate: false
+  xy: 0, 0
   size: 222, 221
   orig: 251, 235
   offset: 13, 7
   index: -1
 card_shiyuezhihuan-00003
   rotate: false
-  xy: 222, 224
+  xy: 222, 1
   size: 221, 222
   orig: 251, 235
   offset: 13, 6
   index: -1
 card_shiyuezhihuan-00004
   rotate: false
-  xy: 0, 223
+  xy: 0, 221
   size: 222, 223
   orig: 251, 235
   offset: 14, 5
   index: -1
 card_shiyuezhihuan-00005
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 222, 223
   size: 223, 221
   orig: 251, 235
   offset: 12, 6
   index: -1
 card_shiyuezhihuan-00006
-  rotate: true
-  xy: 442, 3
+  rotate: false
+  xy: 445, 224
   size: 221, 220
   orig: 251, 235
   offset: 14, 7
   index: -1
 card_shiyuezhihuan-00007
   rotate: false
-  xy: 663, 226
+  xy: 666, 224
   size: 220, 220
   orig: 251, 235
   offset: 14, 7
   index: -1
 card_shiyuezhihuan-00008
   rotate: false
-  xy: 443, 225
+  xy: 886, 223
   size: 220, 221
   orig: 251, 235
   offset: 12, 5
   index: -1
 card_shiyuezhihuan-00009
   rotate: false
-  xy: 880, 6
+  xy: 443, 3
   size: 219, 220
   orig: 251, 235
   offset: 12, 6
   index: -1
 card_shiyuezhihuan-00010
   rotate: false
-  xy: 883, 227
+  xy: 662, 5
   size: 217, 219
   orig: 251, 235
   offset: 13, 6
   index: -1
 card_shiyuezhihuan-00011
   rotate: false
-  xy: 1099, 9
+  xy: 879, 5
   size: 216, 218
   orig: 251, 235
   offset: 14, 6
   index: -1
 card_shiyuezhihuan-00012
-  rotate: true
-  xy: 1312, 238
+  rotate: false
+  xy: 1310, 15
   size: 208, 206
   orig: 251, 235
   offset: 18, 13
   index: -1
 card_shiyuezhihuan-00013
-  rotate: true
-  xy: 1315, 152
+  rotate: false
+  xy: 1324, 364
   size: 86, 80
   orig: 251, 235
   offset: 97, 57

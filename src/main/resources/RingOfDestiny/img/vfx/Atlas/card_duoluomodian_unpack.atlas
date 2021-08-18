@@ -1,82 +1,82 @@
 
 card_duoluomodian_unpack.png
-size: 512,297
+size: 688,224
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_duoluomodian-00000
-  rotate: true
-  xy: 320, 0
+  rotate: false
+  xy: 592, 90
   size: 73, 61
   orig: 189, 180
   offset: 59, 54
   index: -1
 card_duoluomodian-00001
-  rotate: true
-  xy: 381, 3
+  rotate: false
+  xy: 556, 5
   size: 100, 85
   orig: 189, 180
   offset: 45, 42
   index: -1
 card_duoluomodian-00002
-  rotate: true
-  xy: 0, 149
+  rotate: false
+  xy: 0, 112
   size: 148, 112
   orig: 189, 180
   offset: 21, 28
   index: -1
 card_duoluomodian-00003
-  rotate: true
-  xy: 0, 1
+  rotate: false
+  xy: 148, 112
   size: 148, 112
   orig: 189, 180
   offset: 21, 28
   index: -1
 card_duoluomodian-00004
-  rotate: true
-  xy: 112, 149
+  rotate: false
+  xy: 296, 112
   size: 148, 112
   orig: 189, 180
   offset: 21, 28
   index: -1
 card_duoluomodian-00005
-  rotate: true
-  xy: 112, 1
+  rotate: false
+  xy: 444, 112
   size: 148, 112
   orig: 189, 180
   offset: 21, 28
   index: -1
 card_duoluomodian-00006
   rotate: false
-  xy: 224, 185
+  xy: 0, 0
   size: 148, 112
   orig: 189, 180
   offset: 21, 28
   index: -1
 card_duoluomodian-00007
   rotate: false
-  xy: 224, 73
+  xy: 148, 0
   size: 148, 112
   orig: 189, 180
   offset: 21, 28
   index: -1
 card_duoluomodian-00008
   rotate: false
-  xy: 372, 193
+  xy: 296, 8
   size: 140, 104
   orig: 189, 180
   offset: 24, 32
   index: -1
 card_duoluomodian-00009
   rotate: false
-  xy: 372, 103
+  xy: 436, 22
   size: 120, 90
   orig: 189, 180
   offset: 34, 39
   index: -1
 card_duoluomodian-00010
   rotate: false
-  xy: 224, 0
+  xy: 592, 151
   size: 96, 73
   orig: 189, 180
   offset: 47, 49

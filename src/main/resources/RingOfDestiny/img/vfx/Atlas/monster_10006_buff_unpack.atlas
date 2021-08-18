@@ -1,54 +1,54 @@
 
 monster_10006_buff_unpack.png
-size: 1532,311
+size: 608,831
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10006_buff-00000
-  rotate: true
-  xy: 1399, 167
+  rotate: false
+  xy: 299, 0
   size: 144, 133
   orig: 311, 267
   offset: 83, 63
   index: -1
 monster_10006_buff-00001
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 564
   size: 311, 267
   orig: 311, 267
   offset: 0, 0
   index: -1
 monster_10006_buff-00002
-  rotate: true
-  xy: 267, 14
+  rotate: false
+  xy: 311, 575
   size: 297, 256
   orig: 311, 267
   offset: 9, 5
   index: -1
 monster_10006_buff-00003
-  rotate: true
-  xy: 523, 14
+  rotate: false
+  xy: 311, 352
   size: 297, 223
   orig: 311, 267
   offset: 9, 14
   index: -1
 monster_10006_buff-00004
-  rotate: true
-  xy: 965, 12
+  rotate: false
+  xy: 300, 133
   size: 299, 219
   orig: 311, 267
   offset: 7, 15
   index: -1
 monster_10006_buff-00005
-  rotate: true
-  xy: 746, 11
+  rotate: false
+  xy: 0, 345
   size: 300, 219
   orig: 311, 267
   offset: 7, 13
   index: -1
 monster_10006_buff-00006
-  rotate: true
-  xy: 1184, 12
+  rotate: false
+  xy: 0, 130
   size: 299, 215
   orig: 311, 267
   offset: 7, 16

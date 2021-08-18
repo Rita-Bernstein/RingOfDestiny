@@ -1,89 +1,89 @@
 
 monster_10082_change_unpack.png
-size: 997,290
+size: 1453,194
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10082_change-00000
   rotate: false
-  xy: 904, 151
+  xy: 1360, 55
   size: 93, 139
   orig: 294, 314
   offset: 108, 86
   index: -1
 monster_10082_change-00001
-  rotate: true
-  xy: 189, 15
+  rotate: false
+  xy: 1023, 13
   size: 123, 181
   orig: 294, 314
   offset: 90, 64
   index: -1
 monster_10082_change-00002
-  rotate: true
-  xy: 383, 2
+  rotate: false
+  xy: 751, 7
   size: 138, 187
   orig: 294, 314
   offset: 78, 65
   index: -1
 monster_10082_change-00003
   rotate: false
-  xy: 761, 98
+  xy: 608, 2
   size: 143, 192
   orig: 294, 314
   offset: 75, 65
   index: -1
 monster_10082_change-00004
-  rotate: true
-  xy: 189, 138
+  rotate: false
+  xy: 158, 0
   size: 152, 194
   orig: 294, 314
   offset: 71, 64
   index: -1
 monster_10082_change-00005
-  rotate: true
-  xy: 0, 132
+  rotate: false
+  xy: 0, 5
   size: 158, 189
   orig: 294, 314
   offset: 67, 67
   index: -1
 monster_10082_change-00006
-  rotate: true
-  xy: 383, 140
+  rotate: false
+  xy: 310, 6
   size: 150, 188
   orig: 294, 314
   offset: 76, 68
   index: -1
 monster_10082_change-00007
-  rotate: true
-  xy: 571, 142
+  rotate: false
+  xy: 460, 4
   size: 148, 190
   orig: 294, 314
   offset: 77, 66
   index: -1
 monster_10082_change-00008
-  rotate: true
-  xy: 571, 8
+  rotate: false
+  xy: 889, 4
   size: 134, 190
   orig: 294, 314
   offset: 79, 65
   index: -1
 monster_10082_change-00009
-  rotate: true
-  xy: 0, 16
+  rotate: false
+  xy: 1146, 15
   size: 116, 179
   orig: 294, 314
   offset: 88, 70
   index: -1
 monster_10082_change-00010
-  rotate: true
-  xy: 761, 0
+  rotate: false
+  xy: 1262, 41
   size: 98, 153
   orig: 294, 314
   offset: 95, 90
   index: -1
 monster_10082_change-00011
   rotate: false
-  xy: 904, 110
+  xy: 1262, 0
   size: 71, 41
   orig: 294, 314
   offset: 105, 192

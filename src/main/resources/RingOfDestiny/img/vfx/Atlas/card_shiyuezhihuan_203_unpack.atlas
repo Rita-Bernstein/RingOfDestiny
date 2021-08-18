@@ -1,12 +1,12 @@
 
 card_shiyuezhihuan_203_unpack.png
-size: 238,288
+size: 240,288
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_shiyuezhihuan_203-00000
-  rotate: true
-  xy: 197, 114
+  rotate: false
+  xy: 181, 23
   size: 56, 41
   orig: 228, 172
   offset: 88, 61
@@ -19,43 +19,43 @@ card_shiyuezhihuan_203-00001
   offset: 47, 29
   index: -1
 card_shiyuezhihuan_203-00002
-  rotate: true
-  xy: 132, 170
+  rotate: false
+  xy: 0, 81
   size: 118, 102
   orig: 228, 172
   offset: 55, 31
   index: -1
 card_shiyuezhihuan_203-00003
   rotate: false
-  xy: 0, 91
+  xy: 132, 196
   size: 108, 92
   orig: 228, 172
   offset: 60, 36
   index: -1
 card_shiyuezhihuan_203-00004
   rotate: false
-  xy: 0, 11
+  xy: 0, 1
   size: 95, 80
   orig: 228, 172
   offset: 67, 42
   index: -1
 card_shiyuezhihuan_203-00005
-  rotate: true
-  xy: 95, 0
+  rotate: false
+  xy: 132, 130
   size: 91, 66
   orig: 228, 172
   offset: 70, 53
   index: -1
 card_shiyuezhihuan_203-00006
   rotate: false
-  xy: 108, 104
+  xy: 118, 64
   size: 89, 66
   orig: 228, 172
   offset: 72, 53
   index: -1
 card_shiyuezhihuan_203-00007
-  rotate: true
-  xy: 161, 18
+  rotate: false
+  xy: 95, 0
   size: 86, 64
   orig: 228, 172
   offset: 74, 55

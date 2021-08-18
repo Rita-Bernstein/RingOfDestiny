@@ -1,0 +1,20 @@
+
+effect_monster_10045_attack_unpack.png
+size: 313,126
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10045_attack-00000
+  rotate: false
+  xy: 0, 18
+  size: 313, 108
+  orig: 515, 329
+  offset: 108, 103
+  index: -1
+effect_monster_10045_attack-00001
+  rotate: false
+  xy: 0, 0
+  size: 252, 18
+  orig: 515, 329
+  offset: 127, 148
+  index: -1

@@ -1,0 +1,111 @@
+
+ui_combat_boss_disapear_unpack.png
+size: 679,1017
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_combat_boss_disapear-00000
+  rotate: false
+  xy: 200, 8
+  size: 204, 181
+  orig: 500, 500
+  offset: 149, 134
+  index: -1
+ui_combat_boss_disapear-00001
+  rotate: false
+  xy: 234, 389
+  size: 221, 199
+  orig: 500, 500
+  offset: 140, 124
+  index: -1
+ui_combat_boss_disapear-00002
+  rotate: false
+  xy: 0, 593
+  size: 241, 208
+  orig: 500, 500
+  offset: 129, 125
+  index: -1
+ui_combat_boss_disapear-00003
+  rotate: false
+  xy: 430, 0
+  size: 249, 196
+  orig: 500, 500
+  offset: 126, 132
+  index: -1
+ui_combat_boss_disapear-00004
+  rotate: false
+  xy: 0, 801
+  size: 248, 216
+  orig: 500, 500
+  offset: 123, 141
+  index: -1
+ui_combat_boss_disapear-00005
+  rotate: false
+  xy: 0, 397
+  size: 234, 196
+  orig: 500, 500
+  offset: 142, 141
+  index: -1
+ui_combat_boss_disapear-00006
+  rotate: false
+  xy: 248, 800
+  size: 243, 217
+  orig: 500, 500
+  offset: 136, 141
+  index: -1
+ui_combat_boss_disapear-00007
+  rotate: false
+  xy: 241, 588
+  size: 231, 212
+  orig: 500, 500
+  offset: 139, 146
+  index: -1
+ui_combat_boss_disapear-00008
+  rotate: false
+  xy: 0, 208
+  size: 230, 189
+  orig: 500, 500
+  offset: 143, 144
+  index: -1
+ui_combat_boss_disapear-00009
+  rotate: false
+  xy: 472, 397
+  size: 204, 201
+  orig: 500, 500
+  offset: 151, 142
+  index: -1
+ui_combat_boss_disapear-00010
+  rotate: false
+  xy: 472, 598
+  size: 205, 202
+  orig: 500, 500
+  offset: 151, 141
+  index: -1
+ui_combat_boss_disapear-00011
+  rotate: false
+  xy: 230, 189
+  size: 200, 200
+  orig: 500, 500
+  offset: 151, 140
+  index: -1
+ui_combat_boss_disapear-00012
+  rotate: false
+  xy: 0, 9
+  size: 200, 199
+  orig: 500, 500
+  offset: 151, 139
+  index: -1
+ui_combat_boss_disapear-00013
+  rotate: false
+  xy: 455, 196
+  size: 201, 201
+  orig: 500, 500
+  offset: 150, 138
+  index: -1
+ui_combat_boss_disapear-00014
+  rotate: false
+  xy: 491, 814
+  size: 160, 203
+  orig: 500, 500
+  offset: 190, 137
+  index: -1

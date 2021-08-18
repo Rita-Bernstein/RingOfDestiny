@@ -1,0 +1,76 @@
+
+effect_monster_10108_blue_unpack.png
+size: 972,1069
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10108_blue-00000
+  rotate: false
+  xy: 630, 12
+  size: 310, 151
+  orig: 500, 500
+  offset: 100, 65
+  index: -1
+effect_monster_10108_blue-00001
+  rotate: false
+  xy: 314, 144
+  size: 316, 196
+  orig: 500, 500
+  offset: 97, 65
+  index: -1
+effect_monster_10108_blue-00002
+  rotate: false
+  xy: 651, 516
+  size: 319, 250
+  orig: 500, 500
+  offset: 95, 65
+  index: -1
+effect_monster_10108_blue-00003
+  rotate: false
+  xy: 650, 766
+  size: 322, 303
+  orig: 500, 500
+  offset: 92, 65
+  index: -1
+effect_monster_10108_blue-00004
+  rotate: false
+  xy: 0, 340
+  size: 326, 365
+  orig: 500, 500
+  offset: 90, 65
+  index: -1
+effect_monster_10108_blue-00005
+  rotate: false
+  xy: 0, 705
+  size: 327, 364
+  orig: 500, 500
+  offset: 90, 65
+  index: -1
+effect_monster_10108_blue-00006
+  rotate: false
+  xy: 326, 340
+  size: 325, 365
+  orig: 500, 500
+  offset: 91, 64
+  index: -1
+effect_monster_10108_blue-00007
+  rotate: false
+  xy: 327, 712
+  size: 323, 357
+  orig: 500, 500
+  offset: 92, 66
+  index: -1
+effect_monster_10108_blue-00008
+  rotate: false
+  xy: 651, 163
+  size: 318, 353
+  orig: 500, 500
+  offset: 95, 70
+  index: -1
+effect_monster_10108_blue-00009
+  rotate: false
+  xy: 0, 0
+  size: 314, 340
+  orig: 500, 500
+  offset: 98, 78
+  index: -1

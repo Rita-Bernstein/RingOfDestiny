@@ -1,25 +1,25 @@
 
 player_3_khorium_add_2_unpack.png
-size: 276,533
+size: 966,155
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 player_3_khorium_add_2-00000
   rotate: false
-  xy: 132, 180
+  xy: 289, 23
   size: 140, 132
   orig: 326, 309
   offset: 108, 81
   index: -1
 player_3_khorium_add_2-00001
   rotate: false
-  xy: 0, 409
+  xy: 429, 31
   size: 276, 124
   orig: 326, 309
   offset: 28, 80
   index: -1
 player_3_khorium_add_2-00002
-  rotate: true
+  rotate: false
   xy: 0, 23
   size: 289, 132
   orig: 326, 309
@@ -27,21 +27,21 @@ player_3_khorium_add_2-00002
   index: -1
 player_3_khorium_add_2-00003
   rotate: false
-  xy: 0, 312
+  xy: 705, 58
   size: 261, 97
   orig: 326, 309
   offset: 35, 88
   index: -1
 player_3_khorium_add_2-00004
-  rotate: true
-  xy: 132, 0
+  rotate: false
+  xy: 705, 0
   size: 180, 58
   orig: 326, 309
   offset: 75, 111
   index: -1
 player_3_khorium_add_2-00005
   rotate: false
-  xy: 190, 133
+  xy: 885, 11
   size: 47, 47
   orig: 326, 309
   offset: 143, 117

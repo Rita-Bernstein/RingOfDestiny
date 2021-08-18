@@ -1,47 +1,47 @@
 
 ui_challenge_effect_1_unpack.png
-size: 698,417
+size: 623,464
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_challenge_effect_1-00000
-  rotate: true
-  xy: 446, 0
+  rotate: false
+  xy: 0, 223
   size: 211, 241
   orig: 329, 369
   offset: 53, 60
   index: -1
 ui_challenge_effect_1-00001
-  rotate: true
-  xy: 0, 213
+  rotate: false
+  xy: 211, 0
   size: 204, 237
   orig: 329, 369
   offset: 58, 65
   index: -1
 ui_challenge_effect_1-00002
-  rotate: true
-  xy: 0, 6
+  rotate: false
+  xy: 0, 4
   size: 207, 219
   orig: 329, 369
   offset: 58, 73
   index: -1
 ui_challenge_effect_1-00003
-  rotate: true
-  xy: 219, 5
+  rotate: false
+  xy: 211, 237
   size: 208, 227
   orig: 329, 369
   offset: 56, 59
   index: -1
 ui_challenge_effect_1-00004
-  rotate: true
-  xy: 464, 211
+  rotate: false
+  xy: 415, 3
   size: 206, 234
   orig: 329, 369
   offset: 54, 53
   index: -1
 ui_challenge_effect_1-00005
-  rotate: true
-  xy: 237, 213
+  rotate: false
+  xy: 419, 237
   size: 204, 227
   orig: 329, 369
   offset: 57, 57

@@ -1,0 +1,48 @@
+
+effect_monster_10006_behurt_unpack.png
+size: 636,329
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10006_behurt-00000
+  rotate: false
+  xy: 0, 31
+  size: 302, 298
+  orig: 500, 500
+  offset: 111, 104
+  index: -1
+effect_monster_10006_behurt-00001
+  rotate: false
+  xy: 302, 107
+  size: 217, 222
+  orig: 500, 500
+  offset: 150, 148
+  index: -1
+effect_monster_10006_behurt-00002
+  rotate: false
+  xy: 519, 206
+  size: 117, 123
+  orig: 500, 500
+  offset: 199, 193
+  index: -1
+effect_monster_10006_behurt-00003
+  rotate: false
+  xy: 519, 91
+  size: 108, 115
+  orig: 500, 500
+  offset: 202, 198
+  index: -1
+effect_monster_10006_behurt-00004
+  rotate: false
+  xy: 302, 0
+  size: 102, 107
+  orig: 500, 500
+  offset: 204, 203
+  index: -1
+effect_monster_10006_behurt-00005
+  rotate: false
+  xy: 404, 16
+  size: 92, 91
+  orig: 500, 500
+  offset: 211, 212
+  index: -1

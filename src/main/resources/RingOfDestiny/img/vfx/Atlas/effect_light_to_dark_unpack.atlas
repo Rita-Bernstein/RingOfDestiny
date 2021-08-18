@@ -1,131 +1,131 @@
 
 effect_light_to_dark_unpack.png
-size: 1942,1002
+size: 1752,1121
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_light_to_dark-00000
-  rotate: true
-  xy: 1703, 413
+  rotate: false
+  xy: 361, 0
   size: 254, 194
   orig: 500, 500
   offset: 129, 142
   index: -1
 effect_light_to_dark-00001
-  rotate: true
-  xy: 1691, 4
+  rotate: false
+  xy: 1031, 295
   size: 317, 251
   orig: 500, 500
   offset: 94, 120
   index: -1
 effect_light_to_dark-00002
   rotate: false
-  xy: 929, 43
+  xy: 1418, 15
   size: 334, 263
   orig: 500, 500
   offset: 90, 116
   index: -1
 effect_light_to_dark-00003
-  rotate: true
-  xy: 645, 0
+  rotate: false
+  xy: 1007, 546
   size: 341, 284
   orig: 500, 500
   offset: 89, 105
   index: -1
 effect_light_to_dark-00004
   rotate: false
-  xy: 291, 26
+  xy: 684, 234
   size: 347, 289
   orig: 500, 500
   offset: 88, 107
   index: -1
 effect_light_to_dark-00005
-  rotate: true
-  xy: 0, 17
+  rotate: false
+  xy: 713, 830
   size: 347, 291
   orig: 500, 500
   offset: 90, 112
   index: -1
 effect_light_to_dark-00006
   rotate: false
-  xy: 1314, 718
+  xy: 1060, 837
   size: 341, 284
   orig: 500, 500
   offset: 98, 123
   index: -1
 effect_light_to_dark-00007
-  rotate: true
-  xy: 1655, 667
+  rotate: false
+  xy: 1401, 837
   size: 335, 284
   orig: 500, 500
   offset: 101, 130
   index: -1
 effect_light_to_dark-00008
   rotate: false
-  xy: 979, 306
+  xy: 682, 523
   size: 325, 293
   orig: 500, 500
   offset: 103, 129
   index: -1
 effect_light_to_dark-00009
-  rotate: true
-  xy: 0, 364
+  rotate: false
+  xy: 361, 194
   size: 323, 305
   orig: 500, 500
   offset: 99, 125
   index: -1
 effect_light_to_dark-00010
   rotate: false
-  xy: 340, 688
+  xy: 0, 492
   size: 332, 314
   orig: 500, 500
   offset: 94, 123
   index: -1
 effect_light_to_dark-00011
   rotate: false
-  xy: 0, 687
+  xy: 0, 806
   size: 340, 315
   orig: 500, 500
   offset: 88, 129
   index: -1
 effect_light_to_dark-00012
-  rotate: true
-  xy: 672, 341
+  rotate: false
+  xy: 332, 499
   size: 350, 307
   orig: 500, 500
   offset: 84, 145
   index: -1
 effect_light_to_dark-00013
   rotate: false
-  xy: 672, 691
+  xy: 0, 181
   size: 361, 311
   orig: 500, 500
   offset: 80, 147
   index: -1
 effect_light_to_dark-00014
-  rotate: true
-  xy: 340, 315
+  rotate: false
+  xy: 340, 816
   size: 373, 305
   orig: 500, 500
   offset: 75, 154
   index: -1
 effect_light_to_dark-00015
   rotate: false
-  xy: 1304, 48
+  xy: 1031, 5
   size: 387, 273
   orig: 500, 500
   offset: 67, 156
   index: -1
 effect_light_to_dark-00016
   rotate: false
-  xy: 1304, 321
+  xy: 1348, 278
   size: 399, 278
   orig: 500, 500
   offset: 61, 158
   index: -1
 effect_light_to_dark-00017
-  rotate: true
-  xy: 1033, 599
+  rotate: false
+  xy: 1348, 556
   size: 403, 281
   orig: 500, 500
   offset: 58, 161

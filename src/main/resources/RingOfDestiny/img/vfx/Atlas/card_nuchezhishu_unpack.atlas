@@ -1,47 +1,47 @@
 
 card_nuchezhishu_unpack.png
-size: 282,188
+size: 194,282
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_nuchezhishu-00000
-  rotate: true
-  xy: 0, 65
+  rotate: false
+  xy: 0, 167
   size: 123, 115
   orig: 300, 300
   offset: 90, 102
   index: -1
 card_nuchezhishu-00001
-  rotate: true
-  xy: 202, 7
+  rotate: false
+  xy: 95, 0
   size: 90, 80
   orig: 300, 300
   offset: 121, 132
   index: -1
 card_nuchezhishu-00002
-  rotate: true
-  xy: 115, 6
+  rotate: false
+  xy: 95, 80
   size: 91, 87
   orig: 300, 300
   offset: 118, 129
   index: -1
 card_nuchezhishu-00003
   rotate: false
-  xy: 115, 97
+  xy: 0, 76
   size: 95, 91
   orig: 300, 300
   offset: 115, 126
   index: -1
 card_nuchezhishu-00004
   rotate: false
-  xy: 210, 121
+  xy: 0, 9
   size: 72, 67
   orig: 300, 300
   offset: 115, 127
   index: -1
 card_nuchezhishu-00005
   rotate: false
-  xy: 0, 0
+  xy: 123, 217
   size: 71, 65
   orig: 300, 300
   offset: 116, 128

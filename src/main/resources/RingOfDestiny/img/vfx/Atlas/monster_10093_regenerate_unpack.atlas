@@ -1,117 +1,117 @@
 
 monster_10093_regenerate_unpack.png
-size: 1709,786
+size: 1709,790
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10093_regenerate-00000
   rotate: false
-  xy: 1182, 198
+  xy: 1167, 202
   size: 135, 144
   orig: 500, 500
   offset: 182, 98
   index: -1
 monster_10093_regenerate-00001
-  rotate: true
-  xy: 0, 11
+  rotate: false
+  xy: 0, 0
   size: 310, 325
   orig: 500, 500
   offset: 99, 77
   index: -1
 monster_10093_regenerate-00002
-  rotate: true
-  xy: 1323, 13
+  rotate: false
+  xy: 1323, 0
   size: 367, 384
   orig: 500, 500
   offset: 70, 47
   index: -1
 monster_10093_regenerate-00003
   rotate: false
-  xy: 898, 342
+  xy: 898, 346
   size: 425, 444
   orig: 500, 500
   offset: 42, 17
   index: -1
 monster_10093_regenerate-00004
   rotate: false
-  xy: 0, 321
+  xy: 0, 325
   size: 459, 465
   orig: 500, 500
   offset: 24, 17
   index: -1
 monster_10093_regenerate-00005
   rotate: false
-  xy: 459, 334
+  xy: 459, 338
   size: 439, 452
   orig: 500, 500
   offset: 37, 17
   index: -1
 monster_10093_regenerate-00006
   rotate: false
-  xy: 1323, 380
+  xy: 1323, 384
   size: 386, 406
   orig: 500, 500
   offset: 64, 39
   index: -1
 monster_10093_regenerate-00007
   rotate: false
-  xy: 325, 15
+  xy: 310, 19
   size: 188, 306
   orig: 500, 500
   offset: 151, 97
   index: -1
 monster_10093_regenerate-00008
   rotate: false
-  xy: 513, 41
+  xy: 498, 45
   size: 181, 293
   orig: 500, 500
   offset: 153, 101
   index: -1
 monster_10093_regenerate-00009
   rotate: false
-  xy: 694, 51
+  xy: 679, 55
   size: 171, 283
   orig: 500, 500
   offset: 158, 105
   index: -1
 monster_10093_regenerate-00010
   rotate: false
-  xy: 865, 60
+  xy: 850, 64
   size: 161, 274
   orig: 500, 500
   offset: 161, 111
   index: -1
 monster_10093_regenerate-00011
   rotate: false
-  xy: 1026, 147
+  xy: 1011, 151
   size: 156, 195
   orig: 500, 500
   offset: 163, 124
   index: -1
 monster_10093_regenerate-00012
   rotate: false
-  xy: 1026, 40
+  xy: 1011, 44
   size: 142, 107
   orig: 500, 500
   offset: 163, 185
   index: -1
 monster_10093_regenerate-00013
   rotate: false
-  xy: 1182, 94
+  xy: 1167, 98
   size: 138, 104
   orig: 500, 500
   offset: 165, 200
   index: -1
 monster_10093_regenerate-00014
   rotate: false
-  xy: 1168, 0
+  xy: 1153, 4
   size: 130, 94
   orig: 500, 500
   offset: 168, 218
   index: -1
 monster_10093_regenerate-00015
   rotate: false
-  xy: 513, 10
+  xy: 498, 14
   size: 106, 31
   orig: 500, 500
   offset: 179, 285

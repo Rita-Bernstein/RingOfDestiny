@@ -1,54 +1,54 @@
 
 card_zhimingshuangqiang_unpack.png
-size: 1485,220
+size: 534,601
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_zhimingshuangqiang-00000
-  rotate: true
-  xy: 1246, 0
+  rotate: false
+  xy: 284, 122
   size: 220, 135
   orig: 300, 235
   offset: 36, 60
   index: -1
 card_zhimingshuangqiang-00001
   rotate: false
-  xy: 0, 15
+  xy: 0, 192
   size: 284, 205
   orig: 300, 235
   offset: 12, 5
   index: -1
 card_zhimingshuangqiang-00002
   rotate: false
-  xy: 284, 16
+  xy: 0, 397
   size: 285, 204
   orig: 300, 235
   offset: 11, 5
   index: -1
 card_zhimingshuangqiang-00003
   rotate: false
-  xy: 569, 28
+  xy: 0, 0
   size: 266, 192
   orig: 300, 235
   offset: 21, 16
   index: -1
 card_zhimingshuangqiang-00004
   rotate: false
-  xy: 835, 38
+  xy: 285, 419
   size: 249, 182
   orig: 300, 235
   offset: 33, 25
   index: -1
 card_zhimingshuangqiang-00005
-  rotate: true
-  xy: 1084, 0
+  rotate: false
+  xy: 285, 257
   size: 220, 162
   orig: 300, 235
   offset: 42, 38
   index: -1
 card_zhimingshuangqiang-00006
-  rotate: true
-  xy: 1381, 21
+  rotate: false
+  xy: 266, 18
   size: 199, 104
   orig: 300, 235
   offset: 59, 41

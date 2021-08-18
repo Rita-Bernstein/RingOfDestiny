@@ -1,0 +1,69 @@
+
+effect_get_energy_unpack.png
+size: 268,813
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_get_energy-00000
+  rotate: false
+  xy: 0, 574
+  size: 268, 239
+  orig: 500, 500
+  offset: 118, 131
+  index: -1
+effect_get_energy-00001
+  rotate: false
+  xy: 0, 352
+  size: 254, 222
+  orig: 500, 500
+  offset: 125, 140
+  index: -1
+effect_get_energy-00002
+  rotate: false
+  xy: 0, 155
+  size: 235, 197
+  orig: 500, 500
+  offset: 135, 152
+  index: -1
+effect_get_energy-00003
+  rotate: false
+  xy: 173, 0
+  size: 80, 74
+  orig: 500, 500
+  offset: 209, 217
+  index: -1
+effect_get_energy-00004
+  rotate: false
+  xy: 0, 1
+  size: 85, 75
+  orig: 500, 500
+  offset: 206, 217
+  index: -1
+effect_get_energy-00005
+  rotate: false
+  xy: 86, 1
+  size: 87, 76
+  orig: 500, 500
+  offset: 204, 217
+  index: -1
+effect_get_energy-00006
+  rotate: false
+  xy: 86, 77
+  size: 87, 78
+  orig: 500, 500
+  offset: 204, 217
+  index: -1
+effect_get_energy-00007
+  rotate: false
+  xy: 0, 76
+  size: 86, 79
+  orig: 500, 500
+  offset: 205, 216
+  index: -1
+effect_get_energy-00008
+  rotate: false
+  xy: 173, 74
+  size: 83, 81
+  orig: 500, 500
+  offset: 204, 215
+  index: -1

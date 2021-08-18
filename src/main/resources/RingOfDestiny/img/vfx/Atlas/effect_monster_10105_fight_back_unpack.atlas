@@ -1,0 +1,27 @@
+
+effect_monster_10105_fight_back_unpack.png
+size: 1138,240
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10105_fight_back-00000
+  rotate: false
+  xy: 410, 0
+  size: 369, 240
+  orig: 500, 500
+  offset: 66, 118
+  index: -1
+effect_monster_10105_fight_back-00001
+  rotate: false
+  xy: 0, 6
+  size: 410, 234
+  orig: 500, 500
+  offset: 65, 118
+  index: -1
+effect_monster_10105_fight_back-00002
+  rotate: false
+  xy: 779, 31
+  size: 359, 209
+  orig: 500, 500
+  offset: 100, 144
+  index: -1

@@ -1,117 +1,117 @@
 
 card_shaliaoluan_2_402_unpack.png
-size: 1935,564
+size: 1034,1080
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_shaliaoluan_2_402-00000
   rotate: false
-  xy: 1632, 102
+  xy: 708, 329
   size: 303, 151
   orig: 472, 218
   offset: 169, 62
   index: -1
 card_shaliaoluan_2_402-00001
-  rotate: true
-  xy: 1372, 233
+  rotate: false
+  xy: 694, 0
   size: 331, 170
   orig: 472, 218
   offset: 141, 48
   index: -1
 card_shaliaoluan_2_402-00002
-  rotate: true
-  xy: 1193, 221
+  rotate: false
+  xy: 365, 317
   size: 343, 179
   orig: 472, 218
   offset: 129, 39
   index: -1
 card_shaliaoluan_2_402-00003
-  rotate: true
-  xy: 1007, 207
+  rotate: false
+  xy: 366, 693
   size: 357, 186
   orig: 472, 218
   offset: 115, 32
   index: -1
 card_shaliaoluan_2_402-00004
-  rotate: true
-  xy: 409, 199
+  rotate: false
+  xy: 0, 468
   size: 365, 195
   orig: 472, 218
   offset: 107, 23
   index: -1
 card_shaliaoluan_2_402-00005
-  rotate: true
-  xy: 0, 196
+  rotate: false
+  xy: 366, 879
   size: 368, 201
   orig: 472, 218
   offset: 104, 17
   index: -1
 card_shaliaoluan_2_402-00006
-  rotate: true
-  xy: 201, 198
+  rotate: false
+  xy: 0, 872
   size: 366, 208
   orig: 472, 218
   offset: 106, 10
   index: -1
 card_shaliaoluan_2_402-00007
-  rotate: true
-  xy: 604, 201
+  rotate: false
+  xy: 0, 663
   size: 363, 209
   orig: 472, 218
   offset: 109, 9
   index: -1
 card_shaliaoluan_2_402-00008
-  rotate: true
-  xy: 813, 206
+  rotate: false
+  xy: 0, 274
   size: 358, 194
   orig: 472, 218
   offset: 114, 24
   index: -1
 card_shaliaoluan_2_402-00009
   rotate: false
-  xy: 0, 0
+  xy: 0, 78
   size: 350, 196
   orig: 472, 218
   offset: 119, 22
   index: -1
 card_shaliaoluan_2_402-00010
   rotate: false
-  xy: 350, 1
+  xy: 365, 496
   size: 345, 197
   orig: 472, 218
   offset: 122, 21
   index: -1
 card_shaliaoluan_2_402-00011
   rotate: false
-  xy: 695, 1
+  xy: 358, 117
   size: 336, 200
   orig: 472, 218
   offset: 125, 18
   index: -1
 card_shaliaoluan_2_402-00012
-  rotate: true
-  xy: 1542, 253
+  rotate: false
+  xy: 723, 680
   size: 311, 199
   orig: 472, 218
   offset: 128, 16
   index: -1
 card_shaliaoluan_2_402-00013
   rotate: false
-  xy: 1031, 7
+  xy: 710, 480
   size: 308, 200
   orig: 472, 218
   offset: 130, 14
   index: -1
 card_shaliaoluan_2_402-00014
   rotate: false
-  xy: 1339, 21
+  xy: 734, 880
   size: 293, 200
   orig: 472, 218
   offset: 131, 13
   index: -1
 card_shaliaoluan_2_402-00015
-  rotate: true
-  xy: 1741, 292
+  rotate: false
+  xy: 708, 170
   size: 272, 159
   orig: 472, 218
   offset: 152, 54

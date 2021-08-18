@@ -1,0 +1,139 @@
+
+card_upgrade_unpack.png
+size: 1920,1040
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_upgrade-00000
+  rotate: false
+  xy: 0, 770
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00001
+  rotate: false
+  xy: 0, 500
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00002
+  rotate: false
+  xy: 480, 770
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00003
+  rotate: false
+  xy: 0, 230
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00004
+  rotate: false
+  xy: 480, 500
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00005
+  rotate: false
+  xy: 960, 770
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00006
+  rotate: false
+  xy: 480, 230
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00007
+  rotate: false
+  xy: 960, 500
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00008
+  rotate: false
+  xy: 1440, 770
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00009
+  rotate: false
+  xy: 960, 230
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00010
+  rotate: false
+  xy: 1440, 500
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00011
+  rotate: false
+  xy: 1440, 230
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+card_upgrade-00012
+  rotate: false
+  xy: 0, 0
+  size: 199, 230
+  orig: 480, 270
+  offset: 137, 13
+  index: -1
+card_upgrade-00013
+  rotate: false
+  xy: 199, 2
+  size: 201, 228
+  orig: 480, 270
+  offset: 135, 11
+  index: -1
+card_upgrade-00014
+  rotate: false
+  xy: 400, 12
+  size: 196, 218
+  orig: 480, 270
+  offset: 135, 19
+  index: -1
+card_upgrade-00015
+  rotate: false
+  xy: 596, 13
+  size: 191, 217
+  orig: 480, 270
+  offset: 142, 16
+  index: -1
+card_upgrade-00016
+  rotate: false
+  xy: 787, 22
+  size: 188, 208
+  orig: 480, 270
+  offset: 145, 18
+  index: -1
+card_upgrade-00017
+  rotate: false
+  xy: 975, 20
+  size: 184, 210
+  orig: 480, 270
+  offset: 147, 18
+  index: -1
+card_upgrade-00018
+  rotate: false
+  xy: 1159, 63
+  size: 161, 167
+  orig: 480, 270
+  offset: 164, 40
+  index: -1

@@ -1,0 +1,139 @@
+
+ui_act_8_receive_2_1_unpack.png
+size: 1954,648
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_act_8_receive_2_1-00000
+  rotate: false
+  xy: 1304, 3
+  size: 324, 214
+  orig: 500, 500
+  offset: 93, 140
+  index: -1
+ui_act_8_receive_2_1-00018
+  rotate: false
+  xy: 1304, 3
+  size: 324, 214
+  orig: 500, 500
+  offset: 93, 140
+  index: -1
+ui_act_8_receive_2_1-00001
+  rotate: false
+  xy: 1629, 218
+  size: 325, 214
+  orig: 500, 500
+  offset: 93, 140
+  index: -1
+ui_act_8_receive_2_1-00002
+  rotate: false
+  xy: 978, 1
+  size: 325, 215
+  orig: 500, 500
+  offset: 93, 139
+  index: -1
+ui_act_8_receive_2_1-00003
+  rotate: false
+  xy: 1304, 432
+  size: 325, 216
+  orig: 500, 500
+  offset: 93, 139
+  index: -1
+ui_act_8_receive_2_1-00004
+  rotate: false
+  xy: 0, 432
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00005
+  rotate: false
+  xy: 0, 216
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00006
+  rotate: false
+  xy: 326, 432
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00007
+  rotate: false
+  xy: 0, 0
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00008
+  rotate: false
+  xy: 326, 216
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00009
+  rotate: false
+  xy: 652, 432
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00010
+  rotate: false
+  xy: 326, 0
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00011
+  rotate: false
+  xy: 652, 216
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00012
+  rotate: false
+  xy: 978, 432
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00013
+  rotate: false
+  xy: 652, 0
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00014
+  rotate: false
+  xy: 978, 216
+  size: 326, 216
+  orig: 500, 500
+  offset: 92, 139
+  index: -1
+ui_act_8_receive_2_1-00015
+  rotate: false
+  xy: 1629, 432
+  size: 325, 216
+  orig: 500, 500
+  offset: 93, 139
+  index: -1
+ui_act_8_receive_2_1-00016
+  rotate: false
+  xy: 1304, 217
+  size: 325, 215
+  orig: 500, 500
+  offset: 93, 139
+  index: -1
+ui_act_8_receive_2_1-00017
+  rotate: false
+  xy: 1629, 4
+  size: 325, 214
+  orig: 500, 500
+  offset: 93, 140
+  index: -1

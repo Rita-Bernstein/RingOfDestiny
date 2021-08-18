@@ -1,61 +1,61 @@
 
 card_ganranyinji_unpack.png
-size: 921,220
+size: 220,920
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_ganranyinji-00000
   rotate: false
-  xy: 786, 13
+  xy: 136, 64
   size: 71, 71
   orig: 300, 300
   offset: 114, 117
   index: -1
 card_ganranyinji-00001
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 699
   size: 220, 221
   orig: 300, 300
   offset: 41, 40
   index: -1
 card_ganranyinji-00002
-  rotate: true
-  xy: 221, 11
+  rotate: false
+  xy: 0, 489
   size: 209, 210
   orig: 300, 300
   offset: 46, 46
   index: -1
 card_ganranyinji-00003
   rotate: false
-  xy: 431, 30
+  xy: 0, 299
   size: 191, 190
   orig: 300, 300
   offset: 55, 56
   index: -1
 card_ganranyinji-00004
-  rotate: true
-  xy: 622, 57
+  rotate: false
+  xy: 0, 135
   size: 163, 164
   orig: 300, 300
   offset: 69, 69
   index: -1
 card_ganranyinji-00005
-  rotate: true
-  xy: 786, 84
+  rotate: false
+  xy: 0, 0
   size: 136, 135
   orig: 300, 300
   offset: 83, 83
   index: -1
 card_ganranyinji-00006
-  rotate: true
-  xy: 857, 21
+  rotate: false
+  xy: 136, 3
   size: 63, 61
   orig: 300, 300
   offset: 117, 122
   index: -1
 card_ganranyinji-00007
   rotate: false
-  xy: 622, 5
+  xy: 163, 247
   size: 54, 52
   orig: 300, 300
   offset: 122, 126

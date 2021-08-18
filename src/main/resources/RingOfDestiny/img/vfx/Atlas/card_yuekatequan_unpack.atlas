@@ -1,110 +1,110 @@
 
 card_yuekatequan_unpack.png
-size: 170,595
+size: 384,268
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_yuekatequan-00000
-  rotate: true
-  xy: 0, 509
+  rotate: false
+  xy: 0, 178
   size: 86, 90
   orig: 112, 202
   offset: 16, 16
   index: -1
 card_yuekatequan-00001
   rotate: false
-  xy: 89, 343
+  xy: 171, 182
   size: 81, 86
   orig: 112, 202
   offset: 18, 32
   index: -1
 card_yuekatequan-00002
-  rotate: true
-  xy: 89, 207
+  rotate: false
+  xy: 254, 112
   size: 67, 71
   orig: 112, 202
   offset: 24, 53
   index: -1
 card_yuekatequan-00003
-  rotate: true
-  xy: 89, 140
+  rotate: false
+  xy: 316, 41
   size: 67, 71
   orig: 112, 202
   offset: 24, 67
   index: -1
 card_yuekatequan-00004
   rotate: false
-  xy: 90, 510
+  xy: 252, 183
   size: 80, 85
   orig: 112, 202
   offset: 17, 74
   index: -1
 card_yuekatequan-00005
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 170, 91
   size: 84, 88
   orig: 112, 202
   offset: 15, 86
   index: -1
 card_yuekatequan-00006
-  rotate: true
-  xy: 0, 424
+  rotate: false
+  xy: 0, 89
   size: 85, 89
   orig: 112, 202
   offset: 14, 99
   index: -1
 card_yuekatequan-00007
-  rotate: true
-  xy: 89, 274
+  rotate: false
+  xy: 247, 17
   size: 69, 74
   orig: 112, 202
   offset: 22, 107
   index: -1
 card_yuekatequan-00008
-  rotate: true
-  xy: 0, 339
+  rotate: false
+  xy: 0, 0
   size: 85, 89
   orig: 112, 202
   offset: 14, 99
   index: -1
 card_yuekatequan-00009
-  rotate: true
-  xy: 0, 254
+  rotate: false
+  xy: 85, 89
   size: 85, 89
   orig: 112, 202
   offset: 14, 99
   index: -1
 card_yuekatequan-00010
-  rotate: true
-  xy: 0, 169
+  rotate: false
+  xy: 86, 179
   size: 85, 89
   orig: 112, 202
   offset: 14, 99
   index: -1
 card_yuekatequan-00011
-  rotate: true
-  xy: 0, 84
+  rotate: false
+  xy: 85, 0
   size: 85, 89
   orig: 112, 202
   offset: 14, 99
   index: -1
 card_yuekatequan-00012
   rotate: false
-  xy: 90, 429
+  xy: 170, 10
   size: 77, 81
   orig: 112, 202
   offset: 18, 103
   index: -1
 card_yuekatequan-00013
-  rotate: true
-  xy: 89, 77
+  rotate: false
+  xy: 321, 116
   size: 63, 67
   orig: 112, 202
   offset: 25, 110
   index: -1
 card_yuekatequan-00014
-  rotate: true
-  xy: 88, 31
+  rotate: false
+  xy: 332, 217
   size: 46, 51
   orig: 112, 202
   offset: 33, 120

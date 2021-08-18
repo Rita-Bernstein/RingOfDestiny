@@ -1,103 +1,103 @@
 
 card_morhaojie_unpack.png
-size: 1617,962
+size: 2000,924
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_morhaojie-00000
-  rotate: true
-  xy: 0, 462
+  rotate: false
+  xy: 0, 693
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00001
   rotate: false
-  xy: 0, 231
+  xy: 0, 462
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00002
   rotate: false
-  xy: 0, 0
+  xy: 500, 693
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00003
-  rotate: true
-  xy: 231, 462
+  rotate: false
+  xy: 0, 231
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00004
-  rotate: true
-  xy: 462, 462
+  rotate: false
+  xy: 500, 462
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00005
   rotate: false
-  xy: 500, 231
+  xy: 1000, 693
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00006
   rotate: false
-  xy: 500, 0
+  xy: 1500, 693
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00007
-  rotate: true
-  xy: 693, 462
+  rotate: false
+  xy: 0, 0
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00008
-  rotate: true
-  xy: 924, 462
+  rotate: false
+  xy: 500, 231
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00009
   rotate: false
-  xy: 1000, 231
+  xy: 1000, 462
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00010
   rotate: false
-  xy: 1000, 0
+  xy: 1500, 462
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00011
   rotate: false
-  xy: 1000, 0
+  xy: 1500, 462
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00012
-  rotate: true
-  xy: 1155, 462
+  rotate: false
+  xy: 500, 0
   size: 500, 231
   orig: 500, 231
   offset: 0, 0
   index: -1
 card_morhaojie-00013
-  rotate: true
-  xy: 1386, 462
+  rotate: false
+  xy: 1000, 231
   size: 500, 231
   orig: 500, 231
   offset: 0, 0

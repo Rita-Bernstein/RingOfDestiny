@@ -1,117 +1,117 @@
 
 monster_10068_kb_skill_unpack.png
-size: 1962,897
+size: 2031,924
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10068_kb_skill-00000
-  rotate: true
-  xy: 1649, 516
+  rotate: false
+  xy: 1442, 611
   size: 381, 313
   orig: 509, 533
   offset: 85, 110
   index: -1
 monster_10068_kb_skill-00001
   rotate: false
-  xy: 854, 196
+  xy: 1442, 291
   size: 351, 320
   orig: 509, 533
   offset: 99, 110
   index: -1
 monster_10068_kb_skill-00002
   rotate: false
-  xy: 1205, 194
+  xy: 1152, 602
   size: 290, 322
   orig: 509, 533
   offset: 130, 90
   index: -1
 monster_10068_kb_skill-00003
-  rotate: true
-  xy: 492, 234
+  rotate: false
+  xy: 868, 562
   size: 284, 362
   orig: 509, 533
   offset: 129, 66
   index: -1
 monster_10068_kb_skill-00004
-  rotate: true
-  xy: 0, 9
+  rotate: false
+  xy: 492, 500
   size: 376, 424
   orig: 509, 533
   offset: 57, 33
   index: -1
 monster_10068_kb_skill-00005
   rotate: false
-  xy: 0, 385
+  xy: 0, 412
   size: 492, 512
   orig: 509, 533
   offset: 8, 11
   index: -1
 monster_10068_kb_skill-00006
   rotate: false
-  xy: 492, 518
+  xy: 393, 33
   size: 402, 379
   orig: 509, 533
   offset: 65, 22
   index: -1
 monster_10068_kb_skill-00007
   rotate: false
-  xy: 894, 516
+  xy: 0, 31
   size: 393, 381
   orig: 509, 533
   offset: 64, 23
   index: -1
 monster_10068_kb_skill-00008
   rotate: false
-  xy: 1287, 529
+  xy: 795, 132
   size: 362, 368
   orig: 509, 533
   offset: 83, 42
   index: -1
 monster_10068_kb_skill-00009
   rotate: false
-  xy: 1495, 212
+  xy: 1793, 307
   size: 236, 304
   orig: 509, 533
   offset: 124, 110
   index: -1
 monster_10068_kb_skill-00010
-  rotate: true
-  xy: 424, 5
+  rotate: false
+  xy: 1793, 0
   size: 229, 307
   orig: 509, 533
   offset: 125, 125
   index: -1
 monster_10068_kb_skill-00011
   rotate: false
-  xy: 1731, 203
+  xy: 1823, 611
   size: 208, 313
   orig: 509, 533
   offset: 139, 137
   index: -1
 monster_10068_kb_skill-00012
-  rotate: true
-  xy: 731, 0
+  rotate: false
+  xy: 1157, 291
   size: 196, 311
   orig: 509, 533
   offset: 146, 152
   index: -1
 monster_10068_kb_skill-00013
-  rotate: true
-  xy: 1042, 9
+  rotate: false
+  xy: 1340, 33
   size: 185, 258
   orig: 509, 533
   offset: 148, 167
   index: -1
 monster_10068_kb_skill-00014
-  rotate: true
-  xy: 1300, 11
+  rotate: false
+  xy: 1157, 32
   size: 183, 259
   orig: 509, 533
   offset: 149, 185
   index: -1
 monster_10068_kb_skill-00015
-  rotate: true
-  xy: 1559, 22
+  rotate: false
+  xy: 1525, 37
   size: 181, 254
   orig: 509, 533
   offset: 149, 209

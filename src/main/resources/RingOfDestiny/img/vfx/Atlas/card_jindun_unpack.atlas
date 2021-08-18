@@ -1,89 +1,89 @@
 
 card_jindun_unpack.png
-size: 1745,493
+size: 1345,633
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jindun-00000
-  rotate: true
-  xy: 1504, 71
+  rotate: false
+  xy: 1234, 392
   size: 109, 241
   orig: 416, 386
   offset: 203, 70
   index: -1
 card_jindun-00001
-  rotate: true
-  xy: 605, 17
+  rotate: false
+  xy: 721, 26
   size: 224, 294
   orig: 416, 386
   offset: 106, 38
   index: -1
 card_jindun-00002
-  rotate: true
-  xy: 0, 16
+  rotate: false
+  xy: 496, 5
   size: 225, 313
   orig: 416, 386
   offset: 106, 26
   index: -1
 card_jindun-00003
-  rotate: true
-  xy: 633, 241
+  rotate: false
+  xy: 500, 329
   size: 252, 304
   orig: 416, 386
   offset: 85, 29
   index: -1
 card_jindun-00004
-  rotate: true
-  xy: 322, 241
+  rotate: false
+  xy: 0, 0
   size: 252, 311
   orig: 416, 386
   offset: 85, 28
   index: -1
 card_jindun-00005
-  rotate: true
-  xy: 937, 6
+  rotate: false
+  xy: 995, 318
   size: 239, 315
   orig: 416, 386
   offset: 86, 29
   index: -1
 card_jindun-00006
-  rotate: true
-  xy: 0, 241
+  rotate: false
+  xy: 0, 311
   size: 252, 322
   orig: 416, 386
   offset: 87, 23
   index: -1
 card_jindun-00007
   rotate: false
-  xy: 1496, 180
+  xy: 752, 320
   size: 243, 313
   orig: 416, 386
   offset: 84, 28
   index: -1
 card_jindun-00008
   rotate: false
-  xy: 1252, 175
+  xy: 252, 0
   size: 244, 318
   orig: 416, 386
   offset: 82, 24
   index: -1
 card_jindun-00009
-  rotate: true
-  xy: 937, 245
+  rotate: false
+  xy: 252, 318
   size: 248, 315
   orig: 416, 386
   offset: 81, 25
   index: -1
 card_jindun-00010
-  rotate: true
-  xy: 313, 16
+  rotate: false
+  xy: 945, 26
   size: 225, 292
   orig: 416, 386
   offset: 99, 34
   index: -1
 card_jindun-00011
-  rotate: true
-  xy: 1252, 0
+  rotate: false
+  xy: 1170, 66
   size: 175, 252
   orig: 416, 386
   offset: 118, 73

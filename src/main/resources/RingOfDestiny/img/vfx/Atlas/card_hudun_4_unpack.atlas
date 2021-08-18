@@ -1,68 +1,68 @@
 
 card_hudun_4_unpack.png
-size: 1152,552
+size: 864,721
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_hudun_4-00000
-  rotate: true
-  xy: 943, 40
+  rotate: false
+  xy: 575, 19
   size: 275, 209
   orig: 416, 330
   offset: 72, 62
   index: -1
 card_hudun_4-00001
   rotate: false
-  xy: 287, 303
+  xy: 577, 472
   size: 283, 249
   orig: 416, 330
   offset: 68, 56
   index: -1
 card_hudun_4-00002
   rotate: false
-  xy: 857, 315
+  xy: 287, 233
   size: 289, 237
   orig: 416, 330
   offset: 64, 54
   index: -1
 card_hudun_4-00003
-  rotate: true
-  xy: 251, 2
+  rotate: false
+  xy: 287, 0
   size: 288, 233
   orig: 416, 330
   offset: 66, 54
   index: -1
 card_hudun_4-00004
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 287, 470
   size: 290, 251
   orig: 416, 330
   offset: 66, 36
   index: -1
 card_hudun_4-00005
   rotate: false
-  xy: 0, 290
+  xy: 0, 459
   size: 287, 262
   orig: 416, 330
   offset: 66, 25
   index: -1
 card_hudun_4-00006
   rotate: false
-  xy: 570, 308
+  xy: 577, 228
   size: 287, 244
   orig: 416, 330
   offset: 66, 43
   index: -1
 card_hudun_4-00007
-  rotate: true
-  xy: 484, 16
+  rotate: false
+  xy: 0, 226
   size: 287, 233
   orig: 416, 330
   offset: 66, 54
   index: -1
 card_hudun_4-00008
-  rotate: true
-  xy: 717, 25
+  rotate: false
+  xy: 0, 0
   size: 283, 226
   orig: 416, 330
   offset: 68, 56

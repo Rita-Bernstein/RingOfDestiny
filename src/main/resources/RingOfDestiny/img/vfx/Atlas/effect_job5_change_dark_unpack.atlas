@@ -1,0 +1,111 @@
+
+effect_job5_change_dark_unpack.png
+size: 300,1014
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job5_change_dark-00000
+  rotate: false
+  xy: 171, 600
+  size: 128, 133
+  orig: 282, 282
+  offset: 77, 68
+  index: -1
+effect_job5_change_dark-00001
+  rotate: false
+  xy: 173, 467
+  size: 123, 133
+  orig: 282, 282
+  offset: 82, 68
+  index: -1
+effect_job5_change_dark-00002
+  rotate: false
+  xy: 0, 695
+  size: 170, 150
+  orig: 282, 282
+  offset: 35, 69
+  index: -1
+effect_job5_change_dark-00003
+  rotate: false
+  xy: 0, 137
+  size: 148, 138
+  orig: 282, 282
+  offset: 57, 69
+  index: -1
+effect_job5_change_dark-00004
+  rotate: false
+  xy: 0, 557
+  size: 171, 138
+  orig: 282, 282
+  offset: 37, 70
+  index: -1
+effect_job5_change_dark-00005
+  rotate: false
+  xy: 0, 845
+  size: 181, 169
+  orig: 282, 282
+  offset: 44, 52
+  index: -1
+effect_job5_change_dark-00006
+  rotate: false
+  xy: 0, 419
+  size: 173, 138
+  orig: 282, 282
+  offset: 38, 68
+  index: -1
+effect_job5_change_dark-00007
+  rotate: false
+  xy: 0, 275
+  size: 149, 144
+  orig: 282, 282
+  offset: 68, 64
+  index: -1
+effect_job5_change_dark-00008
+  rotate: false
+  xy: 149, 241
+  size: 145, 113
+  orig: 282, 282
+  offset: 51, 81
+  index: -1
+effect_job5_change_dark-00009
+  rotate: false
+  xy: 0, 0
+  size: 135, 137
+  orig: 282, 282
+  offset: 59, 80
+  index: -1
+effect_job5_change_dark-00010
+  rotate: false
+  xy: 173, 354
+  size: 123, 113
+  orig: 282, 282
+  offset: 71, 80
+  index: -1
+effect_job5_change_dark-00011
+  rotate: false
+  xy: 135, 19
+  size: 125, 111
+  orig: 282, 282
+  offset: 69, 81
+  index: -1
+effect_job5_change_dark-00012
+  rotate: false
+  xy: 170, 733
+  size: 130, 112
+  orig: 282, 282
+  offset: 64, 81
+  index: -1
+effect_job5_change_dark-00013
+  rotate: false
+  xy: 148, 130
+  size: 135, 111
+  orig: 282, 282
+  offset: 59, 81
+  index: -1
+effect_job5_change_dark-00014
+  rotate: false
+  xy: 181, 903
+  size: 104, 111
+  orig: 282, 282
+  offset: 90, 81
+  index: -1

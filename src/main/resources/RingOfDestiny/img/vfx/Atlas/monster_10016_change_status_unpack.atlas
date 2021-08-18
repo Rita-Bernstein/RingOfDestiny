@@ -1,243 +1,243 @@
 
 monster_10016_change_status_unpack.png
-size: 1967,966
+size: 1889,1030
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10016_change_status-00000
-  rotate: true
-  xy: 926, 661
+  rotate: false
+  xy: 0, 7
   size: 5, 7
   orig: 472, 469
   offset: 270, 107
   index: -1
 monster_10016_change_status-00001
   rotate: false
-  xy: 236, 313
+  xy: 0, 14
   size: 123, 36
   orig: 472, 469
   offset: 200, 104
   index: -1
 monster_10016_change_status-00002
   rotate: false
-  xy: 951, 319
+  xy: 460, 12
   size: 173, 74
   orig: 472, 469
   offset: 168, 97
   index: -1
 monster_10016_change_status-00003
   rotate: false
-  xy: 1599, 17
+  xy: 673, 4
   size: 198, 117
   orig: 472, 469
   offset: 160, 88
   index: -1
 monster_10016_change_status-00004
-  rotate: true
-  xy: 977, 93
+  rotate: false
+  xy: 892, 31
   size: 226, 134
   orig: 472, 469
   offset: 141, 82
   index: -1
 monster_10016_change_status-00005
-  rotate: true
-  xy: 767, 416
+  rotate: false
+  xy: 1291, 0
   size: 244, 190
   orig: 472, 469
   offset: 121, 65
   index: -1
 monster_10016_change_status-00006
-  rotate: true
-  xy: 1752, 732
+  rotate: false
+  xy: 1655, 559
   size: 234, 214
   orig: 472, 469
   offset: 129, 66
   index: -1
 monster_10016_change_status-00007
-  rotate: true
-  xy: 1111, 93
+  rotate: false
+  xy: 1655, 326
   size: 224, 233
   orig: 472, 469
   offset: 138, 60
   index: -1
 monster_10016_change_status-00008
   rotate: false
-  xy: 1729, 475
+  xy: 1655, 773
   size: 234, 257
   orig: 472, 469
   offset: 130, 66
   index: -1
 monster_10016_change_status-00009
   rotate: false
-  xy: 438, 173
+  xy: 1291, 190
   size: 227, 274
   orig: 472, 469
   offset: 133, 65
   index: -1
 monster_10016_change_status-00010
-  rotate: true
-  xy: 1142, 317
+  rotate: false
+  xy: 680, 739
   size: 223, 291
   orig: 472, 469
   offset: 135, 62
   index: -1
 monster_10016_change_status-00011
   rotate: false
-  xy: 0, 0
+  xy: 231, 64
   size: 229, 307
   orig: 472, 469
   offset: 129, 59
   index: -1
 monster_10016_change_status-00012
   rotate: false
-  xy: 0, 632
+  xy: 0, 696
   size: 241, 334
   orig: 472, 469
   offset: 117, 36
   index: -1
 monster_10016_change_status-00013
   rotate: false
-  xy: 0, 307
+  xy: 0, 371
   size: 236, 325
   orig: 472, 469
   offset: 122, 50
   index: -1
 monster_10016_change_status-00014
   rotate: false
-  xy: 241, 645
+  xy: 0, 50
   size: 231, 321
   orig: 472, 469
   offset: 129, 61
   index: -1
 monster_10016_change_status-00015
   rotate: false
-  xy: 472, 660
+  xy: 236, 390
   size: 228, 306
   orig: 472, 469
   offset: 133, 67
   index: -1
 monster_10016_change_status-00016
-  rotate: true
-  xy: 1449, 754
+  rotate: false
+  xy: 464, 421
   size: 212, 303
   orig: 472, 469
   offset: 136, 71
   index: -1
 monster_10016_change_status-00017
-  rotate: true
-  xy: 1145, 753
+  rotate: false
+  xy: 460, 86
   size: 213, 304
   orig: 472, 469
   offset: 135, 74
   index: -1
 monster_10016_change_status-00018
-  rotate: true
-  xy: 1145, 540
+  rotate: false
+  xy: 467, 728
   size: 213, 302
   orig: 472, 469
   offset: 136, 75
   index: -1
 monster_10016_change_status-00019
   rotate: false
-  xy: 700, 660
+  xy: 241, 724
   size: 226, 306
   orig: 472, 469
   offset: 127, 78
   index: -1
 monster_10016_change_status-00020
   rotate: false
-  xy: 926, 666
+  xy: 673, 121
   size: 219, 300
   orig: 472, 469
   offset: 134, 82
   index: -1
 monster_10016_change_status-00021
-  rotate: true
-  xy: 472, 447
+  rotate: false
+  xy: 676, 433
   size: 213, 295
   orig: 472, 469
   offset: 141, 87
   index: -1
 monster_10016_change_status-00022
   rotate: false
-  xy: 229, 16
+  xy: 889, 448
   size: 209, 291
   orig: 472, 469
   offset: 145, 92
   index: -1
 monster_10016_change_status-00023
-  rotate: true
-  xy: 665, 210
+  rotate: false
+  xy: 903, 744
   size: 206, 286
   orig: 472, 469
   offset: 148, 97
   index: -1
 monster_10016_change_status-00024
   rotate: false
-  xy: 236, 349
+  xy: 892, 165
   size: 202, 283
   orig: 472, 469
   offset: 152, 101
   index: -1
 monster_10016_change_status-00025
-  rotate: true
-  xy: 696, 13
+  rotate: false
+  xy: 1094, 167
   size: 197, 281
   orig: 472, 469
   offset: 155, 105
   index: -1
 monster_10016_change_status-00026
-  rotate: true
-  xy: 1449, 559
+  rotate: false
+  xy: 1098, 464
   size: 195, 280
   orig: 472, 469
   offset: 155, 110
   index: -1
 monster_10016_change_status-00027
-  rotate: true
-  xy: 1447, 366
+  rotate: false
+  xy: 1109, 752
   size: 193, 278
   orig: 472, 469
   offset: 155, 114
   index: -1
 monster_10016_change_status-00028
   rotate: false
-  xy: 957, 393
+  xy: 1293, 479
   size: 185, 273
   orig: 472, 469
   offset: 161, 118
   index: -1
 monster_10016_change_status-00029
-  rotate: true
-  xy: 1433, 186
+  rotate: false
+  xy: 1302, 760
   size: 180, 270
   orig: 472, 469
   offset: 164, 123
   index: -1
 monster_10016_change_status-00030
-  rotate: true
-  xy: 1703, 134
+  rotate: false
+  xy: 1478, 496
   size: 177, 264
   orig: 472, 469
   offset: 166, 130
   index: -1
 monster_10016_change_status-00031
-  rotate: true
-  xy: 438, 0
+  rotate: false
+  xy: 1482, 772
   size: 173, 258
   orig: 472, 469
   offset: 169, 137
   index: -1
 monster_10016_change_status-00032
-  rotate: true
-  xy: 1344, 16
+  rotate: false
+  xy: 1535, 71
   size: 170, 255
   orig: 472, 469
   offset: 172, 141
   index: -1
 monster_10016_change_status-00033
-  rotate: true
-  xy: 1725, 311
+  rotate: false
+  xy: 1705, 87
   size: 164, 239
   orig: 472, 469
   offset: 177, 156

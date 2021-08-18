@@ -1,0 +1,62 @@
+
+effect_job4_equip_unpack.png
+size: 576,659
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job4_equip-00000
+  rotate: false
+  xy: 0, 398
+  size: 331, 261
+  orig: 500, 461
+  offset: 101, 42
+  index: -1
+effect_job4_equip-00001
+  rotate: false
+  xy: 0, 153
+  size: 308, 245
+  orig: 500, 461
+  offset: 113, 55
+  index: -1
+effect_job4_equip-00002
+  rotate: false
+  xy: 308, 100
+  size: 268, 213
+  orig: 500, 461
+  offset: 135, 80
+  index: -1
+effect_job4_equip-00003
+  rotate: false
+  xy: 331, 474
+  size: 216, 185
+  orig: 500, 461
+  offset: 142, 94
+  index: -1
+effect_job4_equip-00004
+  rotate: false
+  xy: 331, 313
+  size: 215, 161
+  orig: 500, 461
+  offset: 142, 94
+  index: -1
+effect_job4_equip-00005
+  rotate: false
+  xy: 0, 41
+  size: 212, 112
+  orig: 500, 461
+  offset: 143, 95
+  index: -1
+effect_job4_equip-00006
+  rotate: false
+  xy: 212, 0
+  size: 202, 100
+  orig: 500, 461
+  offset: 147, 98
+  index: -1
+effect_job4_equip-00007
+  rotate: false
+  xy: 414, 64
+  size: 108, 36
+  orig: 500, 461
+  offset: 197, 141
+  index: -1

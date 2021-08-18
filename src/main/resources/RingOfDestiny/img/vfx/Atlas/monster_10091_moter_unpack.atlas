@@ -1,75 +1,75 @@
 
 monster_10091_moter_unpack.png
-size: 285,111
+size: 276,115
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10091_moter-00000
-  rotate: true
-  xy: 62, 2
+  rotate: false
+  xy: 162, 2
   size: 58, 61
   orig: 154, 113
   offset: 31, 28
   index: -1
 monster_10091_moter-00001
-  rotate: true
-  xy: 0, 4
+  rotate: false
+  xy: 220, 0
   size: 56, 62
   orig: 154, 113
   offset: 42, 27
   index: -1
 monster_10091_moter-00002
   rotate: false
-  xy: 167, 59
+  xy: 166, 63
   size: 56, 52
   orig: 154, 113
   offset: 52, 31
   index: -1
 monster_10091_moter-00003
-  rotate: true
-  xy: 223, 59
+  rotate: false
+  xy: 222, 62
   size: 52, 53
   orig: 154, 113
   offset: 62, 31
   index: -1
 monster_10091_moter-00004
   rotate: false
-  xy: 123, 0
+  xy: 0, 5
   size: 94, 59
   orig: 154, 113
   offset: 27, 27
   index: -1
 monster_10091_moter-00005
   rotate: false
-  xy: 217, 0
+  xy: 94, 5
   size: 68, 59
   orig: 154, 113
   offset: 38, 28
   index: -1
 monster_10091_moter-00006
   rotate: false
-  xy: 58, 60
+  xy: 57, 64
   size: 56, 51
   orig: 154, 113
   offset: 47, 32
   index: -1
 monster_10091_moter-00007
   rotate: false
-  xy: 114, 60
+  xy: 113, 64
   size: 53, 51
   orig: 154, 113
   offset: 56, 34
   index: -1
 monster_10091_moter-00008
   rotate: false
-  xy: 9, 62
+  xy: 8, 66
   size: 49, 49
   orig: 154, 113
   offset: 66, 36
   index: -1
 monster_10091_moter-00009
-  rotate: true
-  xy: 0, 103
+  rotate: false
+  xy: 0, 106
   size: 8, 9
   orig: 154, 113
   offset: 105, 39

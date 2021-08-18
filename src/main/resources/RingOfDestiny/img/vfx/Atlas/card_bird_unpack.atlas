@@ -1,68 +1,68 @@
 
 card_bird_unpack.png
-size: 108,589
+size: 201,325
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_bird-00000
   rotate: false
-  xy: 0, 0
+  xy: 0, 216
   size: 95, 109
   orig: 230, 212
   offset: 75, 79
   index: -1
 card_bird-00001
   rotate: false
-  xy: 0, 198
+  xy: 95, 143
   size: 106, 81
   orig: 230, 212
   offset: 58, 81
   index: -1
 card_bird-00002
-  rotate: true
-  xy: 79, 371
+  rotate: false
+  xy: 79, 0
   size: 109, 29
   orig: 230, 212
   offset: 57, 77
   index: -1
 card_bird-00003
   rotate: false
-  xy: 0, 540
+  xy: 79, 29
   size: 91, 49
   orig: 230, 212
   offset: 68, 58
   index: -1
 card_bird-00004
   rotate: false
-  xy: 0, 279
+  xy: 0, 141
   size: 89, 75
   orig: 230, 212
   offset: 68, 32
   index: -1
 card_bird-00005
   rotate: false
-  xy: 0, 354
+  xy: 89, 78
   size: 79, 65
   orig: 230, 212
   offset: 76, 43
   index: -1
 card_bird-00006
   rotate: false
-  xy: 0, 419
+  xy: 0, 20
   size: 79, 61
   orig: 230, 212
   offset: 76, 63
   index: -1
 card_bird-00007
   rotate: false
-  xy: 0, 480
+  xy: 0, 81
   size: 82, 60
   orig: 230, 212
   offset: 80, 82
   index: -1
 card_bird-00008
-  rotate: true
-  xy: 0, 109
+  rotate: false
+  xy: 95, 224
   size: 89, 101
   orig: 230, 212
   offset: 82, 80

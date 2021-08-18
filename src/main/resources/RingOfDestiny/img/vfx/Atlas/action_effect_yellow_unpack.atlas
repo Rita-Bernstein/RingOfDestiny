@@ -1,82 +1,82 @@
 
 action_effect_yellow_unpack.png
-size: 1734,1186
+size: 1521,1343
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 action_effect_yellow-00000
-  rotate: true
-  xy: 854, 19
+  rotate: false
+  xy: 1188, 935
   size: 333, 408
   orig: 423, 510
   offset: 60, 38
   index: -1
 action_effect_yellow-00001
   rotate: false
-  xy: 1295, 360
+  xy: 1138, 32
   size: 372, 432
   orig: 423, 510
   offset: 39, 19
   index: -1
 action_effect_yellow-00002
-  rotate: true
-  xy: 1284, 792
+  rotate: false
+  xy: 398, 901
   size: 394, 442
   orig: 423, 510
   offset: 22, 13
   index: -1
 action_effect_yellow-00003
-  rotate: true
-  xy: 854, 352
+  rotate: false
+  xy: 792, 902
   size: 396, 441
   orig: 423, 510
   offset: 21, 14
   index: -1
 action_effect_yellow-00004
   rotate: false
-  xy: 457, 348
+  xy: 0, 0
   size: 397, 440
   orig: 423, 510
   offset: 20, 14
   index: -1
 action_effect_yellow-00005
-  rotate: true
-  xy: 446, 788
+  rotate: false
+  xy: 397, 457
   size: 398, 440
   orig: 423, 510
   offset: 20, 14
   index: -1
 action_effect_yellow-00006
   rotate: false
-  xy: 886, 748
+  xy: 795, 464
   size: 398, 438
   orig: 423, 510
   offset: 20, 14
   index: -1
 action_effect_yellow-00007
-  rotate: true
-  xy: 0, 788
+  rotate: false
+  xy: 0, 897
   size: 398, 446
   orig: 423, 510
   offset: 20, 14
   index: -1
 action_effect_yellow-00008
-  rotate: true
-  xy: 0, 391
+  rotate: false
+  xy: 0, 440
   size: 397, 457
   orig: 423, 510
   offset: 21, 15
   index: -1
 action_effect_yellow-00009
-  rotate: true
-  xy: 0, 10
+  rotate: false
+  xy: 397, 6
   size: 381, 451
   orig: 423, 510
   offset: 30, 18
   index: -1
 action_effect_yellow-00010
-  rotate: true
-  xy: 1295, 0
+  rotate: false
+  xy: 778, 18
   size: 360, 439
   orig: 423, 510
   offset: 42, 30

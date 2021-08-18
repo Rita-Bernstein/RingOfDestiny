@@ -1,82 +1,82 @@
 
 card_guangzhisuo_unpack.png
-size: 1243,612
+size: 1836,433
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_guangzhisuo-00000
   rotate: false
-  xy: 442, 2
+  xy: 708, 155
   size: 278, 278
   orig: 400, 400
   offset: 67, 58
   index: -1
 card_guangzhisuo-00001
-  rotate: true
-  xy: 0, 236
+  rotate: false
+  xy: 0, 58
   size: 376, 375
   orig: 400, 400
   offset: 13, 12
   index: -1
 card_guangzhisuo-00002
-  rotate: true
-  xy: 375, 280
+  rotate: false
+  xy: 376, 103
   size: 332, 330
   orig: 400, 400
   offset: 38, 32
   index: -1
 card_guangzhisuo-00003
-  rotate: true
-  xy: 705, 321
+  rotate: false
+  xy: 986, 170
   size: 291, 263
   orig: 400, 400
   offset: 52, 65
   index: -1
 card_guangzhisuo-00004
   rotate: false
-  xy: 167, 14
+  xy: 1277, 211
   size: 275, 222
   orig: 400, 400
   offset: 57, 78
   index: -1
 card_guangzhisuo-00005
   rotate: false
-  xy: 968, 417
+  xy: 1552, 238
   size: 275, 195
   orig: 400, 400
   offset: 54, 101
   index: -1
 card_guangzhisuo-00006
   rotate: false
-  xy: 968, 223
+  xy: 1321, 17
   size: 268, 194
   orig: 400, 400
   offset: 57, 100
   index: -1
 card_guangzhisuo-00007
   rotate: false
-  xy: 720, 143
+  xy: 1589, 60
   size: 247, 178
   orig: 400, 400
   offset: 67, 113
   index: -1
 card_guangzhisuo-00008
-  rotate: true
-  xy: 0, 11
+  rotate: false
+  xy: 1096, 3
   size: 225, 167
   orig: 400, 400
   offset: 81, 118
   index: -1
 card_guangzhisuo-00009
-  rotate: true
-  xy: 967, 16
+  rotate: false
+  xy: 708, 0
   size: 207, 155
   orig: 400, 400
   offset: 90, 123
   index: -1
 card_guangzhisuo-00010
   rotate: false
-  xy: 720, 0
+  xy: 915, 12
   size: 181, 143
   orig: 400, 400
   offset: 105, 125

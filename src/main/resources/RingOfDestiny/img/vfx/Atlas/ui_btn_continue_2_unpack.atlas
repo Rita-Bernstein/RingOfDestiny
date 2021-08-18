@@ -1,0 +1,76 @@
+
+ui_btn_continue_2_unpack.png
+size: 1617,191
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_btn_continue_2-00000
+  rotate: false
+  xy: 0, 0
+  size: 177, 191
+  orig: 500, 500
+  offset: 165, 167
+  index: -1
+ui_btn_continue_2-00001
+  rotate: false
+  xy: 524, 5
+  size: 159, 186
+  orig: 500, 500
+  offset: 172, 167
+  index: -1
+ui_btn_continue_2-00002
+  rotate: false
+  xy: 1000, 6
+  size: 156, 185
+  orig: 500, 500
+  offset: 173, 167
+  index: -1
+ui_btn_continue_2-00003
+  rotate: false
+  xy: 842, 5
+  size: 158, 186
+  orig: 500, 500
+  offset: 172, 167
+  index: -1
+ui_btn_continue_2-00004
+  rotate: false
+  xy: 1466, 8
+  size: 151, 183
+  orig: 500, 500
+  offset: 176, 167
+  index: -1
+ui_btn_continue_2-00005
+  rotate: false
+  xy: 1156, 6
+  size: 156, 185
+  orig: 500, 500
+  offset: 173, 167
+  index: -1
+ui_btn_continue_2-00006
+  rotate: false
+  xy: 354, 2
+  size: 170, 189
+  orig: 500, 500
+  offset: 166, 167
+  index: -1
+ui_btn_continue_2-00007
+  rotate: false
+  xy: 1312, 6
+  size: 154, 185
+  orig: 500, 500
+  offset: 174, 167
+  index: -1
+ui_btn_continue_2-00008
+  rotate: false
+  xy: 683, 5
+  size: 159, 186
+  orig: 500, 500
+  offset: 172, 167
+  index: -1
+ui_btn_continue_2-00009
+  rotate: false
+  xy: 177, 0
+  size: 177, 191
+  orig: 500, 500
+  offset: 165, 167
+  index: -1

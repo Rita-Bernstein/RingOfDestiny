@@ -1,68 +1,68 @@
 
 card_soulstone_unpack.png
-size: 461,1120
+size: 1019,532
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_soulstone-00000
   rotate: false
-  xy: 0, 60
+  xy: 601, 312
   size: 228, 220
   orig: 500, 470
   offset: 137, 121
   index: -1
 card_soulstone-00001
   rotate: false
-  xy: 0, 824
+  xy: 708, 0
   size: 256, 296
   orig: 500, 470
   offset: 122, 89
   index: -1
 card_soulstone-00002
   rotate: false
-  xy: 0, 544
+  xy: 452, 32
   size: 256, 280
   orig: 500, 470
   offset: 120, 95
   index: -1
 card_soulstone-00003
   rotate: false
-  xy: 0, 280
+  xy: 192, 53
   size: 260, 264
   orig: 500, 470
   offset: 118, 100
   index: -1
 card_soulstone-00004
   rotate: false
-  xy: 256, 865
+  xy: 0, 65
   size: 192, 255
   orig: 500, 470
   offset: 158, 109
   index: -1
 card_soulstone-00005
   rotate: false
-  xy: 256, 629
+  xy: 829, 296
   size: 190, 236
   orig: 500, 470
   offset: 156, 128
   index: -1
 card_soulstone-00006
   rotate: false
-  xy: 260, 200
+  xy: 200, 318
   size: 200, 214
   orig: 500, 470
   offset: 149, 123
   index: -1
 card_soulstone-00007
-  rotate: true
-  xy: 228, 0
+  rotate: false
+  xy: 0, 320
   size: 200, 212
   orig: 500, 470
   offset: 146, 120
   index: -1
 card_soulstone-00008
   rotate: false
-  xy: 260, 414
+  xy: 400, 317
   size: 201, 215
   orig: 500, 470
   offset: 144, 120

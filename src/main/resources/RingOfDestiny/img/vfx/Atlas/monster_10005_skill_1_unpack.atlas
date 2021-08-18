@@ -1,68 +1,68 @@
 
 monster_10005_skill_1_unpack.png
-size: 945,1108
+size: 1873,576
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10005_skill_1-00000
   rotate: false
-  xy: 0, 695
+  xy: 0, 163
   size: 411, 413
   orig: 453, 454
   offset: 22, 21
   index: -1
 monster_10005_skill_1-00001
   rotate: false
-  xy: 0, 290
+  xy: 411, 171
   size: 402, 405
   orig: 453, 454
   offset: 27, 25
   index: -1
 monster_10005_skill_1-00002
   rotate: false
-  xy: 411, 715
+  xy: 813, 183
   size: 386, 393
   orig: 453, 454
   offset: 35, 33
   index: -1
 monster_10005_skill_1-00003
-  rotate: true
-  xy: 411, 355
+  rotate: false
+  xy: 1199, 212
   size: 360, 364
   orig: 453, 454
   offset: 44, 49
   index: -1
 monster_10005_skill_1-00004
   rotate: false
-  xy: 0, 6
+  xy: 1559, 292
   size: 314, 284
   orig: 453, 454
   offset: 76, 93
   index: -1
 monster_10005_skill_1-00005
-  rotate: true
-  xy: 497, 62
+  rotate: false
+  xy: 1559, 78
   size: 293, 214
   orig: 453, 454
   offset: 97, 115
   index: -1
 monster_10005_skill_1-00006
-  rotate: true
-  xy: 711, 63
+  rotate: false
+  xy: 1199, 23
   size: 292, 189
   orig: 453, 454
   offset: 98, 117
   index: -1
 monster_10005_skill_1-00007
-  rotate: true
-  xy: 314, 0
+  rotate: false
+  xy: 813, 0
   size: 290, 183
   orig: 453, 454
   offset: 100, 120
   index: -1
 monster_10005_skill_1-00008
-  rotate: true
-  xy: 775, 428
+  rotate: false
+  xy: 411, 1
   size: 287, 170
   orig: 453, 454
   offset: 102, 121

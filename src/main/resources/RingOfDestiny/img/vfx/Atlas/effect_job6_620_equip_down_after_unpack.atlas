@@ -1,0 +1,41 @@
+
+effect_job6_620_equip_down_after_unpack.png
+size: 268,658
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job6_620_equip_down_after-00000
+  rotate: false
+  xy: 0, 0
+  size: 268, 119
+  orig: 500, 500
+  offset: 122, 153
+  index: -1
+effect_job6_620_equip_down_after-00001
+  rotate: false
+  xy: 0, 516
+  size: 268, 142
+  orig: 500, 500
+  offset: 122, 151
+  index: -1
+effect_job6_620_equip_down_after-00002
+  rotate: false
+  xy: 0, 375
+  size: 268, 141
+  orig: 500, 500
+  offset: 122, 153
+  index: -1
+effect_job6_620_equip_down_after-00003
+  rotate: false
+  xy: 0, 245
+  size: 268, 130
+  orig: 500, 500
+  offset: 122, 164
+  index: -1
+effect_job6_620_equip_down_after-00004
+  rotate: false
+  xy: 0, 119
+  size: 268, 126
+  orig: 500, 500
+  offset: 122, 168
+  index: -1

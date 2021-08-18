@@ -1,117 +1,117 @@
 
 effect_summon_10002_create_unpack.png
-size: 788,560
+size: 1419,311
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_summon_10002_create-00000
   rotate: false
-  xy: 616, 0
+  xy: 1253, 178
   size: 159, 133
   orig: 334, 275
   offset: 99, 47
   index: -1
 effect_summon_10002_create-00001
   rotate: false
-  xy: 621, 273
+  xy: 928, 169
   size: 166, 142
   orig: 334, 275
   offset: 95, 44
   index: -1
 effect_summon_10002_create-00002
-  rotate: true
-  xy: 473, 210
+  rotate: false
+  xy: 536, 7
   size: 172, 146
   orig: 334, 275
   offset: 92, 41
   index: -1
 effect_summon_10002_create-00003
-  rotate: true
-  xy: 465, 20
+  rotate: false
+  xy: 362, 2
   size: 174, 151
   orig: 334, 275
   offset: 91, 39
   index: -1
 effect_summon_10002_create-00004
-  rotate: true
-  xy: 465, 382
+  rotate: false
+  xy: 875, 0
   size: 178, 156
   orig: 334, 275
   offset: 88, 38
   index: -1
 effect_summon_10002_create-00005
-  rotate: true
-  xy: 315, 194
+  rotate: false
+  xy: 1238, 13
   size: 181, 158
   orig: 334, 275
   offset: 85, 38
   index: -1
 effect_summon_10002_create-00006
-  rotate: true
-  xy: 0, 2
+  rotate: false
+  xy: 1053, 10
   size: 185, 159
   orig: 334, 275
   offset: 81, 39
   index: -1
 effect_summon_10002_create-00007
-  rotate: true
-  xy: 0, 373
+  rotate: false
+  xy: 0, 153
   size: 187, 158
   orig: 334, 275
   offset: 78, 40
   index: -1
 effect_summon_10002_create-00008
-  rotate: true
-  xy: 0, 187
+  rotate: false
+  xy: 557, 154
   size: 186, 157
   orig: 334, 275
   offset: 78, 42
   index: -1
 effect_summon_10002_create-00009
-  rotate: true
-  xy: 157, 188
+  rotate: false
+  xy: 187, 153
   size: 185, 158
   orig: 334, 275
   offset: 78, 43
   index: -1
 effect_summon_10002_create-00010
-  rotate: true
-  xy: 158, 375
+  rotate: false
+  xy: 372, 153
   size: 185, 158
   orig: 334, 275
   offset: 76, 45
   index: -1
 effect_summon_10002_create-00011
-  rotate: true
-  xy: 159, 3
+  rotate: false
+  xy: 743, 156
   size: 185, 155
   orig: 334, 275
   offset: 74, 48
   index: -1
 effect_summon_10002_create-00012
-  rotate: true
-  xy: 314, 5
+  rotate: false
+  xy: 0, 2
   size: 183, 151
   orig: 334, 275
   offset: 73, 52
   index: -1
 effect_summon_10002_create-00013
-  rotate: true
-  xy: 316, 381
+  rotate: false
+  xy: 183, 4
   size: 179, 149
   orig: 334, 275
   offset: 73, 54
   index: -1
 effect_summon_10002_create-00014
   rotate: false
-  xy: 621, 415
+  xy: 708, 9
   size: 167, 145
   orig: 334, 275
   offset: 74, 58
   index: -1
 effect_summon_10002_create-00015
   rotate: false
-  xy: 619, 133
+  xy: 1094, 171
   size: 159, 140
   orig: 334, 275
   offset: 75, 64

@@ -1,0 +1,90 @@
+
+effect_shop_blood_glass_unpack.png
+size: 63,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_shop_blood_glass-00000
+  rotate: false
+  xy: 0, 91
+  size: 17, 28
+  orig: 131, 131
+  offset: 61, 53
+  index: -1
+effect_shop_blood_glass-00001
+  rotate: false
+  xy: 17, 84
+  size: 19, 28
+  orig: 131, 131
+  offset: 60, 53
+  index: -1
+effect_shop_blood_glass-00002
+  rotate: false
+  xy: 42, 105
+  size: 20, 27
+  orig: 131, 131
+  offset: 59, 54
+  index: -1
+effect_shop_blood_glass-00003
+  rotate: false
+  xy: 0, 119
+  size: 19, 13
+  orig: 131, 131
+  offset: 58, 56
+  index: -1
+effect_shop_blood_glass-00004
+  rotate: false
+  xy: 19, 112
+  size: 23, 20
+  orig: 131, 131
+  offset: 57, 51
+  index: -1
+effect_shop_blood_glass-00005
+  rotate: false
+  xy: 36, 81
+  size: 26, 24
+  orig: 131, 131
+  offset: 56, 50
+  index: -1
+effect_shop_blood_glass-00006
+  rotate: false
+  xy: 0, 34
+  size: 28, 26
+  orig: 131, 131
+  offset: 55, 50
+  index: -1
+effect_shop_blood_glass-00007
+  rotate: false
+  xy: 0, 1
+  size: 31, 28
+  orig: 131, 131
+  offset: 54, 50
+  index: -1
+effect_shop_blood_glass-00008
+  rotate: false
+  xy: 31, 0
+  size: 31, 29
+  orig: 131, 131
+  offset: 55, 51
+  index: -1
+effect_shop_blood_glass-00009
+  rotate: false
+  xy: 28, 29
+  size: 34, 27
+  orig: 131, 131
+  offset: 53, 53
+  index: -1
+effect_shop_blood_glass-00010
+  rotate: false
+  xy: 28, 56
+  size: 35, 25
+  orig: 131, 131
+  offset: 51, 55
+  index: -1
+effect_shop_blood_glass-00011
+  rotate: false
+  xy: 0, 60
+  size: 28, 24
+  orig: 131, 131
+  offset: 49, 53
+  index: -1

@@ -1,0 +1,111 @@
+
+effect_unlock_card_title_unpack.png
+size: 1780,543
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_unlock_card_title-00000
+  rotate: false
+  xy: 0, 273
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_unlock_card_title-00001
+  rotate: false
+  xy: 0, 3
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_unlock_card_title-00002
+  rotate: false
+  xy: 480, 273
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_unlock_card_title-00003
+  rotate: false
+  xy: 480, 3
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_unlock_card_title-00004
+  rotate: false
+  xy: 960, 273
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_unlock_card_title-00005
+  rotate: false
+  xy: 960, 3
+  size: 436, 270
+  orig: 480, 270
+  offset: 44, 0
+  index: -1
+effect_unlock_card_title-00006
+  rotate: false
+  xy: 1440, 231
+  size: 215, 95
+  orig: 480, 270
+  offset: 138, 175
+  index: -1
+effect_unlock_card_title-00007
+  rotate: false
+  xy: 1396, 132
+  size: 215, 99
+  orig: 480, 270
+  offset: 139, 171
+  index: -1
+effect_unlock_card_title-00008
+  rotate: false
+  xy: 1440, 434
+  size: 214, 109
+  orig: 480, 270
+  offset: 141, 161
+  index: -1
+effect_unlock_card_title-00009
+  rotate: false
+  xy: 1440, 326
+  size: 208, 108
+  orig: 480, 270
+  offset: 146, 162
+  index: -1
+effect_unlock_card_title-00010
+  rotate: false
+  xy: 1396, 18
+  size: 194, 114
+  orig: 480, 270
+  offset: 159, 156
+  index: -1
+effect_unlock_card_title-00011
+  rotate: false
+  xy: 1590, 0
+  size: 183, 119
+  orig: 480, 270
+  offset: 163, 148
+  index: -1
+effect_unlock_card_title-00012
+  rotate: false
+  xy: 1611, 119
+  size: 144, 112
+  orig: 480, 270
+  offset: 201, 154
+  index: -1
+effect_unlock_card_title-00013
+  rotate: false
+  xy: 1648, 335
+  size: 132, 99
+  orig: 480, 270
+  offset: 213, 148
+  index: -1
+effect_unlock_card_title-00014
+  rotate: false
+  xy: 1654, 449
+  size: 64, 94
+  orig: 480, 270
+  offset: 270, 142
+  index: -1

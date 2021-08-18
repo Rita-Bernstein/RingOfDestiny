@@ -1,40 +1,40 @@
 
 card_jieyin_zi_unpack.png
-size: 756,241
+size: 746,247
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jieyin_zi-00000
-  rotate: true
+  rotate: false
   xy: 0, 0
   size: 241, 247
   orig: 459, 379
   offset: 116, 67
   index: -1
 card_jieyin_zi-00001
-  rotate: true
-  xy: 247, 9
+  rotate: false
+  xy: 241, 12
   size: 232, 235
   orig: 459, 379
   offset: 118, 72
   index: -1
 card_jieyin_zi-00002
-  rotate: true
-  xy: 482, 43
+  rotate: false
+  xy: 473, 48
   size: 198, 199
   orig: 459, 379
   offset: 140, 92
   index: -1
 card_jieyin_zi-00003
   rotate: false
-  xy: 681, 4
+  xy: 671, 10
   size: 71, 117
   orig: 459, 379
   offset: 200, 147
   index: -1
 card_jieyin_zi-00004
   rotate: false
-  xy: 681, 121
+  xy: 671, 127
   size: 75, 120
   orig: 459, 379
   offset: 198, 146

@@ -1,0 +1,76 @@
+
+effect_award_up_light_unpack.png
+size: 1424,876
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_award_up_light-00000
+  rotate: false
+  xy: 0, 606
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_award_up_light-00001
+  rotate: false
+  xy: 0, 336
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+effect_award_up_light-00002
+  rotate: false
+  xy: 480, 631
+  size: 480, 245
+  orig: 480, 270
+  offset: 0, 25
+  index: -1
+effect_award_up_light-00003
+  rotate: false
+  xy: 951, 217
+  size: 473, 225
+  orig: 480, 270
+  offset: 7, 45
+  index: -1
+effect_award_up_light-00004
+  rotate: false
+  xy: 480, 160
+  size: 467, 233
+  orig: 480, 270
+  offset: 13, 37
+  index: -1
+effect_award_up_light-00005
+  rotate: false
+  xy: 480, 393
+  size: 471, 238
+  orig: 480, 270
+  offset: 9, 32
+  index: -1
+effect_award_up_light-00006
+  rotate: false
+  xy: 0, 103
+  size: 480, 233
+  orig: 480, 270
+  offset: 0, 37
+  index: -1
+effect_award_up_light-00007
+  rotate: false
+  xy: 960, 661
+  size: 461, 215
+  orig: 480, 270
+  offset: 19, 55
+  index: -1
+effect_award_up_light-00008
+  rotate: false
+  xy: 960, 442
+  size: 435, 219
+  orig: 480, 270
+  offset: 36, 51
+  index: -1
+effect_award_up_light-00009
+  rotate: false
+  xy: 947, 0
+  size: 418, 217
+  orig: 480, 270
+  offset: 37, 53
+  index: -1

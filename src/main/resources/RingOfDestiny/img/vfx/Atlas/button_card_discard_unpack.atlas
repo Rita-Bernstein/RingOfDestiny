@@ -1,145 +1,145 @@
 
 button_card_discard_unpack.png
-size: 2003,515
+size: 1693,612
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 button_card_discard-00000
-  rotate: true
-  xy: 580, 184
+  rotate: false
+  xy: 858, 304
   size: 167, 308
   orig: 280, 350
   offset: 59, 27
   index: -1
 button_card_discard-00001
-  rotate: true
-  xy: 1527, 177
+  rotate: false
+  xy: 510, 0
   size: 171, 301
   orig: 280, 350
   offset: 59, 26
   index: -1
 button_card_discard-00002
-  rotate: true
-  xy: 0, 14
+  rotate: false
+  xy: 510, 301
   size: 171, 311
   orig: 280, 350
   offset: 61, 27
   index: -1
 button_card_discard-00003
-  rotate: true
-  xy: 888, 183
+  rotate: false
+  xy: 342, 295
   size: 168, 317
   orig: 280, 350
   offset: 62, 29
   index: -1
 button_card_discard-00004
-  rotate: true
-  xy: 0, 187
+  rotate: false
+  xy: 1019, 6
   size: 167, 298
   orig: 280, 350
   offset: 62, 32
   index: -1
 button_card_discard-00005
-  rotate: true
-  xy: 1427, 350
+  rotate: false
+  xy: 1025, 304
   size: 165, 308
   orig: 280, 350
   offset: 63, 35
   index: -1
 button_card_discard-00006
-  rotate: true
-  xy: 1735, 348
+  rotate: false
+  xy: 1526, 68
   size: 167, 267
   orig: 280, 350
   offset: 62, 38
   index: -1
 button_card_discard-00007
-  rotate: true
-  xy: 594, 351
+  rotate: false
+  xy: 1365, 335
   size: 164, 277
   orig: 280, 350
   offset: 63, 39
   index: -1
 button_card_discard-00008
-  rotate: true
-  xy: 302, 352
+  rotate: false
+  xy: 1363, 37
   size: 163, 292
   orig: 280, 350
   offset: 63, 35
   index: -1
 button_card_discard-00009
-  rotate: true
-  xy: 0, 354
+  rotate: false
+  xy: 858, 2
   size: 161, 302
   orig: 280, 350
   offset: 61, 34
   index: -1
 button_card_discard-00010
-  rotate: true
-  xy: 871, 351
+  rotate: false
+  xy: 169, 0
   size: 164, 295
   orig: 280, 350
   offset: 61, 37
   index: -1
 button_card_discard-00011
-  rotate: true
-  xy: 1166, 351
+  rotate: false
+  xy: 1529, 351
   size: 164, 261
   orig: 280, 350
   offset: 63, 41
   index: -1
 button_card_discard-00012
-  rotate: true
-  xy: 298, 185
+  rotate: false
+  xy: 0, 8
   size: 167, 282
   orig: 280, 350
   offset: 60, 31
   index: -1
 button_card_discard-00013
-  rotate: true
-  xy: 903, 9
+  rotate: false
+  xy: 681, 6
   size: 174, 296
   orig: 280, 350
   offset: 54, 29
   index: -1
 button_card_discard-00014
-  rotate: true
-  xy: 1516, 0
+  rotate: false
+  xy: 681, 302
   size: 177, 310
   orig: 280, 350
   offset: 53, 28
   index: -1
 button_card_discard-00015
   rotate: false
-  xy: 1828, 65
+  xy: 1190, 329
   size: 175, 283
   orig: 280, 350
   offset: 54, 27
   index: -1
 button_card_discard-00016
-  rotate: true
-  xy: 311, 11
+  rotate: false
+  xy: 333, 6
   size: 173, 289
   orig: 280, 350
   offset: 53, 25
   index: -1
 button_card_discard-00017
-  rotate: true
-  xy: 600, 10
+  rotate: false
+  xy: 1190, 26
   size: 173, 303
   orig: 280, 350
   offset: 54, 23
   index: -1
 button_card_discard-00018
-  rotate: true
-  xy: 1199, 8
+  rotate: false
+  xy: 169, 295
   size: 173, 317
   orig: 280, 350
   offset: 53, 23
   index: -1
 button_card_discard-00019
-  rotate: true
-  xy: 1205, 181
+  rotate: false
+  xy: 0, 290
   size: 169, 322
   orig: 280, 350
   offset: 56, 25

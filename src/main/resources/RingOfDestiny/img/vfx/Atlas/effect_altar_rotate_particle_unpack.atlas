@@ -1,0 +1,90 @@
+
+effect_altar_rotate_particle_unpack.png
+size: 1658,773
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_altar_rotate_particle-00000
+  rotate: false
+  xy: 827, 513
+  size: 413, 260
+  orig: 523, 327
+  offset: 65, 23
+  index: -1
+effect_altar_rotate_particle-00001
+  rotate: false
+  xy: 0, 512
+  size: 413, 261
+  orig: 523, 327
+  offset: 65, 22
+  index: -1
+effect_altar_rotate_particle-00002
+  rotate: false
+  xy: 0, 253
+  size: 413, 259
+  orig: 523, 327
+  offset: 65, 24
+  index: -1
+effect_altar_rotate_particle-00003
+  rotate: false
+  xy: 0, 0
+  size: 410, 253
+  orig: 523, 327
+  offset: 64, 28
+  index: -1
+effect_altar_rotate_particle-00004
+  rotate: false
+  xy: 410, 0
+  size: 410, 253
+  orig: 523, 327
+  offset: 65, 27
+  index: -1
+effect_altar_rotate_particle-00005
+  rotate: false
+  xy: 823, 1
+  size: 411, 253
+  orig: 523, 327
+  offset: 66, 27
+  index: -1
+effect_altar_rotate_particle-00006
+  rotate: false
+  xy: 1240, 516
+  size: 418, 257
+  orig: 523, 327
+  offset: 63, 23
+  index: -1
+effect_altar_rotate_particle-00007
+  rotate: false
+  xy: 1240, 260
+  size: 418, 256
+  orig: 523, 327
+  offset: 63, 25
+  index: -1
+effect_altar_rotate_particle-00008
+  rotate: false
+  xy: 1239, 2
+  size: 415, 258
+  orig: 523, 327
+  offset: 64, 24
+  index: -1
+effect_altar_rotate_particle-00009
+  rotate: false
+  xy: 823, 254
+  size: 416, 259
+  orig: 523, 327
+  offset: 64, 23
+  index: -1
+effect_altar_rotate_particle-00010
+  rotate: false
+  xy: 413, 513
+  size: 414, 260
+  orig: 523, 327
+  offset: 66, 22
+  index: -1
+effect_altar_rotate_particle-00011
+  rotate: false
+  xy: 413, 253
+  size: 410, 260
+  orig: 523, 327
+  offset: 69, 22
+  index: -1

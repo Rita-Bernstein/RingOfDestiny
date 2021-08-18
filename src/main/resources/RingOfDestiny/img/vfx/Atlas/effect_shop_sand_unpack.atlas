@@ -1,0 +1,90 @@
+
+effect_shop_sand_unpack.png
+size: 864,66
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_shop_sand-00000
+  rotate: false
+  xy: 0, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00001
+  rotate: false
+  xy: 72, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00002
+  rotate: false
+  xy: 144, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00003
+  rotate: false
+  xy: 216, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00004
+  rotate: false
+  xy: 288, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00005
+  rotate: false
+  xy: 360, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00006
+  rotate: false
+  xy: 432, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00007
+  rotate: false
+  xy: 504, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00008
+  rotate: false
+  xy: 576, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00009
+  rotate: false
+  xy: 648, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00010
+  rotate: false
+  xy: 720, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1
+effect_shop_sand-00011
+  rotate: false
+  xy: 792, 0
+  size: 72, 66
+  orig: 452, 452
+  offset: 192, 193
+  index: -1

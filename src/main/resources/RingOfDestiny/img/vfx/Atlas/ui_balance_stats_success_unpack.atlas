@@ -1,0 +1,41 @@
+
+ui_balance_stats_success_unpack.png
+size: 1000,598
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_balance_stats_success-00000
+  rotate: false
+  xy: 500, 146
+  size: 500, 223
+  orig: 500, 319
+  offset: 0, 39
+  index: -1
+ui_balance_stats_success-00001
+  rotate: false
+  xy: 0, 283
+  size: 500, 315
+  orig: 500, 319
+  offset: 0, 0
+  index: -1
+ui_balance_stats_success-00002
+  rotate: false
+  xy: 0, 0
+  size: 500, 283
+  orig: 500, 319
+  offset: 0, 9
+  index: -1
+ui_balance_stats_success-00003
+  rotate: false
+  xy: 500, 369
+  size: 500, 229
+  orig: 500, 319
+  offset: 0, 36
+  index: -1
+ui_balance_stats_success-00004
+  rotate: false
+  xy: 500, 22
+  size: 483, 124
+  orig: 500, 319
+  offset: 17, 85
+  index: -1

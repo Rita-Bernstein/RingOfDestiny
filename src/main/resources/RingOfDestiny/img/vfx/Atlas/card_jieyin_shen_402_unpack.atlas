@@ -1,47 +1,47 @@
 
 card_jieyin_shen_402_unpack.png
-size: 742,418
+size: 715,427
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jieyin_shen_402-00000
-  rotate: true
-  xy: 0, 163
+  rotate: false
+  xy: 0, 159
   size: 255, 268
   orig: 459, 379
   offset: 112, 55
   index: -1
 card_jieyin_shen_402-00001
-  rotate: true
-  xy: 268, 177
+  rotate: false
+  xy: 255, 172
   size: 241, 255
   orig: 459, 379
   offset: 117, 61
   index: -1
 card_jieyin_shen_402-00002
   rotate: false
-  xy: 523, 187
+  xy: 496, 196
   size: 219, 231
   orig: 459, 379
   offset: 131, 75
   index: -1
 card_jieyin_shen_402-00003
   rotate: false
-  xy: 523, 0
+  xy: 496, 9
   size: 187, 187
   orig: 459, 379
   offset: 140, 93
   index: -1
 card_jieyin_shen_402-00004
-  rotate: true
-  xy: 268, 4
+  rotate: false
+  xy: 255, 0
   size: 173, 172
   orig: 459, 379
   offset: 147, 101
   index: -1
 card_jieyin_shen_402-00005
   rotate: false
-  xy: 0, 4
+  xy: 0, 0
   size: 158, 159
   orig: 459, 379
   offset: 156, 108

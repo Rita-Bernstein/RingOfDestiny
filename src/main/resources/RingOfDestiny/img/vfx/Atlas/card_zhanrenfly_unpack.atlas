@@ -1,54 +1,54 @@
 
 card_zhanrenfly_unpack.png
-size: 910,269
+size: 1787,137
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_zhanrenfly-00000
   rotate: false
-  xy: 260, 0
+  xy: 1284, 4
   size: 252, 133
   orig: 379, 351
   offset: 64, 91
   index: -1
 card_zhanrenfly-00001
   rotate: false
-  xy: 0, 132
+  xy: 0, 0
   size: 260, 137
   orig: 379, 351
   offset: 63, 85
   index: -1
 card_zhanrenfly-00002
   rotate: false
-  xy: 260, 133
+  xy: 260, 1
   size: 258, 136
   orig: 379, 351
   offset: 69, 89
   index: -1
 card_zhanrenfly-00003
   rotate: false
-  xy: 518, 135
+  xy: 773, 3
   size: 256, 134
   orig: 379, 351
   offset: 62, 92
   index: -1
 card_zhanrenfly-00004
-  rotate: true
-  xy: 774, 14
+  rotate: false
+  xy: 518, 1
   size: 255, 136
   orig: 379, 351
   offset: 61, 86
   index: -1
 card_zhanrenfly-00005
   rotate: false
-  xy: 518, 0
+  xy: 1029, 2
   size: 255, 135
   orig: 379, 351
   offset: 70, 87
   index: -1
 card_zhanrenfly-00006
   rotate: false
-  xy: 0, 1
+  xy: 1536, 6
   size: 251, 131
   orig: 379, 351
   offset: 69, 94

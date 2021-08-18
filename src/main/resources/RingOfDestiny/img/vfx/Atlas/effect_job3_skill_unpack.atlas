@@ -1,0 +1,90 @@
+
+effect_job3_skill_unpack.png
+size: 528,950
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job3_skill-00000
+  rotate: false
+  xy: 333, 862
+  size: 176, 88
+  orig: 500, 500
+  offset: 133, 206
+  index: -1
+effect_job3_skill-00001
+  rotate: false
+  xy: 300, 411
+  size: 211, 126
+  orig: 500, 500
+  offset: 103, 201
+  index: -1
+effect_job3_skill-00002
+  rotate: false
+  xy: 300, 537
+  size: 222, 145
+  orig: 500, 500
+  offset: 92, 203
+  index: -1
+effect_job3_skill-00003
+  rotate: false
+  xy: 0, 392
+  size: 300, 290
+  orig: 500, 500
+  offset: 101, 86
+  index: -1
+effect_job3_skill-00004
+  rotate: false
+  xy: 0, 682
+  size: 333, 268
+  orig: 500, 500
+  offset: 107, 106
+  index: -1
+effect_job3_skill-00005
+  rotate: false
+  xy: 0, 141
+  size: 293, 251
+  orig: 500, 500
+  offset: 111, 120
+  index: -1
+effect_job3_skill-00006
+  rotate: false
+  xy: 0, 0
+  size: 273, 141
+  orig: 500, 500
+  offset: 115, 209
+  index: -1
+effect_job3_skill-00007
+  rotate: false
+  xy: 293, 173
+  size: 235, 123
+  orig: 500, 500
+  offset: 116, 222
+  index: -1
+effect_job3_skill-00008
+  rotate: false
+  xy: 300, 296
+  size: 214, 115
+  orig: 500, 500
+  offset: 130, 219
+  index: -1
+effect_job3_skill-00009
+  rotate: false
+  xy: 293, 67
+  size: 209, 106
+  orig: 500, 500
+  offset: 131, 225
+  index: -1
+effect_job3_skill-00010
+  rotate: false
+  xy: 333, 782
+  size: 192, 80
+  orig: 500, 500
+  offset: 148, 245
+  index: -1
+effect_job3_skill-00011
+  rotate: false
+  xy: 333, 715
+  size: 142, 67
+  orig: 500, 500
+  offset: 170, 258
+  index: -1

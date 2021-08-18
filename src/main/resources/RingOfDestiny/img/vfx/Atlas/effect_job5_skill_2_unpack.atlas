@@ -1,117 +1,117 @@
 
 effect_job5_skill_2_unpack.png
-size: 1270,358
+size: 1419,328
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_job5_skill_2-00000
-  rotate: true
-  xy: 653, 183
+  rotate: false
+  xy: 887, 164
   size: 175, 164
   orig: 300, 300
   offset: 60, 73
   index: -1
 effect_job5_skill_2-00001
-  rotate: true
-  xy: 966, 11
+  rotate: false
+  xy: 1240, 17
   size: 173, 162
   orig: 300, 300
   offset: 62, 73
   index: -1
 effect_job5_skill_2-00002
-  rotate: true
-  xy: 806, 8
+  rotate: false
+  xy: 887, 4
   size: 175, 160
   orig: 300, 300
   offset: 61, 73
   index: -1
 effect_job5_skill_2-00003
-  rotate: true
-  xy: 640, 6
+  rotate: false
+  xy: 711, 162
   size: 176, 166
   orig: 300, 300
   offset: 62, 73
   index: -1
 effect_job5_skill_2-00004
-  rotate: true
-  xy: 0, 179
+  rotate: false
+  xy: 0, 158
   size: 179, 170
   orig: 300, 300
   offset: 61, 71
   index: -1
 effect_job5_skill_2-00005
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 1240, 179
   size: 179, 149
   orig: 300, 300
   offset: 62, 70
   index: -1
 effect_job5_skill_2-00006
-  rotate: true
-  xy: 479, 3
+  rotate: false
+  xy: 355, 0
   size: 177, 161
   orig: 300, 300
   offset: 63, 70
   index: -1
 effect_job5_skill_2-00007
-  rotate: true
-  xy: 337, 180
+  rotate: false
+  xy: 1062, 17
   size: 178, 148
   orig: 300, 300
   offset: 61, 72
   index: -1
 effect_job5_skill_2-00008
-  rotate: true
-  xy: 316, 2
+  rotate: false
+  xy: 1062, 165
   size: 178, 163
   orig: 300, 300
   offset: 61, 73
   index: -1
 effect_job5_skill_2-00009
-  rotate: true
-  xy: 149, 1
+  rotate: false
+  xy: 355, 161
   size: 178, 167
   orig: 300, 300
   offset: 62, 71
   index: -1
 effect_job5_skill_2-00010
-  rotate: true
-  xy: 170, 180
+  rotate: false
+  xy: 533, 161
   size: 178, 167
   orig: 300, 300
   offset: 62, 72
   index: -1
 effect_job5_skill_2-00011
-  rotate: true
-  xy: 485, 182
+  rotate: false
+  xy: 179, 160
   size: 176, 168
   orig: 300, 300
   offset: 63, 73
   index: -1
 effect_job5_skill_2-00012
-  rotate: true
-  xy: 817, 184
+  rotate: false
+  xy: 711, 12
   size: 174, 150
   orig: 300, 300
   offset: 64, 74
   index: -1
 effect_job5_skill_2-00013
-  rotate: true
-  xy: 967, 188
+  rotate: false
+  xy: 179, 10
   size: 170, 150
   orig: 300, 300
   offset: 65, 75
   index: -1
 effect_job5_skill_2-00014
-  rotate: true
-  xy: 1117, 190
+  rotate: false
+  xy: 0, 9
   size: 168, 149
   orig: 300, 300
   offset: 66, 76
   index: -1
 effect_job5_skill_2-00015
-  rotate: true
-  xy: 1128, 24
+  rotate: false
+  xy: 532, 19
   size: 166, 142
   orig: 300, 300
   offset: 67, 79

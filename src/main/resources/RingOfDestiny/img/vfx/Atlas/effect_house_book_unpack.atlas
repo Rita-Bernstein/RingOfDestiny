@@ -1,173 +1,173 @@
 
 effect_house_book_unpack.png
-size: 1636,1043
+size: 1565,1089
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_house_book-00000
-  rotate: true
-  xy: 270, 551
+  rotate: false
+  xy: 0, 10
   size: 251, 273
   orig: 311, 294
   offset: 29, 20
   index: -1
 effect_house_book-00001
-  rotate: true
-  xy: 1349, 269
+  rotate: false
+  xy: 1282, 549
   size: 267, 271
   orig: 311, 294
   offset: 15, 21
   index: -1
 effect_house_book-00002
-  rotate: true
-  xy: 1346, 0
+  rotate: false
+  xy: 262, 280
   size: 269, 271
   orig: 311, 294
   offset: 15, 21
   index: -1
 effect_house_book-00003
-  rotate: true
-  xy: 543, 285
+  rotate: false
+  xy: 0, 283
   size: 262, 271
   orig: 311, 294
   offset: 13, 21
   index: -1
 effect_house_book-00004
   rotate: false
-  xy: 0, 30
+  xy: 523, 821
   size: 268, 268
   orig: 311, 294
   offset: 10, 20
   index: -1
 effect_house_book-00005
-  rotate: true
-  xy: 814, 278
+  rotate: false
+  xy: 791, 821
   size: 262, 268
   orig: 311, 294
   offset: 8, 21
   index: -1
 effect_house_book-00006
   rotate: false
-  xy: 540, 17
+  xy: 1053, 821
   size: 268, 268
   orig: 311, 294
   offset: 9, 20
   index: -1
 effect_house_book-00007
-  rotate: true
-  xy: 1359, 536
+  rotate: false
+  xy: 0, 822
   size: 261, 267
   orig: 311, 294
   offset: 11, 21
   index: -1
 effect_house_book-00008
-  rotate: true
-  xy: 1363, 797
+  rotate: false
+  xy: 251, 7
   size: 246, 273
   orig: 311, 294
   offset: 17, 19
   index: -1
 effect_house_book-00009
-  rotate: true
-  xy: 542, 802
+  rotate: false
+  xy: 1013, 4
   size: 241, 275
   orig: 311, 294
   offset: 25, 15
   index: -1
 effect_house_book-00010
-  rotate: true
-  xy: 817, 540
+  rotate: false
+  xy: 531, 280
   size: 258, 271
   orig: 311, 294
   offset: 29, 19
   index: -1
 effect_house_book-00011
-  rotate: true
-  xy: 272, 809
+  rotate: false
+  xy: 268, 552
   size: 234, 270
   orig: 311, 294
   offset: 35, 20
   index: -1
 effect_house_book-00012
-  rotate: true
-  xy: 0, 810
+  rotate: false
+  xy: 1049, 279
   size: 233, 272
   orig: 311, 294
   offset: 33, 20
   index: -1
 effect_house_book-00013
-  rotate: true
-  xy: 817, 799
+  rotate: false
+  xy: 1321, 820
   size: 244, 269
   orig: 311, 294
   offset: 26, 21
   index: -1
 effect_house_book-00014
-  rotate: true
-  xy: 268, 23
+  rotate: false
+  xy: 1282, 277
   size: 267, 272
   orig: 311, 294
   offset: 17, 20
   index: -1
 effect_house_book-00015
-  rotate: true
-  xy: 270, 290
+  rotate: false
+  xy: 497, 7
   size: 261, 273
   orig: 311, 294
   offset: 13, 19
   index: -1
 effect_house_book-00016
-  rotate: true
-  xy: 808, 10
+  rotate: false
+  xy: 502, 551
   size: 268, 270
   orig: 311, 294
   offset: 10, 19
   index: -1
 effect_house_book-00017
-  rotate: true
-  xy: 1082, 276
+  rotate: false
+  xy: 261, 822
   size: 262, 267
   orig: 311, 294
   offset: 8, 21
   index: -1
 effect_house_book-00018
   rotate: false
-  xy: 1078, 8
+  xy: 0, 554
   size: 268, 268
   orig: 311, 294
   offset: 9, 20
   index: -1
 effect_house_book-00019
-  rotate: true
-  xy: 0, 298
+  rotate: false
+  xy: 770, 551
   size: 261, 270
   orig: 311, 294
   offset: 11, 20
   index: -1
 effect_house_book-00020
-  rotate: true
-  xy: 0, 559
+  rotate: false
+  xy: 1031, 551
   size: 251, 270
   orig: 311, 294
   offset: 17, 20
   index: -1
 effect_house_book-00021
-  rotate: true
-  xy: 1086, 798
+  rotate: false
+  xy: 1254, 0
   size: 245, 277
   orig: 311, 294
   offset: 25, 15
   index: -1
 effect_house_book-00022
-  rotate: true
-  xy: 1088, 538
+  rotate: false
+  xy: 789, 280
   size: 260, 271
   orig: 311, 294
   offset: 27, 19
   index: -1
 effect_house_book-00023
-  rotate: true
-  xy: 543, 547
+  rotate: false
+  xy: 758, 6
   size: 255, 274
   orig: 311, 294
   offset: 32, 19

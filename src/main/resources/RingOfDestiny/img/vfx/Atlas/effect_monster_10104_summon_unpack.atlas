@@ -1,0 +1,104 @@
+
+effect_monster_10104_summon_unpack.png
+size: 658,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10104_summon-00000
+  rotate: false
+  xy: 0, 531
+  size: 228, 232
+  orig: 500, 500
+  offset: 149, 105
+  index: -1
+effect_monster_10104_summon-00001
+  rotate: false
+  xy: 232, 771
+  size: 232, 247
+  orig: 500, 500
+  offset: 150, 105
+  index: -1
+effect_monster_10104_summon-00002
+  rotate: false
+  xy: 0, 763
+  size: 232, 255
+  orig: 500, 500
+  offset: 150, 105
+  index: -1
+effect_monster_10104_summon-00003
+  rotate: false
+  xy: 232, 511
+  size: 230, 260
+  orig: 500, 500
+  offset: 150, 110
+  index: -1
+effect_monster_10104_summon-00004
+  rotate: false
+  xy: 0, 272
+  size: 227, 259
+  orig: 500, 500
+  offset: 150, 116
+  index: -1
+effect_monster_10104_summon-00005
+  rotate: false
+  xy: 227, 259
+  size: 226, 252
+  orig: 500, 500
+  offset: 150, 126
+  index: -1
+effect_monster_10104_summon-00006
+  rotate: false
+  xy: 0, 29
+  size: 223, 243
+  orig: 500, 500
+  offset: 152, 138
+  index: -1
+effect_monster_10104_summon-00007
+  rotate: false
+  xy: 223, 29
+  size: 218, 230
+  orig: 500, 500
+  offset: 155, 150
+  index: -1
+effect_monster_10104_summon-00008
+  rotate: false
+  xy: 441, 0
+  size: 211, 218
+  orig: 500, 500
+  offset: 159, 163
+  index: -1
+effect_monster_10104_summon-00009
+  rotate: false
+  xy: 462, 475
+  size: 196, 211
+  orig: 500, 500
+  offset: 169, 165
+  index: -1
+effect_monster_10104_summon-00010
+  rotate: false
+  xy: 464, 831
+  size: 169, 187
+  orig: 500, 500
+  offset: 181, 181
+  index: -1
+effect_monster_10104_summon-00011
+  rotate: false
+  xy: 464, 686
+  size: 154, 145
+  orig: 500, 500
+  offset: 191, 212
+  index: -1
+effect_monster_10104_summon-00012
+  rotate: false
+  xy: 453, 334
+  size: 131, 141
+  orig: 500, 500
+  offset: 199, 218
+  index: -1
+effect_monster_10104_summon-00013
+  rotate: false
+  xy: 453, 218
+  size: 116, 116
+  orig: 500, 500
+  offset: 208, 247
+  index: -1

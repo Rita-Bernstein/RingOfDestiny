@@ -1,0 +1,69 @@
+
+effect_login_unpack.png
+size: 1500,663
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_login-00000
+  rotate: false
+  xy: 497, 0
+  size: 497, 223
+  orig: 500, 231
+  offset: 0, 0
+  index: -1
+effect_login-00001
+  rotate: false
+  xy: 0, 3
+  size: 497, 222
+  orig: 500, 231
+  offset: 0, 0
+  index: -1
+effect_login-00002
+  rotate: false
+  xy: 500, 223
+  size: 498, 221
+  orig: 500, 231
+  offset: 0, 0
+  index: -1
+effect_login-00003
+  rotate: false
+  xy: 0, 225
+  size: 500, 220
+  orig: 500, 231
+  offset: 0, 0
+  index: -1
+effect_login-00004
+  rotate: false
+  xy: 500, 444
+  size: 500, 219
+  orig: 500, 231
+  offset: 0, 0
+  index: -1
+effect_login-00005
+  rotate: false
+  xy: 0, 445
+  size: 500, 218
+  orig: 500, 231
+  offset: 0, 0
+  index: -1
+effect_login-00006
+  rotate: false
+  xy: 1000, 444
+  size: 500, 219
+  orig: 500, 231
+  offset: 0, 0
+  index: -1
+effect_login-00007
+  rotate: false
+  xy: 998, 223
+  size: 500, 221
+  orig: 500, 231
+  offset: 0, 0
+  index: -1
+effect_login-00008
+  rotate: false
+  xy: 994, 0
+  size: 498, 223
+  orig: 500, 231
+  offset: 0, 0
+  index: -1

@@ -1,103 +1,103 @@
 
 monster_10086_chongai_unpack.png
-size: 205,525
+size: 1091,98
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10086_chongai-00000
   rotate: false
-  xy: 77, 0
+  xy: 1043, 54
   size: 48, 44
   orig: 322, 235
   offset: 198, 103
   index: -1
 monster_10086_chongai-00001
   rotate: false
-  xy: 107, 435
+  xy: 713, 8
   size: 98, 90
   orig: 322, 235
   offset: 172, 80
   index: -1
 monster_10086_chongai-00002
   rotate: false
-  xy: 0, 332
+  xy: 351, 3
   size: 104, 95
   orig: 322, 235
   offset: 168, 78
   index: -1
 monster_10086_chongai-00003
   rotate: false
-  xy: 0, 427
+  xy: 0, 0
   size: 107, 98
   orig: 322, 235
   offset: 165, 76
   index: -1
 monster_10086_chongai-00004
   rotate: false
-  xy: 0, 239
+  xy: 520, 5
   size: 103, 93
   orig: 322, 235
   offset: 165, 79
   index: -1
 monster_10086_chongai-00005
   rotate: false
-  xy: 90, 44
+  xy: 905, 16
   size: 86, 82
   orig: 322, 235
   offset: 123, 94
   index: -1
 monster_10086_chongai-00006
   rotate: false
-  xy: 0, 150
+  xy: 811, 9
   size: 94, 89
   orig: 322, 235
   offset: 105, 90
   index: -1
 monster_10086_chongai-00007
   rotate: false
-  xy: 0, 57
+  xy: 623, 5
   size: 90, 93
   orig: 322, 235
   offset: 90, 88
   index: -1
 monster_10086_chongai-00008
-  rotate: true
-  xy: 103, 191
+  rotate: false
+  xy: 264, 2
   size: 87, 96
   orig: 322, 235
   offset: 79, 86
   index: -1
 monster_10086_chongai-00009
-  rotate: true
-  xy: 107, 352
+  rotate: false
+  xy: 107, 0
   size: 83, 98
   orig: 322, 235
   offset: 71, 85
   index: -1
 monster_10086_chongai-00010
-  rotate: true
-  xy: 104, 278
+  rotate: false
+  xy: 190, 0
   size: 74, 98
   orig: 322, 235
   offset: 67, 87
   index: -1
 monster_10086_chongai-00011
-  rotate: true
-  xy: 94, 126
+  rotate: false
+  xy: 455, 3
   size: 65, 95
   orig: 322, 235
   offset: 67, 92
   index: -1
 monster_10086_chongai-00012
-  rotate: true
-  xy: 0, 5
+  rotate: false
+  xy: 991, 21
   size: 52, 77
   orig: 322, 235
   offset: 68, 107
   index: -1
 monster_10086_chongai-00013
   rotate: false
-  xy: 125, 24
+  xy: 1043, 34
   size: 20, 20
   orig: 322, 235
   offset: 79, 151

@@ -1,0 +1,48 @@
+
+effect_give_card_behind_unpack.png
+size: 1402,160
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_give_card_behind-00000
+  rotate: false
+  xy: 894, 40
+  size: 234, 120
+  orig: 500, 500
+  offset: 106, 188
+  index: -1
+effect_give_card_behind-00001
+  rotate: false
+  xy: 602, 16
+  size: 292, 144
+  orig: 500, 500
+  offset: 112, 167
+  index: -1
+effect_give_card_behind-00002
+  rotate: false
+  xy: 0, 3
+  size: 312, 157
+  orig: 500, 500
+  offset: 107, 153
+  index: -1
+effect_give_card_behind-00003
+  rotate: false
+  xy: 312, 0
+  size: 290, 160
+  orig: 500, 500
+  offset: 125, 156
+  index: -1
+effect_give_card_behind-00004
+  rotate: false
+  xy: 1128, 16
+  size: 184, 144
+  orig: 500, 500
+  offset: 233, 155
+  index: -1
+effect_give_card_behind-00005
+  rotate: false
+  xy: 1312, 47
+  size: 90, 113
+  orig: 500, 500
+  offset: 328, 153
+  index: -1

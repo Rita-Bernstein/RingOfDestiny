@@ -1,0 +1,27 @@
+
+effect_altar_card_light_unpack.png
+size: 339,1101
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_altar_card_light-00000
+  rotate: false
+  xy: 0, 725
+  size: 339, 376
+  orig: 500, 500
+  offset: 88, 50
+  index: -1
+effect_altar_card_light-00001
+  rotate: false
+  xy: 0, 355
+  size: 335, 370
+  orig: 500, 500
+  offset: 90, 53
+  index: -1
+effect_altar_card_light-00002
+  rotate: false
+  xy: 0, 0
+  size: 325, 355
+  orig: 500, 500
+  offset: 95, 60
+  index: -1

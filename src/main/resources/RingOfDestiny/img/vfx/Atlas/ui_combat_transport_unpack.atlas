@@ -1,0 +1,111 @@
+
+ui_combat_transport_unpack.png
+size: 664,1064
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_combat_transport-00000
+  rotate: false
+  xy: 117, 34
+  size: 81, 81
+  orig: 500, 500
+  offset: 214, 183
+  index: -1
+ui_combat_transport-00001
+  rotate: false
+  xy: 541, 969
+  size: 97, 95
+  orig: 500, 500
+  offset: 205, 177
+  index: -1
+ui_combat_transport-00002
+  rotate: false
+  xy: 0, 0
+  size: 117, 115
+  orig: 500, 500
+  offset: 193, 170
+  index: -1
+ui_combat_transport-00003
+  rotate: false
+  xy: 470, 42
+  size: 126, 122
+  orig: 500, 500
+  offset: 187, 163
+  index: -1
+ui_combat_transport-00004
+  rotate: false
+  xy: 476, 164
+  size: 136, 132
+  orig: 500, 500
+  offset: 184, 158
+  index: -1
+ui_combat_transport-00005
+  rotate: false
+  xy: 530, 760
+  size: 134, 136
+  orig: 500, 500
+  offset: 186, 151
+  index: -1
+ui_combat_transport-00006
+  rotate: false
+  xy: 0, 115
+  size: 328, 301
+  orig: 500, 500
+  offset: 89, 101
+  index: -1
+ui_combat_transport-00007
+  rotate: false
+  xy: 0, 734
+  size: 376, 330
+  orig: 500, 500
+  offset: 65, 86
+  index: -1
+ui_combat_transport-00008
+  rotate: false
+  xy: 0, 416
+  size: 350, 318
+  orig: 500, 500
+  offset: 78, 92
+  index: -1
+ui_combat_transport-00009
+  rotate: false
+  xy: 350, 457
+  size: 306, 277
+  orig: 500, 500
+  offset: 100, 113
+  index: -1
+ui_combat_transport-00010
+  rotate: false
+  xy: 328, 236
+  size: 148, 180
+  orig: 500, 500
+  offset: 176, 154
+  index: -1
+ui_combat_transport-00011
+  rotate: false
+  xy: 328, 71
+  size: 142, 165
+  orig: 500, 500
+  offset: 181, 160
+  index: -1
+ui_combat_transport-00012
+  rotate: false
+  xy: 476, 296
+  size: 151, 161
+  orig: 500, 500
+  offset: 178, 161
+  index: -1
+ui_combat_transport-00013
+  rotate: false
+  xy: 376, 896
+  size: 165, 168
+  orig: 500, 500
+  offset: 168, 159
+  index: -1
+ui_combat_transport-00014
+  rotate: false
+  xy: 376, 736
+  size: 154, 160
+  orig: 500, 500
+  offset: 169, 160
+  index: -1

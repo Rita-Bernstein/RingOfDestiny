@@ -1,0 +1,216 @@
+
+ui_btn_new_3_unpack.png
+size: 1003,1082
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_btn_new_3-00000
+  rotate: false
+  xy: 468, 860
+  size: 257, 222
+  orig: 500, 500
+  offset: 124, 133
+  index: -1
+ui_btn_new_3-00015
+  rotate: false
+  xy: 468, 860
+  size: 257, 222
+  orig: 500, 500
+  offset: 124, 133
+  index: -1
+ui_btn_new_3-00001
+  rotate: false
+  xy: 723, 616
+  size: 280, 198
+  orig: 500, 500
+  offset: 112, 145
+  index: -1
+ui_btn_new_3-00016
+  rotate: false
+  xy: 723, 616
+  size: 280, 198
+  orig: 500, 500
+  offset: 112, 145
+  index: -1
+ui_btn_new_3-00002
+  rotate: false
+  xy: 351, 176
+  size: 292, 175
+  orig: 500, 500
+  offset: 106, 156
+  index: -1
+ui_btn_new_3-00017
+  rotate: false
+  xy: 351, 176
+  size: 292, 175
+  orig: 500, 500
+  offset: 106, 156
+  index: -1
+ui_btn_new_3-00003
+  rotate: false
+  xy: 351, 23
+  size: 292, 153
+  orig: 500, 500
+  offset: 106, 167
+  index: -1
+ui_btn_new_3-00004
+  rotate: false
+  xy: 605, 442
+  size: 285, 174
+  orig: 500, 500
+  offset: 110, 157
+  index: -1
+ui_btn_new_3-00019
+  rotate: false
+  xy: 605, 442
+  size: 285, 174
+  orig: 500, 500
+  offset: 110, 157
+  index: -1
+ui_btn_new_3-00005
+  rotate: false
+  xy: 0, 375
+  size: 273, 197
+  orig: 500, 500
+  offset: 116, 145
+  index: -1
+ui_btn_new_3-00020
+  rotate: false
+  xy: 0, 375
+  size: 273, 197
+  orig: 500, 500
+  offset: 116, 145
+  index: -1
+ui_btn_new_3-00006
+  rotate: false
+  xy: 468, 639
+  size: 255, 221
+  orig: 500, 500
+  offset: 125, 133
+  index: -1
+ui_btn_new_3-00021
+  rotate: false
+  xy: 468, 639
+  size: 255, 221
+  orig: 500, 500
+  offset: 125, 133
+  index: -1
+ui_btn_new_3-00007
+  rotate: false
+  xy: 0, 837
+  size: 235, 245
+  orig: 500, 500
+  offset: 135, 121
+  index: -1
+ui_btn_new_3-00022
+  rotate: false
+  xy: 0, 837
+  size: 235, 245
+  orig: 500, 500
+  offset: 135, 121
+  index: -1
+ui_btn_new_3-00008
+  rotate: false
+  xy: 725, 814
+  size: 211, 268
+  orig: 500, 500
+  offset: 147, 110
+  index: -1
+ui_btn_new_3-00023
+  rotate: false
+  xy: 725, 814
+  size: 211, 268
+  orig: 500, 500
+  offset: 147, 110
+  index: -1
+ui_btn_new_3-00009
+  rotate: false
+  xy: 418, 351
+  size: 187, 288
+  orig: 500, 500
+  offset: 159, 100
+  index: -1
+ui_btn_new_3-00024
+  rotate: false
+  xy: 418, 351
+  size: 187, 288
+  orig: 500, 500
+  offset: 159, 100
+  index: -1
+ui_btn_new_3-00010
+  rotate: false
+  xy: 186, 82
+  size: 165, 293
+  orig: 500, 500
+  offset: 170, 97
+  index: -1
+ui_btn_new_3-00025
+  rotate: false
+  xy: 186, 82
+  size: 165, 293
+  orig: 500, 500
+  offset: 170, 97
+  index: -1
+ui_btn_new_3-00011
+  rotate: false
+  xy: 643, 153
+  size: 163, 289
+  orig: 500, 500
+  offset: 171, 99
+  index: -1
+ui_btn_new_3-00012
+  rotate: false
+  xy: 0, 95
+  size: 186, 280
+  orig: 500, 500
+  offset: 159, 104
+  index: -1
+ui_btn_new_3-00027
+  rotate: false
+  xy: 0, 95
+  size: 186, 280
+  orig: 500, 500
+  offset: 159, 104
+  index: -1
+ui_btn_new_3-00013
+  rotate: false
+  xy: 0, 572
+  size: 209, 265
+  orig: 500, 500
+  offset: 148, 111
+  index: -1
+ui_btn_new_3-00014
+  rotate: false
+  xy: 235, 837
+  size: 233, 245
+  orig: 500, 500
+  offset: 136, 121
+  index: -1
+ui_btn_new_3-00029
+  rotate: false
+  xy: 235, 837
+  size: 233, 245
+  orig: 500, 500
+  offset: 136, 121
+  index: -1
+ui_btn_new_3-00018
+  rotate: false
+  xy: 643, 0
+  size: 292, 153
+  orig: 500, 500
+  offset: 106, 167
+  index: -1
+ui_btn_new_3-00026
+  rotate: false
+  xy: 806, 153
+  size: 163, 289
+  orig: 500, 500
+  offset: 171, 99
+  index: -1
+ui_btn_new_3-00028
+  rotate: false
+  xy: 209, 572
+  size: 209, 265
+  orig: 500, 500
+  offset: 148, 111
+  index: -1

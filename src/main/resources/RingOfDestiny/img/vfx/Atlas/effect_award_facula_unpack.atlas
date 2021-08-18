@@ -1,0 +1,118 @@
+
+effect_award_facula_unpack.png
+size: 2018,1119
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_award_facula-00000
+  rotate: false
+  xy: 1768, 11
+  size: 245, 175
+  orig: 480, 367
+  offset: 109, 100
+  index: -1
+effect_award_facula-00001
+  rotate: false
+  xy: 1768, 186
+  size: 250, 181
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00002
+  rotate: false
+  xy: 1518, 183
+  size: 250, 184
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00003
+  rotate: false
+  xy: 258, 183
+  size: 252, 184
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00004
+  rotate: false
+  xy: 510, 183
+  size: 252, 184
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00005
+  rotate: false
+  xy: 762, 183
+  size: 252, 184
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00006
+  rotate: false
+  xy: 1014, 183
+  size: 252, 184
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00007
+  rotate: false
+  xy: 1266, 183
+  size: 252, 184
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00008
+  rotate: false
+  xy: 0, 183
+  size: 258, 184
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00009
+  rotate: false
+  xy: 0, 0
+  size: 258, 183
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00010
+  rotate: false
+  xy: 258, 0
+  size: 258, 183
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00011
+  rotate: false
+  xy: 516, 1
+  size: 258, 182
+  orig: 480, 367
+  offset: 108, 95
+  index: -1
+effect_award_facula-00012
+  rotate: false
+  xy: 774, 2
+  size: 258, 181
+  orig: 480, 367
+  offset: 108, 94
+  index: -1
+effect_award_facula-00013
+  rotate: false
+  xy: 1032, 4
+  size: 257, 179
+  orig: 480, 367
+  offset: 108, 98
+  index: -1
+effect_award_facula-00014
+  rotate: false
+  xy: 1289, 15
+  size: 256, 168
+  orig: 480, 367
+  offset: 109, 99
+  index: -1
+effect_award_facula-effect_award_facula
+  rotate: false
+  xy: 0, 367
+  size: 1979, 752
+  orig: 1983, 756
+  offset: 2, 2
+  index: -1

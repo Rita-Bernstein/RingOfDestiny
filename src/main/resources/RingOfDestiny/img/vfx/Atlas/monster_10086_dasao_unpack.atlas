@@ -1,117 +1,117 @@
 
 monster_10086_dasao_unpack.png
-size: 180,776
+size: 229,618
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10086_dasao-00000
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 109
   size: 101, 41
   orig: 339, 223
   offset: 167, 80
   index: -1
 monster_10086_dasao-00001
-  rotate: true
-  xy: 52, 26
+  rotate: false
+  xy: 101, 103
   size: 100, 47
   orig: 339, 223
   offset: 177, 77
   index: -1
 monster_10086_dasao-00002
-  rotate: true
-  xy: 52, 126
+  rotate: false
+  xy: 97, 53
   size: 97, 50
   orig: 339, 223
   offset: 183, 79
   index: -1
 monster_10086_dasao-00003
-  rotate: true
-  xy: 0, 101
+  rotate: false
+  xy: 0, 268
   size: 219, 52
   orig: 339, 223
   offset: 74, 79
   index: -1
 monster_10086_dasao-00004
-  rotate: true
-  xy: 0, 320
+  rotate: false
+  xy: 0, 379
   size: 227, 59
   orig: 339, 223
   offset: 65, 77
   index: -1
 monster_10086_dasao-00010
-  rotate: true
-  xy: 0, 320
+  rotate: false
+  xy: 0, 379
   size: 227, 59
   orig: 339, 223
   offset: 65, 77
   index: -1
 monster_10086_dasao-00005
-  rotate: true
-  xy: 118, 332
+  rotate: false
+  xy: 0, 209
   size: 215, 59
   orig: 339, 223
   offset: 62, 79
   index: -1
 monster_10086_dasao-00011
-  rotate: true
-  xy: 118, 332
+  rotate: false
+  xy: 0, 209
   size: 215, 59
   orig: 339, 223
   offset: 62, 79
   index: -1
 monster_10086_dasao-00006
-  rotate: true
-  xy: 0, 547
+  rotate: false
+  xy: 0, 558
   size: 229, 60
   orig: 339, 223
   offset: 49, 79
   index: -1
 monster_10086_dasao-00007
-  rotate: true
-  xy: 59, 320
+  rotate: false
+  xy: 0, 320
   size: 227, 59
   orig: 339, 223
   offset: 50, 77
   index: -1
 monster_10086_dasao-00008
-  rotate: true
-  xy: 118, 117
+  rotate: false
+  xy: 0, 150
   size: 215, 59
   orig: 339, 223
   offset: 65, 79
   index: -1
 monster_10086_dasao-00009
-  rotate: true
-  xy: 60, 547
+  rotate: false
+  xy: 0, 498
   size: 229, 60
   orig: 339, 223
   offset: 64, 79
   index: -1
 monster_10086_dasao-00012
-  rotate: true
-  xy: 120, 547
+  rotate: false
+  xy: 0, 438
   size: 229, 60
   orig: 339, 223
   offset: 49, 79
   index: -1
 monster_10086_dasao-00013
-  rotate: true
-  xy: 52, 223
+  rotate: false
+  xy: 0, 55
   size: 97, 54
   orig: 339, 223
   offset: 50, 82
   index: -1
 monster_10086_dasao-00014
   rotate: false
-  xy: 99, 63
+  xy: 0, 1
   size: 74, 54
   orig: 339, 223
   offset: 65, 84
   index: -1
 monster_10086_dasao-00015
   rotate: false
-  xy: 99, 10
+  xy: 74, 0
   size: 68, 53
   orig: 339, 223
   offset: 64, 86

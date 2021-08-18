@@ -1,0 +1,55 @@
+
+ui_box_fluxay_unpack.png
+size: 107,633
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_box_fluxay-00000
+  rotate: false
+  xy: 42, 520
+  size: 65, 113
+  orig: 250, 250
+  offset: 74, 46
+  index: -1
+ui_box_fluxay-00001
+  rotate: false
+  xy: 0, 114
+  size: 104, 114
+  orig: 250, 250
+  offset: 68, 45
+  index: -1
+ui_box_fluxay-00002
+  rotate: false
+  xy: 0, 0
+  size: 100, 114
+  orig: 250, 250
+  offset: 72, 45
+  index: -1
+ui_box_fluxay-00003
+  rotate: false
+  xy: 0, 228
+  size: 100, 112
+  orig: 250, 250
+  offset: 80, 47
+  index: -1
+ui_box_fluxay-00004
+  rotate: false
+  xy: 0, 340
+  size: 105, 103
+  orig: 250, 250
+  offset: 80, 56
+  index: -1
+ui_box_fluxay-00005
+  rotate: false
+  xy: 0, 443
+  size: 81, 77
+  orig: 250, 250
+  offset: 91, 82
+  index: -1
+ui_box_fluxay-00006
+  rotate: false
+  xy: 0, 571
+  size: 42, 62
+  orig: 250, 250
+  offset: 130, 97
+  index: -1

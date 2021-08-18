@@ -1,0 +1,76 @@
+
+effect_monster_10110_hit_unpack.png
+size: 749,783
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10110_hit-00000
+  rotate: false
+  xy: 532, 183
+  size: 161, 165
+  orig: 500, 409
+  offset: 166, 131
+  index: -1
+effect_monster_10110_hit-00001
+  rotate: false
+  xy: 539, 348
+  size: 200, 204
+  orig: 500, 409
+  offset: 147, 111
+  index: -1
+effect_monster_10110_hit-00002
+  rotate: false
+  xy: 250, 7
+  size: 224, 249
+  orig: 500, 409
+  offset: 133, 84
+  index: -1
+effect_monster_10110_hit-00003
+  rotate: false
+  xy: 539, 552
+  size: 210, 231
+  orig: 500, 409
+  offset: 142, 77
+  index: -1
+effect_monster_10110_hit-00004
+  rotate: false
+  xy: 0, 0
+  size: 231, 235
+  orig: 500, 409
+  offset: 130, 77
+  index: -1
+effect_monster_10110_hit-00005
+  rotate: false
+  xy: 0, 235
+  size: 250, 260
+  orig: 500, 409
+  offset: 121, 57
+  index: -1
+effect_monster_10110_hit-00006
+  rotate: false
+  xy: 0, 495
+  size: 267, 288
+  orig: 500, 409
+  offset: 112, 37
+  index: -1
+effect_monster_10110_hit-00007
+  rotate: false
+  xy: 267, 503
+  size: 272, 280
+  orig: 500, 409
+  offset: 119, 47
+  index: -1
+effect_monster_10110_hit-00008
+  rotate: false
+  xy: 267, 256
+  size: 265, 247
+  orig: 500, 409
+  offset: 119, 72
+  index: -1
+effect_monster_10110_hit-00009
+  rotate: false
+  xy: 474, 11
+  size: 238, 172
+  orig: 500, 409
+  offset: 122, 92
+  index: -1

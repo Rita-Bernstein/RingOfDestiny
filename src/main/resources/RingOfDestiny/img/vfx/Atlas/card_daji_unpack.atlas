@@ -1,33 +1,33 @@
 
 card_daji_unpack.png
-size: 453,197
+size: 199,460
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_daji-00000
   rotate: false
-  xy: 341, 87
+  xy: 87, 350
   size: 112, 110
   orig: 250, 250
   offset: 37, 125
   index: -1
 card_daji-00001
-  rotate: true
-  xy: 0, 9
+  rotate: false
+  xy: 0, 0
   size: 188, 187
   orig: 250, 250
   offset: 46, 44
   index: -1
 card_daji-00002
   rotate: false
-  xy: 187, 34
+  xy: 0, 187
   size: 154, 163
   orig: 250, 250
   offset: 91, 28
   index: -1
 card_daji-00003
-  rotate: true
-  xy: 341, 0
+  rotate: false
+  xy: 0, 367
   size: 87, 93
   orig: 250, 250
   offset: 146, 34

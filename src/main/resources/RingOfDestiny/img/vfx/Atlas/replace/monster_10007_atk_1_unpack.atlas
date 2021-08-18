@@ -1,0 +1,55 @@
+
+monster_10007_atk_1_unpack.png
+size: 517,551
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10007_atk_1-00000
+  rotate: false
+  xy: 290, 1
+  size: 69, 93
+  orig: 468, 468
+  offset: 243, 197
+  index: -1
+monster_10007_atk_1-00001
+  rotate: false
+  xy: 0, 174
+  size: 281, 190
+  orig: 468, 468
+  offset: 76, 127
+  index: -1
+monster_10007_atk_1-00002
+  rotate: false
+  xy: 0, 364
+  size: 288, 187
+  orig: 468, 468
+  offset: 70, 126
+  index: -1
+monster_10007_atk_1-00003
+  rotate: false
+  xy: 0, 0
+  size: 290, 174
+  orig: 468, 468
+  offset: 68, 126
+  index: -1
+monster_10007_atk_1-00004
+  rotate: false
+  xy: 288, 386
+  size: 229, 165
+  orig: 468, 468
+  offset: 126, 126
+  index: -1
+monster_10007_atk_1-00005
+  rotate: false
+  xy: 288, 223
+  size: 216, 163
+  orig: 468, 468
+  offset: 133, 126
+  index: -1
+monster_10007_atk_1-00006
+  rotate: false
+  xy: 290, 94
+  size: 188, 129
+  orig: 468, 468
+  offset: 147, 134
+  index: -1

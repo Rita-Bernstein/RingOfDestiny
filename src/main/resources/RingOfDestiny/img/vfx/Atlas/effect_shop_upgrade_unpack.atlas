@@ -1,0 +1,90 @@
+
+effect_shop_upgrade_unpack.png
+size: 894,1073
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_shop_upgrade-00000
+  rotate: false
+  xy: 290, 264
+  size: 296, 259
+  orig: 500, 500
+  offset: 104, 90
+  index: -1
+effect_shop_upgrade-00001
+  rotate: false
+  xy: 594, 7
+  size: 300, 255
+  orig: 500, 500
+  offset: 104, 94
+  index: -1
+effect_shop_upgrade-00002
+  rotate: false
+  xy: 296, 2
+  size: 298, 260
+  orig: 500, 500
+  offset: 106, 95
+  index: -1
+effect_shop_upgrade-00003
+  rotate: false
+  xy: 586, 262
+  size: 297, 261
+  orig: 500, 500
+  offset: 107, 100
+  index: -1
+effect_shop_upgrade-00004
+  rotate: false
+  xy: 0, 0
+  size: 296, 264
+  orig: 500, 500
+  offset: 111, 99
+  index: -1
+effect_shop_upgrade-00005
+  rotate: false
+  xy: 0, 527
+  size: 291, 264
+  orig: 500, 500
+  offset: 115, 99
+  index: -1
+effect_shop_upgrade-00006
+  rotate: false
+  xy: 293, 523
+  size: 290, 269
+  orig: 500, 500
+  offset: 114, 92
+  index: -1
+effect_shop_upgrade-00007
+  rotate: false
+  xy: 583, 523
+  size: 292, 274
+  orig: 500, 500
+  offset: 112, 85
+  index: -1
+effect_shop_upgrade-00008
+  rotate: false
+  xy: 583, 797
+  size: 292, 276
+  orig: 500, 500
+  offset: 110, 85
+  index: -1
+effect_shop_upgrade-00009
+  rotate: false
+  xy: 0, 791
+  size: 293, 282
+  orig: 500, 500
+  offset: 109, 84
+  index: -1
+effect_shop_upgrade-00010
+  rotate: false
+  xy: 293, 792
+  size: 290, 281
+  orig: 500, 500
+  offset: 110, 85
+  index: -1
+effect_shop_upgrade-00011
+  rotate: false
+  xy: 0, 264
+  size: 290, 263
+  orig: 500, 500
+  offset: 107, 88
+  index: -1

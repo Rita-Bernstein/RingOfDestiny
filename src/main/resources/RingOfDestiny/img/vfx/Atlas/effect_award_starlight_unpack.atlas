@@ -1,0 +1,111 @@
+
+effect_award_starlight_unpack.png
+size: 872,508
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_award_starlight-00000
+  rotate: false
+  xy: 591, 413
+  size: 275, 95
+  orig: 480, 270
+  offset: 91, 92
+  index: -1
+effect_award_starlight-00001
+  rotate: false
+  xy: 0, 324
+  size: 272, 95
+  orig: 480, 270
+  offset: 88, 95
+  index: -1
+effect_award_starlight-00002
+  rotate: false
+  xy: 0, 225
+  size: 267, 99
+  orig: 480, 270
+  offset: 83, 93
+  index: -1
+effect_award_starlight-00003
+  rotate: false
+  xy: 0, 119
+  size: 289, 103
+  orig: 480, 270
+  offset: 82, 92
+  index: -1
+effect_award_starlight-00004
+  rotate: false
+  xy: 526, 217
+  size: 267, 100
+  orig: 480, 270
+  offset: 86, 95
+  index: -1
+effect_award_starlight-00005
+  rotate: false
+  xy: 267, 222
+  size: 259, 99
+  orig: 480, 270
+  offset: 91, 93
+  index: -1
+effect_award_starlight-00006
+  rotate: false
+  xy: 295, 416
+  size: 296, 92
+  orig: 480, 270
+  offset: 89, 95
+  index: -1
+effect_award_starlight-00007
+  rotate: false
+  xy: 0, 419
+  size: 295, 89
+  orig: 480, 270
+  offset: 91, 93
+  index: -1
+effect_award_starlight-00008
+  rotate: false
+  xy: 289, 114
+  size: 278, 103
+  orig: 480, 270
+  offset: 108, 95
+  index: -1
+effect_award_starlight-00009
+  rotate: false
+  xy: 573, 0
+  size: 290, 111
+  orig: 480, 270
+  offset: 107, 89
+  index: -1
+effect_award_starlight-00010
+  rotate: false
+  xy: 0, 10
+  size: 282, 109
+  orig: 480, 270
+  offset: 115, 90
+  index: -1
+effect_award_starlight-00011
+  rotate: false
+  xy: 272, 321
+  size: 263, 95
+  orig: 480, 270
+  offset: 132, 90
+  index: -1
+effect_award_starlight-00012
+  rotate: false
+  xy: 535, 317
+  size: 296, 96
+  orig: 480, 270
+  offset: 109, 95
+  index: -1
+effect_award_starlight-00013
+  rotate: false
+  xy: 567, 111
+  size: 305, 106
+  orig: 480, 270
+  offset: 99, 94
+  index: -1
+effect_award_starlight-00014
+  rotate: false
+  xy: 282, 3
+  size: 291, 108
+  orig: 480, 270
+  offset: 95, 92
+  index: -1

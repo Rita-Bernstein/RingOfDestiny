@@ -1,173 +1,173 @@
 
 monster_10034_vertigo_unpack.png
-size: 1413,117
+size: 1426,116
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10034_vertigo-00000
   rotate: false
-  xy: 714, 1
+  xy: 471, 0
   size: 115, 59
   orig: 175, 125
   offset: 27, 27
   index: -1
 monster_10034_vertigo-00001
   rotate: false
-  xy: 238, 58
+  xy: 586, 0
   size: 117, 59
   orig: 175, 125
   offset: 27, 26
   index: -1
 monster_10034_vertigo-00002
   rotate: false
-  xy: 480, 0
+  xy: 120, 2
   size: 117, 58
   orig: 175, 125
   offset: 27, 27
   index: -1
 monster_10034_vertigo-00003
   rotate: false
-  xy: 1065, 60
+  xy: 242, 59
   size: 118, 57
   orig: 175, 125
   offset: 26, 28
   index: -1
 monster_10034_vertigo-00004
   rotate: false
-  xy: 1065, 3
+  xy: 360, 59
   size: 118, 57
   orig: 175, 125
   offset: 26, 29
   index: -1
 monster_10034_vertigo-00005
   rotate: false
-  xy: 588, 59
+  xy: 237, 1
   size: 117, 58
   orig: 175, 125
   offset: 27, 28
   index: -1
 monster_10034_vertigo-00006
   rotate: false
-  xy: 705, 60
+  xy: 478, 59
   size: 119, 57
   orig: 175, 125
   offset: 27, 29
   index: -1
 monster_10034_vertigo-00007
   rotate: false
-  xy: 0, 1
+  xy: 597, 59
   size: 120, 57
   orig: 175, 125
   offset: 26, 29
   index: -1
 monster_10034_vertigo-00008
   rotate: false
-  xy: 943, 61
+  xy: 0, 60
   size: 121, 56
   orig: 175, 125
   offset: 26, 30
   index: -1
 monster_10034_vertigo-00009
   rotate: false
-  xy: 824, 60
+  xy: 717, 59
   size: 119, 57
   orig: 175, 125
   offset: 27, 29
   index: -1
 monster_10034_vertigo-00010
   rotate: false
-  xy: 0, 58
+  xy: 703, 0
   size: 120, 59
   orig: 175, 125
   offset: 26, 28
   index: -1
 monster_10034_vertigo-00011
   rotate: false
-  xy: 829, 1
+  xy: 823, 0
   size: 115, 59
   orig: 175, 125
   offset: 28, 27
   index: -1
 monster_10034_vertigo-00012
-  rotate: true
-  xy: 1297, 4
+  rotate: false
+  xy: 938, 0
   size: 113, 59
   orig: 175, 125
   offset: 29, 27
   index: -1
 monster_10034_vertigo-00013
   rotate: false
-  xy: 472, 58
+  xy: 1051, 0
   size: 116, 59
   orig: 175, 125
   offset: 28, 26
   index: -1
 monster_10034_vertigo-00014
   rotate: false
-  xy: 597, 1
+  xy: 354, 1
   size: 117, 58
   orig: 175, 125
   offset: 28, 27
   index: -1
 monster_10034_vertigo-00015
-  rotate: true
-  xy: 1183, 0
+  rotate: false
+  xy: 836, 59
   size: 117, 57
   orig: 175, 125
   offset: 27, 28
   index: -1
 monster_10034_vertigo-00016
-  rotate: true
-  xy: 1240, 0
+  rotate: false
+  xy: 953, 59
   size: 117, 57
   orig: 175, 125
   offset: 27, 29
   index: -1
 monster_10034_vertigo-00017
-  rotate: true
-  xy: 1356, 1
+  rotate: false
+  xy: 1070, 59
   size: 116, 57
   orig: 175, 125
   offset: 28, 29
   index: -1
 monster_10034_vertigo-00018
   rotate: false
-  xy: 120, 58
+  xy: 1167, 0
   size: 118, 59
   orig: 175, 125
   offset: 27, 28
   index: -1
 monster_10034_vertigo-00019
   rotate: false
-  xy: 120, 1
+  xy: 1186, 59
   size: 120, 57
   orig: 175, 125
   offset: 26, 29
   index: -1
 monster_10034_vertigo-00020
   rotate: false
-  xy: 944, 5
+  xy: 121, 60
   size: 121, 56
   orig: 175, 125
   offset: 26, 30
   index: -1
 monster_10034_vertigo-00021
   rotate: false
-  xy: 240, 1
+  xy: 1306, 59
   size: 120, 57
   orig: 175, 125
   offset: 26, 29
   index: -1
 monster_10034_vertigo-00022
   rotate: false
-  xy: 360, 1
+  xy: 0, 3
   size: 120, 57
   orig: 175, 125
   offset: 26, 29
   index: -1
 monster_10034_vertigo-00023
   rotate: false
-  xy: 355, 58
+  xy: 1285, 0
   size: 117, 59
   orig: 175, 125
   offset: 27, 27

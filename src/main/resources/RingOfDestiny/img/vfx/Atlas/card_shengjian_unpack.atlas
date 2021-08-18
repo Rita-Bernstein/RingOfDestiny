@@ -1,89 +1,89 @@
 
 card_shengjian_unpack.png
-size: 1760,1463
+size: 1700,1480
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_shengjian-00000
   rotate: false
-  xy: 0, 414
+  xy: 567, 367
   size: 566, 353
   orig: 600, 380
   offset: 34, 0
   index: -1
 card_shengjian-00001
   rotate: false
-  xy: 1133, 380
+  xy: 599, 1100
   size: 567, 380
   orig: 600, 380
   offset: 33, 0
   index: -1
 card_shengjian-00002
   rotate: false
-  xy: 0, 12
+  xy: 590, 720
   size: 571, 380
   orig: 600, 380
   offset: 29, 0
   index: -1
 card_shengjian-00003
   rotate: false
-  xy: 571, 0
+  xy: 0, 1100
   size: 599, 380
   orig: 600, 380
   offset: 1, 0
   index: -1
 card_shengjian-00004
   rotate: false
-  xy: 1170, 0
+  xy: 0, 720
   size: 590, 380
   orig: 600, 380
   offset: 10, 0
   index: -1
 card_shengjian-00005
   rotate: false
-  xy: 566, 392
+  xy: 0, 351
   size: 567, 369
   orig: 600, 380
   offset: 33, 0
   index: -1
 card_shengjian-00006
   rotate: false
-  xy: 1058, 1112
+  xy: 1133, 369
   size: 567, 351
   orig: 600, 380
   offset: 33, 0
   index: -1
 card_shengjian-00007
   rotate: false
-  xy: 0, 767
+  xy: 1133, 18
   size: 567, 351
   orig: 600, 380
   offset: 33, 0
   index: -1
 card_shengjian-00008
   rotate: false
-  xy: 567, 761
+  xy: 0, 0
   size: 567, 351
   orig: 600, 380
   offset: 33, 0
   index: -1
 card_shengjian-00009
   rotate: false
-  xy: 1134, 760
+  xy: 567, 15
   size: 560, 352
   orig: 600, 380
   offset: 40, 0
   index: -1
 card_shengjian-00010
   rotate: false
-  xy: 526, 1118
+  xy: 1161, 755
   size: 532, 345
   orig: 600, 380
   offset: 68, 0
   index: -1
 card_shengjian-00011
   rotate: false
-  xy: 0, 1134
+  xy: 1166, 1151
   size: 526, 329
   orig: 600, 380
   offset: 74, 0

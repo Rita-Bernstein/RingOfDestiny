@@ -1,0 +1,83 @@
+
+armor_break_unpack.png
+size: 884,578
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armor_break-00000
+  rotate: false
+  xy: 0, 244
+  size: 354, 334
+  orig: 500, 500
+  offset: 84, 78
+  index: -1
+armor_break-00001
+  rotate: false
+  xy: 0, 0
+  size: 247, 244
+  orig: 500, 500
+  offset: 137, 122
+  index: -1
+armor_break-00002
+  rotate: false
+  xy: 568, 250
+  size: 132, 135
+  orig: 500, 500
+  offset: 193, 176
+  index: -1
+armor_break-00003
+  rotate: false
+  xy: 247, 24
+  size: 218, 220
+  orig: 500, 500
+  offset: 149, 131
+  index: -1
+armor_break-00004
+  rotate: false
+  xy: 354, 366
+  size: 214, 212
+  orig: 500, 500
+  offset: 152, 133
+  index: -1
+armor_break-00005
+  rotate: false
+  xy: 465, 47
+  size: 213, 203
+  orig: 500, 500
+  offset: 152, 138
+  index: -1
+armor_break-00006
+  rotate: false
+  xy: 678, 385
+  size: 206, 193
+  orig: 500, 500
+  offset: 154, 142
+  index: -1
+armor_break-00007
+  rotate: false
+  xy: 678, 59
+  size: 195, 181
+  orig: 500, 500
+  offset: 157, 147
+  index: -1
+armor_break-00008
+  rotate: false
+  xy: 700, 240
+  size: 175, 145
+  orig: 500, 500
+  offset: 167, 170
+  index: -1
+armor_break-00009
+  rotate: false
+  xy: 354, 250
+  size: 129, 116
+  orig: 500, 500
+  offset: 190, 179
+  index: -1
+armor_break-00010
+  rotate: false
+  xy: 568, 488
+  size: 106, 90
+  orig: 500, 500
+  offset: 205, 197
+  index: -1

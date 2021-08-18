@@ -1,0 +1,69 @@
+
+effect_login_snow_unpack.png
+size: 1536,714
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_login_snow-00000
+  rotate: false
+  xy: 0, 476
+  size: 512, 238
+  orig: 512, 250
+  offset: 0, 5
+  index: -1
+effect_login_snow-00001
+  rotate: false
+  xy: 0, 238
+  size: 512, 238
+  orig: 512, 250
+  offset: 0, 5
+  index: -1
+effect_login_snow-00002
+  rotate: false
+  xy: 512, 476
+  size: 512, 238
+  orig: 512, 250
+  offset: 0, 5
+  index: -1
+effect_login_snow-00003
+  rotate: false
+  xy: 0, 0
+  size: 512, 238
+  orig: 512, 250
+  offset: 0, 5
+  index: -1
+effect_login_snow-00004
+  rotate: false
+  xy: 512, 238
+  size: 512, 238
+  orig: 512, 250
+  offset: 0, 5
+  index: -1
+effect_login_snow-00005
+  rotate: false
+  xy: 1024, 476
+  size: 512, 238
+  orig: 512, 250
+  offset: 0, 5
+  index: -1
+effect_login_snow-00006
+  rotate: false
+  xy: 512, 0
+  size: 512, 238
+  orig: 512, 250
+  offset: 0, 5
+  index: -1
+effect_login_snow-00007
+  rotate: false
+  xy: 1024, 238
+  size: 512, 238
+  orig: 512, 250
+  offset: 0, 5
+  index: -1
+effect_login_snow-00008
+  rotate: false
+  xy: 1024, 1
+  size: 512, 237
+  orig: 512, 250
+  offset: 0, 6
+  index: -1

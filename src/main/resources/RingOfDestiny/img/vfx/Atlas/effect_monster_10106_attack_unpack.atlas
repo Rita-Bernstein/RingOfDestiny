@@ -1,0 +1,48 @@
+
+effect_monster_10106_attack_unpack.png
+size: 585,696
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10106_attack-00000
+  rotate: false
+  xy: 0, 209
+  size: 393, 487
+  orig: 500, 500
+  offset: 16, 5
+  index: -1
+effect_monster_10106_attack-00001
+  rotate: false
+  xy: 393, 452
+  size: 192, 244
+  orig: 500, 500
+  offset: 142, 103
+  index: -1
+effect_monster_10106_attack-00002
+  rotate: false
+  xy: 393, 233
+  size: 166, 219
+  orig: 500, 500
+  offset: 166, 127
+  index: -1
+effect_monster_10106_attack-00003
+  rotate: false
+  xy: 393, 18
+  size: 162, 215
+  orig: 500, 500
+  offset: 166, 130
+  index: -1
+effect_monster_10106_attack-00004
+  rotate: false
+  xy: 0, 0
+  size: 156, 209
+  orig: 500, 500
+  offset: 168, 128
+  index: -1
+effect_monster_10106_attack-00005
+  rotate: false
+  xy: 156, 5
+  size: 155, 204
+  orig: 500, 500
+  offset: 169, 129
+  index: -1

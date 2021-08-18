@@ -1,0 +1,20 @@
+
+monster_10076_buff_before_unpack.png
+size: 738,297
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10076_buff_before-00000
+  rotate: false
+  xy: 391, 2
+  size: 347, 295
+  orig: 600, 600
+  offset: 134, 160
+  index: -1
+monster_10076_buff_before-00001
+  rotate: false
+  xy: 0, 0
+  size: 391, 297
+  orig: 600, 600
+  offset: 116, 168
+  index: -1

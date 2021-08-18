@@ -1,96 +1,96 @@
 
 card_zhengyizhihuo_unpack.png
-size: 2005,828
+size: 1883,897
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_zhengyizhihuo-00000
-  rotate: true
-  xy: 1403, 552
+  rotate: false
+  xy: 0, 35
   size: 276, 162
   orig: 400, 500
   offset: 61, 30
   index: -1
 card_zhengyizhihuo-00001
-  rotate: true
-  xy: 1341, 36
+  rotate: false
+  xy: 270, 208
   size: 352, 225
   orig: 400, 500
   offset: 38, 24
   index: -1
 card_zhengyizhihuo-00002
   rotate: false
-  xy: 366, 367
+  xy: 366, 436
   size: 400, 461
   orig: 400, 500
   offset: 0, 7
   index: -1
 card_zhengyizhihuo-00003
   rotate: false
-  xy: 0, 364
+  xy: 0, 433
   size: 366, 464
   orig: 400, 500
   offset: 20, 4
   index: -1
 card_zhengyizhihuo-00004
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 766, 441
   size: 364, 456
   orig: 400, 500
   offset: 21, 12
   index: -1
 card_zhengyizhihuo-00005
-  rotate: true
-  xy: 456, 7
+  rotate: false
+  xy: 1130, 453
   size: 360, 444
   orig: 400, 500
   offset: 24, 24
   index: -1
 card_zhengyizhihuo-00006
   rotate: false
-  xy: 766, 384
+  xy: 1246, 9
   size: 360, 444
   orig: 400, 500
   offset: 24, 24
   index: -1
 card_zhengyizhihuo-00007
-  rotate: true
-  xy: 900, 32
+  rotate: false
+  xy: 894, 0
   size: 352, 441
   orig: 400, 500
   offset: 27, 25
   index: -1
 card_zhengyizhihuo-00008
-  rotate: true
-  xy: 1566, 279
+  rotate: false
+  xy: 622, 0
   size: 272, 436
   orig: 400, 500
   offset: 62, 28
   index: -1
 card_zhengyizhihuo-00009
   rotate: false
-  xy: 1126, 388
+  xy: 1490, 457
   size: 277, 440
   orig: 400, 500
   offset: 60, 28
   index: -1
 card_zhengyizhihuo-00010
-  rotate: true
-  xy: 1566, 551
+  rotate: false
+  xy: 1606, 18
   size: 277, 439
   orig: 400, 500
   offset: 60, 29
   index: -1
 card_zhengyizhihuo-00011
-  rotate: true
-  xy: 1566, 9
+  rotate: false
+  xy: 0, 197
   size: 270, 236
   orig: 400, 500
   offset: 64, 34
   index: -1
 card_zhengyizhihuo-00012
-  rotate: true
-  xy: 1802, 57
+  rotate: false
+  xy: 276, 7
   size: 222, 201
   orig: 400, 500
   offset: 91, 89

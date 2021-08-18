@@ -1,103 +1,103 @@
 
 card_mang_unpack.png
-size: 772,570
+size: 1242,346
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_mang-00000
-  rotate: true
-  xy: 611, 32
+  rotate: false
+  xy: 1111, 0
   size: 114, 105
   orig: 422, 282
   offset: 87, 107
   index: -1
 card_mang-00001
   rotate: false
-  xy: 494, 159
+  xy: 1111, 225
   size: 131, 121
   orig: 422, 282
   offset: 79, 99
   index: -1
 card_mang-00002
   rotate: false
-  xy: 625, 146
+  xy: 1111, 105
   size: 131, 120
   orig: 422, 282
   offset: 60, 100
   index: -1
 card_mang-00003
   rotate: false
-  xy: 494, 280
+  xy: 468, 16
   size: 138, 121
   orig: 422, 282
   offset: 41, 100
   index: -1
 card_mang-00004
-  rotate: true
-  xy: 651, 417
+  rotate: false
+  xy: 164, 8
   size: 153, 121
   orig: 422, 282
   offset: 22, 100
   index: -1
 card_mang-00005
-  rotate: true
-  xy: 353, 406
+  rotate: false
+  xy: 0, 8
   size: 164, 121
   orig: 422, 282
   offset: 8, 100
   index: -1
 card_mang-00006
-  rotate: true
-  xy: 651, 266
+  rotate: false
+  xy: 317, 16
   size: 151, 121
   orig: 422, 282
   offset: 2, 100
   index: -1
 card_mang-00007
   rotate: false
-  xy: 481, 38
+  xy: 973, 225
   size: 130, 121
   orig: 422, 282
   offset: 5, 100
   index: -1
 card_mang-00008
-  rotate: true
-  xy: 0, 217
+  rotate: false
+  xy: 606, 3
   size: 353, 144
   orig: 422, 282
   offset: 31, 69
   index: -1
 card_mang-00009
-  rotate: true
-  xy: 144, 249
+  rotate: false
+  xy: 282, 137
   size: 321, 209
   orig: 422, 282
   offset: 89, 34
   index: -1
 card_mang-00010
   rotate: false
-  xy: 0, 0
+  xy: 0, 129
   size: 282, 217
   orig: 422, 282
   offset: 135, 30
   index: -1
 card_mang-00011
-  rotate: true
-  xy: 282, 49
+  rotate: false
+  xy: 603, 147
   size: 200, 199
   orig: 422, 282
   offset: 207, 39
   index: -1
 card_mang-00012
   rotate: false
-  xy: 481, 401
+  xy: 803, 177
   size: 170, 169
   orig: 422, 282
   offset: 222, 54
   index: -1
 card_mang-00013
-  rotate: true
-  xy: 353, 249
+  rotate: false
+  xy: 959, 36
   size: 152, 141
   orig: 422, 282
   offset: 225, 67

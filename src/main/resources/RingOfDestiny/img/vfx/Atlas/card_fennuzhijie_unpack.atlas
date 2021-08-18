@@ -1,117 +1,117 @@
 
 card_fennuzhijie_unpack.png
-size: 1454,1516
+size: 1924,1154
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_fennuzhijie-00000
-  rotate: true
-  xy: 529, 1080
+  rotate: false
+  xy: 577, 783
   size: 51, 48
   orig: 630, 400
   offset: 202, 297
   index: -1
 card_fennuzhijie-00001
-  rotate: true
-  xy: 496, 429
+  rotate: false
+  xy: 1265, 416
   size: 161, 143
   orig: 630, 400
   offset: 155, 236
   index: -1
 card_fennuzhijie-00002
-  rotate: true
-  xy: 1110, 0
+  rotate: false
+  xy: 1081, 330
   size: 184, 229
   orig: 630, 400
   offset: 137, 161
   index: -1
 card_fennuzhijie-00003
   rotate: false
-  xy: 0, 425
+  xy: 557, 421
   size: 496, 348
   orig: 630, 400
   offset: 63, 39
   index: -1
 card_fennuzhijie-00004
   rotate: false
-  xy: 0, 773
+  xy: 552, 34
   size: 529, 358
   orig: 630, 400
   offset: 49, 29
   index: -1
 card_fennuzhijie-00005
   rotate: false
-  xy: 577, 762
+  xy: 0, 15
   size: 552, 377
   orig: 630, 400
   offset: 40, 23
   index: -1
 card_fennuzhijie-00006
   rotate: false
-  xy: 0, 1131
+  xy: 0, 769
   size: 577, 385
   orig: 630, 400
   offset: 28, 15
   index: -1
 card_fennuzhijie-00007
   rotate: false
-  xy: 577, 1139
+  xy: 0, 392
   size: 557, 377
   orig: 630, 400
   offset: 32, 23
   index: -1
 card_fennuzhijie-00008
-  rotate: true
-  xy: 1129, 590
+  rotate: false
+  xy: 577, 831
   size: 475, 323
   orig: 630, 400
   offset: 117, 20
   index: -1
 card_fennuzhijie-00009
-  rotate: true
-  xy: 1134, 1065
+  rotate: false
+  xy: 1052, 834
   size: 451, 320
   orig: 630, 400
   offset: 140, 19
   index: -1
 card_fennuzhijie-00010
   rotate: false
-  xy: 639, 443
+  xy: 1081, 0
   size: 416, 319
   orig: 630, 400
   offset: 177, 18
   index: -1
 card_fennuzhijie-00011
-  rotate: true
-  xy: 272, 5
+  rotate: false
+  xy: 1503, 590
   size: 420, 292
   orig: 630, 400
   offset: 174, 18
   index: -1
 card_fennuzhijie-00012
-  rotate: true
-  xy: 564, 9
+  rotate: false
+  xy: 1081, 559
   size: 420, 275
   orig: 630, 400
   offset: 174, 19
   index: -1
 card_fennuzhijie-00013
-  rotate: true
-  xy: 0, 4
+  rotate: false
+  xy: 1503, 882
   size: 421, 272
   orig: 630, 400
   offset: 171, 19
   index: -1
 card_fennuzhijie-00014
-  rotate: true
-  xy: 839, 26
+  rotate: false
+  xy: 1501, 319
   size: 417, 271
   orig: 630, 400
   offset: 182, 15
   index: -1
 card_fennuzhijie-00015
-  rotate: true
-  xy: 1110, 184
+  rotate: false
+  xy: 1497, 47
   size: 406, 272
   orig: 630, 400
   offset: 193, 10

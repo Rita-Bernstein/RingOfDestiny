@@ -1,0 +1,83 @@
+
+effect_open_relic_box_unpack.png
+size: 1264,491
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_open_relic_box-00000
+  rotate: false
+  xy: 826, 257
+  size: 239, 234
+  orig: 500, 500
+  offset: 134, 137
+  index: -1
+effect_open_relic_box-00001
+  rotate: false
+  xy: 717, 6
+  size: 263, 239
+  orig: 500, 500
+  offset: 125, 151
+  index: -1
+effect_open_relic_box-00002
+  rotate: false
+  xy: 269, 241
+  size: 277, 250
+  orig: 500, 500
+  offset: 106, 152
+  index: -1
+effect_open_relic_box-00003
+  rotate: false
+  xy: 546, 245
+  size: 280, 246
+  orig: 500, 500
+  offset: 113, 151
+  index: -1
+effect_open_relic_box-00004
+  rotate: false
+  xy: 0, 233
+  size: 269, 258
+  orig: 500, 500
+  offset: 102, 149
+  index: -1
+effect_open_relic_box-00005
+  rotate: false
+  xy: 463, 0
+  size: 254, 241
+  orig: 500, 500
+  offset: 120, 151
+  index: -1
+effect_open_relic_box-00006
+  rotate: false
+  xy: 217, 10
+  size: 246, 223
+  orig: 500, 500
+  offset: 115, 162
+  index: -1
+effect_open_relic_box-00007
+  rotate: false
+  xy: 0, 3
+  size: 217, 230
+  orig: 500, 500
+  offset: 143, 146
+  index: -1
+effect_open_relic_box-00008
+  rotate: false
+  xy: 980, 31
+  size: 215, 175
+  orig: 500, 500
+  offset: 148, 147
+  index: -1
+effect_open_relic_box-00009
+  rotate: false
+  xy: 1065, 339
+  size: 199, 152
+  orig: 500, 500
+  offset: 155, 168
+  index: -1
+effect_open_relic_box-00010
+  rotate: false
+  xy: 1065, 206
+  size: 182, 133
+  orig: 500, 500
+  offset: 164, 173
+  index: -1

@@ -6,49 +6,49 @@ filter: Linear,Linear
 repeat: none
 card_keyin_enemy_203-00000
   rotate: false
-  xy: 314, 2
+  xy: 633, 2
   size: 142, 137
   orig: 306, 297
   offset: 82, 74
   index: -1
 card_keyin_enemy_203-00001
   rotate: false
-  xy: 456, 2
+  xy: 775, 2
   size: 142, 137
   orig: 306, 297
   offset: 82, 74
   index: -1
 card_keyin_enemy_203-00002
   rotate: false
-  xy: 598, 2
+  xy: 917, 2
   size: 142, 137
   orig: 306, 297
   offset: 82, 74
   index: -1
 card_keyin_enemy_203-00003
   rotate: false
-  xy: 0, 0
+  xy: 478, 0
   size: 155, 139
   orig: 306, 297
   offset: 76, 71
   index: -1
 card_keyin_enemy_203-00004
   rotate: false
-  xy: 155, 1
+  xy: 0, 1
   size: 159, 138
   orig: 306, 297
   offset: 75, 72
   index: -1
 card_keyin_enemy_203-00005
   rotate: false
-  xy: 740, 5
+  xy: 159, 5
   size: 161, 134
   orig: 306, 297
   offset: 74, 74
   index: -1
 card_keyin_enemy_203-00006
   rotate: false
-  xy: 901, 7
+  xy: 320, 7
   size: 158, 132
   orig: 306, 297
   offset: 76, 74

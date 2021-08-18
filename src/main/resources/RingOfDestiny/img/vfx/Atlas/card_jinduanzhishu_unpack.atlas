@@ -1,82 +1,82 @@
 
 card_jinduanzhishu_unpack.png
-size: 288,548
+size: 545,297
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jinduanzhishu-00000
-  rotate: true
-  xy: 168, 435
+  rotate: false
+  xy: 131, 14
   size: 113, 115
   orig: 250, 250
   offset: 68, 62
   index: -1
 card_jinduanzhishu-00001
-  rotate: true
-  xy: 0, 381
+  rotate: false
+  xy: 0, 129
   size: 167, 168
   orig: 250, 250
   offset: 41, 36
   index: -1
 card_jinduanzhishu-00002
   rotate: false
-  xy: 0, 224
+  xy: 167, 140
   size: 157, 157
   orig: 250, 250
   offset: 46, 41
   index: -1
 card_jinduanzhishu-00003
   rotate: false
-  xy: 0, 80
+  xy: 324, 153
   size: 145, 144
   orig: 250, 250
   offset: 51, 48
   index: -1
 card_jinduanzhishu-00004
   rotate: false
-  xy: 157, 198
+  xy: 0, 0
   size: 131, 129
   orig: 250, 250
   offset: 59, 53
   index: -1
 card_jinduanzhishu-00005
-  rotate: true
-  xy: 168, 327
+  rotate: false
+  xy: 244, 25
   size: 108, 115
   orig: 250, 250
   offset: 72, 58
   index: -1
 card_jinduanzhishu-00006
-  rotate: true
-  xy: 172, 97
+  rotate: false
+  xy: 352, 45
   size: 101, 108
   orig: 250, 250
   offset: 74, 62
   index: -1
 card_jinduanzhishu-00007
   rotate: false
-  xy: 172, 0
+  xy: 453, 56
   size: 89, 97
   orig: 250, 250
   offset: 78, 68
   index: -1
 card_jinduanzhishu-00008
-  rotate: true
-  xy: 0, 4
+  rotate: false
+  xy: 469, 239
   size: 76, 58
   orig: 250, 250
   offset: 86, 88
   index: -1
 card_jinduanzhishu-00009
-  rotate: true
-  xy: 58, 4
+  rotate: false
+  xy: 469, 181
   size: 76, 58
   orig: 250, 250
   offset: 86, 88
   index: -1
 card_jinduanzhishu-00010
-  rotate: true
-  xy: 116, 6
+  rotate: false
+  xy: 453, 0
   size: 74, 56
   orig: 250, 250
   offset: 87, 89

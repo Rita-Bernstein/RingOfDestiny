@@ -1,103 +1,103 @@
 
 card_linghunqiequ_unpack.png
-size: 485,1066
+size: 497,1088
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_linghunqiequ-00000
-  rotate: true
-  xy: 324, 220
+  rotate: false
+  xy: 297, 263
   size: 189, 158
   orig: 300, 350
   offset: 54, 59
   index: -1
 card_linghunqiequ-00001
   rotate: false
-  xy: 254, 881
+  xy: 0, 691
   size: 222, 185
   orig: 300, 350
   offset: 36, 46
   index: -1
 card_linghunqiequ-00002
   rotate: false
-  xy: 0, 854
+  xy: 0, 876
   size: 254, 212
   orig: 300, 350
   offset: 20, 33
   index: -1
 card_linghunqiequ-00003
-  rotate: true
-  xy: 136, 237
+  rotate: false
+  xy: 222, 681
   size: 172, 188
   orig: 300, 350
   offset: 62, 56
   index: -1
 card_linghunqiequ-00004
-  rotate: true
-  xy: 0, 497
+  rotate: false
+  xy: 0, 0
   size: 179, 207
   orig: 300, 350
   offset: 60, 49
   index: -1
 card_linghunqiequ-00005
-  rotate: true
-  xy: 0, 676
+  rotate: false
+  xy: 254, 869
   size: 178, 219
   orig: 300, 350
   offset: 61, 49
   index: -1
 card_linghunqiequ-00006
-  rotate: true
-  xy: 254, 708
+  rotate: false
+  xy: 0, 461
   size: 173, 230
   orig: 300, 350
   offset: 64, 50
   index: -1
 card_linghunqiequ-00007
   rotate: false
-  xy: 0, 6
+  xy: 147, 209
   size: 150, 231
   orig: 300, 350
   offset: 78, 61
   index: -1
 card_linghunqiequ-00008
-  rotate: true
-  xy: 207, 409
+  rotate: false
+  xy: 173, 440
   size: 152, 241
   orig: 300, 350
   offset: 75, 64
   index: -1
 card_linghunqiequ-00009
-  rotate: true
-  xy: 219, 561
+  rotate: false
+  xy: 0, 207
   size: 147, 254
   orig: 300, 350
   offset: 79, 65
   index: -1
 card_linghunqiequ-00010
   rotate: false
-  xy: 0, 237
+  xy: 325, 421
   size: 136, 260
   orig: 300, 350
   offset: 88, 65
   index: -1
 card_linghunqiequ-00011
-  rotate: true
-  xy: 150, 103
+  rotate: false
+  xy: 179, 37
   size: 134, 172
   orig: 300, 350
   offset: 88, 148
   index: -1
 card_linghunqiequ-00012
-  rotate: true
-  xy: 322, 90
+  rotate: false
+  xy: 313, 100
   size: 130, 163
   orig: 300, 350
   offset: 89, 156
   index: -1
 card_linghunqiequ-00013
-  rotate: true
-  xy: 150, 0
+  rotate: false
+  xy: 394, 718
   size: 103, 151
   orig: 300, 350
   offset: 91, 167

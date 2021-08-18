@@ -1,201 +1,201 @@
 
 effect_house_box_unpack.png
-size: 210,746
+size: 305,513
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_house_box-00000
   rotate: false
-  xy: 130, 653
+  xy: 179, 291
   size: 79, 93
   orig: 300, 300
   offset: 126, 88
   index: -1
 effect_house_box-00001
-  rotate: true
-  xy: 84, 15
+  rotate: false
+  xy: 269, 0
   size: 36, 38
   orig: 300, 300
   offset: 127, 142
   index: -1
 effect_house_box-00002
-  rotate: true
-  xy: 0, 29
+  rotate: false
+  xy: 232, 0
   size: 37, 38
   orig: 300, 300
   offset: 126, 142
   index: -1
 effect_house_box-00003
   rotate: false
-  xy: 163, 60
+  xy: 258, 343
   size: 47, 44
   orig: 300, 300
   offset: 116, 141
   index: -1
 effect_house_box-00004
   rotate: false
-  xy: 55, 105
+  xy: 235, 122
   size: 54, 47
   orig: 300, 300
   offset: 110, 143
   index: -1
 effect_house_box-00005
   rotate: false
-  xy: 112, 133
+  xy: 235, 216
   size: 56, 48
   orig: 300, 300
   offset: 107, 145
   index: -1
 effect_house_box-00006
   rotate: false
-  xy: 0, 105
+  xy: 235, 169
   size: 55, 47
   orig: 300, 300
   offset: 103, 150
   index: -1
 effect_house_box-00007
   rotate: false
-  xy: 109, 88
+  xy: 232, 77
   size: 54, 45
   orig: 300, 300
   offset: 101, 154
   index: -1
 effect_house_box-00008
   rotate: false
-  xy: 0, 66
+  xy: 258, 304
   size: 45, 39
   orig: 300, 300
   offset: 101, 160
   index: -1
 effect_house_box-00009
-  rotate: true
-  xy: 168, 142
+  rotate: false
+  xy: 258, 264
   size: 39, 40
   orig: 300, 300
   offset: 101, 160
   index: -1
 effect_house_box-00010
-  rotate: true
-  xy: 168, 104
+  rotate: false
+  xy: 267, 473
   size: 38, 40
   orig: 300, 300
   offset: 101, 160
   index: -1
 effect_house_box-00011
   rotate: false
-  xy: 118, 181
+  xy: 160, 27
   size: 72, 109
   orig: 300, 300
   offset: 101, 91
   index: -1
 effect_house_box-00012
   rotate: false
-  xy: 129, 533
+  xy: 83, 136
   size: 81, 120
   orig: 300, 300
   offset: 102, 80
   index: -1
 effect_house_box-00013
   rotate: false
-  xy: 127, 411
+  xy: 0, 134
   size: 83, 122
   orig: 300, 300
   offset: 102, 77
   index: -1
 effect_house_box-00014
-  rotate: true
-  xy: 0, 386
+  rotate: false
+  xy: 90, 257
   size: 89, 127
   orig: 300, 300
   offset: 101, 72
   index: -1
 effect_house_box-00015
-  rotate: true
-  xy: 0, 656
+  rotate: false
+  xy: 0, 383
   size: 90, 130
   orig: 300, 300
   offset: 103, 69
   index: -1
 effect_house_box-00016
-  rotate: true
-  xy: 0, 565
+  rotate: false
+  xy: 90, 384
   size: 91, 129
   orig: 300, 300
   offset: 102, 70
   index: -1
 effect_house_box-00017
-  rotate: true
-  xy: 0, 475
+  rotate: false
+  xy: 0, 256
   size: 90, 127
   orig: 300, 300
   offset: 103, 71
   index: -1
 effect_house_box-00018
-  rotate: true
-  xy: 0, 300
+  rotate: false
+  xy: 181, 387
   size: 86, 126
   orig: 300, 300
   offset: 105, 70
   index: -1
 effect_house_box-00019
   rotate: false
-  xy: 127, 290
+  xy: 0, 13
   size: 83, 121
   orig: 300, 300
   offset: 109, 70
   index: -1
 effect_house_box-00020
-  rotate: true
-  xy: 0, 223
+  rotate: false
+  xy: 83, 18
   size: 77, 118
   orig: 300, 300
   offset: 114, 69
   index: -1
 effect_house_box-00021
-  rotate: true
-  xy: 0, 152
+  rotate: false
+  xy: 164, 145
   size: 71, 112
   orig: 300, 300
   offset: 120, 70
   index: -1
 effect_house_box-00022
-  rotate: true
-  xy: 45, 67
+  rotate: false
+  xy: 267, 433
   size: 38, 40
   orig: 300, 300
   offset: 153, 71
   index: -1
 effect_house_box-00023
-  rotate: true
-  xy: 109, 51
+  rotate: false
+  xy: 267, 394
   size: 37, 39
   orig: 300, 300
   offset: 154, 71
   index: -1
 effect_house_box-00024
-  rotate: true
-  xy: 148, 23
+  rotate: false
+  xy: 232, 38
   size: 37, 39
   orig: 300, 300
   offset: 154, 71
   index: -1
 effect_house_box-00025
-  rotate: true
-  xy: 45, 31
+  rotate: false
+  xy: 269, 38
   size: 36, 39
   orig: 300, 300
   offset: 154, 71
   index: -1
 effect_house_box-00026
   rotate: false
-  xy: 38, 0
+  xy: 179, 260
   size: 33, 31
   orig: 300, 300
   offset: 157, 76
   index: -1
 effect_house_box-00027
-  rotate: true
-  xy: 85, 83
+  rotate: false
+  xy: 212, 267
   size: 22, 24
   orig: 300, 300
   offset: 161, 79

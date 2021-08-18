@@ -1,75 +1,75 @@
 
 buff_zhequboom_unpack.png
-size: 1713,284
+size: 1730,283
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 buff_zhequboom-00000
   rotate: false
-  xy: 0, 1
+  xy: 0, 0
   size: 297, 283
   orig: 500, 500
   offset: 130, 125
   index: -1
 buff_zhequboom-00001
   rotate: false
-  xy: 297, 33
+  xy: 297, 32
   size: 287, 251
   orig: 500, 500
   offset: 118, 134
   index: -1
 buff_zhequboom-00002
   rotate: false
-  xy: 1319, 37
+  xy: 1076, 36
   size: 241, 247
   orig: 500, 500
   offset: 132, 134
   index: -1
 buff_zhequboom-00003
-  rotate: true
-  xy: 1076, 37
+  rotate: false
+  xy: 1317, 40
   size: 247, 243
   orig: 500, 500
   offset: 133, 141
   index: -1
 buff_zhequboom-00004
   rotate: false
-  xy: 584, 34
+  xy: 584, 33
   size: 250, 250
   orig: 500, 500
   offset: 131, 132
   index: -1
 buff_zhequboom-00005
   rotate: false
-  xy: 834, 34
+  xy: 834, 33
   size: 242, 250
   orig: 500, 500
   offset: 131, 125
   index: -1
 buff_zhequboom-00006
-  rotate: true
-  xy: 1560, 118
+  rotate: false
+  xy: 1564, 130
   size: 166, 153
   orig: 500, 500
   offset: 174, 126
   index: -1
 buff_zhequboom-00007
   rotate: false
-  xy: 297, 30
+  xy: 1564, 127
   size: 123, 3
   orig: 500, 500
   offset: 174, 276
   index: -1
 buff_zhequboom-00008
   rotate: false
-  xy: 0, 0
+  xy: 1687, 129
   size: 1, 1
   orig: 1, 1
   offset: 0, 0
   index: -1
 buff_zhequboom-00009
   rotate: false
-  xy: 0, 0
+  xy: 1687, 129
   size: 1, 1
   orig: 1, 1
   offset: 0, 0

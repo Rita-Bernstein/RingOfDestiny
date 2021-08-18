@@ -1,33 +1,33 @@
 
 fight_round_light_unpack.png
-size: 1400,800
+size: 1581,753
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 fight_round_light-00000
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 364
   size: 800, 389
   orig: 800, 400
   offset: 0, 0
   index: -1
 fight_round_light-00001
-  rotate: true
-  xy: 780, 10
+  rotate: false
+  xy: 0, 0
   size: 790, 364
   orig: 800, 400
   offset: 5, 16
   index: -1
 fight_round_light-00002
-  rotate: true
-  xy: 389, 19
+  rotate: false
+  xy: 800, 362
   size: 781, 391
   orig: 800, 400
   offset: 8, 1
   index: -1
 fight_round_light-00003
-  rotate: true
-  xy: 1144, 42
+  rotate: false
+  xy: 790, 106
   size: 758, 256
   orig: 800, 400
   offset: 20, 67

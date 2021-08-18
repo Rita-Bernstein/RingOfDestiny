@@ -1,0 +1,111 @@
+
+ui_bg_animation_unpack.png
+size: 1600,347
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_bg_animation-00000
+  rotate: false
+  xy: 340, 114
+  size: 306, 121
+  orig: 500, 336
+  offset: 105, 84
+  index: -1
+ui_bg_animation-00001
+  rotate: false
+  xy: 0, 223
+  size: 314, 124
+  orig: 500, 336
+  offset: 98, 84
+  index: -1
+ui_bg_animation-00002
+  rotate: false
+  xy: 337, 2
+  size: 327, 111
+  orig: 500, 336
+  offset: 88, 91
+  index: -1
+ui_bg_animation-00003
+  rotate: false
+  xy: 314, 235
+  size: 333, 112
+  orig: 500, 336
+  offset: 83, 89
+  index: -1
+ui_bg_animation-00004
+  rotate: false
+  xy: 0, 5
+  size: 337, 108
+  orig: 500, 336
+  offset: 83, 94
+  index: -1
+ui_bg_animation-00005
+  rotate: false
+  xy: 0, 113
+  size: 340, 110
+  orig: 500, 336
+  offset: 83, 96
+  index: -1
+ui_bg_animation-00006
+  rotate: false
+  xy: 961, 238
+  size: 315, 109
+  orig: 500, 336
+  offset: 85, 97
+  index: -1
+ui_bg_animation-00007
+  rotate: false
+  xy: 1287, 18
+  size: 313, 107
+  orig: 500, 336
+  offset: 88, 100
+  index: -1
+ui_bg_animation-00008
+  rotate: false
+  xy: 1276, 238
+  size: 314, 109
+  orig: 500, 336
+  offset: 89, 100
+  index: -1
+ui_bg_animation-00009
+  rotate: false
+  xy: 647, 237
+  size: 314, 110
+  orig: 500, 336
+  offset: 90, 100
+  index: -1
+ui_bg_animation-00010
+  rotate: false
+  xy: 1266, 125
+  size: 315, 113
+  orig: 500, 336
+  offset: 91, 96
+  index: -1
+ui_bg_animation-00011
+  rotate: false
+  xy: 977, 4
+  size: 310, 116
+  orig: 500, 336
+  offset: 96, 93
+  index: -1
+ui_bg_animation-00012
+  rotate: false
+  xy: 664, 0
+  size: 313, 116
+  orig: 500, 336
+  offset: 94, 94
+  index: -1
+ui_bg_animation-00013
+  rotate: false
+  xy: 646, 116
+  size: 310, 119
+  orig: 500, 336
+  offset: 100, 86
+  index: -1
+ui_bg_animation-00014
+  rotate: false
+  xy: 956, 120
+  size: 310, 117
+  orig: 500, 336
+  offset: 101, 85
+  index: -1

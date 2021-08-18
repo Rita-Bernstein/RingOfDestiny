@@ -1,54 +1,54 @@
 
 monster_hurt_3_unpack.png
-size: 1277,194
+size: 685,363
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_hurt_3-00000
-  rotate: true
-  xy: 1153, 57
+  rotate: false
+  xy: 190, 45
   size: 137, 124
   orig: 300, 300
   offset: 84, 88
   index: -1
 monster_hurt_3-00001
   rotate: false
-  xy: 441, 8
+  xy: 222, 177
   size: 199, 186
   orig: 300, 300
   offset: 63, 53
   index: -1
 monster_hurt_3-00002
   rotate: false
-  xy: 0, 0
+  xy: 0, 169
   size: 222, 194
   orig: 300, 300
   offset: 55, 53
   index: -1
 monster_hurt_3-00003
   rotate: false
-  xy: 222, 12
+  xy: 421, 181
   size: 219, 182
   orig: 300, 300
   offset: 54, 59
   index: -1
 monster_hurt_3-00004
   rotate: false
-  xy: 982, 21
+  xy: 514, 8
   size: 171, 173
   orig: 300, 300
   offset: 58, 60
   index: -1
 monster_hurt_3-00005
-  rotate: true
-  xy: 813, 4
+  rotate: false
+  xy: 0, 0
   size: 190, 169
   orig: 300, 300
   offset: 47, 47
   index: -1
 monster_hurt_3-00006
-  rotate: true
-  xy: 640, 7
+  rotate: false
+  xy: 327, 4
   size: 187, 173
   orig: 300, 300
   offset: 44, 37

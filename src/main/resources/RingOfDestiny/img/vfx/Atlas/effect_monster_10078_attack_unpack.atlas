@@ -1,0 +1,76 @@
+
+effect_monster_10078_attack_unpack.png
+size: 925,459
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10078_attack-00000
+  rotate: false
+  xy: 0, 277
+  size: 293, 182
+  orig: 500, 500
+  offset: 117, 162
+  index: -1
+effect_monster_10078_attack-00001
+  rotate: false
+  xy: 293, 278
+  size: 295, 181
+  orig: 500, 500
+  offset: 118, 163
+  index: -1
+effect_monster_10078_attack-00002
+  rotate: false
+  xy: 588, 282
+  size: 295, 177
+  orig: 500, 500
+  offset: 119, 165
+  index: -1
+effect_monster_10078_attack-00003
+  rotate: false
+  xy: 293, 106
+  size: 286, 172
+  orig: 500, 500
+  offset: 127, 166
+  index: -1
+effect_monster_10078_attack-00004
+  rotate: false
+  xy: 0, 0
+  size: 286, 157
+  orig: 500, 500
+  offset: 125, 171
+  index: -1
+effect_monster_10078_attack-00005
+  rotate: false
+  xy: 588, 140
+  size: 289, 142
+  orig: 500, 500
+  offset: 121, 179
+  index: -1
+effect_monster_10078_attack-00006
+  rotate: false
+  xy: 579, 8
+  size: 260, 132
+  orig: 500, 500
+  offset: 115, 185
+  index: -1
+effect_monster_10078_attack-00007
+  rotate: false
+  xy: 0, 157
+  size: 239, 120
+  orig: 500, 500
+  offset: 140, 183
+  index: -1
+effect_monster_10078_attack-00008
+  rotate: false
+  xy: 839, 89
+  size: 86, 51
+  orig: 500, 500
+  offset: 294, 181
+  index: -1
+effect_monster_10078_attack-00009
+  rotate: false
+  xy: 286, 39
+  size: 210, 67
+  orig: 500, 500
+  offset: 174, 179
+  index: -1

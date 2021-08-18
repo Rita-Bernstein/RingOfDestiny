@@ -1,0 +1,83 @@
+
+effect_monster_10109_die_unpack.png
+size: 1008,1079
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10109_die-00000
+  rotate: false
+  xy: 794, 285
+  size: 214, 185
+  orig: 500, 500
+  offset: 140, 151
+  index: -1
+effect_monster_10109_die-00001
+  rotate: false
+  xy: 578, 258
+  size: 216, 212
+  orig: 500, 500
+  offset: 139, 148
+  index: -1
+effect_monster_10109_die-00002
+  rotate: false
+  xy: 0, 0
+  size: 293, 348
+  orig: 500, 500
+  offset: 104, 45
+  index: -1
+effect_monster_10109_die-00003
+  rotate: false
+  xy: 298, 721
+  size: 299, 358
+  orig: 500, 500
+  offset: 98, 50
+  index: -1
+effect_monster_10109_die-00004
+  rotate: false
+  xy: 0, 706
+  size: 298, 373
+  orig: 500, 500
+  offset: 98, 55
+  index: -1
+effect_monster_10109_die-00005
+  rotate: false
+  xy: 0, 348
+  size: 297, 358
+  orig: 500, 500
+  offset: 99, 68
+  index: -1
+effect_monster_10109_die-00006
+  rotate: false
+  xy: 597, 732
+  size: 300, 347
+  orig: 500, 500
+  offset: 98, 81
+  index: -1
+effect_monster_10109_die-00007
+  rotate: false
+  xy: 293, 23
+  size: 285, 325
+  orig: 500, 500
+  offset: 112, 101
+  index: -1
+effect_monster_10109_die-00008
+  rotate: false
+  xy: 297, 392
+  size: 273, 314
+  orig: 500, 500
+  offset: 120, 111
+  index: -1
+effect_monster_10109_die-00009
+  rotate: false
+  xy: 597, 470
+  size: 264, 262
+  orig: 500, 500
+  offset: 120, 147
+  index: -1
+effect_monster_10109_die-00010
+  rotate: false
+  xy: 578, 59
+  size: 207, 199
+  orig: 500, 500
+  offset: 140, 197
+  index: -1

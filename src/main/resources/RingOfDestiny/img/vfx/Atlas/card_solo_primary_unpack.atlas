@@ -1,61 +1,61 @@
 
 card_solo_primary_unpack.png
-size: 557,1042
+size: 571,1028
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_solo_primary-00000
   rotate: false
-  xy: 0, 798
+  xy: 0, 534
   size: 295, 244
   orig: 383, 250
   offset: 48, 0
   index: -1
 card_solo_primary-00001
   rotate: false
-  xy: 0, 564
+  xy: 274, 44
   size: 295, 234
   orig: 383, 250
   offset: 48, 2
   index: -1
 card_solo_primary-00002
   rotate: false
-  xy: 295, 542
+  xy: 294, 278
   size: 259, 250
   orig: 383, 250
   offset: 64, 0
   index: -1
 card_solo_primary-00003
   rotate: false
-  xy: 295, 792
+  xy: 295, 528
   size: 262, 250
   orig: 383, 250
   offset: 64, 0
   index: -1
 card_solo_primary-00004
   rotate: false
-  xy: 0, 70
+  xy: 293, 778
   size: 278, 250
   orig: 383, 250
   offset: 64, 0
   index: -1
 card_solo_primary-00005
-  rotate: true
-  xy: 294, 249
+  rotate: false
+  xy: 0, 778
   size: 293, 250
   orig: 383, 250
   offset: 64, 0
   index: -1
 card_solo_primary-00006
   rotate: false
-  xy: 0, 320
+  xy: 0, 290
   size: 294, 244
   orig: 383, 250
   offset: 70, 0
   index: -1
 card_solo_primary-00007
   rotate: false
-  xy: 278, 29
+  xy: 0, 70
   size: 274, 220
   orig: 383, 250
   offset: 86, 8

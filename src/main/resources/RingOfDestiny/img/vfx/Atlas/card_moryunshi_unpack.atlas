@@ -1,89 +1,89 @@
 
 card_moryunshi_unpack.png
-size: 941,500
+size: 1513,331
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_moryunshi-00000
   rotate: false
-  xy: 625, 15
+  xy: 1432, 68
   size: 81, 135
   orig: 500, 425
   offset: 153, 290
   index: -1
 card_moryunshi-00001
-  rotate: true
-  xy: 737, 141
+  rotate: false
+  xy: 1322, 4
   size: 110, 199
   orig: 500, 425
   offset: 156, 204
   index: -1
 card_moryunshi-00002
-  rotate: true
-  xy: 442, 327
+  rotate: false
+  xy: 442, 1
   size: 173, 330
   orig: 500, 425
   offset: 171, 59
   index: -1
 card_moryunshi-00003
   rotate: false
-  xy: 0, 178
+  xy: 0, 9
   size: 236, 322
   orig: 500, 425
   offset: 146, 54
   index: -1
 card_moryunshi-00004
   rotate: false
-  xy: 236, 194
+  xy: 236, 25
   size: 206, 306
   orig: 500, 425
   offset: 161, 59
   index: -1
 card_moryunshi-00005
-  rotate: true
-  xy: 442, 150
+  rotate: false
+  xy: 615, 36
   size: 177, 295
   orig: 500, 425
   offset: 176, 62
   index: -1
 card_moryunshi-00006
-  rotate: true
-  xy: 0, 4
+  rotate: false
+  xy: 792, 70
   size: 174, 261
   orig: 500, 425
   offset: 175, 87
   index: -1
 card_moryunshi-00007
   rotate: false
-  xy: 772, 251
+  xy: 966, 82
   size: 169, 249
   orig: 500, 425
   offset: 180, 86
   index: -1
 card_moryunshi-00008
   rotate: false
-  xy: 261, 0
+  xy: 1135, 137
   size: 177, 194
   orig: 500, 425
   offset: 179, 83
   index: -1
 card_moryunshi-00009
   rotate: false
-  xy: 438, 13
+  xy: 1135, 0
   size: 187, 137
   orig: 500, 425
   offset: 174, 88
   index: -1
 card_moryunshi-00010
   rotate: false
-  xy: 706, 13
+  xy: 1312, 203
   size: 149, 128
   orig: 500, 425
   offset: 195, 95
   index: -1
 card_moryunshi-00011
-  rotate: true
-  xy: 855, 16
+  rotate: false
+  xy: 792, 7
   size: 125, 63
   orig: 500, 425
   offset: 198, 101

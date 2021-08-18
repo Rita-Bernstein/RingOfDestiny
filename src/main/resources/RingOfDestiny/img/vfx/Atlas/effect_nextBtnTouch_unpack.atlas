@@ -1,0 +1,104 @@
+
+effect_nextBtnTouch_unpack.png
+size: 248,813
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_nextBtnTouch-00000
+  rotate: false
+  xy: 147, 497
+  size: 63, 62
+  orig: 271, 271
+  offset: 106, 101
+  index: -1
+effect_nextBtnTouch-00001
+  rotate: false
+  xy: 147, 559
+  size: 73, 73
+  orig: 271, 271
+  offset: 101, 96
+  index: -1
+effect_nextBtnTouch-00002
+  rotate: false
+  xy: 149, 632
+  size: 89, 85
+  orig: 271, 271
+  offset: 94, 90
+  index: -1
+effect_nextBtnTouch-00003
+  rotate: false
+  xy: 149, 717
+  size: 98, 96
+  orig: 271, 271
+  offset: 88, 85
+  index: -1
+effect_nextBtnTouch-00004
+  rotate: false
+  xy: 137, 392
+  size: 106, 105
+  orig: 271, 271
+  offset: 84, 80
+  index: -1
+effect_nextBtnTouch-00005
+  rotate: false
+  xy: 133, 272
+  size: 114, 111
+  orig: 271, 271
+  offset: 81, 77
+  index: -1
+effect_nextBtnTouch-00006
+  rotate: false
+  xy: 128, 132
+  size: 120, 120
+  orig: 271, 271
+  offset: 77, 72
+  index: -1
+effect_nextBtnTouch-00007
+  rotate: false
+  xy: 0, 125
+  size: 128, 127
+  orig: 271, 271
+  offset: 74, 69
+  index: -1
+effect_nextBtnTouch-00008
+  rotate: false
+  xy: 0, 383
+  size: 137, 136
+  orig: 271, 271
+  offset: 69, 64
+  index: -1
+effect_nextBtnTouch-00009
+  rotate: false
+  xy: 0, 519
+  size: 147, 146
+  orig: 271, 271
+  offset: 64, 59
+  index: -1
+effect_nextBtnTouch-00010
+  rotate: false
+  xy: 0, 665
+  size: 149, 148
+  orig: 271, 271
+  offset: 63, 58
+  index: -1
+effect_nextBtnTouch-00011
+  rotate: false
+  xy: 125, 6
+  size: 121, 119
+  orig: 271, 271
+  offset: 77, 72
+  index: -1
+effect_nextBtnTouch-00012
+  rotate: false
+  xy: 0, 0
+  size: 125, 125
+  orig: 271, 271
+  offset: 75, 69
+  index: -1
+effect_nextBtnTouch-00013
+  rotate: false
+  xy: 0, 252
+  size: 133, 131
+  orig: 271, 271
+  offset: 71, 67
+  index: -1

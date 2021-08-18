@@ -1,0 +1,62 @@
+
+effect_thorns_behind_unpack.png
+size: 977,237
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_thorns_behind-00000
+  rotate: false
+  xy: 885, 192
+  size: 92, 45
+  orig: 440, 444
+  offset: 189, 95
+  index: -1
+effect_thorns_behind-00001
+  rotate: false
+  xy: 381, 7
+  size: 127, 230
+  orig: 440, 444
+  offset: 172, 83
+  index: -1
+effect_thorns_behind-00002
+  rotate: false
+  xy: 127, 6
+  size: 127, 231
+  orig: 440, 444
+  offset: 172, 83
+  index: -1
+effect_thorns_behind-00003
+  rotate: false
+  xy: 508, 7
+  size: 127, 230
+  orig: 440, 444
+  offset: 172, 85
+  index: -1
+effect_thorns_behind-00004
+  rotate: false
+  xy: 635, 7
+  size: 127, 230
+  orig: 440, 444
+  offset: 172, 86
+  index: -1
+effect_thorns_behind-00005
+  rotate: false
+  xy: 254, 6
+  size: 127, 231
+  orig: 440, 444
+  offset: 172, 86
+  index: -1
+effect_thorns_behind-00006
+  rotate: false
+  xy: 0, 0
+  size: 127, 237
+  orig: 440, 444
+  offset: 172, 86
+  index: -1
+effect_thorns_behind-00007
+  rotate: false
+  xy: 762, 3
+  size: 123, 234
+  orig: 440, 444
+  offset: 175, 89
+  index: -1

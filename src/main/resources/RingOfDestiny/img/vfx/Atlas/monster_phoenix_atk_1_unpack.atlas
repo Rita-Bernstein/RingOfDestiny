@@ -1,103 +1,103 @@
 
 monster_phoenix_atk_1_unpack.png
-size: 1665,607
+size: 1755,602
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_phoenix_atk_1-00000
-  rotate: true
-  xy: 0, 213
+  rotate: false
+  xy: 379, 275
   size: 394, 327
   orig: 496, 434
   offset: 84, 103
   index: -1
 monster_phoenix_atk_1-00001
-  rotate: true
-  xy: 566, 228
+  rotate: false
+  xy: 0, 262
   size: 379, 340
   orig: 496, 434
   offset: 69, 91
   index: -1
 monster_phoenix_atk_1-00002
-  rotate: true
-  xy: 1146, 291
+  rotate: false
+  xy: 773, 303
   size: 316, 299
   orig: 496, 434
   offset: 97, 115
   index: -1
 monster_phoenix_atk_1-00003
-  rotate: true
-  xy: 327, 224
+  rotate: false
+  xy: 0, 23
   size: 383, 239
   orig: 496, 434
   offset: 77, 135
   index: -1
 monster_phoenix_atk_1-00004
-  rotate: true
-  xy: 906, 257
+  rotate: false
+  xy: 383, 35
   size: 350, 240
   orig: 496, 434
   offset: 93, 133
   index: -1
 monster_phoenix_atk_1-00005
   rotate: false
-  xy: 390, 0
+  xy: 1010, 79
   size: 313, 224
   orig: 496, 434
   offset: 112, 139
   index: -1
 monster_phoenix_atk_1-00006
-  rotate: true
-  xy: 1184, 14
+  rotate: false
+  xy: 733, 0
   size: 277, 275
   orig: 496, 434
   offset: 78, 71
   index: -1
 monster_phoenix_atk_1-00007
-  rotate: true
-  xy: 942, 9
+  rotate: false
+  xy: 1089, 360
   size: 248, 242
   orig: 496, 434
   offset: 93, 94
   index: -1
 monster_phoenix_atk_1-00008
   rotate: false
-  xy: 703, 5
+  xy: 1323, 137
   size: 239, 223
   orig: 496, 434
   offset: 100, 104
   index: -1
 monster_phoenix_atk_1-00009
   rotate: false
-  xy: 1445, 387
+  xy: 1337, 382
   size: 220, 220
   orig: 496, 434
   offset: 101, 106
   index: -1
 monster_phoenix_atk_1-00010
   rotate: false
-  xy: 0, 8
+  xy: 1557, 397
   size: 198, 205
   orig: 496, 434
   offset: 104, 106
   index: -1
 monster_phoenix_atk_1-00011
   rotate: false
-  xy: 198, 20
+  xy: 1562, 204
   size: 192, 193
   orig: 496, 434
   offset: 107, 119
   index: -1
 monster_phoenix_atk_1-00012
-  rotate: true
-  xy: 1459, 201
+  rotate: false
+  xy: 1562, 12
   size: 186, 192
   orig: 496, 434
   offset: 109, 123
   index: -1
 monster_phoenix_atk_1-00013
-  rotate: true
-  xy: 1459, 9
+  rotate: false
+  xy: 1323, 7
   size: 192, 130
   orig: 496, 434
   offset: 105, 133

@@ -1,0 +1,48 @@
+
+effect_get_shop_buff_unpack.png
+size: 505,547
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_get_shop_buff-00000
+  rotate: false
+  xy: 249, 0
+  size: 148, 146
+  orig: 400, 400
+  offset: 126, 127
+  index: -1
+effect_get_shop_buff-00001
+  rotate: false
+  xy: 0, 268
+  size: 274, 279
+  orig: 400, 400
+  offset: 60, 60
+  index: -1
+effect_get_shop_buff-00002
+  rotate: false
+  xy: 0, 5
+  size: 249, 263
+  orig: 400, 400
+  offset: 69, 70
+  index: -1
+effect_get_shop_buff-00003
+  rotate: false
+  xy: 274, 330
+  size: 228, 217
+  orig: 400, 400
+  offset: 90, 87
+  index: -1
+effect_get_shop_buff-00004
+  rotate: false
+  xy: 274, 146
+  size: 184, 184
+  orig: 400, 400
+  offset: 111, 106
+  index: -1
+effect_get_shop_buff-00005
+  rotate: false
+  xy: 397, 50
+  size: 108, 96
+  orig: 400, 400
+  offset: 148, 154
+  index: -1

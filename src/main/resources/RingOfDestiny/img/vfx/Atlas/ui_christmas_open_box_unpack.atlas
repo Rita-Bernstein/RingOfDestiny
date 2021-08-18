@@ -1,6 +1,6 @@
 
 ui_christmas_open_box_unpack.png
-size: 1999,1589
+size: 1971,1589
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -12,22 +12,22 @@ ui_christmas_open_box-00000
   offset: 128, 0
   index: -1
 ui_christmas_open_box-00001
-  rotate: true
-  xy: 1729, 175
+  rotate: false
+  xy: 448, 239
   size: 346, 270
   orig: 480, 270
   offset: 68, 0
   index: -1
 ui_christmas_open_box-00002
   rotate: false
-  xy: 471, 779
+  xy: 1405, 1049
   size: 464, 270
   orig: 480, 270
   offset: 15, 0
   index: -1
 ui_christmas_open_box-00003
   rotate: false
-  xy: 947, 1319
+  xy: 471, 1049
   size: 468, 270
   orig: 480, 270
   offset: 5, 0
@@ -41,133 +41,133 @@ ui_christmas_open_box-00004
   index: -1
 ui_christmas_open_box-00005
   rotate: false
-  xy: 0, 1049
+  xy: 475, 1319
   size: 474, 270
   orig: 480, 270
   offset: 6, 0
   index: -1
 ui_christmas_open_box-00006
   rotate: false
-  xy: 0, 509
+  xy: 939, 1049
   size: 466, 270
   orig: 480, 270
   offset: 7, 0
   index: -1
 ui_christmas_open_box-00007
   rotate: false
-  xy: 1415, 1319
+  xy: 452, 779
   size: 451, 270
   orig: 480, 270
   offset: 7, 0
   index: -1
 ui_christmas_open_box-00008
   rotate: false
-  xy: 0, 239
+  xy: 903, 779
   size: 451, 270
   orig: 480, 270
   offset: 8, 0
   index: -1
 ui_christmas_open_box-00009
   rotate: false
-  xy: 466, 509
+  xy: 1354, 779
   size: 451, 270
   orig: 480, 270
   offset: 8, 0
   index: -1
 ui_christmas_open_box-00010
   rotate: false
-  xy: 1397, 1049
+  xy: 451, 509
   size: 450, 270
   orig: 480, 270
   offset: 9, 0
   index: -1
 ui_christmas_open_box-00011
   rotate: false
-  xy: 0, 779
+  xy: 1421, 1319
   size: 471, 270
   orig: 480, 270
   offset: 9, 0
   index: -1
 ui_christmas_open_box-00012
   rotate: false
-  xy: 474, 1049
+  xy: 0, 1049
   size: 471, 270
   orig: 480, 270
   offset: 9, 0
   index: -1
 ui_christmas_open_box-00013
   rotate: false
-  xy: 475, 1319
+  xy: 949, 1319
   size: 472, 270
   orig: 480, 270
   offset: 8, 0
   index: -1
 ui_christmas_open_box-00014
   rotate: false
-  xy: 935, 779
+  xy: 0, 509
   size: 451, 270
   orig: 480, 270
   offset: 8, 0
   index: -1
 ui_christmas_open_box-00015
   rotate: false
-  xy: 945, 1049
+  xy: 0, 779
   size: 452, 270
   orig: 480, 270
   offset: 7, 0
   index: -1
 ui_christmas_open_box-00016
   rotate: false
-  xy: 451, 239
+  xy: 901, 509
   size: 448, 270
   orig: 480, 270
   offset: 6, 0
   index: -1
 ui_christmas_open_box-00017
   rotate: false
-  xy: 917, 509
+  xy: 0, 239
   size: 448, 270
   orig: 480, 270
   offset: 6, 0
   index: -1
 ui_christmas_open_box-00018
   rotate: false
-  xy: 899, 244
+  xy: 794, 244
   size: 449, 265
   orig: 480, 270
   offset: 5, 0
   index: -1
 ui_christmas_open_box-00019
   rotate: false
-  xy: 1386, 521
+  xy: 1349, 251
   size: 450, 264
   orig: 480, 270
   offset: 4, 0
   index: -1
 ui_christmas_open_box-00020
   rotate: false
-  xy: 1386, 785
+  xy: 1349, 515
   size: 451, 264
   orig: 480, 270
   offset: 3, 0
   index: -1
 ui_christmas_open_box-00021
   rotate: false
-  xy: 1365, 275
+  xy: 1243, 5
   size: 364, 246
   orig: 480, 270
   offset: 69, 0
   index: -1
 ui_christmas_open_box-00022
   rotate: false
-  xy: 1348, 30
+  xy: 1607, 6
   size: 364, 245
   orig: 480, 270
   offset: 69, 0
   index: -1
 ui_christmas_open_box-00023
   rotate: false
-  xy: 899, 0
+  xy: 794, 0
   size: 369, 244
   orig: 480, 270
   offset: 69, 0

@@ -1,0 +1,27 @@
+
+effect_monster_10013_bleed_unpack.png
+size: 349,415
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10013_bleed-00000
+  rotate: false
+  xy: 0, 0
+  size: 301, 234
+  orig: 500, 500
+  offset: 100, 135
+  index: -1
+effect_monster_10013_bleed-00001
+  rotate: false
+  xy: 125, 234
+  size: 224, 181
+  orig: 500, 500
+  offset: 105, 164
+  index: -1
+effect_monster_10013_bleed-00002
+  rotate: false
+  xy: 0, 290
+  size: 125, 125
+  orig: 500, 500
+  offset: 152, 191
+  index: -1

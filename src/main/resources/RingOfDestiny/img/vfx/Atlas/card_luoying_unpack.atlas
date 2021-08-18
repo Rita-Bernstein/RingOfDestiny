@@ -1,6 +1,6 @@
 
 card_luoying_unpack.png
-size: 945,292
+size: 1017,292
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -34,63 +34,63 @@ card_luoying-00003
   index: -1
 card_luoying-00004
   rotate: false
-  xy: 581, 18
+  xy: 479, 18
   size: 100, 274
   orig: 328, 405
   offset: 119, 67
   index: -1
 card_luoying-00005
   rotate: false
-  xy: 479, 20
+  xy: 579, 20
   size: 102, 272
   orig: 328, 405
   offset: 118, 65
   index: -1
 card_luoying-00006
-  rotate: true
-  xy: 681, 188
+  rotate: false
+  xy: 681, 32
   size: 104, 260
   orig: 328, 405
   offset: 117, 71
   index: -1
 card_luoying-00007
-  rotate: true
-  xy: 759, 111
+  rotate: false
+  xy: 785, 106
   size: 77, 186
   orig: 328, 405
   offset: 139, 89
   index: -1
 card_luoying-00008
   rotate: false
-  xy: 681, 4
+  xy: 862, 108
   size: 78, 184
   orig: 328, 405
   offset: 140, 84
   index: -1
 card_luoying-00009
-  rotate: true
-  xy: 759, 34
+  rotate: false
+  xy: 940, 155
   size: 77, 137
   orig: 328, 405
   offset: 141, 121
   index: -1
 card_luoying-00010
   rotate: false
-  xy: 896, 54
+  xy: 785, 49
   size: 42, 57
   orig: 328, 405
   offset: 176, 152
   index: -1
 card_luoying-00011
   rotate: false
-  xy: 896, 1
+  xy: 827, 53
   size: 37, 53
   orig: 328, 405
   offset: 180, 147
   index: -1
 card_luoying-00012
-  rotate: true
-  xy: 759, 0
+  rotate: false
+  xy: 864, 58
   size: 34, 50
   orig: 328, 405
   offset: 182, 141

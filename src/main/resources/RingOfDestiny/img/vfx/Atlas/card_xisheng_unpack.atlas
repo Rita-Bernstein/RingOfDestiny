@@ -1,159 +1,159 @@
 
 card_xisheng_unpack.png
-size: 1969,1683
+size: 1834,1800
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_xisheng-00000
-  rotate: true
-  xy: 1700, 966
+  rotate: false
+  xy: 1567, 186
   size: 267, 264
   orig: 350, 450
   offset: 48, 0
   index: -1
 card_xisheng-00001
   rotate: false
-  xy: 1685, 333
+  xy: 973, 0
   size: 284, 450
   orig: 350, 450
   offset: 38, 0
   index: -1
 card_xisheng-00002
-  rotate: true
-  xy: 900, 11
+  rotate: false
+  xy: 651, 0
   size: 322, 450
   orig: 350, 450
   offset: 13, 0
   index: -1
 card_xisheng-00003
   rotate: false
-  xy: 700, 1233
+  xy: 0, 900
   size: 347, 450
   orig: 350, 450
   offset: 3, 0
   index: -1
 card_xisheng-00004
   rotate: false
-  xy: 691, 333
+  xy: 1370, 900
   size: 337, 450
   orig: 350, 450
   offset: 13, 0
   index: -1
 card_xisheng-00005
   rotate: false
-  xy: 350, 333
+  xy: 347, 900
   size: 341, 450
   orig: 350, 450
   offset: 9, 0
   index: -1
 card_xisheng-00006
   rotate: false
-  xy: 0, 1233
+  xy: 0, 1350
   size: 350, 450
   orig: 350, 450
   offset: 0, 0
   index: -1
 card_xisheng-00007
   rotate: false
-  xy: 699, 783
+  xy: 688, 900
   size: 341, 450
   orig: 350, 450
   offset: 9, 0
   index: -1
 card_xisheng-00008
   rotate: false
-  xy: 0, 783
+  xy: 350, 1350
   size: 350, 450
   orig: 350, 450
   offset: 0, 0
   index: -1
 card_xisheng-00009
   rotate: false
-  xy: 350, 1233
+  xy: 700, 1350
   size: 350, 450
   orig: 350, 450
   offset: 0, 0
   index: -1
 card_xisheng-00010
   rotate: false
-  xy: 0, 333
+  xy: 1050, 1350
   size: 350, 450
   orig: 350, 450
   offset: 0, 0
   index: -1
 card_xisheng-00011
   rotate: false
-  xy: 350, 783
+  xy: 1400, 1350
   size: 349, 450
   orig: 350, 450
   offset: 1, 0
   index: -1
 card_xisheng-00012
   rotate: false
-  xy: 1047, 1233
+  xy: 1029, 900
   size: 341, 450
   orig: 350, 450
   offset: 9, 0
   index: -1
 card_xisheng-00013
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 450
   size: 333, 450
   orig: 350, 450
   offset: 16, 0
   index: -1
 card_xisheng-00014
   rotate: false
-  xy: 1040, 783
+  xy: 333, 450
   size: 333, 450
   orig: 350, 450
   offset: 16, 0
   index: -1
 card_xisheng-00015
   rotate: false
-  xy: 1388, 1233
+  xy: 666, 450
   size: 333, 450
   orig: 350, 450
   offset: 16, 0
   index: -1
 card_xisheng-00016
   rotate: false
-  xy: 1028, 333
+  xy: 999, 450
   size: 333, 450
   orig: 350, 450
   offset: 16, 0
   index: -1
 card_xisheng-00017
-  rotate: true
-  xy: 450, 0
+  rotate: false
+  xy: 1332, 450
   size: 333, 450
   orig: 350, 450
   offset: 16, 0
   index: -1
 card_xisheng-00018
   rotate: false
-  xy: 1373, 783
+  xy: 0, 0
   size: 327, 450
   orig: 350, 450
   offset: 22, 0
   index: -1
 card_xisheng-00019
   rotate: false
-  xy: 1361, 333
+  xy: 327, 0
   size: 324, 450
   orig: 350, 450
   offset: 22, 0
   index: -1
 card_xisheng-00020
-  rotate: true
-  xy: 1350, 23
+  rotate: false
+  xy: 1257, 60
   size: 310, 390
   orig: 350, 450
   offset: 25, 22
   index: -1
 card_xisheng-00021
   rotate: false
-  xy: 1721, 1409
+  xy: 1665, 626
   size: 140, 274
   orig: 350, 450
   offset: 90, 152

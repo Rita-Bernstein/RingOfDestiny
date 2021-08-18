@@ -1,47 +1,47 @@
 
 card_jieyin_si_402_unpack.png
-size: 668,392
+size: 392,669
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jieyin_si_402-00000
-  rotate: true
-  xy: 0, 159
+  rotate: false
+  xy: 0, 430
   size: 233, 239
   orig: 459, 379
   offset: 120, 70
   index: -1
 card_jieyin_si_402-00001
-  rotate: true
-  xy: 239, 169
+  rotate: false
+  xy: 0, 204
   size: 223, 226
   orig: 459, 379
   offset: 125, 77
   index: -1
 card_jieyin_si_402-00002
   rotate: false
-  xy: 465, 188
+  xy: 0, 0
   size: 203, 204
   orig: 459, 379
   offset: 136, 88
   index: -1
 card_jieyin_si_402-00003
   rotate: false
-  xy: 465, 5
+  xy: 203, 21
   size: 185, 183
   orig: 459, 379
   offset: 143, 96
   index: -1
 card_jieyin_si_402-00004
-  rotate: true
-  xy: 239, 0
+  rotate: false
+  xy: 223, 260
   size: 169, 170
   orig: 459, 379
   offset: 151, 102
   index: -1
 card_jieyin_si_402-00005
   rotate: false
-  xy: 0, 1
+  xy: 233, 511
   size: 159, 158
   orig: 459, 379
   offset: 156, 109

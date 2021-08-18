@@ -1,75 +1,75 @@
 
 card_morrongyan_unpack.png
-size: 532,1098
+size: 570,1075
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_morrongyan-00000
   rotate: false
-  xy: 0, 262
+  xy: 0, 47
   size: 211, 165
   orig: 500, 428
   offset: 138, 84
   index: -1
 card_morrongyan-00001
   rotate: false
-  xy: 0, 847
+  xy: 0, 824
   size: 326, 251
   orig: 500, 428
   offset: 86, 54
   index: -1
 card_morrongyan-00002
   rotate: false
-  xy: 0, 615
+  xy: 0, 592
   size: 283, 232
   orig: 500, 428
   offset: 107, 70
   index: -1
 card_morrongyan-00003
   rotate: false
-  xy: 258, 244
+  xy: 283, 394
   size: 256, 234
   orig: 500, 428
   offset: 120, 72
   index: -1
 card_morrongyan-00004
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 326, 839
   size: 244, 236
   orig: 500, 428
   offset: 128, 74
   index: -1
 card_morrongyan-00005
   rotate: false
-  xy: 283, 478
+  xy: 0, 389
   size: 247, 203
   orig: 500, 428
   offset: 125, 109
   index: -1
 card_morrongyan-00006
-  rotate: true
-  xy: 326, 858
+  rotate: false
+  xy: 247, 188
   size: 240, 206
   orig: 500, 428
   offset: 130, 108
   index: -1
 card_morrongyan-00007
-  rotate: true
-  xy: 236, 0
+  rotate: false
+  xy: 326, 628
   size: 244, 211
   orig: 500, 428
   offset: 131, 103
   index: -1
 card_morrongyan-00008
   rotate: false
-  xy: 0, 427
+  xy: 211, 0
   size: 258, 188
   orig: 500, 428
   offset: 124, 110
   index: -1
 card_morrongyan-00009
   rotate: false
-  xy: 326, 681
+  xy: 0, 212
   size: 206, 177
   orig: 500, 428
   offset: 152, 119

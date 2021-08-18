@@ -1,40 +1,40 @@
 
 monster_attack_1_unpack.png
-size: 474,223
+size: 302,349
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_attack_1-00000
   rotate: false
-  xy: 200, 74
+  xy: 0, 0
   size: 143, 149
   orig: 200, 200
   offset: 53, 42
   index: -1
 monster_attack_1-00001
   rotate: false
-  xy: 0, 23
+  xy: 0, 149
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 monster_attack_1-00002
-  rotate: true
-  xy: 200, 0
+  rotate: false
+  xy: 200, 113
   size: 74, 132
   orig: 200, 200
   offset: 44, 19
   index: -1
 monster_attack_1-00003
-  rotate: true
-  xy: 343, 8
+  rotate: false
+  xy: 200, 245
   size: 102, 104
   orig: 200, 200
   offset: 34, 58
   index: -1
 monster_attack_1-00004
   rotate: false
-  xy: 343, 110
+  xy: 143, 0
   size: 131, 113
   orig: 200, 200
   offset: 19, 51

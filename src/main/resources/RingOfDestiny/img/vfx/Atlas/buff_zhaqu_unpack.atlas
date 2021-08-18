@@ -1,61 +1,61 @@
 
 buff_zhaqu_unpack.png
-size: 1636,309
+size: 571,898
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 buff_zhaqu-00000
-  rotate: true
-  xy: 344, 35
+  rotate: false
+  xy: 297, 0
   size: 274, 361
   orig: 500, 472
   offset: 102, 38
   index: -1
 buff_zhaqu-00001
-  rotate: true
-  xy: 0, 12
+  rotate: false
+  xy: 0, 17
   size: 297, 344
   orig: 500, 472
   offset: 103, 49
   index: -1
 buff_zhaqu-00002
   rotate: false
-  xy: 705, 3
+  xy: 264, 361
   size: 274, 306
   orig: 500, 472
   offset: 122, 68
   index: -1
 buff_zhaqu-00003
   rotate: false
-  xy: 979, 7
+  xy: 0, 434
   size: 264, 302
   orig: 500, 472
   offset: 126, 66
   index: -1
 buff_zhaqu-00004
-  rotate: true
-  xy: 1243, 75
+  rotate: false
+  xy: 337, 667
   size: 234, 231
   orig: 500, 472
   offset: 126, 113
   index: -1
 buff_zhaqu-00005
-  rotate: true
-  xy: 1474, 100
+  rotate: false
+  xy: 128, 736
   size: 209, 162
   orig: 500, 472
   offset: 146, 150
   index: -1
 buff_zhaqu-00006
-  rotate: true
-  xy: 1474, 0
+  rotate: false
+  xy: 28, 819
   size: 100, 79
   orig: 500, 472
   offset: 203, 183
   index: -1
 buff_zhaqu-00007
-  rotate: true
-  xy: 344, 7
+  rotate: false
+  xy: 0, 871
   size: 28, 27
   orig: 500, 472
   offset: 231, 198

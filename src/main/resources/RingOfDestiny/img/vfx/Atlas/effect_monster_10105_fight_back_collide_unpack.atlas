@@ -1,0 +1,41 @@
+
+effect_monster_10105_fight_back_collide_unpack.png
+size: 707,668
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10105_fight_back_collide-00000
+  rotate: false
+  xy: 0, 269
+  size: 406, 399
+  orig: 500, 500
+  offset: 11, 79
+  index: -1
+effect_monster_10105_fight_back_collide-00001
+  rotate: false
+  xy: 406, 363
+  size: 274, 305
+  orig: 500, 500
+  offset: 116, 71
+  index: -1
+effect_monster_10105_fight_back_collide-00002
+  rotate: false
+  xy: 0, 0
+  size: 245, 269
+  orig: 500, 500
+  offset: 130, 97
+  index: -1
+effect_monster_10105_fight_back_collide-00003
+  rotate: false
+  xy: 245, 23
+  size: 238, 246
+  orig: 500, 500
+  offset: 133, 112
+  index: -1
+effect_monster_10105_fight_back_collide-00004
+  rotate: false
+  xy: 483, 131
+  size: 224, 232
+  orig: 500, 500
+  offset: 138, 116
+  index: -1

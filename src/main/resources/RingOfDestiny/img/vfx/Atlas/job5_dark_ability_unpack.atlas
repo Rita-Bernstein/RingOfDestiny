@@ -1,0 +1,90 @@
+
+job5_dark_ability_unpack.png
+size: 769,990
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+job5_dark_ability-00000
+  rotate: false
+  xy: 251, 3
+  size: 204, 184
+  orig: 482, 391
+  offset: 129, 90
+  index: -1
+job5_dark_ability-00001
+  rotate: false
+  xy: 0, 0
+  size: 202, 185
+  orig: 482, 391
+  offset: 128, 90
+  index: -1
+job5_dark_ability-00002
+  rotate: false
+  xy: 504, 24
+  size: 232, 189
+  orig: 482, 391
+  offset: 129, 89
+  index: -1
+job5_dark_ability-00003
+  rotate: false
+  xy: 0, 427
+  size: 260, 284
+  orig: 482, 391
+  offset: 114, 90
+  index: -1
+job5_dark_ability-00004
+  rotate: false
+  xy: 260, 432
+  size: 284, 279
+  orig: 482, 391
+  offset: 95, 89
+  index: -1
+job5_dark_ability-00005
+  rotate: false
+  xy: 0, 711
+  size: 318, 279
+  orig: 482, 391
+  offset: 83, 86
+  index: -1
+job5_dark_ability-00006
+  rotate: false
+  xy: 318, 725
+  size: 238, 265
+  orig: 482, 391
+  offset: 120, 88
+  index: -1
+job5_dark_ability-00007
+  rotate: false
+  xy: 260, 187
+  size: 244, 245
+  orig: 482, 391
+  offset: 118, 94
+  index: -1
+job5_dark_ability-00008
+  rotate: false
+  xy: 0, 185
+  size: 251, 242
+  orig: 482, 391
+  offset: 116, 94
+  index: -1
+job5_dark_ability-00009
+  rotate: false
+  xy: 504, 213
+  size: 239, 219
+  orig: 482, 391
+  offset: 123, 101
+  index: -1
+job5_dark_ability-00010
+  rotate: false
+  xy: 544, 493
+  size: 225, 232
+  orig: 482, 391
+  offset: 133, 100
+  index: -1
+job5_dark_ability-00011
+  rotate: false
+  xy: 556, 763
+  size: 211, 227
+  orig: 482, 391
+  offset: 139, 101
+  index: -1

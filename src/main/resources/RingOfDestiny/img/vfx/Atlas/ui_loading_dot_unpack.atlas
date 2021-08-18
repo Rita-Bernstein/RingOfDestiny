@@ -1,0 +1,69 @@
+
+ui_loading_dot_unpack.png
+size: 76,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_loading_dot-00000
+  rotate: false
+  xy: 0, 0
+  size: 76, 36
+  orig: 250, 250
+  offset: 86, 99
+  index: -1
+ui_loading_dot-00008
+  rotate: false
+  xy: 0, 0
+  size: 76, 36
+  orig: 250, 250
+  offset: 86, 99
+  index: -1
+ui_loading_dot-00001
+  rotate: false
+  xy: 0, 118
+  size: 76, 41
+  orig: 250, 250
+  offset: 86, 99
+  index: -1
+ui_loading_dot-00002
+  rotate: false
+  xy: 0, 247
+  size: 76, 46
+  orig: 250, 250
+  offset: 86, 99
+  index: -1
+ui_loading_dot-00003
+  rotate: false
+  xy: 0, 77
+  size: 76, 41
+  orig: 250, 250
+  offset: 86, 100
+  index: -1
+ui_loading_dot-00004
+  rotate: false
+  xy: 0, 201
+  size: 76, 46
+  orig: 250, 250
+  offset: 86, 100
+  index: -1
+ui_loading_dot-00005
+  rotate: false
+  xy: 0, 36
+  size: 76, 41
+  orig: 250, 250
+  offset: 86, 100
+  index: -1
+ui_loading_dot-00006
+  rotate: false
+  xy: 0, 293
+  size: 76, 49
+  orig: 250, 250
+  offset: 86, 99
+  index: -1
+ui_loading_dot-00007
+  rotate: false
+  xy: 0, 159
+  size: 76, 42
+  orig: 250, 250
+  offset: 86, 99
+  index: -1

@@ -1,12 +1,12 @@
 
 effect_job6_attack_1_unpack.png
-size: 1384,246
+size: 1433,246
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_job6_attack_1-00000
-  rotate: true
-  xy: 1235, 48
+  rotate: false
+  xy: 1235, 97
   size: 198, 149
   orig: 500, 500
   offset: 94, 199

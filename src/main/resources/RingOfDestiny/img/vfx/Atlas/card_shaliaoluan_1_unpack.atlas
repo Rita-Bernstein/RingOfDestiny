@@ -1,96 +1,96 @@
 
 card_shaliaoluan_1_unpack.png
-size: 1208,554
+size: 789,983
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_shaliaoluan_1-00000
-  rotate: true
-  xy: 0, 2
+  rotate: false
+  xy: 0, 48
   size: 257, 305
   orig: 436, 404
   offset: 102, 41
   index: -1
 card_shaliaoluan_1-00001
-  rotate: true
-  xy: 305, 2
+  rotate: false
+  xy: 0, 353
   size: 257, 290
   orig: 436, 404
   offset: 102, 50
   index: -1
 card_shaliaoluan_1-00002
-  rotate: true
-  xy: 595, 8
+  rotate: false
+  xy: 538, 590
   size: 251, 295
   orig: 436, 404
   offset: 115, 47
   index: -1
 card_shaliaoluan_1-00003
   rotate: false
-  xy: 535, 259
+  xy: 257, 307
   size: 262, 295
   orig: 436, 404
   offset: 114, 47
   index: -1
 card_shaliaoluan_1-00004
   rotate: false
-  xy: 0, 259
+  xy: 519, 295
   size: 268, 295
   orig: 436, 404
   offset: 115, 47
   index: -1
 card_shaliaoluan_1-00005
   rotate: false
-  xy: 268, 259
+  xy: 257, 0
   size: 267, 295
   orig: 436, 404
   offset: 115, 47
   index: -1
 card_shaliaoluan_1-00006
   rotate: false
-  xy: 797, 271
+  xy: 271, 602
   size: 267, 283
   orig: 436, 404
   offset: 119, 53
   index: -1
 card_shaliaoluan_1-00007
-  rotate: true
-  xy: 890, 0
+  rotate: false
+  xy: 0, 643
   size: 271, 258
   orig: 436, 404
   offset: 126, 66
   index: -1
 card_shaliaoluan_1-00008
   rotate: false
-  xy: 1064, 456
+  xy: 464, 885
   size: 120, 98
   orig: 436, 404
   offset: 226, 156
   index: -1
 card_shaliaoluan_1-00009
   rotate: false
-  xy: 1064, 370
+  xy: 347, 897
   size: 117, 86
   orig: 436, 404
   offset: 230, 168
   index: -1
 card_shaliaoluan_1-00010
   rotate: false
-  xy: 1064, 288
+  xy: 231, 901
   size: 116, 82
   orig: 436, 404
   offset: 231, 170
   index: -1
 card_shaliaoluan_1-00011
-  rotate: true
-  xy: 1148, 57
+  rotate: false
+  xy: 119, 923
   size: 112, 60
   orig: 436, 404
   offset: 237, 191
   index: -1
 card_shaliaoluan_1-00012
-  rotate: true
-  xy: 1148, 169
+  rotate: false
+  xy: 0, 926
   size: 119, 57
   orig: 436, 404
   offset: 233, 193

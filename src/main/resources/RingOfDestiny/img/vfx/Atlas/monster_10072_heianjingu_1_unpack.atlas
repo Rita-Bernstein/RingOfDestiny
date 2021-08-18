@@ -1,26 +1,26 @@
 
 monster_10072_heianjingu_1_unpack.png
-size: 1095,560
+size: 1163,560
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10072_heianjingu_1-00000
-  rotate: true
-  xy: 1015, 334
+  rotate: false
+  xy: 907, 210
   size: 226, 80
   orig: 500, 500
   offset: 140, 302
   index: -1
 monster_10072_heianjingu_1-00001
-  rotate: true
-  xy: 729, 306
+  rotate: false
+  xy: 655, 2
   size: 254, 114
   orig: 500, 500
   offset: 126, 268
   index: -1
 monster_10072_heianjingu_1-00002
-  rotate: true
-  xy: 843, 308
+  rotate: false
+  xy: 655, 116
   size: 252, 172
   orig: 500, 500
   offset: 126, 210
@@ -34,14 +34,14 @@ monster_10072_heianjingu_1-00003
   index: -1
 monster_10072_heianjingu_1-00004
   rotate: false
-  xy: 284, 288
+  xy: 520, 288
   size: 235, 272
   orig: 500, 500
   offset: 132, 110
   index: -1
 monster_10072_heianjingu_1-00005
   rotate: false
-  xy: 237, 1
+  xy: 284, 288
   size: 236, 272
   orig: 500, 500
   offset: 132, 110
@@ -55,28 +55,28 @@ monster_10072_heianjingu_1-00006
   index: -1
 monster_10072_heianjingu_1-00007
   rotate: false
-  xy: 473, 18
+  xy: 755, 290
   size: 234, 270
   orig: 500, 500
   offset: 133, 110
   index: -1
 monster_10072_heianjingu_1-00008
   rotate: false
-  xy: 519, 293
+  xy: 237, 6
   size: 210, 267
   orig: 500, 500
   offset: 143, 113
   index: -1
 monster_10072_heianjingu_1-00009
   rotate: false
-  xy: 707, 30
+  xy: 447, 25
   size: 208, 263
   orig: 500, 500
   offset: 145, 114
   index: -1
 monster_10072_heianjingu_1-00010
   rotate: false
-  xy: 915, 62
+  xy: 989, 314
   size: 174, 246
   orig: 500, 500
   offset: 165, 124

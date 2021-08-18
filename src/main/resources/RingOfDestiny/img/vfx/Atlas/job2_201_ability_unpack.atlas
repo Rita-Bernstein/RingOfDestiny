@@ -1,0 +1,48 @@
+
+job2_201_ability_unpack.png
+size: 628,1013
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+job2_201_ability-00000
+  rotate: false
+  xy: 0, 559
+  size: 432, 454
+  orig: 500, 500
+  offset: 29, 15
+  index: -1
+job2_201_ability-00001
+  rotate: false
+  xy: 0, 187
+  size: 344, 372
+  orig: 500, 500
+  offset: 75, 51
+  index: -1
+job2_201_ability-00002
+  rotate: false
+  xy: 344, 217
+  size: 255, 333
+  orig: 500, 500
+  offset: 119, 63
+  index: -1
+job2_201_ability-00003
+  rotate: false
+  xy: 432, 770
+  size: 196, 243
+  orig: 500, 500
+  offset: 131, 106
+  index: -1
+job2_201_ability-00004
+  rotate: false
+  xy: 344, 0
+  size: 181, 217
+  orig: 500, 500
+  offset: 140, 132
+  index: -1
+job2_201_ability-00005
+  rotate: false
+  xy: 432, 550
+  size: 191, 220
+  orig: 500, 500
+  offset: 134, 135
+  index: -1

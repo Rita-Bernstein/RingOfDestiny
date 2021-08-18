@@ -1,0 +1,90 @@
+
+effect_job3_equip_unpack.png
+size: 1558,670
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job3_equip-00000
+  rotate: false
+  xy: 0, 192
+  size: 169, 90
+  orig: 500, 500
+  offset: 176, 139
+  index: -1
+effect_job3_equip-00001
+  rotate: false
+  xy: 0, 282
+  size: 268, 388
+  orig: 500, 500
+  offset: 130, 91
+  index: -1
+effect_job3_equip-00002
+  rotate: false
+  xy: 268, 317
+  size: 260, 353
+  orig: 500, 500
+  offset: 123, 87
+  index: -1
+effect_job3_equip-00003
+  rotate: false
+  xy: 528, 319
+  size: 270, 351
+  orig: 500, 500
+  offset: 118, 81
+  index: -1
+effect_job3_equip-00004
+  rotate: false
+  xy: 798, 329
+  size: 272, 341
+  orig: 500, 500
+  offset: 109, 76
+  index: -1
+effect_job3_equip-00005
+  rotate: false
+  xy: 1070, 14
+  size: 264, 333
+  orig: 500, 500
+  offset: 114, 83
+  index: -1
+effect_job3_equip-00006
+  rotate: false
+  xy: 528, 0
+  size: 267, 319
+  orig: 500, 500
+  offset: 110, 64
+  index: -1
+effect_job3_equip-00007
+  rotate: false
+  xy: 268, 2
+  size: 259, 315
+  orig: 500, 500
+  offset: 109, 61
+  index: -1
+effect_job3_equip-00008
+  rotate: false
+  xy: 1070, 347
+  size: 271, 323
+  orig: 500, 500
+  offset: 99, 55
+  index: -1
+effect_job3_equip-00009
+  rotate: false
+  xy: 798, 2
+  size: 237, 327
+  orig: 500, 500
+  offset: 135, 46
+  index: -1
+effect_job3_equip-00010
+  rotate: false
+  xy: 1334, 15
+  size: 224, 332
+  orig: 500, 500
+  offset: 133, 35
+  index: -1
+effect_job3_equip-00011
+  rotate: false
+  xy: 1341, 361
+  size: 208, 309
+  orig: 500, 500
+  offset: 142, 61
+  index: -1

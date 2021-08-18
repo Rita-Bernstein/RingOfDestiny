@@ -1,75 +1,75 @@
 
 card_yuanlipaoxiao_unpack.png
-size: 1296,658
+size: 1486,586
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_yuanlipaoxiao-00000
   rotate: false
-  xy: 1037, 0
+  xy: 1293, 390
   size: 193, 196
   orig: 500, 500
   offset: 157, 152
   index: -1
 card_yuanlipaoxiao-00001
   rotate: false
-  xy: 0, 24
+  xy: 1004, 297
   size: 289, 289
   orig: 500, 500
   offset: 108, 105
   index: -1
 card_yuanlipaoxiao-00002
   rotate: false
-  xy: 678, 341
+  xy: 687, 269
   size: 317, 317
   orig: 500, 500
   offset: 94, 91
   index: -1
 card_yuanlipaoxiao-00003
-  rotate: true
-  xy: 337, 316
+  rotate: false
+  xy: 0, 245
   size: 342, 341
   orig: 500, 500
   offset: 82, 80
   index: -1
 card_yuanlipaoxiao-00004
-  rotate: true
-  xy: 0, 313
+  rotate: false
+  xy: 342, 249
   size: 345, 337
   orig: 500, 500
   offset: 80, 87
   index: -1
 card_yuanlipaoxiao-00005
-  rotate: true
-  xy: 793, 76
+  rotate: false
+  xy: 0, 1
   size: 265, 244
   orig: 500, 500
   offset: 117, 106
   index: -1
 card_yuanlipaoxiao-00006
-  rotate: true
-  xy: 289, 41
+  rotate: false
+  xy: 687, 18
   size: 272, 251
   orig: 500, 500
   offset: 113, 100
   index: -1
 card_yuanlipaoxiao-00007
-  rotate: true
-  xy: 540, 49
+  rotate: false
+  xy: 1004, 44
   size: 267, 253
   orig: 500, 500
   offset: 114, 96
   index: -1
 card_yuanlipaoxiao-00008
   rotate: false
-  xy: 1037, 409
+  xy: 342, 0
   size: 259, 249
   orig: 500, 500
   offset: 120, 96
   index: -1
 card_yuanlipaoxiao-00009
-  rotate: true
-  xy: 1037, 196
+  rotate: false
+  xy: 1271, 57
   size: 213, 240
   orig: 500, 500
   offset: 134, 95

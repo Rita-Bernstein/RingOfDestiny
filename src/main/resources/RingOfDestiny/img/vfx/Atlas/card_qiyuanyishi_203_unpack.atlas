@@ -1,68 +1,68 @@
 
 card_qiyuanyishi_203_unpack.png
-size: 405,766
+size: 381,823
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_qiyuanyishi_203-00000
   rotate: false
-  xy: 0, 184
+  xy: 162, 243
   size: 202, 201
   orig: 392, 279
   offset: 98, 45
   index: -1
 card_qiyuanyishi_203-00001
   rotate: false
-  xy: 202, 170
+  xy: 170, 444
   size: 196, 196
   orig: 392, 279
   offset: 99, 43
   index: -1
 card_qiyuanyishi_203-00002
   rotate: false
-  xy: 0, 1
+  xy: 187, 640
   size: 187, 183
   orig: 392, 279
   offset: 101, 49
   index: -1
 card_qiyuanyishi_203-00003
-  rotate: true
-  xy: 240, 396
+  rotate: false
+  xy: 30, 663
   size: 157, 160
   orig: 392, 279
   offset: 116, 58
   index: -1
 card_qiyuanyishi_203-00004
-  rotate: true
-  xy: 0, 554
+  rotate: false
+  xy: 169, 0
   size: 212, 243
   orig: 392, 279
   offset: 92, 12
   index: -1
 card_qiyuanyishi_203-00005
-  rotate: true
-  xy: 187, 0
+  rotate: false
+  xy: 0, 480
   size: 170, 183
   orig: 392, 279
   offset: 112, 40
   index: -1
 card_qiyuanyishi_203-00006
   rotate: false
-  xy: 243, 553
+  xy: 0, 267
   size: 162, 213
   orig: 392, 279
   offset: 116, 24
   index: -1
 card_qiyuanyishi_203-00007
-  rotate: true
-  xy: 0, 385
+  rotate: false
+  xy: 0, 3
   size: 169, 240
   orig: 392, 279
   offset: 113, 14
   index: -1
 card_qiyuanyishi_203-00008
-  rotate: true
-  xy: 240, 366
+  rotate: false
+  xy: 0, 738
   size: 30, 85
   orig: 392, 279
   offset: 182, 94

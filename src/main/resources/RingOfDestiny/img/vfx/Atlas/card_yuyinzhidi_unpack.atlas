@@ -1,103 +1,103 @@
 
 card_yuyinzhidi_unpack.png
-size: 1290,1099
+size: 1630,910
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_yuyinzhidi-00000
-  rotate: true
-  xy: 1108, 69
+  rotate: false
+  xy: 1097, 738
   size: 474, 172
   orig: 550, 250
   offset: 68, 40
   index: -1
 card_yuyinzhidi-00001
-  rotate: true
-  xy: 554, 53
+  rotate: false
+  xy: 1096, 369
   size: 502, 188
   orig: 550, 250
   offset: 47, 24
   index: -1
 card_yuyinzhidi-00002
   rotate: false
-  xy: 746, 543
+  xy: 544, 171
   size: 539, 198
   orig: 550, 250
   offset: 11, 14
   index: -1
 card_yuyinzhidi-00003
-  rotate: true
-  xy: 742, 5
+  rotate: false
+  xy: 1092, 4
   size: 538, 193
   orig: 550, 250
   offset: 10, 19
   index: -1
 card_yuyinzhidi-00004
-  rotate: true
-  xy: 549, 555
+  rotate: false
+  xy: 0, 322
   size: 544, 197
   orig: 550, 250
   offset: 6, 15
   index: -1
 card_yuyinzhidi-00005
-  rotate: true
-  xy: 351, 552
+  rotate: false
+  xy: 0, 712
   size: 547, 198
   orig: 550, 250
   offset: 3, 14
   index: -1
 card_yuyinzhidi-00006
-  rotate: true
-  xy: 361, 7
+  rotate: false
+  xy: 0, 519
   size: 545, 193
   orig: 550, 250
   offset: 5, 19
   index: -1
 card_yuyinzhidi-00007
   rotate: false
-  xy: 746, 913
+  xy: 0, 136
   size: 544, 186
   orig: 550, 250
   offset: 6, 26
   index: -1
 card_yuyinzhidi-00008
-  rotate: true
-  xy: 179, 1
+  rotate: false
+  xy: 545, 369
   size: 548, 182
   orig: 550, 250
   offset: 2, 30
   index: -1
 card_yuyinzhidi-00009
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 547, 551
   size: 549, 179
   orig: 550, 250
   offset: 1, 33
   index: -1
 card_yuyinzhidi-00010
-  rotate: true
-  xy: 0, 549
+  rotate: false
+  xy: 547, 730
   size: 550, 180
   orig: 550, 250
   offset: 0, 32
   index: -1
 card_yuyinzhidi-00011
-  rotate: true
-  xy: 180, 551
+  rotate: false
+  xy: 544, 0
   size: 548, 171
   orig: 550, 250
   offset: 1, 41
   index: -1
 card_yuyinzhidi-00012
   rotate: false
-  xy: 746, 741
+  xy: 1083, 197
   size: 541, 172
   orig: 550, 250
   offset: 5, 40
   index: -1
 card_yuyinzhidi-00013
-  rotate: true
-  xy: 935, 26
+  rotate: false
+  xy: 1096, 557
   size: 517, 173
   orig: 550, 250
   offset: 19, 39

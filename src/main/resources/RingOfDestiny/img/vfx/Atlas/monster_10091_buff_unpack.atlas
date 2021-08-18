@@ -1,96 +1,96 @@
 
 monster_10091_buff_unpack.png
-size: 1550,600
+size: 1935,491
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10091_buff-00000
-  rotate: true
-  xy: 1281, 15
+  rotate: false
+  xy: 843, 101
   size: 144, 142
   orig: 471, 387
   offset: 88, 138
   index: -1
 monster_10091_buff-00001
   rotate: false
-  xy: 1124, 2
+  xy: 686, 86
   size: 157, 157
   orig: 471, 387
   offset: 82, 128
   index: -1
 monster_10091_buff-00002
-  rotate: true
-  xy: 922, 19
+  rotate: false
+  xy: 1691, 289
   size: 237, 202
   orig: 471, 387
   offset: 76, 122
   index: -1
 monster_10091_buff-00003
   rotate: false
-  xy: 1215, 159
+  xy: 1615, 31
   size: 320, 214
   orig: 471, 387
   offset: 67, 116
   index: -1
 monster_10091_buff-00004
   rotate: false
-  xy: 1215, 373
+  xy: 0, 14
   size: 335, 227
   orig: 471, 387
   offset: 62, 109
   index: -1
 monster_10091_buff-00005
-  rotate: true
-  xy: 982, 258
+  rotate: false
+  xy: 344, 10
   size: 342, 233
   orig: 471, 387
   offset: 63, 103
   index: -1
 monster_10091_buff-00006
-  rotate: true
-  xy: 741, 256
+  rotate: false
+  xy: 996, 3
   size: 344, 241
   orig: 471, 387
   offset: 68, 95
   index: -1
 monster_10091_buff-00007
-  rotate: true
-  xy: 0, 250
+  rotate: false
+  xy: 1341, 245
   size: 350, 246
   orig: 471, 387
   offset: 65, 90
   index: -1
 monster_10091_buff-00008
-  rotate: true
-  xy: 246, 252
+  rotate: false
+  xy: 344, 243
   size: 348, 248
   orig: 471, 387
   offset: 64, 88
   index: -1
 monster_10091_buff-00009
   rotate: false
-  xy: 0, 0
+  xy: 0, 241
   size: 344, 250
   orig: 471, 387
   offset: 61, 86
   index: -1
 monster_10091_buff-00010
-  rotate: true
-  xy: 494, 255
+  rotate: false
+  xy: 996, 244
   size: 345, 247
   orig: 471, 387
   offset: 57, 86
   index: -1
 monster_10091_buff-00011
   rotate: false
-  xy: 344, 4
+  xy: 692, 243
   size: 304, 248
   orig: 471, 387
   offset: 95, 82
   index: -1
 monster_10091_buff-00012
   rotate: false
-  xy: 648, 10
+  xy: 1341, 0
   size: 274, 245
   orig: 471, 387
   offset: 127, 87

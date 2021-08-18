@@ -1,89 +1,89 @@
 
 card_yingxi_203_unpack.png
-size: 1355,290
+size: 1147,369
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_yingxi_203-00000
-  rotate: true
-  xy: 902, 173
+  rotate: false
+  xy: 718, 87
   size: 117, 165
   orig: 339, 412
   offset: 117, 247
   index: -1
 card_yingxi_203-00001
-  rotate: true
-  xy: 0, 139
+  rotate: false
+  xy: 0, 0
   size: 151, 369
   orig: 339, 412
   offset: 98, 36
   index: -1
 card_yingxi_203-00002
-  rotate: true
-  xy: 369, 147
+  rotate: false
+  xy: 151, 7
   size: 143, 362
   orig: 339, 412
   offset: 101, 40
   index: -1
 card_yingxi_203-00003
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 294, 16
   size: 139, 353
   orig: 339, 412
   offset: 104, 42
   index: -1
 card_yingxi_203-00004
-  rotate: true
-  xy: 353, 1
+  rotate: false
+  xy: 580, 47
   size: 138, 322
   orig: 339, 412
   offset: 104, 53
   index: -1
 card_yingxi_203-00005
-  rotate: true
-  xy: 675, 0
+  rotate: false
+  xy: 433, 54
   size: 147, 315
   orig: 339, 412
   offset: 98, 56
   index: -1
 card_yingxi_203-00006
-  rotate: true
-  xy: 1105, 21
+  rotate: false
+  xy: 992, 26
   size: 155, 111
   orig: 339, 412
   offset: 93, 55
   index: -1
 card_yingxi_203-00007
   rotate: false
-  xy: 1067, 176
+  xy: 889, 255
   size: 163, 114
   orig: 339, 412
   offset: 89, 54
   index: -1
 card_yingxi_203-00008
-  rotate: true
-  xy: 990, 7
+  rotate: false
+  xy: 835, 137
   size: 166, 115
   orig: 339, 412
   offset: 88, 54
   index: -1
 card_yingxi_203-00009
   rotate: false
-  xy: 731, 173
+  xy: 718, 252
   size: 171, 117
   orig: 339, 412
   offset: 84, 53
   index: -1
 card_yingxi_203-00010
-  rotate: true
-  xy: 1230, 133
+  rotate: false
+  xy: 835, 22
   size: 157, 115
   orig: 339, 412
   offset: 101, 53
   index: -1
 card_yingxi_203-00011
   rotate: false
-  xy: 1216, 17
+  xy: 1001, 139
   size: 139, 116
   orig: 339, 412
   offset: 99, 53

@@ -1,54 +1,54 @@
 
 monster_10095_die_unpack.png
-size: 508,964
+size: 1379,355
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10095_die-00000
   rotate: false
-  xy: 181, 76
+  xy: 1080, 142
   size: 299, 213
   orig: 433, 322
   offset: 81, 38
   index: -1
 monster_10095_die-00001
   rotate: false
-  xy: 0, 765
+  xy: 0, 156
   size: 352, 199
   orig: 433, 322
   offset: 40, 37
   index: -1
 monster_10095_die-00002
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 352, 0
   size: 363, 181
   orig: 433, 322
   offset: 37, 37
   index: -1
 monster_10095_die-00003
-  rotate: true
-  xy: 0, 363
+  rotate: false
+  xy: 352, 181
   size: 402, 174
   orig: 433, 322
   offset: 16, 34
   index: -1
 monster_10095_die-00004
-  rotate: true
-  xy: 339, 289
+  rotate: false
+  xy: 754, 186
   size: 326, 169
   orig: 433, 322
   offset: 55, 36
   index: -1
 monster_10095_die-00005
-  rotate: true
-  xy: 174, 425
+  rotate: false
+  xy: 715, 16
   size: 340, 165
   orig: 433, 322
   offset: 47, 39
   index: -1
 monster_10095_die-00006
-  rotate: true
-  xy: 352, 615
+  rotate: false
+  xy: 0, 5
   size: 349, 151
   orig: 433, 322
   offset: 42, 47

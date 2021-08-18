@@ -1,0 +1,41 @@
+
+effect_altar_shrink_round_unpack.png
+size: 491,1135
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_altar_shrink_round-00000
+  rotate: false
+  xy: 0, 908
+  size: 491, 227
+  orig: 491, 228
+  offset: 0, 1
+  index: -1
+effect_altar_shrink_round-00001
+  rotate: false
+  xy: 0, 681
+  size: 491, 227
+  orig: 491, 228
+  offset: 0, 1
+  index: -1
+effect_altar_shrink_round-00002
+  rotate: false
+  xy: 0, 454
+  size: 491, 227
+  orig: 491, 228
+  offset: 0, 1
+  index: -1
+effect_altar_shrink_round-00003
+  rotate: false
+  xy: 0, 227
+  size: 491, 227
+  orig: 491, 228
+  offset: 0, 1
+  index: -1
+effect_altar_shrink_round-00004
+  rotate: false
+  xy: 0, 0
+  size: 318, 227
+  orig: 491, 228
+  offset: 93, 1
+  index: -1

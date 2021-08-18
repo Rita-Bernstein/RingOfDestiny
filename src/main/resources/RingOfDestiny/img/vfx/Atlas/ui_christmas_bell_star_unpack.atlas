@@ -1,61 +1,61 @@
 
 ui_christmas_bell_star_unpack.png
-size: 375,218
+size: 738,112
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_christmas_bell_star-00000
   rotate: false
-  xy: 296, 119
+  xy: 659, 13
   size: 79, 99
   orig: 270, 287
   offset: 94, 95
   index: -1
 ui_christmas_bell_star-00001
   rotate: false
-  xy: 90, 3
+  xy: 575, 9
   size: 84, 103
   orig: 270, 287
   offset: 92, 94
   index: -1
 ui_christmas_bell_star-00002
   rotate: false
-  xy: 0, 0
+  xy: 485, 6
   size: 90, 106
   orig: 270, 287
   offset: 89, 95
   index: -1
 ui_christmas_bell_star-00003
   rotate: false
-  xy: 199, 108
+  xy: 298, 2
   size: 97, 110
   orig: 270, 287
   offset: 86, 94
   index: -1
 ui_christmas_bell_star-00004
-  rotate: true
-  xy: 174, 7
+  rotate: false
+  xy: 199, 2
   size: 99, 110
   orig: 270, 287
   offset: 85, 95
   index: -1
 ui_christmas_bell_star-00005
   rotate: false
-  xy: 0, 106
+  xy: 0, 0
   size: 101, 112
   orig: 270, 287
   offset: 84, 94
   index: -1
 ui_christmas_bell_star-00006
   rotate: false
-  xy: 101, 106
+  xy: 101, 0
   size: 98, 112
   orig: 270, 287
   offset: 86, 94
   index: -1
 ui_christmas_bell_star-00007
   rotate: false
-  xy: 284, 0
+  xy: 395, 4
   size: 90, 108
   orig: 270, 287
   offset: 90, 94

@@ -1,103 +1,103 @@
 
 monster_10077_hp_unpack.png
-size: 1691,861
+size: 1773,828
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10077_hp-00000
   rotate: false
-  xy: 1315, 155
+  xy: 1185, 3
   size: 152, 153
   orig: 500, 500
   offset: 177, 82
   index: -1
 monster_10077_hp-00001
   rotate: false
-  xy: 411, 46
+  xy: 0, 13
   size: 328, 349
   orig: 500, 500
   offset: 94, 61
   index: -1
 monster_10077_hp-00002
-  rotate: true
-  xy: 739, 8
+  rotate: false
+  xy: 1359, 411
   size: 401, 417
   orig: 500, 500
   offset: 58, 30
   index: -1
 monster_10077_hp-00003
   rotate: false
-  xy: 914, 410
+  xy: 914, 377
   size: 445, 451
   orig: 500, 500
   offset: 34, 18
   index: -1
 monster_10077_hp-00004
   rotate: false
-  xy: 0, 395
+  xy: 0, 362
   size: 466, 466
   orig: 500, 500
   offset: 21, 14
   index: -1
 monster_10077_hp-00005
   rotate: false
-  xy: 466, 409
+  xy: 466, 376
   size: 448, 452
   orig: 500, 500
   offset: 32, 21
   index: -1
 monster_10077_hp-00006
-  rotate: true
-  xy: 0, 21
+  rotate: false
+  xy: 1399, 0
   size: 374, 411
   orig: 500, 500
   offset: 73, 37
   index: -1
 monster_10077_hp-00007
-  rotate: true
-  xy: 1359, 670
+  rotate: false
+  xy: 328, 30
   size: 191, 332
   orig: 500, 500
   offset: 156, 84
   index: -1
 monster_10077_hp-00008
-  rotate: true
-  xy: 1359, 486
+  rotate: false
+  xy: 519, 59
   size: 184, 317
   orig: 500, 500
   offset: 159, 87
   index: -1
 monster_10077_hp-00009
-  rotate: true
-  xy: 1359, 308
+  rotate: false
+  xy: 703, 79
   size: 178, 297
   orig: 500, 500
   offset: 160, 90
   index: -1
 monster_10077_hp-00010
   rotate: false
-  xy: 1156, 145
+  xy: 881, 111
   size: 159, 265
   orig: 500, 500
   offset: 172, 96
   index: -1
 monster_10077_hp-00011
-  rotate: true
-  xy: 1156, 0
+  rotate: false
+  xy: 1040, 144
   size: 145, 233
   orig: 500, 500
   offset: 179, 101
   index: -1
 monster_10077_hp-00012
-  rotate: true
-  xy: 1467, 187
+  rotate: false
+  xy: 1185, 156
   size: 121, 221
   orig: 500, 500
   offset: 191, 110
   index: -1
 monster_10077_hp-00013
-  rotate: true
-  xy: 1467, 94
+  rotate: false
+  xy: 1306, 166
   size: 93, 211
   orig: 500, 500
   offset: 205, 119

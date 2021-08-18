@@ -1,0 +1,111 @@
+
+card_modanzuocheng_unpack.png
+size: 1944,799
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_modanzuocheng-00000
+  rotate: false
+  xy: 378, 443
+  size: 359, 356
+  orig: 444, 395
+  offset: 37, 24
+  index: -1
+card_modanzuocheng-00001
+  rotate: false
+  xy: 376, 86
+  size: 375, 356
+  orig: 444, 395
+  offset: 28, 24
+  index: -1
+card_modanzuocheng-00002
+  rotate: false
+  xy: 0, 86
+  size: 376, 356
+  orig: 444, 395
+  offset: 29, 24
+  index: -1
+card_modanzuocheng-00003
+  rotate: false
+  xy: 737, 443
+  size: 355, 356
+  orig: 444, 395
+  offset: 38, 24
+  index: -1
+card_modanzuocheng-00004
+  rotate: false
+  xy: 0, 442
+  size: 378, 357
+  orig: 444, 395
+  offset: 27, 23
+  index: -1
+card_modanzuocheng-00005
+  rotate: false
+  xy: 751, 108
+  size: 333, 335
+  orig: 444, 395
+  offset: 51, 33
+  index: -1
+card_modanzuocheng-00006
+  rotate: false
+  xy: 1418, 265
+  size: 248, 253
+  orig: 444, 395
+  offset: 96, 77
+  index: -1
+card_modanzuocheng-00007
+  rotate: false
+  xy: 1666, 34
+  size: 278, 281
+  orig: 444, 395
+  offset: 85, 63
+  index: -1
+card_modanzuocheng-00008
+  rotate: false
+  xy: 1401, 518
+  size: 280, 281
+  orig: 444, 395
+  offset: 79, 61
+  index: -1
+card_modanzuocheng-00009
+  rotate: false
+  xy: 1092, 485
+  size: 309, 314
+  orig: 444, 395
+  offset: 70, 45
+  index: -1
+card_modanzuocheng-00010
+  rotate: false
+  xy: 1084, 125
+  size: 334, 318
+  orig: 444, 395
+  offset: 54, 38
+  index: -1
+card_modanzuocheng-00011
+  rotate: false
+  xy: 1681, 315
+  size: 249, 239
+  orig: 444, 395
+  offset: 82, 84
+  index: -1
+card_modanzuocheng-00012
+  rotate: false
+  xy: 1681, 554
+  size: 257, 245
+  orig: 444, 395
+  offset: 71, 79
+  index: -1
+card_modanzuocheng-00013
+  rotate: false
+  xy: 1418, 69
+  size: 226, 196
+  orig: 444, 395
+  offset: 97, 71
+  index: -1
+card_modanzuocheng-00014
+  rotate: false
+  xy: 1084, 0
+  size: 214, 125
+  orig: 444, 395
+  offset: 93, 128
+  index: -1

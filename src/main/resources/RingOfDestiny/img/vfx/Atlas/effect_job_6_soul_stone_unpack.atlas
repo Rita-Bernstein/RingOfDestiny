@@ -6,7 +6,7 @@ filter: Linear,Linear
 repeat: none
 effect_job_6_soul_stone-00000
   rotate: false
-  xy: 268, 0
+  xy: 643, 0
   size: 120, 147
   orig: 390, 390
   offset: 136, 127
@@ -27,14 +27,14 @@ effect_job_6_soul_stone-00002
   index: -1
 effect_job_6_soul_stone-00003
   rotate: false
-  xy: 638, 10
+  xy: 395, 10
   size: 125, 137
   orig: 390, 390
   offset: 134, 126
   index: -1
 effect_job_6_soul_stone-00004
   rotate: false
-  xy: 511, 9
+  xy: 268, 9
   size: 127, 138
   orig: 390, 390
   offset: 135, 125
@@ -62,7 +62,7 @@ effect_job_6_soul_stone-00007
   index: -1
 effect_job_6_soul_stone-00008
   rotate: false
-  xy: 388, 4
+  xy: 520, 4
   size: 123, 143
   orig: 390, 390
   offset: 132, 127

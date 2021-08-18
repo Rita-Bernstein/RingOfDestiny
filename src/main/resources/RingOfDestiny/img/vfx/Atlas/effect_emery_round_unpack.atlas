@@ -1,0 +1,83 @@
+
+effect_emery_round_unpack.png
+size: 788,410
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_emery_round-00000
+  rotate: false
+  xy: 460, 59
+  size: 204, 43
+  orig: 471, 327
+  offset: 1, 139
+  index: -1
+effect_emery_round-00001
+  rotate: false
+  xy: 0, 106
+  size: 467, 138
+  orig: 471, 327
+  offset: 2, 91
+  index: -1
+effect_emery_round-00002
+  rotate: false
+  xy: 0, 244
+  size: 467, 166
+  orig: 471, 327
+  offset: 2, 78
+  index: -1
+effect_emery_round-00003
+  rotate: false
+  xy: 0, 0
+  size: 460, 106
+  orig: 471, 327
+  offset: 8, 109
+  index: -1
+effect_emery_round-00004
+  rotate: false
+  xy: 467, 102
+  size: 276, 60
+  orig: 471, 327
+  offset: 99, 131
+  index: -1
+effect_emery_round-00005
+  rotate: false
+  xy: 467, 162
+  size: 275, 62
+  orig: 471, 327
+  offset: 100, 130
+  index: -1
+effect_emery_round-00006
+  rotate: false
+  xy: 467, 286
+  size: 277, 62
+  orig: 471, 327
+  offset: 99, 130
+  index: -1
+effect_emery_round-00007
+  rotate: false
+  xy: 467, 224
+  size: 277, 62
+  orig: 471, 327
+  offset: 99, 130
+  index: -1
+effect_emery_round-00008
+  rotate: false
+  xy: 467, 348
+  size: 321, 62
+  orig: 471, 327
+  offset: 92, 130
+  index: -1
+effect_emery_round-00009
+  rotate: false
+  xy: 460, 21
+  size: 188, 38
+  orig: 471, 327
+  offset: 281, 142
+  index: -1
+effect_emery_round-00010
+  rotate: false
+  xy: 664, 77
+  size: 116, 25
+  orig: 471, 327
+  offset: 352, 152
+  index: -1

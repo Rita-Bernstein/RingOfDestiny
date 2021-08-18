@@ -1,103 +1,103 @@
 
 card_aoe_senior_203_unpack.png
-size: 1526,551
+size: 920,927
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_aoe_senior_203-00000
-  rotate: true
-  xy: 1253, 104
+  rotate: false
+  xy: 466, 194
   size: 447, 141
   orig: 500, 250
   offset: 53, 56
   index: -1
 card_aoe_senior_203-00001
-  rotate: true
-  xy: 1109, 97
+  rotate: false
+  xy: 466, 335
   size: 454, 144
   orig: 500, 250
   offset: 46, 54
   index: -1
 card_aoe_senior_203-00002
-  rotate: true
-  xy: 765, 95
+  rotate: false
+  xy: 458, 56
   size: 456, 138
   orig: 500, 250
   offset: 44, 51
   index: -1
 card_aoe_senior_203-00003
-  rotate: true
-  xy: 610, 93
+  rotate: false
+  xy: 0, 162
   size: 458, 155
   orig: 500, 250
   offset: 42, 44
   index: -1
 card_aoe_senior_203-00004
-  rotate: true
-  xy: 0, 61
+  rotate: false
+  xy: 0, 701
   size: 490, 226
   orig: 500, 250
   offset: 10, 10
   index: -1
 card_aoe_senior_203-00005
-  rotate: true
-  xy: 226, 68
+  rotate: false
+  xy: 0, 493
   size: 483, 208
   orig: 500, 250
   offset: 17, 17
   index: -1
 card_aoe_senior_203-00006
-  rotate: true
-  xy: 434, 85
+  rotate: false
+  xy: 0, 317
   size: 466, 176
   orig: 500, 250
   offset: 34, 33
   index: -1
 card_aoe_senior_203-00007
-  rotate: true
-  xy: 1394, 106
+  rotate: false
+  xy: 0, 31
   size: 445, 131
   orig: 500, 250
   offset: 55, 51
   index: -1
 card_aoe_senior_203-00008
-  rotate: true
-  xy: 903, 128
+  rotate: false
+  xy: 490, 821
   size: 423, 106
   orig: 500, 250
   offset: 77, 60
   index: -1
 card_aoe_senior_203-00009
   rotate: false
-  xy: 1109, 0
+  xy: 490, 724
   size: 417, 97
   orig: 500, 250
   offset: 83, 64
   index: -1
 card_aoe_senior_203-00010
   rotate: false
-  xy: 732, 3
+  xy: 490, 634
   size: 377, 90
   orig: 500, 250
   offset: 116, 66
   index: -1
 card_aoe_senior_203-00011
   rotate: false
-  xy: 434, 4
+  xy: 483, 553
   size: 298, 81
   orig: 500, 250
   offset: 163, 72
   index: -1
 card_aoe_senior_203-00012
-  rotate: true
-  xy: 1009, 256
+  rotate: false
+  xy: 483, 479
   size: 295, 74
   orig: 500, 250
   offset: 205, 76
   index: -1
 card_aoe_senior_203-00013
   rotate: false
-  xy: 0, 5
+  xy: 445, 0
   size: 150, 56
   orig: 500, 250
   offset: 304, 79

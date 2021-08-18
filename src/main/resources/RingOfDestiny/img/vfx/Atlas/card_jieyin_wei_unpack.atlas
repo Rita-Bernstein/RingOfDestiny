@@ -1,40 +1,40 @@
 
 card_jieyin_wei_unpack.png
-size: 804,241
+size: 749,261
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jieyin_wei-00000
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 14
   size: 241, 247
   orig: 459, 379
   offset: 116, 67
   index: -1
 card_jieyin_wei-00001
   rotate: false
-  xy: 247, 6
+  xy: 241, 26
   size: 232, 235
   orig: 459, 379
   offset: 118, 72
   index: -1
 card_jieyin_wei-00002
   rotate: false
-  xy: 479, 42
+  xy: 473, 62
   size: 198, 199
   orig: 459, 379
   offset: 140, 92
   index: -1
 card_jieyin_wei-00003
-  rotate: true
-  xy: 677, 32
+  rotate: false
+  xy: 671, 0
   size: 75, 127
   orig: 459, 379
   offset: 198, 140
   index: -1
 card_jieyin_wei-00004
   rotate: false
-  xy: 677, 107
+  xy: 671, 127
   size: 78, 134
   orig: 459, 379
   offset: 196, 137

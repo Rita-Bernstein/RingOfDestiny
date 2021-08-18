@@ -1,61 +1,61 @@
 
 player_2_attack_unpack.png
-size: 579,299
+size: 352,508
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 player_2_attack-00000
   rotate: false
-  xy: 0, 109
+  xy: 0, 318
   size: 165, 190
   orig: 265, 265
   offset: 5, 37
   index: -1
 player_2_attack-00001
   rotate: false
-  xy: 165, 162
+  xy: 153, 83
   size: 199, 137
   orig: 265, 265
   offset: 32, 61
   index: -1
 player_2_attack-00002
-  rotate: true
-  xy: 319, 0
+  rotate: false
+  xy: 165, 220
   size: 162, 137
   orig: 265, 265
   offset: 32, 63
   index: -1
 player_2_attack-00003
-  rotate: true
-  xy: 456, 14
+  rotate: false
+  xy: 0, 58
   size: 148, 123
   orig: 265, 265
   offset: 58, 64
   index: -1
 player_2_attack-00004
   rotate: false
-  xy: 364, 162
+  xy: 0, 181
   size: 153, 137
   orig: 265, 265
   offset: 63, 55
   index: -1
 player_2_attack-00005
-  rotate: true
-  xy: 168, 4
+  rotate: false
+  xy: 165, 357
   size: 158, 151
   orig: 265, 265
   offset: 68, 46
   index: -1
 player_2_attack-00006
   rotate: false
-  xy: 0, 45
+  xy: 148, 19
   size: 168, 64
   orig: 265, 265
   offset: 73, 96
   index: -1
 player_2_attack-00007
-  rotate: true
-  xy: 517, 201
+  rotate: false
+  xy: 0, 0
   size: 98, 58
   orig: 265, 265
   offset: 77, 102

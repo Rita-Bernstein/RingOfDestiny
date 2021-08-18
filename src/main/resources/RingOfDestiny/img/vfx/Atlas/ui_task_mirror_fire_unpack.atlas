@@ -1,61 +1,61 @@
 
 ui_task_mirror_fire_unpack.png
-size: 426,862
+size: 473,796
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_task_mirror_fire-00000
-  rotate: true
-  xy: 236, 650
+  rotate: false
+  xy: 0, 177
   size: 212, 183
   orig: 471, 390
   offset: 135, 67
   index: -1
 ui_task_mirror_fire-00001
-  rotate: true
-  xy: 207, 0
+  rotate: false
+  xy: 0, 360
   size: 231, 200
   orig: 471, 390
   offset: 124, 61
   index: -1
 ui_task_mirror_fire-00002
-  rotate: true
-  xy: 0, 143
+  rotate: false
+  xy: 212, 134
   size: 237, 207
   orig: 471, 390
   offset: 122, 63
   index: -1
 ui_task_mirror_fire-00003
-  rotate: true
-  xy: 210, 231
+  rotate: false
+  xy: 231, 341
   size: 242, 207
   orig: 471, 390
   offset: 119, 69
   index: -1
 ui_task_mirror_fire-00004
-  rotate: true
-  xy: 0, 628
+  rotate: false
+  xy: 0, 560
   size: 234, 236
   orig: 471, 390
   offset: 119, 81
   index: -1
 ui_task_mirror_fire-00005
   rotate: false
-  xy: 0, 380
+  xy: 234, 548
   size: 210, 248
   orig: 471, 390
   offset: 131, 92
   index: -1
 ui_task_mirror_fire-00006
   rotate: false
-  xy: 236, 473
+  xy: 0, 0
   size: 190, 177
   orig: 471, 390
   offset: 144, 113
   index: -1
 ui_task_mirror_fire-00007
   rotate: false
-  xy: 0, 9
+  xy: 190, 0
   size: 134, 134
   orig: 471, 390
   offset: 173, 159

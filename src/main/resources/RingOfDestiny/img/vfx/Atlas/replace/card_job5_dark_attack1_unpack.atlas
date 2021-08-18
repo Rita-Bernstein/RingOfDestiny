@@ -1,0 +1,20 @@
+
+card_job5_dark_attack1_unpack.png
+size: 361,501
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_job5_dark_attack1-00000
+  rotate: false
+  xy: 0, 238
+  size: 361, 263
+  orig: 763, 464
+  offset: 210, 88
+  index: -1
+card_job5_dark_attack1-00001
+  rotate: false
+  xy: 0, 0
+  size: 349, 238
+  orig: 763, 464
+  offset: 198, 98
+  index: -1

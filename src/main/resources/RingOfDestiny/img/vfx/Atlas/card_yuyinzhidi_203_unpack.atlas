@@ -1,89 +1,89 @@
 
 card_yuyinzhidi_203_unpack.png
-size: 655,450
+size: 450,653
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_yuyinzhidi_203-00000
-  rotate: true
-  xy: 564, 20
+  rotate: false
+  xy: 218, 0
   size: 205, 91
   orig: 368, 266
   offset: 84, 76
   index: -1
 card_yuyinzhidi_203-00001
   rotate: false
-  xy: 220, 109
+  xy: 0, 195
   size: 219, 106
   orig: 368, 266
   offset: 76, 66
   index: -1
 card_yuyinzhidi_203-00002
   rotate: false
-  xy: 226, 332
+  xy: 226, 535
   size: 224, 118
   orig: 368, 266
   offset: 74, 61
   index: -1
 card_yuyinzhidi_203-00003
   rotate: false
-  xy: 0, 215
+  xy: 0, 418
   size: 224, 118
   orig: 368, 266
   offset: 75, 61
   index: -1
 card_yuyinzhidi_203-00004
   rotate: false
-  xy: 0, 333
+  xy: 0, 536
   size: 226, 117
   orig: 368, 266
   offset: 75, 62
   index: -1
 card_yuyinzhidi_203-00005
-  rotate: true
-  xy: 450, 225
+  rotate: false
+  xy: 224, 418
   size: 225, 117
   orig: 368, 266
   offset: 75, 62
   index: -1
 card_yuyinzhidi_203-00006
-  rotate: true
-  xy: 449, 0
+  rotate: false
+  xy: 225, 303
   size: 225, 115
   orig: 368, 266
   offset: 74, 63
   index: -1
 card_yuyinzhidi_203-00007
   rotate: false
-  xy: 224, 215
+  xy: 0, 301
   size: 225, 117
   orig: 368, 266
   offset: 73, 62
   index: -1
 card_yuyinzhidi_203-00008
   rotate: false
-  xy: 0, 99
+  xy: 225, 187
   size: 220, 116
   orig: 368, 266
   offset: 76, 62
   index: -1
 card_yuyinzhidi_203-00009
   rotate: false
-  xy: 220, 3
+  xy: 0, 89
   size: 218, 106
   orig: 368, 266
   offset: 78, 66
   index: -1
 card_yuyinzhidi_203-00010
   rotate: false
-  xy: 0, 3
+  xy: 218, 91
   size: 210, 96
   orig: 368, 266
   offset: 84, 73
   index: -1
 card_yuyinzhidi_203-00011
-  rotate: true
-  xy: 567, 255
+  rotate: false
+  xy: 0, 6
   size: 195, 83
   orig: 368, 266
   offset: 91, 82

@@ -1,0 +1,97 @@
+
+monster_10084_huxi_unpack.png
+size: 428,1034
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_10084_huxi-00000
+  rotate: false
+  xy: 216, 146
+  size: 212, 158
+  orig: 500, 390
+  offset: 133, 117
+  index: -1
+monster_10084_huxi-00001
+  rotate: false
+  xy: 0, 708
+  size: 218, 148
+  orig: 500, 390
+  offset: 129, 115
+  index: -1
+monster_10084_huxi-00002
+  rotate: false
+  xy: 0, 856
+  size: 218, 178
+  orig: 500, 390
+  offset: 128, 115
+  index: -1
+monster_10084_huxi-00003
+  rotate: false
+  xy: 0, 553
+  size: 217, 155
+  orig: 500, 390
+  offset: 127, 115
+  index: -1
+monster_10084_huxi-00004
+  rotate: false
+  xy: 0, 404
+  size: 217, 149
+  orig: 500, 390
+  offset: 126, 116
+  index: -1
+monster_10084_huxi-00005
+  rotate: false
+  xy: 0, 255
+  size: 216, 149
+  orig: 500, 390
+  offset: 126, 117
+  index: -1
+monster_10084_huxi-00006
+  rotate: false
+  xy: 0, 105
+  size: 214, 150
+  orig: 500, 390
+  offset: 126, 119
+  index: -1
+monster_10084_huxi-00007
+  rotate: false
+  xy: 214, 0
+  size: 213, 146
+  orig: 500, 390
+  offset: 127, 122
+  index: -1
+monster_10084_huxi-00008
+  rotate: false
+  xy: 218, 886
+  size: 208, 148
+  orig: 500, 390
+  offset: 128, 124
+  index: -1
+monster_10084_huxi-00009
+  rotate: false
+  xy: 218, 590
+  size: 205, 141
+  orig: 500, 390
+  offset: 130, 127
+  index: -1
+monster_10084_huxi-00010
+  rotate: false
+  xy: 217, 304
+  size: 198, 140
+  orig: 500, 390
+  offset: 143, 131
+  index: -1
+monster_10084_huxi-00011
+  rotate: false
+  xy: 217, 444
+  size: 202, 146
+  orig: 500, 390
+  offset: 143, 130
+  index: -1
+monster_10084_huxi-00012
+  rotate: false
+  xy: 218, 731
+  size: 206, 155
+  orig: 500, 390
+  offset: 139, 122
+  index: -1

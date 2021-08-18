@@ -1,173 +1,173 @@
 
 power_bar_1_full_unpack.png
-size: 1671,1108
+size: 1662,1114
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 power_bar_1_full-00000
-  rotate: true
-  xy: 0, 832
+  rotate: false
+  xy: 0, 836
   size: 276, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00001
-  rotate: true
-  xy: 835, 831
+  rotate: false
+  xy: 554, 279
   size: 277, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00002
-  rotate: true
-  xy: 1114, 831
+  rotate: false
+  xy: 831, 279
   size: 277, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00003
-  rotate: true
-  xy: 1393, 831
+  rotate: false
+  xy: 276, 836
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00004
-  rotate: true
-  xy: 0, 555
+  rotate: false
+  xy: 553, 836
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00005
-  rotate: true
-  xy: 278, 555
+  rotate: false
+  xy: 830, 836
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00006
-  rotate: true
-  xy: 556, 555
+  rotate: false
+  xy: 1107, 836
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00007
-  rotate: true
-  xy: 834, 554
+  rotate: false
+  xy: 1108, 279
   size: 277, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00008
-  rotate: true
-  xy: 1113, 554
+  rotate: false
+  xy: 1385, 279
   size: 277, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00009
-  rotate: true
-  xy: 1392, 554
+  rotate: false
+  xy: 0, 1
   size: 277, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00010
-  rotate: true
-  xy: 0, 278
+  rotate: false
+  xy: 1384, 836
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00011
-  rotate: true
-  xy: 278, 278
+  rotate: false
+  xy: 0, 558
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00012
-  rotate: true
-  xy: 556, 278
+  rotate: false
+  xy: 277, 558
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00013
-  rotate: true
-  xy: 834, 277
+  rotate: false
+  xy: 277, 1
   size: 277, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00014
-  rotate: true
-  xy: 278, 832
+  rotate: false
+  xy: 554, 0
   size: 276, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00015
-  rotate: true
-  xy: 1113, 277
+  rotate: false
+  xy: 830, 0
   size: 277, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00016
-  rotate: true
-  xy: 1392, 277
+  rotate: false
+  xy: 1107, 0
   size: 277, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00017
-  rotate: true
-  xy: 557, 832
+  rotate: false
+  xy: 554, 558
   size: 276, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00018
-  rotate: true
-  xy: 0, 1
+  rotate: false
+  xy: 830, 558
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00019
-  rotate: true
-  xy: 278, 1
+  rotate: false
+  xy: 1384, 0
   size: 277, 279
   orig: 290, 290
   offset: 7, 3
   index: -1
 power_bar_1_full-00020
-  rotate: true
-  xy: 557, 0
+  rotate: false
+  xy: 1107, 558
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00021
-  rotate: true
-  xy: 835, 0
+  rotate: false
+  xy: 1384, 558
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00022
-  rotate: true
-  xy: 1113, 0
+  rotate: false
+  xy: 0, 280
   size: 277, 278
   orig: 290, 290
   offset: 7, 4
   index: -1
 power_bar_1_full-00023
-  rotate: true
-  xy: 1391, 0
+  rotate: false
+  xy: 277, 280
   size: 277, 278
   orig: 290, 290
   offset: 7, 4

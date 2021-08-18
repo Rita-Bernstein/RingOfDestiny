@@ -1,96 +1,96 @@
 
 card_chengzhangdan_203_unpack.png
-size: 953,320
+size: 594,533
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_chengzhangdan_203-00000
-  rotate: true
-  xy: 0, 63
+  rotate: false
+  xy: 0, 349
   size: 257, 184
   orig: 370, 347
   offset: 50, 75
   index: -1
 card_chengzhangdan_203-00001
-  rotate: true
-  xy: 184, 107
+  rotate: false
+  xy: 0, 193
   size: 213, 156
   orig: 370, 347
   offset: 83, 94
   index: -1
 card_chengzhangdan_203-00002
-  rotate: true
-  xy: 751, 0
+  rotate: false
+  xy: 452, 406
   size: 142, 127
   orig: 370, 347
   offset: 116, 109
   index: -1
 card_chengzhangdan_203-00003
-  rotate: true
-  xy: 440, 6
+  rotate: false
+  xy: 396, 169
   size: 119, 109
   orig: 370, 347
   offset: 125, 116
   index: -1
 card_chengzhangdan_203-00004
   rotate: false
-  xy: 304, 28
+  xy: 298, 14
   size: 136, 79
   orig: 370, 347
   offset: 107, 134
   index: -1
 card_chengzhangdan_203-00005
-  rotate: true
-  xy: 549, 1
+  rotate: false
+  xy: 434, 20
   size: 136, 74
   orig: 370, 347
   offset: 107, 135
   index: -1
 card_chengzhangdan_203-00006
-  rotate: true
-  xy: 878, 23
+  rotate: false
+  xy: 333, 94
   size: 142, 75
   orig: 370, 347
   offset: 103, 135
   index: -1
 card_chengzhangdan_203-00007
-  rotate: true
-  xy: 869, 165
+  rotate: false
+  xy: 178, 93
   size: 155, 78
   orig: 370, 347
   offset: 96, 132
   index: -1
 card_chengzhangdan_203-00008
-  rotate: true
-  xy: 528, 137
+  rotate: false
+  xy: 213, 171
   size: 183, 174
   orig: 370, 347
   offset: 97, 87
   index: -1
 card_chengzhangdan_203-00009
-  rotate: true
-  xy: 340, 125
+  rotate: false
+  xy: 257, 345
   size: 195, 188
   orig: 370, 347
   offset: 91, 82
   index: -1
 card_chengzhangdan_203-00010
-  rotate: true
-  xy: 702, 142
+  rotate: false
+  xy: 0, 26
   size: 178, 167
   orig: 370, 347
   offset: 99, 90
   index: -1
 card_chengzhangdan_203-00011
-  rotate: true
-  xy: 623, 4
+  rotate: false
+  xy: 452, 278
   size: 133, 128
   orig: 370, 347
   offset: 119, 111
   index: -1
 card_chengzhangdan_203-00012
   rotate: false
-  xy: 184, 14
+  xy: 178, 0
   size: 120, 93
   orig: 370, 347
   offset: 120, 112

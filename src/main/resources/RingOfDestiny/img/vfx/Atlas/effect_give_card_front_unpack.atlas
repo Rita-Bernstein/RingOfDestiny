@@ -1,0 +1,83 @@
+
+effect_give_card_front_unpack.png
+size: 802,401
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_give_card_front-00000
+  rotate: false
+  xy: 466, 32
+  size: 74, 94
+  orig: 500, 500
+  offset: 315, 170
+  index: -1
+effect_give_card_front-00001
+  rotate: false
+  xy: 338, 31
+  size: 128, 95
+  orig: 500, 500
+  offset: 268, 167
+  index: -1
+effect_give_card_front-00002
+  rotate: false
+  xy: 0, 15
+  size: 219, 116
+  orig: 500, 500
+  offset: 168, 165
+  index: -1
+effect_give_card_front-00003
+  rotate: false
+  xy: 541, 131
+  size: 261, 132
+  orig: 500, 500
+  offset: 134, 164
+  index: -1
+effect_give_card_front-00004
+  rotate: false
+  xy: 280, 126
+  size: 261, 138
+  orig: 500, 500
+  offset: 125, 162
+  index: -1
+effect_give_card_front-00005
+  rotate: false
+  xy: 0, 261
+  size: 280, 140
+  orig: 500, 500
+  offset: 119, 164
+  index: -1
+effect_give_card_front-00006
+  rotate: false
+  xy: 0, 131
+  size: 258, 130
+  orig: 500, 500
+  offset: 128, 168
+  index: -1
+effect_give_card_front-00007
+  rotate: false
+  xy: 280, 264
+  size: 284, 137
+  orig: 500, 500
+  offset: 120, 167
+  index: -1
+effect_give_card_front-00008
+  rotate: false
+  xy: 541, 0
+  size: 259, 131
+  orig: 500, 500
+  offset: 133, 164
+  index: -1
+effect_give_card_front-00009
+  rotate: false
+  xy: 564, 263
+  size: 237, 138
+  orig: 500, 500
+  offset: 119, 164
+  index: -1
+effect_give_card_front-00010
+  rotate: false
+  xy: 219, 23
+  size: 119, 103
+  orig: 500, 500
+  offset: 135, 186
+  index: -1

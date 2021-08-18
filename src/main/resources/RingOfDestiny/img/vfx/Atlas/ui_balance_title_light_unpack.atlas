@@ -1,0 +1,111 @@
+
+ui_balance_title_light_unpack.png
+size: 1633,417
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_balance_title_light-00000
+  rotate: false
+  xy: 0, 125
+  size: 314, 136
+  orig: 500, 282
+  offset: 101, 82
+  index: -1
+ui_balance_title_light-00001
+  rotate: false
+  xy: 348, 130
+  size: 314, 139
+  orig: 500, 282
+  offset: 104, 81
+  index: -1
+ui_balance_title_light-00002
+  rotate: false
+  xy: 1317, 149
+  size: 315, 136
+  orig: 500, 282
+  offset: 106, 82
+  index: -1
+ui_balance_title_light-00003
+  rotate: false
+  xy: 1317, 285
+  size: 316, 132
+  orig: 500, 282
+  offset: 108, 83
+  index: -1
+ui_balance_title_light-00004
+  rotate: false
+  xy: 687, 137
+  size: 324, 135
+  orig: 500, 282
+  offset: 104, 85
+  index: -1
+ui_balance_title_light-00005
+  rotate: false
+  xy: 687, 272
+  size: 332, 145
+  orig: 500, 282
+  offset: 99, 79
+  index: -1
+ui_balance_title_light-00006
+  rotate: false
+  xy: 348, 269
+  size: 339, 148
+  orig: 500, 282
+  offset: 95, 79
+  index: -1
+ui_balance_title_light-00007
+  rotate: false
+  xy: 0, 261
+  size: 348, 156
+  orig: 500, 282
+  offset: 89, 73
+  index: -1
+ui_balance_title_light-00008
+  rotate: false
+  xy: 1019, 273
+  size: 298, 144
+  orig: 500, 282
+  offset: 94, 81
+  index: -1
+ui_balance_title_light-00009
+  rotate: false
+  xy: 1011, 13
+  size: 297, 136
+  orig: 500, 282
+  offset: 98, 85
+  index: -1
+ui_balance_title_light-00010
+  rotate: false
+  xy: 1308, 15
+  size: 297, 134
+  orig: 500, 282
+  offset: 102, 82
+  index: -1
+ui_balance_title_light-00011
+  rotate: false
+  xy: 314, 0
+  size: 296, 130
+  orig: 500, 282
+  offset: 106, 84
+  index: -1
+ui_balance_title_light-00012
+  rotate: false
+  xy: 0, 1
+  size: 294, 124
+  orig: 500, 282
+  offset: 111, 88
+  index: -1
+ui_balance_title_light-00013
+  rotate: false
+  xy: 1019, 149
+  size: 298, 124
+  orig: 500, 282
+  offset: 110, 89
+  index: -1
+ui_balance_title_light-00014
+  rotate: false
+  xy: 662, 7
+  size: 304, 130
+  orig: 500, 282
+  offset: 107, 86
+  index: -1

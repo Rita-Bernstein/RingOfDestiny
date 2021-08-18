@@ -1,0 +1,118 @@
+
+effect_monster_elite_has_key_unpack.png
+size: 1792,186
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_elite_has_key-00000
+  rotate: false
+  xy: 0, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00001
+  rotate: false
+  xy: 112, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00002
+  rotate: false
+  xy: 224, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00003
+  rotate: false
+  xy: 336, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00004
+  rotate: false
+  xy: 448, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00005
+  rotate: false
+  xy: 560, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00006
+  rotate: false
+  xy: 672, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00007
+  rotate: false
+  xy: 784, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00008
+  rotate: false
+  xy: 896, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00009
+  rotate: false
+  xy: 1008, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00010
+  rotate: false
+  xy: 1120, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00011
+  rotate: false
+  xy: 1232, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00012
+  rotate: false
+  xy: 1344, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00013
+  rotate: false
+  xy: 1456, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00014
+  rotate: false
+  xy: 1568, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1
+effect_monster_elite_has_key-00015
+  rotate: false
+  xy: 1680, 0
+  size: 112, 186
+  orig: 379, 310
+  offset: 135, 76
+  index: -1

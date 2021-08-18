@@ -1,0 +1,111 @@
+
+effect_unlock_card_light_unpack.png
+size: 887,503
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_unlock_card_light-00000
+  rotate: false
+  xy: 0, 1
+  size: 276, 96
+  orig: 480, 270
+  offset: 91, 91
+  index: -1
+effect_unlock_card_light-00001
+  rotate: false
+  xy: 0, 97
+  size: 279, 95
+  orig: 480, 270
+  offset: 88, 95
+  index: -1
+effect_unlock_card_light-00002
+  rotate: false
+  xy: 593, 188
+  size: 267, 100
+  orig: 480, 270
+  offset: 83, 92
+  index: -1
+effect_unlock_card_light-00003
+  rotate: false
+  xy: 0, 288
+  size: 289, 104
+  orig: 480, 270
+  offset: 82, 91
+  index: -1
+effect_unlock_card_light-00004
+  rotate: false
+  xy: 297, 96
+  size: 267, 100
+  orig: 480, 270
+  offset: 86, 95
+  index: -1
+effect_unlock_card_light-00005
+  rotate: false
+  xy: 564, 0
+  size: 259, 99
+  orig: 480, 270
+  offset: 91, 93
+  index: -1
+effect_unlock_card_light-00006
+  rotate: false
+  xy: 297, 196
+  size: 296, 92
+  orig: 480, 270
+  offset: 89, 95
+  index: -1
+effect_unlock_card_light-00007
+  rotate: false
+  xy: 564, 99
+  size: 295, 89
+  orig: 480, 270
+  offset: 91, 93
+  index: -1
+effect_unlock_card_light-00008
+  rotate: false
+  xy: 586, 288
+  size: 285, 104
+  orig: 480, 270
+  offset: 102, 94
+  index: -1
+effect_unlock_card_light-00009
+  rotate: false
+  xy: 0, 392
+  size: 294, 111
+  orig: 480, 270
+  offset: 103, 88
+  index: -1
+effect_unlock_card_light-00010
+  rotate: false
+  xy: 599, 392
+  size: 288, 111
+  orig: 480, 270
+  offset: 110, 88
+  index: -1
+effect_unlock_card_light-00011
+  rotate: false
+  xy: 276, 1
+  size: 267, 95
+  orig: 480, 270
+  offset: 130, 90
+  index: -1
+effect_unlock_card_light-00012
+  rotate: false
+  xy: 0, 192
+  size: 297, 96
+  orig: 480, 270
+  offset: 108, 95
+  index: -1
+effect_unlock_card_light-00013
+  rotate: false
+  xy: 294, 397
+  size: 305, 106
+  orig: 480, 270
+  offset: 99, 94
+  index: -1
+effect_unlock_card_light-00014
+  rotate: false
+  xy: 294, 288
+  size: 292, 109
+  orig: 480, 270
+  offset: 94, 91
+  index: -1

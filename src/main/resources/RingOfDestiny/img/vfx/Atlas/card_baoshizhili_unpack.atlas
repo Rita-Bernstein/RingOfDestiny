@@ -1,61 +1,61 @@
 
 card_baoshizhili_unpack.png
-size: 545,305
+size: 338,461
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_baoshizhili-00000
   rotate: false
-  xy: 376, 0
+  xy: 272, 54
   size: 60, 57
   orig: 500, 500
   offset: 229, 216
   index: -1
 card_baoshizhili-00001
   rotate: false
-  xy: 0, 130
+  xy: 0, 286
   size: 199, 175
   orig: 500, 500
   offset: 158, 159
   index: -1
 card_baoshizhili-00002
   rotate: false
-  xy: 199, 150
+  xy: 0, 131
   size: 179, 155
   orig: 500, 500
   offset: 174, 169
   index: -1
 card_baoshizhili-00003
   rotate: false
-  xy: 378, 174
+  xy: 0, 0
   size: 167, 131
   orig: 500, 500
   offset: 186, 181
   index: -1
 card_baoshizhili-00004
   rotate: false
-  xy: 0, 10
+  xy: 179, 111
   size: 158, 120
   orig: 500, 500
   offset: 190, 184
   index: -1
 card_baoshizhili-00005
   rotate: false
-  xy: 378, 57
+  xy: 199, 344
   size: 139, 117
   orig: 500, 500
   offset: 196, 187
   index: -1
 card_baoshizhili-00006
-  rotate: true
-  xy: 158, 15
+  rotate: false
+  xy: 199, 231
   size: 115, 113
   orig: 500, 500
   offset: 203, 189
   index: -1
 card_baoshizhili-00007
   rotate: false
-  xy: 271, 44
+  xy: 167, 5
   size: 105, 106
   orig: 500, 500
   offset: 206, 191

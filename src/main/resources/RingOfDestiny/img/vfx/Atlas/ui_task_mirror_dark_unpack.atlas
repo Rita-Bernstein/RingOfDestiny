@@ -1,131 +1,131 @@
 
 ui_task_mirror_dark_unpack.png
-size: 705,972
+size: 743,932
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_task_mirror_dark-00000
   rotate: false
-  xy: 702, 969
+  xy: 728, 776
   size: 3, 3
   orig: 462, 383
   offset: 278, 138
   index: -1
 ui_task_mirror_dark-00001
-  rotate: true
-  xy: 458, 268
+  rotate: false
+  xy: 602, 552
   size: 100, 101
   orig: 462, 383
   offset: 218, 86
   index: -1
 ui_task_mirror_dark-00002
-  rotate: true
-  xy: 570, 97
+  rotate: false
+  xy: 610, 653
   size: 118, 126
   orig: 462, 383
   offset: 207, 82
   index: -1
 ui_task_mirror_dark-00003
   rotate: false
-  xy: 570, 215
+  xy: 610, 779
   size: 133, 153
   orig: 462, 383
   offset: 196, 77
   index: -1
 ui_task_mirror_dark-00004
   rotate: false
-  xy: 407, 20
+  xy: 577, 114
   size: 163, 165
   orig: 462, 383
   offset: 168, 75
   index: -1
 ui_task_mirror_dark-00005
   rotate: false
-  xy: 223, 0
+  xy: 559, 279
   size: 184, 185
   orig: 462, 383
   offset: 148, 74
   index: -1
 ui_task_mirror_dark-00006
-  rotate: true
-  xy: 0, 15
+  rotate: false
+  xy: 388, 9
   size: 189, 223
   orig: 462, 383
   offset: 142, 73
   index: -1
 ui_task_mirror_dark-00007
-  rotate: true
-  xy: 232, 185
+  rotate: false
+  xy: 194, 6
   size: 194, 226
   orig: 462, 383
   offset: 137, 75
   index: -1
 ui_task_mirror_dark-00008
-  rotate: true
-  xy: 0, 572
+  rotate: false
+  xy: 199, 232
   size: 194, 234
   orig: 462, 383
   offset: 137, 73
   index: -1
 ui_task_mirror_dark-00009
-  rotate: true
-  xy: 234, 379
+  rotate: false
+  xy: 0, 0
   size: 194, 234
   orig: 462, 383
   offset: 137, 75
   index: -1
 ui_task_mirror_dark-00010
-  rotate: true
-  xy: 234, 573
+  rotate: false
+  xy: 406, 464
   size: 196, 234
   orig: 462, 383
   offset: 137, 75
   index: -1
 ui_task_mirror_dark-00011
-  rotate: true
-  xy: 468, 572
+  rotate: false
+  xy: 0, 234
   size: 199, 234
   orig: 462, 383
   offset: 137, 73
   index: -1
 ui_task_mirror_dark-00012
-  rotate: true
-  xy: 468, 771
+  rotate: false
+  xy: 409, 698
   size: 201, 234
   orig: 462, 383
   offset: 137, 75
   index: -1
 ui_task_mirror_dark-00013
-  rotate: true
-  xy: 234, 769
+  rotate: false
+  xy: 206, 698
   size: 203, 234
   orig: 462, 383
   offset: 137, 75
   index: -1
 ui_task_mirror_dark-00014
-  rotate: true
-  xy: 0, 766
+  rotate: false
+  xy: 0, 698
   size: 206, 234
   orig: 462, 383
   offset: 137, 73
   index: -1
 ui_task_mirror_dark-00015
-  rotate: true
-  xy: 468, 368
+  rotate: false
+  xy: 0, 468
   size: 204, 230
   orig: 462, 383
   offset: 140, 75
   index: -1
 ui_task_mirror_dark-00016
-  rotate: true
-  xy: 0, 370
+  rotate: false
+  xy: 204, 466
   size: 202, 232
   orig: 462, 383
   offset: 140, 74
   index: -1
 ui_task_mirror_dark-00017
-  rotate: true
-  xy: 0, 204
+  rotate: false
+  xy: 393, 238
   size: 166, 226
   orig: 462, 383
   offset: 145, 74

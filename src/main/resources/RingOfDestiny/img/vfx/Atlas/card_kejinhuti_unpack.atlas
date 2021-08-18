@@ -1,96 +1,96 @@
 
 card_kejinhuti_unpack.png
-size: 1596,487
+size: 1558,502
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_kejinhuti-00000
   rotate: false
-  xy: 253, 0
+  xy: 606, 266
   size: 251, 236
   orig: 315, 300
   offset: 36, 32
   index: -1
 card_kejinhuti-00001
   rotate: false
-  xy: 0, 2
+  xy: 857, 266
   size: 253, 236
   orig: 315, 300
   offset: 35, 32
   index: -1
 card_kejinhuti-00002
   rotate: false
-  xy: 0, 238
+  xy: 252, 34
   size: 274, 249
   orig: 315, 300
   offset: 24, 27
   index: -1
 card_kejinhuti-00003
   rotate: false
-  xy: 274, 236
+  xy: 526, 15
   size: 266, 251
   orig: 315, 300
   offset: 26, 27
   index: -1
 card_kejinhuti-00004
-  rotate: true
-  xy: 540, 234
+  rotate: false
+  xy: 1296, 0
   size: 253, 255
   orig: 315, 300
   offset: 26, 26
   index: -1
 card_kejinhuti-00005
   rotate: false
-  xy: 1049, 235
+  xy: 792, 14
   size: 251, 252
   orig: 315, 300
   offset: 25, 28
   index: -1
 card_kejinhuti-00006
-  rotate: true
-  xy: 795, 234
+  rotate: false
+  xy: 1043, 9
   size: 253, 254
   orig: 315, 300
   offset: 28, 26
   index: -1
 card_kejinhuti-00007
   rotate: false
-  xy: 1300, 241
+  xy: 0, 48
   size: 252, 246
   orig: 315, 300
   offset: 30, 29
   index: -1
 card_kejinhuti-00008
-  rotate: true
-  xy: 504, 1
+  rotate: false
+  xy: 1325, 255
   size: 233, 247
   orig: 315, 300
   offset: 44, 32
   index: -1
 card_kejinhuti-00009
-  rotate: true
-  xy: 751, 19
+  rotate: false
+  xy: 1110, 263
   size: 215, 239
   orig: 315, 300
   offset: 56, 36
   index: -1
 card_kejinhuti-00010
   rotate: false
-  xy: 990, 15
+  xy: 400, 283
   size: 206, 219
   orig: 315, 300
   offset: 60, 41
   index: -1
 card_kejinhuti-00011
   rotate: false
-  xy: 1196, 27
+  xy: 199, 294
   size: 201, 208
   orig: 315, 300
   offset: 59, 42
   index: -1
 card_kejinhuti-00012
   rotate: false
-  xy: 1397, 36
+  xy: 0, 297
   size: 199, 205
   orig: 315, 300
   offset: 60, 42

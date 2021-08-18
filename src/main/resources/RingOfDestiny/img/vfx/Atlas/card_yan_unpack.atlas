@@ -1,103 +1,103 @@
 
 card_yan_unpack.png
-size: 1583,506
+size: 797,1082
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_yan-00000
-  rotate: true
-  xy: 609, 7
+  rotate: false
+  xy: 193, 0
   size: 149, 335
   orig: 401, 450
   offset: 126, 43
   index: -1
 card_yan-00001
   rotate: false
-  xy: 0, 126
+  xy: 0, 702
   size: 267, 380
   orig: 401, 450
   offset: 71, 54
   index: -1
 card_yan-00002
   rotate: false
-  xy: 267, 139
+  xy: 0, 335
   size: 234, 367
   orig: 401, 450
   offset: 87, 54
   index: -1
 card_yan-00003
   rotate: false
-  xy: 501, 156
+  xy: 267, 732
   size: 202, 350
   orig: 401, 450
   offset: 102, 54
   index: -1
 card_yan-00004
   rotate: false
-  xy: 703, 172
+  xy: 0, 1
   size: 193, 334
   orig: 401, 450
   offset: 107, 53
   index: -1
 card_yan-00005
   rotate: false
-  xy: 896, 185
+  xy: 469, 761
   size: 186, 321
   orig: 401, 450
   offset: 107, 52
   index: -1
 card_yan-00006
-  rotate: true
-  xy: 944, 0
+  rotate: false
+  xy: 234, 383
   size: 185, 319
   orig: 401, 450
   offset: 108, 52
   index: -1
 card_yan-00007
   rotate: false
-  xy: 1082, 195
+  xy: 419, 421
   size: 188, 311
   orig: 401, 450
   offset: 110, 59
   index: -1
 card_yan-00008
-  rotate: true
-  xy: 1263, 20
+  rotate: false
+  xy: 342, 67
   size: 175, 316
   orig: 401, 450
   offset: 112, 52
   index: -1
 card_yan-00009
   rotate: false
-  xy: 1270, 198
+  xy: 517, 113
   size: 164, 308
   orig: 401, 450
   offset: 119, 56
   index: -1
 card_yan-00010
   rotate: false
-  xy: 1434, 200
+  xy: 607, 455
   size: 149, 306
   orig: 401, 450
   offset: 126, 60
   index: -1
 card_yan-00011
-  rotate: true
-  xy: 341, 3
+  rotate: false
+  xy: 655, 814
   size: 136, 268
   orig: 401, 450
   offset: 140, 83
   index: -1
 card_yan-00012
-  rotate: true
-  xy: 0, 10
+  rotate: false
+  xy: 681, 273
   size: 116, 182
   orig: 401, 450
   offset: 146, 123
   index: -1
 card_yan-00013
-  rotate: true
-  xy: 182, 43
+  rotate: false
+  xy: 681, 114
   size: 83, 159
   orig: 401, 450
   offset: 162, 134

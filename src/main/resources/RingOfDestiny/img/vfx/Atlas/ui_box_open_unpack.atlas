@@ -1,0 +1,83 @@
+
+ui_box_open_unpack.png
+size: 1276,567
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_box_open-00000
+  rotate: false
+  xy: 1080, 298
+  size: 178, 269
+  orig: 500, 500
+  offset: 157, 130
+  index: -1
+ui_box_open-00001
+  rotate: false
+  xy: 0, 259
+  size: 270, 308
+  orig: 500, 500
+  offset: 113, 91
+  index: -1
+ui_box_open-00002
+  rotate: false
+  xy: 270, 276
+  size: 283, 291
+  orig: 500, 500
+  offset: 116, 106
+  index: -1
+ui_box_open-00003
+  rotate: false
+  xy: 820, 0
+  size: 254, 291
+  orig: 500, 500
+  offset: 121, 106
+  index: -1
+ui_box_open-00004
+  rotate: false
+  xy: 553, 276
+  size: 267, 291
+  orig: 500, 500
+  offset: 117, 106
+  index: -1
+ui_box_open-00005
+  rotate: false
+  xy: 820, 291
+  size: 260, 276
+  orig: 500, 500
+  offset: 128, 122
+  index: -1
+ui_box_open-00006
+  rotate: false
+  xy: 1074, 13
+  size: 202, 278
+  orig: 500, 500
+  offset: 155, 120
+  index: -1
+ui_box_open-00007
+  rotate: false
+  xy: 0, 15
+  size: 198, 244
+  orig: 500, 500
+  offset: 138, 153
+  index: -1
+ui_box_open-00008
+  rotate: false
+  xy: 270, 25
+  size: 191, 251
+  orig: 500, 500
+  offset: 158, 148
+  index: -1
+ui_box_open-00009
+  rotate: false
+  xy: 461, 49
+  size: 168, 227
+  orig: 500, 500
+  offset: 159, 172
+  index: -1
+ui_box_open-00010
+  rotate: false
+  xy: 629, 51
+  size: 163, 225
+  orig: 500, 500
+  offset: 162, 172
+  index: -1

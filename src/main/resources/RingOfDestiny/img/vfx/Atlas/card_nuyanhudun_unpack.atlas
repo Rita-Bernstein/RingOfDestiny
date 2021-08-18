@@ -1,159 +1,159 @@
 
 card_nuyanhudun_unpack.png
-size: 1934,1572
+size: 1930,1559
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_nuyanhudun-00000
-  rotate: true
-  xy: 824, 33
+  rotate: false
+  xy: 1609, 355
   size: 321, 178
   orig: 410, 450
   offset: 46, 0
   index: -1
 card_nuyanhudun-00001
-  rotate: true
-  xy: 623, 22
+  rotate: false
+  xy: 1605, 154
   size: 321, 201
   orig: 410, 450
   offset: 46, 0
   index: -1
 card_nuyanhudun-00002
-  rotate: true
-  xy: 410, 22
+  rotate: false
+  xy: 1609, 533
   size: 321, 213
   orig: 410, 450
   offset: 46, 0
   index: -1
 card_nuyanhudun-00003
   rotate: false
-  xy: 1172, 1339
+  xy: 1636, 746
   size: 240, 233
   orig: 410, 450
   offset: 94, 14
   index: -1
 card_nuyanhudun-00004
-  rotate: true
-  xy: 1252, 123
+  rotate: false
+  xy: 1636, 979
   size: 234, 268
   orig: 410, 450
   offset: 96, 17
   index: -1
 card_nuyanhudun-00005
   rotate: false
-  xy: 1002, 42
+  xy: 1636, 1247
   size: 250, 312
   orig: 410, 450
   offset: 76, 15
   index: -1
 card_nuyanhudun-00006
-  rotate: true
-  xy: 1155, 357
+  rotate: false
+  xy: 409, 31
   size: 400, 370
   orig: 410, 450
   offset: 10, 80
   index: -1
 card_nuyanhudun-00007
-  rotate: true
-  xy: 0, 1162
+  rotate: false
+  xy: 0, 1166
   size: 410, 393
   orig: 410, 450
   offset: 0, 57
   index: -1
 card_nuyanhudun-00008
-  rotate: true
-  xy: 390, 752
+  rotate: false
+  xy: 1226, 1182
   size: 410, 377
   orig: 410, 450
   offset: 0, 73
   index: -1
 card_nuyanhudun-00009
   rotate: false
-  xy: 0, 0
+  xy: 1226, 840
   size: 410, 342
   orig: 410, 450
   offset: 0, 108
   index: -1
 card_nuyanhudun-00010
-  rotate: true
-  xy: 0, 752
+  rotate: false
+  xy: 0, 776
   size: 410, 390
   orig: 410, 450
   offset: 0, 60
   index: -1
 card_nuyanhudun-00011
-  rotate: true
-  xy: 0, 342
+  rotate: false
+  xy: 410, 1169
   size: 410, 390
   orig: 410, 450
   offset: 0, 60
   index: -1
 card_nuyanhudun-00012
-  rotate: true
-  xy: 1156, 770
+  rotate: false
+  xy: 820, 781
   size: 397, 389
   orig: 410, 450
   offset: 2, 60
   index: -1
 card_nuyanhudun-00013
-  rotate: true
-  xy: 781, 1167
+  rotate: false
+  xy: 410, 778
   size: 405, 391
   orig: 410, 450
   offset: 1, 59
   index: -1
 card_nuyanhudun-00014
-  rotate: true
-  xy: 767, 757
+  rotate: false
+  xy: 820, 1170
   size: 406, 389
   orig: 410, 450
   offset: 4, 60
   index: -1
 card_nuyanhudun-00015
-  rotate: true
-  xy: 393, 1163
+  rotate: false
+  xy: 0, 388
   size: 409, 388
   orig: 410, 450
   offset: 1, 59
   index: -1
 card_nuyanhudun-00016
-  rotate: true
-  xy: 1545, 391
+  rotate: false
+  xy: 809, 5
   size: 394, 388
   orig: 410, 450
   offset: 13, 61
   index: -1
 card_nuyanhudun-00017
-  rotate: true
-  xy: 767, 354
+  rotate: false
+  xy: 0, 0
   size: 403, 388
   orig: 410, 450
   offset: 2, 61
   index: -1
 card_nuyanhudun-00018
-  rotate: true
-  xy: 390, 343
+  rotate: false
+  xy: 410, 401
   size: 409, 377
   orig: 410, 450
   offset: 0, 60
   index: -1
 card_nuyanhudun-00019
-  rotate: true
-  xy: 1525, 0
+  rotate: false
+  xy: 1214, 64
   size: 391, 387
   orig: 410, 450
   offset: 3, 60
   index: -1
 card_nuyanhudun-00020
-  rotate: true
-  xy: 1545, 1180
+  rotate: false
+  xy: 1217, 451
   size: 392, 389
   orig: 410, 450
   offset: 3, 60
   index: -1
 card_nuyanhudun-00021
-  rotate: true
-  xy: 1545, 785
+  rotate: false
+  xy: 819, 393
   size: 395, 388
   orig: 410, 450
   offset: 2, 61

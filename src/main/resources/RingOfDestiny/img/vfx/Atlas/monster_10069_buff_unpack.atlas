@@ -1,138 +1,138 @@
 
 monster_10069_buff_unpack.png
-size: 1730,823
+size: 1633,875
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10069_buff-00000
-  rotate: true
-  xy: 1634, 639
+  rotate: false
+  xy: 0, 26
   size: 184, 96
   orig: 500, 450
   offset: 163, 83
   index: -1
 monster_10069_buff-00001
   rotate: false
-  xy: 1444, 295
+  xy: 567, 40
   size: 230, 261
   orig: 500, 450
   offset: 136, 78
   index: -1
 monster_10069_buff-00002
-  rotate: true
-  xy: 277, 1
+  rotate: false
+  xy: 1394, 328
   size: 229, 269
   orig: 500, 450
   offset: 136, 77
   index: -1
 monster_10069_buff-00003
-  rotate: true
-  xy: 0, 1
+  rotate: false
+  xy: 567, 301
   size: 229, 277
   orig: 500, 450
   offset: 136, 75
   index: -1
 monster_10069_buff-00004
-  rotate: true
-  xy: 546, 0
+  rotate: false
+  xy: 1394, 597
   size: 235, 278
   orig: 500, 450
   offset: 134, 73
   index: -1
 monster_10069_buff-00005
-  rotate: true
-  xy: 1104, 11
+  rotate: false
+  xy: 1391, 33
   size: 242, 282
   orig: 500, 450
   offset: 132, 72
   index: -1
 monster_10069_buff-00006
-  rotate: true
-  xy: 824, 3
+  rotate: false
+  xy: 0, 122
   size: 247, 280
   orig: 500, 450
   offset: 129, 70
   index: -1
 monster_10069_buff-00007
-  rotate: true
-  xy: 1386, 5
+  rotate: false
+  xy: 542, 578
   size: 259, 297
   orig: 500, 450
   offset: 123, 71
   index: -1
 monster_10069_buff-00008
-  rotate: true
-  xy: 1161, 556
+  rotate: false
+  xy: 0, 570
   size: 267, 305
   orig: 500, 450
   offset: 118, 70
   index: -1
 monster_10069_buff-00009
-  rotate: true
-  xy: 878, 253
+  rotate: false
+  xy: 267, 575
   size: 275, 300
   orig: 500, 450
   offset: 116, 69
   index: -1
 monster_10069_buff-00010
   rotate: false
-  xy: 878, 528
+  xy: 247, 0
   size: 283, 295
   orig: 500, 450
   offset: 111, 67
   index: -1
 monster_10069_buff-00011
-  rotate: true
-  xy: 1178, 264
+  rotate: false
+  xy: 1084, 609
   size: 292, 266
   orig: 500, 450
   offset: 107, 67
   index: -1
 monster_10069_buff-00012
   rotate: false
-  xy: 578, 250
+  xy: 267, 295
   size: 300, 280
   orig: 500, 450
   offset: 103, 64
   index: -1
 monster_10069_buff-00013
-  rotate: true
-  xy: 0, 230
+  rotate: false
+  xy: 801, 292
   size: 299, 287
   orig: 500, 450
   offset: 103, 63
   index: -1
 monster_10069_buff-00014
   rotate: false
-  xy: 0, 529
+  xy: 1100, 315
   size: 294, 294
   orig: 500, 450
   offset: 107, 63
   index: -1
 monster_10069_buff-00015
   rotate: false
-  xy: 287, 235
+  xy: 1100, 21
   size: 291, 294
   orig: 500, 450
   offset: 107, 64
   index: -1
 monster_10069_buff-00016
-  rotate: true
-  xy: 294, 530
+  rotate: false
+  xy: 797, 4
   size: 293, 288
   orig: 500, 450
   offset: 105, 65
   index: -1
 monster_10069_buff-00017
-  rotate: true
-  xy: 582, 540
+  rotate: false
+  xy: 801, 579
   size: 283, 296
   orig: 500, 450
   offset: 110, 69
   index: -1
 monster_10069_buff-00018
-  rotate: true
-  xy: 1466, 560
+  rotate: false
+  xy: 0, 402
   size: 263, 168
   orig: 500, 450
   offset: 121, 72

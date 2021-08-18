@@ -1,0 +1,55 @@
+
+effect_job6_602_skill_before_unpack.png
+size: 1256,510
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_job6_602_skill_before-00000
+  rotate: false
+  xy: 0, 273
+  size: 307, 237
+  orig: 531, 418
+  offset: 162, 109
+  index: -1
+effect_job6_602_skill_before-00001
+  rotate: false
+  xy: 926, 258
+  size: 330, 252
+  orig: 531, 418
+  offset: 149, 102
+  index: -1
+effect_job6_602_skill_before-00002
+  rotate: false
+  xy: 683, 0
+  size: 338, 258
+  orig: 531, 418
+  offset: 145, 99
+  index: -1
+effect_job6_602_skill_before-00003
+  rotate: false
+  xy: 0, 15
+  size: 337, 256
+  orig: 531, 418
+  offset: 146, 100
+  index: -1
+effect_job6_602_skill_before-00004
+  rotate: false
+  xy: 337, 13
+  size: 346, 256
+  orig: 531, 418
+  offset: 79, 97
+  index: -1
+effect_job6_602_skill_before-00005
+  rotate: false
+  xy: 607, 269
+  size: 319, 241
+  orig: 531, 418
+  offset: 63, 107
+  index: -1
+effect_job6_602_skill_before-00006
+  rotate: false
+  xy: 307, 271
+  size: 300, 239
+  orig: 531, 418
+  offset: 107, 104
+  index: -1

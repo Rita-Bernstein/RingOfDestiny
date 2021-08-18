@@ -1,68 +1,68 @@
 
 card_siwangzhuizong_unpack.png
-size: 758,555
+size: 499,854
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_siwangzhuizong-00000
   rotate: false
-  xy: 562, 193
+  xy: 281, 492
   size: 177, 173
   orig: 380, 378
   offset: 105, 106
   index: -1
 card_siwangzhuizong-00001
   rotate: false
-  xy: 648, 80
+  xy: 281, 224
   size: 110, 113
   orig: 380, 378
   offset: 139, 135
   index: -1
 card_siwangzhuizong-00002
   rotate: false
-  xy: 0, 260
+  xy: 0, 559
   size: 281, 295
   orig: 380, 378
   offset: 52, 41
   index: -1
 card_siwangzhuizong-00003
   rotate: false
-  xy: 281, 271
+  xy: 0, 275
   size: 281, 284
   orig: 380, 378
   offset: 51, 50
   index: -1
 card_siwangzhuizong-00004
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 17
   size: 260, 258
   orig: 380, 378
   offset: 63, 63
   index: -1
 card_siwangzhuizong-00005
-  rotate: true
-  xy: 258, 25
+  rotate: false
+  xy: 260, 0
   size: 235, 224
   orig: 380, 378
   offset: 79, 79
   index: -1
 card_siwangzhuizong-00006
   rotate: false
-  xy: 562, 366
+  xy: 281, 665
   size: 190, 189
   orig: 380, 378
   offset: 98, 97
   index: -1
 card_siwangzhuizong-00007
   rotate: false
-  xy: 482, 38
+  xy: 281, 337
   size: 166, 155
   orig: 380, 378
   offset: 107, 116
   index: -1
 card_siwangzhuizong-00008
   rotate: false
-  xy: 648, 22
+  xy: 391, 279
   size: 108, 58
   orig: 380, 378
   offset: 137, 163

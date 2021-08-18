@@ -1,0 +1,62 @@
+
+effect_monster_10003_power_add_unpack.png
+size: 733,824
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10003_power_add-00000
+  rotate: false
+  xy: 0, 603
+  size: 378, 221
+  orig: 500, 434
+  offset: 74, 76
+  index: -1
+effect_monster_10003_power_add-00001
+  rotate: false
+  xy: 0, 383
+  size: 376, 220
+  orig: 500, 434
+  offset: 77, 80
+  index: -1
+effect_monster_10003_power_add-00002
+  rotate: false
+  xy: 0, 165
+  size: 363, 218
+  orig: 500, 434
+  offset: 92, 89
+  index: -1
+effect_monster_10003_power_add-00003
+  rotate: false
+  xy: 363, 0
+  size: 359, 214
+  orig: 500, 434
+  offset: 97, 96
+  index: -1
+effect_monster_10003_power_add-00004
+  rotate: false
+  xy: 376, 214
+  size: 357, 210
+  orig: 500, 434
+  offset: 100, 105
+  index: -1
+effect_monster_10003_power_add-00005
+  rotate: false
+  xy: 378, 612
+  size: 353, 212
+  orig: 500, 434
+  offset: 103, 102
+  index: -1
+effect_monster_10003_power_add-00006
+  rotate: false
+  xy: 378, 424
+  size: 349, 188
+  orig: 500, 434
+  offset: 104, 126
+  index: -1
+effect_monster_10003_power_add-00007
+  rotate: false
+  xy: 0, 11
+  size: 260, 154
+  orig: 500, 434
+  offset: 106, 175
+  index: -1

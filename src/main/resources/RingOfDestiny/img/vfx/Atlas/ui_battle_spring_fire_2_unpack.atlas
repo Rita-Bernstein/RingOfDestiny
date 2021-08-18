@@ -1,264 +1,264 @@
 
 ui_battle_spring_fire_2_unpack.png
-size: 2017,918
+size: 1804,1058
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_battle_spring_fire_2-00000
   rotate: false
-  xy: 1649, 14
+  xy: 679, 310
   size: 144, 68
   orig: 500, 305
   offset: 176, 21
   index: -1
 ui_battle_spring_fire_2-00001
   rotate: false
-  xy: 143, 13
+  xy: 1344, 417
   size: 228, 127
   orig: 500, 305
   offset: 134, 21
   index: -1
 ui_battle_spring_fire_2-00002
-  rotate: true
-  xy: 1156, 236
+  rotate: false
+  xy: 911, 0
   size: 227, 171
   orig: 500, 305
   offset: 134, 21
   index: -1
 ui_battle_spring_fire_2-00003
-  rotate: true
-  xy: 959, 462
+  rotate: false
+  xy: 1572, 440
   size: 228, 196
   orig: 500, 305
   offset: 134, 21
   index: -1
 ui_battle_spring_fire_2-00004
-  rotate: true
-  xy: 942, 232
+  rotate: false
+  xy: 1156, 844
   size: 228, 214
   orig: 500, 305
   offset: 134, 21
   index: -1
 ui_battle_spring_fire_2-00005
-  rotate: true
-  xy: 716, 222
+  rotate: false
+  xy: 696, 832
   size: 228, 226
   orig: 500, 305
   offset: 134, 21
   index: -1
 ui_battle_spring_fire_2-00006
   rotate: false
-  xy: 497, 682
+  xy: 300, 555
   size: 230, 236
   orig: 500, 305
   offset: 133, 21
   index: -1
 ui_battle_spring_fire_2-00007
-  rotate: true
-  xy: 267, 441
+  rotate: false
+  xy: 228, 286
   size: 230, 243
   orig: 500, 305
   offset: 133, 21
   index: -1
 ui_battle_spring_fire_2-00008
   rotate: false
-  xy: 267, 671
+  xy: 0, 34
   size: 230, 247
   orig: 500, 305
   offset: 133, 21
   index: -1
 ui_battle_spring_fire_2-00009
   rotate: false
-  xy: 262, 192
+  xy: 0, 281
   size: 228, 248
   orig: 500, 305
   offset: 134, 21
   index: -1
 ui_battle_spring_fire_2-00010
-  rotate: true
-  xy: 0, 440
+  rotate: false
+  xy: 0, 791
   size: 478, 267
   orig: 500, 305
   offset: 10, 21
   index: -1
 ui_battle_spring_fire_2-00011
-  rotate: true
-  xy: 0, 140
+  rotate: false
+  xy: 0, 529
   size: 300, 262
   orig: 500, 305
   offset: 98, 21
   index: -1
 ui_battle_spring_fire_2-00012
-  rotate: true
-  xy: 0, 2
+  rotate: false
+  xy: 1429, 544
   size: 138, 143
   orig: 500, 305
   offset: 178, 83
   index: -1
 ui_battle_spring_fire_2-00013
   rotate: false
-  xy: 1821, 147
+  xy: 1429, 687
   size: 157, 157
   orig: 500, 305
   offset: 169, 77
   index: -1
 ui_battle_spring_fire_2-00014
-  rotate: true
-  xy: 1649, 82
+  rotate: false
+  xy: 1323, 17
   size: 174, 172
   orig: 500, 305
   offset: 160, 69
   index: -1
 ui_battle_spring_fire_2-00015
-  rotate: true
-  xy: 371, 7
+  rotate: false
+  xy: 1138, 6
   size: 185, 183
   orig: 500, 305
   offset: 154, 63
   index: -1
 ui_battle_spring_fire_2-00016
   rotate: false
-  xy: 1607, 723
+  xy: 1545, 44
   size: 196, 195
   orig: 500, 305
   offset: 149, 57
   index: -1
 ui_battle_spring_fire_2-00017
   rotate: false
-  xy: 1804, 304
+  xy: 1572, 239
   size: 205, 201
   orig: 500, 305
   offset: 144, 53
   index: -1
 ui_battle_spring_fire_2-00018
   rotate: false
-  xy: 554, 0
+  xy: 1592, 849
   size: 212, 209
   orig: 500, 305
   offset: 141, 48
   index: -1
 ui_battle_spring_fire_2-00019
-  rotate: true
-  xy: 1393, 701
+  rotate: false
+  xy: 1127, 402
   size: 217, 214
   orig: 500, 305
   offset: 139, 45
   index: -1
 ui_battle_spring_fire_2-00020
-  rotate: true
-  xy: 1327, 241
+  rotate: false
+  xy: 990, 616
   size: 222, 218
   orig: 500, 305
   offset: 136, 42
   index: -1
 ui_battle_spring_fire_2-00021
   rotate: false
-  xy: 766, 0
+  xy: 902, 385
   size: 225, 222
   orig: 500, 305
   offset: 135, 39
   index: -1
 ui_battle_spring_fire_2-00022
-  rotate: true
-  xy: 734, 460
+  rotate: false
+  xy: 762, 607
   size: 228, 225
   orig: 500, 305
   offset: 133, 37
   index: -1
 ui_battle_spring_fire_2-00023
-  rotate: true
-  xy: 727, 688
+  rotate: false
+  xy: 681, 86
   size: 230, 224
   orig: 500, 305
   offset: 132, 38
   index: -1
 ui_battle_spring_fire_2-00024
-  rotate: true
-  xy: 510, 450
+  rotate: false
+  xy: 924, 834
   size: 232, 224
   orig: 500, 305
   offset: 131, 37
   index: -1
 ui_battle_spring_fire_2-00025
-  rotate: true
-  xy: 490, 209
+  rotate: false
+  xy: 530, 604
   size: 232, 226
   orig: 500, 305
   offset: 131, 35
   index: -1
 ui_battle_spring_fire_2-00026
   rotate: false
-  xy: 1155, 463
+  xy: 230, 59
   size: 227, 227
   orig: 500, 305
   offset: 136, 34
   index: -1
 ui_battle_spring_fire_2-00027
   rotate: false
-  xy: 1212, 10
+  xy: 679, 378
   size: 223, 226
   orig: 500, 305
   offset: 136, 33
   index: -1
 ui_battle_spring_fire_2-00028
   rotate: false
-  xy: 1169, 691
+  xy: 457, 59
   size: 224, 227
   orig: 500, 305
   offset: 135, 32
   index: -1
 ui_battle_spring_fire_2-00029
   rotate: false
-  xy: 951, 690
+  xy: 478, 830
   size: 218, 228
   orig: 500, 305
   offset: 141, 31
   index: -1
 ui_battle_spring_fire_2-00030
   rotate: false
-  xy: 991, 5
+  xy: 458, 328
   size: 221, 227
   orig: 500, 305
   offset: 138, 30
   index: -1
 ui_battle_spring_fire_2-00031
-  rotate: true
-  xy: 1382, 470
+  rotate: false
+  xy: 911, 171
   size: 221, 214
   orig: 500, 305
   offset: 138, 35
   index: -1
 ui_battle_spring_fire_2-00032
-  rotate: true
-  xy: 1435, 24
+  rotate: false
+  xy: 1212, 630
   size: 217, 214
   orig: 500, 305
   offset: 140, 36
   index: -1
 ui_battle_spring_fire_2-00033
-  rotate: true
-  xy: 1804, 505
+  rotate: false
+  xy: 1340, 190
   size: 205, 212
   orig: 500, 305
   offset: 150, 35
   index: -1
 ui_battle_spring_fire_2-00034
   rotate: false
-  xy: 1596, 488
+  xy: 1592, 636
   size: 208, 213
   orig: 500, 305
   offset: 150, 35
   index: -1
 ui_battle_spring_fire_2-00035
   rotate: false
-  xy: 1545, 256
+  xy: 1384, 844
   size: 208, 214
   orig: 500, 305
   offset: 149, 33
   index: -1
 ui_battle_spring_fire_2-00036
-  rotate: true
-  xy: 1804, 710
+  rotate: false
+  xy: 1132, 189
   size: 208, 213
   orig: 500, 305
   offset: 148, 32

@@ -1,0 +1,90 @@
+
+effect_monster_10108_yellow_unpack.png
+size: 874,579
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10108_yellow-00000
+  rotate: false
+  xy: 545, 285
+  size: 87, 91
+  orig: 500, 500
+  offset: 205, 131
+  index: -1
+effect_monster_10108_yellow-00001
+  rotate: false
+  xy: 724, 461
+  size: 144, 118
+  orig: 500, 500
+  offset: 185, 108
+  index: -1
+effect_monster_10108_yellow-00002
+  rotate: false
+  xy: 698, 232
+  size: 176, 144
+  orig: 500, 500
+  offset: 170, 108
+  index: -1
+effect_monster_10108_yellow-00003
+  rotate: false
+  xy: 545, 376
+  size: 179, 203
+  orig: 500, 500
+  offset: 168, 108
+  index: -1
+effect_monster_10108_yellow-00004
+  rotate: false
+  xy: 0, 8
+  size: 183, 249
+  orig: 500, 500
+  offset: 163, 106
+  index: -1
+effect_monster_10108_yellow-00005
+  rotate: false
+  xy: 0, 257
+  size: 183, 322
+  orig: 500, 500
+  offset: 163, 106
+  index: -1
+effect_monster_10108_yellow-00006
+  rotate: false
+  xy: 183, 264
+  size: 183, 315
+  orig: 500, 500
+  offset: 163, 106
+  index: -1
+effect_monster_10108_yellow-00007
+  rotate: false
+  xy: 366, 281
+  size: 179, 298
+  orig: 500, 500
+  offset: 165, 107
+  index: -1
+effect_monster_10108_yellow-00008
+  rotate: false
+  xy: 521, 9
+  size: 177, 272
+  orig: 500, 500
+  offset: 166, 107
+  index: -1
+effect_monster_10108_yellow-00009
+  rotate: false
+  xy: 183, 0
+  size: 173, 264
+  orig: 500, 500
+  offset: 168, 108
+  index: -1
+effect_monster_10108_yellow-00010
+  rotate: false
+  xy: 356, 7
+  size: 165, 257
+  orig: 500, 500
+  offset: 170, 109
+  index: -1
+effect_monster_10108_yellow-00011
+  rotate: false
+  xy: 698, 23
+  size: 95, 209
+  orig: 500, 500
+  offset: 206, 151
+  index: -1

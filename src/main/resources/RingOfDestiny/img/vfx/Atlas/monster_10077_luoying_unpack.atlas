@@ -1,75 +1,75 @@
 
 monster_10077_luoying_unpack.png
-size: 1759,440
+size: 1011,821
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10077_luoying-00000
-  rotate: true
-  xy: 1612, 14
+  rotate: false
+  xy: 800, 191
   size: 188, 143
   orig: 501, 425
   offset: 186, 117
   index: -1
 monster_10077_luoying-00001
   rotate: false
-  xy: 1403, 6
+  xy: 800, 334
   size: 209, 196
   orig: 501, 425
   offset: 171, 106
   index: -1
 monster_10077_luoying-00002
-  rotate: true
-  xy: 874, 51
+  rotate: false
+  xy: 411, 253
   size: 389, 277
   orig: 501, 425
   offset: 63, 96
   index: -1
 monster_10077_luoying-00003
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 0, 535
   size: 440, 286
   orig: 501, 425
   offset: 28, 88
   index: -1
 monster_10077_luoying-00004
-  rotate: true
-  xy: 286, 9
+  rotate: false
+  xy: 440, 530
   size: 431, 291
   orig: 501, 425
   offset: 32, 82
   index: -1
 monster_10077_luoying-00005
-  rotate: true
-  xy: 577, 29
+  rotate: false
+  xy: 0, 238
   size: 411, 297
   orig: 501, 425
   offset: 44, 72
   index: -1
 monster_10077_luoying-00006
-  rotate: true
-  xy: 1151, 55
+  rotate: false
+  xy: 411, 1
   size: 385, 252
   orig: 501, 425
   offset: 62, 111
   index: -1
 monster_10077_luoying-00007
   rotate: false
-  xy: 1403, 202
+  xy: 0, 0
   size: 257, 238
   orig: 501, 425
   offset: 90, 113
   index: -1
 monster_10077_luoying-00008
   rotate: false
-  xy: 1660, 307
+  xy: 871, 688
   size: 99, 133
   orig: 501, 425
   offset: 168, 157
   index: -1
 monster_10077_luoying-00009
-  rotate: true
-  xy: 874, 10
+  rotate: false
+  xy: 970, 763
   size: 41, 58
   orig: 501, 425
   offset: 210, 231

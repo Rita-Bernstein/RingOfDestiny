@@ -1,131 +1,131 @@
 
 monster_10069_debuff_unpack.png
-size: 1770,826
+size: 1673,862
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10069_debuff-00000
-  rotate: true
-  xy: 1463, 103
+  rotate: false
+  xy: 1059, 487
   size: 184, 95
   orig: 500, 450
   offset: 165, 77
   index: -1
 monster_10069_debuff-00001
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 829, 312
   size: 230, 261
   orig: 500, 450
   offset: 136, 72
   index: -1
 monster_10069_debuff-00002
-  rotate: true
-  xy: 1494, 297
+  rotate: false
+  xy: 597, 303
   size: 232, 270
   orig: 500, 450
   offset: 137, 70
   index: -1
 monster_10069_debuff-00003
-  rotate: true
-  xy: 287, 16
+  rotate: false
+  xy: 1425, 6
   size: 234, 277
   orig: 500, 450
   offset: 136, 68
   index: -1
 monster_10069_debuff-00004
-  rotate: true
-  xy: 873, 14
+  rotate: false
+  xy: 1140, 585
   size: 242, 277
   orig: 500, 450
   offset: 133, 67
   index: -1
 monster_10069_debuff-00005
-  rotate: true
-  xy: 1181, 39
+  rotate: false
+  xy: 1425, 283
   size: 248, 282
   orig: 500, 450
   offset: 131, 66
   index: -1
 monster_10069_debuff-00006
-  rotate: true
-  xy: 593, 3
+  rotate: false
+  xy: 885, 582
   size: 255, 280
   orig: 500, 450
   offset: 126, 63
   index: -1
 monster_10069_debuff-00007
   rotate: false
-  xy: 1504, 529
+  xy: 1382, 565
   size: 266, 297
   orig: 500, 450
   offset: 122, 62
   index: -1
 monster_10069_debuff-00008
-  rotate: true
-  xy: 1199, 555
+  rotate: false
+  xy: 1154, 182
   size: 271, 305
   orig: 500, 450
   offset: 119, 63
   index: -1
 monster_10069_debuff-00009
-  rotate: true
-  xy: 898, 547
+  rotate: false
+  xy: 592, 0
   size: 279, 301
   orig: 500, 450
   offset: 116, 61
   index: -1
 monster_10069_debuff-00010
-  rotate: true
-  xy: 593, 258
+  rotate: false
+  xy: 305, 5
   size: 287, 296
   orig: 500, 450
   offset: 112, 59
   index: -1
 monster_10069_debuff-00011
   rotate: false
-  xy: 1199, 287
+  xy: 302, 301
   size: 295, 268
   orig: 500, 450
   offset: 109, 57
   index: -1
 monster_10069_debuff-00012
   rotate: false
-  xy: 593, 545
+  xy: 0, 0
   size: 305, 281
   orig: 500, 450
   offset: 103, 56
   index: -1
 monster_10069_debuff-00013
-  rotate: true
-  xy: 0, 230
+  rotate: false
+  xy: 0, 281
   size: 302, 287
   orig: 500, 450
   offset: 105, 56
   index: -1
 monster_10069_debuff-00014
   rotate: false
-  xy: 0, 532
+  xy: 0, 568
   size: 298, 294
   orig: 500, 450
   offset: 107, 56
   index: -1
 monster_10069_debuff-00015
   rotate: false
-  xy: 298, 533
+  xy: 298, 569
   size: 295, 293
   orig: 500, 450
   offset: 107, 58
   index: -1
 monster_10069_debuff-00016
   rotate: false
-  xy: 889, 256
+  xy: 593, 573
   size: 292, 289
   orig: 500, 450
   offset: 108, 57
   index: -1
 monster_10069_debuff-00017
-  rotate: true
-  xy: 298, 250
+  rotate: false
+  xy: 871, 17
   size: 283, 295
   orig: 500, 450
   offset: 113, 62

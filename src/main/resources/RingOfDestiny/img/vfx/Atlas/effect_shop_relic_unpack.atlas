@@ -1,0 +1,90 @@
+
+effect_shop_relic_unpack.png
+size: 472,532
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_shop_relic-00000
+  rotate: false
+  xy: 0, 0
+  size: 72, 116
+  orig: 500, 500
+  offset: 243, 194
+  index: -1
+effect_shop_relic-00001
+  rotate: false
+  xy: 314, 259
+  size: 158, 129
+  orig: 500, 500
+  offset: 155, 186
+  index: -1
+effect_shop_relic-00002
+  rotate: false
+  xy: 155, 391
+  size: 161, 141
+  orig: 500, 500
+  offset: 149, 180
+  index: -1
+effect_shop_relic-00003
+  rotate: false
+  xy: 0, 384
+  size: 155, 148
+  orig: 500, 500
+  offset: 152, 178
+  index: -1
+effect_shop_relic-00004
+  rotate: false
+  xy: 316, 388
+  size: 150, 144
+  orig: 500, 500
+  offset: 154, 180
+  index: -1
+effect_shop_relic-00005
+  rotate: false
+  xy: 312, 119
+  size: 136, 140
+  orig: 500, 500
+  offset: 157, 182
+  index: -1
+effect_shop_relic-00006
+  rotate: false
+  xy: 0, 116
+  size: 148, 136
+  orig: 500, 500
+  offset: 160, 184
+  index: -1
+effect_shop_relic-00007
+  rotate: false
+  xy: 0, 252
+  size: 153, 132
+  orig: 500, 500
+  offset: 162, 186
+  index: -1
+effect_shop_relic-00008
+  rotate: false
+  xy: 155, 262
+  size: 159, 129
+  orig: 500, 500
+  offset: 164, 188
+  index: -1
+effect_shop_relic-00009
+  rotate: false
+  xy: 148, 1
+  size: 164, 132
+  orig: 500, 500
+  offset: 160, 190
+  index: -1
+effect_shop_relic-00010
+  rotate: false
+  xy: 153, 133
+  size: 159, 129
+  orig: 500, 500
+  offset: 162, 191
+  index: -1
+effect_shop_relic-00011
+  rotate: false
+  xy: 312, 0
+  size: 153, 119
+  orig: 500, 500
+  offset: 165, 198
+  index: -1

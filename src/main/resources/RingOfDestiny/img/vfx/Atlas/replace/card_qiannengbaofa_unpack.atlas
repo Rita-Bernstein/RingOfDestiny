@@ -1,0 +1,48 @@
+
+card_qiannengbaofa_unpack.png
+size: 887,675
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_qiannengbaofa-00000
+  rotate: false
+  xy: 0, 238
+  size: 417, 437
+  orig: 500, 500
+  offset: 34, 20
+  index: -1
+card_qiannengbaofa-00001
+  rotate: false
+  xy: 417, 326
+  size: 328, 349
+  orig: 500, 500
+  offset: 80, 61
+  index: -1
+card_qiannengbaofa-00002
+  rotate: false
+  xy: 426, 59
+  size: 241, 267
+  orig: 500, 500
+  offset: 135, 109
+  index: -1
+card_qiannengbaofa-00003
+  rotate: false
+  xy: 667, 78
+  size: 220, 248
+  orig: 500, 500
+  offset: 156, 109
+  index: -1
+card_qiannengbaofa-00004
+  rotate: false
+  xy: 0, 0
+  size: 212, 238
+  orig: 500, 500
+  offset: 155, 109
+  index: -1
+card_qiannengbaofa-00005
+  rotate: false
+  xy: 212, 8
+  size: 214, 230
+  orig: 500, 500
+  offset: 151, 117
+  index: -1

@@ -1,117 +1,117 @@
 
 card_kaigua_1_unpack.png
-size: 2032,825
+size: 1673,1032
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_kaigua_1-00000
   rotate: false
-  xy: 1743, 461
+  xy: 991, 12
   size: 289, 364
   orig: 430, 430
   offset: 81, 54
   index: -1
 card_kaigua_1-00001
   rotate: false
-  xy: 1177, 86
+  xy: 823, 378
   size: 292, 369
   orig: 430, 430
   offset: 75, 48
   index: -1
 card_kaigua_1-00002
   rotate: false
-  xy: 889, 41
+  xy: 1115, 376
   size: 288, 371
   orig: 430, 430
   offset: 79, 47
   index: -1
 card_kaigua_1-00003
   rotate: false
-  xy: 601, 27
+  xy: 413, 0
   size: 288, 376
   orig: 430, 430
   offset: 79, 42
   index: -1
 card_kaigua_1-00004
   rotate: false
-  xy: 920, 455
+  xy: 1403, 392
   size: 270, 370
   orig: 430, 430
   offset: 84, 47
   index: -1
 card_kaigua_1-00005
   rotate: false
-  xy: 1190, 456
+  xy: 701, 9
   size: 290, 369
   orig: 430, 430
   offset: 80, 49
   index: -1
 card_kaigua_1-00006
   rotate: false
-  xy: 1469, 89
+  xy: 1280, 9
   size: 274, 367
   orig: 430, 430
   offset: 86, 50
   index: -1
 card_kaigua_1-00007
   rotate: false
-  xy: 1480, 505
+  xy: 422, 391
   size: 260, 320
   orig: 430, 430
   offset: 92, 53
   index: -1
 card_kaigua_1-00008
-  rotate: true
-  xy: 285, 2
+  rotate: false
+  xy: 424, 716
   size: 399, 316
   orig: 430, 430
   offset: 16, 50
   index: -1
 card_kaigua_1-00009
-  rotate: true
-  xy: 0, 401
+  rotate: false
+  xy: 0, 711
   size: 424, 321
   orig: 430, 430
   offset: 6, 50
   index: -1
 card_kaigua_1-00010
-  rotate: true
-  xy: 321, 403
+  rotate: false
+  xy: 0, 402
   size: 422, 309
   orig: 430, 430
   offset: 7, 58
   index: -1
 card_kaigua_1-00011
-  rotate: true
-  xy: 630, 412
+  rotate: false
+  xy: 0, 112
   size: 413, 290
   orig: 430, 430
   offset: 12, 64
   index: -1
 card_kaigua_1-00012
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 823, 747
   size: 401, 285
   orig: 430, 430
   offset: 16, 69
   index: -1
 card_kaigua_1-00013
-  rotate: true
-  xy: 1743, 114
+  rotate: false
+  xy: 1224, 762
   size: 347, 270
   orig: 430, 430
   offset: 39, 76
   index: -1
 card_kaigua_1-00014
-  rotate: true
-  xy: 1177, 35
+  rotate: false
+  xy: 1571, 865
   size: 51, 167
   orig: 430, 430
   offset: 212, 156
   index: -1
 card_kaigua_1-00015
-  rotate: true
-  xy: 601, 4
+  rotate: false
+  xy: 0, 95
   size: 23, 17
   orig: 430, 430
   offset: 238, 315

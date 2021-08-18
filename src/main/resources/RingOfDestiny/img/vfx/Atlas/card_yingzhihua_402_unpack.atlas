@@ -1,26 +1,26 @@
 
 card_yingzhihua_402_unpack.png
-size: 1573,421
+size: 1981,343
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_yingzhihua_402-00000
   rotate: false
-  xy: 801, 4
+  xy: 1427, 0
   size: 37, 48
   orig: 500, 286
   offset: 99, 169
   index: -1
 card_yingzhihua_402-00001
   rotate: false
-  xy: 897, 132
+  xy: 1820, 9
   size: 104, 63
   orig: 500, 286
   offset: 110, 193
   index: -1
 card_yingzhihua_402-00002
   rotate: false
-  xy: 736, 131
+  xy: 1820, 138
   size: 161, 64
   orig: 500, 286
   offset: 109, 192
@@ -34,119 +34,119 @@ card_yingzhihua_402-00003
   index: -1
 card_yingzhihua_402-00004
   rotate: false
-  xy: 553, 4
+  xy: 976, 4
   size: 248, 124
   orig: 500, 286
   offset: 109, 135
   index: -1
 card_yingzhihua_402-00005
-  rotate: true
-  xy: 0, 94
+  rotate: false
+  xy: 313, 97
   size: 327, 246
   orig: 500, 286
   offset: 111, 14
   index: -1
 card_yingzhihua_402-00006
-  rotate: true
-  xy: 246, 108
+  rotate: false
+  xy: 0, 94
   size: 313, 249
   orig: 500, 286
   offset: 144, 10
   index: -1
 card_yingzhihua_402-00007
-  rotate: true
-  xy: 495, 128
+  rotate: false
+  xy: 640, 102
   size: 293, 241
   orig: 500, 286
   offset: 191, 13
   index: -1
 card_yingzhihua_402-00008
-  rotate: true
-  xy: 736, 195
+  rotate: false
+  xy: 933, 128
   size: 226, 215
   orig: 500, 286
   offset: 260, 14
   index: -1
 card_yingzhihua_402-00009
-  rotate: true
-  xy: 951, 207
+  rotate: false
+  xy: 1159, 166
   size: 214, 177
   orig: 500, 286
   offset: 269, 17
   index: -1
 card_yingzhihua_402-00010
-  rotate: true
-  xy: 1144, 15
+  rotate: false
+  xy: 1373, 194
   size: 203, 149
   orig: 500, 286
   offset: 272, 18
   index: -1
 card_yingzhihua_402-00011
-  rotate: true
-  xy: 1128, 218
+  rotate: false
+  xy: 1224, 10
   size: 203, 156
   orig: 500, 286
   offset: 269, 11
   index: -1
 card_yingzhihua_402-00012
-  rotate: true
-  xy: 1284, 221
+  rotate: false
+  xy: 1427, 48
   size: 200, 146
   orig: 500, 286
   offset: 268, 14
   index: -1
 card_yingzhihua_402-00013
-  rotate: true
-  xy: 1430, 222
+  rotate: false
+  xy: 1576, 201
   size: 199, 142
   orig: 500, 286
   offset: 267, 14
   index: -1
 card_yingzhihua_402-00014
-  rotate: true
-  xy: 1293, 20
+  rotate: false
+  xy: 1775, 202
   size: 201, 141
   orig: 500, 286
   offset: 265, 13
   index: -1
 card_yingzhihua_402-00015
-  rotate: true
-  xy: 1434, 29
+  rotate: false
+  xy: 1627, 62
   size: 193, 139
   orig: 500, 286
   offset: 266, 13
   index: -1
 card_yingzhihua_402-00016
   rotate: false
-  xy: 362, 7
+  xy: 642, 1
   size: 191, 101
   orig: 500, 286
   offset: 266, 13
   index: -1
 card_yingzhihua_402-00017
-  rotate: true
-  xy: 951, 2
+  rotate: false
+  xy: 512, 18
   size: 130, 79
   orig: 500, 286
   offset: 306, 31
   index: -1
 card_yingzhihua_402-00018
-  rotate: true
-  xy: 1030, 0
+  rotate: false
+  xy: 1820, 72
   size: 136, 66
   orig: 500, 286
   offset: 301, 47
   index: -1
 card_yingzhihua_402-00019
   rotate: false
-  xy: 1001, 136
+  xy: 833, 31
   size: 143, 71
   orig: 500, 286
   offset: 294, 45
   index: -1
 card_yingzhihua_402-00020
   rotate: false
-  xy: 801, 52
+  xy: 362, 18
   size: 150, 79
   orig: 500, 286
   offset: 289, 42

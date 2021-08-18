@@ -1,33 +1,33 @@
 
 card_zhanrengongji_unpack.png
-size: 493,145
+size: 276,260
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_zhanrengongji-00000
   rotate: false
-  xy: 0, 0
+  xy: 0, 115
   size: 187, 145
   orig: 362, 238
   offset: 89, 47
   index: -1
 card_zhanrengongji-00001
-  rotate: true
-  xy: 187, 0
+  rotate: false
+  xy: 0, 0
   size: 145, 115
   orig: 362, 238
   offset: 118, 65
   index: -1
 card_zhanrengongji-00002
-  rotate: true
-  xy: 302, 14
+  rotate: false
+  xy: 145, 3
   size: 131, 112
   orig: 362, 238
   offset: 129, 65
   index: -1
 card_zhanrengongji-00003
   rotate: false
-  xy: 414, 64
+  xy: 187, 179
   size: 79, 81
   orig: 362, 238
   offset: 146, 79

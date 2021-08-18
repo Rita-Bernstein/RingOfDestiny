@@ -6,7 +6,7 @@ filter: Linear,Linear
 repeat: none
 card_yuwangzhili-00000
   rotate: false
-  xy: 398, 5
+  xy: 405, 5
   size: 57, 57
   orig: 500, 500
   offset: 227, 216
@@ -47,15 +47,15 @@ card_yuwangzhili-00005
   offset: 189, 184
   index: -1
 card_yuwangzhili-00006
-  rotate: true
-  xy: 282, 20
+  rotate: false
+  xy: 282, 27
   size: 123, 116
   orig: 500, 500
   offset: 197, 188
   index: -1
 card_yuwangzhili-00007
   rotate: false
-  xy: 398, 62
+  xy: 405, 62
   size: 110, 109
   orig: 500, 500
   offset: 200, 192

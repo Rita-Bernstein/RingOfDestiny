@@ -1,0 +1,62 @@
+
+effect_monster_10008_boom_unpack.png
+size: 1448,658
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_monster_10008_boom-00000
+  rotate: false
+  xy: 384, 294
+  size: 360, 364
+  orig: 500, 500
+  offset: 77, 70
+  index: -1
+effect_monster_10008_boom-00001
+  rotate: false
+  xy: 0, 264
+  size: 384, 394
+  orig: 500, 500
+  offset: 73, 60
+  index: -1
+effect_monster_10008_boom-00002
+  rotate: false
+  xy: 744, 296
+  size: 358, 362
+  orig: 500, 500
+  offset: 73, 58
+  index: -1
+effect_monster_10008_boom-00003
+  rotate: false
+  xy: 1102, 322
+  size: 346, 336
+  orig: 500, 500
+  offset: 78, 62
+  index: -1
+effect_monster_10008_boom-00004
+  rotate: false
+  xy: 744, 0
+  size: 295, 296
+  orig: 500, 500
+  offset: 105, 91
+  index: -1
+effect_monster_10008_boom-00005
+  rotate: false
+  xy: 1102, 22
+  size: 291, 300
+  orig: 500, 500
+  offset: 102, 94
+  index: -1
+effect_monster_10008_boom-00006
+  rotate: false
+  xy: 384, 28
+  size: 291, 266
+  orig: 500, 500
+  offset: 101, 106
+  index: -1
+effect_monster_10008_boom-00007
+  rotate: false
+  xy: 0, 25
+  size: 272, 239
+  orig: 500, 500
+  offset: 107, 121
+  index: -1

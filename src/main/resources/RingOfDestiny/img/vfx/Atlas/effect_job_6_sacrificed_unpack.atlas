@@ -1,124 +1,124 @@
 
 effect_job_6_sacrificed_unpack.png
-size: 765,1149
+size: 1551,559
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 effect_job_6_sacrificed-00000
   rotate: false
-  xy: 340, 10
+  xy: 870, 7
   size: 170, 271
   orig: 500, 500
   offset: 160, 115
   index: -1
 effect_job_6_sacrificed-00001
   rotate: false
-  xy: 559, 328
+  xy: 1212, 2
   size: 169, 271
   orig: 500, 500
   offset: 162, 118
   index: -1
 effect_job_6_sacrificed-00002
   rotate: false
-  xy: 172, 2
+  xy: 530, 3
   size: 168, 275
   orig: 500, 500
   offset: 162, 117
   index: -1
 effect_job_6_sacrificed-00003
-  rotate: true
-  xy: 277, 281
+  rotate: false
+  xy: 1040, 4
   size: 172, 269
   orig: 500, 500
   offset: 161, 114
   index: -1
 effect_job_6_sacrificed-00004
-  rotate: true
-  xy: 0, 277
+  rotate: false
+  xy: 569, 282
   size: 179, 277
   orig: 500, 500
   offset: 160, 111
   index: -1
 effect_job_6_sacrificed-00005
-  rotate: true
-  xy: 0, 796
+  rotate: false
+  xy: 385, 278
   size: 184, 281
   orig: 500, 500
   offset: 160, 112
   index: -1
 effect_job_6_sacrificed-00006
-  rotate: true
-  xy: 286, 794
+  rotate: false
+  xy: 197, 278
   size: 188, 281
   orig: 500, 500
   offset: 161, 114
   index: -1
 effect_job_6_sacrificed-00007
   rotate: false
-  xy: 567, 599
+  xy: 338, 5
   size: 192, 273
   orig: 500, 500
   offset: 161, 115
   index: -1
 effect_job_6_sacrificed-00008
   rotate: false
-  xy: 568, 872
+  xy: 0, 282
   size: 197, 277
   orig: 500, 500
   offset: 158, 115
   index: -1
 effect_job_6_sacrificed-00009
-  rotate: true
-  xy: 281, 453
+  rotate: false
+  xy: 167, 0
   size: 171, 278
   orig: 500, 500
   offset: 156, 113
   index: -1
 effect_job_6_sacrificed-00010
-  rotate: true
-  xy: 281, 624
+  rotate: false
+  xy: 920, 278
   size: 170, 281
   orig: 500, 500
   offset: 156, 111
   index: -1
 effect_job_6_sacrificed-00011
-  rotate: true
-  xy: 0, 456
+  rotate: false
+  xy: 1259, 278
   size: 168, 281
   orig: 500, 500
   offset: 158, 111
   index: -1
 effect_job_6_sacrificed-00012
-  rotate: true
-  xy: 286, 982
+  rotate: false
+  xy: 0, 0
   size: 167, 282
   orig: 500, 500
   offset: 159, 109
   index: -1
 effect_job_6_sacrificed-00013
-  rotate: true
-  xy: 0, 980
+  rotate: false
+  xy: 1090, 273
   size: 169, 286
   orig: 500, 500
   offset: 157, 107
   index: -1
 effect_job_6_sacrificed-00014
-  rotate: true
-  xy: 0, 624
+  rotate: false
+  xy: 748, 278
   size: 172, 281
   orig: 500, 500
   offset: 157, 109
   index: -1
 effect_job_6_sacrificed-00015
   rotate: false
-  xy: 0, 0
+  xy: 698, 1
   size: 172, 277
   orig: 500, 500
   offset: 158, 111
   index: -1
 effect_job_6_sacrificed-00016
   rotate: false
-  xy: 510, 10
+  xy: 1381, 7
   size: 170, 271
   orig: 500, 500
   offset: 159, 113

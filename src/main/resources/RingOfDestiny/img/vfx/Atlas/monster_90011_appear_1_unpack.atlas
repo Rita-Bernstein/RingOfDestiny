@@ -1,54 +1,54 @@
 
 monster_90011_appear_1_unpack.png
-size: 586,312
+size: 582,312
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_90011_appear_1-00000
-  rotate: true
-  xy: 216, 175
+  rotate: false
+  xy: 216, 168
   size: 137, 144
   orig: 301, 309
   offset: 78, 75
   index: -1
 monster_90011_appear_1-00001
-  rotate: true
-  xy: 0, 21
+  rotate: false
+  xy: 0, 17
   size: 156, 160
   orig: 301, 309
   offset: 69, 67
   index: -1
 monster_90011_appear_1-00002
-  rotate: true
-  xy: 0, 21
+  rotate: false
+  xy: 0, 17
   size: 156, 160
   orig: 301, 309
   offset: 69, 67
   index: -1
 monster_90011_appear_1-00003
-  rotate: true
-  xy: 0, 21
+  rotate: false
+  xy: 0, 17
   size: 156, 160
   orig: 301, 309
   offset: 69, 67
   index: -1
 monster_90011_appear_1-00004
   rotate: false
-  xy: 376, 0
+  xy: 372, 0
   size: 210, 161
   orig: 301, 309
   offset: 54, 67
   index: -1
 monster_90011_appear_1-00005
   rotate: false
-  xy: 160, 1
+  xy: 156, 1
   size: 216, 160
   orig: 301, 309
   offset: 51, 67
   index: -1
 monster_90011_appear_1-00006
   rotate: false
-  xy: 360, 161
+  xy: 353, 161
   size: 220, 151
   orig: 301, 309
   offset: 49, 73

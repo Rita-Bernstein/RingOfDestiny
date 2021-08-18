@@ -1,180 +1,180 @@
 
 ui_award_light_unpack.png
-size: 1685,261
+size: 1678,262
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_award_light-00000
   rotate: false
-  xy: 1448, 131
+  xy: 1031, 1
   size: 129, 130
   orig: 200, 200
   offset: 37, 35
   index: -1
 ui_award_light-00001
-  rotate: true
-  xy: 1186, 132
+  rotate: false
+  xy: 1034, 131
   size: 129, 131
   orig: 200, 200
   offset: 36, 34
   index: -1
 ui_award_light-00002
-  rotate: true
-  xy: 132, 131
+  rotate: false
+  xy: 904, 131
   size: 130, 131
   orig: 200, 200
   offset: 36, 34
   index: -1
 ui_award_light-00003
-  rotate: true
-  xy: 526, 132
+  rotate: false
+  xy: 259, 130
   size: 129, 132
   orig: 200, 200
   offset: 37, 34
   index: -1
 ui_award_light-00004
-  rotate: true
-  xy: 0, 131
+  rotate: false
+  xy: 129, 130
   size: 130, 132
   orig: 200, 200
   offset: 36, 34
   index: -1
 ui_award_light-00005
-  rotate: true
-  xy: 393, 132
+  rotate: false
+  xy: 0, 129
   size: 129, 133
   orig: 200, 200
   offset: 37, 34
   index: -1
 ui_award_light-00006
-  rotate: true
-  xy: 658, 132
+  rotate: false
+  xy: 388, 130
   size: 129, 132
   orig: 200, 200
   offset: 37, 35
   index: -1
 ui_award_light-00007
-  rotate: true
-  xy: 1039, 4
+  rotate: false
+  xy: 1292, 131
   size: 128, 131
   orig: 200, 200
   offset: 37, 35
   index: -1
 ui_award_light-00008
-  rotate: true
-  xy: 393, 3
+  rotate: false
+  xy: 1160, 1
   size: 129, 130
   orig: 200, 200
   offset: 37, 36
   index: -1
 ui_award_light-00009
-  rotate: true
-  xy: 1429, 3
+  rotate: false
+  xy: 645, 1
   size: 128, 129
   orig: 200, 200
   offset: 38, 37
   index: -1
 ui_award_light-00010
   rotate: false
-  xy: 523, 3
+  xy: 0, 0
   size: 129, 129
   orig: 200, 200
   offset: 37, 37
   index: -1
 ui_award_light-00011
   rotate: false
-  xy: 652, 3
+  xy: 258, 1
   size: 129, 129
   orig: 200, 200
   offset: 37, 36
   index: -1
 ui_award_light-00012
   rotate: false
-  xy: 781, 3
+  xy: 387, 1
   size: 129, 129
   orig: 200, 200
   offset: 37, 35
   index: -1
 ui_award_light-00013
   rotate: false
-  xy: 1558, 0
+  xy: 904, 0
   size: 127, 131
   orig: 200, 200
   offset: 37, 34
   index: -1
 ui_award_light-00014
-  rotate: true
-  xy: 1170, 4
+  rotate: false
+  xy: 1420, 131
   size: 128, 131
   orig: 200, 200
   offset: 37, 34
   index: -1
 ui_award_light-00015
-  rotate: true
-  xy: 790, 132
+  rotate: false
+  xy: 517, 130
   size: 129, 132
   orig: 200, 200
   offset: 37, 34
   index: -1
 ui_award_light-00016
-  rotate: true
-  xy: 922, 132
+  rotate: false
+  xy: 646, 130
   size: 129, 132
   orig: 200, 200
   offset: 37, 34
   index: -1
 ui_award_light-00017
-  rotate: true
-  xy: 1317, 132
+  rotate: false
+  xy: 1163, 131
   size: 129, 131
   orig: 200, 200
   offset: 37, 35
   index: -1
 ui_award_light-00018
   rotate: false
-  xy: 1301, 1
+  xy: 1548, 1
   size: 128, 131
   orig: 200, 200
   offset: 37, 35
   index: -1
 ui_award_light-00019
-  rotate: true
-  xy: 1054, 132
+  rotate: false
+  xy: 775, 130
   size: 129, 132
   orig: 200, 200
   offset: 37, 35
   index: -1
 ui_award_light-00020
-  rotate: true
-  xy: 0, 2
+  rotate: false
+  xy: 1289, 1
   size: 129, 130
   orig: 200, 200
   offset: 37, 36
   index: -1
 ui_award_light-00021
-  rotate: true
-  xy: 130, 2
+  rotate: false
+  xy: 1418, 1
   size: 129, 130
   orig: 200, 200
   offset: 37, 36
   index: -1
 ui_award_light-00022
   rotate: false
-  xy: 263, 131
+  xy: 1548, 132
   size: 130, 130
   orig: 200, 200
   offset: 37, 36
   index: -1
 ui_award_light-00023
   rotate: false
-  xy: 910, 3
+  xy: 516, 1
   size: 129, 129
   orig: 200, 200
   offset: 37, 36
   index: -1
 ui_award_light-00024
   rotate: false
-  xy: 260, 1
+  xy: 129, 0
   size: 129, 130
   orig: 200, 200
   offset: 37, 35

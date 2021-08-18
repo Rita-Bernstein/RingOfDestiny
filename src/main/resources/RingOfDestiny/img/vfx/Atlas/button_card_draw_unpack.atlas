@@ -1,187 +1,187 @@
 
 button_card_draw_unpack.png
-size: 1677,298
+size: 1660,310
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 button_card_draw-00000
-  rotate: true
-  xy: 1497, 2
+  rotate: false
+  xy: 1616, 103
   size: 38, 49
   orig: 280, 300
   offset: 138, 79
   index: -1
 button_card_draw-00001
-  rotate: true
-  xy: 1599, 47
+  rotate: false
+  xy: 1555, 152
   size: 103, 56
   orig: 280, 300
   offset: 73, 76
   index: -1
 button_card_draw-00002
-  rotate: true
-  xy: 1497, 40
+  rotate: false
+  xy: 1555, 208
   size: 105, 102
   orig: 280, 300
   offset: 72, 73
   index: -1
 button_card_draw-00003
-  rotate: true
-  xy: 1391, 18
+  rotate: false
+  xy: 1489, 46
   size: 127, 106
   orig: 280, 300
   offset: 70, 71
   index: -1
 button_card_draw-00004
-  rotate: true
-  xy: 973, 11
+  rotate: false
+  xy: 1358, 41
   size: 131, 113
   orig: 280, 300
   offset: 69, 65
   index: -1
 button_card_draw-00005
-  rotate: true
-  xy: 437, 5
+  rotate: false
+  xy: 1222, 40
   size: 136, 114
   orig: 280, 300
   offset: 65, 64
   index: -1
 button_card_draw-00006
-  rotate: true
-  xy: 148, 2
+  rotate: false
+  xy: 896, 164
   size: 139, 146
   orig: 280, 300
   offset: 62, 64
   index: -1
 button_card_draw-00007
-  rotate: true
-  xy: 0, 2
+  rotate: false
+  xy: 757, 162
   size: 139, 148
   orig: 280, 300
   offset: 60, 64
   index: -1
 button_card_draw-00008
-  rotate: true
-  xy: 1242, 0
+  rotate: false
+  xy: 614, 161
   size: 143, 149
   orig: 280, 300
   offset: 58, 64
   index: -1
 button_card_draw-00009
-  rotate: true
-  xy: 1528, 150
+  rotate: false
+  xy: 466, 161
   size: 148, 149
   orig: 280, 300
   offset: 58, 64
   index: -1
 button_card_draw-00010
-  rotate: true
-  xy: 1377, 145
+  rotate: false
+  xy: 313, 159
   size: 153, 151
   orig: 280, 300
   offset: 57, 61
   index: -1
 button_card_draw-00011
-  rotate: true
-  xy: 1225, 143
+  rotate: false
+  xy: 157, 5
   size: 155, 152
   orig: 280, 300
   offset: 56, 60
   index: -1
 button_card_draw-00012
-  rotate: true
-  xy: 814, 142
+  rotate: false
+  xy: 157, 157
   size: 156, 153
   orig: 280, 300
   offset: 55, 60
   index: -1
 button_card_draw-00013
-  rotate: true
-  xy: 155, 141
+  rotate: false
+  xy: 0, 1
   size: 157, 154
   orig: 280, 300
   offset: 54, 60
   index: -1
 button_card_draw-00014
-  rotate: true
-  xy: 0, 141
+  rotate: false
+  xy: 0, 155
   size: 157, 155
   orig: 280, 300
   offset: 54, 60
   index: -1
 button_card_draw-00015
-  rotate: true
-  xy: 1086, 14
+  rotate: false
+  xy: 1299, 154
   size: 128, 156
   orig: 280, 300
   offset: 84, 59
   index: -1
 button_card_draw-00016
   rotate: false
-  xy: 1097, 142
+  xy: 1427, 154
   size: 128, 156
   orig: 280, 300
   offset: 85, 59
   index: -1
 button_card_draw-00017
   rotate: false
-  xy: 437, 141
+  xy: 312, 0
   size: 127, 157
   orig: 280, 300
   offset: 86, 59
   index: -1
 button_card_draw-00018
   rotate: false
-  xy: 564, 141
+  xy: 439, 2
   size: 125, 157
   orig: 280, 300
   offset: 87, 59
   index: -1
 button_card_draw-00019
   rotate: false
-  xy: 689, 141
+  xy: 692, 4
   size: 125, 157
   orig: 280, 300
   offset: 87, 59
   index: -1
 button_card_draw-00020
   rotate: false
-  xy: 309, 141
+  xy: 564, 4
   size: 128, 157
   orig: 280, 300
   offset: 85, 60
   index: -1
 button_card_draw-00021
   rotate: false
-  xy: 967, 142
+  xy: 1169, 154
   size: 130, 156
   orig: 280, 300
   offset: 84, 61
   index: -1
 button_card_draw-00022
-  rotate: true
-  xy: 694, 7
+  rotate: false
+  xy: 1035, 156
   size: 134, 154
   orig: 280, 300
   offset: 83, 63
   index: -1
 button_card_draw-00023
-  rotate: true
-  xy: 294, 5
+  rotate: false
+  xy: 817, 19
   size: 136, 143
   orig: 280, 300
   offset: 83, 75
   index: -1
 button_card_draw-00024
-  rotate: true
-  xy: 551, 6
+  rotate: false
+  xy: 953, 13
   size: 135, 143
   orig: 280, 300
   offset: 85, 74
   index: -1
 button_card_draw-00025
-  rotate: true
-  xy: 848, 8
+  rotate: false
+  xy: 1088, 29
   size: 134, 125
   orig: 280, 300
   offset: 87, 87

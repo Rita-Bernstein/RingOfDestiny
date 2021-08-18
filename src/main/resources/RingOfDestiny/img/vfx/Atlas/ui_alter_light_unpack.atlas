@@ -1,89 +1,89 @@
 
 ui_alter_light_unpack.png
-size: 1464,188
+size: 733,375
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ui_alter_light-00000
   rotate: false
-  xy: 246, 1
+  xy: 124, 188
   size: 122, 187
   orig: 282, 362
   offset: 85, 134
   index: -1
 ui_alter_light-00001
   rotate: false
-  xy: 0, 1
+  xy: 0, 188
   size: 124, 187
   orig: 282, 362
   offset: 83, 134
   index: -1
 ui_alter_light-00002
   rotate: false
-  xy: 368, 1
+  xy: 122, 1
   size: 122, 187
   orig: 282, 362
   offset: 85, 134
   index: -1
 ui_alter_light-00003
   rotate: false
-  xy: 856, 0
+  xy: 366, 0
   size: 121, 188
   orig: 282, 362
   offset: 86, 133
   index: -1
 ui_alter_light-00004
   rotate: false
-  xy: 977, 0
+  xy: 490, 187
   size: 121, 188
   orig: 282, 362
   offset: 86, 133
   index: -1
 ui_alter_light-00005
   rotate: false
-  xy: 124, 0
+  xy: 0, 0
   size: 122, 188
   orig: 282, 362
   offset: 85, 133
   index: -1
 ui_alter_light-00006
   rotate: false
-  xy: 490, 1
+  xy: 246, 188
   size: 122, 187
   orig: 282, 362
   offset: 85, 134
   index: -1
 ui_alter_light-00007
   rotate: false
-  xy: 1098, 2
+  xy: 611, 189
   size: 122, 186
   orig: 282, 362
   offset: 85, 135
   index: -1
 ui_alter_light-00008
   rotate: false
-  xy: 1220, 2
+  xy: 487, 1
   size: 122, 186
   orig: 282, 362
   offset: 85, 135
   index: -1
 ui_alter_light-00009
   rotate: false
-  xy: 1342, 2
+  xy: 609, 1
   size: 122, 186
   orig: 282, 362
   offset: 85, 135
   index: -1
 ui_alter_light-00010
   rotate: false
-  xy: 612, 1
+  xy: 244, 1
   size: 122, 187
   orig: 282, 362
   offset: 85, 134
   index: -1
 ui_alter_light-00011
   rotate: false
-  xy: 734, 1
+  xy: 368, 188
   size: 122, 187
   orig: 282, 362
   offset: 85, 134

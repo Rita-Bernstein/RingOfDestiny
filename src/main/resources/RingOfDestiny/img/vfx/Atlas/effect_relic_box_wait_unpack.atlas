@@ -1,0 +1,69 @@
+
+effect_relic_box_wait_unpack.png
+size: 433,327
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_relic_box_wait-00000
+  rotate: false
+  xy: 330, 0
+  size: 68, 87
+  orig: 324, 324
+  offset: 60, 89
+  index: -1
+effect_relic_box_wait-00001
+  rotate: false
+  xy: 330, 193
+  size: 103, 134
+  orig: 324, 324
+  offset: 62, 58
+  index: -1
+effect_relic_box_wait-00002
+  rotate: false
+  xy: 110, 11
+  size: 109, 151
+  orig: 324, 324
+  offset: 72, 56
+  index: -1
+effect_relic_box_wait-00003
+  rotate: false
+  xy: 220, 165
+  size: 110, 162
+  orig: 324, 324
+  offset: 87, 61
+  index: -1
+effect_relic_box_wait-00004
+  rotate: false
+  xy: 110, 162
+  size: 110, 165
+  orig: 324, 324
+  offset: 103, 74
+  index: -1
+effect_relic_box_wait-00005
+  rotate: false
+  xy: 0, 158
+  size: 110, 169
+  orig: 324, 324
+  offset: 118, 88
+  index: -1
+effect_relic_box_wait-00006
+  rotate: false
+  xy: 220, 12
+  size: 110, 153
+  orig: 324, 324
+  offset: 134, 106
+  index: -1
+effect_relic_box_wait-00007
+  rotate: false
+  xy: 0, 20
+  size: 109, 138
+  orig: 324, 324
+  offset: 149, 121
+  index: -1
+effect_relic_box_wait-00008
+  rotate: false
+  xy: 330, 87
+  size: 85, 106
+  orig: 324, 324
+  offset: 177, 137
+  index: -1

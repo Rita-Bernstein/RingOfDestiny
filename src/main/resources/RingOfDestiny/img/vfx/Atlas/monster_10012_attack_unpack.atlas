@@ -40,8 +40,8 @@ monster_10012_attack-00004
   offset: 72, 78
   index: -1
 monster_10012_attack-00005
-  rotate: true
-  xy: 874, 23
+  rotate: false
+  xy: 874, 24
   size: 84, 83
   orig: 375, 260
   offset: 79, 85

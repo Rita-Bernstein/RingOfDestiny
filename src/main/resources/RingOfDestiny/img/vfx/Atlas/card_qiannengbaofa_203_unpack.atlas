@@ -1,68 +1,68 @@
 
 card_qiannengbaofa_203_unpack.png
-size: 1887,331
+size: 1909,332
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_qiannengbaofa_203-00000
   rotate: false
-  xy: 1727, 1
+  xy: 1390, 0
   size: 160, 144
   orig: 414, 369
   offset: 127, 112
   index: -1
 card_qiannengbaofa_203-00001
   rotate: false
-  xy: 370, 2
+  xy: 370, 3
   size: 366, 329
   orig: 414, 369
   offset: 24, 19
   index: -1
 card_qiannengbaofa_203-00002
   rotate: false
-  xy: 0, 0
+  xy: 0, 1
   size: 370, 331
   orig: 414, 369
   offset: 22, 17
   index: -1
 card_qiannengbaofa_203-00003
   rotate: false
-  xy: 736, 8
+  xy: 736, 9
   size: 356, 323
   orig: 414, 369
   offset: 29, 23
   index: -1
 card_qiannengbaofa_203-00004
-  rotate: true
-  xy: 1092, 33
+  rotate: false
+  xy: 1092, 63
   size: 298, 269
   orig: 414, 369
   offset: 59, 50
   index: -1
 card_qiannengbaofa_203-00005
-  rotate: true
-  xy: 1361, 121
+  rotate: false
+  xy: 1390, 144
   size: 210, 188
   orig: 414, 369
   offset: 108, 90
   index: -1
 card_qiannengbaofa_203-00006
-  rotate: true
-  xy: 1549, 131
+  rotate: false
+  xy: 1600, 154
   size: 200, 178
   orig: 414, 369
   offset: 114, 94
   index: -1
 card_qiannengbaofa_203-00007
-  rotate: true
-  xy: 1727, 145
+  rotate: false
+  xy: 1723, 3
   size: 186, 151
   orig: 414, 369
   offset: 121, 100
   index: -1
 card_qiannengbaofa_203-00008
   rotate: false
-  xy: 1361, 9
+  xy: 1550, 32
   size: 173, 112
   orig: 414, 369
   offset: 128, 105

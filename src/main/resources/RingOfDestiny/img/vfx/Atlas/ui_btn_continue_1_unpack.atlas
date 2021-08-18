@@ -1,0 +1,90 @@
+
+ui_btn_continue_1_unpack.png
+size: 644,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_btn_continue_1-00000
+  rotate: false
+  xy: 92, 36
+  size: 65, 82
+  orig: 500, 500
+  offset: 148, 184
+  index: -1
+ui_btn_continue_1-00001
+  rotate: false
+  xy: 261, 12
+  size: 97, 121
+  orig: 500, 500
+  offset: 148, 158
+  index: -1
+ui_btn_continue_1-00002
+  rotate: false
+  xy: 516, 5
+  size: 110, 136
+  orig: 500, 500
+  offset: 148, 157
+  index: -1
+ui_btn_continue_1-00003
+  rotate: false
+  xy: 520, 146
+  size: 124, 150
+  orig: 500, 500
+  offset: 148, 156
+  index: -1
+ui_btn_continue_1-00004
+  rotate: false
+  xy: 260, 133
+  size: 129, 163
+  orig: 500, 500
+  offset: 156, 157
+  index: -1
+ui_btn_continue_1-00005
+  rotate: false
+  xy: 0, 118
+  size: 130, 178
+  orig: 500, 500
+  offset: 169, 158
+  index: -1
+ui_btn_continue_1-00006
+  rotate: false
+  xy: 130, 128
+  size: 130, 168
+  orig: 500, 500
+  offset: 183, 170
+  index: -1
+ui_btn_continue_1-00007
+  rotate: false
+  xy: 389, 141
+  size: 131, 155
+  orig: 500, 500
+  offset: 197, 183
+  index: -1
+ui_btn_continue_1-00008
+  rotate: false
+  xy: 398, 0
+  size: 118, 141
+  orig: 500, 500
+  offset: 210, 197
+  index: -1
+ui_btn_continue_1-00009
+  rotate: false
+  xy: 157, 1
+  size: 104, 127
+  orig: 500, 500
+  offset: 224, 211
+  index: -1
+ui_btn_continue_1-00010
+  rotate: false
+  xy: 0, 4
+  size: 92, 114
+  orig: 500, 500
+  offset: 236, 224
+  index: -1
+ui_btn_continue_1-00011
+  rotate: false
+  xy: 358, 84
+  size: 40, 49
+  orig: 500, 500
+  offset: 288, 238
+  index: -1

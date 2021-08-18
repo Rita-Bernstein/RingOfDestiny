@@ -1,117 +1,117 @@
 
 card_tiantangzhinu_unpack.png
-size: 1949,1127
+size: 1687,1354
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_tiantangzhinu-00000
-  rotate: true
-  xy: 1611, 26
+  rotate: false
+  xy: 1363, 1074
   size: 266, 280
   orig: 800, 550
   offset: 117, 214
   index: -1
 card_tiantangzhinu-00001
-  rotate: true
-  xy: 0, 0
+  rotate: false
+  xy: 1096, 573
   size: 272, 277
   orig: 800, 550
   offset: 116, 219
   index: -1
 card_tiantangzhinu-00002
-  rotate: true
-  xy: 312, 307
+  rotate: false
+  xy: 1378, 815
   size: 309, 259
   orig: 800, 550
   offset: 113, 236
   index: -1
 card_tiantangzhinu-00003
   rotate: false
-  xy: 1319, 37
+  xy: 1252, 17
   size: 292, 266
   orig: 800, 550
   offset: 114, 230
   index: -1
 card_tiantangzhinu-00004
   rotate: false
-  xy: 277, 9
+  xy: 1368, 552
   size: 293, 263
   orig: 800, 550
   offset: 112, 231
   index: -1
 card_tiantangzhinu-00005
   rotate: false
-  xy: 1027, 34
+  xy: 1252, 283
   size: 292, 269
   orig: 800, 550
   offset: 114, 226
   index: -1
 card_tiantangzhinu-00006
-  rotate: true
-  xy: 1654, 292
+  rotate: false
+  xy: 1051, 1060
   size: 312, 294
   orig: 800, 550
   offset: 114, 202
   index: -1
 card_tiantangzhinu-00007
-  rotate: true
-  xy: 1622, 814
+  rotate: false
+  xy: 939, 67
   size: 313, 294
   orig: 800, 550
   offset: 113, 202
   index: -1
 card_tiantangzhinu-00008
   rotate: false
-  xy: 1342, 303
+  xy: 627, 66
   size: 312, 295
   orig: 800, 550
   offset: 114, 202
   index: -1
 card_tiantangzhinu-00009
   rotate: false
-  xy: 1027, 303
+  xy: 312, 49
   size: 315, 295
   orig: 800, 550
   offset: 111, 202
   index: -1
 card_tiantangzhinu-00010
   rotate: false
-  xy: 0, 272
+  xy: 0, 0
   size: 312, 344
   orig: 800, 550
   offset: 112, 152
   index: -1
 card_tiantangzhinu-00011
-  rotate: true
-  xy: 573, 150
+  rotate: false
+  xy: 573, 900
   size: 478, 454
   orig: 800, 550
   offset: 111, 42
   index: -1
 card_tiantangzhinu-00012
-  rotate: true
-  xy: 1140, 598
+  rotate: false
+  xy: 567, 361
   size: 529, 482
   orig: 800, 550
   offset: 87, 38
   index: -1
 card_tiantangzhinu-00013
   rotate: false
-  xy: 573, 628
+  xy: 0, 344
   size: 567, 499
   orig: 800, 550
   offset: 77, 31
   index: -1
 card_tiantangzhinu-00014
   rotate: false
-  xy: 0, 616
+  xy: 0, 843
   size: 573, 511
   orig: 800, 550
   offset: 68, 28
   index: -1
 card_tiantangzhinu-00015
   rotate: false
-  xy: 1622, 604
+  xy: 1051, 850
   size: 327, 210
   orig: 800, 550
   offset: 310, 36

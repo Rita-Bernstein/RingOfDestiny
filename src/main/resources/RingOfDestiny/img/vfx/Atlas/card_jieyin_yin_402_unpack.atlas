@@ -1,18 +1,18 @@
 
 card_jieyin_yin_402_unpack.png
-size: 430,620
+size: 427,626
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_jieyin_yin_402-00000
-  rotate: true
-  xy: 0, 382
+  rotate: false
+  xy: 0, 385
   size: 238, 241
   orig: 459, 379
   offset: 117, 70
   index: -1
 card_jieyin_yin_402-00001
-  rotate: true
+  rotate: false
   xy: 0, 155
   size: 227, 230
   orig: 459, 379
@@ -20,21 +20,21 @@ card_jieyin_yin_402-00001
   index: -1
 card_jieyin_yin_402-00002
   rotate: false
-  xy: 230, 78
+  xy: 227, 84
   size: 200, 200
   orig: 459, 379
   offset: 138, 91
   index: -1
 card_jieyin_yin_402-00003
   rotate: false
-  xy: 241, 444
+  xy: 238, 450
   size: 177, 176
   orig: 459, 379
   offset: 148, 100
   index: -1
 card_jieyin_yin_402-00004
   rotate: false
-  xy: 241, 278
+  xy: 238, 284
   size: 166, 166
   orig: 459, 379
   offset: 153, 105

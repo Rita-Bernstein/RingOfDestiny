@@ -1,61 +1,61 @@
 
 player_2_attack_203_unpack.png
-size: 390,526
+size: 432,521
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 player_2_attack_203-00000
   rotate: false
-  xy: 0, 137
+  xy: 0, 132
   size: 253, 188
   orig: 414, 369
   offset: 79, 95
   index: -1
 player_2_attack_203-00001
   rotate: false
-  xy: 0, 325
+  xy: 0, 320
   size: 267, 201
   orig: 414, 369
   offset: 69, 89
   index: -1
 player_2_attack_203-00002
-  rotate: true
-  xy: 253, 146
+  rotate: false
+  xy: 253, 55
   size: 179, 128
   orig: 414, 369
   offset: 128, 124
   index: -1
 player_2_attack_203-00003
   rotate: false
-  xy: 0, 5
+  xy: 0, 0
   size: 206, 132
   orig: 414, 369
   offset: 122, 121
   index: -1
 player_2_attack_203-00004
   rotate: false
-  xy: 206, 0
+  xy: 253, 183
   size: 176, 137
   orig: 414, 369
   offset: 173, 115
   index: -1
 player_2_attack_203-00005
   rotate: false
-  xy: 267, 408
+  xy: 267, 403
   size: 123, 118
   orig: 414, 369
   offset: 208, 127
   index: -1
 player_2_attack_203-00006
   rotate: false
-  xy: 267, 336
+  xy: 267, 331
   size: 80, 72
   orig: 414, 369
   offset: 245, 139
   index: -1
 player_2_attack_203-00007
   rotate: false
-  xy: 347, 356
+  xy: 390, 469
   size: 33, 52
   orig: 414, 369
   offset: 260, 138

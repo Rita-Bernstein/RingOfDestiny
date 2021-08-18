@@ -1,96 +1,96 @@
 
 card_linghunzhengji_unpack.png
-size: 1631,549
+size: 940,933
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_linghunzhengji-00000
-  rotate: true
-  xy: 1536, 111
+  rotate: false
+  xy: 509, 12
   size: 117, 92
   orig: 438, 329
   offset: 107, 237
   index: -1
 card_linghunzhengji-00001
   rotate: false
-  xy: 852, 98
+  xy: 687, 497
   size: 224, 171
   orig: 438, 329
   offset: 106, 158
   index: -1
 card_linghunzhengji-00002
   rotate: false
-  xy: 309, 14
+  xy: 630, 96
   size: 268, 255
   orig: 438, 329
   offset: 87, 74
   index: -1
 card_linghunzhengji-00003
   rotate: false
-  xy: 0, 0
+  xy: 321, 104
   size: 309, 269
   orig: 438, 329
   offset: 46, 60
   index: -1
 card_linghunzhengji-00004
   rotate: false
-  xy: 1046, 269
+  xy: 359, 653
   size: 306, 280
   orig: 438, 329
   offset: 59, 49
   index: -1
 card_linghunzhengji-00005
   rotate: false
-  xy: 710, 269
+  xy: 351, 373
   size: 336, 280
   orig: 438, 329
   offset: 70, 49
   index: -1
 card_linghunzhengji-00006
   rotate: false
-  xy: 359, 269
+  xy: 0, 373
   size: 351, 280
   orig: 438, 329
   offset: 55, 49
   index: -1
 card_linghunzhengji-00007
   rotate: false
-  xy: 0, 269
+  xy: 0, 653
   size: 359, 280
   orig: 438, 329
   offset: 47, 49
   index: -1
 card_linghunzhengji-00008
-  rotate: true
-  xy: 1352, 228
+  rotate: false
+  xy: 0, 94
   size: 321, 279
   orig: 438, 329
   offset: 85, 50
   index: -1
 card_linghunzhengji-00009
   rotate: false
-  xy: 577, 61
+  xy: 665, 725
   size: 275, 208
   orig: 438, 329
   offset: 130, 49
   index: -1
 card_linghunzhengji-00010
   rotate: false
-  xy: 1076, 123
+  xy: 687, 351
   size: 215, 146
   orig: 438, 329
   offset: 140, 49
   index: -1
 card_linghunzhengji-00011
   rotate: false
-  xy: 1348, 124
+  xy: 321, 0
   size: 188, 104
   orig: 438, 329
   offset: 156, 50
   index: -1
 card_linghunzhengji-00012
-  rotate: true
-  xy: 1291, 183
+  rotate: false
+  xy: 665, 668
   size: 86, 57
   orig: 438, 329
   offset: 163, 95

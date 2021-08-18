@@ -1,26 +1,26 @@
 
 card_diaoling_203_unpack.png
-size: 371,1045
+size: 375,1045
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_diaoling_203-00000
-  rotate: true
-  xy: 217, 267
+  rotate: false
+  xy: 239, 815
   size: 100, 101
   orig: 377, 347
   offset: 138, 123
   index: -1
 card_diaoling_203-00001
   rotate: false
-  xy: 239, 788
+  xy: 217, 343
   size: 127, 121
   orig: 377, 347
   offset: 124, 114
   index: -1
 card_diaoling_203-00002
-  rotate: true
-  xy: 187, 18
+  rotate: false
+  xy: 187, 14
   size: 170, 174
   orig: 377, 347
   offset: 108, 70
@@ -61,29 +61,29 @@ card_diaoling_203-00007
   offset: 94, 80
   index: -1
 card_diaoling_203-00008
-  rotate: true
-  xy: 217, 367
+  rotate: false
+  xy: 217, 464
   size: 158, 154
   orig: 377, 347
   offset: 108, 97
   index: -1
 card_diaoling_203-00009
-  rotate: true
-  xy: 227, 642
+  rotate: false
+  xy: 227, 669
   size: 146, 138
   orig: 377, 347
   offset: 114, 104
   index: -1
 card_diaoling_203-00010
-  rotate: true
-  xy: 239, 909
+  rotate: false
+  xy: 239, 916
   size: 136, 129
   orig: 377, 347
   offset: 119, 109
   index: -1
 card_diaoling_203-00011
   rotate: false
-  xy: 227, 525
+  xy: 217, 226
   size: 122, 117
   orig: 377, 347
   offset: 126, 115

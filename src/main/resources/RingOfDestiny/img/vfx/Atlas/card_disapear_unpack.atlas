@@ -1,124 +1,124 @@
 
 card_disapear_unpack.png
-size: 1554,592
+size: 1612,575
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 card_disapear-00000
   rotate: false
-  xy: 1412, 90
+  xy: 1467, 135
   size: 142, 162
   orig: 300, 350
   offset: 78, 48
   index: -1
 card_disapear-00001
-  rotate: true
-  xy: 1327, 252
+  rotate: false
+  xy: 1305, 83
   size: 162, 214
   orig: 300, 350
   offset: 65, 34
   index: -1
 card_disapear-00002
-  rotate: true
-  xy: 1327, 414
+  rotate: false
+  xy: 1127, 71
   size: 178, 220
   orig: 300, 350
   offset: 54, 33
   index: -1
 card_disapear-00003
   rotate: false
-  xy: 1224, 6
+  xy: 939, 45
   size: 188, 246
   orig: 300, 350
   offset: 48, 22
   index: -1
 card_disapear-00004
   rotate: false
-  xy: 1126, 322
+  xy: 1243, 305
   size: 201, 270
   orig: 300, 350
   offset: 47, 4
   index: -1
 card_disapear-00005
   rotate: false
-  xy: 915, 317
+  xy: 426, 300
   size: 211, 275
   orig: 300, 350
   offset: 42, 8
   index: -1
 card_disapear-00006
   rotate: false
-  xy: 806, 38
+  xy: 0, 20
   size: 214, 276
   orig: 300, 350
   offset: 41, 16
   index: -1
 card_disapear-00007
   rotate: false
-  xy: 588, 33
+  xy: 0, 296
   size: 218, 279
   orig: 300, 350
   offset: 38, 21
   index: -1
 card_disapear-00008
   rotate: false
-  xy: 539, 312
+  xy: 218, 295
   size: 208, 280
   orig: 300, 350
   offset: 46, 27
   index: -1
 card_disapear-00009
   rotate: false
-  xy: 1020, 42
+  xy: 637, 300
   size: 204, 275
   orig: 300, 350
   offset: 49, 37
   index: -1
 card_disapear-00010
   rotate: false
-  xy: 385, 27
+  xy: 841, 294
   size: 203, 281
   orig: 300, 350
   offset: 46, 35
   index: -1
 card_disapear-00011
   rotate: false
-  xy: 186, 16
+  xy: 1044, 291
   size: 199, 284
   orig: 300, 350
   offset: 48, 33
   index: -1
 card_disapear-00012
   rotate: false
-  xy: 0, 0
+  xy: 214, 3
   size: 186, 292
   orig: 300, 350
   offset: 54, 33
   index: -1
 card_disapear-00013
   rotate: false
-  xy: 181, 300
+  xy: 400, 3
   size: 185, 292
   orig: 300, 350
   offset: 53, 42
   index: -1
 card_disapear-00014
   rotate: false
-  xy: 0, 292
+  xy: 585, 0
   size: 181, 300
   orig: 300, 350
   offset: 56, 40
   index: -1
 card_disapear-00015
   rotate: false
-  xy: 366, 308
+  xy: 766, 10
   size: 173, 284
   orig: 300, 350
   offset: 62, 55
   index: -1
 card_disapear-00016
   rotate: false
-  xy: 747, 314
+  xy: 1444, 297
   size: 168, 278
   orig: 300, 350
   offset: 66, 58

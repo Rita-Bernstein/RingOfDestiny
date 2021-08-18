@@ -1,96 +1,96 @@
 
 monster_10072_heianmoni_2_unpack.png
-size: 1989,455
+size: 1592,534
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10072_heianmoni_2-00000
-  rotate: true
-  xy: 253, 17
+  rotate: false
+  xy: 1246, 286
   size: 161, 248
   orig: 500, 500
   offset: 255, 130
   index: -1
 monster_10072_heianmoni_2-00001
-  rotate: true
-  xy: 0, 19
+  rotate: false
+  xy: 1087, 281
   size: 159, 253
   orig: 500, 500
   offset: 250, 127
   index: -1
 monster_10072_heianmoni_2-00002
-  rotate: true
-  xy: 1733, 288
+  rotate: false
+  xy: 460, 1
   size: 167, 256
   orig: 500, 500
   offset: 249, 126
   index: -1
 monster_10072_heianmoni_2-00003
-  rotate: true
-  xy: 501, 7
+  rotate: false
+  xy: 1407, 305
   size: 171, 229
   orig: 500, 500
   offset: 236, 132
   index: -1
 monster_10072_heianmoni_2-00004
   rotate: false
-  xy: 737, 186
+  xy: 737, 265
   size: 350, 269
   orig: 500, 500
   offset: 71, 126
   index: -1
 monster_10072_heianmoni_2-00005
   rotate: false
-  xy: 0, 178
+  xy: 0, 257
   size: 369, 277
   orig: 500, 500
   offset: 38, 122
   index: -1
 monster_10072_heianmoni_2-00006
   rotate: false
-  xy: 369, 178
+  xy: 369, 257
   size: 368, 277
   orig: 500, 500
   offset: 40, 121
   index: -1
 monster_10072_heianmoni_2-00007
   rotate: false
-  xy: 1087, 183
+  xy: 1109, 9
   size: 332, 272
   orig: 500, 500
   offset: 51, 122
   index: -1
 monster_10072_heianmoni_2-00008
   rotate: false
-  xy: 1419, 190
+  xy: 795, 0
   size: 314, 265
   orig: 500, 500
   offset: 72, 124
   index: -1
 monster_10072_heianmoni_2-00009
-  rotate: true
-  xy: 1733, 14
+  rotate: false
+  xy: 0, 2
   size: 274, 255
   orig: 500, 500
   offset: 113, 128
   index: -1
 monster_10072_heianmoni_2-00010
-  rotate: true
-  xy: 737, 0
+  rotate: false
+  xy: 274, 14
   size: 186, 243
   orig: 500, 500
   offset: 228, 132
   index: -1
 monster_10072_heianmoni_2-00011
-  rotate: true
-  xy: 980, 15
+  rotate: false
+  xy: 627, 14
   size: 168, 243
   orig: 500, 500
   offset: 240, 132
   index: -1
 monster_10072_heianmoni_2-00012
-  rotate: true
-  xy: 1223, 32
+  rotate: false
+  xy: 1441, 62
   size: 151, 243
   orig: 500, 500
   offset: 244, 132

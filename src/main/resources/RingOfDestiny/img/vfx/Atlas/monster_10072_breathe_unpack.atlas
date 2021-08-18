@@ -1,187 +1,187 @@
 
 monster_10072_breathe_unpack.png
-size: 1951,1125
+size: 1704,1268
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 monster_10072_breathe-00000
   rotate: false
-  xy: 0, 490
+  xy: 497, 954
   size: 252, 314
   orig: 363, 475
   offset: 57, 103
   index: -1
 monster_10072_breathe-00001
   rotate: false
-  xy: 1713, 809
+  xy: 1463, 318
   size: 238, 316
   orig: 363, 475
   offset: 57, 103
   index: -1
 monster_10072_breathe-00002
   rotate: false
-  xy: 1472, 809
+  xy: 1219, 2
   size: 241, 316
   orig: 363, 475
   offset: 56, 104
   index: -1
 monster_10072_breathe-00003
   rotate: false
-  xy: 497, 808
+  xy: 241, 3
   size: 245, 317
   orig: 363, 475
   offset: 55, 104
   index: -1
 monster_10072_breathe-00004
   rotate: false
-  xy: 988, 249
+  xy: 1224, 634
   size: 243, 317
   orig: 363, 475
   offset: 53, 105
   index: -1
 monster_10072_breathe-00005
-  rotate: true
-  xy: 1204, 568
+  rotate: false
+  xy: 978, 316
   size: 241, 318
   orig: 363, 475
   offset: 51, 105
   index: -1
 monster_10072_breathe-00006
-  rotate: true
-  xy: 885, 566
+  rotate: false
+  xy: 497, 635
   size: 242, 319
   orig: 363, 475
   offset: 52, 104
   index: -1
 monster_10072_breathe-00007
   rotate: false
-  xy: 1231, 251
+  xy: 1225, 951
   size: 240, 317
   orig: 363, 475
   offset: 55, 104
   index: -1
 monster_10072_breathe-00008
-  rotate: true
-  xy: 1522, 570
+  rotate: false
+  xy: 1460, 3
   size: 239, 315
   orig: 363, 475
   offset: 58, 103
   index: -1
 monster_10072_breathe-00009
   rotate: false
-  xy: 500, 241
+  xy: 486, 0
   size: 245, 317
   orig: 363, 475
   offset: 55, 103
   index: -1
 monster_10072_breathe-00010
   rotate: false
-  xy: 986, 809
+  xy: 1219, 318
   size: 244, 316
   orig: 363, 475
   offset: 55, 104
   index: -1
 monster_10072_breathe-00011
-  rotate: true
-  xy: 252, 558
+  rotate: false
+  xy: 250, 631
   size: 246, 316
   orig: 363, 475
   offset: 57, 104
   index: -1
 monster_10072_breathe-00012
   rotate: false
-  xy: 250, 177
+  xy: 0, 320
   size: 250, 313
   orig: 363, 475
   offset: 58, 103
   index: -1
 monster_10072_breathe-00013
   rotate: false
-  xy: 0, 176
+  xy: 0, 633
   size: 250, 314
   orig: 363, 475
   offset: 59, 103
   index: -1
 monster_10072_breathe-00014
   rotate: false
-  xy: 1710, 254
+  xy: 1467, 635
   size: 237, 316
   orig: 363, 475
   offset: 58, 103
   index: -1
 monster_10072_breathe-00015
-  rotate: true
-  xy: 1459, 11
+  rotate: false
+  xy: 978, 0
   size: 240, 316
   orig: 363, 475
   offset: 57, 104
   index: -1
 monster_10072_breathe-00016
   rotate: false
-  xy: 742, 808
+  xy: 980, 634
   size: 244, 317
   orig: 363, 475
   offset: 56, 104
   index: -1
 monster_10072_breathe-00017
   rotate: false
-  xy: 745, 245
+  xy: 496, 317
   size: 243, 318
   orig: 363, 475
   offset: 54, 104
   index: -1
 monster_10072_breathe-00018
-  rotate: true
-  xy: 1140, 10
+  rotate: false
+  xy: 739, 315
   size: 239, 319
   orig: 363, 475
   offset: 53, 104
   index: -1
 monster_10072_breathe-00019
-  rotate: true
-  xy: 500, 0
+  rotate: false
+  xy: 739, 634
   size: 241, 320
   orig: 363, 475
   offset: 53, 104
   index: -1
 monster_10072_breathe-00020
-  rotate: true
-  xy: 820, 4
+  rotate: false
+  xy: 0, 0
   size: 241, 320
   orig: 363, 475
   offset: 56, 104
   index: -1
 monster_10072_breathe-00021
   rotate: false
-  xy: 1471, 251
+  xy: 1465, 951
   size: 239, 317
   orig: 363, 475
   offset: 58, 103
   index: -1
 monster_10072_breathe-00022
   rotate: false
-  xy: 1230, 810
+  xy: 731, 0
   size: 242, 315
   orig: 363, 475
   offset: 58, 105
   index: -1
 monster_10072_breathe-00023
-  rotate: true
-  xy: 568, 563
+  rotate: false
+  xy: 980, 951
   size: 245, 317
   orig: 363, 475
   offset: 55, 104
   index: -1
 monster_10072_breathe-00024
   rotate: false
-  xy: 251, 804
+  xy: 251, 947
   size: 246, 321
   orig: 363, 475
   offset: 57, 102
   index: -1
 monster_10072_breathe-00025
   rotate: false
-  xy: 0, 804
+  xy: 0, 947
   size: 251, 321
   orig: 363, 475
   offset: 57, 102
