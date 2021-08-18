@@ -23,8 +23,12 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
     public boolean flipX = false;
     public boolean flipY = false;
 
-    public AbstractAtlasGameEffect(String id, float x, float y, float scale, int delay, boolean loop) {
-        this.atlas = new TextureAtlas(Gdx.files.internal("RingOfDestiny/img/vfx/Atlas/" + id + "_unpack.atlas"));
+    public AbstractAtlasGameEffect(boolean replace, String id, float x, float y, float originalX, float originalY, float scale, int delay, boolean loop) {
+        if (replace)
+            this.atlas = new TextureAtlas(Gdx.files.internal("RingOfDestiny/img/vfx/Atlas/replace/" + id + "_unpack.atlas"));
+        else
+            this.atlas = new TextureAtlas(Gdx.files.internal("RingOfDestiny/img/vfx/Atlas/" + id + "_unpack.atlas"));
+
         this.xPosition = x;
         this.yPosition = y;
         this.info = new Info();
@@ -48,6 +52,8 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
         ArrayList<Frame> frames = new ArrayList<>();
         for (int i = 0; i < atlas.getRegions().size; i++) {
             Frame frame = new Frame();
+            frame.originalX = originalX;
+            frame.originalY = originalY;
             frame.tint = Color.WHITE.cpy();
             frame.rotation = 0;
             frame.xScale = scale;
@@ -61,6 +67,16 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
 
         animation.layerAnimations = layerAnimationList;
         this.curAnimation = animation;
+    }
+
+
+    public AbstractAtlasGameEffect(String id, float x, float y, float originalX, float originalY, float scale, int delay, boolean loop) {
+        this(false, id, x, y, originalX, originalY, scale, delay, loop);
+    }
+
+
+    public AbstractAtlasGameEffect(String id, float x, float y, float scale, int delay, boolean loop) {
+        this(false, id, x, y, 0.0f, 0.0f, scale, delay, loop);
     }
 
     public AbstractAtlasGameEffect(String id, float x, float y) {
