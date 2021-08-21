@@ -1,0 +1,615 @@
+
+Inherit.png
+size: 1316,1025
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Inherit/cb_4
+  rotate: false
+  xy: 796, 534
+  size: 130, 229
+  orig: 130, 229
+  offset: 0, 0
+  index: -1
+Inherit/cb_3
+  rotate: false
+  xy: 404, 658
+  size: 217, 259
+  orig: 217, 259
+  offset: 0, 0
+  index: -1
+Inherit/toufahou_0
+  rotate: false
+  xy: 928, 433
+  size: 88, 191
+  orig: 88, 191
+  offset: 0, 0
+  index: -1
+Inherit/toufahou(2)(2)
+  rotate: false
+  xy: 1116, 196
+  size: 70, 168
+  orig: 70, 168
+  offset: 0, 0
+  index: -1
+Inherit/toufahou(2)
+  rotate: false
+  xy: 844, 1
+  size: 124, 242
+  orig: 124, 242
+  offset: 0, 0
+  index: -1
+Inherit/toufa_zuiyou
+  rotate: false
+  xy: 1018, 393
+  size: 98, 157
+  orig: 98, 157
+  offset: 0, 0
+  index: -1
+Inherit/zuobi_shang
+  rotate: false
+  xy: 438, 919
+  size: 51, 68
+  orig: 51, 68
+  offset: 0, 0
+  index: -1
+Inherit/zuoshou_0
+  rotate: false
+  xy: 978, 708
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+Inherit/zuoshou
+  rotate: false
+  xy: 337, 399
+  size: 22, 37
+  orig: 22, 37
+  offset: 0, 0
+  index: -1
+Inherit/zuobi_xia
+  rotate: false
+  xy: 641, 936
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: -1
+Inherit/qunzi_hou
+  rotate: false
+  xy: 584, 405
+  size: 101, 39
+  orig: 101, 39
+  offset: 0, 0
+  index: -1
+Inherit/zuojiao
+  rotate: false
+  xy: 1018, 552
+  size: 59, 153
+  orig: 59, 153
+  offset: 0, 0
+  index: -1
+Inherit/zuodatui
+  rotate: false
+  xy: 758, 534
+  size: 36, 113
+  orig: 36, 113
+  offset: 0, 0
+  index: -1
+Inherit/youjiao
+  rotate: false
+  xy: 1143, 1
+  size: 57, 161
+  orig: 57, 161
+  offset: 0, 0
+  index: -1
+Inherit/you_datui
+  rotate: false
+  xy: 1222, 1
+  size: 50, 111
+  orig: 50, 111
+  offset: 0, 0
+  index: -1
+Inherit/shenti_yao
+  rotate: false
+  xy: 107, 906
+  size: 104, 94
+  orig: 104, 94
+  offset: 0, 0
+  index: -1
+Inherit/shenti_0
+  rotate: false
+  xy: 293, 906
+  size: 75, 83
+  orig: 75, 83
+  offset: 0, 0
+  index: -1
+Inherit/bozi_0
+  rotate: false
+  xy: 1058, 196
+  size: 20, 29
+  orig: 20, 29
+  offset: 0, 0
+  index: -1
+Inherit/youshou_0
+  rotate: false
+  xy: 311, 399
+  size: 24, 39
+  orig: 24, 39
+  offset: 0, 0
+  index: -1
+Inherit/youshou3
+  rotate: false
+  xy: 240, 399
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+Inherit/shou4
+  rotate: false
+  xy: 844, 245
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1
+Inherit/youbi_xia2
+  rotate: false
+  xy: 1251, 657
+  size: 37, 69
+  orig: 37, 69
+  offset: 0, 0
+  index: -1
+Inherit/youbi_xia
+  rotate: false
+  xy: 1214, 657
+  size: 35, 73
+  orig: 35, 73
+  offset: 0, 0
+  index: -1
+Inherit/youbi_shang2
+  rotate: false
+  xy: 1178, 657
+  size: 34, 77
+  orig: 34, 77
+  offset: 0, 0
+  index: -1
+Inherit/youbi_shang
+  rotate: false
+  xy: 1274, 1
+  size: 40, 76
+  orig: 40, 76
+  offset: 0, 0
+  index: -1
+Inherit/lian_0
+  rotate: false
+  xy: 1070, 710
+  size: 42, 51
+  orig: 42, 51
+  offset: 0, 0
+  index: -1
+Inherit/toufazuo
+  rotate: false
+  xy: 1006, 954
+  size: 27, 61
+  orig: 27, 61
+  offset: 0, 0
+  index: -1
+Inherit/toufa_you
+  rotate: false
+  xy: 895, 433
+  size: 24, 62
+  orig: 24, 62
+  offset: 0, 0
+  index: -1
+Inherit/toufa_qian
+  rotate: false
+  xy: 1202, 114
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+Inherit/liuhai_you
+  rotate: false
+  xy: 1228, 516
+  size: 33, 68
+  orig: 33, 68
+  offset: 0, 0
+  index: -1
+Inherit/liuhai_zuo
+  rotate: false
+  xy: 1114, 710
+  size: 20, 42
+  orig: 20, 42
+  offset: 0, 0
+  index: -1
+Inherit/toushi
+  rotate: false
+  xy: 438, 989
+  size: 46, 22
+  orig: 46, 22
+  offset: 0, 0
+  index: -1
+Inherit/bq_zhengchang
+  rotate: false
+  xy: 1136, 730
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+Inherit/bq_siwang
+  rotate: false
+  xy: 361, 399
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+Inherit/bq_4
+  rotate: false
+  xy: 1143, 164
+  size: 34, 28
+  orig: 34, 28
+  offset: 0, 0
+  index: -1
+Inherit/bq_shoushang
+  rotate: false
+  xy: 486, 993
+  size: 34, 25
+  orig: 34, 25
+  offset: 0, 0
+  index: -1
+Inherit/cb_2
+  rotate: false
+  xy: 214, 446
+  size: 188, 458
+  orig: 188, 458
+  offset: 0, 0
+  index: -1
+Inherit/cb_1
+  rotate: false
+  xy: 1, 1
+  size: 237, 443
+  orig: 237, 443
+  offset: 0, 0
+  index: -1
+Inherit/toufahou
+  rotate: false
+  xy: 1143, 765
+  size: 108, 200
+  orig: 108, 200
+  offset: 0, 0
+  index: -1
+Inherit/toufahou(2
+  rotate: false
+  xy: 491, 919
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: -1
+Inherit/youjio
+  rotate: false
+  xy: 1079, 552
+  size: 55, 156
+  orig: 55, 156
+  offset: 0, 0
+  index: -1
+Inherit/youtui(2)
+  rotate: false
+  xy: 1186, 506
+  size: 40, 134
+  orig: 40, 134
+  offset: 0, 0
+  index: -1
+Inherit/zuotui(10)
+  rotate: false
+  xy: 693, 285
+  size: 61, 152
+  orig: 61, 152
+  offset: 0, 0
+  index: -1
+Inherit/zuojio
+  rotate: false
+  xy: 1118, 366
+  size: 54, 154
+  orig: 54, 154
+  offset: 0, 0
+  index: -1
+Inherit/zuotui(2)
+  rotate: false
+  xy: 1136, 522
+  size: 48, 133
+  orig: 48, 133
+  offset: 0, 0
+  index: -1
+Inherit/zuobi
+  rotate: false
+  xy: 1228, 437
+  size: 33, 77
+  orig: 33, 77
+  offset: 0, 0
+  index: -1
+Inherit/zuobi(2)
+  rotate: false
+  xy: 1136, 657
+  size: 40, 71
+  orig: 40, 71
+  offset: 0, 0
+  index: -1
+Inherit/bozi
+  rotate: false
+  xy: 1214, 732
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+Inherit/shenti
+  rotate: false
+  xy: 1, 906
+  size: 104, 102
+  orig: 104, 102
+  offset: 0, 0
+  index: -1
+Inherit/shenti(2)
+  rotate: false
+  xy: 213, 906
+  size: 78, 83
+  orig: 78, 83
+  offset: 0, 0
+  index: -1
+Inherit/bmcb_4
+  rotate: false
+  xy: 240, 1
+  size: 159, 396
+  orig: 159, 396
+  offset: 0, 0
+  index: -1
+Inherit/bmcb_3
+  rotate: false
+  xy: 623, 658
+  size: 171, 276
+  orig: 171, 276
+  offset: 0, 0
+  index: -1
+Inherit/youshou
+  rotate: false
+  xy: 895, 497
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+Inherit/youbi
+  rotate: false
+  xy: 892, 954
+  size: 53, 68
+  orig: 53, 68
+  offset: 0, 0
+  index: -1
+Inherit/youbi(2)
+  rotate: false
+  xy: 947, 954
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+Inherit/bmcb_2
+  rotate: false
+  xy: 584, 1
+  size: 107, 402
+  orig: 107, 402
+  offset: 0, 0
+  index: -1
+Inherit/bmcb_1
+  rotate: false
+  xy: 693, 1
+  size: 149, 282
+  orig: 149, 282
+  offset: 0, 0
+  index: -1
+Inherit/hmtf_4
+  rotate: false
+  xy: 796, 765
+  size: 94, 226
+  orig: 94, 226
+  offset: 0, 0
+  index: -1
+Inherit/hmtf_3
+  rotate: false
+  xy: 758, 285
+  size: 135, 247
+  orig: 135, 247
+  offset: 0, 0
+  index: -1
+Inherit/hmtf_2
+  rotate: false
+  xy: 1058, 1
+  size: 83, 193
+  orig: 83, 193
+  offset: 0, 0
+  index: -1
+Inherit/hmtf_1
+  rotate: false
+  xy: 1009, 231
+  size: 105, 160
+  orig: 105, 160
+  offset: 0, 0
+  index: -1
+Inherit/zuobi_shang(2)
+  rotate: false
+  xy: 593, 936
+  size: 46, 72
+  orig: 46, 72
+  offset: 0, 0
+  index: -1
+Inherit/zuoshou(2)
+  rotate: false
+  xy: 278, 399
+  size: 31, 41
+  orig: 31, 42
+  offset: 0, 1
+  index: -1
+Inherit/zuobi_xia(2)
+  rotate: false
+  xy: 694, 936
+  size: 45, 70
+  orig: 45, 70
+  offset: 0, 0
+  index: -1
+Inherit/cmcb_1(2)
+  rotate: false
+  xy: 1, 446
+  size: 211, 458
+  orig: 211, 458
+  offset: 0, 0
+  index: -1
+Inherit/zuotui
+  rotate: false
+  xy: 928, 708
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+Inherit/zuotui(8)
+  rotate: false
+  xy: 1253, 114
+  size: 34, 128
+  orig: 34, 128
+  offset: 0, 0
+  index: -1
+Inherit/zuotui(9)
+  rotate: false
+  xy: 1188, 164
+  size: 43, 140
+  orig: 43, 140
+  offset: 0, 0
+  index: -1
+Inherit/youtui
+  rotate: false
+  xy: 1222, 306
+  size: 41, 129
+  orig: 41, 129
+  offset: 0, 0
+  index: -1
+Inherit/youtui(8)
+  rotate: false
+  xy: 1018, 707
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+Inherit/youtui(7)
+  rotate: false
+  xy: 1174, 366
+  size: 46, 138
+  orig: 46, 138
+  offset: 0, 0
+  index: -1
+Inherit/shenti_yao(2)
+  rotate: false
+  xy: 928, 626
+  size: 88, 80
+  orig: 88, 80
+  offset: 0, 0
+  index: -1
+Inherit/cemian
+  rotate: false
+  xy: 370, 919
+  size: 66, 84
+  orig: 66, 84
+  offset: 0, 0
+  index: -1
+Inherit/bz
+  rotate: false
+  xy: 1251, 728
+  size: 22, 35
+  orig: 22, 35
+  offset: 0, 0
+  index: -1
+Inherit/youshou(2)
+  rotate: false
+  xy: 541, 989
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+Inherit/youbi_xia(2)
+  rotate: false
+  xy: 741, 936
+  size: 42, 74
+  orig: 42, 74
+  offset: 0, 0
+  index: -1
+Inherit/youbi_shang(2)
+  rotate: false
+  xy: 541, 919
+  size: 50, 68
+  orig: 50, 68
+  offset: 0, 0
+  index: -1
+Inherit/liuhaihou
+  rotate: false
+  xy: 1228, 586
+  size: 21, 65
+  orig: 21, 65
+  offset: 0, 0
+  index: -1
+Inherit/toufa(3
+  rotate: false
+  xy: 1036, 765
+  size: 105, 211
+  orig: 105, 211
+  offset: 0, 0
+  index: -1
+Inherit/cmcb_2
+  rotate: false
+  xy: 970, 1
+  size: 86, 228
+  orig: 86, 228
+  offset: 0, 0
+  index: -1
+Inherit/toufa(2
+  rotate: false
+  xy: 895, 245
+  size: 112, 186
+  orig: 112, 186
+  offset: 0, 0
+  index: -1
+Inherit/lian
+  rotate: false
+  xy: 1188, 306
+  size: 29, 47
+  orig: 29, 47
+  offset: 0, 0
+  index: -1
+Inherit/toufa
+  rotate: false
+  xy: 895, 765
+  size: 139, 187
+  orig: 139, 187
+  offset: 0, 0
+  index: -1
+Inherit/cmcb_1
+  rotate: false
+  xy: 404, 1
+  size: 178, 458
+  orig: 178, 458
+  offset: 0, 0
+  index: -1
+Inherit/bq_6
+  rotate: false
+  xy: 1172, 736
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+Inherit/bq_5
+  rotate: false
+  xy: 522, 993
+  size: 17, 26
+  orig: 17, 26
+  offset: 0, 0
+  index: -1
+Inherit/wuqi
+  rotate: false
+  xy: 404, 461
+  size: 352, 195
+  orig: 352, 195
+  offset: 0, 0
+  index: -1

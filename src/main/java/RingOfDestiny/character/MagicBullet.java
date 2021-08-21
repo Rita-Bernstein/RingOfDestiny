@@ -38,7 +38,7 @@ import java.util.ArrayList;
 
 import static RingOfDestiny.RingOfDestiny.MagicBullet_Color;
 
-public class MagicBullet extends CustomPlayer {
+public class MagicBullet extends AbstractRingCharacter {
     public static final CharacterStrings charStrings = CardCrawlGame.languagePack.getCharacterString(RingOfDestiny.makeID("MagicBullet"));
 
     public static final int ENERGY_PER_TURN = 3;
@@ -74,7 +74,7 @@ public class MagicBullet extends CustomPlayer {
                 "RingOfDestiny/characters/MagicBullet/corpse.png",
                 getLoadout(), 0.0F, -5.0F, 240.0F, 320.0F, new EnergyManager(ENERGY_PER_TURN));
 
-        loadAnimation(RingOfDestiny.assetPath("characters/MagicBullet/animation/hero_002.atlas"), RingOfDestiny.assetPath("characters/MagicBullet/animation/hero_002.json"), 1.6f);
+        loadAnimation(RingOfDestiny.assetPath("characters/MagicBullet/animation/MagicBullet.atlas"), RingOfDestiny.assetPath("characters/MagicBullet/animation/MagicBullet.json"), 1.6f);
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         this.stateData.setMix("Hit", "Idle", 0.1F);
@@ -265,5 +265,8 @@ public class MagicBullet extends CustomPlayer {
         if(AbstractDungeon.player != null)
             AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
+
+    @Override
+    protected void updateFastAttackAnimation() {}
 }
 

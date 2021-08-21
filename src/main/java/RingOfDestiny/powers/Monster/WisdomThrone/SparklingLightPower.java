@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.*;
 import com.megacrit.cardcrawl.localization.*;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 
 public class SparklingLightPower extends AbstractRingPower {
@@ -20,7 +21,7 @@ public class SparklingLightPower extends AbstractRingPower {
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
     private int count = 0;
 
-    public SparklingLightPower(AbstractCreature owner,int amount) {
+    public SparklingLightPower(AbstractCreature owner, int amount) {
         this.name = NAME;
         this.ID = RingOfDestiny.makeID("SparklingLightPower");
         this.owner = owner;
@@ -41,6 +42,14 @@ public class SparklingLightPower extends AbstractRingPower {
     }
 
     @Override
+    public float atSingleDamageGive(AbstractMonster m, float damage, DamageInfo.DamageType type) {
+        if (m instanceof DarkEmissary)
+            return damage * 2.0f;
+        else
+            return super.atSingleDamageGive(m, damage, type);
+    }
+
+    @Override
     public int onAttackedToChangeDamage(DamageInfo info, int damageAmount) {
         if (info.owner.name.equals(DarkEmissary.NAME))
             return damageAmount * 2;
@@ -51,7 +60,7 @@ public class SparklingLightPower extends AbstractRingPower {
     public void atEndOfRound() {
         if (this.amount == 0) {
             addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, SparklingLightPower.POWER_ID));
-        }else {
+        } else {
             addToBot(new ReducePowerAction(this.owner, this.owner, SparklingLightPower.POWER_ID, 1));
         }
     }

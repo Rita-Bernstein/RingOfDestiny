@@ -56,7 +56,7 @@ public class DarkEmissary extends CustomMonster {
 
 
     public DarkEmissary() {
-        super(NAME, ID, 88, 0.0F, -15.0F, 160.0F, 360.0F, null, -350.0F, 30.0F);
+        super(NAME, ID, 88, 0.0F, -15.0F, 180.0F, 360.0F, null, -350.0F, 30.0F);
 
         if (AbstractDungeon.ascensionLevel >= 7) {
             setHp(180);
@@ -151,5 +151,6 @@ public class DarkEmissary extends CustomMonster {
                 break;
         }
     }
+
 }
 

@@ -43,7 +43,7 @@ import java.util.ArrayList;
 
 import static RingOfDestiny.RingOfDestiny.Summoner_Color;
 
-public class Summoner extends CustomPlayer {
+public class Summoner extends AbstractRingCharacter {
     public static final CharacterStrings charStrings = CardCrawlGame.languagePack.getCharacterString(RingOfDestiny.makeID("Summoner"));
 
     public static final int ENERGY_PER_TURN = 3;
@@ -79,7 +79,7 @@ public class Summoner extends CustomPlayer {
                 "RingOfDestiny/characters/Summoner/corpse.png",
                 getLoadout(), 0.0F, -5.0F, 240.0F, 320.0F, new EnergyManager(ENERGY_PER_TURN));
 
-        loadAnimation(RingOfDestiny.assetPath("characters/Summoner/animation/hero_00601.atlas"), RingOfDestiny.assetPath("characters/Summoner/animation/hero_00601.json"), 1.6f);
+        loadAnimation(RingOfDestiny.assetPath("characters/Summoner/animation/Summoner.atlas"), RingOfDestiny.assetPath("characters/Summoner/animation/Summoner.json"), 1.6f);
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         this.stateData.setMix("Hit", "Idle", 0.1F);
@@ -267,10 +267,10 @@ public class Summoner extends CustomPlayer {
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.SKILL) {
-            if (firstAttackAnimation)
-                AbstractDungeon.player.state.setAnimation(0, "Skill1", true);
-            else
-                AbstractDungeon.player.state.setAnimation(0, "Skill2", true);
+//            if (firstAttackAnimation)
+//                AbstractDungeon.player.state.setAnimation(0, "Skill1", true);
+//            else
+                AbstractDungeon.player.state.setAnimation(0, "Skill", true);
 
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
@@ -285,5 +285,8 @@ public class Summoner extends CustomPlayer {
         if (AbstractDungeon.player != null)
             AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
+
+    @Override
+    protected void updateFastAttackAnimation() {}
 }
 

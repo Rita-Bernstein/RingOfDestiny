@@ -37,7 +37,7 @@ import java.util.ArrayList;
 
 import static RingOfDestiny.RingOfDestiny.ShadowFlower_Color;
 
-public class ShadowFlower extends CustomPlayer {
+public class ShadowFlower extends AbstractRingCharacter {
     public static final CharacterStrings charStrings = CardCrawlGame.languagePack.getCharacterString(RingOfDestiny.makeID("ShadowFlower"));
 
     public static final int ENERGY_PER_TURN = 3;
@@ -265,5 +265,8 @@ public class ShadowFlower extends CustomPlayer {
         if(AbstractDungeon.player != null)
             AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
+
+    @Override
+    protected void updateFastAttackAnimation() {}
 }
 

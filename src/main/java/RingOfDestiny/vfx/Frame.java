@@ -14,6 +14,8 @@ public class Frame {
 
     public Frame makeCopy() {
         Frame ret = new Frame();
+        ret.originalX = this.originalX;
+        ret.originalY = this.originalY;
         ret.xScale = this.xScale;
         ret.yScale = this.yScale;
         ret.delay = this.delay;

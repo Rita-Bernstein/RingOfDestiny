@@ -1,0 +1,566 @@
+
+Purchemist_2_B.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Purchemist_2_B/zm_mz2
+  rotate: false
+  xy: 278, 383
+  size: 56, 51
+  orig: 56, 51
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_yibai(2)
+  rotate: false
+  xy: 1, 165
+  size: 258, 129
+  orig: 258, 129
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_zuotui(3)(2)
+  rotate: false
+  xy: 256, 452
+  size: 29, 104
+  orig: 29, 104
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_zuojio(3)(2)
+  rotate: false
+  xy: 124, 982
+  size: 43, 37
+  orig: 43, 37
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_zuotui(2)(2)(2)
+  rotate: false
+  xy: 188, 296
+  size: 35, 105
+  orig: 35, 105
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_youtui(3)(2)
+  rotate: false
+  xy: 303, 912
+  size: 46, 101
+  orig: 46, 101
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_youjio(2)(2)
+  rotate: false
+  xy: 227, 508
+  size: 25, 47
+  orig: 25, 47
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_youtui(2)(2)(2)
+  rotate: false
+  xy: 305, 803
+  size: 46, 107
+  orig: 46, 107
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_toufahou
+  rotate: false
+  xy: 414, 912
+  size: 79, 57
+  orig: 79, 57
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_bianzi
+  rotate: false
+  xy: 308, 252
+  size: 45, 63
+  orig: 45, 63
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_bianzi2
+  rotate: false
+  xy: 392, 157
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_shenti(3)(2)
+  rotate: false
+  xy: 96, 630
+  size: 83, 90
+  orig: 83, 90
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_shenti(2)(2)(2)
+  rotate: false
+  xy: 225, 383
+  size: 51, 67
+  orig: 51, 67
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_bozi
+  rotate: false
+  xy: 313, 222
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_zuobi(3)(2)
+  rotate: false
+  xy: 261, 165
+  size: 50, 85
+  orig: 50, 85
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_zuobi(2)(2)(2)
+  rotate: false
+  xy: 232, 803
+  size: 71, 77
+  orig: 71, 77
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_zuoshou(2)(2)
+  rotate: false
+  xy: 69, 754
+  size: 25, 16
+  orig: 25, 16
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm__youbi(3)(2)
+  rotate: false
+  xy: 1, 826
+  size: 59, 88
+  orig: 59, 88
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_lingdang
+  rotate: false
+  xy: 304, 88
+  size: 61, 67
+  orig: 61, 67
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm__youbi(2)(2)(2)
+  rotate: false
+  xy: 164, 725
+  size: 66, 97
+  orig: 66, 97
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/k_shou
+  rotate: false
+  xy: 225, 344
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_youshou(2)(2)
+  rotate: false
+  xy: 203, 991
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_tou
+  rotate: false
+  xy: 308, 317
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_toufazuo(2)(2)(2)(2)
+  rotate: false
+  xy: 262, 107
+  size: 40, 47
+  orig: 40, 47
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_toufayou(2)(2)(2)(2)
+  rotate: false
+  xy: 313, 157
+  size: 38, 63
+  orig: 38, 63
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_liuhai(2)(2)(2)(2)
+  rotate: false
+  xy: 355, 289
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_jiao2
+  rotate: false
+  xy: 362, 233
+  size: 30, 54
+  orig: 30, 54
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_mz
+  rotate: false
+  xy: 1, 533
+  size: 99, 95
+  orig: 99, 95
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_jiao
+  rotate: false
+  xy: 179, 457
+  size: 41, 74
+  orig: 41, 74
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_bq_1
+  rotate: false
+  xy: 177, 599
+  size: 44, 24
+  orig: 44, 24
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_bq
+  rotate: false
+  xy: 351, 989
+  size: 39, 23
+  orig: 39, 23
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_zuobi(3)(3)
+  rotate: false
+  xy: 256, 296
+  size: 50, 85
+  orig: 50, 85
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_zuobi(2)(2)(3)
+  rotate: false
+  xy: 134, 903
+  size: 71, 77
+  orig: 71, 77
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_zuoshou(2)(3)
+  rotate: false
+  xy: 169, 1006
+  size: 25, 16
+  orig: 25, 16
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/zm_mao
+  rotate: false
+  xy: 181, 630
+  size: 73, 93
+  orig: 73, 93
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_yibai(3)
+  rotate: false
+  xy: 1, 296
+  size: 108, 135
+  orig: 108, 135
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_zuotui(3)(3)
+  rotate: false
+  xy: 102, 509
+  size: 30, 104
+  orig: 30, 104
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_zuojio(2)
+  rotate: false
+  xy: 255, 985
+  size: 43, 37
+  orig: 43, 37
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_zuotui(2)(2)(3)
+  rotate: false
+  xy: 111, 402
+  size: 35, 105
+  orig: 35, 105
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_youtui(5)
+  rotate: false
+  xy: 262, 1
+  size: 40, 104
+  orig: 40, 104
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_youtui(6)
+  rotate: false
+  xy: 111, 296
+  size: 38, 104
+  orig: 38, 104
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_youjio(3)
+  rotate: false
+  xy: 261, 252
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_shenti
+  rotate: false
+  xy: 69, 821
+  size: 63, 97
+  orig: 63, 97
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_shenti(3)
+  rotate: false
+  xy: 287, 505
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm__youbi(3)(3)
+  rotate: false
+  xy: 1, 920
+  size: 60, 88
+  orig: 60, 88
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm__youbi(2)(2)(3)
+  rotate: false
+  xy: 1, 727
+  size: 66, 97
+  orig: 66, 97
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_youshou(2)(3)
+  rotate: false
+  xy: 169, 982
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_lingdang
+  rotate: false
+  xy: 287, 436
+  size: 33, 67
+  orig: 33, 67
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_mao
+  rotate: false
+  xy: 232, 725
+  size: 75, 76
+  orig: 75, 76
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_jiao2
+  rotate: false
+  xy: 222, 452
+  size: 32, 54
+  orig: 32, 54
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_jiao
+  rotate: false
+  xy: 353, 157
+  size: 37, 74
+  orig: 37, 74
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_zuotui(6)
+  rotate: false
+  xy: 148, 457
+  size: 29, 108
+  orig: 29, 108
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_youjio(4)
+  rotate: false
+  xy: 225, 296
+  size: 24, 46
+  orig: 24, 46
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_zuojio(3)
+  rotate: false
+  xy: 367, 119
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_zuotui(5)
+  rotate: false
+  xy: 151, 296
+  size: 35, 105
+  orig: 35, 105
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_youtui(8)
+  rotate: false
+  xy: 255, 882
+  size: 46, 101
+  orig: 46, 101
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_youtui(7)
+  rotate: false
+  xy: 207, 882
+  size: 46, 107
+  orig: 46, 107
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_zuobi(6)
+  rotate: false
+  xy: 309, 1
+  size: 50, 85
+  orig: 50, 85
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_zuobi(5)
+  rotate: false
+  xy: 134, 824
+  size: 71, 77
+  orig: 71, 77
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_zuoshou(3)
+  rotate: false
+  xy: 69, 772
+  size: 25, 16
+  orig: 25, 16
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_youbi(6)
+  rotate: false
+  xy: 63, 920
+  size: 59, 88
+  orig: 59, 88
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_youbi(5)
+  rotate: false
+  xy: 96, 722
+  size: 66, 97
+  orig: 66, 97
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_youshou(3)
+  rotate: false
+  xy: 413, 124
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_yibai(2)
+  rotate: false
+  xy: 1, 1
+  size: 259, 162
+  orig: 259, 162
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_bianzi(2)
+  rotate: false
+  xy: 415, 62
+  size: 39, 60
+  orig: 39, 60
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_bianzi(3)
+  rotate: false
+  xy: 134, 567
+  size: 41, 59
+  orig: 41, 59
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_maozi
+  rotate: false
+  xy: 1, 433
+  size: 99, 98
+  orig: 99, 98
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/bm_maozi(5)
+  rotate: false
+  xy: 414, 971
+  size: 72, 51
+  orig: 72, 51
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_maozi(3)
+  rotate: false
+  xy: 148, 403
+  size: 64, 52
+  orig: 64, 52
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_bianzi(2)
+  rotate: false
+  xy: 456, 1
+  size: 39, 60
+  orig: 39, 60
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_toufahou(3)
+  rotate: false
+  xy: 361, 1
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_bozi
+  rotate: false
+  xy: 69, 727
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_bianzi
+  rotate: false
+  xy: 367, 62
+  size: 46, 55
+  orig: 46, 55
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_toufazuo
+  rotate: false
+  xy: 322, 436
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_tou
+  rotate: false
+  xy: 227, 558
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_toufayou
+  rotate: false
+  xy: 179, 533
+  size: 46, 64
+  orig: 46, 64
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_liuhai
+  rotate: false
+  xy: 336, 369
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_bq
+  rotate: false
+  xy: 488, 971
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_maozi
+  rotate: false
+  xy: 1, 630
+  size: 93, 95
+  orig: 93, 95
+  offset: 0, 0
+  index: -1
+Purchemist_2_B/cm_jiao
+  rotate: false
+  xy: 351, 912
+  size: 61, 75
+  orig: 61, 75
+  offset: 0, 0
+  index: -1

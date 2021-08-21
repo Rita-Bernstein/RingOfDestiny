@@ -17,6 +17,8 @@ public class LayerAnimation {
     float rootPositionY = 0.0f;
     float xPosition = 0.0f;
     float yPosition = 0.0f;
+    float scaleX = 1.0f;
+    float scaleY = 1.0f;
 
     boolean flipX = false;
     boolean flipY = false;
@@ -54,27 +56,11 @@ public class LayerAnimation {
 
             TextureAtlas.AtlasRegion img = atlas.findRegion(spriteSheetId + String.format("-%05d", currFrameIndex));
 
-//            if (img.rotate) {
-//                sb.draw(img.getTexture(),
-//                        rootPositionX + xPosition + img.offsetX - currFrame.originalX,
-//
-//                        rootPositionY + yPosition + img.offsetY + img.packedHeight  + currFrame.originalY,
-//                        0.0f,
-//                        0.0f,
-//                        img.packedWidth,
-//                        img.packedHeight,
-//                        currFrame.xScale, currFrame.yScale,
-//                        -90,
-//                        img.getRegionX(), img.getRegionY(),
-//                        img.getRegionWidth(), img.getRegionHeight(),
-//                        flipX, flipY
-//                );
-//            } else {
                 sb.draw(img.getTexture(),
-                        rootPositionX + xPosition + img.offsetX *currFrame.xScale - currFrame.originalX,
-                        rootPositionY + yPosition + img.offsetY *currFrame.yScale + currFrame.originalY,
-                        0.0f,
-                        0.0f,
+                        rootPositionX + xPosition + img.offsetX * currFrame.xScale - currFrame.originalX,
+                        rootPositionY + yPosition + img.offsetY * currFrame.yScale - currFrame.originalY,
+                        currFrame.originalX,
+                        currFrame.originalY,
                         img.packedWidth,
                         img.packedHeight,
                         currFrame.xScale, currFrame.yScale,
@@ -83,9 +69,6 @@ public class LayerAnimation {
                         img.getRegionWidth(), img.getRegionHeight(),
                         flipX, flipY
                 );
-//            }
-
-
         }
     }
 }

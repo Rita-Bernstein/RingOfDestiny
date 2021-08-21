@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.*;
 import com.megacrit.cardcrawl.localization.*;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 
 public class PitchDarkPower extends AbstractRingPower {
@@ -21,7 +22,7 @@ public class PitchDarkPower extends AbstractRingPower {
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
     private int count = 0;
 
-    public PitchDarkPower(AbstractCreature owner,int amount) {
+    public PitchDarkPower(AbstractCreature owner, int amount) {
         this.name = NAME;
         this.ID = RingOfDestiny.makeID("PitchDarkPower");
         this.owner = owner;
@@ -45,10 +46,18 @@ public class PitchDarkPower extends AbstractRingPower {
     }
 
     @Override
+    public float atSingleDamageGive(AbstractMonster m, float damage, DamageInfo.DamageType type) {
+        if (m instanceof LightEmissary)
+            return damage * 2.0f;
+        else
+            return super.atSingleDamageGive(m, damage, type);
+    }
+
+    @Override
     public void atEndOfRound() {
         if (this.amount == 0) {
             addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, PitchDarkPower.POWER_ID));
-        }else {
+        } else {
             addToBot(new ReducePowerAction(this.owner, this.owner, PitchDarkPower.POWER_ID, 1));
         }
     }

@@ -1,341 +1,335 @@
 
 TheMonitor.png
-size: 1950,1950
+size: 2048,4096
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-monster_10011/fhou_1
-  rotate: true
-  xy: 1493, 1168
-  size: 282, 300
-  orig: 286, 303
-  offset: 2, 2
+TheMonitor/mfz
+  rotate: false
+  xy: 1, 1207
+  size: 450, 250
+  orig: 450, 250
+  offset: 0, 0
   index: -1
-monster_10011/fqian_1
-  rotate: true
-  xy: 1200, 1175
+TheMonitor/fhou_1
+  rotate: false
+  xy: 1, 1783
+  size: 286, 303
+  orig: 286, 303
+  offset: 0, 0
+  index: -1
+TheMonitor/q1
+  rotate: false
+  xy: 805, 805
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q3
+  rotate: false
+  xy: 1, 403
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q12
+  rotate: false
+  xy: 1, 805
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q6
+  rotate: false
+  xy: 403, 1
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q4
+  rotate: false
+  xy: 1207, 403
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q10
+  rotate: false
+  xy: 805, 1
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q14
+  rotate: false
+  xy: 1, 1
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q2
+  rotate: false
+  xy: 1609, 805
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q13
+  rotate: false
+  xy: 403, 805
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q9
+  rotate: false
+  xy: 1609, 1
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q7
+  rotate: false
+  xy: 805, 403
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q8
+  rotate: false
+  xy: 1609, 403
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q5
+  rotate: false
+  xy: 1207, 1
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q15
+  rotate: false
+  xy: 403, 403
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/q11
+  rotate: false
+  xy: 1207, 805
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TheMonitor/fqian_1
+  rotate: false
+  xy: 1452, 1207
   size: 275, 293
   orig: 275, 293
   offset: 0, 0
   index: -1
-monster_10011/lg_00001
+TheMonitor/xg_2
   rotate: false
-  xy: 0, 850
-  size: 350, 350
+  xy: 289, 2044
+  size: 225, 179
+  orig: 300, 250
+  offset: 37, 29
+  index: -1
+TheMonitor/xg_5
+  rotate: false
+  xy: 1273, 1854
+  size: 217, 176
+  orig: 300, 250
+  offset: 44, 27
+  index: -1
+TheMonitor/xg_8
+  rotate: false
+  xy: 824, 1920
+  size: 219, 172
+  orig: 300, 250
+  offset: 44, 27
+  index: -1
+TheMonitor/xg_13
+  rotate: false
+  xy: 1048, 1919
+  size: 217, 174
+  orig: 300, 250
+  offset: 44, 29
+  index: -1
+TheMonitor/xg_15
+  rotate: false
+  xy: 516, 2093
+  size: 219, 166
+  orig: 300, 250
+  offset: 44, 27
+  index: -1
+TheMonitor/xg_6
+  rotate: false
+  xy: 824, 1734
+  size: 222, 184
+  orig: 300, 250
+  offset: 44, 29
+  index: -1
+TheMonitor/xg_14
+  rotate: false
+  xy: 289, 1858
+  size: 222, 184
+  orig: 300, 250
+  offset: 44, 29
+  index: -1
+TheMonitor/xg_10
+  rotate: false
+  xy: 1, 2088
+  size: 223, 179
+  orig: 300, 250
+  offset: 39, 29
+  index: -1
+TheMonitor/xg_4
+  rotate: false
+  xy: 1, 2269
+  size: 214, 167
+  orig: 300, 250
+  offset: 43, 28
+  index: -1
+TheMonitor/xg_7
+  rotate: false
+  xy: 516, 1925
+  size: 219, 166
+  orig: 300, 250
+  offset: 44, 27
+  index: -1
+TheMonitor/xg_9
+  rotate: false
+  xy: 737, 2094
+  size: 219, 152
+  orig: 300, 250
+  offset: 44, 28
+  index: -1
+TheMonitor/xg_3
+  rotate: false
+  xy: 603, 1734
+  size: 219, 189
+  orig: 300, 250
+  offset: 37, 28
+  index: -1
+TheMonitor/xg_11
+  rotate: false
+  xy: 1632, 1728
+  size: 219, 189
+  orig: 300, 250
+  offset: 37, 28
+  index: -1
+TheMonitor/xg_1
+  rotate: false
+  xy: 1048, 1735
+  size: 223, 174
+  orig: 300, 250
+  offset: 40, 28
+  index: -1
+TheMonitor/xg_12
+  rotate: false
+  xy: 226, 2225
+  size: 214, 167
+  orig: 300, 250
+  offset: 43, 28
+  index: -1
+TheMonitor/lg_00002
+  rotate: false
+  xy: 1453, 1502
+  size: 177, 350
   orig: 350, 350
-  offset: 0, 0
+  offset: 76, 0
   index: -1
-monster_10011/lg_00002
+TheMonitor/lg_00003
   rotate: false
-  xy: 350, 850
-  size: 350, 350
+  xy: 1729, 1207
+  size: 225, 347
   orig: 350, 350
-  offset: 0, 0
+  offset: 58, -1
   index: -1
-monster_10011/lg_00003
+TheMonitor/lg_00014
   rotate: false
-  xy: 700, 850
-  size: 350, 350
+  xy: 737, 1925
+  size: 76, 73
   orig: 350, 350
-  offset: 0, 0
+  offset: 155, 253
   index: -1
-monster_10011/lg_00004
+TheMonitor/lg_00006
   rotate: false
-  xy: 1050, 825
-  size: 350, 350
+  xy: 1, 1459
+  size: 331, 322
   orig: 350, 350
-  offset: 0, 0
+  offset: 14, 0
   index: -1
-monster_10011/lg_00005
+TheMonitor/lg_00004
   rotate: false
-  xy: 1400, 818
-  size: 350, 350
+  xy: 334, 1516
+  size: 267, 340
   orig: 350, 350
-  offset: 0, 0
+  offset: 41, -1
   index: -1
-monster_10011/lg_00006
+TheMonitor/lg_00009
   rotate: false
-  xy: 0, 500
-  size: 350, 350
+  xy: 1105, 1502
+  size: 346, 231
   orig: 350, 350
-  offset: 0, 0
+  offset: 4, 70
   index: -1
-monster_10011/lg_00007
+TheMonitor/lg_00012
   rotate: false
-  xy: 350, 500
-  size: 350, 350
+  xy: 942, 1542
+  size: 141, 140
   orig: 350, 350
-  offset: 0, 0
+  offset: 155, 193
   index: -1
-monster_10011/lg_00008
+TheMonitor/lg_00001
   rotate: false
-  xy: 700, 500
-  size: 350, 350
+  xy: 1910, 1556
+  size: 127, 349
   orig: 350, 350
-  offset: 0, 0
+  offset: 101, 1
   index: -1
-monster_10011/lg_00009
+TheMonitor/lg_00013
   rotate: false
-  xy: 1050, 475
-  size: 350, 350
+  xy: 1273, 1735
+  size: 112, 109
   orig: 350, 350
-  offset: 0, 0
+  offset: 153, 223
   index: -1
-monster_10011/lg_00010
+TheMonitor/lg_00008
   rotate: false
-  xy: 1400, 468
-  size: 350, 350
+  xy: 1105, 1207
+  size: 345, 249
   orig: 350, 350
-  offset: 0, 0
+  offset: 5, 39
   index: -1
-monster_10011/lg_00011
+TheMonitor/lg_00007
   rotate: false
-  xy: 0, 150
-  size: 350, 350
+  xy: 453, 1207
+  size: 350, 307
   orig: 350, 350
-  offset: 0, 0
+  offset: 1, 9
   index: -1
-monster_10011/lg_00012
+TheMonitor/lg_00010
   rotate: false
-  xy: 350, 150
-  size: 350, 350
+  xy: 603, 1542
+  size: 337, 190
   orig: 350, 350
-  offset: 0, 0
+  offset: 13, 131
   index: -1
-monster_10011/lg_00013
+TheMonitor/lg_00005
   rotate: false
-  xy: 700, 150
-  size: 350, 350
+  xy: 805, 1207
+  size: 298, 333
   orig: 350, 350
-  offset: 0, 0
+  offset: 27, -1
   index: -1
-monster_10011/lg_00014
+TheMonitor/lg_00011
   rotate: false
-  xy: 1050, 125
-  size: 350, 350
+  xy: 1632, 1556
+  size: 276, 170
   orig: 350, 350
-  offset: 0, 0
-  index: -1
-monster_10011/mfz
-  rotate: false
-  xy: 0, 1702
-  size: 450, 248
-  orig: 450, 250
-  offset: 0, 2
-  index: -1
-monster_10011/q1
-  rotate: false
-  xy: 1400, 68
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/xg_1
-  rotate: false
-  xy: 450, 1700
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_10
-  rotate: false
-  xy: 1200, 1450
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_11
-  rotate: false
-  xy: 1500, 1450
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_12
-  rotate: false
-  xy: 0, 1202
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_13
-  rotate: false
-  xy: 300, 1200
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_14
-  rotate: false
-  xy: 600, 1200
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_15
-  rotate: false
-  xy: 900, 1200
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_2
-  rotate: false
-  xy: 750, 1700
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_3
-  rotate: false
-  xy: 1050, 1700
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_4
-  rotate: false
-  xy: 1350, 1700
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_5
-  rotate: false
-  xy: 1650, 1700
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_6
-  rotate: false
-  xy: 0, 1452
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_7
-  rotate: false
-  xy: 300, 1450
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_8
-  rotate: false
-  xy: 600, 1450
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-monster_10011/xg_9
-  rotate: false
-  xy: 900, 1450
-  size: 300, 250
-  orig: 300, 250
-  offset: 0, 0
-  index: -1
-
-TheMonitor2.png
-size: 1600,1600
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
-monster_10011/q10
-  rotate: false
-  xy: 800, 800
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q11
-  rotate: false
-  xy: 1200, 1200
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q12
-  rotate: false
-  xy: 400, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q13
-  rotate: false
-  xy: 800, 400
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q14
-  rotate: false
-  xy: 1200, 800
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q15
-  rotate: false
-  xy: 800, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q2
-  rotate: false
-  xy: 0, 1200
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q3
-  rotate: false
-  xy: 0, 800
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q4
-  rotate: false
-  xy: 400, 1200
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q5
-  rotate: false
-  xy: 0, 400
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q6
-  rotate: false
-  xy: 400, 800
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q7
-  rotate: false
-  xy: 800, 1200
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q8
-  rotate: false
-  xy: 0, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-monster_10011/q9
-  rotate: false
-  xy: 400, 400
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
+  offset: 46, 158
   index: -1

@@ -38,7 +38,6 @@ public class Strike_MB extends AbstractRingCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
-        addToBot(new VFXAction(new AbstractAtlasGameEffect("buff_morbiaoji",Settings.WIDTH / 2.0f, Settings.HEIGHT / 2.0f,true)));
     }
 
     public AbstractCard makeCopy() {

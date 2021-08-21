@@ -57,7 +57,7 @@ public class LightEmissary extends CustomMonster {
 
 
     public LightEmissary() {
-        super(NAME, ID, 88, 0.0F, -15.0F, 160.0F, 360.0F, null, 100.0F, 20.0F);
+        super(NAME, ID, 88, 0.0F, -15.0F, 180.0F, 360.0F, null, 100.0F, 20.0F);
 
         if (AbstractDungeon.ascensionLevel >= 7) {
             setHp(180);

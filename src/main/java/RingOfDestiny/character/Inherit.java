@@ -38,7 +38,7 @@ import java.util.ArrayList;
 
 import static RingOfDestiny.RingOfDestiny.Inherit_Color;
 
-public class Inherit extends CustomPlayer {
+public class Inherit extends AbstractRingCharacter {
     public static final CharacterStrings charStrings = CardCrawlGame.languagePack.getCharacterString(RingOfDestiny.makeID("Inherit"));
 
     public static final int ENERGY_PER_TURN = 3;
@@ -85,7 +85,7 @@ public class Inherit extends CustomPlayer {
                 "RingOfDestiny/characters/Inherit/corpse.png",
                 getLoadout(), 0.0F, -5.0F, 240.0F, 320.0F, new EnergyManager(ENERGY_PER_TURN));
 
-        loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501.json"), 1.4f);
+        loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/Inherit.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/Inherit.json"), 1.4f);
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         this.stateData.setMix("Hit", "Idle", 0.1F);
@@ -94,9 +94,9 @@ public class Inherit extends CustomPlayer {
 
     public void switchFromAnimation(boolean isDark) {
         if (isDark) {
-            this.loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501_02.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501_02.json"), 1.4f);
+            this.loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/Inherit_B.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/Inherit_B.json"), 1.4f);
         } else {
-            this.loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/hero_00501.json"), 1.4f);
+            this.loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/Inherit.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/Inherit.json"), 1.4f);
         }
             AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
             this.stateData.setMix("Hit", "Idle", 0.1F);
@@ -299,6 +299,11 @@ public class Inherit extends CustomPlayer {
     public void playDeathAnimation() {
         if(AbstractDungeon.player != null)
         AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
+    }
+
+    @Override
+    protected void updateFastAttackAnimation() {
+
     }
 }
 

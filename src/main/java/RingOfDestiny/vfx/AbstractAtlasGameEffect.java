@@ -74,26 +74,20 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
         this(false, id, x, y, originalX, originalY, scale, delay, loop);
     }
 
-
-    public AbstractAtlasGameEffect(String id, float x, float y, float scale, int delay, boolean loop) {
-        this(false, id, x, y, 0.0f, 0.0f, scale, delay, loop);
+    public AbstractAtlasGameEffect(String id, float x, float y, float originalX, float originalY, float scale, int delay) {
+        this(false, id, x, y, originalX, originalY, scale, delay, false);
     }
 
-    public AbstractAtlasGameEffect(String id, float x, float y) {
-        this(id, x, y, 1.0f, 3, false);
+    public AbstractAtlasGameEffect(String id, float x, float y, float originalX, float originalY, float scale) {
+        this(false, id, x, y, originalX, originalY, scale, 3, false);
     }
 
-
-    public AbstractAtlasGameEffect(String id, float x, float y, boolean loop) {
-        this(id, x, y, Settings.scale, 3, loop);
+    public AbstractAtlasGameEffect(String id, float x, float y, float originalX, float originalY) {
+        this(false, id, x, y, originalX, originalY, 2.1f * Settings.scale, 3, false);
     }
 
     public AbstractAtlasGameEffect(String id, float x, float y, float scale) {
-        this(id, x, y, scale, 3, false);
-    }
-
-    public AbstractAtlasGameEffect(String id, float x, float y, float scale, boolean loop) {
-        this(id, x, y, scale, 3, loop);
+        this(false, id, x, y, 0.0f, 0.0f, scale, 3, false);
     }
 
     public void update() {
