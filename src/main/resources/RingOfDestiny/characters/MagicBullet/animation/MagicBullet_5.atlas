@@ -1,0 +1,258 @@
+
+MagicBullet_5.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MagicBullet_5/touyi
+  rotate: false
+  xy: 281, 475
+  size: 86, 27
+  orig: 86, 27
+  offset: 0, 0
+  index: -1
+MagicBullet_5/youxiaotui
+  rotate: false
+  xy: 365, 335
+  size: 59, 138
+  orig: 59, 138
+  offset: 0, 0
+  index: -1
+MagicBullet_5/youjiao
+  rotate: false
+  xy: 433, 280
+  size: 29, 47
+  orig: 29, 47
+  offset: 0, 0
+  index: -1
+MagicBullet_5/youdatui
+  rotate: false
+  xy: 365, 100
+  size: 33, 60
+  orig: 33, 60
+  offset: 0, 0
+  index: -1
+MagicBullet_5/zuoxiaotui
+  rotate: false
+  xy: 426, 335
+  size: 42, 173
+  orig: 42, 173
+  offset: 0, 0
+  index: -1
+MagicBullet_5/zuojiao
+  rotate: false
+  xy: 400, 138
+  size: 30, 46
+  orig: 30, 46
+  offset: 0, 0
+  index: -1
+MagicBullet_5/zuodatui
+  rotate: false
+  xy: 433, 143
+  size: 31, 61
+  orig: 31, 61
+  offset: 0, 0
+  index: -1
+MagicBullet_5/bianziyou
+  rotate: false
+  xy: 1, 1
+  size: 131, 266
+  orig: 131, 266
+  offset: 0, 0
+  index: -1
+MagicBullet_5/bianzizuo
+  rotate: false
+  xy: 134, 1
+  size: 129, 265
+  orig: 129, 265
+  offset: 0, 0
+  index: -1
+MagicBullet_5/waitaoyou
+  rotate: false
+  xy: 265, 1
+  size: 98, 190
+  orig: 98, 190
+  offset: 0, 0
+  index: -1
+MagicBullet_5/bei_hudiejie
+  rotate: false
+  xy: 113, 419
+  size: 106, 68
+  orig: 106, 68
+  offset: 0, 0
+  index: -1
+MagicBullet_5/qunzi
+  rotate: false
+  xy: 134, 268
+  size: 211, 149
+  orig: 211, 149
+  offset: 0, 0
+  index: -1
+MagicBullet_5/waitaozuo
+  rotate: false
+  xy: 1, 269
+  size: 110, 179
+  orig: 110, 179
+  offset: 0, 0
+  index: -1
+MagicBullet_5/waitaozuo_2
+  rotate: false
+  xy: 466, 143
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+MagicBullet_5/xiuzihou
+  rotate: false
+  xy: 420, 75
+  size: 36, 61
+  orig: 36, 61
+  offset: 0, 0
+  index: -1
+MagicBullet_5/zuoshou
+  rotate: false
+  xy: 113, 489
+  size: 51, 20
+  orig: 51, 20
+  offset: 0, 0
+  index: -1
+MagicBullet_5/zuobi
+  rotate: false
+  xy: 369, 475
+  size: 45, 29
+  orig: 45, 29
+  offset: 0, 0
+  index: -1
+MagicBullet_5/zuobi(2)
+  rotate: false
+  xy: 265, 193
+  size: 78, 54
+  orig: 78, 54
+  offset: 0, 0
+  index: -1
+MagicBullet_5/yao
+  rotate: false
+  xy: 365, 56
+  size: 53, 42
+  orig: 53, 42
+  offset: 0, 0
+  index: -1
+MagicBullet_5/shangshen
+  rotate: false
+  xy: 221, 419
+  size: 58, 70
+  orig: 58, 70
+  offset: 0, 0
+  index: -1
+MagicBullet_5/xiuzihou(2)
+  rotate: false
+  xy: 433, 1
+  size: 35, 72
+  orig: 35, 72
+  offset: 0, 0
+  index: -1
+MagicBullet_5/youshou
+  rotate: false
+  xy: 86, 450
+  size: 25, 49
+  orig: 25, 49
+  offset: 0, 0
+  index: -1
+MagicBullet_5/youbi
+  rotate: false
+  xy: 464, 280
+  size: 26, 51
+  orig: 26, 51
+  offset: 0, 0
+  index: -1
+MagicBullet_5/youbi(2)
+  rotate: false
+  xy: 458, 75
+  size: 29, 66
+  orig: 29, 66
+  offset: 0, 0
+  index: -1
+MagicBullet_5/bozi
+  rotate: false
+  xy: 470, 376
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+MagicBullet_5/toudaizuo
+  rotate: false
+  xy: 489, 72
+  size: 21, 44
+  orig: 21, 44
+  offset: 0, 0
+  index: -1
+MagicBullet_5/toufahou
+  rotate: false
+  xy: 500, 186
+  size: 10, 33
+  orig: 10, 33
+  offset: 0, 0
+  index: -1
+MagicBullet_5/tou
+  rotate: false
+  xy: 365, 1
+  size: 45, 53
+  orig: 45, 53
+  offset: 0, 0
+  index: -1
+MagicBullet_5/toufa
+  rotate: false
+  xy: 466, 186
+  size: 32, 50
+  orig: 32, 50
+  offset: 0, 0
+  index: -1
+MagicBullet_5/toufa(3)
+  rotate: false
+  xy: 470, 1
+  size: 41, 69
+  orig: 41, 69
+  offset: 0, 0
+  index: -1
+MagicBullet_5/liuhai
+  rotate: false
+  xy: 433, 238
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+MagicBullet_5/toudaiyou
+  rotate: false
+  xy: 470, 333
+  size: 25, 41
+  orig: 25, 41
+  offset: 0, 0
+  index: -1
+MagicBullet_5/toushi
+  rotate: false
+  xy: 281, 419
+  size: 68, 49
+  orig: 68, 49
+  offset: 0, 0
+  index: -1
+MagicBullet_5/lian
+  rotate: false
+  xy: 471, 238
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+MagicBullet_5/duanqiang
+  rotate: false
+  xy: 1, 450
+  size: 83, 42
+  orig: 83, 42
+  offset: 0, 0
+  index: -1
+MagicBullet_5/changqiang
+  rotate: false
+  xy: 347, 193
+  size: 84, 140
+  orig: 84, 140
+  offset: 0, 0
+  index: -1

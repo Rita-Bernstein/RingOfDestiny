@@ -185,5 +185,11 @@
       "Three Meows",
       "Dark Emissary and Light Emissary"
     ]
+  },
+  "RingOfDestiny:ReSkin": {
+    "TEXT": [
+      "Skin",
+      "Original"
+    ]
   }
 }

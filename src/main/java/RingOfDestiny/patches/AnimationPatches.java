@@ -29,27 +29,6 @@ public class AnimationPatches {
             return SpireReturn.Continue();
         }
     }
-
-//
-//    @SpirePatch(
-//            clz = AbstractPlayer.class,
-//            method = "useCard"
-//    )
-//    public static class UseCardPatch {
-//        public static ExprEditor Instrument() {
-//            return new ExprEditor() {
-//                @Override
-//                public void edit(MethodCall m) throws CannotCompileException {
-//                    if (m.getMethodName().equals("useFastAttackAnimation")) {
-//                        m.replace(
-//                                "if(!($0 instanceof " + AbstractRingCharacter.class.getName() + "))"
-//                                        + "$proceed($$);"
-//                        );
-//                    }
-//                }
-//            };
-//        }
-//    }
 }
 
 

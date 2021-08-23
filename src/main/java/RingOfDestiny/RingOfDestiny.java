@@ -16,6 +16,7 @@ import RingOfDestiny.monster.BlackNoah.*;
 import RingOfDestiny.monster.IdeologyCorridor.*;
 import RingOfDestiny.monster.KnowledgeHall.*;
 import RingOfDestiny.monster.WisdomThrone.*;
+import RingOfDestiny.skinCharacters.AbstractSkinCharacter;
 import RingOfDestiny.util.LocalizeHelper;
 import actlikeit.dungeons.CustomDungeon;
 import basemod.BaseMod;
@@ -23,7 +24,6 @@ import basemod.BaseMod;
 import basemod.ModLabeledToggleButton;
 import basemod.ModPanel;
 import basemod.helpers.RelicType;
-import com.badlogic.gdx.files.FileHandle;
 import com.evacipated.cardcrawl.mod.stslib.Keyword;
 import basemod.abstracts.CustomCard;
 import basemod.interfaces.*;
@@ -53,6 +53,8 @@ import java.util.Properties;
 import RingOfDestiny.patches.*;
 import RingOfDestiny.character.*;
 import RingOfDestiny.relics.*;
+
+import static RingOfDestiny.patches.CharacterSelectScreenPatches.characters;
 
 @SpireInitializer
 public class RingOfDestiny
@@ -84,12 +86,6 @@ public class RingOfDestiny
     public static final String AUTHOR = "Rita";
     public static final String DESCRIPTION = "";
 
-
-    //
-    public static boolean displaySkin_Ironclad = false;
-    public static boolean displaySkin_TheSilent = false;
-    public static boolean displaySkin_Defect = false;
-    public static boolean displaySkin_Watcher = false;
 
     private static final float configRow = 50.0f;
     private static final float configColumn = 300.0f;
@@ -216,6 +212,8 @@ public class RingOfDestiny
             config.setBool("neverSeeDiamondTutorial", neverSeeDiamondTutorial);
             config.setBool("neverSeeSoulStoneTutorial", neverSeeSoulStoneTutorial);
 
+            System.out.println("==============reskin存入数据");
+
             config.save();
         } catch (Exception e) {
             e.printStackTrace();
@@ -236,36 +234,89 @@ public class RingOfDestiny
         }
     }
 
+    public static void saveSkins() {
+        try {
+            SpireConfig config = new SpireConfig("RingOfDestiny", "settings", RingOfDestinyDefaults);
+
+            for (AbstractSkinCharacter character : characters) {
+                config.setBool(CardCrawlGame.saveSlot + "ReskinUnlock" + character.id, character.reskinUnlock);
+                config.setInt(CardCrawlGame.saveSlot + "ReskinCount" + character.id, character.reskinCount);
+            }
+            config.save();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void loadSkins(){
+        try {
+            SpireConfig config = new SpireConfig("RingOfDestiny", "settings", RingOfDestinyDefaults);
+            config.load();
+
+            for (int i = 0; i < characters.length - 1; i++) {
+                characters[i].reskinUnlock = config.getBool(CardCrawlGame.saveSlot + "ReskinUnlock" + characters[i].id);
+                characters[i].reskinCount = config.getInt(CardCrawlGame.saveSlot + "ReskinCount" + characters[i].id);
+
+                if (characters[i].reskinCount > characters[i].skins.length - 1)
+                    characters[i].reskinCount = 0;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            clearSettings();
+        }
+    }
+
     public static void clearSettings() {
         saveSettings();
     }
 
+    public static void unlockAllReskin() {
+        for (AbstractSkinCharacter c : characters) {
+            c.reskinUnlock = true;
+        }
+        saveSkins();
+    }
 
     @Override
     public void receivePostInitialize() {
         loadSettings();
+        loadSkins();
+        unlockAllReskin();
         Texture badgeTexture = new Texture(assetPath("/img/badge.png"));
         ModPanel settingsPanel = new ModPanel();
         BaseMod.registerModBadge(badgeTexture, MODNAME, AUTHOR, DESCRIPTION, settingsPanel);
 
 
-        addInheritSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[0],400.0f, 720.0f- 0 * configRow, Settings.CREAM_COLOR, FontHelper.charDescFont,addInherit, settingsPanel,
-                (label) -> {}, (button) -> {addInherit = button.enabled;saveSettings();});
-        neverSeeDiamondTutorialSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[1],400.0f, 720.0f-1 * configRow, Settings.CREAM_COLOR, FontHelper.charDescFont,neverSeeDiamondTutorial, settingsPanel,
-                (label) -> {}, (button) -> {neverSeeDiamondTutorial = button.enabled;saveSettings();});
-        neverSeeSoulStoneTutorialSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[2],400.0f, 720.0f- 2 * configRow, Settings.CREAM_COLOR, FontHelper.charDescFont,neverSeeSoulStoneTutorial, settingsPanel,
-                (label) -> {}, (button) -> {neverSeeSoulStoneTutorial = button.enabled;saveSettings();});
+        addInheritSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[0], 400.0f, 720.0f - 0 * configRow, Settings.CREAM_COLOR, FontHelper.charDescFont, addInherit, settingsPanel,
+                (label) -> {
+                }, (button) -> {
+            addInherit = button.enabled;
+            saveSettings();
+        });
+        neverSeeDiamondTutorialSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[1], 400.0f, 720.0f - 1 * configRow, Settings.CREAM_COLOR, FontHelper.charDescFont, neverSeeDiamondTutorial, settingsPanel,
+                (label) -> {
+                }, (button) -> {
+            neverSeeDiamondTutorial = button.enabled;
+            saveSettings();
+        });
+        neverSeeSoulStoneTutorialSwitch = new ModLabeledToggleButton(CardCrawlGame.languagePack.getUIString(makeID("ModSettings")).TEXT[2], 400.0f, 720.0f - 2 * configRow, Settings.CREAM_COLOR, FontHelper.charDescFont, neverSeeSoulStoneTutorial, settingsPanel,
+                (label) -> {
+                }, (button) -> {
+            neverSeeSoulStoneTutorial = button.enabled;
+            saveSettings();
+        });
 
 
         settingsPanel.addUIElement(addInheritSwitch);
         settingsPanel.addUIElement(neverSeeDiamondTutorialSwitch);
         settingsPanel.addUIElement(neverSeeSoulStoneTutorialSwitch);
 
-        if(Loader.isModLoaded("MusicTipLib")){
-            MusicTipLib.addMusicName("RingOfDestiny/audio/music/fight_boss.ogg","boss战斗",false);
-            MusicTipLib.addMusicName("RingOfDestiny/audio/music/fight_elite.ogg","精英",false);
-            MusicTipLib.addMusicName("RingOfDestiny/audio/music/mainbg.ogg","主界面",true);
-        };
+        if (Loader.isModLoaded("MusicTipLib")) {
+            MusicTipLib.addMusicName("RingOfDestiny/audio/music/fight_boss.ogg", "boss战斗", false);
+            MusicTipLib.addMusicName("RingOfDestiny/audio/music/fight_elite.ogg", "精英", false);
+            MusicTipLib.addMusicName("RingOfDestiny/audio/music/mainbg.ogg", "主界面", true);
+        }
+        ;
 
         CustomDungeon.addAct(CustomDungeon.EXORDIUM, new IdeologyCorridor());
         CustomDungeon.addAct(CustomDungeon.THECITY, new KnowledgeHall());
@@ -274,7 +325,6 @@ public class RingOfDestiny
 
 //        BaseMod.addEvent(FruitStall.ID, FruitStall.class, "");
 //        BaseMod.addEvent(FruitStall.ID, FruitStall.class, TheCity.ID);
-
 
 
 //一层小怪
@@ -317,8 +367,8 @@ public class RingOfDestiny
         BaseMod.addMonster(Gargoyle.ID, () -> new Gargoyle());
         BaseMod.addMonster("RingOfDestiny:Harp and Violin", LocalizeHelper.RunHistoryMonsterNames.TEXT[0], () -> new MonsterGroup(
                 new AbstractMonster[]{
-                        new MagicViolin(-230.0f,-20.0f),
-                        new MagicHarp(120.0f,-20.0f)
+                        new MagicViolin(-230.0f, -20.0f),
+                        new MagicHarp(120.0f, -20.0f)
                 }));
 
 
@@ -361,7 +411,6 @@ public class RingOfDestiny
                 assetPath("img/ui/map/bossOutline/BraveWarrior.png"));
 
 
-
         BaseMod.addBoss(WisdomThrone.ID, "RingOfDestiny:Dark And Light Emissary",
                 assetPath("img/ui/map/boss/DarkAndLight.png"),
                 assetPath("img/ui/map/bossOutline/DarkAndLight.png"));
@@ -370,7 +419,6 @@ public class RingOfDestiny
                 assetPath("img/ui/map/boss/Rita.png"),
                 assetPath("img/ui/map/bossOutline/Rita.png"));
     }
-
 
 
     @Override
@@ -424,7 +472,6 @@ public class RingOfDestiny
         BaseMod.addAudio(makeID("ZEROShadow"), assetPath("/audio/sound/combat/ZEROShadow.wav"));
 
         BaseMod.addAudio(makeID("FruitStall"), assetPath("/audio/sound/events/FruitStall.wav"));
-
 
 
 //魔戒自己的音效
@@ -673,7 +720,6 @@ public class RingOfDestiny
         BaseMod.addAudio(makeID("ui_screenshot"), assetPath("/audio/sound/Ring/ui_screenshot.ogg"));
 
 
-
     }
 
 
@@ -714,7 +760,7 @@ public class RingOfDestiny
         logger.info(Purchemist.charStrings.NAMES[1]);
         BaseMod.addCharacter(new Purchemist(Purchemist.charStrings.NAMES[1], AbstractPlayerEnum.Purchemist), assetPath("characters/Purchemist/Button.png"), assetPath("characters/Purchemist/portrait.png"), AbstractPlayerEnum.Purchemist);
 
-        if(addInherit){
+        if (addInherit) {
             logger.info(Inherit.charStrings.NAMES[1]);
             BaseMod.addCharacter(new Inherit(Inherit.charStrings.NAMES[1], AbstractPlayerEnum.Inherit), assetPath("characters/Inherit/Button.png"), assetPath("characters/Inherit/portrait.png"), AbstractPlayerEnum.Inherit);
         }
@@ -944,7 +990,7 @@ public class RingOfDestiny
 // ======================
 // ======================
 // ======================传承天使
-        if(addInherit) {
+        if (addInherit) {
             cards.add(new Strike_IH());
             cards.add(new Defend_IH());
             cards.add(new FairJudgement());
@@ -1140,7 +1186,7 @@ public class RingOfDestiny
         BaseMod.addRelicToCustomPool(new DemonicContract(), CardColorEnum.Summoner_LIME);
         BaseMod.addRelicToCustomPool(new RingOfSoul(), CardColorEnum.Summoner_LIME);
 
-        if(addInherit) {
+        if (addInherit) {
             BaseMod.addRelicToCustomPool(new TwinWings(), CardColorEnum.Inherit_LIME);
             BaseMod.addRelicToCustomPool(new HolyStarSeal(), CardColorEnum.Inherit_LIME);
         }
@@ -1149,7 +1195,6 @@ public class RingOfDestiny
 
         logger.debug("receiveEditRelics finished.");
     }
-
 
 
     private Settings.GameLanguage languageSupport() {
@@ -1186,7 +1231,7 @@ public class RingOfDestiny
         BaseMod.loadCustomStringsFile(RelicStrings.class, assetPath(path + "RelicStrings.json"));
         BaseMod.loadCustomStringsFile(CharacterStrings.class, assetPath(path + "CharacterStrings.json"));
         BaseMod.loadCustomStringsFile(OrbStrings.class, assetPath(path + "OrbStrings.json"));
-        BaseMod.loadCustomStringsFile(TutorialStrings.class,assetPath(path + "TutorialStrings.json"));
+        BaseMod.loadCustomStringsFile(TutorialStrings.class, assetPath(path + "TutorialStrings.json"));
 
     }
 

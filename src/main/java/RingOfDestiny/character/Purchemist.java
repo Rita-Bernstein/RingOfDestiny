@@ -7,11 +7,13 @@ import RingOfDestiny.modules.EnergyOrbCustomBlue;
 import RingOfDestiny.patches.*;
 import RingOfDestiny.relics.DogEyes;
 import RingOfDestiny.relics.ShadowKunai;
+import RingOfDestiny.skinCharacters.AbstractSkinCharacter;
 import RingOfDestiny.ui.DiamondTutorial;
 import basemod.abstracts.CustomPlayer;
 import basemod.interfaces.OnCardUseSubscriber;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
 import com.esotericsoftware.spine.AnimationState;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -75,21 +77,46 @@ public class Purchemist extends AbstractRingCharacter {
                 "RingOfDestiny/characters/Purchemist/corpse.png",
                 getLoadout(), 0.0F, -5.0F, 240.0F, 320.0F, new EnergyManager(ENERGY_PER_TURN));
 
-        loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist.json"), 1.6f);
+        AbstractSkinCharacter character = CharacterSelectScreenPatches.characters[2];
+        this.loadAnimation(
+                character.skins[character.reskinCount].atlasURL + "_A.atlas",
+                character.skins[character.reskinCount].jsonURL + "_A.json",
+                character.skins[character.reskinCount].renderscale
+        );
+//        loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist.json"), 1.6f);
+
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         this.stateData.setMix("Hit", "Idle", 0.1F);
         e.setTime(e.getEndTime() * MathUtils.random());
+
+        this.shadowScale = 1.2f;
     }
 
     public void switchFromAnimation() {
+        AbstractSkinCharacter character = CharacterSelectScreenPatches.characters[2];
         int sum = EnergyPanelRenderPatches.PatchEnergyPanelField.diamondManager.get(AbstractDungeon.overlayMenu.energyPanel).getCurrentDiamond();
         if (sum >= 6) {
-            loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist_C.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist_C.json"), 1.6f);
+            this.loadAnimation(
+                    character.skins[character.reskinCount].atlasURL + "_C.atlas",
+                    character.skins[character.reskinCount].jsonURL + "_C.json",
+                    character.skins[character.reskinCount].renderscale
+            );
+//            loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist_C.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist_C.json"), 1.6f);
         } else if (sum >= 3) {
-            loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist_B.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist_B.json"), 1.6f);
+            this.loadAnimation(
+                    character.skins[character.reskinCount].atlasURL + "_B.atlas",
+                    character.skins[character.reskinCount].jsonURL + "_B.json",
+                    character.skins[character.reskinCount].renderscale
+            );
+//            loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist_B.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist_B.json"), 1.6f);
         } else {
-            loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist.json"), 1.6f);
+            this.loadAnimation(
+                    character.skins[character.reskinCount].atlasURL + "_A.atlas",
+                    character.skins[character.reskinCount].jsonURL + "_A.json",
+                    character.skins[character.reskinCount].renderscale
+            );
+//            loadAnimation(RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist.atlas"), RingOfDestiny.assetPath("characters/Purchemist/animation/Purchemist.json"), 1.6f);
         }
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
@@ -271,19 +298,19 @@ public class Purchemist extends AbstractRingCharacter {
         super.useCard(c, monster, energyOnUse);
         if (c.type == AbstractCard.CardType.ATTACK) {
             if (firstAttackAnimation) {
-                AbstractDungeon.player.state.setAnimation(0, "Attack1", true);
+                AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
             } else {
-                AbstractDungeon.player.state.setAnimation(0, "Attack2", true);
+                AbstractDungeon.player.state.setAnimation(0, "Attack2", false);
             }
             firstAttackAnimation = !firstAttackAnimation;
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.SKILL) {
-            AbstractDungeon.player.state.setAnimation(0, "Skill", true);
+            AbstractDungeon.player.state.setAnimation(0, "Skill", false);
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.POWER) {
-            AbstractDungeon.player.state.setAnimation(0, "Power", true);
+            AbstractDungeon.player.state.setAnimation(0, "Power", false);
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
 
@@ -297,5 +324,7 @@ public class Purchemist extends AbstractRingCharacter {
 
     @Override
     protected void updateFastAttackAnimation() {}
+
+
 }
 

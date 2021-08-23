@@ -7,6 +7,7 @@ import RingOfDestiny.modules.EnergyOrbCustomBlue;
 import RingOfDestiny.patches.*;
 import RingOfDestiny.relics.Flintlock;
 import RingOfDestiny.relics.ShadowKunai;
+import RingOfDestiny.skinCharacters.AbstractSkinCharacter;
 import basemod.abstracts.CustomPlayer;
 import basemod.interfaces.OnCardUseSubscriber;
 import com.badlogic.gdx.graphics.Color;
@@ -74,11 +75,20 @@ public class MagicBullet extends AbstractRingCharacter {
                 "RingOfDestiny/characters/MagicBullet/corpse.png",
                 getLoadout(), 0.0F, -5.0F, 240.0F, 320.0F, new EnergyManager(ENERGY_PER_TURN));
 
-        loadAnimation(RingOfDestiny.assetPath("characters/MagicBullet/animation/MagicBullet.atlas"), RingOfDestiny.assetPath("characters/MagicBullet/animation/MagicBullet.json"), 1.6f);
+        AbstractSkinCharacter character = CharacterSelectScreenPatches.characters[1];
+        this.loadAnimation(
+                character.skins[character.reskinCount].atlasURL,
+                character.skins[character.reskinCount].jsonURL,
+                character.skins[character.reskinCount].renderscale
+        );
+
+//        loadAnimation(RingOfDestiny.assetPath("characters/MagicBullet/animation/MagicBullet.atlas"), RingOfDestiny.assetPath("characters/MagicBullet/animation/MagicBullet.json"), 1.6f);
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         this.stateData.setMix("Hit", "Idle", 0.1F);
         e.setTime(e.getEndTime() * MathUtils.random());
+
+        this.shadowScale = 1.2f;
     }
 
 
@@ -228,9 +238,11 @@ public class MagicBullet extends AbstractRingCharacter {
 
     public void damage(DamageInfo info) {
         if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output - this.currentBlock > 0) {
-            AnimationState.TrackEntry e = this.state.setAnimation(0, "Hit", false);
-            this.state.addAnimation(0, "Idle", true, 0.0F);
-            e.setTimeScale(1.0F);
+            if (CharacterSelectScreenPatches.characters[1].reskinCount != 4) {
+                AnimationState.TrackEntry e = this.state.setAnimation(0, "Hit", false);
+                this.state.addAnimation(0, "Idle", true, 0.0F);
+                e.setTimeScale(1.0F);
+            }
         }
 
         super.damage(info);
@@ -240,33 +252,39 @@ public class MagicBullet extends AbstractRingCharacter {
     @Override
     public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
         super.useCard(c, monster, energyOnUse);
-        if (c.type == AbstractCard.CardType.ATTACK) {
-            if (firstAttackAnimation) {
-                AbstractDungeon.player.state.setAnimation(0, "Attack1", true);
-            } else {
-                AbstractDungeon.player.state.setAnimation(0, "Attack2", true);
+        if (CharacterSelectScreenPatches.characters[1].reskinCount != 4) {
+            if (c.type == AbstractCard.CardType.ATTACK) {
+                if (firstAttackAnimation) {
+                    AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
+                } else {
+                    AbstractDungeon.player.state.setAnimation(0, "Attack2", false);
+                }
+                firstAttackAnimation = !firstAttackAnimation;
+                AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
             }
-            firstAttackAnimation = !firstAttackAnimation;
-            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
-        }
-        if (c.type == AbstractCard.CardType.SKILL) {
-            AbstractDungeon.player.state.setAnimation(0, "Skill", true);
-            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
-        }
-        if (c.type == AbstractCard.CardType.POWER) {
-            AbstractDungeon.player.state.setAnimation(0, "Power", true);
-            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+            if (c.type == AbstractCard.CardType.SKILL) {
+                AbstractDungeon.player.state.setAnimation(0, "Skill", false);
+                AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+            }
+            if (c.type == AbstractCard.CardType.POWER) {
+                AbstractDungeon.player.state.setAnimation(0, "Power", false);
+                AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+            }
+
         }
 
     }
 
     @Override
     public void playDeathAnimation() {
-        if(AbstractDungeon.player != null)
+        if (AbstractDungeon.player != null && CharacterSelectScreenPatches.characters[1].reskinCount != 4)
             AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
 
     @Override
-    protected void updateFastAttackAnimation() {}
+    protected void updateFastAttackAnimation() {
+        if (CharacterSelectScreenPatches.characters[1].reskinCount == 4)
+            super.updateFastAttackAnimation();
+    }
 }
 

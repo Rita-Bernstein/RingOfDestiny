@@ -10,13 +10,17 @@ import RingOfDestiny.modules.EnergyOrbSummoner;
 import RingOfDestiny.patches.*;
 import RingOfDestiny.relics.DogEyes;
 import RingOfDestiny.relics.TwinWings;
+import RingOfDestiny.skinCharacters.AbstractSkinCharacter;
+import RingOfDestiny.skinCharacters.skins.AbstractSkin;
 import basemod.abstracts.CustomPlayer;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
 import com.esotericsoftware.spine.AnimationState;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.ShoutAction;
+import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -85,22 +89,33 @@ public class Inherit extends AbstractRingCharacter {
                 "RingOfDestiny/characters/Inherit/corpse.png",
                 getLoadout(), 0.0F, -5.0F, 240.0F, 320.0F, new EnergyManager(ENERGY_PER_TURN));
 
-        loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/Inherit.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/Inherit.json"), 1.4f);
+        switchFromAnimation(false);
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         this.stateData.setMix("Hit", "Idle", 0.1F);
         e.setTime(e.getEndTime() * MathUtils.random());
+
+        this.shadowScale = 1.5f;
     }
 
     public void switchFromAnimation(boolean isDark) {
+        AbstractSkinCharacter character = CharacterSelectScreenPatches.characters[0];
         if (isDark) {
-            this.loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/Inherit_B.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/Inherit_B.json"), 1.4f);
+            this.loadAnimation(
+                    character.skins[character.reskinCount].atlasURL + "_B.atlas",
+                    character.skins[character.reskinCount].jsonURL + "_B.json",
+                    character.skins[character.reskinCount].renderscale
+            );
         } else {
-            this.loadAnimation(RingOfDestiny.assetPath("characters/Inherit/animation/Inherit.atlas"), RingOfDestiny.assetPath("characters/Inherit/animation/Inherit.json"), 1.4f);
+            this.loadAnimation(
+                    character.skins[character.reskinCount].atlasURL + "_A.atlas",
+                    character.skins[character.reskinCount].jsonURL + "_A.json",
+                    character.skins[character.reskinCount].renderscale
+            );
         }
-            AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
-            this.stateData.setMix("Hit", "Idle", 0.1F);
-            e.setTime(e.getEndTime() * MathUtils.random());
+        AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
+        this.stateData.setMix("Hit", "Idle", 0.1F);
+        e.setTime(e.getEndTime() * MathUtils.random());
 
     }
 
@@ -114,7 +129,7 @@ public class Inherit extends AbstractRingCharacter {
     @Override
     public void onVictory() {
         super.onVictory();
-        EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).switchForm(false,true);
+        EnergyPanelRenderPatches.PatchEnergyPanelField.subEnergy.get(AbstractDungeon.overlayMenu.energyPanel).switchForm(false, true);
     }
 
     public String getPortraitImageName() {
@@ -275,35 +290,35 @@ public class Inherit extends AbstractRingCharacter {
 
     @Override
     public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
+        super.useCard(c, monster, energyOnUse);
         if (c.type == AbstractCard.CardType.ATTACK) {
             if (firstAttackAnimation) {
-                AbstractDungeon.player.state.setAnimation(0, "Attack1", true);
+                AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
             } else {
-                AbstractDungeon.player.state.setAnimation(0, "Attack2", true);
+                AbstractDungeon.player.state.setAnimation(0, "Attack2", false);
             }
             firstAttackAnimation = !firstAttackAnimation;
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.SKILL) {
-            AbstractDungeon.player.state.setAnimation(0, "Skill", true);
+            AbstractDungeon.player.state.setAnimation(0, "Skill", false);
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.POWER) {
-            AbstractDungeon.player.state.setAnimation(0, "Power", true);
+            AbstractDungeon.player.state.setAnimation(0, "Power", false);
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
-        super.useCard(c, monster, energyOnUse);
     }
 
     @Override
     public void playDeathAnimation() {
-        if(AbstractDungeon.player != null)
-        AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
+        if (AbstractDungeon.player != null)
+            AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
 
     @Override
     protected void updateFastAttackAnimation() {
-
     }
+
 }
 

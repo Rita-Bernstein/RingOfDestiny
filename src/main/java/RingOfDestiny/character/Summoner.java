@@ -10,6 +10,7 @@ import RingOfDestiny.patches.*;
 import RingOfDestiny.relics.DemonicContract;
 import RingOfDestiny.relics.DogEyes;
 import RingOfDestiny.relics.ShadowKunai;
+import RingOfDestiny.skinCharacters.AbstractSkinCharacter;
 import RingOfDestiny.ui.SoulStoneTutorial;
 import basemod.abstracts.CustomPlayer;
 import basemod.interfaces.OnCardUseSubscriber;
@@ -19,6 +20,7 @@ import com.badlogic.gdx.math.MathUtils;
 import com.esotericsoftware.spine.AnimationState;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.AbstractGameAction.AttackEffect;
+import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.blue.*;
@@ -79,11 +81,19 @@ public class Summoner extends AbstractRingCharacter {
                 "RingOfDestiny/characters/Summoner/corpse.png",
                 getLoadout(), 0.0F, -5.0F, 240.0F, 320.0F, new EnergyManager(ENERGY_PER_TURN));
 
-        loadAnimation(RingOfDestiny.assetPath("characters/Summoner/animation/Summoner.atlas"), RingOfDestiny.assetPath("characters/Summoner/animation/Summoner.json"), 1.6f);
+        AbstractSkinCharacter character = CharacterSelectScreenPatches.characters[4];
+        this.loadAnimation(
+                character.skins[character.reskinCount].atlasURL,
+                character.skins[character.reskinCount].jsonURL,
+                character.skins[character.reskinCount].renderscale
+        );
+//        loadAnimation(RingOfDestiny.assetPath("characters/Summoner/animation/Summoner.atlas"), RingOfDestiny.assetPath("characters/Summoner/animation/Summoner.json"), 1.6f);
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         this.stateData.setMix("Hit", "Idle", 0.1F);
         e.setTime(e.getEndTime() * MathUtils.random());
+
+        this.shadowScale = 1.2f;
     }
 
     @Override
@@ -259,23 +269,23 @@ public class Summoner extends AbstractRingCharacter {
         super.useCard(c, monster, energyOnUse);
         if (c.type == AbstractCard.CardType.ATTACK) {
             if (firstAttackAnimation)
-                AbstractDungeon.player.state.setAnimation(0, "Attack1", true);
+                AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
             else
-                AbstractDungeon.player.state.setAnimation(0, "Attack2", true);
+                AbstractDungeon.player.state.setAnimation(0, "Attack2", false);
 
             firstAttackAnimation = !firstAttackAnimation;
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.SKILL) {
 //            if (firstAttackAnimation)
-//                AbstractDungeon.player.state.setAnimation(0, "Skill1", true);
+//                AbstractDungeon.player.state.setAnimation(0, "Skill1", false);
 //            else
-                AbstractDungeon.player.state.setAnimation(0, "Skill", true);
+                AbstractDungeon.player.state.setAnimation(0, "Skill", false);
 
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
         if (c.type == AbstractCard.CardType.POWER) {
-            AbstractDungeon.player.state.setAnimation(0, "Power", true);
+            AbstractDungeon.player.state.setAnimation(0, "Power", false);
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
         }
     }
