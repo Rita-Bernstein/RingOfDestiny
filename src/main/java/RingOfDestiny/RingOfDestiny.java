@@ -18,12 +18,15 @@ import RingOfDestiny.monster.KnowledgeHall.*;
 import RingOfDestiny.monster.WisdomThrone.*;
 import RingOfDestiny.skinCharacters.AbstractSkinCharacter;
 import RingOfDestiny.util.LocalizeHelper;
+import Spine38Mod.com.badlogic.gdx.graphics.g2d.PolygonSpriteBatch;
 import actlikeit.dungeons.CustomDungeon;
 import basemod.BaseMod;
 
 import basemod.ModLabeledToggleButton;
 import basemod.ModPanel;
 import basemod.helpers.RelicType;
+
+import Spine38Mod.com.esotericsoftware.spine.SkeletonRenderer;
 import com.evacipated.cardcrawl.mod.stslib.Keyword;
 import basemod.abstracts.CustomCard;
 import basemod.interfaces.*;
@@ -122,6 +125,9 @@ public class RingOfDestiny
     public static List<CustomCard> all_SoleCards = new ArrayList<>();
 
     public static SoulStoneCustomSavable soulStoneCustomSavable = new SoulStoneCustomSavable();
+
+    public static SkeletonRenderer sr;
+    public static PolygonSpriteBatch psb;
 
     public RingOfDestiny() {
         BaseMod.subscribe(this);

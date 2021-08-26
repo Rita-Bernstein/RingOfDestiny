@@ -2773,7 +2773,7 @@
 			{ "time": 0.9166 }
 		]
 	},
-	"Cropse3": {
+	"Corpse3": {
 		"bones": {
 			"yao": {
 				"translate": [
@@ -4137,7 +4137,7 @@
 			}
 		]
 	},
-	"Cropse2": {
+	"Corpse2": {
 		"bones": {
 			"yao": {
 				"translate": [
@@ -5496,7 +5496,7 @@
 			}
 		]
 	},
-	"Cropse": {
+	"Corpse": {
 		"bones": {
 			"yao": {
 				"translate": [

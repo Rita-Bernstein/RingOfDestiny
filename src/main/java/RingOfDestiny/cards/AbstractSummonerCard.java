@@ -55,8 +55,11 @@ public abstract class AbstractSummonerCard extends AbstractRingCard {
 
     @Override
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        if (this.hasTag(CustomTagsEnum.Soul_Stone) && cardPlayable(m) && hasEnoughSoulStone(1)) {
-            return true;
+        if (this.hasTag(CustomTagsEnum.Soul_Stone)) {
+            if (cardPlayable(m) && hasEnoughSoulStone(1))
+                return super.canUse(p, m);
+            else
+                return false;
         } else {
             return super.canUse(p, m);
         }

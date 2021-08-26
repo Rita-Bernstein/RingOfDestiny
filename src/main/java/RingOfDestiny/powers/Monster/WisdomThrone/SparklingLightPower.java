@@ -51,8 +51,9 @@ public class SparklingLightPower extends AbstractRingPower {
 
     @Override
     public int onAttackedToChangeDamage(DamageInfo info, int damageAmount) {
-        if (info.owner.name.equals(DarkEmissary.NAME))
-            return damageAmount * 2;
+        if (info.owner.isDeadOrEscaped())
+            if (info.owner.name.equals(DarkEmissary.NAME))
+                return damageAmount * 2;
         return damageAmount;
     }
 

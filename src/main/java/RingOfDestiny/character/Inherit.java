@@ -291,6 +291,7 @@ public class Inherit extends AbstractRingCharacter {
     @Override
     public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
         super.useCard(c, monster, energyOnUse);
+
         if (c.type == AbstractCard.CardType.ATTACK) {
             if (firstAttackAnimation) {
                 AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
