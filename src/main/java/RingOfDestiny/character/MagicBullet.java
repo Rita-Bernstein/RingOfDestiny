@@ -238,7 +238,7 @@ public class MagicBullet extends AbstractRingCharacter {
 
     public void damage(DamageInfo info) {
         if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output - this.currentBlock > 0) {
-            if (CharacterSelectScreenPatches.characters[1].reskinCount != 4) {
+            if (CharacterSelectScreenPatches.characters[1].reskinCount != 3) {
                 AnimationState.TrackEntry e = this.state.setAnimation(0, "Hit", false);
                 this.state.addAnimation(0, "Idle", true, 0.0F);
                 e.setTimeScale(1.0F);
@@ -252,7 +252,7 @@ public class MagicBullet extends AbstractRingCharacter {
     @Override
     public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
         super.useCard(c, monster, energyOnUse);
-        if (CharacterSelectScreenPatches.characters[1].reskinCount != 4) {
+        if (CharacterSelectScreenPatches.characters[1].reskinCount != 3) {
             if (c.type == AbstractCard.CardType.ATTACK) {
                 if (firstAttackAnimation) {
                     AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
@@ -277,13 +277,13 @@ public class MagicBullet extends AbstractRingCharacter {
 
     @Override
     public void playDeathAnimation() {
-        if (AbstractDungeon.player != null && CharacterSelectScreenPatches.characters[1].reskinCount != 4)
+        if (AbstractDungeon.player != null && CharacterSelectScreenPatches.characters[1].reskinCount != 3)
             AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
 
     @Override
     protected void updateFastAttackAnimation() {
-        if (CharacterSelectScreenPatches.characters[1].reskinCount == 4)
+        if (CharacterSelectScreenPatches.characters[1].reskinCount == 3)
             super.updateFastAttackAnimation();
     }
 }

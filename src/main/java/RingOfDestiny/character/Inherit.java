@@ -291,16 +291,15 @@ public class Inherit extends AbstractRingCharacter {
     @Override
     public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
         super.useCard(c, monster, energyOnUse);
-
-        if (c.type == AbstractCard.CardType.ATTACK) {
-            if (firstAttackAnimation) {
-                AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
-            } else {
-                AbstractDungeon.player.state.setAnimation(0, "Attack2", false);
-            }
-            firstAttackAnimation = !firstAttackAnimation;
-            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
-        }
+//        if (c.type == AbstractCard.CardType.ATTACK) {
+//            if (firstAttackAnimation) {
+//                AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
+//            } else {
+//                AbstractDungeon.player.state.setAnimation(0, "Attack2", false);
+//            }
+//            firstAttackAnimation = !firstAttackAnimation;
+//            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+//        }
         if (c.type == AbstractCard.CardType.SKILL) {
             AbstractDungeon.player.state.setAnimation(0, "Skill", false);
             AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
@@ -317,9 +316,9 @@ public class Inherit extends AbstractRingCharacter {
             AbstractDungeon.player.state.setAnimation(0, "Corpse", false);
     }
 
-    @Override
-    protected void updateFastAttackAnimation() {
-    }
+//    @Override
+//    protected void updateFastAttackAnimation() {
+//    }
 
 }
 

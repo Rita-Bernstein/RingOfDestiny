@@ -1,748 +1,321 @@
 
 MagicBullet_3.png
-size: 893,1002
+size: 512,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-MagicBullet_3/bm_s
+MagicBullet_3/yifuhou
   rotate: false
-  xy: 699, 114
-  size: 18, 24
-  orig: 18, 24
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_youbi(4)
-  rotate: false
-  xy: 552, 431
-  size: 38, 51
-  orig: 38, 51
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_youbi(3)
-  rotate: false
-  xy: 592, 402
-  size: 48, 34
-  orig: 48, 34
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_tf2
-  rotate: false
-  xy: 469, 131
-  size: 23, 65
-  orig: 23, 65
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_tf
-  rotate: false
-  xy: 666, 140
-  size: 23, 65
-  orig: 23, 65
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_youtui(6)
-  rotate: false
-  xy: 129, 564
-  size: 53, 298
-  orig: 53, 298
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_youtui(5)
-  rotate: false
-  xy: 184, 565
-  size: 40, 201
-  orig: 40, 201
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_zuotui(7)
-  rotate: false
-  xy: 294, 551
-  size: 37, 132
-  orig: 37, 132
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_zuotui(8)
-  rotate: false
-  xy: 380, 602
-  size: 34, 123
-  orig: 34, 123
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_zuojio(3)
-  rotate: false
-  xy: 575, 140
-  size: 44, 53
-  orig: 44, 53
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_zuojio(4)
-  rotate: false
-  xy: 644, 292
-  size: 26, 49
-  orig: 26, 49
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_youjio(3)
-  rotate: false
-  xy: 699, 63
-  size: 30, 49
-  orig: 30, 49
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_qunzi
-  rotate: false
-  xy: 1, 1
-  size: 210, 188
-  orig: 210, 188
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_shenti
-  rotate: false
-  xy: 511, 370
-  size: 54, 59
-  orig: 54, 59
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_shou
-  rotate: false
-  xy: 567, 402
-  size: 22, 25
-  orig: 22, 25
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_zuobi(6)
-  rotate: false
-  xy: 511, 431
-  size: 39, 50
-  orig: 39, 50
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_zuobi(5)
-  rotate: false
-  xy: 612, 347
-  size: 48, 33
-  orig: 48, 33
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_yifuhou(5)
-  rotate: false
-  xy: 207, 352
-  size: 85, 211
-  orig: 85, 211
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_yifuhou(4)
-  rotate: false
-  xy: 294, 352
-  size: 86, 197
-  orig: 86, 197
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_yao(3)
-  rotate: false
-  xy: 622, 1
-  size: 70, 41
-  orig: 70, 41
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_pijian(4)
-  rotate: false
-  xy: 566, 200
-  size: 84, 37
-  orig: 84, 37
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_bozi
-  rotate: false
-  xy: 661, 398
-  size: 17, 22
-  orig: 17, 22
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_toufa
-  rotate: false
-  xy: 503, 485
-  size: 60, 61
-  orig: 60, 61
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_toushi1(3)
-  rotate: false
-  xy: 620, 468
-  size: 20, 27
-  orig: 20, 27
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_toushi2(3)
-  rotate: false
-  xy: 566, 239
-  size: 40, 60
-  orig: 40, 60
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_toushihou(4)
-  rotate: false
-  xy: 98, 702
-  size: 19, 100
-  orig: 19, 100
-  offset: 0, 0
-  index: -1
-MagicBullet_3/bm_maozi(3)
-  rotate: false
-  xy: 575, 92
-  size: 60, 46
-  orig: 60, 46
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_shou(4)
-  rotate: false
-  xy: 672, 320
-  size: 38, 20
-  orig: 38, 20
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_zuobi(4)
-  rotate: false
-  xy: 503, 548
-  size: 51, 33
-  orig: 51, 33
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_zuobi(3)
-  rotate: false
-  xy: 831, 1
-  size: 60, 15
-  orig: 60, 15
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_pj2
-  rotate: false
-  xy: 565, 516
-  size: 41, 28
-  orig: 41, 28
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_toushihou(3)
-  rotate: false
-  xy: 609, 564
-  size: 12, 84
-  orig: 12, 84
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_toufa
-  rotate: false
-  xy: 740, 1
-  size: 47, 56
-  orig: 47, 56
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_toufahou(3)
-  rotate: false
-  xy: 731, 63
-  size: 22, 65
-  orig: 22, 65
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_toufa(5)
-  rotate: false
-  xy: 691, 140
-  size: 29, 51
-  orig: 29, 51
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_qunzihou(2)
-  rotate: false
-  xy: 212, 191
-  size: 196, 159
-  orig: 196, 159
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_zuotui(6)
-  rotate: false
-  xy: 264, 685
-  size: 35, 118
-  orig: 35, 118
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_zuotui(5)
-  rotate: false
-  xy: 410, 131
-  size: 57, 201
-  orig: 57, 201
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_youjio(2)
-  rotate: false
-  xy: 621, 140
-  size: 43, 53
-  orig: 43, 53
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_youtui(4)
-  rotate: false
-  xy: 132, 864
-  size: 48, 118
-  orig: 48, 118
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_youtui(3)
-  rotate: false
-  xy: 56, 702
-  size: 40, 201
-  orig: 40, 201
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_neichen(2)
-  rotate: false
-  xy: 382, 352
-  size: 127, 131
-  orig: 127, 131
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_qunzi2(4)
-  rotate: false
-  xy: 56, 905
-  size: 74, 93
-  orig: 74, 93
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_qunzi2(3)
-  rotate: false
-  xy: 382, 485
-  size: 83, 115
-  orig: 83, 115
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_qunzi1(2)
-  rotate: false
-  xy: 368, 1
-  size: 130, 128
-  orig: 130, 128
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_yifuhou(3)
-  rotate: false
-  xy: 1, 351
-  size: 106, 211
-  orig: 106, 211
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_yao(2)
-  rotate: false
-  xy: 458, 610
-  size: 25, 40
-  orig: 25, 40
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_daizi(3)
-  rotate: false
-  xy: 755, 59
-  size: 20, 68
-  orig: 20, 68
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_shenti
-  rotate: false
-  xy: 575, 1
-  size: 45, 65
-  orig: 45, 65
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_youbi(4)
-  rotate: false
-  xy: 592, 468
-  size: 26, 46
-  orig: 26, 46
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_pj
-  rotate: false
-  xy: 691, 193
-  size: 44, 33
-  orig: 44, 33
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_youbi(3)
-  rotate: false
-  xy: 766, 129
-  size: 34, 32
-  orig: 34, 32
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_shou(3)
-  rotate: false
-  xy: 713, 228
-  size: 19, 33
-  orig: 19, 33
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_bozi
-  rotate: false
-  xy: 642, 398
-  size: 17, 23
-  orig: 17, 23
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_dz
-  rotate: false
-  xy: 777, 97
-  size: 41, 26
-  orig: 41, 26
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_tou
-  rotate: false
-  xy: 567, 354
-  size: 42, 46
-  orig: 42, 46
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_toufa(4)
-  rotate: false
-  xy: 416, 602
-  size: 40, 97
-  orig: 40, 97
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_liuhai(2)
-  rotate: false
-  xy: 676, 228
-  size: 35, 39
-  orig: 35, 39
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_lian(2)
-  rotate: false
-  xy: 639, 438
-  size: 22, 23
-  orig: 22, 23
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_toushi2(2)
-  rotate: false
-  xy: 694, 1
-  size: 44, 60
-  orig: 44, 60
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_toushi1(2)
-  rotate: false
-  xy: 565, 484
-  size: 24, 27
-  orig: 24, 27
-  offset: 0, 0
-  index: -1
-MagicBullet_3/cm_maozi(2)
-  rotate: false
-  xy: 622, 44
-  size: 62, 46
-  orig: 62, 46
-  offset: 0, 0
-  index: -1
-MagicBullet_3/zm_yifuhou
-  rotate: false
-  xy: 109, 351
+  xy: 367, 1
   size: 96, 211
   orig: 96, 211
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_yifuhou(2)
+MagicBullet_3/yifuhou_2
   rotate: false
-  xy: 500, 1
+  xy: 340, 214
   size: 73, 197
   orig: 73, 197
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_yao
+MagicBullet_3/yao
   rotate: false
-  xy: 330, 139
+  xy: 163, 451
   size: 75, 40
   orig: 75, 40
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_toushihou
+MagicBullet_3/toushihou
   rotate: false
-  xy: 734, 231
+  xy: 314, 277
   size: 19, 29
   orig: 19, 29
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_toushihou(2)
+MagicBullet_3/toushihou_2
   rotate: false
-  xy: 98, 804
+  xy: 483, 318
   size: 20, 84
   orig: 20, 84
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_qunzihou
+MagicBullet_3/qunzihou
   rotate: false
-  xy: 1, 191
+  xy: 1, 1
   size: 209, 158
   orig: 209, 158
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_youjio
+MagicBullet_3/youjio
   rotate: false
-  xy: 612, 292
+  xy: 185, 325
   size: 30, 53
   orig: 30, 53
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_youtui
+MagicBullet_3/youtui
   rotate: false
-  xy: 1, 702
+  xy: 1, 161
   size: 53, 298
   orig: 53, 298
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_youtui(2)
+MagicBullet_3/youtui_2
   rotate: false
-  xy: 184, 768
-  size: 40, 201
-  orig: 40, 201
+  xy: 465, 1
+  size: 40, 200
+  orig: 40, 200
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_zuotui
+MagicBullet_3/zuotui
   rotate: false
-  xy: 467, 485
+  xy: 163, 161
   size: 34, 123
   orig: 34, 123
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_zuojio
+MagicBullet_3/zuojio
   rotate: false
-  xy: 676, 269
+  xy: 306, 363
   size: 26, 49
   orig: 26, 49
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_zuotui(2)
+MagicBullet_3/zuotui_2
   rotate: false
-  xy: 226, 668
+  xy: 105, 161
   size: 36, 132
   orig: 36, 132
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_neichen
+MagicBullet_3/neichen
   rotate: false
-  xy: 213, 1
+  xy: 212, 1
   size: 153, 136
   orig: 153, 136
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_qunzi2(2)
+MagicBullet_3/qunzi2_2
   rotate: false
-  xy: 226, 565
+  xy: 415, 318
   size: 66, 101
   orig: 66, 101
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_qunzi1
+MagicBullet_3/qunzi1
   rotate: false
-  xy: 1, 564
+  xy: 212, 139
   size: 126, 136
   orig: 126, 136
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_qunzi2
+MagicBullet_3/qunzi2
   rotate: false
-  xy: 469, 200
-  size: 95, 101
-  orig: 95, 101
+  xy: 415, 214
+  size: 95, 102
+  orig: 95, 102
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_daizi
+MagicBullet_3/daizi
   rotate: false
-  xy: 343, 658
+  xy: 340, 139
   size: 24, 68
   orig: 24, 68
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_daizi(2)
+MagicBullet_3/daizi_2
   rotate: false
-  xy: 226, 802
+  xy: 105, 295
   size: 30, 68
   orig: 30, 68
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_zuobi
+MagicBullet_3/shou_2
   rotate: false
-  xy: 556, 548
-  size: 51, 33
-  orig: 51, 33
-  offset: 0, 0
-  index: -1
-MagicBullet_3/zm_zuobi(2)
-  rotate: false
-  xy: 410, 334
-  size: 50, 15
-  orig: 50, 15
-  offset: 0, 0
-  index: -1
-MagicBullet_3/zm_shou_0
-  rotate: false
-  xy: 704, 269
+  xy: 56, 389
   size: 38, 20
   orig: 38, 20
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_shenti
+MagicBullet_3/zuobi
   rotate: false
-  xy: 511, 303
-  size: 53, 65
-  orig: 53, 65
+  xy: 261, 277
+  size: 51, 33
+  orig: 51, 33
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_shou
+MagicBullet_3/zuobi_2
   rotate: false
-  xy: 737, 193
+  xy: 213, 493
+  size: 60, 15
+  orig: 60, 15
+  offset: 0, 0
+  index: -1
+MagicBullet_3/shenti
+  rotate: false
+  xy: 163, 385
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1
+MagicBullet_3/shou
+  rotate: false
+  xy: 240, 448
   size: 19, 36
   orig: 19, 36
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_youbi
+MagicBullet_3/shou_3
   rotate: false
-  xy: 609, 516
+  xy: 337, 413
+  size: 38, 20
+  orig: 38, 20
+  offset: 0, 0
+  index: -1
+MagicBullet_3/youbi
+  rotate: false
+  xy: 309, 414
   size: 26, 46
   orig: 26, 46
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_youbi(2)
+MagicBullet_3/zuobi_3
   rotate: false
-  xy: 777, 63
+  xy: 151, 493
+  size: 60, 15
+  orig: 60, 15
+  offset: 0, 0
+  index: -1
+MagicBullet_3/youbi_2
+  rotate: false
+  xy: 262, 444
   size: 34, 32
   orig: 34, 32
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_pijian
+MagicBullet_3/pijian
   rotate: false
-  xy: 722, 130
+  xy: 218, 413
   size: 42, 33
   orig: 42, 33
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_pijian(2)
+MagicBullet_3/pijian_2
   rotate: false
-  xy: 592, 438
+  xy: 262, 414
   size: 45, 28
   orig: 45, 28
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_bozi
+MagicBullet_3/bozi
   rotate: false
-  xy: 485, 610
+  xy: 143, 385
   size: 17, 22
   orig: 17, 22
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_jingshi
+MagicBullet_3/jingshi
   rotate: false
-  xy: 722, 165
+  xy: 260, 379
   size: 44, 26
   orig: 44, 26
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_toufahou(2)
+MagicBullet_3/toufahou_2
   rotate: false
-  xy: 608, 239
+  xy: 108, 460
   size: 41, 51
   orig: 41, 51
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_toufahou
+MagicBullet_3/toufahou
   rotate: false
-  xy: 652, 207
+  xy: 483, 404
   size: 22, 65
   orig: 22, 65
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_tou
+MagicBullet_3/tou
   rotate: false
-  xy: 566, 301
-  size: 44, 51
-  orig: 44, 51
+  xy: 260, 325
+  size: 44, 52
+  orig: 44, 52
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_toufa
+MagicBullet_3/toufa
   rotate: false
-  xy: 662, 347
+  xy: 306, 312
   size: 31, 49
   orig: 31, 49
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_toufa(3)
+MagicBullet_3/toufa_3
   rotate: false
-  xy: 301, 685
+  xy: 143, 286
   size: 40, 97
   orig: 40, 97
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_liuhai
+MagicBullet_3/liuhai
   rotate: false
-  xy: 469, 303
+  xy: 105, 365
   size: 36, 39
   orig: 36, 39
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_toushi2
+MagicBullet_3/toushi2
   rotate: false
-  xy: 789, 1
+  xy: 218, 325
   size: 40, 60
   orig: 40, 60
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_toushi1
+MagicBullet_3/toushi1
   rotate: false
-  xy: 704, 291
+  xy: 377, 413
   size: 20, 27
   orig: 20, 27
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_maozi
+MagicBullet_3/maozi
   rotate: false
-  xy: 637, 92
+  xy: 199, 277
   size: 60, 46
   orig: 60, 46
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_hy
+MagicBullet_3/lian
   rotate: false
-  xy: 611, 382
-  size: 37, 14
-  orig: 37, 14
-  offset: 0, 0
-  index: -1
-MagicBullet_3/zm_bq_1
-  rotate: false
-  xy: 575, 68
-  size: 39, 22
-  orig: 39, 22
-  offset: 0, 0
-  index: -1
-MagicBullet_3/zm_bq_2
-  rotate: false
-  xy: 831, 18
+  xy: 218, 387
   size: 40, 23
   orig: 40, 23
   offset: 0, 0
   index: -1
-MagicBullet_3/zm_bq_3
-  rotate: false
-  xy: 813, 63
-  size: 39, 25
-  orig: 39, 25
-  offset: 0, 0
-  index: -1
 MagicBullet_3/wuqi2
   rotate: false
-  xy: 333, 551
-  size: 45, 105
-  orig: 45, 105
+  xy: 56, 413
+  size: 105, 45
+  orig: 105, 45
   offset: 0, 0
   index: -1
 MagicBullet_3/wuqi1
   rotate: false
-  xy: 213, 139
-  size: 115, 35
-  orig: 115, 35
+  xy: 56, 275
+  size: 47, 112
+  orig: 47, 112
+  offset: 0, 0
+  index: -1
+MagicBullet_3/wuqi1_2
+  rotate: false
+  xy: 56, 161
+  size: 47, 112
+  orig: 47, 112
+  offset: 0, 0
+  index: -1
+MagicBullet_3/wuqi2_2
+  rotate: false
+  xy: 1, 461
+  size: 105, 45
+  orig: 105, 45
   offset: 0, 0
   index: -1

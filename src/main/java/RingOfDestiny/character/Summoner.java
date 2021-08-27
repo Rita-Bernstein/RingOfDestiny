@@ -87,7 +87,7 @@ public class Summoner extends AbstractRingCharacter {
                 character.skins[character.reskinCount].jsonURL,
                 character.skins[character.reskinCount].renderscale
         );
-//        loadAnimation(RingOfDestiny.assetPath("characters/Summoner/animation/Summoner.atlas"), RingOfDestiny.assetPath("characters/Summoner/animation/Summoner.json"), 1.6f);
+//        loadAnimation(RingOfDestiny.assetPath("characters/Summoner/animation/Summoner_1.atlas"), RingOfDestiny.assetPath("characters/Summoner/animation/Summoner_1.json"), 1.6f);
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         this.stateData.setMix("Hit", "Idle", 0.1F);
@@ -267,26 +267,28 @@ public class Summoner extends AbstractRingCharacter {
     @Override
     public void useCard(AbstractCard c, AbstractMonster monster, int energyOnUse) {
         super.useCard(c, monster, energyOnUse);
-        if (c.type == AbstractCard.CardType.ATTACK) {
-            if (firstAttackAnimation)
-                AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
-            else
-                AbstractDungeon.player.state.setAnimation(0, "Attack2", false);
+        if (CharacterSelectScreenPatches.characters[4].reskinCount != 1){
+            if (c.type == AbstractCard.CardType.ATTACK) {
+                if (firstAttackAnimation)
+                    AbstractDungeon.player.state.setAnimation(0, "Attack1", false);
+                else
+                    AbstractDungeon.player.state.setAnimation(0, "Attack2", false);
 
-            firstAttackAnimation = !firstAttackAnimation;
-            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
-        }
-        if (c.type == AbstractCard.CardType.SKILL) {
+                firstAttackAnimation = !firstAttackAnimation;
+                AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+            }
+            if (c.type == AbstractCard.CardType.SKILL) {
 //            if (firstAttackAnimation)
 //                AbstractDungeon.player.state.setAnimation(0, "Skill1", false);
 //            else
                 AbstractDungeon.player.state.setAnimation(0, "Skill", false);
 
-            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
-        }
-        if (c.type == AbstractCard.CardType.POWER) {
-            AbstractDungeon.player.state.setAnimation(0, "Power", false);
-            AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+                AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+            }
+            if (c.type == AbstractCard.CardType.POWER) {
+                AbstractDungeon.player.state.setAnimation(0, "Power", false);
+                AbstractDungeon.player.state.addAnimation(0, "Idle", true, 0.0F);
+            }
         }
     }
 
@@ -297,6 +299,9 @@ public class Summoner extends AbstractRingCharacter {
     }
 
     @Override
-    protected void updateFastAttackAnimation() {}
+    protected void updateFastAttackAnimation() {
+        if (CharacterSelectScreenPatches.characters[4].reskinCount == 1)
+        super.updateFastAttackAnimation();
+    }
 }
 
