@@ -1,0 +1,20 @@
+
+ui_login_grass_1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_login_grass_1/c1
+  rotate: false
+  xy: 1, 1
+  size: 583, 252
+  orig: 583, 252
+  offset: 0, 0
+  index: -1
+ui_login_grass_1/c2
+  rotate: false
+  xy: 586, 1
+  size: 333, 419
+  orig: 333, 419
+  offset: 0, 0
+  index: -1

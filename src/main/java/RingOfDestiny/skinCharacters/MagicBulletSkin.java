@@ -12,11 +12,11 @@ public class MagicBulletSkin extends AbstractSkinCharacter {
     public static final String ID = RingOfDestiny.makeID("MagicBulletSkin");
     public static final String NAME = CardCrawlGame.languagePack.getCharacterString(RingOfDestiny.makeID("MagicBullet")).NAMES[0];
     public static final AbstractSkin[] SKINS = new AbstractSkin[]{
-//            new MagicBulletSkinA(),
+            new MagicBulletSkinD(),
             new MagicBulletSkinB(),
             new MagicBulletSkinC(),
-            new MagicBulletSkinD(),
-            new MagicBulletSkinE()
+            new MagicBulletSkinE(),
+            new MagicBulletSkinA()
     };
 
     public MagicBulletSkin() {

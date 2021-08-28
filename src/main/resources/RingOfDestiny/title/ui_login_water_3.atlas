@@ -1,0 +1,13 @@
+
+ui_login_water_3.png
+size: 1539,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_login_water_3/sm
+  rotate: false
+  xy: 1, 1
+  size: 1536, 266
+  orig: 1536, 266
+  offset: 0, 0
+  index: -1

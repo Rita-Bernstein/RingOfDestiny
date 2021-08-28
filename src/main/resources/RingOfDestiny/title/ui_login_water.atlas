@@ -1,0 +1,125 @@
+
+ui_login_water.png
+size: 2035,759
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_login_water/niao_8
+  rotate: false
+  xy: 425, 609
+  size: 16, 7
+  orig: 16, 7
+  offset: 0, 0
+  index: -1
+ui_login_water/niao_7
+  rotate: false
+  xy: 357, 609
+  size: 31, 19
+  orig: 31, 19
+  offset: 0, 0
+  index: -1
+ui_login_water/niao_6
+  rotate: false
+  xy: 390, 609
+  size: 33, 16
+  orig: 33, 16
+  offset: 0, 0
+  index: -1
+ui_login_water/niao_5
+  rotate: false
+  xy: 455, 603
+  size: 71, 33
+  orig: 71, 33
+  offset: 0, 0
+  index: -1
+ui_login_water/niao_4
+  rotate: false
+  xy: 357, 568
+  size: 96, 39
+  orig: 96, 39
+  offset: 0, 0
+  index: -1
+ui_login_water/niao_3
+  rotate: false
+  xy: 425, 618
+  size: 16, 7
+  orig: 16, 7
+  offset: 0, 0
+  index: -1
+ui_login_water/niao_2
+  rotate: false
+  xy: 357, 638
+  size: 31, 19
+  orig: 31, 19
+  offset: 0, 0
+  index: -1
+ui_login_water/niao_1
+  rotate: false
+  xy: 455, 568
+  size: 71, 33
+  orig: 71, 33
+  offset: 0, 0
+  index: -1
+ui_login_water/hai
+  rotate: false
+  xy: 1, 1
+  size: 1790, 377
+  orig: 1790, 377
+  offset: 0, 0
+  index: -1
+ui_login_water/cao9
+  rotate: false
+  xy: 1, 380
+  size: 354, 288
+  orig: 354, 288
+  offset: 0, 0
+  index: -1
+ui_login_water/bolang
+  rotate: false
+  xy: 1, 670
+  size: 698, 87
+  orig: 698, 87
+  offset: 0, 0
+  index: -1
+ui_login_water/cao5
+  rotate: false
+  xy: 1793, 1
+  size: 217, 301
+  orig: 217, 301
+  offset: 0, 0
+  index: -1
+ui_login_water/cao4
+  rotate: false
+  xy: 357, 380
+  size: 172, 186
+  orig: 172, 186
+  offset: 0, 0
+  index: -1
+ui_login_water/cao3
+  rotate: false
+  xy: 531, 380
+  size: 89, 125
+  orig: 89, 125
+  offset: 0, 0
+  index: -1
+ui_login_water/cao2
+  rotate: false
+  xy: 1948, 304
+  size: 85, 253
+  orig: 85, 253
+  offset: 0, 0
+  index: -1
+ui_login_water/cao1
+  rotate: false
+  xy: 1793, 304
+  size: 153, 238
+  orig: 153, 238
+  offset: 0, 0
+  index: -1
+ui_login_water/cao
+  rotate: false
+  xy: 531, 544
+  size: 119, 117
+  orig: 119, 117
+  offset: 0, 0
+  index: -1
