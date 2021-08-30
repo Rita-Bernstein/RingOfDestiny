@@ -1,0 +1,62 @@
+
+TortoiseG.png
+size: 482,496
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TortoiseG/touyi
+  rotate: false
+  xy: 1, 437
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+TortoiseG/hou
+  rotate: false
+  xy: 340, 54
+  size: 97, 59
+  orig: 97, 59
+  offset: 0, 0
+  index: -1
+TortoiseG/zuoshou
+  rotate: false
+  xy: 340, 115
+  size: 88, 46
+  orig: 88, 46
+  offset: 0, 0
+  index: -1
+TortoiseG/di
+  rotate: false
+  xy: 1, 262
+  size: 183, 173
+  orig: 183, 173
+  offset: 0, 0
+  index: -1
+TortoiseG/tou
+  rotate: false
+  xy: 186, 262
+  size: 184, 148
+  orig: 184, 148
+  offset: 0, 0
+  index: -1
+TortoiseG/xiake
+  rotate: false
+  xy: 186, 412
+  size: 294, 82
+  orig: 294, 82
+  offset: 0, 0
+  index: -1
+TortoiseG/youshou
+  rotate: false
+  xy: 340, 1
+  size: 120, 51
+  orig: 120, 51
+  offset: 0, 0
+  index: -1
+TortoiseG/ke
+  rotate: false
+  xy: 1, 1
+  size: 337, 259
+  orig: 337, 259
+  offset: 0, 0
+  index: -1

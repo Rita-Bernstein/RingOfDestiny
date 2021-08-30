@@ -1,0 +1,111 @@
+
+Rose.png
+size: 1023,1277
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rose/toufahou
+  rotate: false
+  xy: 719, 725
+  size: 254, 193
+  orig: 254, 193
+  offset: 0, 0
+  index: -1
+Rose/shou
+  rotate: false
+  xy: 466, 725
+  size: 251, 269
+  orig: 251, 269
+  offset: 0, 0
+  index: -1
+Rose/youtui(3)
+  rotate: false
+  xy: 892, 920
+  size: 129, 240
+  orig: 129, 240
+  offset: 0, 0
+  index: -1
+Rose/youtui
+  rotate: false
+  xy: 1, 716
+  size: 256, 402
+  orig: 256, 402
+  offset: 0, 0
+  index: -1
+Rose/zuotui(3)
+  rotate: false
+  xy: 466, 996
+  size: 103, 279
+  orig: 103, 279
+  offset: 0, 0
+  index: -1
+Rose/zuotui
+  rotate: false
+  xy: 479, 322
+  size: 317, 401
+  orig: 317, 401
+  offset: 0, 0
+  index: -1
+Rose/kua
+  rotate: false
+  xy: 1, 475
+  size: 438, 239
+  orig: 438, 239
+  offset: 0, 0
+  index: -1
+Rose/shenti
+  rotate: false
+  xy: 1, 1
+  size: 476, 472
+  orig: 476, 472
+  offset: 0, 0
+  index: -1
+Rose/tou
+  rotate: false
+  xy: 719, 920
+  size: 171, 186
+  orig: 171, 186
+  offset: 0, 0
+  index: -1
+Rose/youbi
+  rotate: false
+  xy: 798, 322
+  size: 222, 296
+  orig: 222, 296
+  offset: 0, 0
+  index: -1
+Rose/wuqi
+  rotate: false
+  xy: 479, 1
+  size: 533, 319
+  orig: 533, 319
+  offset: 0, 0
+  index: -1
+Rose/youbi(3)
+  rotate: false
+  xy: 259, 716
+  size: 205, 337
+  orig: 205, 337
+  offset: 0, 0
+  index: -1
+Rose/toufa_2
+  rotate: false
+  xy: 571, 996
+  size: 146, 121
+  orig: 146, 121
+  offset: 0, 0
+  index: -1
+Rose/toufa_1
+  rotate: false
+  xy: 886, 620
+  size: 49, 82
+  orig: 49, 82
+  offset: 0, 0
+  index: -1
+Rose/lian
+  rotate: false
+  xy: 798, 620
+  size: 86, 94
+  orig: 86, 94
+  offset: 0, 0
+  index: -1

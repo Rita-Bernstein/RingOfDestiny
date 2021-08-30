@@ -1,0 +1,27 @@
+
+SpellBook.png
+size: 998,399
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SpellBook/shu
+  rotate: false
+  xy: 550, 1
+  size: 446, 204
+  orig: 446, 204
+  offset: 0, 0
+  index: -1
+SpellBook/mofazhen
+  rotate: false
+  xy: 1, 1
+  size: 547, 266
+  orig: 547, 266
+  offset: 0, 0
+  index: -1
+SpellBook/lz
+  rotate: false
+  xy: 550, 207
+  size: 201, 190
+  orig: 201, 190
+  offset: 0, 0
+  index: -1

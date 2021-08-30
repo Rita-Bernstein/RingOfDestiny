@@ -1,0 +1,160 @@
+
+Goose.png
+size: 1294,1009
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Goose/bu_2
+  rotate: false
+  xy: 1009, 440
+  size: 196, 110
+  orig: 196, 110
+  offset: 0, 0
+  index: -1
+Goose/tf
+  rotate: false
+  xy: 1206, 253
+  size: 86, 95
+  orig: 86, 95
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00012
+  rotate: false
+  xy: 505, 505
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00007
+  rotate: false
+  xy: 757, 253
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00001
+  rotate: false
+  xy: 1, 505
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00003
+  rotate: false
+  xy: 253, 1
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00011
+  rotate: false
+  xy: 757, 757
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00005
+  rotate: false
+  xy: 505, 253
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00006
+  rotate: false
+  xy: 253, 757
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00009
+  rotate: false
+  xy: 1009, 1
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00013
+  rotate: false
+  xy: 253, 253
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00008
+  rotate: false
+  xy: 1, 757
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00000
+  rotate: false
+  xy: 757, 505
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00014
+  rotate: false
+  xy: 253, 505
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00002
+  rotate: false
+  xy: 505, 757
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00004
+  rotate: false
+  xy: 1, 253
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/wqtx_00010
+  rotate: false
+  xy: 757, 1
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/bu_1
+  rotate: false
+  xy: 1009, 253
+  size: 195, 185
+  orig: 195, 185
+  offset: 0, 0
+  index: -1
+Goose/bq
+  rotate: false
+  xy: 1206, 350
+  size: 71, 30
+  orig: 71, 30
+  offset: 0, 0
+  index: -1
+Goose/bq_2
+  rotate: false
+  xy: 1206, 382
+  size: 36, 30
+  orig: 36, 30
+  offset: 0, 0
+  index: -1
+Goose/tx_00001
+  rotate: false
+  xy: 1, 1
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Goose/tx_00002
+  rotate: false
+  xy: 505, 1
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1

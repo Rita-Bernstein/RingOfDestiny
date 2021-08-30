@@ -1,0 +1,27 @@
+
+SlimeShyS.png
+size: 221,118
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SlimeShyS/touyi
+  rotate: false
+  xy: 1, 1
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+SlimeShyS/st
+  rotate: false
+  xy: 1, 56
+  size: 141, 60
+  orig: 141, 60
+  offset: 0, 0
+  index: -1
+SlimeShyS/bq
+  rotate: false
+  xy: 144, 56
+  size: 75, 46
+  orig: 75, 46
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,153 @@
+
+Cap.png
+size: 509,420
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cap/touyi
+  rotate: false
+  xy: 1, 193
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+Cap/zuobi
+  rotate: false
+  xy: 117, 248
+  size: 52, 94
+  orig: 52, 94
+  offset: 0, 0
+  index: -1
+Cap/zuoxiaobi
+  rotate: false
+  xy: 264, 150
+  size: 122, 87
+  orig: 122, 87
+  offset: 0, 0
+  index: -1
+Cap/youtui
+  rotate: false
+  xy: 299, 239
+  size: 50, 141
+  orig: 50, 141
+  offset: 0, 0
+  index: -1
+Cap/jio_0
+  rotate: false
+  xy: 459, 339
+  size: 36, 79
+  orig: 36, 79
+  offset: 0, 0
+  index: -1
+Cap/jio
+  rotate: false
+  xy: 1, 329
+  size: 75, 57
+  orig: 75, 57
+  offset: 0, 0
+  index: -1
+Cap/zuotui_2
+  rotate: false
+  xy: 245, 239
+  size: 52, 156
+  orig: 52, 156
+  offset: 0, 0
+  index: -1
+Cap/youtui_2
+  rotate: false
+  xy: 424, 1
+  size: 68, 164
+  orig: 68, 164
+  offset: 0, 0
+  index: -1
+Cap/zuotui
+  rotate: false
+  xy: 79, 248
+  size: 36, 149
+  orig: 36, 149
+  offset: 0, 0
+  index: -1
+Cap/yao
+  rotate: false
+  xy: 126, 75
+  size: 136, 98
+  orig: 136, 98
+  offset: 0, 0
+  index: -1
+Cap/shangshen
+  rotate: false
+  xy: 297, 1
+  size: 125, 147
+  orig: 125, 147
+  offset: 0, 0
+  index: -1
+Cap/youxiaobi
+  rotate: false
+  xy: 175, 175
+  size: 68, 132
+  orig: 68, 132
+  offset: 0, 0
+  index: -1
+Cap/youbi
+  rotate: false
+  xy: 413, 268
+  size: 44, 105
+  orig: 44, 105
+  offset: 0, 0
+  index: -1
+Cap/bozi
+  rotate: false
+  xy: 459, 268
+  size: 48, 69
+  orig: 48, 69
+  offset: 0, 0
+  index: -1
+Cap/toufahou
+  rotate: false
+  xy: 1, 75
+  size: 123, 116
+  orig: 123, 116
+  offset: 0, 0
+  index: -1
+Cap/lian
+  rotate: false
+  xy: 388, 167
+  size: 95, 99
+  orig: 95, 99
+  offset: 0, 0
+  index: -1
+Cap/toufazuo
+  rotate: false
+  xy: 351, 268
+  size: 60, 85
+  orig: 60, 85
+  offset: 0, 0
+  index: -1
+Cap/toufayou
+  rotate: false
+  xy: 1, 248
+  size: 76, 79
+  orig: 76, 79
+  offset: 0, 0
+  index: -1
+Cap/wuqi
+  rotate: false
+  xy: 1, 1
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+Cap/bq
+  rotate: false
+  xy: 171, 309
+  size: 71, 46
+  orig: 71, 46
+  offset: 0, 0
+  index: -1
+Cap/shou
+  rotate: false
+  xy: 117, 344
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1

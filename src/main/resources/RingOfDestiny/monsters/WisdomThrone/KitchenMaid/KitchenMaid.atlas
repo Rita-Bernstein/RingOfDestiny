@@ -1,0 +1,188 @@
+
+KitchenMaid.png
+size: 1016,1019
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+KitchenMaid/toufahou
+  rotate: false
+  xy: 1, 1
+  size: 350, 487
+  orig: 350, 487
+  offset: 0, 0
+  index: -1
+KitchenMaid/hb
+  rotate: false
+  xy: 670, 84
+  size: 62, 69
+  orig: 62, 69
+  offset: 0, 0
+  index: -1
+KitchenMaid/zuotui
+  rotate: false
+  xy: 247, 490
+  size: 104, 336
+  orig: 104, 336
+  offset: 0, 0
+  index: -1
+KitchenMaid/zuojio
+  rotate: false
+  xy: 159, 869
+  size: 66, 124
+  orig: 66, 124
+  offset: 0, 0
+  index: -1
+KitchenMaid/zuotui_2
+  rotate: false
+  xy: 353, 564
+  size: 93, 344
+  orig: 93, 344
+  offset: 0, 0
+  index: -1
+KitchenMaid/youtui
+  rotate: false
+  xy: 683, 564
+  size: 77, 335
+  orig: 77, 335
+  offset: 0, 0
+  index: -1
+KitchenMaid/youjio
+  rotate: false
+  xy: 346, 910
+  size: 108, 104
+  orig: 108, 104
+  offset: 0, 0
+  index: -1
+KitchenMaid/youtui_2
+  rotate: false
+  xy: 448, 564
+  size: 91, 335
+  orig: 91, 335
+  offset: 0, 0
+  index: -1
+KitchenMaid/youbi
+  rotate: false
+  xy: 247, 828
+  size: 97, 144
+  orig: 97, 144
+  offset: 0, 0
+  index: -1
+KitchenMaid/youbi_3
+  rotate: false
+  xy: 456, 929
+  size: 148, 48
+  orig: 148, 48
+  offset: 0, 0
+  index: -1
+KitchenMaid/youshou
+  rotate: false
+  xy: 683, 1
+  size: 70, 58
+  orig: 70, 58
+  offset: 0, 0
+  index: -1
+KitchenMaid/xiashen
+  rotate: false
+  xy: 353, 1
+  size: 158, 561
+  orig: 158, 561
+  offset: 0, 0
+  index: -1
+KitchenMaid/shangshen
+  rotate: false
+  xy: 541, 564
+  size: 140, 193
+  orig: 140, 193
+  offset: 0, 0
+  index: -1
+KitchenMaid/xiong
+  rotate: false
+  xy: 513, 1
+  size: 86, 77
+  orig: 86, 77
+  offset: 0, 0
+  index: -1
+KitchenMaid/xiong_2
+  rotate: false
+  xy: 601, 1
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+KitchenMaid/zuobi
+  rotate: false
+  xy: 541, 759
+  size: 81, 168
+  orig: 81, 168
+  offset: 0, 0
+  index: -1
+KitchenMaid/zuobi_2
+  rotate: false
+  xy: 762, 1
+  size: 99, 131
+  orig: 99, 131
+  offset: 0, 0
+  index: -1
+KitchenMaid/zuoshou
+  rotate: false
+  xy: 513, 80
+  size: 71, 69
+  orig: 71, 69
+  offset: 0, 0
+  index: -1
+KitchenMaid/bozi
+  rotate: false
+  xy: 823, 901
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+KitchenMaid/tou
+  rotate: false
+  xy: 723, 901
+  size: 98, 113
+  orig: 98, 113
+  offset: 0, 0
+  index: -1
+KitchenMaid/toufa
+  rotate: false
+  xy: 624, 901
+  size: 97, 116
+  orig: 97, 116
+  offset: 0, 0
+  index: -1
+KitchenMaid/toufa_2
+  rotate: false
+  xy: 926, 901
+  size: 88, 115
+  orig: 88, 115
+  offset: 0, 0
+  index: -1
+KitchenMaid/maozi
+  rotate: false
+  xy: 1, 869
+  size: 156, 116
+  orig: 156, 116
+  offset: 0, 0
+  index: -1
+KitchenMaid/lian
+  rotate: false
+  xy: 586, 84
+  size: 82, 58
+  orig: 82, 58
+  offset: 0, 0
+  index: -1
+KitchenMaid/wuqi
+  rotate: false
+  xy: 1, 490
+  size: 244, 377
+  orig: 244, 377
+  offset: 0, 0
+  index: -1
+KitchenMaid/youbi_2
+  rotate: false
+  xy: 586, 144
+  size: 67, 58
+  orig: 67, 58
+  offset: 0, 0
+  index: -1

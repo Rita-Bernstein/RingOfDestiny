@@ -1,244 +1,244 @@
 
 FlameQueen.png
-size: 2033,1322
+size: 2048,2048
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-monster_10008/bozi
+FlameQueen/gb
   rotate: false
-  xy: 1981, 486
-  size: 34, 48
-  orig: 35, 48
-  offset: 0, 0
-  index: -1
-monster_10008/bq
-  rotate: false
-  xy: 973, 42
-  size: 78, 55
-  orig: 78, 55
-  offset: 0, 0
-  index: -1
-monster_10008/bq_sw
-  rotate: true
-  xy: 743, 62
-  size: 82, 46
-  orig: 83, 47
-  offset: 1, 1
-  index: -1
-monster_10008/chibang
-  rotate: true
-  xy: 631, 787
-  size: 535, 600
-  orig: 535, 600
-  offset: 0, 0
-  index: -1
-monster_10008/chibang_2
-  rotate: false
-  xy: 0, 108
-  size: 521, 615
-  orig: 521, 615
-  offset: 0, 0
-  index: -1
-monster_10008/g_1
-  rotate: false
-  xy: 1234, 90
-  size: 367, 358
-  orig: 370, 361
-  offset: 1, 2
-  index: -1
-monster_10008/gb
-  rotate: false
-  xy: 789, 28
+  xy: 268, 1975
   size: 93, 69
   orig: 93, 69
   offset: 0, 0
   index: -1
-monster_10008/gx_1
+FlameQueen/touyi
   rotate: false
-  xy: 1231, 836
-  size: 572, 486
-  orig: 586, 505
-  offset: 6, 6
-  index: -1
-monster_10008/gx_2
-  rotate: false
-  xy: 1578, 465
-  size: 232, 371
-  orig: 242, 385
-  offset: 7, 2
-  index: -1
-monster_10008/gx_3
-  rotate: true
-  xy: 1803, 969
-  size: 353, 225
-  orig: 366, 239
-  offset: 8, 9
-  index: -1
-monster_10008/gx_4
-  rotate: false
-  xy: 1234, 448
-  size: 344, 388
-  orig: 358, 404
-  offset: 5, 10
-  index: -1
-monster_10008/huoqiu
-  rotate: true
-  xy: 1767, 11
-  size: 187, 247
-  orig: 195, 263
-  offset: 0, 7
-  index: -1
-monster_10008/jingshi
-  rotate: false
-  xy: 731, 751
-  size: 58, 36
-  orig: 58, 36
+  xy: 1, 1975
+  size: 172, 53
+  orig: 172, 53
   offset: 0, 0
   index: -1
-monster_10008/lh_you
+FlameQueen/toufahou
   rotate: false
-  xy: 281, 0
-  size: 105, 108
-  orig: 108, 108
-  offset: 0, 0
-  index: -1
-monster_10008/lh_zuo
-  rotate: true
-  xy: 0, 12
-  size: 96, 159
-  orig: 119, 159
-  offset: 23, 0
-  index: -1
-monster_10008/tf
-  rotate: true
-  xy: 159, 0
-  size: 108, 122
-  orig: 108, 122
-  offset: 0, 0
-  index: -1
-monster_10008/tou
-  rotate: false
-  xy: 655, 35
-  size: 88, 109
-  orig: 88, 112
-  offset: 0, 3
-  index: -1
-monster_10008/toufahou
-  rotate: false
-  xy: 790, 97
+  xy: 1049, 582
   size: 332, 250
   orig: 332, 250
   offset: 0, 0
   index: -1
-monster_10008/touyi
-  rotate: true
-  xy: 1981, 626
-  size: 161, 48
-  orig: 172, 53
-  offset: 6, 2
-  index: -1
-monster_10008/ts
-  rotate: true
-  xy: 1601, 13
-  size: 128, 135
-  orig: 128, 135
-  offset: 0, 0
-  index: -1
-monster_10008/ts_2
-  rotate: true
-  xy: 386, 28
-  size: 80, 122
-  orig: 80, 122
-  offset: 0, 0
-  index: -1
-monster_10008/xiaotui
-  rotate: true
-  xy: 1810, 456
-  size: 331, 171
-  orig: 408, 572
-  offset: 0, 0
-  index: -1
-monster_10008/xiong
-  rotate: true
-  xy: 1810, 787
-  size: 182, 223
-  orig: 182, 223
-  offset: 0, 0
-  index: -1
-monster_10008/yao
-  rotate: true
-  xy: 521, 15
-  size: 129, 134
-  orig: 129, 134
-  offset: 0, 0
-  index: -1
-monster_10008/yibai
+FlameQueen/youshou
   rotate: false
-  xy: 790, 347
-  size: 328, 440
-  orig: 678, 864
-  offset: 350, 0
-  index: -1
-monster_10008/yibai_2
-  rotate: false
-  xy: 1118, 352
-  size: 116, 435
-  orig: 116, 435
-  offset: 0, 0
-  index: -1
-monster_10008/yibai_3
-  rotate: false
-  xy: 521, 144
-  size: 269, 579
-  orig: 269, 579
-  offset: 0, 0
-  index: -1
-monster_10008/yibai_4
-  rotate: false
-  xy: 0, 723
-  size: 631, 599
-  orig: 631, 599
-  offset: 0, 0
-  index: -1
-monster_10008/yiling
-  rotate: false
-  xy: 882, 25
-  size: 91, 72
-  orig: 91, 72
-  offset: 0, 0
-  index: -1
-monster_10008/youdatui
-  rotate: false
-  xy: 1122, 82
-  size: 111, 270
-  orig: 111, 270
-  offset: 0, 0
-  index: -1
-monster_10008/youshou
-  rotate: true
-  xy: 1981, 534
+  xy: 363, 1975
   size: 92, 43
   orig: 92, 43
   offset: 0, 0
   index: -1
-monster_10008/youxiaotui
+FlameQueen/chibang
   rotate: false
-  xy: 1601, 141
+  xy: 634, 867
+  size: 535, 600
+  orig: 535, 600
+  offset: 0, 0
+  index: -1
+FlameQueen/yibai_4
+  rotate: false
+  xy: 1, 867
+  size: 631, 599
+  orig: 631, 599
+  offset: 0, 0
+  index: -1
+FlameQueen/yibai_3
+  rotate: false
+  xy: 1694, 1
+  size: 269, 579
+  orig: 269, 579
+  offset: 0, 0
+  index: -1
+FlameQueen/youdatui
+  rotate: false
+  xy: 1567, 592
+  size: 111, 270
+  orig: 111, 270
+  offset: 0, 0
+  index: -1
+FlameQueen/youxiaotui
+  rotate: false
+  xy: 1383, 1
   size: 166, 324
   orig: 166, 324
   offset: 0, 0
   index: -1
-monster_10008/zuodatui
+FlameQueen/yao
   rotate: false
-  xy: 1767, 198
+  xy: 1551, 162
+  size: 129, 134
+  orig: 129, 134
+  offset: 0, 0
+  index: -1
+FlameQueen/zuodatui
+  rotate: false
+  xy: 1812, 582
   size: 183, 258
   orig: 183, 258
   offset: 0, 0
   index: -1
-monster_10008/zuoshou
+FlameQueen/xiong
   rotate: false
-  xy: 631, 745
+  xy: 1383, 592
+  size: 182, 223
+  orig: 182, 223
+  offset: 0, 0
+  index: -1
+FlameQueen/xiaotui
+  rotate: false
+  xy: 589, 1469
+  size: 408, 572
+  orig: 408, 572
+  offset: 0, 0
+  index: -1
+FlameQueen/yibai
+  rotate: false
+  xy: 1, 1
+  size: 678, 864
+  orig: 678, 864
+  offset: 0, 0
+  index: -1
+FlameQueen/yibai_2
+  rotate: false
+  xy: 1694, 582
+  size: 116, 435
+  orig: 116, 435
+  offset: 0, 0
+  index: -1
+FlameQueen/zuoshou
+  rotate: false
+  xy: 1383, 817
   size: 100, 42
   orig: 100, 42
+  offset: 0, 0
+  index: -1
+FlameQueen/chibang_2
+  rotate: false
+  xy: 1171, 867
+  size: 521, 615
+  orig: 521, 615
+  offset: 0, 0
+  index: -1
+FlameQueen/ts_2
+  rotate: false
+  xy: 1579, 1847
+  size: 80, 122
+  orig: 80, 122
+  offset: 0, 0
+  index: -1
+FlameQueen/tf
+  rotate: false
+  xy: 1580, 298
+  size: 108, 122
+  orig: 108, 122
+  offset: 0, 0
+  index: -1
+FlameQueen/bozi
+  rotate: false
+  xy: 457, 1975
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+FlameQueen/yiling
+  rotate: false
+  xy: 175, 1975
+  size: 91, 72
+  orig: 91, 72
+  offset: 0, 0
+  index: -1
+FlameQueen/jingshi
+  rotate: false
+  xy: 1485, 817
+  size: 58, 36
+  orig: 58, 36
+  offset: 0, 0
+  index: -1
+FlameQueen/tou
+  rotate: false
+  xy: 1489, 1847
+  size: 88, 112
+  orig: 88, 112
+  offset: 0, 0
+  index: -1
+FlameQueen/lh_you
+  rotate: false
+  xy: 1580, 422
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+FlameQueen/lh_zuo
+  rotate: false
+  xy: 1551, 1
+  size: 119, 159
+  orig: 119, 159
+  offset: 0, 0
+  index: -1
+FlameQueen/ts
+  rotate: false
+  xy: 1359, 1847
+  size: 128, 135
+  orig: 128, 135
+  offset: 0, 0
+  index: -1
+FlameQueen/bq
+  rotate: false
+  xy: 1580, 532
+  size: 78, 55
+  orig: 78, 55
+  offset: 0, 0
+  index: -1
+FlameQueen/bq_sw
+  rotate: false
+  xy: 1489, 1961
+  size: 83, 47
+  orig: 83, 47
+  offset: 0, 0
+  index: -1
+FlameQueen/huoqiu
+  rotate: false
+  xy: 1383, 327
+  size: 195, 263
+  orig: 195, 263
+  offset: 0, 0
+  index: -1
+FlameQueen/g_1
+  rotate: false
+  xy: 1359, 1484
+  size: 370, 361
+  orig: 370, 361
+  offset: 0, 0
+  index: -1
+FlameQueen/gx_1
+  rotate: false
+  xy: 1, 1468
+  size: 586, 505
+  orig: 586, 505
+  offset: 0, 0
+  index: -1
+FlameQueen/gx_2
+  rotate: false
+  xy: 1731, 1484
+  size: 242, 385
+  orig: 242, 385
+  offset: 0, 0
+  index: -1
+FlameQueen/gx_3
+  rotate: false
+  xy: 681, 582
+  size: 366, 239
+  orig: 366, 239
+  offset: 0, 0
+  index: -1
+FlameQueen/gx_4
+  rotate: false
+  xy: 999, 1484
+  size: 358, 404
+  orig: 358, 404
   offset: 0, 0
   index: -1

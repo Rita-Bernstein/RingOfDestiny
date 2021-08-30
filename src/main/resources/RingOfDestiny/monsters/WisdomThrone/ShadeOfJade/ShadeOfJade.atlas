@@ -1,0 +1,223 @@
+
+ShadeOfJade.png
+size: 2047,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ShadeOfJade/qunzihou
+  rotate: false
+  xy: 1, 1
+  size: 543, 580
+  orig: 543, 580
+  offset: 0, 0
+  index: -1
+ShadeOfJade/toufahou
+  rotate: false
+  xy: 1312, 1
+  size: 257, 474
+  orig: 257, 474
+  offset: 0, 0
+  index: -1
+ShadeOfJade/youtui
+  rotate: false
+  xy: 1881, 704
+  size: 65, 315
+  orig: 65, 315
+  offset: 0, 0
+  index: -1
+ShadeOfJade/youjio
+  rotate: false
+  xy: 1050, 876
+  size: 94, 86
+  orig: 94, 86
+  offset: 0, 0
+  index: -1
+ShadeOfJade/youtui_2
+  rotate: false
+  xy: 1647, 555
+  size: 77, 302
+  orig: 77, 302
+  offset: 0, 0
+  index: -1
+ShadeOfJade/zuotui
+  rotate: false
+  xy: 1176, 571
+  size: 81, 313
+  orig: 81, 313
+  offset: 0, 0
+  index: -1
+ShadeOfJade/zuojio
+  rotate: false
+  xy: 1146, 886
+  size: 57, 110
+  orig: 57, 110
+  offset: 0, 0
+  index: -1
+ShadeOfJade/zuotui_2
+  rotate: false
+  xy: 1566, 555
+  size: 79, 311
+  orig: 79, 311
+  offset: 0, 0
+  index: -1
+ShadeOfJade/youbi3_2
+  rotate: false
+  xy: 1751, 1
+  size: 141, 519
+  orig: 141, 519
+  offset: 0, 0
+  index: -1
+ShadeOfJade/youbi
+  rotate: false
+  xy: 1312, 477
+  size: 252, 459
+  orig: 252, 459
+  offset: 0, 0
+  index: -1
+ShadeOfJade/youbi2
+  rotate: false
+  xy: 860, 876
+  size: 103, 130
+  orig: 103, 130
+  offset: 0, 0
+  index: -1
+ShadeOfJade/youbi2_2
+  rotate: false
+  xy: 715, 652
+  size: 167, 163
+  orig: 167, 163
+  offset: 0, 0
+  index: -1
+ShadeOfJade/youbi3_1
+  rotate: false
+  xy: 517, 852
+  size: 123, 161
+  orig: 123, 161
+  offset: 0, 0
+  index: -1
+ShadeOfJade/zuobi
+  rotate: false
+  xy: 546, 1
+  size: 357, 649
+  orig: 357, 649
+  offset: 0, 0
+  index: -1
+ShadeOfJade/zuobi3_2
+  rotate: false
+  xy: 1571, 1
+  size: 178, 552
+  orig: 178, 552
+  offset: 0, 0
+  index: -1
+ShadeOfJade/zuobi2
+  rotate: false
+  xy: 1647, 859
+  size: 100, 150
+  orig: 100, 150
+  offset: 0, 0
+  index: -1
+ShadeOfJade/zuobi3_1
+  rotate: false
+  xy: 1881, 522
+  size: 115, 180
+  orig: 115, 180
+  offset: 0, 0
+  index: -1
+ShadeOfJade/zuobi2_2
+  rotate: false
+  xy: 517, 652
+  size: 196, 198
+  orig: 196, 198
+  offset: 0, 0
+  index: -1
+ShadeOfJade/yao
+  rotate: false
+  xy: 905, 571
+  size: 269, 303
+  orig: 269, 303
+  offset: 0, 0
+  index: -1
+ShadeOfJade/yibai3
+  rotate: false
+  xy: 1751, 522
+  size: 128, 478
+  orig: 128, 478
+  offset: 0, 0
+  index: -1
+ShadeOfJade/yibai2
+  rotate: false
+  xy: 287, 583
+  size: 228, 433
+  orig: 228, 433
+  offset: 0, 0
+  index: -1
+ShadeOfJade/yibai1
+  rotate: false
+  xy: 905, 1
+  size: 405, 568
+  orig: 405, 568
+  offset: 0, 0
+  index: -1
+ShadeOfJade/daizi
+  rotate: false
+  xy: 1, 583
+  size: 284, 439
+  orig: 284, 439
+  offset: 0, 0
+  index: -1
+ShadeOfJade/shenti
+  rotate: false
+  xy: 715, 817
+  size: 143, 156
+  orig: 143, 156
+  offset: 0, 0
+  index: -1
+ShadeOfJade/bozi
+  rotate: false
+  xy: 1259, 571
+  size: 43, 96
+  orig: 43, 96
+  offset: 0, 0
+  index: -1
+ShadeOfJade/tou
+  rotate: false
+  xy: 1948, 896
+  size: 89, 94
+  orig: 89, 94
+  offset: 0, 0
+  index: -1
+ShadeOfJade/toufa
+  rotate: false
+  xy: 965, 876
+  size: 83, 135
+  orig: 83, 135
+  offset: 0, 0
+  index: -1
+ShadeOfJade/toufa2
+  rotate: false
+  xy: 1566, 868
+  size: 74, 153
+  orig: 74, 153
+  offset: 0, 0
+  index: -1
+ShadeOfJade/youfa3
+  rotate: false
+  xy: 642, 852
+  size: 51, 123
+  orig: 51, 123
+  offset: 0, 0
+  index: -1
+ShadeOfJade/lian
+  rotate: false
+  xy: 1205, 886
+  size: 73, 65
+  orig: 73, 65
+  offset: 0, 0
+  index: -1
+ShadeOfJade/jingzi
+  rotate: false
+  xy: 1948, 704
+  size: 97, 190
+  orig: 97, 190
+  offset: 0, 0
+  index: -1

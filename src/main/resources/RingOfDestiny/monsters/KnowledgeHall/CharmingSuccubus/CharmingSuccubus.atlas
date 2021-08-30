@@ -1,0 +1,181 @@
+
+CharmingSuccubus.png
+size: 815,509
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CharmingSuccubus/touyi
+  rotate: false
+  xy: 574, 1
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/wb
+  rotate: false
+  xy: 1, 1
+  size: 192, 266
+  orig: 192, 266
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/cb_2
+  rotate: false
+  xy: 195, 164
+  size: 110, 174
+  orig: 110, 174
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/cb_1
+  rotate: false
+  xy: 461, 1
+  size: 111, 188
+  orig: 111, 188
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/fa
+  rotate: false
+  xy: 432, 191
+  size: 91, 89
+  orig: 91, 89
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/j
+  rotate: false
+  xy: 661, 56
+  size: 92, 32
+  orig: 92, 32
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/zsb
+  rotate: false
+  xy: 307, 328
+  size: 67, 69
+  orig: 67, 69
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/yj
+  rotate: false
+  xy: 240, 340
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/zj
+  rotate: false
+  xy: 376, 328
+  size: 46, 62
+  orig: 46, 62
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/zxt
+  rotate: false
+  xy: 1, 382
+  size: 70, 125
+  orig: 70, 125
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/zdt
+  rotate: false
+  xy: 376, 164
+  size: 54, 162
+  orig: 54, 162
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/xs
+  rotate: false
+  xy: 574, 156
+  size: 93, 89
+  orig: 93, 89
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/yxt
+  rotate: false
+  xy: 113, 269
+  size: 72, 152
+  orig: 72, 152
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/ydt
+  rotate: false
+  xy: 307, 164
+  size: 67, 150
+  orig: 67, 150
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/st
+  rotate: false
+  xy: 1, 269
+  size: 110, 111
+  orig: 110, 111
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/yb
+  rotate: false
+  xy: 187, 340
+  size: 51, 72
+  orig: 51, 72
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/zb
+  rotate: false
+  xy: 525, 191
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/ysb
+  rotate: false
+  xy: 73, 382
+  size: 28, 94
+  orig: 28, 94
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/ys
+  rotate: false
+  xy: 748, 1
+  size: 65, 42
+  orig: 65, 42
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/bz
+  rotate: false
+  xy: 525, 232
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/lian
+  rotate: false
+  xy: 432, 282
+  size: 82, 65
+  orig: 82, 65
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/fa1
+  rotate: false
+  xy: 574, 56
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/wq
+  rotate: false
+  xy: 195, 1
+  size: 264, 161
+  orig: 264, 161
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/zs
+  rotate: false
+  xy: 661, 90
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+CharmingSuccubus/bq
+  rotate: false
+  xy: 669, 132
+  size: 49, 36
+  orig: 49, 36
+  offset: 0, 0
+  index: -1

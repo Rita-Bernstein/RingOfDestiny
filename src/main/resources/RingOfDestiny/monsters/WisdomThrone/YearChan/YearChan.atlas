@@ -1,0 +1,230 @@
+
+YearChan.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+YearChan/weiba
+  rotate: false
+  xy: 1, 1
+  size: 183, 203
+  orig: 183, 203
+  offset: 0, 0
+  index: -1
+YearChan/toufahou_3
+  rotate: false
+  xy: 441, 316
+  size: 79, 169
+  orig: 79, 169
+  offset: 0, 0
+  index: -1
+YearChan/toufahou
+  rotate: false
+  xy: 1, 206
+  size: 126, 196
+  orig: 126, 196
+  offset: 0, 0
+  index: -1
+YearChan/toufahou_2
+  rotate: false
+  xy: 331, 123
+  size: 94, 191
+  orig: 94, 191
+  offset: 0, 0
+  index: -1
+YearChan/daizi
+  rotate: false
+  xy: 245, 206
+  size: 84, 230
+  orig: 84, 230
+  offset: 0, 0
+  index: -1
+YearChan/daizi_2
+  rotate: false
+  xy: 129, 206
+  size: 114, 172
+  orig: 114, 172
+  offset: 0, 0
+  index: -1
+YearChan/bianzi_2
+  rotate: false
+  xy: 522, 350
+  size: 75, 121
+  orig: 75, 121
+  offset: 0, 0
+  index: -1
+YearChan/youtui
+  rotate: false
+  xy: 522, 177
+  size: 55, 171
+  orig: 55, 171
+  offset: 0, 0
+  index: -1
+YearChan/youjio
+  rotate: false
+  xy: 596, 66
+  size: 36, 61
+  orig: 36, 61
+  offset: 0, 0
+  index: -1
+YearChan/youtui_2
+  rotate: false
+  xy: 491, 1
+  size: 58, 174
+  orig: 58, 174
+  offset: 0, 0
+  index: -1
+YearChan/zuotui
+  rotate: false
+  xy: 349, 316
+  size: 90, 174
+  orig: 90, 174
+  offset: 0, 0
+  index: -1
+YearChan/zuijio
+  rotate: false
+  xy: 579, 145
+  size: 41, 56
+  orig: 41, 56
+  offset: 0, 0
+  index: -1
+YearChan/zuotui_2
+  rotate: false
+  xy: 427, 1
+  size: 62, 171
+  orig: 62, 171
+  offset: 0, 0
+  index: -1
+YearChan/youbi
+  rotate: false
+  xy: 551, 1
+  size: 59, 63
+  orig: 59, 63
+  offset: 0, 0
+  index: -1
+YearChan/youbi_2
+  rotate: false
+  xy: 551, 66
+  size: 43, 77
+  orig: 43, 77
+  offset: 0, 0
+  index: -1
+YearChan/youshou_2
+  rotate: false
+  xy: 575, 473
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+YearChan/youshou
+  rotate: false
+  xy: 579, 258
+  size: 33, 46
+  orig: 33, 46
+  offset: 0, 0
+  index: -1
+YearChan/zuoshou_2
+  rotate: false
+  xy: 579, 203
+  size: 31, 53
+  orig: 31, 53
+  offset: 0, 0
+  index: -1
+YearChan/shenti
+  rotate: false
+  xy: 186, 1
+  size: 161, 120
+  orig: 161, 120
+  offset: 0, 0
+  index: -1
+YearChan/shenti_3
+  rotate: false
+  xy: 427, 177
+  size: 87, 110
+  orig: 87, 110
+  offset: 0, 0
+  index: -1
+YearChan/xiong
+  rotate: false
+  xy: 230, 438
+  size: 86, 51
+  orig: 86, 51
+  offset: 0, 0
+  index: -1
+YearChan/zuobi
+  rotate: false
+  xy: 253, 123
+  size: 56, 75
+  orig: 56, 75
+  offset: 0, 0
+  index: -1
+YearChan/zuoshou
+  rotate: false
+  xy: 612, 1
+  size: 48, 42
+  orig: 48, 42
+  offset: 0, 0
+  index: -1
+YearChan/zuobi_2
+  rotate: false
+  xy: 349, 1
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+YearChan/bozi
+  rotate: false
+  xy: 51, 459
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+YearChan/tou
+  rotate: false
+  xy: 186, 123
+  size: 65, 77
+  orig: 65, 77
+  offset: 0, 0
+  index: -1
+YearChan/toufa
+  rotate: false
+  xy: 51, 404
+  size: 73, 53
+  orig: 73, 53
+  offset: 0, 0
+  index: -1
+YearChan/liuhai
+  rotate: false
+  xy: 318, 438
+  size: 29, 55
+  orig: 29, 55
+  offset: 0, 0
+  index: -1
+YearChan/jiao
+  rotate: false
+  xy: 103, 459
+  size: 22, 39
+  orig: 22, 39
+  offset: 0, 0
+  index: -1
+YearChan/liuhai_2
+  rotate: false
+  xy: 1, 404
+  size: 48, 85
+  orig: 48, 85
+  offset: 0, 0
+  index: -1
+YearChan/bianzi
+  rotate: false
+  xy: 129, 380
+  size: 99, 124
+  orig: 99, 124
+  offset: 0, 0
+  index: -1
+YearChan/bq
+  rotate: false
+  xy: 522, 473
+  size: 51, 36
+  orig: 51, 36
+  offset: 0, 0
+  index: -1

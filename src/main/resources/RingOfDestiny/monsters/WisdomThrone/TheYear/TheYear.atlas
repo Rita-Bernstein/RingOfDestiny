@@ -1,0 +1,153 @@
+
+TheYear.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TheYear/tuihou
+  rotate: false
+  xy: 660, 362
+  size: 271, 278
+  orig: 271, 278
+  offset: 0, 0
+  index: -1
+TheYear/tuihou_2
+  rotate: false
+  xy: 793, 642
+  size: 196, 238
+  orig: 196, 238
+  offset: 0, 0
+  index: -1
+TheYear/daizi_2
+  rotate: false
+  xy: 1, 1163
+  size: 638, 161
+  orig: 638, 161
+  offset: 0, 0
+  index: -1
+TheYear/shenti
+  rotate: false
+  xy: 412, 1
+  size: 501, 359
+  orig: 501, 359
+  offset: 0, 0
+  index: -1
+TheYear/shenti_2
+  rotate: false
+  xy: 1, 1326
+  size: 253, 277
+  orig: 253, 277
+  offset: 0, 0
+  index: -1
+TheYear/bei
+  rotate: false
+  xy: 403, 783
+  size: 388, 291
+  orig: 388, 291
+  offset: 0, 0
+  index: -1
+TheYear/qiantui
+  rotate: false
+  xy: 641, 1076
+  size: 242, 302
+  orig: 242, 302
+  offset: 0, 0
+  index: -1
+TheYear/qiantui_2
+  rotate: false
+  xy: 1, 1605
+  size: 189, 204
+  orig: 189, 204
+  offset: 0, 0
+  index: -1
+TheYear/houtui_2
+  rotate: false
+  xy: 793, 882
+  size: 189, 183
+  orig: 189, 183
+  offset: 0, 0
+  index: -1
+TheYear/houtui
+  rotate: false
+  xy: 779, 1380
+  size: 171, 109
+  orig: 171, 109
+  offset: 0, 0
+  index: -1
+TheYear/weiba
+  rotate: false
+  xy: 526, 1563
+  size: 269, 154
+  orig: 269, 154
+  offset: 0, 0
+  index: -1
+TheYear/weiba_2
+  rotate: false
+  xy: 1, 783
+  size: 400, 378
+  orig: 400, 378
+  offset: 0, 0
+  index: -1
+TheYear/daizi
+  rotate: false
+  xy: 1, 539
+  size: 657, 242
+  orig: 657, 242
+  offset: 0, 0
+  index: -1
+TheYear/yun_1
+  rotate: false
+  xy: 582, 362
+  size: 64, 126
+  orig: 64, 126
+  offset: 0, 0
+  index: -1
+TheYear/yun_2
+  rotate: false
+  xy: 412, 362
+  size: 168, 155
+  orig: 168, 155
+  offset: 0, 0
+  index: -1
+TheYear/huzi
+  rotate: false
+  xy: 660, 642
+  size: 110, 107
+  orig: 110, 107
+  offset: 0, 0
+  index: -1
+TheYear/tou
+  rotate: false
+  xy: 1, 1
+  size: 409, 536
+  orig: 409, 536
+  offset: 0, 0
+  index: -1
+TheYear/huo
+  rotate: false
+  xy: 256, 1326
+  size: 268, 259
+  orig: 268, 259
+  offset: 0, 0
+  index: -1
+TheYear/h
+  rotate: false
+  xy: 526, 1326
+  size: 56, 51
+  orig: 56, 51
+  offset: 0, 0
+  index: -1
+TheYear/lian_2
+  rotate: false
+  xy: 256, 1587
+  size: 250, 162
+  orig: 250, 162
+  offset: 0, 0
+  index: -1
+TheYear/lian
+  rotate: false
+  xy: 526, 1380
+  size: 251, 181
+  orig: 251, 181
+  offset: 0, 0
+  index: -1

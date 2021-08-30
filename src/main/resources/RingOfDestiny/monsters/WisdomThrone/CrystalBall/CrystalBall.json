@@ -1,0 +1,37 @@
+{
+"skeleton": { "width": 130, "height": 130, "fps": 12, "hash": " ", "name": "Armature" },
+"bones": [
+	{ "name": "root" },
+	{ "x": -1.45, "y": 97.55, "name": "sjq", "parent": "root" }
+],
+"slots": [
+	{ "name": "sjq", "bone": "sjq", "attachment": "sjq" }
+],
+"skins": {
+	"default": {
+		"sjq": {
+			"sjq": { "name": "sjq", "width": 130, "height": 130, "x": 0.45, "y": -3.21, "path": "CrystalBall/sjq" }
+		}
+	}
+},
+"animations": {
+	"huxi": {
+		"bones": {
+			"sjq": {
+				"translate": [
+					{
+						"time": 0,
+						"curve": [ 0.5, 0, 0.5, 1 ]
+					},
+					{
+						"time": 1.25,
+						"curve": [ 0.5, 0, 0.5, 1 ],
+						"y": 22
+					},
+					{ "time": 2.5 }
+				]
+			}
+		}
+	}
+}
+}

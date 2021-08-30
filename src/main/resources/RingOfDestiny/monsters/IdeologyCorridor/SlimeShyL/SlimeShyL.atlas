@@ -1,0 +1,27 @@
+
+SlimeShyL.png
+size: 178,314
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SlimeShyL/touyi
+  rotate: false
+  xy: 1, 259
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+SlimeShyL/st
+  rotate: false
+  xy: 1, 1
+  size: 166, 147
+  orig: 166, 147
+  offset: 0, 0
+  index: -1
+SlimeShyL/bq
+  rotate: false
+  xy: 1, 150
+  size: 175, 107
+  orig: 175, 107
+  offset: 0, 0
+  index: -1

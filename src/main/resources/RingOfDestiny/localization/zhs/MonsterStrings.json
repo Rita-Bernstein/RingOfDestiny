@@ -124,14 +124,14 @@
     ]
   },
   "RingOfDestiny:SpiderChildG": {
-  "MOVES": [
-    ""
-  ],
-  "NAME": "小蜘蛛",
-  "DIALOG": [
-    ""
-  ]
-},
+    "MOVES": [
+      ""
+    ],
+    "NAME": "小蜘蛛",
+    "DIALOG": [
+      ""
+    ]
+  },
   "RingOfDestiny:SpiderChildR": {
     "MOVES": [
       ""
@@ -380,6 +380,364 @@
       ""
     ],
     "NAME": "黑桃A",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Dumpling": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "团子",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Evelynn": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "伊芙琳",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Mummy": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "阿布布",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:PiscesEros": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "双鱼厄洛斯",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:SlimeSadL": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "呜呜呜",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:SlimeSadM": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "呜呜",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:SlimeSadS": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "呜",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:SlimeShyL": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "嘤嘤嘤",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:SlimeShyM": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "嘤嘤",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:SlimeShyS": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "嘤",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Tortoise": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "龟龟",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:TortoiseG": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "龟龟",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Cap": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "盖子",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:CharmingSuccubus": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "妩媚魅魔",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:CoquettishSuccubus": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "妖艳魅魔",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Goose": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "我是鹅鹅",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Rabbit": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "我是兔兔",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Jack": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "阿强",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Rose": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "阿珍",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Jane": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "小红",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:John": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "小明",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:PaperBird": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "水晶千纸鹤",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:SpiderCaverns": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "蛛穴",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:StoneGiant": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "大个子",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:BellOfMillet": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "千钟粟",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:HouseOfGold": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "黄金屋",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:ShadeOfJade": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "颜如玉",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:SantaClaus": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "圣诞“老人”",
+    "DIALOG": [
+      ""
+    ]
+  },  "RingOfDestiny:ChristmasReindeer": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "圣诞驯鹿",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:ChristmasTree": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "圣诞树",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:CrystalBall": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "水晶球",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:FlameQueen": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "炎之女王",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Salamander": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "火精灵",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:GodOfWealth": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "财神君",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:LanternGirl": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "灯笼姬",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MagicCrystal": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "魔力结晶",
+    "DIALOG": [
+      ""
+    ]
+  },  "RingOfDestiny:SpellBook": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "魔法书",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MaidLeader": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "女仆长",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:TheYear": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "年兽",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:YearChan": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "年兽酱",
     "DIALOG": [
       ""
     ]

@@ -1,0 +1,174 @@
+
+HouseOfGold.png
+size: 2003,1011
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HouseOfGold/b_2
+  rotate: false
+  xy: 1423, 529
+  size: 169, 89
+  orig: 169, 89
+  offset: 0, 0
+  index: -1
+HouseOfGold/wuzi
+  rotate: false
+  xy: 1, 1
+  size: 534, 586
+  orig: 534, 586
+  offset: 0, 0
+  index: -1
+HouseOfGold/b_1
+  rotate: false
+  xy: 1175, 588
+  size: 153, 75
+  orig: 153, 75
+  offset: 0, 0
+  index: -1
+HouseOfGold/zi
+  rotate: false
+  xy: 1, 589
+  size: 265, 276
+  orig: 265, 276
+  offset: 0, 0
+  index: -1
+HouseOfGold/denglong
+  rotate: false
+  xy: 478, 780
+  size: 36, 152
+  orig: 36, 152
+  offset: 0, 0
+  index: -1
+HouseOfGold/denglong_2
+  rotate: false
+  xy: 1238, 665
+  size: 36, 152
+  orig: 36, 152
+  offset: 0, 0
+  index: -1
+HouseOfGold/toufahou
+  rotate: false
+  xy: 1423, 1
+  size: 228, 526
+  orig: 228, 526
+  offset: 0, 0
+  index: -1
+HouseOfGold/toufahou_2
+  rotate: false
+  xy: 1653, 1
+  size: 223, 526
+  orig: 223, 526
+  offset: 0, 0
+  index: -1
+HouseOfGold/toufadaizi
+  rotate: false
+  xy: 1, 867
+  size: 124, 138
+  orig: 124, 138
+  offset: 0, 0
+  index: -1
+HouseOfGold/zuojio
+  rotate: false
+  xy: 1175, 665
+  size: 61, 118
+  orig: 61, 118
+  offset: 0, 0
+  index: -1
+HouseOfGold/youjio
+  rotate: false
+  xy: 127, 867
+  size: 109, 90
+  orig: 109, 90
+  offset: 0, 0
+  index: -1
+HouseOfGold/bozi
+  rotate: false
+  xy: 297, 953
+  size: 37, 56
+  orig: 37, 56
+  offset: 0, 0
+  index: -1
+HouseOfGold/tou
+  rotate: false
+  xy: 1330, 588
+  size: 86, 100
+  orig: 86, 100
+  offset: 0, 0
+  index: -1
+HouseOfGold/youbi
+  rotate: false
+  xy: 724, 615
+  size: 91, 182
+  orig: 91, 182
+  offset: 0, 0
+  index: -1
+HouseOfGold/shenti
+  rotate: false
+  xy: 537, 1
+  size: 369, 612
+  orig: 369, 612
+  offset: 0, 0
+  index: -1
+HouseOfGold/shenti_2
+  rotate: false
+  xy: 535, 615
+  size: 187, 242
+  orig: 187, 242
+  offset: 0, 0
+  index: -1
+HouseOfGold/youbi_2
+  rotate: false
+  xy: 1878, 1
+  size: 123, 550
+  orig: 123, 550
+  offset: 0, 0
+  index: -1
+HouseOfGold/zuobi
+  rotate: false
+  xy: 268, 780
+  size: 117, 171
+  orig: 117, 171
+  offset: 0, 0
+  index: -1
+HouseOfGold/zuobi_2
+  rotate: false
+  xy: 1175, 1
+  size: 246, 585
+  orig: 246, 585
+  offset: 0, 0
+  index: -1
+HouseOfGold/zuoshou
+  rotate: false
+  xy: 238, 953
+  size: 57, 40
+  orig: 57, 40
+  offset: 0, 0
+  index: -1
+HouseOfGold/toufa
+  rotate: false
+  xy: 817, 615
+  size: 74, 132
+  orig: 74, 132
+  offset: 0, 0
+  index: -1
+HouseOfGold/toufa_2
+  rotate: false
+  xy: 387, 780
+  size: 89, 201
+  orig: 89, 201
+  offset: 0, 0
+  index: -1
+HouseOfGold/lian
+  rotate: false
+  xy: 908, 1
+  size: 265, 693
+  orig: 265, 693
+  offset: 0, 0
+  index: -1
+HouseOfGold/wuqi
+  rotate: false
+  xy: 268, 589
+  size: 265, 189
+  orig: 265, 189
+  offset: 0, 0
+  index: -1

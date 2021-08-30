@@ -1,0 +1,27 @@
+
+SlimeSadL.png
+size: 175,301
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SlimeSadL/touyi
+  rotate: false
+  xy: 1, 246
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+SlimeSadL/st
+  rotate: false
+  xy: 1, 1
+  size: 165, 147
+  orig: 165, 147
+  offset: 0, 0
+  index: -1
+SlimeSadL/bq
+  rotate: false
+  xy: 1, 150
+  size: 167, 94
+  orig: 167, 94
+  offset: 0, 0
+  index: -1

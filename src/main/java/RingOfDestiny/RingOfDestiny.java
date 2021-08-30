@@ -316,7 +316,7 @@ public class RingOfDestiny
             MusicTipLib.addMusicName("RingOfDestiny/audio/music/fight_elite.ogg", "精英", false);
             MusicTipLib.addMusicName("RingOfDestiny/audio/music/mainbg.ogg", "主界面", true);
         }
-        ;
+        
 
         CustomDungeon.addAct(CustomDungeon.EXORDIUM, new IdeologyCorridor());
         CustomDungeon.addAct(CustomDungeon.THECITY, new KnowledgeHall());

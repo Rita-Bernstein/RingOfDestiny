@@ -1,0 +1,20 @@
+
+SpiderCaverns.png
+size: 651,996
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SpiderCaverns/s
+  rotate: false
+  xy: 1, 1
+  size: 648, 495
+  orig: 648, 495
+  offset: 0, 0
+  index: -1
+SpiderCaverns/w
+  rotate: false
+  xy: 1, 498
+  size: 489, 496
+  orig: 489, 496
+  offset: 0, 0
+  index: -1

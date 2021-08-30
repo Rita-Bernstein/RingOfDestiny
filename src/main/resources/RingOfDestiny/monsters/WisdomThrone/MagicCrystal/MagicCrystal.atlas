@@ -1,0 +1,41 @@
+
+MagicCrystal.png
+size: 406,368
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MagicCrystal/touyi
+  rotate: false
+  xy: 228, 162
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+MagicCrystal/xiao_2
+  rotate: false
+  xy: 228, 217
+  size: 56, 89
+  orig: 56, 89
+  offset: 0, 0
+  index: -1
+MagicCrystal/da
+  rotate: false
+  xy: 1, 1
+  size: 225, 365
+  orig: 225, 365
+  offset: 0, 0
+  index: -1
+MagicCrystal/xiao_3
+  rotate: false
+  xy: 329, 1
+  size: 75, 115
+  orig: 75, 115
+  offset: 0, 0
+  index: -1
+MagicCrystal/xiao_1
+  rotate: false
+  xy: 228, 1
+  size: 99, 159
+  orig: 99, 159
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,188 @@
+
+Rabbit.png
+size: 1025,1442
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rabbit/bu_2
+  rotate: false
+  xy: 1, 1345
+  size: 187, 95
+  orig: 187, 95
+  offset: 0, 0
+  index: -1
+Rabbit/bz_2
+  rotate: false
+  xy: 893, 1
+  size: 72, 105
+  orig: 72, 105
+  offset: 0, 0
+  index: -1
+Rabbit/bz_1
+  rotate: false
+  xy: 967, 1
+  size: 53, 89
+  orig: 53, 89
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00002
+  rotate: false
+  xy: 1, 337
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00011
+  rotate: false
+  xy: 253, 589
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00008
+  rotate: false
+  xy: 505, 594
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00003
+  rotate: false
+  xy: 505, 342
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00000
+  rotate: false
+  xy: 253, 1093
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00009
+  rotate: false
+  xy: 253, 337
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00006
+  rotate: false
+  xy: 1, 1093
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00013
+  rotate: false
+  xy: 505, 846
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00004
+  rotate: false
+  xy: 505, 1098
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00014
+  rotate: false
+  xy: 253, 841
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00007
+  rotate: false
+  xy: 757, 342
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00001
+  rotate: false
+  xy: 757, 846
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00005
+  rotate: false
+  xy: 1, 589
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00012
+  rotate: false
+  xy: 1, 841
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/hxtx_00010
+  rotate: false
+  xy: 757, 594
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Rabbit/bu_1
+  rotate: false
+  xy: 757, 1098
+  size: 187, 188
+  orig: 187, 188
+  offset: 0, 0
+  index: -1
+Rabbit/bq
+  rotate: false
+  xy: 967, 92
+  size: 56, 23
+  orig: 56, 23
+  offset: 0, 0
+  index: -1
+Rabbit/bq_2
+  rotate: false
+  xy: 1008, 117
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+Rabbit/tx_1
+  rotate: false
+  xy: 643, 1
+  size: 248, 148
+  orig: 248, 148
+  offset: 0, 0
+  index: -1
+Rabbit/tx_2
+  rotate: false
+  xy: 555, 185
+  size: 451, 155
+  orig: 451, 155
+  offset: 0, 0
+  index: -1
+Rabbit/tx_3
+  rotate: false
+  xy: 1, 1
+  size: 640, 182
+  orig: 640, 182
+  offset: 0, 0
+  index: -1
+Rabbit/tx_0
+  rotate: false
+  xy: 757, 1288
+  size: 172, 132
+  orig: 172, 132
+  offset: 0, 0
+  index: -1
+Rabbit/tx_4
+  rotate: false
+  xy: 1, 185
+  size: 552, 150
+  orig: 552, 150
+  offset: 0, 0
+  index: -1

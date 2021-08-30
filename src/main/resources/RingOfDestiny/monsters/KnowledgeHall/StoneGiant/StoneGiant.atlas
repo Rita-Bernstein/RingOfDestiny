@@ -1,0 +1,118 @@
+
+StoneGiant.png
+size: 910,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+StoneGiant/touyi
+  rotate: false
+  xy: 107, 948
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+StoneGiant/youbi
+  rotate: false
+  xy: 596, 742
+  size: 161, 189
+  orig: 161, 189
+  offset: 0, 0
+  index: -1
+StoneGiant/youshou
+  rotate: false
+  xy: 596, 933
+  size: 100, 88
+  orig: 100, 88
+  offset: 0, 0
+  index: -1
+StoneGiant/youbi(2)(2)
+  rotate: false
+  xy: 286, 769
+  size: 106, 178
+  orig: 106, 178
+  offset: 0, 0
+  index: -1
+StoneGiant/youjio
+  rotate: false
+  xy: 1, 1
+  size: 238, 485
+  orig: 238, 485
+  offset: 0, 0
+  index: -1
+StoneGiant/youtui
+  rotate: false
+  xy: 241, 1
+  size: 193, 417
+  orig: 193, 417
+  offset: 0, 0
+  index: -1
+StoneGiant/youtui(2)
+  rotate: false
+  xy: 365, 420
+  size: 198, 320
+  orig: 198, 320
+  offset: 0, 0
+  index: -1
+StoneGiant/kua
+  rotate: false
+  xy: 436, 1
+  size: 153, 118
+  orig: 153, 118
+  offset: 0, 0
+  index: -1
+StoneGiant/zuojio
+  rotate: false
+  xy: 436, 121
+  size: 137, 121
+  orig: 137, 121
+  offset: 0, 0
+  index: -1
+StoneGiant/zuotui
+  rotate: false
+  xy: 565, 244
+  size: 103, 110
+  orig: 103, 110
+  offset: 0, 0
+  index: -1
+StoneGiant/zuotui(2)
+  rotate: false
+  xy: 160, 769
+  size: 124, 177
+  orig: 124, 177
+  offset: 0, 0
+  index: -1
+StoneGiant/shenti
+  rotate: false
+  xy: 1, 488
+  size: 362, 279
+  orig: 362, 279
+  offset: 0, 0
+  index: -1
+StoneGiant/zuobi
+  rotate: false
+  xy: 1, 769
+  size: 157, 155
+  orig: 157, 155
+  offset: 0, 0
+  index: -1
+StoneGiant/zuoshou
+  rotate: false
+  xy: 1, 926
+  size: 104, 96
+  orig: 104, 96
+  offset: 0, 0
+  index: -1
+StoneGiant/zuobi(2)
+  rotate: false
+  xy: 759, 742
+  size: 149, 190
+  orig: 149, 190
+  offset: 0, 0
+  index: -1
+StoneGiant/tou
+  rotate: false
+  xy: 436, 742
+  size: 158, 258
+  orig: 158, 258
+  offset: 0, 0
+  index: -1

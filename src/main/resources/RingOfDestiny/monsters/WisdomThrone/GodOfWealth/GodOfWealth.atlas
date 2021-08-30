@@ -1,0 +1,272 @@
+
+GodOfWealth.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GodOfWealth/bg_2_2
+  rotate: false
+  xy: 263, 185
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+GodOfWealth/h
+  rotate: false
+  xy: 276, 1
+  size: 207, 186
+  orig: 207, 186
+  offset: 0, 0
+  index: -1
+GodOfWealth/xiang
+  rotate: false
+  xy: 1, 1
+  size: 273, 182
+  orig: 273, 182
+  offset: 0, 0
+  index: -1
+GodOfWealth/gz
+  rotate: false
+  xy: 126, 519
+  size: 237, 58
+  orig: 237, 58
+  offset: 0, 0
+  index: -1
+GodOfWealth/xiuziyou
+  rotate: false
+  xy: 1, 720
+  size: 79, 108
+  orig: 79, 108
+  offset: 0, 0
+  index: -1
+GodOfWealth/xiuziyou_2
+  rotate: false
+  xy: 1, 185
+  size: 139, 200
+  orig: 139, 200
+  offset: 0, 0
+  index: -1
+GodOfWealth/youbi
+  rotate: false
+  xy: 469, 733
+  size: 41, 69
+  orig: 41, 69
+  offset: 0, 0
+  index: -1
+GodOfWealth/youbi_2
+  rotate: false
+  xy: 200, 669
+  size: 74, 72
+  orig: 74, 72
+  offset: 0, 0
+  index: -1
+GodOfWealth/youshou
+  rotate: false
+  xy: 416, 490
+  size: 41, 22
+  orig: 41, 22
+  offset: 0, 0
+  index: -1
+GodOfWealth/yifuhou
+  rotate: false
+  xy: 142, 185
+  size: 119, 229
+  orig: 119, 229
+  offset: 0, 0
+  index: -1
+GodOfWealth/bianzi
+  rotate: false
+  xy: 263, 392
+  size: 151, 125
+  orig: 151, 125
+  offset: 0, 0
+  index: -1
+GodOfWealth/youtui
+  rotate: false
+  xy: 126, 579
+  size: 72, 174
+  orig: 72, 174
+  offset: 0, 0
+  index: -1
+GodOfWealth/youtui_2
+  rotate: false
+  xy: 365, 519
+  size: 143, 69
+  orig: 143, 69
+  offset: 0, 0
+  index: -1
+GodOfWealth/daizi
+  rotate: false
+  xy: 355, 656
+  size: 53, 79
+  orig: 53, 79
+  offset: 0, 0
+  index: -1
+GodOfWealth/zuotui
+  rotate: false
+  xy: 364, 189
+  size: 84, 182
+  orig: 84, 182
+  offset: 0, 0
+  index: -1
+GodOfWealth/zuotui_2
+  rotate: false
+  xy: 1, 600
+  size: 101, 118
+  orig: 101, 118
+  offset: 0, 0
+  index: -1
+GodOfWealth/yao
+  rotate: false
+  xy: 355, 590
+  size: 71, 64
+  orig: 71, 64
+  offset: 0, 0
+  index: -1
+GodOfWealth/shenti
+  rotate: false
+  xy: 200, 579
+  size: 82, 88
+  orig: 82, 88
+  offset: 0, 0
+  index: -1
+GodOfWealth/zhuangshi
+  rotate: false
+  xy: 221, 416
+  size: 35, 90
+  orig: 35, 90
+  offset: 0, 0
+  index: -1
+GodOfWealth/zhuangshi_2
+  rotate: false
+  xy: 459, 490
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+GodOfWealth/yifuyou
+  rotate: false
+  xy: 263, 189
+  size: 99, 201
+  orig: 99, 201
+  offset: 0, 0
+  index: -1
+GodOfWealth/xiuzizuo
+  rotate: false
+  xy: 126, 416
+  size: 93, 98
+  orig: 93, 98
+  offset: 0, 0
+  index: -1
+GodOfWealth/xiuzizuo_2
+  rotate: false
+  xy: 1, 387
+  size: 123, 211
+  orig: 123, 211
+  offset: 0, 0
+  index: -1
+GodOfWealth/zuobi
+  rotate: false
+  xy: 450, 189
+  size: 57, 105
+  orig: 57, 105
+  offset: 0, 0
+  index: -1
+GodOfWealth/zuobi_2
+  rotate: false
+  xy: 284, 579
+  size: 69, 97
+  orig: 69, 97
+  offset: 0, 0
+  index: -1
+GodOfWealth/jianbang
+  rotate: false
+  xy: 344, 737
+  size: 33, 74
+  orig: 33, 74
+  offset: 0, 0
+  index: -1
+GodOfWealth/jianbang_2
+  rotate: false
+  xy: 428, 590
+  size: 55, 82
+  orig: 55, 82
+  offset: 0, 0
+  index: -1
+GodOfWealth/bozi
+  rotate: false
+  xy: 383, 737
+  size: 25, 38
+  orig: 25, 38
+  offset: 0, 0
+  index: -1
+GodOfWealth/toufahou
+  rotate: false
+  xy: 276, 678
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+GodOfWealth/tou
+  rotate: false
+  xy: 450, 296
+  size: 58, 65
+  orig: 58, 65
+  offset: 0, 0
+  index: -1
+GodOfWealth/toufa
+  rotate: false
+  xy: 276, 742
+  size: 45, 41
+  orig: 45, 41
+  offset: 0, 0
+  index: -1
+GodOfWealth/toufa_3
+  rotate: false
+  xy: 82, 720
+  size: 38, 69
+  orig: 38, 69
+  offset: 0, 0
+  index: -1
+GodOfWealth/toufa_2
+  rotate: false
+  xy: 344, 813
+  size: 37, 62
+  orig: 37, 62
+  offset: 0, 0
+  index: -1
+GodOfWealth/liuhai
+  rotate: false
+  xy: 474, 674
+  size: 20, 42
+  orig: 20, 42
+  offset: 0, 0
+  index: -1
+GodOfWealth/lian
+  rotate: false
+  xy: 383, 789
+  size: 42, 32
+  orig: 42, 32
+  offset: 0, 0
+  index: -1
+GodOfWealth/maozi
+  rotate: false
+  xy: 410, 733
+  size: 57, 54
+  orig: 57, 54
+  offset: 0, 0
+  index: -1
+GodOfWealth/yu
+  rotate: false
+  xy: 416, 373
+  size: 83, 115
+  orig: 83, 115
+  offset: 0, 0
+  index: -1
+GodOfWealth/yun
+  rotate: false
+  xy: 410, 674
+  size: 62, 57
+  orig: 62, 57
+  offset: 0, 0
+  index: -1

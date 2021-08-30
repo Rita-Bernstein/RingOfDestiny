@@ -1,0 +1,97 @@
+
+Jack.png
+size: 931,502
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Jack/youbi
+  rotate: false
+  xy: 542, 324
+  size: 67, 171
+  orig: 67, 171
+  offset: 0, 0
+  index: -1
+Jack/youbi(2)
+  rotate: false
+  xy: 378, 324
+  size: 162, 121
+  orig: 162, 121
+  offset: 0, 0
+  index: -1
+Jack/youtui
+  rotate: false
+  xy: 619, 1
+  size: 121, 304
+  orig: 121, 304
+  offset: 0, 0
+  index: -1
+Jack/youtui(2)
+  rotate: false
+  xy: 190, 1
+  size: 166, 252
+  orig: 166, 252
+  offset: 0, 0
+  index: -1
+Jack/zuotui
+  rotate: false
+  xy: 499, 1
+  size: 118, 321
+  orig: 118, 321
+  offset: 0, 0
+  index: -1
+Jack/zuotui(2)
+  rotate: false
+  xy: 358, 1
+  size: 139, 278
+  orig: 139, 278
+  offset: 0, 0
+  index: -1
+Jack/kua
+  rotate: false
+  xy: 742, 179
+  size: 156, 97
+  orig: 156, 97
+  offset: 0, 0
+  index: -1
+Jack/shenti
+  rotate: false
+  xy: 1, 1
+  size: 187, 286
+  orig: 187, 286
+  offset: 0, 0
+  index: -1
+Jack/tou
+  rotate: false
+  xy: 1, 289
+  size: 160, 211
+  orig: 160, 211
+  offset: 0, 0
+  index: -1
+Jack/zuobi
+  rotate: false
+  xy: 742, 1
+  size: 111, 176
+  orig: 111, 176
+  offset: 0, 0
+  index: -1
+Jack/wuqi
+  rotate: false
+  xy: 619, 307
+  size: 168, 189
+  orig: 168, 189
+  offset: 0, 0
+  index: -1
+Jack/zuobi(2)
+  rotate: false
+  xy: 190, 281
+  size: 186, 188
+  orig: 186, 188
+  offset: 0, 0
+  index: -1
+Jack/lian
+  rotate: false
+  xy: 855, 1
+  size: 74, 69
+  orig: 74, 69
+  offset: 0, 0
+  index: -1

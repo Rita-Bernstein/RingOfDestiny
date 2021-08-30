@@ -1,0 +1,454 @@
+
+PiscesEros.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PiscesEros/gaizi
+  rotate: false
+  xy: 1, 1
+  size: 326, 265
+  orig: 326, 265
+  offset: 0, 0
+  index: -1
+PiscesEros/shanhu_1
+  rotate: false
+  xy: 1, 575
+  size: 161, 165
+  orig: 161, 165
+  offset: 0, 0
+  index: -1
+PiscesEros/shanhu_0
+  rotate: false
+  xy: 316, 931
+  size: 75, 72
+  orig: 75, 72
+  offset: 0, 0
+  index: -1
+PiscesEros/shanhu
+  rotate: false
+  xy: 218, 268
+  size: 196, 153
+  orig: 196, 153
+  offset: 0, 0
+  index: -1
+PiscesEros/pp_8
+  rotate: false
+  xy: 467, 802
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+PiscesEros/pp_6
+  rotate: false
+  xy: 487, 985
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+PiscesEros/pp_5
+  rotate: false
+  xy: 207, 992
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+PiscesEros/pp_7
+  rotate: false
+  xy: 464, 985
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+PiscesEros/pp_4
+  rotate: false
+  xy: 174, 979
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+PiscesEros/pp_3
+  rotate: false
+  xy: 441, 985
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+PiscesEros/pp_2
+  rotate: false
+  xy: 439, 802
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+PiscesEros/pp_1
+  rotate: false
+  xy: 370, 224
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+PiscesEros/dizuo
+  rotate: false
+  xy: 1, 472
+  size: 339, 101
+  orig: 339, 101
+  offset: 0, 0
+  index: -1
+PiscesEros/fa_5
+  rotate: false
+  xy: 1, 742
+  size: 110, 109
+  orig: 110, 109
+  offset: 0, 0
+  index: -1
+PiscesEros/fa_4
+  rotate: false
+  xy: 416, 224
+  size: 90, 185
+  orig: 90, 185
+  offset: 0, 0
+  index: -1
+PiscesEros/fa_3
+  rotate: false
+  xy: 342, 423
+  size: 141, 198
+  orig: 141, 198
+  offset: 0, 0
+  index: -1
+PiscesEros/fa_2
+  rotate: false
+  xy: 153, 856
+  size: 59, 121
+  orig: 59, 121
+  offset: 0, 0
+  index: -1
+PiscesEros/hyl
+  rotate: false
+  xy: 214, 931
+  size: 100, 59
+  orig: 100, 59
+  offset: 0, 0
+  index: -1
+PiscesEros/zdb
+  rotate: false
+  xy: 380, 753
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+PiscesEros/yao
+  rotate: false
+  xy: 358, 872
+  size: 68, 48
+  orig: 68, 48
+  offset: 0, 0
+  index: -1
+PiscesEros/st_1
+  rotate: false
+  xy: 1, 931
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+PiscesEros/zhuangshi_2
+  rotate: false
+  xy: 428, 900
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+PiscesEros/zhuangshi_1
+  rotate: false
+  xy: 428, 884
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+PiscesEros/zhuangshi_0
+  rotate: false
+  xy: 428, 868
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+PiscesEros/zhuangshi
+  rotate: false
+  xy: 284, 839
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+PiscesEros/liuhai_1
+  rotate: false
+  xy: 479, 753
+  size: 29, 71
+  orig: 29, 71
+  offset: 0, 0
+  index: -1
+PiscesEros/ydb
+  rotate: false
+  xy: 83, 931
+  size: 59, 82
+  orig: 59, 82
+  offset: 0, 0
+  index: -1
+PiscesEros/yxb
+  rotate: false
+  xy: 446, 868
+  size: 33, 63
+  orig: 33, 63
+  offset: 0, 0
+  index: -1
+PiscesEros/ys
+  rotate: false
+  xy: 329, 224
+  size: 39, 29
+  orig: 39, 29
+  offset: 0, 0
+  index: -1
+PiscesEros/datui
+  rotate: false
+  xy: 1, 853
+  size: 150, 76
+  orig: 150, 76
+  offset: 0, 0
+  index: -1
+PiscesEros/zhenzhu_0
+  rotate: false
+  xy: 164, 575
+  size: 167, 155
+  orig: 167, 155
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_10
+  rotate: false
+  xy: 333, 623
+  size: 173, 128
+  orig: 173, 128
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_9
+  rotate: false
+  xy: 1, 268
+  size: 215, 202
+  orig: 215, 202
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_8
+  rotate: false
+  xy: 164, 732
+  size: 118, 122
+  orig: 118, 122
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_7
+  rotate: false
+  xy: 329, 1
+  size: 154, 221
+  orig: 154, 221
+  offset: 0, 0
+  index: -1
+PiscesEros/biaoji
+  rotate: false
+  xy: 479, 826
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+PiscesEros/zxb
+  rotate: false
+  xy: 439, 753
+  size: 28, 47
+  orig: 28, 47
+  offset: 0, 0
+  index: -1
+PiscesEros/zs
+  rotate: false
+  xy: 237, 992
+  size: 38, 20
+  orig: 38, 20
+  offset: 0, 0
+  index: -1
+PiscesEros/bozi
+  rotate: false
+  xy: 144, 979
+  size: 28, 44
+  orig: 28, 44
+  offset: 0, 0
+  index: -1
+PiscesEros/tou
+  rotate: false
+  xy: 393, 922
+  size: 51, 61
+  orig: 51, 61
+  offset: 0, 0
+  index: -1
+PiscesEros/bq_1
+  rotate: false
+  xy: 418, 985
+  size: 21, 31
+  orig: 21, 31
+  offset: 0, 0
+  index: -1
+PiscesEros/bq_2
+  rotate: false
+  xy: 393, 985
+  size: 23, 31
+  orig: 23, 31
+  offset: 0, 0
+  index: -1
+PiscesEros/fa_1
+  rotate: false
+  xy: 358, 818
+  size: 68, 52
+  orig: 68, 52
+  offset: 0, 0
+  index: -1
+PiscesEros/fa_0
+  rotate: false
+  xy: 113, 742
+  size: 28, 100
+  orig: 28, 100
+  offset: 0, 0
+  index: -1
+PiscesEros/fa
+  rotate: false
+  xy: 428, 814
+  size: 49, 52
+  orig: 49, 52
+  offset: 0, 0
+  index: -1
+PiscesEros/erduo
+  rotate: false
+  xy: 322, 732
+  size: 9, 17
+  orig: 9, 17
+  offset: 0, 0
+  index: -1
+PiscesEros/erhuan
+  rotate: false
+  xy: 284, 818
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+PiscesEros/liuhai_0
+  rotate: false
+  xy: 304, 818
+  size: 52, 70
+  orig: 52, 70
+  offset: 0, 0
+  index: -1
+PiscesEros/liuhai
+  rotate: false
+  xy: 304, 890
+  size: 46, 30
+  orig: 46, 30
+  offset: 0, 0
+  index: -1
+PiscesEros/zhenzhu
+  rotate: false
+  xy: 333, 575
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_6
+  rotate: false
+  xy: 284, 753
+  size: 94, 63
+  orig: 94, 63
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_5
+  rotate: false
+  xy: 237, 1014
+  size: 16, 9
+  orig: 16, 9
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_4
+  rotate: false
+  xy: 174, 1011
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+PiscesEros/st_0
+  rotate: false
+  xy: 284, 732
+  size: 36, 19
+  orig: 36, 19
+  offset: 0, 0
+  index: -1
+PiscesEros/wei_2
+  rotate: false
+  xy: 338, 1005
+  size: 23, 14
+  orig: 23, 14
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_3
+  rotate: false
+  xy: 255, 1014
+  size: 16, 7
+  orig: 16, 7
+  offset: 0, 0
+  index: -1
+PiscesEros/wei_1
+  rotate: false
+  xy: 310, 1005
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_2
+  rotate: false
+  xy: 214, 856
+  size: 88, 73
+  orig: 88, 73
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_1
+  rotate: false
+  xy: 188, 1011
+  size: 17, 6
+  orig: 17, 6
+  offset: 0, 0
+  index: -1
+PiscesEros/qi_0
+  rotate: false
+  xy: 451, 802
+  size: 14, 6
+  orig: 14, 6
+  offset: 0, 0
+  index: -1
+PiscesEros/st
+  rotate: false
+  xy: 277, 992
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+PiscesEros/wei_0
+  rotate: false
+  xy: 363, 1005
+  size: 22, 13
+  orig: 22, 13
+  offset: 0, 0
+  index: -1
+PiscesEros/qi
+  rotate: false
+  xy: 401, 252
+  size: 10, 14
+  orig: 10, 14
+  offset: 0, 0
+  index: -1
+PiscesEros/wei
+  rotate: false
+  xy: 401, 224
+  size: 13, 26
+  orig: 13, 26
+  offset: 0, 0
+  index: -1

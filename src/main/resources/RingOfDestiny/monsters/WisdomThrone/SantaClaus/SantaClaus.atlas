@@ -1,0 +1,244 @@
+
+SantaClaus.png
+size: 1959,1692
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SantaClaus/b_2
+  rotate: false
+  xy: 1213, 394
+  size: 307, 107
+  orig: 307, 107
+  offset: 0, 0
+  index: -1
+SantaClaus/bao_2
+  rotate: false
+  xy: 1610, 351
+  size: 287, 180
+  orig: 287, 180
+  offset: 0, 0
+  index: -1
+SantaClaus/bao
+  rotate: false
+  xy: 1, 1036
+  size: 250, 273
+  orig: 250, 273
+  offset: 0, 0
+  index: -1
+SantaClaus/lingdang
+  rotate: false
+  xy: 185, 1466
+  size: 99, 95
+  orig: 99, 95
+  offset: 0, 0
+  index: -1
+SantaClaus/b
+  rotate: false
+  xy: 1522, 394
+  size: 76, 145
+  orig: 76, 145
+  offset: 0, 0
+  index: -1
+SantaClaus/zuotui_0
+  rotate: false
+  xy: 902, 785
+  size: 189, 124
+  orig: 189, 124
+  offset: 0, 0
+  index: -1
+SantaClaus/lunzi_2
+  rotate: false
+  xy: 1610, 1
+  size: 347, 348
+  orig: 347, 348
+  offset: 0, 0
+  index: -1
+SantaClaus/lunzi
+  rotate: false
+  xy: 1213, 1
+  size: 395, 391
+  orig: 395, 391
+  offset: 0, 0
+  index: -1
+SantaClaus/ql
+  rotate: false
+  xy: 298, 785
+  size: 288, 251
+  orig: 288, 251
+  offset: 0, 0
+  index: -1
+SantaClaus/mtcst
+  rotate: false
+  xy: 1, 1
+  size: 1210, 568
+  orig: 1210, 568
+  offset: 0, 0
+  index: -1
+SantaClaus/paiqiguan
+  rotate: false
+  xy: 717, 963
+  size: 292, 105
+  orig: 292, 105
+  offset: 0, 0
+  index: -1
+SantaClaus/chetou
+  rotate: false
+  xy: 1212, 571
+  size: 528, 390
+  orig: 528, 390
+  offset: 0, 0
+  index: -1
+SantaClaus/fuwen
+  rotate: false
+  xy: 1, 571
+  size: 1209, 212
+  orig: 1209, 212
+  offset: 0, 0
+  index: -1
+SantaClaus/toufahou
+  rotate: false
+  xy: 1, 785
+  size: 295, 249
+  orig: 295, 249
+  offset: 0, 0
+  index: -1
+SantaClaus/youbi
+  rotate: false
+  xy: 316, 1359
+  size: 86, 68
+  orig: 86, 68
+  offset: 0, 0
+  index: -1
+SantaClaus/youbi_2
+  rotate: false
+  xy: 442, 1373
+  size: 103, 102
+  orig: 103, 102
+  offset: 0, 0
+  index: -1
+SantaClaus/shenti
+  rotate: false
+  xy: 253, 1038
+  size: 192, 203
+  orig: 192, 203
+  offset: 0, 0
+  index: -1
+SantaClaus/xiong
+  rotate: false
+  xy: 286, 1462
+  size: 83, 86
+  orig: 83, 86
+  offset: 0, 0
+  index: -1
+SantaClaus/wuqi
+  rotate: false
+  xy: 1, 1311
+  size: 84, 245
+  orig: 84, 245
+  offset: 0, 0
+  index: -1
+SantaClaus/xiong_2
+  rotate: false
+  xy: 87, 1466
+  size: 96, 102
+  orig: 96, 102
+  offset: 0, 0
+  index: -1
+SantaClaus/zuotui2
+  rotate: false
+  xy: 447, 1038
+  size: 123, 231
+  orig: 123, 231
+  offset: 0, 0
+  index: -1
+SantaClaus/zuojio
+  rotate: false
+  xy: 717, 1070
+  size: 119, 121
+  orig: 119, 121
+  offset: 0, 0
+  index: -1
+SantaClaus/zuotui
+  rotate: false
+  xy: 588, 785
+  size: 127, 311
+  orig: 127, 311
+  offset: 0, 0
+  index: -1
+SantaClaus/yao
+  rotate: false
+  xy: 1011, 963
+  size: 153, 119
+  orig: 153, 119
+  offset: 0, 0
+  index: -1
+SantaClaus/zuobi
+  rotate: false
+  xy: 87, 1311
+  size: 133, 153
+  orig: 133, 153
+  offset: 0, 0
+  index: -1
+SantaClaus/zuobi_2
+  rotate: false
+  xy: 253, 1243
+  size: 187, 114
+  orig: 187, 114
+  offset: 0, 0
+  index: -1
+SantaClaus/touface
+  rotate: false
+  xy: 442, 1271
+  size: 109, 100
+  orig: 109, 100
+  offset: 0, 0
+  index: -1
+SantaClaus/touface_2
+  rotate: false
+  xy: 717, 785
+  size: 183, 149
+  orig: 183, 149
+  offset: 0, 0
+  index: -1
+SantaClaus/tou
+  rotate: false
+  xy: 1093, 785
+  size: 114, 123
+  orig: 114, 123
+  offset: 0, 0
+  index: -1
+SantaClaus/toufa
+  rotate: false
+  xy: 1, 1558
+  size: 67, 132
+  orig: 67, 132
+  offset: 0, 0
+  index: -1
+SantaClaus/toufa_2
+  rotate: false
+  xy: 222, 1359
+  size: 92, 101
+  orig: 92, 101
+  offset: 0, 0
+  index: -1
+SantaClaus/maozi
+  rotate: false
+  xy: 572, 1227
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+SantaClaus/lian
+  rotate: false
+  xy: 1213, 503
+  size: 74, 63
+  orig: 74, 63
+  offset: 0, 0
+  index: -1
+SantaClaus/liwu
+  rotate: false
+  xy: 572, 1098
+  size: 106, 127
+  orig: 106, 127
+  offset: 0, 0
+  index: -1

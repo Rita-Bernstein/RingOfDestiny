@@ -1,0 +1,62 @@
+
+PaperBird.png
+size: 724,932
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PaperBird/fwb
+  rotate: false
+  xy: 1, 594
+  size: 120, 336
+  orig: 120, 336
+  offset: 0, 0
+  index: -1
+PaperBird/fcb_2
+  rotate: false
+  xy: 123, 594
+  size: 181, 211
+  orig: 181, 211
+  offset: 0, 0
+  index: -1
+PaperBird/fst
+  rotate: false
+  xy: 1, 1
+  size: 346, 304
+  orig: 346, 304
+  offset: 0, 0
+  index: -1
+PaperBird/fcb_1
+  rotate: false
+  xy: 349, 1
+  size: 319, 190
+  orig: 319, 190
+  offset: 0, 0
+  index: -1
+PaperBird/wb
+  rotate: false
+  xy: 350, 193
+  size: 171, 306
+  orig: 171, 306
+  offset: 0, 0
+  index: -1
+PaperBird/cb_2
+  rotate: false
+  xy: 523, 193
+  size: 199, 152
+  orig: 199, 152
+  offset: 0, 0
+  index: -1
+PaperBird/st
+  rotate: false
+  xy: 1, 307
+  size: 347, 285
+  orig: 347, 285
+  offset: 0, 0
+  index: -1
+PaperBird/cb_1
+  rotate: false
+  xy: 350, 501
+  size: 196, 236
+  orig: 196, 236
+  offset: 0, 0
+  index: -1

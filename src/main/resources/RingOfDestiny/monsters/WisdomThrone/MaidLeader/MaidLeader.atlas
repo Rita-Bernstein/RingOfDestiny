@@ -1,0 +1,216 @@
+
+MaidLeader.png
+size: 1019,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MaidLeader/qunzihou
+  rotate: false
+  xy: 1, 321
+  size: 480, 220
+  orig: 480, 220
+  offset: 0, 0
+  index: -1
+MaidLeader/hudiejie
+  rotate: false
+  xy: 1, 543
+  size: 275, 178
+  orig: 275, 178
+  offset: 0, 0
+  index: -1
+MaidLeader/youtui
+  rotate: false
+  xy: 599, 509
+  size: 89, 282
+  orig: 89, 282
+  offset: 0, 0
+  index: -1
+MaidLeader/youjio
+  rotate: false
+  xy: 690, 509
+  size: 119, 99
+  orig: 119, 99
+  offset: 0, 0
+  index: -1
+MaidLeader/youtui_2
+  rotate: false
+  xy: 707, 1
+  size: 75, 232
+  orig: 75, 232
+  offset: 0, 0
+  index: -1
+MaidLeader/zuotui
+  rotate: false
+  xy: 599, 1
+  size: 106, 278
+  orig: 106, 278
+  offset: 0, 0
+  index: -1
+MaidLeader/zuojio
+  rotate: false
+  xy: 784, 114
+  size: 69, 115
+  orig: 69, 115
+  offset: 0, 0
+  index: -1
+MaidLeader/zuotui_2
+  rotate: false
+  xy: 599, 281
+  size: 117, 226
+  orig: 117, 226
+  offset: 0, 0
+  index: -1
+MaidLeader/toufahou
+  rotate: false
+  xy: 267, 827
+  size: 218, 192
+  orig: 218, 192
+  offset: 0, 0
+  index: -1
+MaidLeader/bozi
+  rotate: false
+  xy: 895, 248
+  size: 34, 47
+  orig: 34, 47
+  offset: 0, 0
+  index: -1
+MaidLeader/tou
+  rotate: false
+  xy: 599, 793
+  size: 111, 113
+  orig: 111, 113
+  offset: 0, 0
+  index: -1
+MaidLeader/zuobi
+  rotate: false
+  xy: 487, 827
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+MaidLeader/zuobi_2
+  rotate: false
+  xy: 799, 231
+  size: 94, 77
+  orig: 94, 77
+  offset: 0, 0
+  index: -1
+MaidLeader/zuoshou_4
+  rotate: false
+  xy: 940, 74
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+MaidLeader/zuoshou
+  rotate: false
+  xy: 895, 193
+  size: 71, 53
+  orig: 71, 53
+  offset: 0, 0
+  index: -1
+MaidLeader/zuoshou_3
+  rotate: false
+  xy: 399, 738
+  size: 81, 72
+  orig: 81, 72
+  offset: 0, 0
+  index: -1
+MaidLeader/youbi
+  rotate: false
+  xy: 267, 738
+  size: 130, 85
+  orig: 130, 85
+  offset: 0, 0
+  index: -1
+MaidLeader/youbi_2
+  rotate: false
+  xy: 799, 310
+  size: 113, 48
+  orig: 113, 48
+  offset: 0, 0
+  index: -1
+MaidLeader/youshou
+  rotate: false
+  xy: 947, 133
+  size: 70, 44
+  orig: 70, 44
+  offset: 0, 0
+  index: -1
+MaidLeader/youshou_4
+  rotate: false
+  xy: 223, 906
+  size: 27, 74
+  orig: 27, 74
+  offset: 0, 0
+  index: -1
+MaidLeader/youshou_3
+  rotate: false
+  xy: 868, 1
+  size: 77, 71
+  orig: 77, 71
+  offset: 0, 0
+  index: -1
+MaidLeader/shenti
+  rotate: false
+  xy: 1, 1
+  size: 465, 318
+  orig: 465, 318
+  offset: 0, 0
+  index: -1
+MaidLeader/shenti_2
+  rotate: false
+  xy: 278, 543
+  size: 156, 193
+  orig: 156, 193
+  offset: 0, 0
+  index: -1
+MaidLeader/weiqun
+  rotate: false
+  xy: 1, 723
+  size: 264, 181
+  orig: 264, 181
+  offset: 0, 0
+  index: -1
+MaidLeader/toufa
+  rotate: false
+  xy: 718, 235
+  size: 79, 141
+  orig: 79, 141
+  offset: 0, 0
+  index: -1
+MaidLeader/toufa_2
+  rotate: false
+  xy: 784, 1
+  size: 82, 111
+  orig: 82, 111
+  offset: 0, 0
+  index: -1
+MaidLeader/toushi
+  rotate: false
+  xy: 1, 906
+  size: 220, 111
+  orig: 220, 111
+  offset: 0, 0
+  index: -1
+MaidLeader/lian
+  rotate: false
+  xy: 855, 114
+  size: 83, 77
+  orig: 83, 77
+  offset: 0, 0
+  index: -1
+MaidLeader/wuqi
+  rotate: false
+  xy: 483, 1
+  size: 114, 824
+  orig: 114, 824
+  offset: 0, 0
+  index: -1
+MaidLeader/shouzhi
+  rotate: false
+  xy: 947, 1
+  size: 66, 42
+  orig: 66, 42
+  offset: 0, 0
+  index: -1

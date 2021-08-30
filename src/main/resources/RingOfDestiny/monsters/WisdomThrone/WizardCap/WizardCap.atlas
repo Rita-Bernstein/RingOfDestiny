@@ -1,0 +1,13 @@
+
+WizardCap.png
+size: 340,236
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+WizardCap/mao
+  rotate: false
+  xy: 1, 1
+  size: 337, 233
+  orig: 337, 233
+  offset: 0, 0
+  index: -1

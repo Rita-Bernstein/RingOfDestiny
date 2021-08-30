@@ -1,0 +1,174 @@
+
+Mummy.png
+size: 681,1016
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Mummy/touyi
+  rotate: false
+  xy: 1, 939
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+Mummy/bianzizuo
+  rotate: false
+  xy: 281, 1
+  size: 188, 511
+  orig: 188, 511
+  offset: 0, 0
+  index: -1
+Mummy/daizi
+  rotate: false
+  xy: 1, 519
+  size: 241, 154
+  orig: 241, 154
+  offset: 0, 0
+  index: -1
+Mummy/zuotui
+  rotate: false
+  xy: 471, 1
+  size: 90, 238
+  orig: 90, 238
+  offset: 0, 0
+  index: -1
+Mummy/zuotui_2
+  rotate: false
+  xy: 196, 675
+  size: 83, 222
+  orig: 83, 222
+  offset: 0, 0
+  index: -1
+Mummy/zuojiao
+  rotate: false
+  xy: 424, 791
+  size: 47, 77
+  orig: 47, 77
+  offset: 0, 0
+  index: -1
+Mummy/youtui
+  rotate: false
+  xy: 105, 675
+  size: 89, 249
+  orig: 89, 249
+  offset: 0, 0
+  index: -1
+Mummy/youtui_2
+  rotate: false
+  xy: 1, 675
+  size: 102, 262
+  orig: 102, 262
+  offset: 0, 0
+  index: -1
+Mummy/youjiao
+  rotate: false
+  xy: 305, 877
+  size: 69, 72
+  orig: 69, 72
+  offset: 0, 0
+  index: -1
+Mummy/yao
+  rotate: false
+  xy: 196, 899
+  size: 107, 111
+  orig: 107, 111
+  offset: 0, 0
+  index: -1
+Mummy/youbi
+  rotate: false
+  xy: 281, 791
+  size: 61, 84
+  orig: 61, 84
+  offset: 0, 0
+  index: -1
+Mummy/xiong
+  rotate: false
+  xy: 281, 514
+  size: 286, 275
+  orig: 286, 275
+  offset: 0, 0
+  index: -1
+Mummy/youshou
+  rotate: false
+  xy: 344, 791
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+Mummy/zuobi_2
+  rotate: false
+  xy: 600, 245
+  size: 59, 121
+  orig: 59, 121
+  offset: 0, 0
+  index: -1
+Mummy/zuobi
+  rotate: false
+  xy: 431, 951
+  size: 81, 57
+  orig: 81, 57
+  offset: 0, 0
+  index: -1
+Mummy/zuoshou
+  rotate: false
+  xy: 376, 879
+  size: 40, 43
+  orig: 40, 43
+  offset: 0, 0
+  index: -1
+Mummy/bozi
+  rotate: false
+  xy: 305, 951
+  size: 35, 63
+  orig: 35, 63
+  offset: 0, 0
+  index: -1
+Mummy/toufahou
+  rotate: false
+  xy: 471, 241
+  size: 127, 139
+  orig: 127, 139
+  offset: 0, 0
+  index: -1
+Mummy/lian_0
+  rotate: false
+  xy: 563, 1
+  size: 116, 129
+  orig: 116, 129
+  offset: 0, 0
+  index: -1
+Mummy/liuhaizuo
+  rotate: false
+  xy: 600, 132
+  size: 67, 111
+  orig: 67, 111
+  offset: 0, 0
+  index: -1
+Mummy/liuhaiyou
+  rotate: false
+  xy: 471, 382
+  size: 136, 111
+  orig: 136, 111
+  offset: 0, 0
+  index: -1
+Mummy/liuhai
+  rotate: false
+  xy: 376, 791
+  size: 46, 86
+  orig: 46, 86
+  offset: 0, 0
+  index: -1
+Mummy/bianziyou
+  rotate: false
+  xy: 1, 1
+  size: 278, 516
+  orig: 278, 516
+  offset: 0, 0
+  index: -1
+Mummy/lian
+  rotate: false
+  xy: 344, 951
+  size: 85, 58
+  orig: 85, 58
+  offset: 0, 0
+  index: -1

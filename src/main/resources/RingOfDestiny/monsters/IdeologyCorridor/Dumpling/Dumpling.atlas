@@ -1,0 +1,76 @@
+
+Dumpling.png
+size: 1007,453
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dumpling/touyi
+  rotate: false
+  xy: 736, 1
+  size: 172, 53
+  orig: 172, 53
+  offset: 0, 0
+  index: -1
+Dumpling/zj
+  rotate: false
+  xy: 1, 308
+  size: 628, 29
+  orig: 628, 29
+  offset: 0, 0
+  index: -1
+Dumpling/zs
+  rotate: false
+  xy: 910, 1
+  size: 76, 112
+  orig: 76, 112
+  offset: 0, 0
+  index: -1
+Dumpling/st
+  rotate: false
+  xy: 1, 1
+  size: 310, 305
+  orig: 310, 305
+  offset: 0, 0
+  index: -1
+Dumpling/yj
+  rotate: false
+  xy: 313, 1
+  size: 145, 304
+  orig: 145, 304
+  offset: 0, 0
+  index: -1
+Dumpling/ys
+  rotate: false
+  xy: 631, 255
+  size: 71, 196
+  orig: 71, 196
+  offset: 0, 0
+  index: -1
+Dumpling/biaoqing
+  rotate: false
+  xy: 460, 135
+  size: 269, 118
+  orig: 269, 118
+  offset: 0, 0
+  index: -1
+Dumpling/bq_gj
+  rotate: false
+  xy: 731, 135
+  size: 274, 112
+  orig: 274, 112
+  offset: 0, 0
+  index: -1
+Dumpling/bq_bj
+  rotate: false
+  xy: 460, 1
+  size: 274, 132
+  orig: 274, 132
+  offset: 0, 0
+  index: -1
+Dumpling/wq
+  rotate: false
+  xy: 731, 249
+  size: 139, 190
+  orig: 139, 190
+  offset: 0, 0
+  index: -1
