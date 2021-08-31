@@ -97,20 +97,18 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
     public void update() {
         frameTimer += Gdx.graphics.getDeltaTime();
 
-        curAnimation.update();
-
         if (frameTimer >= 1.0F / (float) this.info.fps) {
-            if (curAnimation != null) {
+            if (curAnimation != null)
                 for (LayerAnimation layerAnimation : curAnimation.layerAnimations) {
                     if (layerAnimation.loop || !layerAnimation.isDone)
                         layerAnimation.currDelay++;
                 }
-
-                curAnimation.xPosition = xPosition;
-                curAnimation.yPosition = yPosition;
-            }
             frameTimer = 0;
         }
+
+        curAnimation.xPosition = xPosition;
+        curAnimation.yPosition = yPosition;
+        curAnimation.update();
 
         if (isCurAnimationDone())
             this.isDone = true;
@@ -131,6 +129,20 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
             return curAnimation.isDone;
         }
         return true;
+    }
+
+    public void resetAnimation() {
+        if (curAnimation != null) {
+            for (LayerAnimation layerAnimation : curAnimation.layerAnimations) {
+                layerAnimation.currDelay = 0;
+                layerAnimation.currFrameIndex = 0;
+                layerAnimation.currFrame = layerAnimation.frames.get(0).makeCopy();
+                layerAnimation.isDone = false;
+            }
+            curAnimation.isDone = false;
+        }
+        this.frameTimer = 0.0f;
+        this.isDone = false;
     }
 
     public boolean isCurAnimation(Animation animation) {

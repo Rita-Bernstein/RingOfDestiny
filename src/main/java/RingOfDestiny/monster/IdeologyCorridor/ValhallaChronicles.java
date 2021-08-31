@@ -144,7 +144,7 @@ public class ValhallaChronicles extends AbstractRingMonster {
 
         switch (this.nextMove) {
             case 0:
-                if (!orbs.isEmpty()){
+                if (!orbs.isEmpty()) {
                     for (ValhallaOrb orb : orbs) {
                         orb.evoke();
                     }
@@ -211,13 +211,13 @@ public class ValhallaChronicles extends AbstractRingMonster {
     public void die() {
         super.die();
 
-        if (!orbs.isEmpty()){
+        if (!orbs.isEmpty()) {
             for (ValhallaOrb orb : orbs) {
                 orb.hide();
             }
         }
 
-        if(AbstractDungeon.getMonsters().areMonstersBasicallyDead()){
+        if (AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
             AbstractDungeon.scene.fadeInAmbiance();
             CardCrawlGame.music.fadeOutTempBGM();
             this.useFastShakeAnimation(5.0F);
@@ -237,10 +237,9 @@ public class ValhallaChronicles extends AbstractRingMonster {
         super.update();
         if (!orbs.isEmpty()) {
             for (ValhallaOrb orb : orbs) {
-                orb.update();
                 orb.x = this.drawX + this.animX + this.skeleton.findBone("q_" + orb.index).getWorldX();
                 orb.y = this.drawY + this.animY + this.skeleton.findBone("q_" + orb.index).getWorldY();
-                orb.scale = this.animationScale / 0.75f;
+                orb.update();
             }
         }
     }
@@ -254,6 +253,14 @@ public class ValhallaChronicles extends AbstractRingMonster {
             }
         }
 
+    }
+
+    @Override
+    public void dispose() {
+        super.dispose();
+        if (!orbs.isEmpty())
+            for (ValhallaOrb orb : orbs)
+                orb.dispose();
     }
 }
 

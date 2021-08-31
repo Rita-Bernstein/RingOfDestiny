@@ -5,40 +5,36 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.utils.Disposable;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 
-public class ValhallaOrb {
-    public float x, y, scale;
+public class ValhallaOrb implements Disposable {
+    public float x, y;
     public int index;
     private Texture main;
 
     public boolean active = false;
-    private AbstractAtlasGameEffect vfxFg = new AbstractAtlasGameEffect("monster_10002_skill_1",
-            0.0f, 0.0f, 100.0f, 100.0f, 0.8f * Settings.scale, true);
+    private AbstractAtlasGameEffect vfxFg;
+    private AbstractAtlasGameEffect vfxBg;
+    private AbstractAtlasGameEffect evokeEffect;
 
-    private AbstractAtlasGameEffect vfxBg = new AbstractAtlasGameEffect("monster_10002_skill_2",
-            0.0f, 0.0f, 100.0f, 100.0f, 0.8f * Settings.scale, true);
-
-    private AbstractAtlasGameEffect evokeEffect = new AbstractAtlasGameEffect("monster_10002_skill_1",
-            0.0f, 0.0f, 150.0f, 150.0f, 0.8f * Settings.scale, true);
-
-
-    private boolean evokeDone = true;
     private float evokeDelayTimer = 0.0f;
 
     private boolean hide = false;
 
     public ValhallaOrb(int index) {
         this.index = index;
-
         this.main = ImageMaster.loadImage("RingOfDestiny/monsters/IdeologyCorridor/ValhallaChronicles/orbs/orb_" + this.index + ".png");
+        vfxFg = new AbstractAtlasGameEffect("monster_10002_skill_1", x, y, 100.0f, 100.0f, 0.6f * Settings.scale, true);
+        vfxBg = new AbstractAtlasGameEffect("monster_10002_skill_2", x, y, 100.0f, 100.0f, 0.6f * Settings.scale, true);
+        evokeEffect = new AbstractAtlasGameEffect("monster_10002_atk", x, y, 150.0f, 150.0f, 0.6f * Settings.scale, false);
     }
+
 
     public void evoke() {
         this.evokeDelayTimer = 0.16f * this.index;
-        this.evokeDone = false;
-        this.evokeEffect.isDone = false;
+        evokeEffect.resetAnimation();
     }
 
     public void hide() {
@@ -47,19 +43,22 @@ public class ValhallaOrb {
 
 
     public void update() {
-        this.vfxFg.xPosition = x;
-        this.vfxFg.yPosition = y;
+        vfxFg.xPosition = x;
+        vfxFg.yPosition = y;
         vfxFg.update();
 
-        this.vfxBg.xPosition = x;
-        this.vfxBg.yPosition = y;
+        vfxBg.xPosition = x;
+        vfxBg.yPosition = y;
         vfxBg.update();
+
 
         if (evokeDelayTimer > 0)
             this.evokeDelayTimer -= Gdx.graphics.getDeltaTime();
 
-        if (!evokeDone && evokeDelayTimer < 0) {
-            this.evokeDone = true;
+        evokeEffect.xPosition = x;
+        evokeEffect.yPosition = y;
+
+        if (!evokeEffect.isDone && evokeDelayTimer < 0) {
             evokeEffect.update();
             this.active = false;
         }
@@ -75,7 +74,7 @@ public class ValhallaOrb {
             sb.draw(this.main,
                     this.x - this.main.getWidth() / 2.0f,
                     this.y - this.main.getHeight() / 2.0f,
-                    this.main.getWidth() / 2.0f, this.main.getHeight() / 2.0f, this.main.getWidth(), this.main.getHeight(), Settings.scale / this.scale, Settings.scale / this.scale, 0.0f, 0, 0, this.main.getWidth(), this.main.getHeight(), false, false);
+                    this.main.getWidth() / 2.0f, this.main.getHeight() / 2.0f, this.main.getWidth(), this.main.getHeight(), 0.6f * Settings.scale, 0.6f * Settings.scale, 0.0f, 0, 0, this.main.getWidth(), this.main.getHeight(), false, false);
 
 
         if (this.active && !this.hide)
@@ -84,6 +83,14 @@ public class ValhallaOrb {
 
         if (!evokeEffect.isDone && evokeDelayTimer < 0 && !this.hide)
             evokeEffect.render(sb);
+    }
+
+    @Override
+    public void dispose() {
+        vfxFg.dispose();
+        vfxBg.dispose();
+        evokeEffect.dispose();
+        main.dispose();
     }
 }
 

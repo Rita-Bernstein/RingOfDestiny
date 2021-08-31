@@ -59,7 +59,7 @@
             <artifactId>MusicTipLib</artifactId>
             <version>1.2.2</version>
             <scope>system</scope>
-            <systemPath>${Steam.path}/common/SlayTheSpire/mods/MusicTipLib.jar</systemPath>
+            <systemPath>${Steam.path}/workshop/content/646570/2448191360/MusicTipLib.jar</systemPath>
         </dependency>
     </dependencies>
 
