@@ -1,0 +1,272 @@
+
+MsKlaus.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MsKlaus/bian
+  rotate: false
+  xy: 515, 944
+  size: 80, 58
+  orig: 80, 58
+  offset: 0, 0
+  index: -1
+MsKlaus/bian(4)
+  rotate: false
+  xy: 253, 371
+  size: 74, 203
+  orig: 74, 203
+  offset: 0, 0
+  index: -1
+MsKlaus/bian(3)
+  rotate: false
+  xy: 482, 881
+  size: 216, 61
+  orig: 216, 61
+  offset: 0, 0
+  index: -1
+MsKlaus/bian(2)
+  rotate: false
+  xy: 200, 881
+  size: 150, 101
+  orig: 150, 101
+  offset: 0, 0
+  index: -1
+MsKlaus/weiba
+  rotate: false
+  xy: 1, 348
+  size: 250, 312
+  orig: 250, 312
+  offset: 0, 0
+  index: -1
+MsKlaus/toufahou
+  rotate: false
+  xy: 1, 662
+  size: 238, 186
+  orig: 238, 186
+  offset: 0, 0
+  index: -1
+MsKlaus/toufay
+  rotate: false
+  xy: 241, 662
+  size: 151, 217
+  orig: 151, 217
+  offset: 0, 0
+  index: -1
+MsKlaus/toufaz
+  rotate: false
+  xy: 1, 850
+  size: 197, 143
+  orig: 197, 143
+  offset: 0, 0
+  index: -1
+MsKlaus/zhua
+  rotate: false
+  xy: 253, 576
+  size: 95, 54
+  orig: 95, 54
+  offset: 0, 0
+  index: -1
+MsKlaus/yb(2)
+  rotate: false
+  xy: 449, 944
+  size: 64, 75
+  orig: 64, 75
+  offset: 0, 0
+  index: -1
+MsKlaus/yb
+  rotate: false
+  xy: 350, 564
+  size: 42, 68
+  orig: 42, 68
+  offset: 0, 0
+  index: -1
+MsKlaus/ys
+  rotate: false
+  xy: 449, 892
+  size: 26, 36
+  orig: 26, 36
+  offset: 0, 0
+  index: -1
+MsKlaus/wuqi
+  rotate: false
+  xy: 796, 69
+  size: 23, 67
+  orig: 23, 67
+  offset: 0, 0
+  index: -1
+MsKlaus/qunzih
+  rotate: false
+  xy: 1, 1
+  size: 248, 345
+  orig: 248, 345
+  offset: 0, 0
+  index: -1
+MsKlaus/youtui
+  rotate: false
+  xy: 796, 728
+  size: 64, 198
+  orig: 64, 198
+  offset: 0, 0
+  index: -1
+MsKlaus/youjio
+  rotate: false
+  xy: 720, 1
+  size: 34, 67
+  orig: 34, 67
+  offset: 0, 0
+  index: -1
+MsKlaus/youtui(2)
+  rotate: false
+  xy: 394, 728
+  size: 86, 162
+  orig: 86, 162
+  offset: 0, 0
+  index: -1
+MsKlaus/zuotui
+  rotate: false
+  xy: 329, 371
+  size: 54, 191
+  orig: 54, 191
+  offset: 0, 0
+  index: -1
+MsKlaus/zuojio
+  rotate: false
+  xy: 455, 294
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+MsKlaus/zuotui(2)
+  rotate: false
+  xy: 862, 1
+  size: 49, 175
+  orig: 49, 175
+  offset: 0, 0
+  index: -1
+MsKlaus/qunzi
+  rotate: false
+  xy: 394, 371
+  size: 63, 355
+  orig: 63, 355
+  offset: 0, 0
+  index: -1
+MsKlaus/qunzi(2)
+  rotate: false
+  xy: 253, 1
+  size: 200, 368
+  orig: 200, 368
+  offset: 0, 0
+  index: -1
+MsKlaus/weiba(2)
+  rotate: false
+  xy: 570, 1
+  size: 107, 43
+  orig: 107, 43
+  offset: 0, 0
+  index: -1
+MsKlaus/yao
+  rotate: false
+  xy: 796, 928
+  size: 80, 90
+  orig: 80, 90
+  offset: 0, 0
+  index: -1
+MsKlaus/shenti
+  rotate: false
+  xy: 352, 892
+  size: 95, 98
+  orig: 95, 98
+  offset: 0, 0
+  index: -1
+MsKlaus/zhuaqian(2)
+  rotate: false
+  xy: 455, 178
+  size: 62, 114
+  orig: 62, 114
+  offset: 0, 0
+  index: -1
+MsKlaus/zhuaqian
+  rotate: false
+  xy: 700, 881
+  size: 94, 140
+  orig: 94, 140
+  offset: 0, 0
+  index: -1
+MsKlaus/zs
+  rotate: false
+  xy: 511, 93
+  size: 61, 81
+  orig: 61, 81
+  offset: 0, 0
+  index: -1
+MsKlaus/zb
+  rotate: false
+  xy: 679, 1
+  size: 39, 97
+  orig: 39, 97
+  offset: 0, 0
+  index: -1
+MsKlaus/zb(2)
+  rotate: false
+  xy: 511, 1
+  size: 57, 90
+  orig: 57, 90
+  offset: 0, 0
+  index: -1
+MsKlaus/bozi
+  rotate: false
+  xy: 455, 130
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+MsKlaus/tou
+  rotate: false
+  xy: 597, 944
+  size: 58, 63
+  orig: 58, 63
+  offset: 0, 0
+  index: -1
+MsKlaus/toushi
+  rotate: false
+  xy: 756, 1
+  size: 28, 66
+  orig: 28, 66
+  offset: 0, 0
+  index: -1
+MsKlaus/liuhaiy
+  rotate: false
+  xy: 764, 69
+  size: 30, 60
+  orig: 30, 60
+  offset: 0, 0
+  index: -1
+MsKlaus/liuhaiz
+  rotate: false
+  xy: 720, 70
+  size: 42, 52
+  orig: 42, 52
+  offset: 0, 0
+  index: -1
+MsKlaus/touface
+  rotate: false
+  xy: 459, 1
+  size: 50, 127
+  orig: 50, 127
+  offset: 0, 0
+  index: -1
+MsKlaus/bq_1
+  rotate: false
+  xy: 570, 46
+  size: 44, 32
+  orig: 44, 32
+  offset: 0, 0
+  index: -1
+MsKlaus/toushi(2)
+  rotate: false
+  xy: 657, 944
+  size: 36, 71
+  orig: 36, 71
+  offset: 0, 0
+  index: -1

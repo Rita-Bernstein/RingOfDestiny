@@ -1,0 +1,328 @@
+
+Lena.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lena/bing_6
+  rotate: false
+  xy: 270, 271
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+Lena/bing_5
+  rotate: false
+  xy: 243, 124
+  size: 48, 70
+  orig: 48, 70
+  offset: 0, 0
+  index: -1
+Lena/bing_4
+  rotate: false
+  xy: 263, 354
+  size: 26, 57
+  orig: 26, 57
+  offset: 0, 0
+  index: -1
+Lena/bing_2
+  rotate: false
+  xy: 235, 354
+  size: 26, 57
+  orig: 26, 57
+  offset: 0, 0
+  index: -1
+Lena/bing_1
+  rotate: false
+  xy: 178, 356
+  size: 55, 107
+  orig: 55, 107
+  offset: 0, 0
+  index: -1
+Lena/bing_3
+  rotate: false
+  xy: 126, 361
+  size: 50, 123
+  orig: 50, 123
+  offset: 0, 0
+  index: -1
+Lena/houbai_0
+  rotate: false
+  xy: 60, 1
+  size: 40, 253
+  orig: 40, 253
+  offset: 0, 0
+  index: -1
+Lena/houbai
+  rotate: false
+  xy: 1, 1
+  size: 57, 256
+  orig: 57, 256
+  offset: 0, 0
+  index: -1
+Lena/fa
+  rotate: false
+  xy: 102, 165
+  size: 79, 79
+  orig: 79, 79
+  offset: 0, 0
+  index: -1
+Lena/lingzi_0
+  rotate: false
+  xy: 250, 1
+  size: 59, 28
+  orig: 59, 28
+  offset: 0, 0
+  index: -1
+Lena/zsb
+  rotate: false
+  xy: 183, 160
+  size: 58, 84
+  orig: 58, 84
+  offset: 0, 0
+  index: -1
+Lena/yao
+  rotate: false
+  xy: 178, 465
+  size: 69, 43
+  orig: 69, 43
+  offset: 0, 0
+  index: -1
+Lena/st
+  rotate: false
+  xy: 60, 256
+  size: 89, 103
+  orig: 89, 103
+  offset: 0, 0
+  index: -1
+Lena/bz
+  rotate: false
+  xy: 317, 317
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+Lena/kua
+  rotate: false
+  xy: 243, 196
+  size: 85, 35
+  orig: 85, 35
+  offset: 0, 0
+  index: -1
+Lena/zdt
+  rotate: false
+  xy: 1, 361
+  size: 60, 135
+  orig: 60, 135
+  offset: 0, 0
+  index: -1
+Lena/zxt
+  rotate: false
+  xy: 220, 1
+  size: 28, 121
+  orig: 28, 121
+  offset: 0, 0
+  index: -1
+Lena/jiao
+  rotate: false
+  xy: 250, 31
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+Lena/jio
+  rotate: false
+  xy: 310, 465
+  size: 56, 45
+  orig: 56, 45
+  offset: 0, 0
+  index: -1
+Lena/qiu_3
+  rotate: false
+  xy: 270, 252
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Lena/ydt
+  rotate: false
+  xy: 63, 361
+  size: 61, 125
+  orig: 61, 125
+  offset: 0, 0
+  index: -1
+Lena/yxt
+  rotate: false
+  xy: 187, 1
+  size: 31, 139
+  orig: 31, 139
+  offset: 0, 0
+  index: -1
+Lena/qiu_2
+  rotate: false
+  xy: 270, 233
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+Lena/ysb
+  rotate: false
+  xy: 151, 246
+  size: 55, 108
+  orig: 55, 108
+  offset: 0, 0
+  index: -1
+Lena/shou
+  rotate: false
+  xy: 317, 268
+  size: 24, 47
+  orig: 24, 47
+  offset: 0, 0
+  index: -1
+Lena/yxb
+  rotate: false
+  xy: 291, 233
+  size: 24, 54
+  orig: 24, 54
+  offset: 0, 0
+  index: -1
+Lena/tou
+  rotate: false
+  xy: 208, 246
+  size: 60, 72
+  orig: 60, 72
+  offset: 0, 0
+  index: -1
+Lena/bq_2
+  rotate: false
+  xy: 317, 54
+  size: 39, 28
+  orig: 39, 28
+  offset: 0, 0
+  index: -1
+Lena/bq_1
+  rotate: false
+  xy: 279, 88
+  size: 42, 30
+  orig: 42, 30
+  offset: 0, 0
+  index: -1
+Lena/liuhai_3
+  rotate: false
+  xy: 288, 31
+  size: 27, 55
+  orig: 27, 55
+  offset: 0, 0
+  index: -1
+Lena/liuhai_2
+  rotate: false
+  xy: 330, 1
+  size: 35, 51
+  orig: 35, 51
+  offset: 0, 0
+  index: -1
+Lena/liuhai_1
+  rotate: false
+  xy: 368, 233
+  size: 35, 58
+  orig: 35, 58
+  offset: 0, 0
+  index: -1
+Lena/liuhai_0
+  rotate: false
+  xy: 291, 320
+  size: 24, 56
+  orig: 24, 56
+  offset: 0, 0
+  index: -1
+Lena/liuhai
+  rotate: false
+  xy: 220, 124
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+Lena/bai_0
+  rotate: false
+  xy: 149, 1
+  size: 36, 157
+  orig: 36, 157
+  offset: 0, 0
+  index: -1
+Lena/bai
+  rotate: false
+  xy: 102, 1
+  size: 45, 162
+  orig: 45, 162
+  offset: 0, 0
+  index: -1
+Lena/lingzi
+  rotate: false
+  xy: 250, 75
+  size: 27, 47
+  orig: 27, 47
+  offset: 0, 0
+  index: -1
+Lena/hudiejie_1
+  rotate: false
+  xy: 1, 259
+  size: 47, 72
+  orig: 47, 72
+  offset: 0, 0
+  index: -1
+Lena/hudiejie_0
+  rotate: false
+  xy: 368, 320
+  size: 39, 53
+  orig: 39, 53
+  offset: 0, 0
+  index: -1
+Lena/hudiejie
+  rotate: false
+  xy: 208, 320
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+Lena/zs
+  rotate: false
+  xy: 270, 289
+  size: 44, 29
+  orig: 44, 29
+  offset: 0, 0
+  index: -1
+Lena/zxb
+  rotate: false
+  xy: 249, 465
+  size: 59, 44
+  orig: 59, 44
+  offset: 0, 0
+  index: -1
+Lena/maozi
+  rotate: false
+  xy: 317, 233
+  size: 37, 33
+  orig: 37, 33
+  offset: 0, 0
+  index: -1
+Lena/qiu_1
+  rotate: false
+  xy: 243, 233
+  size: 21, 8
+  orig: 21, 8
+  offset: 0, 0
+  index: -1
+Lena/qiu_0
+  rotate: false
+  xy: 311, 1
+  size: 15, 23
+  orig: 15, 23
+  offset: 0, 0
+  index: -1
+Lena/qiu
+  rotate: false
+  xy: 262, 320
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1

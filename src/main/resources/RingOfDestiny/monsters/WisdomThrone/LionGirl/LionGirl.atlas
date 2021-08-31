@@ -1,0 +1,552 @@
+
+LionGirl.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LionGirl/sz_mao_10
+  rotate: false
+  xy: 348, 466
+  size: 63, 102
+  orig: 63, 102
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_9
+  rotate: false
+  xy: 72, 707
+  size: 42, 137
+  orig: 42, 137
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_8
+  rotate: false
+  xy: 1, 707
+  size: 69, 149
+  orig: 69, 149
+  offset: 0, 0
+  index: -1
+LionGirl/sz_bozi
+  rotate: false
+  xy: 129, 362
+  size: 140, 121
+  orig: 140, 121
+  offset: 0, 0
+  index: -1
+LionGirl/sz_xiae
+  rotate: false
+  xy: 818, 599
+  size: 59, 51
+  orig: 59, 51
+  offset: 0, 0
+  index: -1
+LionGirl/sz_tou
+  rotate: false
+  xy: 429, 278
+  size: 167, 135
+  orig: 167, 135
+  offset: 0, 0
+  index: -1
+LionGirl/sz_yanjing
+  rotate: false
+  xy: 818, 652
+  size: 57, 43
+  orig: 57, 43
+  offset: 0, 0
+  index: -1
+LionGirl/sz_yqt
+  rotate: false
+  xy: 294, 219
+  size: 133, 245
+  orig: 133, 245
+  offset: 0, 0
+  index: -1
+LionGirl/sz_yqz
+  rotate: false
+  xy: 116, 765
+  size: 66, 78
+  orig: 66, 78
+  offset: 0, 0
+  index: -1
+LionGirl/sz_yqj
+  rotate: false
+  xy: 879, 641
+  size: 86, 34
+  orig: 86, 34
+  offset: 0, 0
+  index: -1
+LionGirl/sz_yht
+  rotate: false
+  xy: 907, 1
+  size: 102, 237
+  orig: 102, 237
+  offset: 0, 0
+  index: -1
+LionGirl/sz_yhz
+  rotate: false
+  xy: 954, 592
+  size: 54, 47
+  orig: 54, 47
+  offset: 0, 0
+  index: -1
+LionGirl/sz_yhj
+  rotate: false
+  xy: 118, 990
+  size: 75, 29
+  orig: 75, 29
+  offset: 0, 0
+  index: -1
+LionGirl/sz_weiba
+  rotate: false
+  xy: 445, 1
+  size: 296, 275
+  orig: 296, 275
+  offset: 0, 0
+  index: -1
+LionGirl/sz_st
+  rotate: false
+  xy: 1, 1
+  size: 442, 216
+  orig: 442, 216
+  offset: 0, 0
+  index: -1
+LionGirl/sz_bei
+  rotate: false
+  xy: 435, 571
+  size: 106, 121
+  orig: 106, 121
+  offset: 0, 0
+  index: -1
+LionGirl/sz_zqt
+  rotate: false
+  xy: 1, 362
+  size: 126, 204
+  orig: 126, 204
+  offset: 0, 0
+  index: -1
+LionGirl/sz_zqz
+  rotate: false
+  xy: 116, 845
+  size: 61, 79
+  orig: 61, 79
+  offset: 0, 0
+  index: -1
+LionGirl/sz_zqj
+  rotate: false
+  xy: 877, 677
+  size: 74, 32
+  orig: 74, 32
+  offset: 0, 0
+  index: -1
+LionGirl/sz_zht
+  rotate: false
+  xy: 743, 270
+  size: 155, 252
+  orig: 155, 252
+  offset: 0, 0
+  index: -1
+LionGirl/sz_zhz
+  rotate: false
+  xy: 276, 705
+  size: 68, 64
+  orig: 68, 64
+  offset: 0, 0
+  index: -1
+LionGirl/sz_zhj
+  rotate: false
+  xy: 886, 551
+  size: 80, 39
+  orig: 80, 39
+  offset: 0, 0
+  index: -1
+LionGirl/ys_0
+  rotate: false
+  xy: 216, 485
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+LionGirl/yxb
+  rotate: false
+  xy: 968, 556
+  size: 45, 29
+  orig: 45, 29
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_7
+  rotate: false
+  xy: 129, 551
+  size: 217, 85
+  orig: 217, 85
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_6
+  rotate: false
+  xy: 900, 270
+  size: 89, 279
+  orig: 89, 279
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_5
+  rotate: false
+  xy: 429, 415
+  size: 121, 154
+  orig: 121, 154
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_4
+  rotate: false
+  xy: 598, 278
+  size: 86, 227
+  orig: 86, 227
+  offset: 0, 0
+  index: -1
+LionGirl/sz_er
+  rotate: false
+  xy: 751, 705
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_3
+  rotate: false
+  xy: 682, 574
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_2
+  rotate: false
+  xy: 348, 571
+  size: 85, 171
+  orig: 85, 171
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_1
+  rotate: false
+  xy: 1, 858
+  size: 70, 66
+  orig: 70, 66
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao_0
+  rotate: false
+  xy: 686, 278
+  size: 37, 98
+  orig: 37, 98
+  offset: 0, 0
+  index: -1
+LionGirl/sz_mao
+  rotate: false
+  xy: 991, 240
+  size: 27, 94
+  orig: 27, 94
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_10
+  rotate: false
+  xy: 886, 592
+  size: 66, 47
+  orig: 66, 47
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_9
+  rotate: false
+  xy: 210, 638
+  size: 64, 137
+  orig: 64, 137
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_8
+  rotate: false
+  xy: 741, 524
+  size: 38, 93
+  orig: 38, 93
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_7
+  rotate: false
+  xy: 896, 711
+  size: 24, 36
+  orig: 24, 36
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_6
+  rotate: false
+  xy: 790, 666
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_5
+  rotate: false
+  xy: 833, 697
+  size: 39, 30
+  orig: 39, 30
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_4
+  rotate: false
+  xy: 686, 465
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_3
+  rotate: false
+  xy: 790, 697
+  size: 41, 30
+  orig: 41, 30
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_2
+  rotate: false
+  xy: 751, 666
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_1
+  rotate: false
+  xy: 874, 711
+  size: 20, 51
+  orig: 20, 51
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin_0
+  rotate: false
+  xy: 743, 1
+  size: 162, 267
+  orig: 162, 267
+  offset: 0, 0
+  index: -1
+LionGirl/sz_shipin
+  rotate: false
+  xy: 271, 362
+  size: 18, 102
+  orig: 18, 102
+  offset: 0, 0
+  index: -1
+LionGirl/bozi
+  rotate: false
+  xy: 716, 666
+  size: 33, 44
+  orig: 33, 44
+  offset: 0, 0
+  index: -1
+LionGirl/tou
+  rotate: false
+  xy: 682, 507
+  size: 57, 65
+  orig: 57, 65
+  offset: 0, 0
+  index: -1
+LionGirl/erhuan
+  rotate: false
+  xy: 781, 599
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+LionGirl/youyi
+  rotate: false
+  xy: 991, 336
+  size: 26, 96
+  orig: 26, 96
+  offset: 0, 0
+  index: -1
+LionGirl/ys
+  rotate: false
+  xy: 686, 378
+  size: 42, 85
+  orig: 42, 85
+  offset: 0, 0
+  index: -1
+LionGirl/qunhou_0
+  rotate: false
+  xy: 1, 219
+  size: 291, 141
+  orig: 291, 141
+  offset: 0, 0
+  index: -1
+LionGirl/qunhou
+  rotate: false
+  xy: 552, 507
+  size: 128, 125
+  orig: 128, 125
+  offset: 0, 0
+  index: -1
+LionGirl/yt
+  rotate: false
+  xy: 1, 970
+  size: 115, 34
+  orig: 115, 34
+  offset: 0, 0
+  index: -1
+LionGirl/yj
+  rotate: false
+  xy: 179, 845
+  size: 60, 35
+  orig: 60, 35
+  offset: 0, 0
+  index: -1
+LionGirl/zt
+  rotate: false
+  xy: 781, 524
+  size: 103, 34
+  orig: 103, 34
+  offset: 0, 0
+  index: -1
+LionGirl/zj
+  rotate: false
+  xy: 179, 882
+  size: 69, 30
+  orig: 69, 30
+  offset: 0, 0
+  index: -1
+LionGirl/qunzi
+  rotate: false
+  xy: 1, 568
+  size: 114, 137
+  orig: 114, 137
+  offset: 0, 0
+  index: -1
+LionGirl/kua
+  rotate: false
+  xy: 129, 485
+  size: 85, 62
+  orig: 85, 62
+  offset: 0, 0
+  index: -1
+LionGirl/yao
+  rotate: false
+  xy: 118, 926
+  size: 61, 62
+  orig: 61, 62
+  offset: 0, 0
+  index: -1
+LionGirl/zhuangshi_2
+  rotate: false
+  xy: 870, 560
+  size: 8, 35
+  orig: 8, 35
+  offset: 0, 0
+  index: -1
+LionGirl/zhuangshi_1
+  rotate: false
+  xy: 886, 524
+  size: 6, 21
+  orig: 6, 21
+  offset: 0, 0
+  index: -1
+LionGirl/zhuangshi_0
+  rotate: false
+  xy: 727, 574
+  size: 12, 39
+  orig: 12, 39
+  offset: 0, 0
+  index: -1
+LionGirl/zhuangshi
+  rotate: false
+  xy: 73, 846
+  size: 40, 62
+  orig: 40, 62
+  offset: 0, 0
+  index: -1
+LionGirl/st
+  rotate: false
+  xy: 276, 638
+  size: 69, 65
+  orig: 69, 65
+  offset: 0, 0
+  index: -1
+LionGirl/zxb
+  rotate: false
+  xy: 991, 434
+  size: 31, 62
+  orig: 31, 62
+  offset: 0, 0
+  index: -1
+LionGirl/zs
+  rotate: false
+  xy: 716, 621
+  size: 22, 42
+  orig: 22, 42
+  offset: 0, 0
+  index: -1
+LionGirl/bu
+  rotate: false
+  xy: 552, 415
+  size: 42, 90
+  orig: 42, 90
+  offset: 0, 0
+  index: -1
+LionGirl/zdb
+  rotate: false
+  xy: 741, 619
+  size: 75, 45
+  orig: 75, 45
+  offset: 0, 0
+  index: -1
+LionGirl/yifu
+  rotate: false
+  xy: 967, 641
+  size: 42, 69
+  orig: 42, 69
+  offset: 0, 0
+  index: -1
+LionGirl/fa
+  rotate: false
+  xy: 271, 466
+  size: 70, 82
+  orig: 70, 82
+  offset: 0, 0
+  index: -1
+LionGirl/bz
+  rotate: false
+  xy: 117, 638
+  size: 91, 125
+  orig: 91, 125
+  offset: 0, 0
+  index: -1
+LionGirl/bianzi
+  rotate: false
+  xy: 1, 926
+  size: 96, 42
+  orig: 96, 42
+  offset: 0, 0
+  index: -1
+LionGirl/liuhai_1
+  rotate: false
+  xy: 184, 765
+  size: 23, 45
+  orig: 23, 45
+  offset: 0, 0
+  index: -1
+LionGirl/liuhai_0
+  rotate: false
+  xy: 682, 621
+  size: 32, 50
+  orig: 32, 50
+  offset: 0, 0
+  index: -1
+LionGirl/liuhai
+  rotate: false
+  xy: 991, 498
+  size: 29, 56
+  orig: 29, 56
+  offset: 0, 0
+  index: -1
+LionGirl/huahuan
+  rotate: false
+  xy: 781, 560
+  size: 87, 37
+  orig: 87, 37
+  offset: 0, 0
+  index: -1
+LionGirl/bq
+  rotate: false
+  xy: 907, 240
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1

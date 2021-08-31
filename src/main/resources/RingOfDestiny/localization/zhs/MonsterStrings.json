@@ -741,5 +741,59 @@
     "DIALOG": [
       ""
     ]
+  },
+  "RingOfDestiny:MsKlaus": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "克劳斯女士",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:UnbeatableGauss": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "不败高斯",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Umi": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "乌咪",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:Lena": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "莱纳",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:LionGirl": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "狮王少女",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "RingOfDestiny:MagicVase": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "魔瓶小花仙",
+    "DIALOG": [
+      ""
+    ]
   }
 }
