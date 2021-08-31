@@ -4,6 +4,7 @@ import RingOfDestiny.RingOfDestiny;
 import RingOfDestiny.actions.unique.ChangeStageAction;
 import RingOfDestiny.actions.unique.CustomWaitAction;
 import RingOfDestiny.actions.unique.UpgardeStateAction;
+import RingOfDestiny.monster.AbstractRingMonster;
 import RingOfDestiny.vfx.combat.*;
 import basemod.abstracts.CustomMonster;
 
@@ -44,7 +45,7 @@ import RingOfDestiny.vfx.HealVerticalLineButHorizontalEffect;
 import RingOfDestiny.helpers.*;
 
 
-public class TalkingChest extends CustomMonster {
+public class TalkingChest extends AbstractRingMonster {
     public static final String ID = RingOfDestiny.makeID("TalkingChest");
     private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings(ID);
     public static final String NAME = monsterStrings.NAME;

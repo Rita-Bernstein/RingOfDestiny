@@ -6,11 +6,9 @@ import RingOfDestiny.actions.unique.CustomWaitAction;
 import RingOfDestiny.actions.unique.UpgardeStateAction;
 import RingOfDestiny.monster.AbstractRingMonster;
 import RingOfDestiny.powers.Monster.IdeologyCorridor.EyeForEyePower;
-import RingOfDestiny.powers.Monster.IdeologyCorridor.VenomPower;
 import RingOfDestiny.vfx.combat.*;
 import basemod.abstracts.CustomMonster;
 
-import com.megacrit.cardcrawl.actions.animations.AnimateSlowAttackAction;
 import com.megacrit.cardcrawl.actions.animations.TalkAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -48,25 +46,20 @@ import RingOfDestiny.vfx.HealVerticalLineButHorizontalEffect;
 import RingOfDestiny.helpers.*;
 
 
-public class SpiderChildG extends AbstractRingMonster {
-    public static final String ID = RingOfDestiny.makeID("SpiderChildG");
+public class SlimeShyS extends AbstractRingMonster {
+    public static final String ID = RingOfDestiny.makeID("SlimeShyS");
     private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings(ID);
     public static final String NAME = monsterStrings.NAME;
     public static final String[] MOVES = monsterStrings.MOVES;
     public static final String[] DIALOG = monsterStrings.DIALOG;
 
-
-    public SpiderChildG() {
-        this(0.0f, -10.0f);
-    }
-
-    public SpiderChildG(float x, float y) {
-        super(NAME, ID, 88, 0.0F, 0.0F, 120.0F, 100.0F, null, x, y);
+    public SlimeShyS() {
+        super(NAME, ID, 88, 0.0F, -15.0F, 360.0F, 360.0F, null, 0.0F, -10.0F);
 
         if (AbstractDungeon.ascensionLevel >= 7) {
-            setHp(18, 25);
+            setHp(50, 60);
         } else {
-            setHp(18, 25);
+            setHp(50, 60);
         }
 
 
@@ -82,17 +75,21 @@ public class SpiderChildG extends AbstractRingMonster {
         this.dialogY = 50.0F * Settings.scale;
 
 
-        loadAnimation("RingOfDestiny/monsters/IdeologyCorridor/SpiderChildG/SpiderChildG.atlas", "RingOfDestiny/monsters/IdeologyCorridor/SpiderChildG/SpiderChildG.json", 2.0F);
+        loadAnimation("RingOfDestiny/monsters/IdeologyCorridor/SlimeShyS/SlimeShyS.atlas", "RingOfDestiny/monsters/IdeologyCorridor/SlimeShyS/SlimeShyS.json", 2.6F);
 
 
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         e.setTime(e.getEndTime() * MathUtils.random());
         this.flipHorizontal = false;
+
     }
 
-    @Override
+
     public void usePreBattleAction() {
-        addToBot(new ApplyPowerAction(this, this, new VenomPower(this), 1));
+        CardCrawlGame.music.unsilenceBGM();
+        AbstractDungeon.scene.fadeOutAmbiance();
+        AbstractDungeon.getCurrRoom().playBgmInstantly("fight");
+        addToBot(new ApplyPowerAction(this,this,new EyeForEyePower(this)));
     }
 
 
@@ -100,15 +97,10 @@ public class SpiderChildG extends AbstractRingMonster {
 
         switch (this.nextMove) {
             case 0:
-                addToBot(new AnimateSlowAttackAction(this));
-                addToBot(new DamageAction(AbstractDungeon.player, this.damage.get(0), AbstractGameAction.AttackEffect.SLASH_HEAVY, true));
-                setMove((byte) 1, AbstractMonster.Intent.DEBUFF);
-                break;
+                addToBot(new ChangeStateAction(this, "Attack"));
+                addToBot(new CustomWaitAction(0.5f));
+                addToBot(new DamageAction(AbstractDungeon.player, (DamageInfo) this.damage.get(0), AbstractGameAction.AttackEffect.SLASH_HEAVY, true));
 
-            case 1:
-                addToBot(new ApplyPowerAction(AbstractDungeon.player, this, new WeakPower(AbstractDungeon.player, 1, true), 1));
-                addToBot(new ApplyPowerAction(AbstractDungeon.player, this, new FrailPower(AbstractDungeon.player, 1, true), 1));
-                setMove((byte) 0, AbstractMonster.Intent.ATTACK, this.damage.get(0).base);
                 break;
         }
 
@@ -118,45 +110,34 @@ public class SpiderChildG extends AbstractRingMonster {
 
 
     protected void getMove(int num) {
+        setMove((byte) 0, Intent.ATTACK, ((DamageInfo) this.damage.get(0)).base);
 
-        if (AbstractDungeon.ascensionLevel >= 17) {
-            if (lastTwoMoves((byte) 0)) {
-                setMove((byte) 0, AbstractMonster.Intent.ATTACK, this.damage.get(0).base);
-            } else {
-                setMove((byte) 1, AbstractMonster.Intent.DEBUFF);
-            }
-
-        } else if (AbstractDungeon.aiRng.randomBoolean()) {
-            setMove((byte) 0, AbstractMonster.Intent.ATTACK, this.damage.get(0).base);
-        } else {
-            setMove((byte) 1, AbstractMonster.Intent.DEBUFF);
-        }
     }
 
 
     public void die() {
         super.die();
-
-
-        if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
-            for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
-                if (!monster.isDead && !monster.isDying) {
-                    if (monster instanceof SpiderChildG) {
-                        return;
-                    }
-                }
-            }
+        if(AbstractDungeon.getMonsters().areMonstersBasicallyDead()){
+            AbstractDungeon.scene.fadeInAmbiance();
+            CardCrawlGame.music.fadeOutTempBGM();
         }
+    }
 
+    public void damage(DamageInfo info) {
+        super.damage(info);
 
-        if (!AbstractDungeon.getMonsters().areMonstersBasicallyDead()) {
-            for (AbstractMonster monster : (AbstractDungeon.getMonsters()).monsters) {
-                if (!monster.isDead && !monster.isDying) {
-                    if (monster instanceof SpiderQueen) {
-                        addToBot(new ChangeStateAction(monster, "Back"));
-                    }
-                }
-            }
+        if (info.owner != null && info.type != DamageInfo.DamageType.THORNS && info.output > 0 && currentHealth > 0)  {
+            this.state.setAnimation(0, "Hit", false);
+            this.state.addAnimation(0, "Idle", true, 0.0F);
+        }
+    }
+
+    public void changeState(String stateName) {
+        switch (stateName) {
+            case "Attack":
+                this.state.setAnimation(0, "Attack", false);
+                this.state.addAnimation(0, "Idle", true, 0.0F);
+                break;
         }
     }
 }

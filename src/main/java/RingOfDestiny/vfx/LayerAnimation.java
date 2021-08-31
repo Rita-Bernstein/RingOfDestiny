@@ -31,7 +31,6 @@ public class LayerAnimation {
             return;
         }
 
-
         currFrame = frames.get(currFrameIndex).makeCopy();
 
         if (currDelay >= currFrame.delay) {

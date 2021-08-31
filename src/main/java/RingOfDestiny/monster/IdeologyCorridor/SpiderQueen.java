@@ -5,6 +5,7 @@ import RingOfDestiny.actions.unique.ApplyVenomPowerToMinionAction;
 import RingOfDestiny.actions.unique.ChangeStageAction;
 import RingOfDestiny.actions.unique.CustomWaitAction;
 import RingOfDestiny.actions.unique.UpgardeStateAction;
+import RingOfDestiny.monster.AbstractRingMonster;
 import RingOfDestiny.powers.Monster.IdeologyCorridor.KnitmeshPower;
 import RingOfDestiny.vfx.combat.*;
 import basemod.abstracts.CustomMonster;
@@ -46,7 +47,7 @@ import RingOfDestiny.vfx.HealVerticalLineButHorizontalEffect;
 import RingOfDestiny.helpers.*;
 
 
-public class SpiderQueen extends CustomMonster {
+public class SpiderQueen extends AbstractRingMonster {
     public static final String ID = RingOfDestiny.makeID("SpiderQueen");
     private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings(ID);
     public static final String NAME = monsterStrings.NAME;

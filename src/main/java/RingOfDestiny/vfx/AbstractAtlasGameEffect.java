@@ -78,7 +78,7 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
         this(false, id, x, y, originalX, originalY, scale, delay, false);
     }
 
-    public AbstractAtlasGameEffect(String id, float x, float y, float originalX, float originalY, float scale,boolean loop) {
+    public AbstractAtlasGameEffect(String id, float x, float y, float originalX, float originalY, float scale, boolean loop) {
         this(false, id, x, y, originalX, originalY, scale, 3, loop);
     }
 
@@ -102,7 +102,8 @@ public class AbstractAtlasGameEffect extends AbstractGameEffect {
         if (frameTimer >= 1.0F / (float) this.info.fps) {
             if (curAnimation != null) {
                 for (LayerAnimation layerAnimation : curAnimation.layerAnimations) {
-                    layerAnimation.currDelay++;
+                    if (layerAnimation.loop || !layerAnimation.isDone)
+                        layerAnimation.currDelay++;
                 }
 
                 curAnimation.xPosition = xPosition;
